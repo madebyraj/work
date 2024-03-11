@@ -447,22 +447,12 @@ main {
 }
 
 #project-info {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-between;
   align-items: start;
   margin-bottom: 24px;
-}
-
-.r-r {
-  max-width: 40%;
-}
-
-.p-c {
-  max-width: 40%;
-}
-
-.tools {
-  max-width: 40%;
+  gap: 80px;
 }
 
 .r-r h6 {
@@ -1122,6 +1112,10 @@ main {
     right: 32px;
   }
 
+  #project-info {
+    gap: 24px;
+  }
+
 
   #arrow-up2 {
     padding: 20px;
@@ -1191,20 +1185,18 @@ main {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 16px;
+    gap: 8px;
   }
 
   .r-r {
-    min-width: 100%;
     margin-bottom: 16px;
   }
 
   .p-c {
-    min-width: 100%;
     margin-bottom: 16px;
   }
 
   .tools {
-    min-width: 100%;
     margin-bottom: 16px;
   }
 

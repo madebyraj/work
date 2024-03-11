@@ -343,15 +343,12 @@ main {
 }
 
 #cover-mt {
-  max-width: 1100px;
-  margin: auto;
-  background-image: url(./assets/covid/Bg-covid-main.jpg);
-  height: 512px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
   border-radius: 16px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
 }
 
 #side-navbar {
@@ -448,22 +445,12 @@ main {
 }
 
 #project-info {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-between;
   align-items: start;
   margin-bottom: 24px;
-}
-
-.r-r {
-  max-width: 40%;
-}
-
-.p-c {
-  max-width: 40%;
-}
-
-.tools {
-  max-width: 40%;
+  gap: 80px;
 }
 
 .r-r h6 {
@@ -519,6 +506,7 @@ main {
 } */
 #problem-s {
   padding: 32px 0px;
+  display: grid;
 }
 
 #problem-s h6 {
@@ -544,6 +532,7 @@ main {
 
 #tackling-tp {
   padding: 32px 0px;
+  display: grid;
 }
 
 #tackling-tp h6 {
@@ -568,17 +557,16 @@ main {
 }
 
 #tackling-bg {
-  height: 348px;
-  background-image: url(./assets/covid/tackling-tp.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #research-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #re-head {
@@ -603,17 +591,16 @@ main {
 }
 
 #re-bg {
-  height: 816px;
-  background-image: url(./assets/covid/key-insights.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #ideation-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #id-head {
@@ -663,27 +650,25 @@ main {
 }
 
 #low-fi-app {
-  height: 1048px;
-  background-image: url(./assets/covid/low-fi-app.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
+  padding-bottom: 16px;
 }
 
 #low-fi-web {
-  height: 896px;
-  background-image: url(./assets/covid/low-fi-web.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #task-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #ta-head {
@@ -708,37 +693,25 @@ main {
 }
 
 #em-task {
-  height: 308px;
-  background-image: url(./assets/covid/em-task.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
+  padding-bottom: 16px;
 }
 
 #ma-task {
-  height: 308px;
-  background-image: url(./assets/covid/ma-task.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 /* small desktop */
 
 @media (max-width: 1312px) {
-  #cover-mt {
-    background-image: url(./assets/covid/Bg-covid-main.jpg);
-    height: 302px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-  }
-
   #main-container {
     max-width: 972px;
     margin: auto;
@@ -756,78 +729,12 @@ main {
     width: 100%;
   }
 
+  #project-info {
+    gap: 24px;
+  }
+
   #side-navbar {
     display: none;
-  }
-
-  #cover-mt {
-    margin: 0px 32px;
-    background-image: url(./assets/covid/Bg-covid-main.jpg);
-    height: 464px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-  }
-
-  #tackling-bg {
-    height: 224px;
-    background-image: url(./assets/covid/tackling-tp.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #re-bg {
-    height: 532px;
-    background-image: url(./assets/covid/key-insights.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #low-fi-app {
-    height: 664px;
-    background-image: url(./assets/covid/low-fi-app.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #low-fi-web {
-    height: 564px;
-    background-image: url(./assets/covid/low-fi-web.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #em-task {
-    height: 216px;
-    background-image: url(./assets/covid/em-task.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #ma-task {
-    height: 216px;
-    background-image: url(./assets/covid/ma-task.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
   }
 }
 
@@ -842,7 +749,6 @@ main {
   }
 
   #main-container {
-    max-width: 972px;
     margin: auto;
     padding: 0px 16px;
     width: 100%;
@@ -859,18 +765,6 @@ main {
     justify-content: center;
     z-index: 100;
     text-decoration: none;
-  }
-
-
-
-  #cover-mt {
-    background-image: url(./assets/covid/Bg-covid-main.jpg);
-    height: 248px;
-    margin: 0px 16px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
   }
 
   #back-to-top {
@@ -918,20 +812,18 @@ main {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 16px;
+    gap: 8px;
   }
 
   .r-r {
-    min-width: 100%;
     margin-bottom: 16px;
   }
 
   .p-c {
-    min-width: 100%;
     margin-bottom: 16px;
   }
 
   .tools {
-    min-width: 100%;
     margin-bottom: 16px;
   }
 
@@ -1003,16 +895,6 @@ main {
     margin-bottom: 16px;
   }
 
-  #tackling-bg {
-    height: 132px;
-    background-image: url(./assets/covid/tackling-tp.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
   #research-sec {
     padding: 16px 0px;
   }
@@ -1029,16 +911,6 @@ main {
 
   #research-sec p {
     font-size: 18px;
-    margin-bottom: 16px;
-  }
-
-  #re-bg {
-    height: 288px;
-    background-image: url(./assets/covid/key-insights.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
     margin-bottom: 16px;
   }
 
@@ -1081,26 +953,6 @@ main {
     margin-bottom: 16px;
   }
 
-  #low-fi-app {
-    height: 364px;
-    background-image: url(./assets/covid/low-fi-app.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #low-fi-web {
-    height: 316px;
-    background-image: url(./assets/covid/low-fi-web.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
   #task-sec {
     padding: 16px 0px;
   }
@@ -1117,26 +969,6 @@ main {
 
   #task-sec p {
     font-size: 18px;
-    margin-bottom: 16px;
-  }
-
-  #em-task {
-    height: 104px;
-    background-image: url(./assets/covid/em-task.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #ma-task {
-    height: 104px;
-    background-image: url(./assets/covid/ma-task.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
     margin-bottom: 16px;
   }
 }

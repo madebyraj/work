@@ -385,9 +385,10 @@ main {
 
 @media (max-width: 992px) {
 
-  main{
+  main {
     padding: 32px;
   }
+
   .net-main {
     font-size: 52px;
   }
@@ -398,14 +399,15 @@ main {
     width: 100%;
   }
 
-  main{
+  main {
     padding: 16px;
   }
 
   .net-main {
     font-size: 40px;
   }
-  .contact-me{
+
+  .contact-me {
     padding: 16px 24px;
   }
 }
