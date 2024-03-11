@@ -93,8 +93,6 @@
 
   --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 4px 20px 0px rgba(0, 0, 0, 0.45);
 
-  /* hell; */
-
   --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
 
 
@@ -974,8 +972,9 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 12px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
+  box-shadow: var(--drop-shadow-dark);
 }
 
 .myself {

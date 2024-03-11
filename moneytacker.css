@@ -342,15 +342,12 @@ main {
 }
 
 #cover-mt {
-  max-width: 1116px;
-  margin: auto;
-  background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-  height: 512px;
   border-radius: 16px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #side-navbar {
@@ -364,6 +361,7 @@ main {
   border-radius: 0px 8px 8px 0px;
   padding: 12px 24px;
   z-index: 100;
+  box-shadow: var(--drop-shadow-dark);
 }
 
 #side-navbar .inner-nav {
@@ -399,6 +397,7 @@ main {
   background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(22px);
   text-decoration: none;
+  box-shadow: var(--drop-shadow-dark);
 }
 
 #back-to-top:hover {
@@ -550,13 +549,11 @@ main {
 }
 
 .design-goal {
-  height: 166px;
-  background-image: url(./assets/moneytracker/design-goal.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #solution {
@@ -720,6 +717,7 @@ main {
 
 #my-ap {
   padding: 32px 0px;
+  display: grid;
 }
 
 #ap-head {
@@ -736,17 +734,16 @@ main {
 }
 
 .ap-bg {
-  height: 280px;
-  background-image: url(./assets/moneytracker/my-approach.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #research-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #re-head {
@@ -780,6 +777,7 @@ main {
 
 .questions {
   padding: 32px 0px;
+  display: grid;
 }
 
 #q-head {
@@ -805,6 +803,7 @@ main {
 
 #insights {
   padding: 32px 0px;
+  display: grid;
 }
 
 #in-head {
@@ -829,27 +828,25 @@ main {
 }
 
 .in-bg {
-  height: 680px;
-  background-image: url(./assets/moneytracker/re-insights.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
+  padding-bottom: 16px;
 }
 
 #other-meth {
-  height: 280px;
-  background-image: url(./assets/moneytracker/p-ca-jm.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #design-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #de-head {
@@ -874,27 +871,25 @@ main {
 }
 
 #wireframes {
-  height: 608px;
-  background-image: url(./assets/moneytracker/wireframes.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
+  padding-bottom: 16px;
 }
 
 #low-fi {
-  height: 1208px;
-  background-image: url(./assets/moneytracker/low-fidelity.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #proto-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #pr-head {
@@ -935,6 +930,7 @@ main {
   transition: 0.3s ease-out;
   gap: 16px;
   box-shadow: var(--button-drop-shadow-dark);
+  margin-bottom: 16px;
 }
 
 #pr-link:hover {
@@ -947,17 +943,16 @@ main {
 }
 
 .proto-bg {
-  height: 464px;
-  background-image: url(./assets/moneytracker/prototype.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #eva-sec {
   padding: 32px 0px;
+  display: grid;
 }
 
 #ev-head {
@@ -974,13 +969,12 @@ main {
 }
 
 .usa-test {
-  height: 564px;
-  background-image: url(./assets/moneytracker/ut-results.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
+  padding-bottom: 16px;
 }
 
 .ut-info {
@@ -1000,13 +994,11 @@ main {
 }
 
 .ut-res {
-  height: 564px;
-  background-image: url(./assets/moneytracker/ut-results.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  margin-top: 16px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
 }
 
 #my-learn {
@@ -1103,29 +1095,11 @@ main {
 /* small desktop */
 
 @media (max-width: 1312px) {
-  #cover-mt {
-    background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-    height: 302px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-  }
 
   #main-container {
     max-width: 972px;
     margin: auto;
     width: 100%;
-  }
-
-  .design-goal {
-    height: 112px;
-    background-image: url(./assets/moneytracker/design-goal.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
   }
 }
 
@@ -1133,21 +1107,9 @@ main {
 
 @media (max-width: 992px) {
   #main-container {
-    max-width: 972px;
     margin: auto;
     padding: 0px 32px;
     width: 100%;
-  }
-
-  #cover-mt {
-    max-width: 1116px;
-    margin: 0px 32px;
-    background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-    height: 464px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
   }
 
   #side-navbar {
@@ -1165,96 +1127,6 @@ main {
     padding: 20px;
     font-size: 24px;
   }
-
-  .design-goal {
-    height: 104px;
-    background-image: url(./assets/moneytracker/design-goal.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  .ap-bg {
-    height: 180px;
-    background-image: url(./assets/moneytracker/my-approach.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  #other-meth {
-    height: 208px;
-    background-image: url(./assets/moneytracker/p-ca-jm.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  .in-bg {
-    height: 508px;
-    background-image: url(./assets/moneytracker/re-insights.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #wireframes {
-    height: 364px;
-    background-image: url(./assets/moneytracker/wireframes.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  #low-fi {
-    height: 816px;
-    background-image: url(./assets/moneytracker/low-fidelity.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  .proto-bg {
-    height: 364px;
-    background-image: url(./assets/moneytracker/prototype.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  .usa-test {
-    height: 364px;
-    background-image: url(./assets/moneytracker/ut-results.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  .ut-res {
-    height: 364px;
-    background-image: url(./assets/moneytracker/ut-results.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
 }
 
 /* Mobile */
@@ -1268,7 +1140,6 @@ main {
   }
 
   #main-container {
-    max-width: 972px;
     margin: auto;
     padding: 0px 16px;
     width: 100%;
@@ -1291,16 +1162,6 @@ main {
   #arrow-up2 {
     padding: 20px;
     font-size: 24px;
-  }
-
-  #cover-mt {
-    background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-    height: 248px;
-    margin: 0px 16px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
   }
 
   #upper-com {
@@ -1551,16 +1412,6 @@ main {
     content: "";
   }
 
-  .ap-bg {
-    height: 96px;
-    background-image: url(./assets/moneytracker/my-approach.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
   #research-sec {
     padding: 16px 0px;
   }
@@ -1623,26 +1474,6 @@ main {
     margin-bottom: 16px;
   }
 
-  .in-bg {
-    height: 248px;
-    background-image: url(./assets/moneytracker/re-insights.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
-  #other-meth {
-    height: 88px;
-    background-image: url(./assets/moneytracker/p-ca-jm.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
   #design-sec {
     padding: 16px 0px;
   }
@@ -1662,26 +1493,6 @@ main {
     margin-bottom: 16px;
   }
 
-  #wireframes {
-    height: 208px;
-    background-image: url(./assets/moneytracker/wireframes.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
-  #low-fi {
-    height: 448px;
-    background-image: url(./assets/moneytracker/low-fidelity.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
-  }
-
   #proto-sec {
     padding: 16px 0px;
   }
@@ -1698,7 +1509,7 @@ main {
 
   #proto-sec p {
     font-size: 18px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 
   #pr-link {
@@ -1712,16 +1523,7 @@ main {
     border: none;
     text-decoration: none;
     padding: 16px 24px;
-  }
-
-  .proto-bg {
-    height: 208px;
-    background-image: url(./assets/moneytracker/prototype.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 32px;
+    margin-bottom: 16px;
   }
 
   #eva-sec {
@@ -1738,16 +1540,6 @@ main {
     content: "";
   }
 
-  .usa-test {
-    height: 208px;
-    background-image: url(./assets/moneytracker/ut-results.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-bottom: 16px;
-  }
-
   .ut-info {
     font-size: 18px;
     margin-bottom: 16px;
@@ -1756,16 +1548,6 @@ main {
   .observe {
     font-size: 18px;
     margin-bottom: 16px;
-  }
-
-  .ut-res {
-    height: 208px;
-    background-image: url(./assets/moneytracker/ut-results.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    margin-top: 16px;
   }
 
   #my-learn {
