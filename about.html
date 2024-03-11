@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="shortcut icon" type="x-icon" href="/assets/mylogo.png"> -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Raj Kumar</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c5e7659afb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="indicator"></div>
+
+
+  <div id="dynamic-nav-head" class="dynamic-nav-head">
+    <nav id="dynamic-nav">
+      <a href="index.html" class="logo"></a>
+      <div id="nav-info">
+        <a href="index.html" id="work">Work</a>
+        <a href="about.html">About</a>
+        <a href="https://drive.google.com/file/d/1lvrDgDP9picKcGyL4ZZoPuY58kBqh2WG/view?usp=sharing" target="_blank"
+          id="resume" id="resume">Resume</a>
+      </div>
+      <button class="theme"></button>
+    </nav>
+  </div>
+
+
+  <main data-aos="zoom" id="main-about">
+    <h5 class="about">About Me</h5>
+    <div class="me-section">
+      <div class="myself">
+        <p>
+          I'm Raj, and I'm a 21 year old from New Delhi, India. My journey
+          into the design world started in a rather unexpected way. Before all
+          of this, I was really into cricket. But one day, a friend mentioned
+          that they were planning to learn graphic design, and I was
+          intrigued. I had no idea what graphic design was at the time, so I
+          asked, "What's that?"
+        </p>
+        <p>
+          That simple question set me on a new path. I began exploring graphic
+          design, and I quickly discovered the fascinating world of UX
+          design. These are all about making things not only look good but
+          also work smoothly for people. It reminded me of those moments when
+          I eagerly awaited Android updates, marveling at their cool
+          interfaces. Back then, I didn't even know UX design was a thing,
+          but that childhood curiosity stuck with me.
+        </p>
+        <p>
+          Now, my goal is crystal clear. I want to become a skilled designer,
+          focused on making life easier for people by solving everyday
+          problems through clever design. I aspire to create products that are
+          easy for anyone to use. Every day is a chance for me to learn and
+          improve as I work towards making the world a more user-friendly
+          place.
+        </p>
+      </div>
+      <img src="./assets/me.webp" class="me" alt="me"/>
+    </div>
+    <h6 class="question">
+      What am I like outside of work? I'm glad you asked.
+    </h6>
+    <div class="hobbies">
+      <div id="cricket">
+        <h6>🏏 Somebody who loves cricket.</h6>
+        <p>
+          I absolutely love cricket! It's more than just a game, it's a big
+          part of my life. Whether I'm watching a match or playing with
+          friends, the excitement of cricket never gets old. Those thrilling
+          moments on the field, the camaraderie, and the excitement during big
+          tournaments like the World Cup, they all make cricket something
+          truly special for me. It's not just a sport, it's a way of life, and
+          I enjoy every bit of it.
+        </p>
+      </div>
+      <div id="music">
+        <h6>🔊 Enthusiast of hip-hop and rap music.</h6>
+        <p>
+          I'm a big fan of hip-hop and rap music. It's the beats and the
+          lyrics that really get me hooked. My all-time favorite artist is
+          Drake because his songs connect with me on a personal level. I'm not
+          just into the mainstream stuff, I love digging into the underground
+          hip-hop scene too. It's a way of expressing myself and connecting
+          with the world around me. It's a passion that keeps me grooving
+          every day.
+        </p>
+      </div>
+    </div>
+  </main>
+  <hr id="line" />
+  <footer class="footer">
+    <div class="social">
+      <p class="trademark">© 2024 Raj Kumar</p>
+      <h5 id="bottom-text">Get in touch.</h5>
+      <div class="bottom-icons">
+        <a href="https://www.instagram.com/rajkumar.png?igsh=MWlvbXRiZ2QzdTd2Zw==" target="_blank">
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank">
+          LinkedIn
+        </a>
+        <a href="mailto:rahulkumxr@gmail.com" target="_blank">
+          Gmail
+        </a>
+        <a href="https://x.com/madebyraj_?t=Bgc5xmQJv0bxsGev_r3A5A&s=09" target="_blank">
+          Twitter
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 400,
+      easing: "ease",
+    });
+  </script>
+  <script>
+    let indicator = document.querySelector(".indicator");
+
+    let documentHeight = document.documentElement.scrollHeight;
+
+    let viewportHeight = document.documentElement.clientHeight;
+
+    window.onscroll = function () {
+      console.log(scrollY);
+
+      let percentageScrolled =
+        (scrollY / (documentHeight - viewportHeight)) * 100;
+      indicator.style.width = percentageScrolled + "%";
+    };
+  </script>
+  <script>
+    const navbar = document.getElementById('dynamic-nav-head');
+
+    let lastScrollTop = 0;
+
+
+    function handleScroll() {
+
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+
+      if (currentScrollTop > lastScrollTop) {
+
+        navbar.classList.add('hidden');
+      } else {
+
+        navbar.classList.remove('hidden');
+      }
+
+      lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+  </script>
+
+
+  <script>
+    const themeBtn = document.querySelector('.theme');
+
+    function getCurrentTheme() {
+      let theme = window.matchMedia('(prefers-color-scheme: dark)')
+        .matches ? 'dark' : 'light';
+      localStorage.getItem('work.theme') ? theme =
+        localStorage.getItem('work.theme') : null;
+
+      return theme;
+    }
+
+
+
+    function loadTheme(theme) {
+      const root = document.querySelector(':root');
+      if (theme === "light") {
+        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg">`
+      }
+      else {
+        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg">`
+      }
+
+      root.setAttribute('color-scheme', `${theme}`)
+    }
+
+
+    themeBtn.addEventListener('click', () => {
+      let theme = getCurrentTheme();
+      if (theme === 'dark') {
+        theme = 'light';
+      }
+      else {
+        theme = 'dark';
+      }
+
+      localStorage.setItem('work.theme', `${theme}`);
+      loadTheme(theme);
+    })
+
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadTheme(getCurrentTheme());
+    })
+  </script>
+
+
+</body>
+
+</html>

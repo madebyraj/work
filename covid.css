@@ -1,0 +1,1137 @@
+:root {
+
+  /* Dark mode */
+
+
+  --primary: #0F62FE;
+
+  --button-primary: #0F62FE;
+  --button-primary-hover: #0050E6;
+  --button-primary-active: #002D9C;
+
+  --primary-button-text: #ffffff;
+  --primary-button-icon: #ffffff;
+
+  --button-text: #ffffff;
+  --button-icon: #ffffff;
+
+  --link-primary: #78A9FF;
+  --link-primary-hover: #A6C8FF;
+
+  --heading-primary: #F4F4F4;
+  --heading-primary-01: #E6E6E6;
+  --heading-primary-02: #D9D9D9;
+
+  --paragraph-primary: #CFCFCF;
+  --paragraph-primary-100: #C4C4C4;
+  --paragraph-primary-200: #B8B8B8;
+
+  --surface-layer-01: #262626;
+  --surface-layer-02: #393939;
+  --surface-layer-03: #525252;
+
+  --surface-layer-01-hover: #333333;
+  --surface-layer-02-hover: #474747;
+  --surface-layer-03-hover: #636363;
+
+  --border-subtle-01: #393939;
+  --border-subtle-02: #525252;
+  --border-subtle-03: #6F6F6F;
+
+  --secondary-green: #11A859;
+  --secondary-yellow: #FFC701;
+  --secondary-red: #F34E1E;
+  --secondary-purple: #5650FF;
+  --secondary-orange: #FF6924;
+  --secondary-brown: #A6674B;
+  --secondary-teal: #45AEE5;
+
+  --background-main: #121212;
+
+  --glass-dark: rgba(38, 38, 38, 0.85);
+
+  --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 5px 13px 0px rgba(18, 18, 18, 0.17);
+
+  --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
+
+
+  /* Light Mode */
+
+  --primary-light: #0F62FE;
+
+  --button-primary-light: #000000;
+  --button-primary-hover-light: #333333;
+  --button-primary-active-light: #333333;
+
+  --button-text-light: #000000;
+  --button-icon-light: #000000;
+
+  --link-primary-light: #0F62FE;
+  --link-primary-hover-light: #0043CE;
+
+  --heading-primary-light: #121212;
+  --heading-primary-01-light: #202020;
+  --heading-primary-02-light: #2E2E2E;
+
+  --paragraph-primary-light: #424242;
+  --paragraph-primary-100-light: #4D4D4D;
+  --paragraph-primary-200-light: #424242;
+
+  --surface-layer-01-light: #F4F4F4;
+  --surface-layer-02-light: #ffffff;
+  --surface-layer-03-light: #F4F4F4;
+
+  --surface-layer-01-hover-light: #E8E8E8;
+  --surface-layer-02-hover-light: #E8E8E8;
+  --surface-layer-03-hover-light: #E8E8E8;
+
+  --border-subtle-01-light: #E0E0E0;
+  --border-subtle-02-light: #C6C6C6;
+  --border-subtle-03-light: #E0E0E0;
+
+  --secondary-green-light: #3AA76D;
+  --secondary-yellow-light: #FFC043;
+  --secondary-red-light: #D44333;
+  --secondary-purple-light: #716CFF;
+  --secondary-orange-light: #ED6E33;
+  --secondary-brown-light: #99644C;
+  --secondary-teal-light: #22a6ed;
+
+  --background-main-light: #ffffff;
+
+  --glass-light: rgba(244, 244, 244, 0.85);
+
+  --drop-shadow-light: 0px 0px 1px 1px #E0E0E0, 0px 5px 13px 0px rgba(18, 18, 18, 0.17);
+
+  --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    --primary: var(--primary-light);
+  
+    --button-primary: var(--button-primary-light);
+    --button-primary-hover: var(--button-primary-hover-light);
+    --button-primary-active: var(--button-primary-active-light);
+  
+    --button-text: var(--button-text-light);
+    --button-icon: var(--button-icon-light);
+  
+    --link-primary: var(--link-primary-light);
+    --link-primary-hover: var(--link-primary-hover-light);
+  
+    --heading-primary: var(--heading-primary-light);
+    --heading-primary-01: var(--heading-primary-01-light);
+    --heading-primary-02: var(--heading-primary-02-light);
+  
+    --paragraph-primary: var(--paragraph-primary-light);
+    --paragraph-primary-100: var(--paragraph-primary-100-light);
+    --paragraph-primary-200: var(--paragraph-primary-200-light);
+  
+    --surface-layer-01: var(--surface-layer-01-light);
+    --surface-layer-02: var(--surface-layer-02-light);
+    --surface-layer-03: var(--surface-layer-03-light);
+  
+    --surface-layer-01-hover: var(--surface-layer-01-hover-light);
+    --surface-layer-02-hover: var(--surface-layer-02-hover-light);
+    --surface-layer-03-hover: var(--surface-layer-03-hover-light);
+  
+    --border-subtle-01: var(--border-subtle-01-light);
+    --border-subtle-02: var(--border-subtle-02-light);
+    --border-subtle-03: var(--border-subtle-03-light);
+  
+    --secondary-green: var(--secondary-green-light);
+    --secondary-yellow: var(--secondary-yellow-light);
+    --secondary-red: var(--secondary-red-light);
+    --secondary-purple: var(--secondary-purple-light);
+    --secondary-orange: var(--secondary-orange-light);
+    --secondary-brown: var(--secondary-brown-light);
+    --secondary-teal: var(--secondary-teal-light);
+  
+    --background-main: var(--background-main-light);
+
+    --glass-dark: var(--glass-light);
+}
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-light: var(--primary);
+  
+    --button-primary-light: var(--button-primary);
+    --button-primary-hover-light: var(--button-primary-hover);
+    --button-primary-active-light: var(--button-primary-active);
+  
+    --button-text-light: var(--button-text);
+    --button-icon-light: var(--button-icon);
+  
+    --link-primary-light: var(--link-primary);
+    --link-primary-hover-light: var(--link-primary-hover);
+  
+    --heading-primary-light: var(--heading-primary);
+    --heading-primary-01-light: var(--heading-primary-01);
+    --heading-primary-02-light: var(--heading-primary-02);
+  
+    --paragraph-primary-light: var(--paragraph-primary);
+    --paragraph-primary-100-light: var(--paragraph-primary-100);
+    --paragraph-primary-200-light: var(--paragraph-primary-200);
+  
+    --surface-layer-01-light: var(--surface-layer-01);
+    --surface-layer-02-light: var(--surface-layer-02);
+    --surface-layer-03-light: var(--surface-layer-03);
+  
+    --surface-layer-01-hover-light: var(--surface-layer-01-hover);
+    --surface-layer-02-hover-light: var(--surface-layer-02-hover);
+    --surface-layer-03-hover-light: var(--surface-layer-03-hover);
+  
+    --border-subtle-01-light: var(--border-subtle-01);
+    --border-subtle-02-light: var(--border-subtle-02);
+    --border-subtle-03-light: var(--border-subtle-03);
+  
+    --secondary-green-light: var(--secondary-green);
+    --secondary-yellow-light: var(--secondary-yellow);
+    --secondary-red-light: var(--secondary-red);
+    --secondary-purple-light: var(--secondary-purple);
+    --secondary-orange-light: var(--secondary-orange);
+    --secondary-brown-light: var(--secondary-brown);
+    --secondary-teal-light: var(--secondary-teal);
+  
+    --background-main-light: var(--background-main);
+
+    --glass-light: var(--glass-dark);
+}
+} */
+
+
+
+
+[color-scheme="dark"] {
+
+  --primary-light: var(--primary);
+
+  --button-primary-light: var(--button-primary);
+  --button-primary-hover-light: var(--button-primary-hover);
+  --button-primary-active-light: var(--button-primary-active);
+
+  --button-text-light: var(--button-text);
+  --button-icon-light: var(--button-icon);
+
+  --link-primary-light: var(--link-primary);
+  --link-primary-hover-light: var(--link-primary-hover);
+
+  --heading-primary-light: var(--heading-primary);
+  --heading-primary-01-light: var(--heading-primary-01);
+  --heading-primary-02-light: var(--heading-primary-02);
+
+  --paragraph-primary-light: var(--paragraph-primary);
+  --paragraph-primary-100-light: var(--paragraph-primary-100);
+  --paragraph-primary-200-light: var(--paragraph-primary-200);
+
+  --surface-layer-01-light: var(--surface-layer-01);
+  --surface-layer-02-light: var(--surface-layer-02);
+  --surface-layer-03-light: var(--surface-layer-03);
+
+  --surface-layer-01-hover-light: var(--surface-layer-01-hover);
+  --surface-layer-02-hover-light: var(--surface-layer-02-hover);
+  --surface-layer-03-hover-light: var(--surface-layer-03-hover);
+
+  --border-subtle-01-light: var(--border-subtle-01);
+  --border-subtle-02-light: var(--border-subtle-02);
+  --border-subtle-03-light: var(--border-subtle-03);
+
+  --secondary-green-light: var(--secondary-green);
+  --secondary-yellow-light: var(--secondary-yellow);
+  --secondary-red-light: var(--secondary-red);
+  --secondary-purple-light: var(--secondary-purple);
+  --secondary-orange-light: var(--secondary-orange);
+  --secondary-brown-light: var(--secondary-brown);
+  --secondary-teal-light: var(--secondary-teal);
+
+  --background-main-light: var(--background-main);
+
+  --glass-light: var(--glass-dark);
+
+  --drop-shadow-light: var(--drop-shadow-dark);
+
+  --button-drop-shadow-light: var(--button-drop-shadow-dark);
+
+}
+
+
+
+
+[color-scheme="light"] {
+
+  --primary: var(--primary-light);
+
+  --button-primary: var(--button-primary-light);
+  --button-primary-hover: var(--button-primary-hover-light);
+  --button-primary-active: var(--button-primary-active-light);
+
+  --button-text: var(--button-text-light);
+  --button-icon: var(--button-icon-light);
+
+  --link-primary: var(--link-primary-light);
+  --link-primary-hover: var(--link-primary-hover-light);
+
+  --heading-primary: var(--heading-primary-light);
+  --heading-primary-01: var(--heading-primary-01-light);
+  --heading-primary-02: var(--heading-primary-02-light);
+
+  --paragraph-primary: var(--paragraph-primary-light);
+  --paragraph-primary-100: var(--paragraph-primary-100-light);
+  --paragraph-primary-200: var(--paragraph-primary-200-light);
+
+  --surface-layer-01: var(--surface-layer-01-light);
+  --surface-layer-02: var(--surface-layer-02-light);
+  --surface-layer-03: var(--surface-layer-03-light);
+
+  --surface-layer-01-hover: var(--surface-layer-01-hover-light);
+  --surface-layer-02-hover: var(--surface-layer-02-hover-light);
+  --surface-layer-03-hover: var(--surface-layer-03-hover-light);
+
+  --border-subtle-01: var(--border-subtle-01-light);
+  --border-subtle-02: var(--border-subtle-02-light);
+  --border-subtle-03: var(--border-subtle-03-light);
+
+  --secondary-green: var(--secondary-green-light);
+  --secondary-yellow: var(--secondary-yellow-light);
+  --secondary-red: var(--secondary-red-light);
+  --secondary-purple: var(--secondary-purple-light);
+  --secondary-orange: var(--secondary-orange-light);
+  --secondary-brown: var(--secondary-brown-light);
+  --secondary-teal: var(--secondary-teal-light);
+
+  --background-main: var(--background-main-light);
+
+  --glass-dark: var(--glass-light);
+
+  --drop-shadow-dark: var(--drop-shadow-light);
+
+  --button-drop-shadow-dark: var(--button-drop-shadow-light);
+
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Basic Grotesque Bold", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-main);
+}
+
+main {
+  min-height: 100vh;
+}
+
+.indicator {
+  position: fixed;
+  width: 0;
+  height: 4px;
+  z-index: 100;
+  background-color: var(--primary-light);
+}
+
+#cover-mt {
+  max-width: 1100px;
+  margin: auto;
+  background-image: url(./assets/covid/Bg-covid-main.jpg);
+  height: 512px;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+#side-navbar {
+  position: fixed;
+  top: 110px;
+  left: 0;
+  max-width: 170px;
+  height: min-content;
+  background-color: var(--surface-layer-01);
+  border-radius: 0px 8px 8px 0px;
+  padding: 12px 24px;
+  z-index: 100;
+}
+
+#side-navbar .inner-nav {
+  padding: 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.inner-nav a {
+  padding: 8px 0px;
+  font-family: "Nova Semibold", sans-serif;
+  font-size: 16px;
+  color: var(--paragraph-primary);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.inner-nav a:hover {
+  text-decoration: underline var(--link-primary-hover);
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  height: min-content;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  background-color: var(--glass-dark);
+  backdrop-filter: saturate(180%) blur(22px);
+  text-decoration: none;
+}
+
+#back-to-top:hover {
+  background-color: var(--surface-layer-01-hover);
+}
+
+#arrow-up2 {
+  padding: 16px;
+  font-size: 24px;
+  color: var(--button-icon);
+}
+
+#main-container {
+  max-width: 1100px;
+  margin: auto;
+  width: 100%;
+}
+
+#upper-com {
+  margin: 32px 0px;
+}
+
+#head {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: var(--heading-primary);
+}
+
+.cs {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--paragraph-primary-200);
+  letter-spacing: 2px;
+  font-family: "Nova Semibold", sans-serif;
+  margin-bottom: 16px;
+  line-height: 120%;
+}
+
+.po {
+  font-size: 22px;
+  color: var(--paragraph-primary-100);
+  font-family: "Nova Regular", sans-serif;
+  margin-bottom: 16px;
+  line-height: 120%;
+}
+
+#project-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+.r-r {
+  max-width: 40%;
+}
+
+.p-c {
+  max-width: 40%;
+}
+
+.tools {
+  max-width: 40%;
+}
+
+.r-r h6 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 8px;
+}
+
+.r-r p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+.p-c h6 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 8px;
+}
+
+.p-c p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+.tools h6 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 8px;
+}
+
+.tools p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+.line {
+  border-color: var(--border-subtle-01);
+}
+
+/* Main Case Study Section */
+
+/* #middle-com{
+    padding: 32px 8px;
+} */
+#problem-s {
+  padding: 32px 0px;
+}
+
+#problem-s h6 {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 32px;
+}
+
+#problem-s h6:hover::after {
+  content: "#";
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+#problem-s p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  margin-bottom: 16px;
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+#tackling-tp {
+  padding: 32px 0px;
+}
+
+#tackling-tp h6 {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 32px;
+}
+
+#tackling-tp h6:hover::after {
+  content: "#";
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+#tackling-tp p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  margin-bottom: 16px;
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+#tackling-bg {
+  height: 348px;
+  background-image: url(./assets/covid/tackling-tp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin-bottom: 16px;
+}
+
+#research-sec {
+  padding: 32px 0px;
+}
+
+#re-head {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 32px;
+}
+
+#re-head:hover::after {
+  content: "#";
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+#research-sec p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  margin-bottom: 16px;
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+#re-bg {
+  height: 816px;
+  background-image: url(./assets/covid/key-insights.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin-bottom: 16px;
+}
+
+#ideation-sec {
+  padding: 32px 0px;
+}
+
+#id-head {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 32px;
+}
+
+#id-head:hover::after {
+  content: "#";
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+#hmw-head {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 24px;
+}
+
+#hmw-q {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  margin-bottom: 32px;
+}
+
+#hmw-q p {
+  margin-bottom: 16px;
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+#low-fi {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 24px;
+}
+
+#lf-para {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  font-family: "Nova Regular", sans-serif;
+  margin-bottom: 16px;
+}
+
+#low-fi-app {
+  height: 1048px;
+  background-image: url(./assets/covid/low-fi-app.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin-bottom: 16px;
+}
+
+#low-fi-web {
+  height: 896px;
+  background-image: url(./assets/covid/low-fi-web.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin-bottom: 16px;
+}
+
+#task-sec {
+  padding: 32px 0px;
+}
+
+#ta-head {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 32px;
+}
+
+#ta-head:hover::after {
+  content: "#";
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+#task-sec p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  margin-bottom: 16px;
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+#em-task {
+  height: 308px;
+  background-image: url(./assets/covid/em-task.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin-bottom: 16px;
+}
+
+#ma-task {
+  height: 308px;
+  background-image: url(./assets/covid/ma-task.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin-bottom: 16px;
+}
+
+/* small desktop */
+
+@media (max-width: 1312px) {
+  #cover-mt {
+    background-image: url(./assets/covid/Bg-covid-main.jpg);
+    height: 302px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+  #main-container {
+    max-width: 972px;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  #main-container {
+    max-width: 972px;
+    margin: auto;
+    padding: 0px 32px;
+    width: 100%;
+  }
+
+  #side-navbar {
+    display: none;
+  }
+
+  #cover-mt {
+    margin: 0px 32px;
+    background-image: url(./assets/covid/Bg-covid-main.jpg);
+    height: 464px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+  #tackling-bg {
+    height: 224px;
+    background-image: url(./assets/covid/tackling-tp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #re-bg {
+    height: 532px;
+    background-image: url(./assets/covid/key-insights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #low-fi-app {
+    height: 664px;
+    background-image: url(./assets/covid/low-fi-app.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #low-fi-web {
+    height: 564px;
+    background-image: url(./assets/covid/low-fi-web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #em-task {
+    height: 216px;
+    background-image: url(./assets/covid/em-task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #ma-task {
+    height: 216px;
+    background-image: url(./assets/covid/ma-task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 688px) {
+  .indicator {
+    position: fixed;
+    width: 0;
+    height: 6px;
+    z-index: 100;
+  }
+
+  #main-container {
+    max-width: 972px;
+    margin: auto;
+    padding: 0px 16px;
+    width: 100%;
+  }
+
+  #back-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    height: min-content;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    text-decoration: none;
+  }
+
+
+
+  #cover-mt {
+    background-image: url(./assets/covid/Bg-covid-main.jpg);
+    height: 248px;
+    margin: 0px 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+  #back-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    height: min-content;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    text-decoration: none;
+  }
+
+  #upper-com {
+    margin: 16px 0px;
+  }
+
+  #head {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+
+  .cs {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+
+  .po {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  #project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 16px;
+  }
+
+  .r-r {
+    min-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .p-c {
+    min-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .tools {
+    min-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .r-r h6 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .r-r p {
+    font-size: 16px;
+  }
+
+  .p-c h6 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .p-c p {
+    font-size: 16px;
+  }
+
+  .tools h6 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .tools p {
+    font-size: 16px;
+  }
+
+
+  #problem-s {
+    padding: 16px 0px;
+  }
+
+  #problem-s h6 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  #problem-s h6:hover::after {
+    content: "";
+  }
+
+  #problem-s p {
+    font-size: 18px;
+  }
+
+  #tackling-tp {
+    padding: 16px 0px;
+  }
+
+  #tackling-tp h6 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  #tackling-tp h6:hover::after {
+    content: "";
+  }
+
+  #tackling-tp p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  #tackling-bg {
+    height: 132px;
+    background-image: url(./assets/covid/tackling-tp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #research-sec {
+    padding: 16px 0px;
+  }
+
+  #re-head {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  #re-head:hover::after {
+    content: "";
+  }
+
+  #research-sec p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  #re-bg {
+    height: 288px;
+    background-image: url(./assets/covid/key-insights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #ideation-sec {
+    padding: 16px 0px;
+  }
+
+  #id-head {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+
+  #id-head:hover::after {
+    content: "";
+  }
+
+  #hmw-head {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+
+  #hmw-q {
+    font-size: 18px;
+  }
+
+  #hmw-q p {
+    margin-bottom: 8px;
+  }
+
+  #low-fi {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+
+  #lf-para {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  #low-fi-app {
+    height: 364px;
+    background-image: url(./assets/covid/low-fi-app.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #low-fi-web {
+    height: 316px;
+    background-image: url(./assets/covid/low-fi-web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #task-sec {
+    padding: 16px 0px;
+  }
+
+  #ta-head {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+
+  #ta-head:hover::after {
+    content: "";
+  }
+
+  #task-sec p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  #em-task {
+    height: 104px;
+    background-image: url(./assets/covid/em-task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+
+  #ma-task {
+    height: 104px;
+    background-image: url(./assets/covid/ma-task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+  }
+}
