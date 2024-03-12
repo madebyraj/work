@@ -50,6 +50,13 @@
   --button-primary-hover: #0050E6;
   --button-primary-active: #002D9C;
 
+  --button-secondary: #6F6F6F;
+  --button-secondary-hover: #606060;
+  --button-secondary-active: #393939;
+
+  --secondary-button-text-dark: #ffffff;
+  --secondary-button-icon-dark: #ffffff;
+
   --primary-button-text: #ffffff;
   --primary-button-icon: #ffffff;
 
@@ -103,6 +110,13 @@
   --button-primary-light: #000000;
   --button-primary-hover-light: #333333;
   --button-primary-active-light: #333333;
+
+  --button-secondary-light: #E8E8E8;
+  --button-secondary-hover-light: #CCCCCC;
+  --button-secondary-active-light: #B0B0B0;
+
+  --secondary-button-text-light: #000000;
+  --secondary-button-icon-light: #000000;
 
   --button-text-light: #000000;
   --button-icon-light: #000000;
@@ -254,6 +268,14 @@
   --button-primary-hover-light: var(--button-primary-hover);
   --button-primary-active-light: var(--button-primary-active);
 
+  --button-secondary-light: var(--button-secondary);
+  --button-secondary-hover-light: var(--button-secondary-hover);
+  --button-secondary-active-light: var(--button-secondary-active);
+
+  --secondary-button-text-light: var(--secondary-button-text-dark);
+  --secondary-button-icon-light: var(--secondary-button-icon-dark);
+
+
   --button-text-light: var(--button-text);
   --button-icon-light: var(--button-icon);
 
@@ -308,6 +330,13 @@
   --button-primary: var(--button-primary-light);
   --button-primary-hover: var(--button-primary-hover-light);
   --button-primary-active: var(--button-primary-active-light);
+
+  --button-secondary: var(--button-secondary-light);
+  --button-secondary-hover: var(--button-secondary-hover-light);
+  --button-secondary-active: var(--button-secondary-active-light);
+
+  --secondary-button-text-dark: var(--secondary-button-text-light);
+  --secondary-button-icon-dark: var(--secondary-button-icon-light);
 
   --button-text: var(--button-text-light);
   --button-icon: var(--button-icon-light);
