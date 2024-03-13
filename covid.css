@@ -738,6 +738,77 @@ main {
   transition: transform 0.3s ease-out;
 }
 
+#solution-sec{
+  padding: 32px 0px;
+  display: grid;
+}
+
+#so-head {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 32px;
+}
+
+#so-head:hover::after {
+  content: "#";
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+#solution-sec p {
+  font-size: 18px;
+  color: var(--paragraph-primary-100);
+  margin-bottom: 16px;
+  font-family: "Nova Regular", sans-serif;
+  line-height: 120%;
+}
+
+#main-sol-sec{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.for-em{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 1100px;
+  gap: 48px;
+}
+
+.for-em h6{
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 24px;
+}
+#sol-v-mob{
+  width: 100%;
+  height: 532px;
+}
+
+.for-ma{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 1100px;
+  gap: 48px;
+}
+
+.for-ma h6{
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--heading-primary-01);
+  margin-bottom: 24px;
+}
+#sol-v-des{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
 /* small desktop */
 
 @media (max-width: 1312px) {
@@ -765,6 +836,14 @@ main {
   #side-navbar {
     display: none;
   }
+
+  .for-ma{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+  }
+
+
 }
 
 /* Mobile */
@@ -1000,4 +1079,54 @@ main {
     font-size: 18px;
     margin-bottom: 16px;
   }
+
+  #solution-sec{
+    padding: 16px 0px;
+  }
+  
+  #so-head {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  
+  #so-head:hover::after {
+    content: "";
+  }
+  
+  #solution-sec p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  #main-sol-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .for-em{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+  }
+  
+  .for-em h6{
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  #sol-v-mob{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .for-ma{
+    gap: 32px;
+  }
+  
+  .for-ma h6{
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
 }
