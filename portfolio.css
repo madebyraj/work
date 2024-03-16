@@ -1,41 +1,41 @@
 @font-face {
   font-family: 'Nova Regular';
-  src: url(./assets/Fonts/UberMoveTextAR-Regular.woff);
+  src: url(./assets/Fonts/UberMoveTextAR-Regular.woff2);
 }
 
 @font-face {
   font-family: 'Nova Semibold';
-  src: url(./assets/Fonts/UberMoveTextAR-Medium.woff);
+  src: url(./assets/Fonts/UberMoveTextAR-Medium.woff2);
 }
 
 @font-face {
   font-family: 'Nova Bold';
-  src: url(./assets/Fonts/UberMoveTextAR-Bold.woff);
+  src: url(./assets/Fonts/UberMoveTextAR-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Nova Extrabold';
-  src: url(./assets/Fonts/UberMoveTextAR-Bold.woff);
+  src: url(./assets/Fonts/UberMoveTextAR-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Black';
-  src: url(./assets/Fonts/UberMove-Bold.woff);
+  src: url(./assets/Fonts/UberMove-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Bold';
-  src: url(./assets/Fonts/UberMove-Bold.woff);
+  src: url(./assets/Fonts/UberMove-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Medium';
-  src: url(./assets/Fonts/UberMove-Medium.woff);
+  src: url(./assets/Fonts/UberMove-Medium.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Regular';
-  src: url(./assets/Fonts/UberMove-Regular.woff);
+  src: url(./assets/Fonts/UberMove-Regular.woff2);
 }
 
 
