@@ -373,7 +373,7 @@ main {
 
 #cover-mt {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -587,7 +587,7 @@ main {
 
 #tackling-bg {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -621,7 +621,7 @@ main {
 
 #re-bg {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -680,7 +680,7 @@ main {
 
 #low-fi-app {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -689,7 +689,7 @@ main {
 
 #low-fi-web {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -723,7 +723,7 @@ main {
 
 #em-task {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -732,7 +732,7 @@ main {
 
 #ma-task {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -843,6 +843,7 @@ main {
 
 .p-o-map{
   width: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
 }
