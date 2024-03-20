@@ -534,7 +534,7 @@ body {
 }
 
 .para {
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Nova Regular", sans-serif;
   line-height: 120%;
   color: var(--paragraph-primary-100);
