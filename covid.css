@@ -928,6 +928,10 @@ main {
     margin: auto;
     width: 100%;
   }
+
+  #sol-v-des{
+    object-fit: contain;
+  }
   
   #side-navbar {
     display: none;
