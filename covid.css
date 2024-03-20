@@ -922,11 +922,15 @@ main {
 
 /* small desktop */
 
-@media (max-width: 1312px) {
+@media (max-width: 1400px) {
   #main-container {
     max-width: 972px;
     margin: auto;
     width: 100%;
+  }
+  
+  #side-navbar {
+    display: none;
   }
 }
 
