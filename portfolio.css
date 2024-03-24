@@ -161,6 +161,8 @@
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
 }
 
+
+
 /* @media (prefers-color-scheme: light) {
   :root {
     --primary: var(--primary-light);
@@ -423,7 +425,7 @@ body {
 
 
 #dynamic-nav {
-  max-width: 408px;
+  max-width: 424px;
   margin: auto;
   display: flex;
   align-content: center;
@@ -445,8 +447,8 @@ body {
 
 .logo {
   text-decoration: none;
-  height: 42px;
-  width: 42px;
+  height: 44px;
+  width: 44px;
   background-image: url(./assets/mylogo.png);
   background-size: cover;
   background-position: center;
@@ -456,7 +458,7 @@ body {
 }
 
 #dynamic-nav a {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: "Basic Grotesque Medium", sans-serif;
@@ -482,8 +484,8 @@ body {
 }
 
 .theme {
-  height: 42px;
-  width: 42px;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   background-color: transparent;
   border: none;
@@ -1331,8 +1333,8 @@ body {
 
   .logo {
     text-decoration: none;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     background-image: url(./assets/mylogo.png);
     background-size: cover;
     background-position: center;
@@ -1356,8 +1358,8 @@ body {
   }
 
   .theme {
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     border-radius: 50%;
     border: none;
     display: grid;
