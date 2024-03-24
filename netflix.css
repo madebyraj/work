@@ -53,9 +53,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #121212;
+  --background-main: #000000;
 
-  --glass-dark: rgba(38, 38, 38, 0.85);
+  --glass-dark: rgba(38, 38, 38, 0.80);
 
   --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 4px 20px 0px rgba(0, 0, 0, 0.45);
 
@@ -113,7 +113,7 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(244, 244, 244, 0.85);
+  --glass-light: rgba(244, 244, 244, 0.80);
 
   --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.14), 0px 0px 3px 0px #E0E0E0;
 
