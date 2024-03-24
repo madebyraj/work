@@ -423,7 +423,7 @@ body {
 
 
 #dynamic-nav {
-  max-width: 448px;
+  max-width: 408px;
   margin: auto;
   display: flex;
   align-content: center;
@@ -445,8 +445,8 @@ body {
 
 .logo {
   text-decoration: none;
-  height: 48px;
-  width: 48px;
+  height: 42px;
+  width: 42px;
   background-image: url(./assets/mylogo.png);
   background-size: cover;
   background-position: center;
@@ -456,10 +456,9 @@ body {
 }
 
 #dynamic-nav a {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--paragraph-primary);
   text-decoration: none;
-  font-weight: 500;
   font-family: "Basic Grotesque Medium", sans-serif;
   line-height: 120%;
   padding: 4px;
@@ -483,8 +482,8 @@ body {
 }
 
 .theme {
-  height: 48px;
-  width: 48px;
+  height: 42px;
+  width: 42px;
   border-radius: 50%;
   background-color: transparent;
   border: none;
@@ -1312,7 +1311,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
-    padding: 18px 8px;
+    padding: 18px 8px 14px;
   }
 
   #dynamic-nav {
@@ -1332,8 +1331,8 @@ body {
 
   .logo {
     text-decoration: none;
-    height: 44px;
-    width: 44px;
+    height: 40px;
+    width: 40px;
     background-image: url(./assets/mylogo.png);
     background-size: cover;
     background-position: center;
@@ -1343,9 +1342,7 @@ body {
   }
 
   #dynamic-nav a {
-    font-size: 16px;
     text-decoration: none;
-    font-weight: 500;
     padding: 2px;
     background-color: transparent;
     transition: 200ms ease-out;
@@ -1359,8 +1356,8 @@ body {
   }
 
   .theme {
-    height: 44px;
-    width: 44px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     border: none;
     display: grid;
