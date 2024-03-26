@@ -1038,6 +1038,12 @@ body {
   gap: 48px;
 }
 
+#cricket{
+  padding: 16px;
+  background-color: var(--surface-layer-01);
+  border-radius: 12px;
+}
+
 #cricket h6 {
   color: var(--heading-primary-01);
   font-size: 32px;
@@ -1050,6 +1056,12 @@ body {
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
   line-height: 120%;
+}
+
+#music{
+  padding: 16px;
+  background-color: var(--surface-layer-01);
+  border-radius: 12px;
 }
 
 #music h6 {
@@ -1180,7 +1192,7 @@ body {
 
   #article-section {
     gap: 32px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .first-article {
