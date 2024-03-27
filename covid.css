@@ -466,7 +466,7 @@ main {
 }
 
 .po {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   margin-bottom: 16px;

@@ -468,7 +468,7 @@ main {
 }
 
 .po {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   line-height: 120%;
@@ -801,7 +801,7 @@ main {
   border-radius: 8px;
   font-size: 16px;
   letter-spacing: 0.16px;
-  font-family: "Basic Grotesque Medium", sans-serif;
+  font-family: "Nova Semibold", sans-serif;
   line-height: 120%;
   color: var(--secondary-button-text-dark);
   display: flex;
@@ -963,7 +963,7 @@ main {
   border-radius: 8px;
   font-size: 16px;
   letter-spacing: 0.16px;
-  font-family: "Basic Grotesque Medium", sans-serif;
+  font-family: "Nova Semibold", sans-serif;
   line-height: 120%;
   color: var(--secondary-button-text-dark);
   display: flex;
