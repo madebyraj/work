@@ -1,41 +1,41 @@
 @font-face {
   font-family: 'Nova Regular';
-  src: url(./assets/Fonts/UberMoveTextAR-Regular.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Book.woff2);
 }
 
 @font-face {
   font-family: 'Nova Semibold';
-  src: url(./assets/Fonts/UberMoveTextAR-Medium.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Medium.woff2);
 }
 
 @font-face {
   font-family: 'Nova Bold';
-  src: url(./assets/Fonts/UberMoveTextAR-Bold.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Nova Extrabold';
-  src: url(./assets/Fonts/UberMoveTextAR-Bold.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-ExtraBold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Black';
-  src: url(./assets/Fonts/UberMove-Bold.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-ExtraBold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Bold';
-  src: url(./assets/Fonts/UberMove-Bold.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Medium';
-  src: url(./assets/Fonts/UberMove-Medium.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Medium.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Regular';
-  src: url(./assets/Fonts/UberMove-Regular.woff2);
+  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Book.woff2);
 }
 
 
@@ -391,6 +391,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Basic Grotesque Bold", sans-serif;
+  line-height: 124%;
 }
 
 html {
