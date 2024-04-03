@@ -1039,8 +1039,10 @@ body {
 }
 
 #cricket{
+  max-width: 100%;
   padding: 16px;
   background-color: var(--surface-layer-01);
+  border: 1.2px solid var(--border-subtle-02);
   border-radius: 12px;
 }
 
@@ -1059,8 +1061,10 @@ body {
 }
 
 #music{
+  max-width: 100%;
   padding: 16px;
   background-color: var(--surface-layer-01);
+  border: 1.2px solid var(--border-subtle-02);
   border-radius: 12px;
 }
 
