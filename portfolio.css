@@ -391,7 +391,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Basic Grotesque Bold", sans-serif;
-  line-height: 124%;
 }
 
 html {
@@ -463,7 +462,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: "Nova Semibold", sans-serif;
-  line-height: 120%;
+  /* line-height: 120%; */
   padding: 4px;
   background-color: transparent;
   transition: 200ms ease-out;
@@ -538,10 +537,10 @@ body {
 .para {
   font-size: 18px;
   font-family: "Nova Regular", sans-serif;
-  line-height: 120%;
+  /* line-height: 120%; */
   color: var(--paragraph-primary-100);
   width: 100%;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #navbutton {
@@ -558,7 +557,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.16px;
   font-family: "Nova Semibold", sans-serif;
-  line-height: 120%;
+  /* line-height: 120%; */
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
@@ -649,7 +648,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #project-2 {
@@ -695,7 +694,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #project-3 {
@@ -732,7 +731,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #project-4 {
@@ -768,7 +767,7 @@ body {
 #project-4 p {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
-  line-height: 120%;
+  /* line-height: 120%; */
   font-size: 18px;
 }
 
@@ -833,7 +832,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #f-a-bg {
@@ -871,7 +870,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #s-a-bg {
@@ -909,7 +908,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #t-a-bg {
@@ -943,7 +942,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   color: var(--heading-primary-01);
-  line-height: 120%;
+  /* line-height: 120%; */
   margin-bottom: 16px;
 }
 
@@ -1021,7 +1020,7 @@ body {
 
 .myself p {
   font-family: "Nova Regular", sans-serif;
-  line-height: 120%;
+  /* line-height: 120%; */
   font-size: 18px;
   color: var(--paragraph-primary-100);
 }
@@ -1056,7 +1055,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 #music{
@@ -1076,7 +1075,7 @@ body {
   color: var(--paragraph-primary-100);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  line-height: 120%;
+  /* line-height: 120%; */
 }
 
 
@@ -1097,7 +1096,7 @@ body {
   .heading {
     font-size: 44px;
     font-weight: 800;
-    line-height: 120%;
+    /* line-height: 120%; */
   }
 
   #navbutton {
