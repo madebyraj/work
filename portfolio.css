@@ -46,9 +46,9 @@
 
   --primary: #0F62FE;
 
-  --button-primary: #0A84FF;
-  --button-primary-hover: #0974E0;
-  --button-primary-active: #086FD6;
+  --button-primary: #0071F2;
+  --button-primary-hover: #0063D5;
+  --button-primary-active: #005FCB;
 
   --button-secondary: #6F6F6F;
   --button-secondary-hover: #606060;
@@ -107,9 +107,9 @@
 
   --primary-light: #0F62FE;
 
-  --button-primary-light: #007AFF;
-  --button-primary-hover-light: #1F8AFF;
-  --button-primary-active-light: #3D9AFF;
+  --button-primary-light: #3476E6;
+  --button-primary-hover-light: #4C86E9;
+  --button-primary-active-light: #6597EC;
 
   --button-secondary-light: #E8E8E8;
   --button-secondary-hover-light: #CCCCCC;
