@@ -103,6 +103,11 @@
   --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
 
 
+
+  --green-gradient: linear-gradient(-45deg, #18B774, #055648);
+  --blue-gradient: linear-gradient(-45deg, #2F49BD, #4898F1);
+
+
   /* Light Mode */
 
   --primary-light: #0F62FE;
@@ -984,7 +989,7 @@ body {
   align-items: start;
   gap: 48px;
   margin: 64px 128px;
-
+  max-width: 1600px;
 }
 
 .me-section {
@@ -1036,47 +1041,48 @@ body {
   justify-content: space-between;
   align-items: start;
   gap: 48px;
+  min-width: 100%;
 }
 
 #cricket{
-  max-width: 100%;
+  width: 100%;
   padding: 16px;
-  background-color: var(--surface-layer-01);
-  border: 1.2px solid var(--border-subtle-02);
-  border-radius: 12px;
+  background-image: var(--green-gradient);
+  border: 0.4px solid var(--border-subtle-02);
+  border-radius: 16px;
 }
 
 #cricket h6 {
-  color: var(--heading-primary-01);
+  color: var(--primary-button-text);
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 16px;
 }
 
 #cricket p {
-  color: var(--paragraph-primary-100);
+  color: var(--primary-button-text);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
   /* line-height: 120%; */
 }
 
 #music{
-  max-width: 100%;
+  width: 100%;
   padding: 16px;
-  background-color: var(--surface-layer-01);
-  border: 1.2px solid var(--border-subtle-02);
-  border-radius: 12px;
+  background-image: var(--blue-gradient);
+  border: 0.4px solid var(--border-subtle-02);
+  border-radius: 16px;
 }
 
 #music h6 {
-  color: var(--heading-primary-01);
+  color: var(--primary-button-text);
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 16px;
 }
 
 #music p {
-  color: var(--paragraph-primary-100);
+  color: var(--primary-button-text);
   font-family: "Nova Regular", sans-serif;
   font-size: 18px;
   /* line-height: 120%; */
