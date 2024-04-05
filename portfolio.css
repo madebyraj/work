@@ -537,6 +537,7 @@ body {
   color: var(--heading-primary);
   max-width: 1064px;
   margin-bottom: 12px;
+  line-height: 120%;
 }
 
 .para {
@@ -545,7 +546,6 @@ body {
   /* line-height: 120%; */
   color: var(--paragraph-primary-100);
   width: 100%;
-  /* line-height: 120%; */
 }
 
 #navbutton {
