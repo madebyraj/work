@@ -1290,7 +1290,7 @@ body {
     justify-content: start;
     align-items: start;
     gap: 32px;
-    margin: 32px;
+    padding: 32px;
   }
 
   .about {
@@ -1414,7 +1414,7 @@ body {
   } */
 
   .heading {
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 8px;
   }
 
@@ -1689,7 +1689,7 @@ body {
     justify-content: start;
     align-items: start;
     gap: 24px;
-    margin: 32px 16px;
+    padding: 32px 16px;
   }
 
 
