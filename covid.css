@@ -386,10 +386,12 @@ main {
   left: 0;
   max-width: 170px;
   height: min-content;
-  background-color: var(--surface-layer-01);
+  background-color: var(--glass-dark);
+  backdrop-filter: saturate(180%) blur(22px);
   border-radius: 0px 8px 8px 0px;
   padding: 12px 24px;
   z-index: 100;
+  box-shadow: var(--drop-shadow-dark);
 }
 
 #side-navbar .inner-nav {
@@ -426,6 +428,7 @@ main {
   background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(22px);
   text-decoration: none;
+  box-shadow: var(--drop-shadow-dark);
 }
 
 #back-to-top:hover {

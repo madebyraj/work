@@ -533,7 +533,7 @@ body {
 } */
 
 .heading {
-  font-size: 48px;
+  font-size: 56px;
   color: var(--heading-primary);
   max-width: 1064px;
   margin-bottom: 12px;
@@ -555,14 +555,13 @@ body {
   align-items: center;
 }
 
-.dive-in {
+/* .dive-in {
   padding: 14px 28px;
   background-color: var(--button-primary);
   border-radius: 128px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
-  /* line-height: 120%; */
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
@@ -571,16 +570,16 @@ body {
   transition: 0.3s ease-out;
   gap: 16px;
   box-shadow: var(--button-drop-shadow-dark);
-}
+} */
 
 #arrow-right {
   font-size: 24px;
 }
 
-.dive-in:hover {
+/* .dive-in:hover {
   background-color: var(--button-primary-hover);
   cursor: pointer;
-}
+} */
 
 
 #scroll {
@@ -988,8 +987,9 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  margin: 64px 128px;
+  padding: 64px 128px;
   max-width: 1600px;
+  margin: auto;
 }
 
 .me-section {
@@ -1104,7 +1104,7 @@ body {
   }
 
   .heading {
-    font-size: 44px;
+    font-size: 48px;
     font-weight: 800;
     /* line-height: 120%; */
   }
@@ -1414,9 +1414,8 @@ body {
   } */
 
   .heading {
-    font-size: 36px;
-    font-weight: 800;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 8px;
   }
 
   #navbutton {
