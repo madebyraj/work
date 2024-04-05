@@ -1009,7 +1009,7 @@ body {
 .me {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   object-fit: cover;
   object-position: center;
   box-shadow: var(--drop-shadow-dark);
