@@ -800,7 +800,7 @@ main {
   background-color: var(--button-secondary);
   border-radius: 8px;
   font-size: 16px;
-  letter-spacing: 0.16px;
+  letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
   /* line-height: 120%; */
   color: var(--secondary-button-text-dark);
@@ -962,7 +962,7 @@ main {
   background-color: var(--button-secondary);
   border-radius: 8px;
   font-size: 16px;
-  letter-spacing: 0.16px;
+  letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
   /* line-height: 120%; */
   color: var(--secondary-button-text-dark);

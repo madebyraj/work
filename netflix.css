@@ -386,6 +386,7 @@ main {
   font-size: 16px;
   font-family: "Nova Semibold", sans-serif;
   /* line-height: 120%; */
+  letter-spacing: 0.56px;
   padding: 14px 24px;
   border-radius: 8px;
   background-color: var(--button-primary);
@@ -395,7 +396,6 @@ main {
   text-decoration: none;
   gap: 16px;
   transition: 0.3s ease-out;
-  z-index: 2;
   box-shadow: var(--button-drop-shadow-dark);
 }
 

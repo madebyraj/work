@@ -1,41 +1,41 @@
 @font-face {
   font-family: 'Nova Regular';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Book.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff2);
 }
 
 @font-face {
   font-family: 'Nova Semibold';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Medium.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff2);
 }
 
 @font-face {
   font-family: 'Nova Bold';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Bold.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Nova Extrabold';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-ExtraBold.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Black';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-ExtraBold.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Bold';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Bold.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Medium';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Medium.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Regular';
-  src: url(./assets/Fonts/Airbnb-Cereal-WOFF2/AirbnbCereal-Book.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff2);
 }
 
 
@@ -555,7 +555,7 @@ body {
   background-color: var(--button-primary);
   border-radius: 8px;
   font-size: 16px;
-  letter-spacing: 0.16px;
+  letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
   /* line-height: 120%; */
   color: var(--primary-button-text);
@@ -982,7 +982,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  gap: 32px;
+  gap: 48px;
   margin: 64px 128px;
 
 }
