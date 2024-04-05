@@ -1,41 +1,41 @@
 @font-face {
   font-family: 'Nova Regular';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff);
 }
 
 @font-face {
   font-family: 'Nova Semibold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff);
 }
 
 @font-face {
   font-family: 'Nova Bold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff);
 }
 
 @font-face {
   font-family: 'Nova Extrabold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Black';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Bold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Medium';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Regular';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff2);
+  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff);
 }
 
 
@@ -537,7 +537,6 @@ body {
   color: var(--heading-primary);
   max-width: 1064px;
   margin-bottom: 12px;
-  line-height: 120%;
 }
 
 .para {
@@ -620,7 +619,7 @@ body {
 }
 
 .image-wrapper {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   border-radius: 12px;
   overflow: hidden;
@@ -1007,12 +1006,11 @@ body {
 }
 
 .me {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
   object-position: center;
-  box-shadow: var(--drop-shadow-dark);
 }
 
 .myself {
