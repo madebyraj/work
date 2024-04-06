@@ -543,8 +543,9 @@ body {
 .para {
   font-size: 64px;
   color: var(--heading-primary);
-  max-width: 960px;
-  line-height: 120%;
+  max-width: 912px;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
   text-decoration: none;
   transition: transform 0.3s ease-out;
 }
