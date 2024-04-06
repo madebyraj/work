@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'Nova Light';
+  src: url(./assets/Fonts/Circular-std/CircularStd-Light.woff)
+}
+
+@font-face {
   font-family: 'Nova Regular';
   src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff);
 }
@@ -505,14 +510,25 @@ body {
   cursor: pointer;
 }
 
-.main {
+
+.hero-section{
+  display: grid;
+  justify-content: start;
+  align-items: start;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+  padding: 48px 112px;
   max-width: 1600px;
+  height: 100vh;
+  height: 100dvh;
   margin: auto;
+}
+.main {
   display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  padding: 48px 112px;
+  padding-top: 64px;
 }
 
 /* #memoji {
@@ -533,11 +549,12 @@ body {
 } */
 
 .heading {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--heading-primary);
-  font-family: "Nova Regular", sans-serif;
   max-width: 1064px;
+  font-family: "Nova Light", sans-serif;
   margin-bottom: 12px;
+  line-height: 1.031;
 }
 
 .para {
@@ -552,6 +569,16 @@ body {
 
 .para:hover{
   text-decoration: underline var(--heading-primary);
+}
+
+#hero-image{
+  max-width: 100%;
+  height: auto;
+  margin: 0px auto;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: var(--drop-shadow-dark);
 }
 
 #navbutton {
@@ -1104,8 +1131,15 @@ body {
     padding: 20px 32px;
   }
 
-  .main {
-    padding: 24px 32px;
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 32px;
+    gap: 64px;
+  }
+
+  .main{
+    padding-top: 0px;
   }
 
   .heading {
@@ -1113,7 +1147,7 @@ body {
   }
 
   .para {
-    font-size: 56px;
+    font-size: 64px;
   }
 
   #navbutton {
@@ -1404,8 +1438,9 @@ body {
   }
 
 
-  .main {
+  .hero-section {
     padding: 16px;
+    gap: 32px;
   }
 
   /* #memoji {
@@ -1425,7 +1460,12 @@ body {
   }
 
   .para {
-    font-size: 40px;
+    font-size: 42px;
+  }
+
+  #hero-image{
+    width: 100%;
+    height: auto;
   }
 
   #navbutton {
