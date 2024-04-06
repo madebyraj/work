@@ -534,7 +534,7 @@ body {
 
 .heading {
   font-size: 18px;
-  color: var(--paragraph-primary-100);
+  color: var(--heading-primary);
   font-family: "Nova Regular", sans-serif;
   max-width: 1064px;
   margin-bottom: 12px;
@@ -1405,7 +1405,7 @@ body {
 
 
   .main {
-    padding: 20px;
+    padding: 16px;
   }
 
   /* #memoji {
@@ -1425,7 +1425,7 @@ body {
   }
 
   .para {
-    font-size: 42px;
+    font-size: 40px;
   }
 
   #navbutton {
