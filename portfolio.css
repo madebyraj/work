@@ -528,7 +528,7 @@ body {
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  padding-top: 64px;
+  padding-top: 56px;
 }
 
 /* #memoji {
@@ -552,7 +552,7 @@ body {
   font-size: 16px;
   color: var(--heading-primary);
   max-width: 1064px;
-  font-family: "Nova Light", sans-serif;
+  font-family: "Nova Regular", sans-serif;
   margin-bottom: 12px;
   line-height: 1.031;
 }
@@ -1439,6 +1439,7 @@ body {
 
 
   .hero-section {
+    height: fit-content;
     padding: 16px;
     gap: 32px;
   }
@@ -1464,8 +1465,7 @@ body {
   }
 
   #hero-image{
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
   #navbutton {
