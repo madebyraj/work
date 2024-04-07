@@ -1151,7 +1151,7 @@ main {
 
 /* Tablet */
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   #main-container {
     margin: auto;
     padding: 0px 32px;

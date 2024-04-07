@@ -520,7 +520,7 @@ body {
   justify-content: start;
   align-items: start;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 152px;
+  gap: 136px;
   padding: 32px 112px;
   max-width: 1600px;
   height: 100vh;
@@ -533,7 +533,6 @@ body {
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  padding-top: 56px;
 }
 
 /* #memoji {
@@ -554,7 +553,7 @@ body {
 } */
 
 .heading {
-  font-size: 64px;
+  font-size: 56px;
   letter-spacing: -0.04em;
   line-height: 1.08;
   color: var(--heading-primary);
@@ -567,13 +566,6 @@ body {
   color: var(--paragraph-primary-100);
   max-width: 912px;
   font-family: "Nova Regular", sans-serif;
-  text-decoration: none;
-  transition: transform 0.3s ease-out;
-}
-
-.para:hover{
-  color: var(--link-primary-hover);
-  text-decoration: underline var(--link-primary-hover);
 }
 
 .mySwiper swiper-slide{
@@ -597,10 +589,10 @@ body {
   align-items: center;
 }
 
-/* .dive-in {
-  padding: 14px 28px;
+.dive-in {
+  padding: 14px 24px;
   background-color: var(--button-primary);
-  border-radius: 128px;
+  border-radius: 12px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
@@ -612,16 +604,16 @@ body {
   transition: 0.3s ease-out;
   gap: 16px;
   box-shadow: var(--button-drop-shadow-dark);
-} */
+}
 
 #arrow-right {
   font-size: 24px;
 }
 
-/* .dive-in:hover {
+.dive-in:hover {
   background-color: var(--button-primary-hover);
   cursor: pointer;
-} */
+}
 
 
 #scroll {
@@ -1141,8 +1133,8 @@ body {
   }
 
   .hero-container{
-    height: 100vh;
-    height: 100svh;
+    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -1152,7 +1144,7 @@ body {
   .hero-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     padding: 32px;
-    gap: 48px;
+    gap: 40px;
     height: fit-content;
     margin: 0px;
   }
@@ -1466,7 +1458,7 @@ body {
   .hero-section {
     height: fit-content;
     padding: 16px;
-    gap: 32px;
+    gap: 24px;
   }
 
   /* #memoji {
