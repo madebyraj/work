@@ -1495,6 +1495,7 @@ main {
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
+    padding: 16px 24px;
   }
 
   .questions {
@@ -1584,6 +1585,7 @@ main {
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
+    padding: 16px 24px;
   }
 
   #eva-sec {

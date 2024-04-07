@@ -404,11 +404,6 @@ main {
   cursor: pointer;
 }
 
-.contact-me #email-me {
-  font-size: 18px;
-  color: var(--gray-200);
-}
-
 @media (max-width: 1400px) {}
 
 @media (max-width: 1024px) {
@@ -433,5 +428,8 @@ main {
 
   .net-main {
     font-size: 40px;
+  }
+  .contact-me{
+    padding: 16px 24px;
   }
 }

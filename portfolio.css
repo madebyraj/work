@@ -554,7 +554,7 @@ body {
 
 .heading {
   font-size: 56px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   line-height: 1.08;
   color: var(--heading-primary);
   max-width: 1064px;
@@ -1494,6 +1494,7 @@ body {
 
   .dive-in {
     width: 100%;
+    padding: 16px 24px;
   }
 
   #scroll {
