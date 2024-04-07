@@ -1453,6 +1453,8 @@ body {
     height: fit-content;
     padding: 16px;
     gap: 32px;
+    height: 100vh;
+    height: 100dvh;
   }
 
   /* #memoji {
