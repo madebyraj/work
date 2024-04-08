@@ -529,6 +529,7 @@ body {
   overflow: hidden;
 }
 .main {
+  padding-top: 48px;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -1133,14 +1134,14 @@ body {
     padding: 20px 32px;
   }
 
-  .hero-container{
+  /* .hero-container{
     min-height: 100vh;
     min-height: 100svh;
     display: flex;
     justify-content: start;
     align-items: start;
     overflow: hidden;
-  }
+  } */
 
   .hero-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1476,19 +1477,19 @@ body {
 
   .heading {
     margin-bottom: 8px;
-    font-size: 44px;
+    font-size: 40px;
   }
 
-  /* .para {
-    
-  } */
+  .para {
+    font-size: 18px;
+  }
 
   /* #hero-image{
     display: none;
   } */
 
   #navbutton {
-    margin-top: 48px;
+    margin-top: 40px;
     width: 100%;
     padding: 0px;
   }
