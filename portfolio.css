@@ -1133,14 +1133,14 @@ body {
     padding: 20px 32px;
   }
 
-  /* .hero-container{
+  .hero-container{
     min-height: 100vh;
     min-height: 100svh;
     display: flex;
     justify-content: start;
     align-items: start;
     overflow: hidden;
-  } */
+  }
 
   .hero-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
