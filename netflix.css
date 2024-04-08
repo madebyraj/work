@@ -387,14 +387,14 @@ main {
   font-family: "Nova Semibold", sans-serif;
   /* line-height: 120%; */
   letter-spacing: 0.56px;
-  padding: 14px 28px;
-  border-radius: 12px;
+  padding: 16px 28px;
+  border-radius: 128px;
   background-color: var(--button-primary);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-decoration: none;
-  gap: 16px;
+  gap: 12px;
   transition: 0.3s ease-out;
   box-shadow: var(--button-drop-shadow-dark);
 }

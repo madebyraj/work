@@ -796,9 +796,9 @@ main {
 
 .full-research{
   width: fit-content;
-  padding: 14px 24px;
+  padding: 16px 28px;
   background-color: var(--button-secondary);
-  border-radius: 12px;
+  border-radius: 128px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
@@ -809,7 +809,7 @@ main {
   justify-content: center;
   text-decoration: none;
   transition: 0.3s ease-out;
-  gap: 16px;
+  gap: 12px;
   box-shadow: var(--button-drop-shadow-dark);
 }
 
@@ -958,9 +958,9 @@ main {
 
 #pr-link {
   width: fit-content;
-  padding: 14px 28px;
+  padding: 16px 28px;
   background-color: var(--button-secondary);
-  border-radius: 12px;
+  border-radius: 128px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
@@ -982,7 +982,7 @@ main {
 }
 
 #arrow-up {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .proto-bg {
@@ -1585,7 +1585,6 @@ main {
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
-    padding: 16px 24px;
   }
 
   #eva-sec {
