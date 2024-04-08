@@ -809,7 +809,7 @@ main {
   justify-content: center;
   text-decoration: none;
   transition: 0.3s ease-out;
-  gap: 12px;
+  gap: 16px;
   box-shadow: var(--button-drop-shadow-dark);
 }
 
@@ -1491,11 +1491,11 @@ main {
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
-    padding: 16px 24px;
+    padding: 18px 28px;
   }
 
   .questions {
@@ -1581,10 +1581,11 @@ main {
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
+    padding: 18px 28px;
   }
 
   #eva-sec {

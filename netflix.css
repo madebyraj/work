@@ -394,7 +394,7 @@ main {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  gap: 12px;
+  gap: 16px;
   transition: 0.3s ease-out;
   box-shadow: var(--button-drop-shadow-dark);
 }
@@ -430,6 +430,6 @@ main {
     font-size: 40px;
   }
   .contact-me{
-    padding: 16px 24px;
+    padding: 18px 28px;
   }
 }
