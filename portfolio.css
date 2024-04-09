@@ -1,46 +1,46 @@
 @font-face {
   font-family: 'Nova Light';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Light.woff)
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Light.woff2)
 }
 
 @font-face {
   font-family: 'Nova Regular';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Regular.woff2);
 }
 
 @font-face {
   font-family: 'Nova Semibold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-SemiBold.woff2);
 }
 
 @font-face {
   font-family: 'Nova Bold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Nova Extrabold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Black';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Black.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Bold';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Bold.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Medium';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Medium.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-SemiBold.woff2);
 }
 
 @font-face {
   font-family: 'Basic Grotesque Regular';
-  src: url(./assets/Fonts/Circular-std/CircularStd-Book.woff);
+  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Regular.woff2);
 }
 
 
@@ -400,7 +400,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basic Grotesque Bold", sans-serif;
+  font-family: "Basic Grotesque Medium", sans-serif;
 }
 
 html {
@@ -556,8 +556,8 @@ body {
 
 .heading {
   font-size: 64px;
-  letter-spacing: -0.02em;
-  line-height: 1.08;
+  /* letter-spacing: -0.02em;
+  line-height: 1.08; */
   color: var(--heading-primary);
   max-width: 1064px;
   margin-bottom: 16px;
@@ -601,7 +601,7 @@ body {
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 16px;

@@ -347,7 +347,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basic Grotesque Bold", sans-serif;
+  font-family: "Basic Grotesque Medium", sans-serif;
 }
 
 html {
@@ -392,7 +392,7 @@ main {
   background-color: var(--button-primary);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
   gap: 16px;
   transition: 0.3s ease-out;
@@ -414,6 +414,7 @@ main {
 
   .net-main {
     font-size: 52px;
+    margin-bottom: 32px;
   }
 }
 
@@ -428,6 +429,7 @@ main {
 
   .net-main {
     font-size: 40px;
+    margin-bottom: 16px;
   }
   .contact-me{
     padding: 18px 28px;

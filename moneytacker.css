@@ -347,7 +347,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basic Grotesque Bold", sans-serif;
+  font-family: "Basic Grotesque Medium", sans-serif;
 }
 
 html {
@@ -806,7 +806,7 @@ main {
   color: var(--secondary-button-text-dark);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 16px;
@@ -968,7 +968,7 @@ main {
   color: var(--secondary-button-text-dark);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 16px;
@@ -1488,11 +1488,6 @@ main {
     min-width: 100%;
     margin: auto;
     width: max-content;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
     text-decoration: none;
     margin-bottom: 16px;
     padding: 18px 28px;
@@ -1578,10 +1573,6 @@ main {
     min-width: 100%;
     margin: auto;
     width: max-content;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
