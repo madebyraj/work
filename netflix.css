@@ -387,8 +387,8 @@ main {
   font-family: "Nova Semibold", sans-serif;
   /* line-height: 120%; */
   letter-spacing: 0.56px;
-  padding: 16px 28px;
-  border-radius: 128px;
+  padding: 15px 24px;
+  border-radius: 10px;
   background-color: var(--button-primary);
   display: flex;
   align-items: center;
@@ -424,14 +424,14 @@ main {
   }
 
   main {
-    padding: 16px;
+    padding: 32px 24px;
   }
 
   .net-main {
     font-size: 40px;
     margin-bottom: 16px;
   }
-  .contact-me{
+  /* .contact-me{
     padding: 18px 28px;
-  }
+  } */
 }

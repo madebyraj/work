@@ -592,9 +592,9 @@ body {
 }
 
 .dive-in {
-  padding: 16px 28px;
+  padding: 15px 24px;
   background-color: var(--button-primary);
-  border-radius: 128px;
+  border-radius: 10px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
@@ -1157,7 +1157,7 @@ body {
   }
 
   .heading {
-    font-size: 60px;
+    font-size: 56px;
   }
 
   .para {
@@ -1397,7 +1397,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
-    padding: 18px 8px 14px;
+    padding: 18px 12px 14px;
   }
 
   #dynamic-nav {
@@ -1459,7 +1459,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 16px;
+    padding: 32px 24px;
     gap: 24px;
   }
 
@@ -1496,13 +1496,12 @@ body {
 
   .dive-in {
     width: 100%;
-    padding: 18px 28px;
   }
 
   #scroll {
     max-width: 1600px;
     margin: auto;
-    padding: 32px 16px;
+    padding: 32px 24px;
   }
 
   #project-container {
@@ -1657,7 +1656,7 @@ body {
 
   #writing-section {
     margin: auto;
-    padding: 32px 16px;
+    padding: 32px 24px;
     gap: 16px;
   }
 
@@ -1729,7 +1728,7 @@ body {
   }
 
   .footer {
-    padding: 32px 16px;
+    padding: 32px 24px;
   }
 
   .bottom-icons {
@@ -1760,7 +1759,7 @@ body {
     justify-content: start;
     align-items: start;
     gap: 24px;
-    padding: 32px 16px;
+    padding: 32px 24px;
   }
 
 

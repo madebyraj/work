@@ -796,9 +796,9 @@ main {
 
 .full-research{
   width: fit-content;
-  padding: 16px 28px;
+  padding: 15px 24px;
   background-color: var(--button-secondary);
-  border-radius: 128px;
+  border-radius: 10px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
@@ -958,9 +958,9 @@ main {
 
 #pr-link {
   width: fit-content;
-  padding: 16px 28px;
+  padding: 15px 24px;
   background-color: var(--button-secondary);
-  border-radius: 128px;
+  border-radius: 10px;
   font-size: 16px;
   letter-spacing: 0.56px;
   font-family: "Nova Semibold", sans-serif;
@@ -1191,7 +1191,7 @@ main {
 
   #main-container {
     margin: auto;
-    padding: 0px 16px;
+    padding: 0px 24px;
     width: 100%;
   }
 
@@ -1490,7 +1490,6 @@ main {
     width: max-content;
     text-decoration: none;
     margin-bottom: 16px;
-    padding: 18px 28px;
   }
 
   .questions {
@@ -1576,7 +1575,6 @@ main {
     border: none;
     text-decoration: none;
     margin-bottom: 16px;
-    padding: 18px 28px;
   }
 
   #eva-sec {
