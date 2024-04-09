@@ -66,9 +66,9 @@
 
   --primary-light: #0F62FE;
 
-  --button-primary-light: #3476E6;
-  --button-primary-hover-light: #4C86E9;
-  --button-primary-active-light: #6597EC;
+  --button-primary-light: #000000;
+  --button-primary-hover-light: #333333;
+  --button-primary-active-light: #333333;
 
   --button-secondary-light: #E8E8E8;
   --button-secondary-hover-light: #CCCCCC;
