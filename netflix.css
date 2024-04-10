@@ -45,6 +45,8 @@
   --border-subtle-02: #474747;
   --border-subtle-03: #484848;
 
+  --partition-dark: #000000;
+
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
   --secondary-red: #F34E1E;
@@ -53,7 +55,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #040608;
+  --background-main: #060708;
 
   --glass-dark: rgba(29, 29, 31, 0.72);
 
@@ -108,6 +110,8 @@
   --border-subtle-02-light: #F9F9FA;
   --border-subtle-03-light: #F6F6F8;
 
+  --partition-light: #F5F6F7;
+
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
   --secondary-red-light: #D44333;
@@ -118,7 +122,7 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(255,255,255,0.72);
+  --glass-light: rgba(255, 255, 255, 0.72);
 
   --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.14), 0px 0px 3px 0px #E0E0E0;
 
@@ -268,6 +272,8 @@
   --border-subtle-02-light: var(--border-subtle-02);
   --border-subtle-03-light: var(--border-subtle-03);
 
+  --partition-light: var(--partition-dark);
+
   --secondary-green-light: var(--secondary-green);
   --secondary-yellow-light: var(--secondary-yellow);
   --secondary-red-light: var(--secondary-red);
@@ -329,6 +335,8 @@
   --border-subtle-01: var(--border-subtle-01-light);
   --border-subtle-02: var(--border-subtle-02-light);
   --border-subtle-03: var(--border-subtle-03-light);
+
+  --partition-dark: var(--partition-light);
 
   --secondary-green: var(--secondary-green-light);
   --secondary-yellow: var(--secondary-yellow-light);
@@ -438,6 +446,7 @@ main {
     font-size: 40px;
     margin-bottom: 16px;
   }
+
   /* .contact-me{
     padding: 18px 28px;
   } */
