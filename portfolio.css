@@ -51,9 +51,9 @@
 
   --primary: #0561EB;
 
-  --button-primary: #0071E3;
-  --button-primary-hover: #0063C8;
-  --button-primary-active: #005FBF;
+  --button-primary: #0A84FF;
+  --button-primary-hover: #0974E0;
+  --button-primary-active: #086FD6;
 
   --button-secondary: #6F6F6F;
   --button-secondary-hover: #606060;
@@ -101,7 +101,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #101010;
+  --background-main: #121212;
 
   --glass-dark: rgba(40, 40, 40, 0.58);
 
@@ -117,11 +117,11 @@
 
   /* Light Mode */
 
-  --primary-light: #0F62FE;
+  --primary-light: #148EFF;
 
-  --button-primary-light: #0065D9;
-  --button-primary-hover-light: #1F77DE;
-  --button-primary-active-light: #3D8AE2;
+  --button-primary-light: #007AFF;
+  --button-primary-hover-light: #1F8AFF;
+  --button-primary-active-light: #3D9AFF;
 
   --button-secondary-light: #E8E8E8;
   --button-secondary-hover-light: #CCCCCC;
