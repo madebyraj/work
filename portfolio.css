@@ -101,9 +101,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #060708;
+  --background-main: #101010;
 
-  --glass-dark: rgba(29, 29, 31, 0.72);
+  --glass-dark: rgba(40, 40, 40, 0.58);
 
   --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 4px 20px 0px rgba(0, 0, 0, 0.45);
 
@@ -168,9 +168,9 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(255, 255, 255, 0.72);
+  --glass-light: rgba(246, 246, 246, 0.72);
 
-  --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.14), 0px 0px 3px 0px #E0E0E0;
+  --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.12), 0px 0px 2px 0px rgba(0, 0, 0, 0.16);
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
 }
@@ -615,7 +615,6 @@ body {
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 16px;
-  box-shadow: var(--button-drop-shadow-dark);
 }
 
 #arrow-right {
