@@ -3,11 +3,11 @@
   /* Dark mode */
 
 
-  --primary: #0F62FE;
+  --primary: #0561EB;
 
-  --button-primary: #0071F2;
-  --button-primary-hover: #0063D5;
-  --button-primary-active: #005FCB;
+  --button-primary: #0071E3;
+  --button-primary-hover: #0063C8;
+  --button-primary-active: #005FBF;
 
   --button-secondary: #6F6F6F;
   --button-secondary-hover: #606060;
@@ -22,28 +22,28 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #78A9FF;
-  --link-primary-hover: #A6C8FF;
+  --link-primary: #2997FF;
+  --link-primary-hover: #2791F5;
 
-  --heading-primary: #F4F4F4;
-  --heading-primary-01: #E6E6E6;
-  --heading-primary-02: #D9D9D9;
+  --heading-primary: #F5F5F7;
+  --heading-primary-01: #EBEBED;
+  --heading-primary-02: #E1E1E3;
 
-  --paragraph-primary: #CFCFCF;
-  --paragraph-primary-100: #C4C4C4;
-  --paragraph-primary-200: #B8B8B8;
+  --paragraph-primary: #EFEFEF;
+  --paragraph-primary-100: #E5E5E5;
+  --paragraph-primary-200: #DCDCDC;
 
-  --surface-layer-01: #262626;
-  --surface-layer-02: #393939;
-  --surface-layer-03: #525252;
+  --surface-layer-01: #141414;
+  --surface-layer-02: #181818;
+  --surface-layer-03: #1A1A1A;
 
-  --surface-layer-01-hover: #333333;
-  --surface-layer-02-hover: #474747;
-  --surface-layer-03-hover: #636363;
+  --surface-layer-01-hover: #292929;
+  --surface-layer-02-hover: #2C2C2C;
+  --surface-layer-03-hover: #252525;
 
-  --border-subtle-01: #393939;
-  --border-subtle-02: #525252;
-  --border-subtle-03: #6F6F6F;
+  --border-subtle-01: #444444;
+  --border-subtle-02: #474747;
+  --border-subtle-03: #484848;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -53,22 +53,27 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #161616;
+  --background-main: #040608;
 
-  --glass-dark: rgba(38, 38, 38, 0.80);
+  --glass-dark: rgba(29, 29, 31, 0.72);
 
   --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 4px 20px 0px rgba(0, 0, 0, 0.45);
 
   --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
 
 
+
+  --green-gradient: linear-gradient(-45deg, #18B774, #055648);
+  --blue-gradient: linear-gradient(-45deg, #2F49BD, #4898F1);
+
+
   /* Light Mode */
 
   --primary-light: #0F62FE;
 
-  --button-primary-light: #000000;
-  --button-primary-hover-light: #333333;
-  --button-primary-active-light: #333333;
+  --button-primary-light: #0065D9;
+  --button-primary-hover-light: #1F77DE;
+  --button-primary-active-light: #3D8AE2;
 
   --button-secondary-light: #E8E8E8;
   --button-secondary-hover-light: #CCCCCC;
@@ -80,28 +85,28 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #0F62FE;
-  --link-primary-hover-light: #0043CE;
+  --link-primary-light: #0066CC;
+  --link-primary-hover-light: #0062C4;
 
-  --heading-primary-light: #121212;
-  --heading-primary-01-light: #202020;
-  --heading-primary-02-light: #2E2E2E;
+  --heading-primary-light: #18181A;
+  --heading-primary-01-light: #212123;
+  --heading-primary-02-light: #2A2A2C;
 
-  --paragraph-primary-light: #424242;
-  --paragraph-primary-100-light: #4D4D4D;
-  --paragraph-primary-200-light: #424242;
+  --paragraph-primary-light: #2D2D2D;
+  --paragraph-primary-100-light: #353535;
+  --paragraph-primary-200-light: #3E3E3E;
 
-  --surface-layer-01-light: #F4F4F4;
-  --surface-layer-02-light: #ffffff;
-  --surface-layer-03-light: #F4F4F4;
+  --surface-layer-01-light: #FDFDFD;
+  --surface-layer-02-light: #FAFAFA;
+  --surface-layer-03-light: #F8F8F8;
 
-  --surface-layer-01-hover-light: #E8E8E8;
-  --surface-layer-02-hover-light: #E8E8E8;
-  --surface-layer-03-hover-light: #E8E8E8;
+  --surface-layer-01-hover-light: #EEEEF2;
+  --surface-layer-02-hover-light: #EAEAEE;
+  --surface-layer-03-hover-light: #E4E4E8;
 
-  --border-subtle-01-light: #E0E0E0;
-  --border-subtle-02-light: #C6C6C6;
-  --border-subtle-03-light: #E0E0E0;
+  --border-subtle-01-light: #FBFBFD;
+  --border-subtle-02-light: #F9F9FA;
+  --border-subtle-03-light: #F6F6F8;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -113,12 +118,14 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(244, 244, 244, 0.80);
+  --glass-light: rgba(255,255,255,0.72);
 
   --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.14), 0px 0px 3px 0px #E0E0E0;
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
 }
+
+
 
 /* @media (prefers-color-scheme: light) {
   :root {
