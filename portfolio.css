@@ -314,6 +314,7 @@
   font-family: var(--fonts-body);
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
+  line-height: var(--lineHeights-base);
 }
 
 html {
@@ -1393,7 +1394,7 @@ body {
 
   .heading {
     margin-bottom: 8px;
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .para {
