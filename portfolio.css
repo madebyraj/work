@@ -1,49 +1,3 @@
-@font-face {
-  font-family: 'Nova Light';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Light.woff2)
-}
-
-@font-face {
-  font-family: 'Nova Regular';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Regular.woff2);
-}
-
-@font-face {
-  font-family: 'Nova Semibold';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-SemiBold.woff2);
-}
-
-@font-face {
-  font-family: 'Nova Bold';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
-}
-
-@font-face {
-  font-family: 'Nova Extrabold';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
-}
-
-@font-face {
-  font-family: 'Basic Grotesque Black';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
-}
-
-@font-face {
-  font-family: 'Basic Grotesque Bold';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Bold.woff2);
-}
-
-@font-face {
-  font-family: 'Basic Grotesque Medium';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-SemiBold.woff2);
-}
-
-@font-face {
-  font-family: 'Basic Grotesque Regular';
-  src: url(./assets/Fonts/IBM-plex/woff2/IBMPlexSans-Regular.woff2);
-}
-
-
 :root {
 
   /* Dark mode */
@@ -101,7 +55,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #121212;
+  --background-main: #141414;
 
   --glass-dark: rgba(29, 29, 31, 0.72);
 
@@ -168,110 +122,59 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(255,255,255,0.72);
+  --glass-light: rgba(255, 255, 255, 0.72);
 
   --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.08), 0px 0px 1px 1px rgba(0, 0, 0, 0.16);
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+
+
+
+
+    /* Fonts */
+
+
+    --fonts-heading: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-body: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+    --fontWeights-thin: 200;
+    --fontWeights-light: 300;
+    --fontWeights-normal: 400;
+    --fontWeights-medium: 600;
+    --fontWeights-semibold: 600;
+    --fontWeights-bold: 700;
+    --fontWeights-extrabold: 800;
+    --fontWeights-black: 900;
+  
+  
+    --letterSpacings-tighter: -0.05em;
+    --letterSpacings-tight: -0.025em;
+    --letterSpacings-normal: 0;
+    --letterSpacings-wide: 0.025em;
+    --letterSpacings-wider: 0.05em;
+    --letterSpacings-widest: 0.1em;
+
+
+    --lineHeights-3: .75rem;
+    --lineHeights-4: 1rem;
+    --lineHeights-5: 1.25rem;
+    --lineHeights-6: 1.5rem;
+    --lineHeights-7: 1.75rem;
+    --lineHeights-8: 2rem;
+    --lineHeights-9: 2.25rem;
+    --lineHeights-10: 2.5rem;
+    --lineHeights-normal: normal;
+    --lineHeights-none: 1;
+    --lineHeights-shorter: 1.25;
+    --lineHeights-short: 1.375;
+    --lineHeights-base: 1.5;
+    --lineHeights-tall: 1.625;
+    --lineHeights-taller: 2;
+
+    
+
 }
-
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --primary: var(--primary-light);
-  
-    --button-primary: var(--button-primary-light);
-    --button-primary-hover: var(--button-primary-hover-light);
-    --button-primary-active: var(--button-primary-active-light);
-  
-    --button-text: var(--button-text-light);
-    --button-icon: var(--button-icon-light);
-  
-    --link-primary: var(--link-primary-light);
-    --link-primary-hover: var(--link-primary-hover-light);
-  
-    --heading-primary: var(--heading-primary-light);
-    --heading-primary-01: var(--heading-primary-01-light);
-    --heading-primary-02: var(--heading-primary-02-light);
-  
-    --paragraph-primary: var(--paragraph-primary-light);
-    --paragraph-primary-100: var(--paragraph-primary-100-light);
-    --paragraph-primary-200: var(--paragraph-primary-200-light);
-  
-    --surface-layer-01: var(--surface-layer-01-light);
-    --surface-layer-02: var(--surface-layer-02-light);
-    --surface-layer-03: var(--surface-layer-03-light);
-  
-    --surface-layer-01-hover: var(--surface-layer-01-hover-light);
-    --surface-layer-02-hover: var(--surface-layer-02-hover-light);
-    --surface-layer-03-hover: var(--surface-layer-03-hover-light);
-  
-    --border-subtle-01: var(--border-subtle-01-light);
-    --border-subtle-02: var(--border-subtle-02-light);
-    --border-subtle-03: var(--border-subtle-03-light);
-  
-    --secondary-green: var(--secondary-green-light);
-    --secondary-yellow: var(--secondary-yellow-light);
-    --secondary-red: var(--secondary-red-light);
-    --secondary-purple: var(--secondary-purple-light);
-    --secondary-orange: var(--secondary-orange-light);
-    --secondary-brown: var(--secondary-brown-light);
-    --secondary-teal: var(--secondary-teal-light);
-  
-    --background-main: var(--background-main-light);
-
-    --glass-dark: var(--glass-light);
-}
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-light: var(--primary);
-  
-    --button-primary-light: var(--button-primary);
-    --button-primary-hover-light: var(--button-primary-hover);
-    --button-primary-active-light: var(--button-primary-active);
-  
-    --button-text-light: var(--button-text);
-    --button-icon-light: var(--button-icon);
-  
-    --link-primary-light: var(--link-primary);
-    --link-primary-hover-light: var(--link-primary-hover);
-  
-    --heading-primary-light: var(--heading-primary);
-    --heading-primary-01-light: var(--heading-primary-01);
-    --heading-primary-02-light: var(--heading-primary-02);
-  
-    --paragraph-primary-light: var(--paragraph-primary);
-    --paragraph-primary-100-light: var(--paragraph-primary-100);
-    --paragraph-primary-200-light: var(--paragraph-primary-200);
-  
-    --surface-layer-01-light: var(--surface-layer-01);
-    --surface-layer-02-light: var(--surface-layer-02);
-    --surface-layer-03-light: var(--surface-layer-03);
-  
-    --surface-layer-01-hover-light: var(--surface-layer-01-hover);
-    --surface-layer-02-hover-light: var(--surface-layer-02-hover);
-    --surface-layer-03-hover-light: var(--surface-layer-03-hover);
-  
-    --border-subtle-01-light: var(--border-subtle-01);
-    --border-subtle-02-light: var(--border-subtle-02);
-    --border-subtle-03-light: var(--border-subtle-03);
-  
-    --secondary-green-light: var(--secondary-green);
-    --secondary-yellow-light: var(--secondary-yellow);
-    --secondary-red-light: var(--secondary-red);
-    --secondary-purple-light: var(--secondary-purple);
-    --secondary-orange-light: var(--secondary-orange);
-    --secondary-brown-light: var(--secondary-brown);
-    --secondary-teal-light: var(--secondary-teal);
-  
-    --background-main-light: var(--background-main);
-
-    --glass-light: var(--glass-dark);
-}
-} */
 
 
 
@@ -408,7 +311,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basic Grotesque Medium", sans-serif;
+  font-family: var(--fonts-body);
+  letter-spacing: var(--letterSpacings-normal);
+  font-weight: var(--fontWeights-normal);
 }
 
 html {
@@ -449,7 +354,6 @@ body {
   align-content: center;
   justify-content: space-between;
   padding: 6px 8px;
-  /* border: 1px solid var(--border-subtle-01); */
   border-radius: 128px;
   background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(22px);
@@ -476,11 +380,11 @@ body {
 }
 
 #dynamic-nav a {
-  font-size: 15.2px;
+  font-size: 16px;
   color: var(--paragraph-primary);
   text-decoration: none;
-  font-family: "Nova Semibold", sans-serif;
-  /* line-height: 120%; */
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
   padding: 4px;
   background-color: transparent;
   transition: 200ms ease-out;
@@ -566,18 +470,18 @@ body {
 
 .heading {
   font-size: 64px;
-  /* letter-spacing: -0.02em;
-  line-height: 1.08; */
   color: var(--heading-primary);
   max-width: 1064px;
   margin-bottom: 16px;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
 }
 
 .para {
   font-size: 24px;
   color: var(--paragraph-primary-100);
   max-width: 912px;
-  font-family: "Nova Regular", sans-serif;
 }
 
 .mySwiper swiper-slide {
@@ -606,8 +510,9 @@ body {
   background-color: var(--button-primary);
   border-radius: 10px;
   font-size: 16px;
-  letter-spacing: 0.56px;
-  font-family: "Nova Semibold", sans-serif;
+  letter-spacing: var(--letterSpacings-wide);
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
@@ -635,9 +540,11 @@ body {
 
 #selected {
   font-size: 36px;
-  font-weight: 800;
   padding-bottom: 32px;
   color: var(--heading-primary-01);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
 }
 
 #project-container {
@@ -689,15 +596,15 @@ body {
 
 #project-1 h6 {
   font-size: 32px;
-  font-weight: 800;
   color: var(--heading-primary-01);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
 }
 
 #project-1 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #project-2 {
@@ -735,15 +642,15 @@ body {
 
 #project-2 h6 {
   font-size: 32px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
 }
 
 #project-2 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #project-3 {
@@ -772,15 +679,15 @@ body {
 
 #project-3 h6 {
   font-size: 32px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
 }
 
 #project-3 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #project-4 {
@@ -809,14 +716,14 @@ body {
 
 #project-4 h6 {
   font-size: 32px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
 }
 
 #project-4 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
   font-size: 18px;
 }
 
@@ -841,7 +748,9 @@ body {
 
 #writing {
   font-size: 36px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
 }
 
@@ -873,16 +782,16 @@ body {
 
 #info-1 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 8px;
   color: var(--heading-primary-01);
 }
 
 #info-1 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #f-a-bg {
@@ -911,16 +820,16 @@ body {
 } */
 #info-2 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 8px;
   color: var(--heading-primary-01);
 }
 
 #info-2 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #s-a-bg {
@@ -949,16 +858,16 @@ body {
 } */
 #info-3 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 8px;
   color: var(--heading-primary-01);
 }
 
 #info-3 p {
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #t-a-bg {
@@ -984,15 +893,16 @@ body {
 
 .trademark {
   font-size: 18px;
-  font-family: "Nova Regular", sans-serif;
+  font-family: var(--fonts-mono);
   color: var(--paragraph-primary-200);
 }
 
 #bottom-text {
   font-size: 32px;
-  font-weight: 700;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
-  /* line-height: 120%; */
   margin-bottom: 16px;
 }
 
@@ -1007,7 +917,6 @@ body {
   font-size: 18px;
   text-decoration: none;
   transition: 200ms ease-out;
-  font-family: "Nova Regular", sans-serif;
 }
 
 .bottom-icons a:hover {
@@ -1048,7 +957,9 @@ body {
 
 .about {
   font-size: 42px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary);
 }
 
@@ -1069,15 +980,15 @@ body {
 }
 
 .myself p {
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
   font-size: 18px;
   color: var(--paragraph-primary-100);
 }
 
 .question {
   font-size: 36px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
 }
 
@@ -1100,15 +1011,15 @@ body {
 #cricket h6 {
   color: var(--primary-button-text);
   font-size: 32px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 16px;
 }
 
 #cricket p {
   color: var(--primary-button-text);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 #music {
@@ -1122,15 +1033,15 @@ body {
 #music h6 {
   color: var(--primary-button-text);
   font-size: 32px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 16px;
 }
 
 #music p {
   color: var(--primary-button-text);
-  font-family: "Nova Regular", sans-serif;
   font-size: 18px;
-  /* line-height: 120%; */
 }
 
 
@@ -1187,7 +1098,6 @@ body {
 
   #selected {
     font-size: 36px;
-    font-weight: 800;
   }
 
   /* #memoji-photo {
@@ -1269,7 +1179,6 @@ body {
 
   #writing {
     font-size: 36px;
-    font-weight: 800;
   }
 
   #article-section {
@@ -1291,7 +1200,6 @@ body {
 
   #info-1 h6 {
     font-size: 24px;
-    font-weight: 800;
     margin-bottom: 8px;
   }
 
@@ -1314,7 +1222,6 @@ body {
 
   #info-2 h6 {
     font-size: 24px;
-    font-weight: 800;
     margin-bottom: 8px;
   }
 
@@ -1336,7 +1243,6 @@ body {
 
   #info-3 h6 {
     font-size: 24px;
-    font-weight: 800;
     margin-bottom: 8px;
   }
 
@@ -1386,13 +1292,11 @@ body {
 
   #cricket h6 {
     font-size: 32px;
-    font-weight: 800;
     margin-bottom: 16px;
   }
 
   #music h6 {
     font-size: 32px;
-    font-weight: 800;
     margin-bottom: 16px;
   }
 }
@@ -1524,7 +1428,6 @@ body {
 
   #selected {
     font-size: 30px;
-    font-weight: 800;
     padding-bottom: 16px;
   }
 
@@ -1554,7 +1457,6 @@ body {
 
   #project-1 h6 {
     font-size: 26px;
-    font-weight: 800;
   }
 
   #project-1 p {
@@ -1587,7 +1489,6 @@ body {
 
   #project-2 h6 {
     font-size: 26px;
-    font-weight: 800;
   }
 
   #project-2 p {
@@ -1620,7 +1521,6 @@ body {
 
   #project-3 h6 {
     font-size: 26px;
-    font-weight: 800;
   }
 
   #project-3 p {
@@ -1653,7 +1553,6 @@ body {
 
   #project-4 h6 {
     font-size: 26px;
-    font-weight: 800;
   }
 
   #project-4 p {
@@ -1679,7 +1578,6 @@ body {
 
   #writing {
     font-size: 30px;
-    font-weight: 800;
   }
 
   #info-1 {
@@ -1689,7 +1587,6 @@ body {
   #info-1 h6 {
     min-width: 100%;
     font-size: 26px;
-    font-weight: 800;
     margin-bottom: 8px;
   }
 
@@ -1706,7 +1603,6 @@ body {
 
   #info-2 h6 {
     font-size: 26px;
-    font-weight: 800;
     margin-bottom: 8px;
   }
 
@@ -1723,7 +1619,6 @@ body {
 
   #info-3 h6 {
     font-size: 26px;
-    font-weight: 800;
     margin-bottom: 8px;
   }
 

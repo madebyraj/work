@@ -55,7 +55,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #121212;
+  --background-main: #141414;
 
   --glass-dark: rgba(29, 29, 31, 0.72);
 
@@ -122,110 +122,59 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(255,255,255,0.72);
+  --glass-light: rgba(255, 255, 255, 0.72);
 
   --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.08), 0px 0px 1px 1px rgba(0, 0, 0, 0.16);
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+
+
+
+
+    /* Fonts */
+
+
+    --fonts-heading: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-body: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+    --fontWeights-thin: 200;
+    --fontWeights-light: 300;
+    --fontWeights-normal: 400;
+    --fontWeights-medium: 600;
+    --fontWeights-semibold: 600;
+    --fontWeights-bold: 700;
+    --fontWeights-extrabold: 800;
+    --fontWeights-black: 900;
+  
+  
+    --letterSpacings-tighter: -0.05em;
+    --letterSpacings-tight: -0.025em;
+    --letterSpacings-normal: 0;
+    --letterSpacings-wide: 0.025em;
+    --letterSpacings-wider: 0.05em;
+    --letterSpacings-widest: 0.1em;
+
+
+    --lineHeights-3: .75rem;
+    --lineHeights-4: 1rem;
+    --lineHeights-5: 1.25rem;
+    --lineHeights-6: 1.5rem;
+    --lineHeights-7: 1.75rem;
+    --lineHeights-8: 2rem;
+    --lineHeights-9: 2.25rem;
+    --lineHeights-10: 2.5rem;
+    --lineHeights-normal: normal;
+    --lineHeights-none: 1;
+    --lineHeights-shorter: 1.25;
+    --lineHeights-short: 1.375;
+    --lineHeights-base: 1.5;
+    --lineHeights-tall: 1.625;
+    --lineHeights-taller: 2;
+
+
+
 }
-
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --primary: var(--primary-light);
-  
-    --button-primary: var(--button-primary-light);
-    --button-primary-hover: var(--button-primary-hover-light);
-    --button-primary-active: var(--button-primary-active-light);
-  
-    --button-text: var(--button-text-light);
-    --button-icon: var(--button-icon-light);
-  
-    --link-primary: var(--link-primary-light);
-    --link-primary-hover: var(--link-primary-hover-light);
-  
-    --heading-primary: var(--heading-primary-light);
-    --heading-primary-01: var(--heading-primary-01-light);
-    --heading-primary-02: var(--heading-primary-02-light);
-  
-    --paragraph-primary: var(--paragraph-primary-light);
-    --paragraph-primary-100: var(--paragraph-primary-100-light);
-    --paragraph-primary-200: var(--paragraph-primary-200-light);
-  
-    --surface-layer-01: var(--surface-layer-01-light);
-    --surface-layer-02: var(--surface-layer-02-light);
-    --surface-layer-03: var(--surface-layer-03-light);
-  
-    --surface-layer-01-hover: var(--surface-layer-01-hover-light);
-    --surface-layer-02-hover: var(--surface-layer-02-hover-light);
-    --surface-layer-03-hover: var(--surface-layer-03-hover-light);
-  
-    --border-subtle-01: var(--border-subtle-01-light);
-    --border-subtle-02: var(--border-subtle-02-light);
-    --border-subtle-03: var(--border-subtle-03-light);
-  
-    --secondary-green: var(--secondary-green-light);
-    --secondary-yellow: var(--secondary-yellow-light);
-    --secondary-red: var(--secondary-red-light);
-    --secondary-purple: var(--secondary-purple-light);
-    --secondary-orange: var(--secondary-orange-light);
-    --secondary-brown: var(--secondary-brown-light);
-    --secondary-teal: var(--secondary-teal-light);
-  
-    --background-main: var(--background-main-light);
-
-    --glass-dark: var(--glass-light);
-}
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-light: var(--primary);
-  
-    --button-primary-light: var(--button-primary);
-    --button-primary-hover-light: var(--button-primary-hover);
-    --button-primary-active-light: var(--button-primary-active);
-  
-    --button-text-light: var(--button-text);
-    --button-icon-light: var(--button-icon);
-  
-    --link-primary-light: var(--link-primary);
-    --link-primary-hover-light: var(--link-primary-hover);
-  
-    --heading-primary-light: var(--heading-primary);
-    --heading-primary-01-light: var(--heading-primary-01);
-    --heading-primary-02-light: var(--heading-primary-02);
-  
-    --paragraph-primary-light: var(--paragraph-primary);
-    --paragraph-primary-100-light: var(--paragraph-primary-100);
-    --paragraph-primary-200-light: var(--paragraph-primary-200);
-  
-    --surface-layer-01-light: var(--surface-layer-01);
-    --surface-layer-02-light: var(--surface-layer-02);
-    --surface-layer-03-light: var(--surface-layer-03);
-  
-    --surface-layer-01-hover-light: var(--surface-layer-01-hover);
-    --surface-layer-02-hover-light: var(--surface-layer-02-hover);
-    --surface-layer-03-hover-light: var(--surface-layer-03-hover);
-  
-    --border-subtle-01-light: var(--border-subtle-01);
-    --border-subtle-02-light: var(--border-subtle-02);
-    --border-subtle-03-light: var(--border-subtle-03);
-  
-    --secondary-green-light: var(--secondary-green);
-    --secondary-yellow-light: var(--secondary-yellow);
-    --secondary-red-light: var(--secondary-red);
-    --secondary-purple-light: var(--secondary-purple);
-    --secondary-orange-light: var(--secondary-orange);
-    --secondary-brown-light: var(--secondary-brown);
-    --secondary-teal-light: var(--secondary-teal);
-  
-    --background-main-light: var(--background-main);
-
-    --glass-light: var(--glass-dark);
-}
-} */
 
 
 
@@ -363,7 +312,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basic Grotesque Medium", sans-serif;
+  font-family: var(--fonts-body);
+  letter-spacing: var(--letterSpacings-normal);
+  font-weight: var(--fontWeights-normal);
 }
 
 html {
@@ -419,15 +370,15 @@ main {
 
 .inner-nav a {
   padding: 8px 0px;
-  font-family: "Nova Semibold", sans-serif;
   font-size: 16px;
   color: var(--paragraph-primary);
-  font-weight: 400;
   text-decoration: none;
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .inner-nav a:hover {
-  text-decoration: underline var(--link-primary-hover);
+  color: var(--link-primary-hover);
 }
 
 #back-to-top {
@@ -468,27 +419,25 @@ main {
 
 #head {
   font-size: 42px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 16px;
   color: var(--heading-primary);
 }
 
 .cs {
   font-size: 18px;
-  font-weight: 400;
+  font-family: var(--fonts-mono);
   color: var(--paragraph-primary-200);
-  letter-spacing: 2px;
-  font-family: "Nova Semibold", sans-serif;
+  letter-spacing: var(--letterSpacings-wide);
   margin-bottom: 16px;
-  /* line-height: 120%; */
 }
 
 .po {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   margin-bottom: 16px;
-  /* line-height: 120%; */
 }
 
 #project-info {
@@ -502,7 +451,9 @@ main {
 
 .r-r h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -510,13 +461,13 @@ main {
 .r-r p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .p-c h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -524,13 +475,13 @@ main {
 .p-c p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .tools h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -538,8 +489,6 @@ main {
 .tools p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .line {
@@ -558,7 +507,9 @@ main {
 
 #problem-s h6 {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -573,8 +524,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #tackling-tp {
@@ -584,7 +533,9 @@ main {
 
 #tackling-tp h6 {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -599,8 +550,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #tackling-bg {
@@ -618,7 +567,9 @@ main {
 
 #re-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -633,8 +584,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #re-bg {
@@ -652,7 +601,9 @@ main {
 
 #id-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -665,7 +616,9 @@ main {
 
 #hmw-head {
   font-size: 24px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -678,13 +631,13 @@ main {
 
 #hmw-q p {
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #low-fi {
   font-size: 24px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -692,7 +645,6 @@ main {
 #lf-para {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
   margin-bottom: 16px;
 }
 
@@ -720,7 +672,9 @@ main {
 
 #ta-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -735,8 +689,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #em-task {
@@ -763,7 +715,9 @@ main {
 
 #so-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -778,8 +732,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #main-sol-sec {
@@ -797,7 +749,9 @@ main {
 
 .for-em h6 {
   font-size: 24px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -816,7 +770,9 @@ main {
 
 .for-ma h6 {
   font-size: 24px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -835,7 +791,9 @@ main {
 
 #pr-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -851,8 +809,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .main-map {
@@ -875,7 +831,9 @@ main {
 
 #ke-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -898,7 +856,9 @@ main {
 
 #fn-head {
   font-size: 36px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   text-align: center;
   margin-bottom: 8px;
@@ -910,7 +870,6 @@ main {
   font-weight: 500;
   color: var(--button-text);
   font-size: 20px;
-  font-family: "Nova Semibold", sans-serif;
   padding: 2px 4px;
   border-radius: 2px;
   display: flex;
@@ -936,8 +895,6 @@ main {
 #in-sec p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 
@@ -1039,13 +996,16 @@ main {
 
   #head {
     font-size: 36px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 12px;
   }
 
   .cs {
     font-size: 16px;
-    font-weight: 400;
+
+    font-family: var(--fonts-mono);
     margin-bottom: 12px;
   }
 
@@ -1077,7 +1037,9 @@ main {
 
   .r-r h6 {
     font-size: 24px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1087,7 +1049,9 @@ main {
 
   .p-c h6 {
     font-size: 24px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1097,7 +1061,9 @@ main {
 
   .tools h6 {
     font-size: 24px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1112,7 +1078,9 @@ main {
 
   #problem-s h6 {
     font-size: 24px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1130,7 +1098,9 @@ main {
 
   #tackling-tp h6 {
     font-size: 24px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1149,7 +1119,9 @@ main {
 
   #re-head {
     font-size: 24px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1168,7 +1140,9 @@ main {
 
   #id-head {
     font-size: 26px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1178,7 +1152,9 @@ main {
 
   #hmw-head {
     font-size: 22px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 12px;
   }
 
@@ -1192,7 +1168,9 @@ main {
 
   #low-fi {
     font-size: 22px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 24px;
   }
 
@@ -1207,7 +1185,9 @@ main {
 
   #ta-head {
     font-size: 26px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1226,7 +1206,9 @@ main {
 
   #so-head {
     font-size: 26px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1277,7 +1259,9 @@ main {
 
   #pr-head {
     font-size: 26px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1303,7 +1287,9 @@ main {
 
   #ke-head {
     font-size: 26px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1322,7 +1308,9 @@ main {
 
   #fn-head {
     font-size: 36px;
-    font-weight: 800;
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     text-align: center;
     margin-bottom: 8px;
   }

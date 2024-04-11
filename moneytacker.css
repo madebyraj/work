@@ -55,7 +55,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #121212;
+  --background-main: #141414;
 
   --glass-dark: rgba(29, 29, 31, 0.72);
 
@@ -122,11 +122,187 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(255,255,255,0.72);
+  --glass-light: rgba(255, 255, 255, 0.72);
 
   --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.08), 0px 0px 1px 1px rgba(0, 0, 0, 0.16);
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+
+
+
+
+    /* Fonts */
+
+
+    --fonts-heading: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-body: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+    --fontWeights-thin: 200;
+    --fontWeights-light: 300;
+    --fontWeights-normal: 400;
+    --fontWeights-medium: 600;
+    --fontWeights-semibold: 600;
+    --fontWeights-bold: 700;
+    --fontWeights-extrabold: 800;
+    --fontWeights-black: 900;
+  
+  
+    --letterSpacings-tighter: -0.05em;
+    --letterSpacings-tight: -0.025em;
+    --letterSpacings-normal: 0;
+    --letterSpacings-wide: 0.025em;
+    --letterSpacings-wider: 0.05em;
+    --letterSpacings-widest: 0.1em;
+
+
+    --lineHeights-3: .75rem;
+    --lineHeights-4: 1rem;
+    --lineHeights-5: 1.25rem;
+    --lineHeights-6: 1.5rem;
+    --lineHeights-7: 1.75rem;
+    --lineHeights-8: 2rem;
+    --lineHeights-9: 2.25rem;
+    --lineHeights-10: 2.5rem;
+    --lineHeights-normal: normal;
+    --lineHeights-none: 1;
+    --lineHeights-shorter: 1.25;
+    --lineHeights-short: 1.375;
+    --lineHeights-base: 1.5;
+    --lineHeights-tall: 1.625;
+    --lineHeights-taller: 2;
+
+
+
+}
+
+
+
+
+[color-scheme="dark"] {
+
+  --primary-light: var(--primary);
+
+  --button-primary-light: var(--button-primary);
+  --button-primary-hover-light: var(--button-primary-hover);
+  --button-primary-active-light: var(--button-primary-active);
+
+  --button-secondary-light: var(--button-secondary);
+  --button-secondary-hover-light: var(--button-secondary-hover);
+  --button-secondary-active-light: var(--button-secondary-active);
+
+  --secondary-button-text-light: var(--secondary-button-text-dark);
+  --secondary-button-icon-light: var(--secondary-button-icon-dark);
+
+
+  --button-text-light: var(--button-text);
+  --button-icon-light: var(--button-icon);
+
+  --link-primary-light: var(--link-primary);
+  --link-primary-hover-light: var(--link-primary-hover);
+
+  --heading-primary-light: var(--heading-primary);
+  --heading-primary-01-light: var(--heading-primary-01);
+  --heading-primary-02-light: var(--heading-primary-02);
+
+  --paragraph-primary-light: var(--paragraph-primary);
+  --paragraph-primary-100-light: var(--paragraph-primary-100);
+  --paragraph-primary-200-light: var(--paragraph-primary-200);
+
+  --surface-layer-01-light: var(--surface-layer-01);
+  --surface-layer-02-light: var(--surface-layer-02);
+  --surface-layer-03-light: var(--surface-layer-03);
+
+  --surface-layer-01-hover-light: var(--surface-layer-01-hover);
+  --surface-layer-02-hover-light: var(--surface-layer-02-hover);
+  --surface-layer-03-hover-light: var(--surface-layer-03-hover);
+
+  --border-subtle-01-light: var(--border-subtle-01);
+  --border-subtle-02-light: var(--border-subtle-02);
+  --border-subtle-03-light: var(--border-subtle-03);
+
+  --partition-light: var(--partition-dark);
+
+  --secondary-green-light: var(--secondary-green);
+  --secondary-yellow-light: var(--secondary-yellow);
+  --secondary-red-light: var(--secondary-red);
+  --secondary-purple-light: var(--secondary-purple);
+  --secondary-orange-light: var(--secondary-orange);
+  --secondary-brown-light: var(--secondary-brown);
+  --secondary-teal-light: var(--secondary-teal);
+
+  --background-main-light: var(--background-main);
+
+  --glass-light: var(--glass-dark);
+
+  --drop-shadow-light: var(--drop-shadow-dark);
+
+  --button-drop-shadow-light: var(--button-drop-shadow-dark);
+
+}
+
+
+
+
+[color-scheme="light"] {
+
+  --primary: var(--primary-light);
+
+  --button-primary: var(--button-primary-light);
+  --button-primary-hover: var(--button-primary-hover-light);
+  --button-primary-active: var(--button-primary-active-light);
+
+  --button-secondary: var(--button-secondary-light);
+  --button-secondary-hover: var(--button-secondary-hover-light);
+  --button-secondary-active: var(--button-secondary-active-light);
+
+  --secondary-button-text-dark: var(--secondary-button-text-light);
+  --secondary-button-icon-dark: var(--secondary-button-icon-light);
+
+  --button-text: var(--button-text-light);
+  --button-icon: var(--button-icon-light);
+
+  --link-primary: var(--link-primary-light);
+  --link-primary-hover: var(--link-primary-hover-light);
+
+  --heading-primary: var(--heading-primary-light);
+  --heading-primary-01: var(--heading-primary-01-light);
+  --heading-primary-02: var(--heading-primary-02-light);
+
+  --paragraph-primary: var(--paragraph-primary-light);
+  --paragraph-primary-100: var(--paragraph-primary-100-light);
+  --paragraph-primary-200: var(--paragraph-primary-200-light);
+
+  --surface-layer-01: var(--surface-layer-01-light);
+  --surface-layer-02: var(--surface-layer-02-light);
+  --surface-layer-03: var(--surface-layer-03-light);
+
+  --surface-layer-01-hover: var(--surface-layer-01-hover-light);
+  --surface-layer-02-hover: var(--surface-layer-02-hover-light);
+  --surface-layer-03-hover: var(--surface-layer-03-hover-light);
+
+  --border-subtle-01: var(--border-subtle-01-light);
+  --border-subtle-02: var(--border-subtle-02-light);
+  --border-subtle-03: var(--border-subtle-03-light);
+
+  --partition-dark: var(--partition-light);
+
+  --secondary-green: var(--secondary-green-light);
+  --secondary-yellow: var(--secondary-yellow-light);
+  --secondary-red: var(--secondary-red-light);
+  --secondary-purple: var(--secondary-purple-light);
+  --secondary-orange: var(--secondary-orange-light);
+  --secondary-brown: var(--secondary-brown-light);
+  --secondary-teal: var(--secondary-teal-light);
+
+  --background-main: var(--background-main-light);
+
+  --glass-dark: var(--glass-light);
+
+  --drop-shadow-dark: var(--drop-shadow-light);
+
+  --button-drop-shadow-dark: var(--button-drop-shadow-light);
+
 }
 
 
@@ -135,7 +311,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basic Grotesque Medium", sans-serif;
+  font-family: var(--fonts-body);
+  letter-spacing: var(--letterSpacings-normal);
+  font-weight: var(--fontWeights-normal);
 }
 
 html {
@@ -191,14 +369,15 @@ main {
 
 .inner-nav a {
   padding: 8px 0px;
-  font-family: "Nova Semibold", sans-serif;
   font-size: 16px;
   color: var(--paragraph-primary);
   text-decoration: none;
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .inner-nav a:hover {
-  text-decoration: underline var(--link-primary-hover);
+  color: var(--link-primary-hover);
 }
 
 #back-to-top {
@@ -239,7 +418,9 @@ main {
 
 #head {
   font-size: 42px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   margin-bottom: 16px;
   color: var(--heading-primary);
 }
@@ -249,17 +430,13 @@ main {
   font-weight: 400;
   letter-spacing: 32%;
   color: var(--paragraph-primary-200);
-  font-family: "Nova Semibold", sans-serif;
   margin-bottom: 16px;
-  /* line-height: 120%; */
-  letter-spacing: 2px;
+  letter-spacing: var(--letterSpacings-wide);
 }
 
 .po {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
   margin-bottom: 16px;
 }
 
@@ -274,7 +451,9 @@ main {
 
 .r-r h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -282,13 +461,13 @@ main {
 .r-r p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .p-c h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -296,13 +475,13 @@ main {
 .p-c p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .tools h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -310,13 +489,9 @@ main {
 .tools p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .why-i {
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
   font-size: 18px;
   color: var(--paragraph-primary-100);
   /* margin-bottom: 24px; */
@@ -337,7 +512,9 @@ main {
 
 #problem-s h6 {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -351,8 +528,6 @@ main {
 #problem-s p {
   font-size: 18px;
   color: var(--paragraph-primary-100);
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .design-goal {
@@ -369,7 +544,9 @@ main {
 
 #sol-h {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -402,7 +579,9 @@ main {
 
 #sol-info1 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 16px;
 }
@@ -411,8 +590,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 8px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .sol-2 {
@@ -438,7 +615,9 @@ main {
 
 #sol-info2 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 16px;
 }
@@ -447,8 +626,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 8px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .sol-3 {
@@ -473,7 +650,9 @@ main {
 
 #sol-info3 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 16px;
 }
@@ -482,8 +661,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 8px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .sol-4 {
@@ -509,7 +686,9 @@ main {
 
 #sol-info4 h6 {
   font-size: 28px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 16px;
 }
@@ -518,8 +697,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 8px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #my-ap {
@@ -529,7 +706,9 @@ main {
 
 #ap-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -555,7 +734,9 @@ main {
 
 #re-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -570,16 +751,12 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .end-users {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .full-research {
@@ -588,10 +765,10 @@ main {
   background-color: var(--button-secondary);
   border-radius: 10px;
   font-size: 16px;
-  letter-spacing: 0.56px;
-  font-family: "Nova Semibold", sans-serif;
-  /* line-height: 120%; */
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
   color: var(--secondary-button-text-dark);
+  letter-spacing: var(--letterSpacings-wide);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -612,7 +789,9 @@ main {
 
 #q-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -627,8 +806,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #insights {
@@ -638,7 +815,9 @@ main {
 
 #in-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -653,8 +832,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .in-bg {
@@ -681,7 +858,9 @@ main {
 
 #de-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -696,8 +875,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #wireframes {
@@ -724,7 +901,9 @@ main {
 
 #pr-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -739,8 +918,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #pr-link {
@@ -749,10 +926,10 @@ main {
   background-color: var(--button-secondary);
   border-radius: 10px;
   font-size: 16px;
-  letter-spacing: 0.56px;
-  font-family: "Nova Semibold", sans-serif;
-  /* line-height: 120%; */
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
   color: var(--secondary-button-text-dark);
+  letter-spacing: var(--letterSpacings-wide);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -786,7 +963,9 @@ main {
 
 #ev-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -801,16 +980,12 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .observe {
   color: var(--paragraph-primary-100);
   font-size: 18px;
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 .usa-test {
@@ -836,7 +1011,9 @@ main {
 
 #lr-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -851,8 +1028,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #next-st {
@@ -861,7 +1036,9 @@ main {
 
 #ns-head {
   font-size: 30px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -876,8 +1053,6 @@ main {
   font-size: 18px;
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
-  font-family: "Nova Regular", sans-serif;
-  /* line-height: 120%; */
 }
 
 #finish {
@@ -886,7 +1061,9 @@ main {
 
 #fn-head {
   font-size: 36px;
-  font-weight: 800;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--heading-primary-01);
   text-align: center;
   margin-bottom: 8px;
@@ -898,7 +1075,6 @@ main {
   font-weight: 500;
   color: var(--button-text);
   font-size: 20px;
-  font-family: "Nova Semibold", sans-serif;
   padding: 2px 4px;
   border-radius: 2px;
   display: flex;
@@ -1007,7 +1183,10 @@ main {
 
   #head {
     font-size: 36px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 12px;
   }
 
@@ -1045,7 +1224,10 @@ main {
 
   .r-r h6 {
     font-size: 24px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1055,7 +1237,10 @@ main {
 
   .p-c h6 {
     font-size: 24px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1065,7 +1250,10 @@ main {
 
   .tools h6 {
     font-size: 24px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1084,7 +1272,10 @@ main {
 
   #problem-s h6 {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1113,7 +1304,10 @@ main {
 
   #sol-h {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
 
@@ -1140,7 +1334,10 @@ main {
   #sol-info1 h6 {
     display: block;
     font-size: 24px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1168,7 +1365,10 @@ main {
 
   #sol-info2 h6 {
     font-size: 28px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1195,7 +1395,10 @@ main {
 
   #sol-info3 h6 {
     font-size: 28px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1222,7 +1425,10 @@ main {
 
   #sol-info4 h6 {
     font-size: 28px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
     min-width: 100%;
   }
@@ -1239,7 +1445,10 @@ main {
 
   #ap-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1253,7 +1462,10 @@ main {
 
   #re-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1285,7 +1497,10 @@ main {
 
   #q-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1304,7 +1519,10 @@ main {
 
   #in-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1323,7 +1541,10 @@ main {
 
   #de-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1342,7 +1563,10 @@ main {
 
   #pr-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1370,7 +1594,10 @@ main {
 
   #ev-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1398,7 +1625,10 @@ main {
 
   #lr-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1417,7 +1647,10 @@ main {
 
   #ns-head {
     font-size: 26px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
 
@@ -1436,7 +1669,10 @@ main {
 
   #fn-head {
     font-size: 36px;
-    font-weight: 800;
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-tight);
     text-align: center;
     margin-bottom: 8px;
   }
