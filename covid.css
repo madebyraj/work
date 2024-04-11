@@ -9,9 +9,9 @@
   --button-primary-hover: #0974E0;
   --button-primary-active: #086FD6;
 
-  --button-secondary: #6F6F6F;
-  --button-secondary-hover: #606060;
-  --button-secondary-active: #393939;
+  --button-secondary: #292B34;
+  --button-secondary-hover: #43444C;
+  --button-secondary-active: #5C5E65;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -29,9 +29,9 @@
   --heading-primary-01: #EBEBED;
   --heading-primary-02: #E1E1E3;
 
-  --paragraph-primary: #EFEFEF;
-  --paragraph-primary-100: #E5E5E5;
-  --paragraph-primary-200: #DCDCDC;
+  --paragraph-primary: #E6EBF0;
+  --paragraph-primary-100: #C4D7E9;
+  --paragraph-primary-200: #B4CCE3;
 
   --surface-layer-01: #141414;
   --surface-layer-02: #181818;
@@ -55,7 +55,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #141414;
+  --background-main: #0E1014;
 
   --glass-dark: rgba(29, 29, 31, 0.72);
 
@@ -77,9 +77,9 @@
   --button-primary-hover-light: #1F8AFF;
   --button-primary-active-light: #3D9AFF;
 
-  --button-secondary-light: #E8E8E8;
-  --button-secondary-hover-light: #CCCCCC;
-  --button-secondary-active-light: #B0B0B0;
+  --button-secondary-light: #EDF2F7;
+  --button-secondary-hover-light: #D1D5D9;
+  --button-secondary-active-light: #B4B8BC;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
@@ -94,9 +94,9 @@
   --heading-primary-01-light: #212123;
   --heading-primary-02-light: #2A2A2C;
 
-  --paragraph-primary-light: #2D2D2D;
-  --paragraph-primary-100-light: #353535;
-  --paragraph-primary-200-light: #3E3E3E;
+  --paragraph-primary-light: #2C3035;
+  --paragraph-primary-100-light: #2E4255;
+  --paragraph-primary-200-light: #344C65;
 
   --surface-layer-01-light: #FDFDFD;
   --surface-layer-02-light: #FAFAFA;
@@ -172,7 +172,7 @@
     --lineHeights-tall: 1.625;
     --lineHeights-taller: 2;
 
-
+    
 
 }
 
@@ -423,6 +423,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   margin-bottom: 16px;
   color: var(--heading-primary);
 }
@@ -455,6 +456,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -469,6 +471,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -483,6 +486,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 8px;
 }
@@ -511,6 +515,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -537,6 +542,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -571,6 +577,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -605,6 +612,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -620,6 +628,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -639,6 +648,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -676,6 +686,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -719,6 +730,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -753,6 +765,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -774,6 +787,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 24px;
 }
@@ -795,6 +809,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -835,6 +850,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   margin-bottom: 32px;
 }
@@ -860,6 +876,7 @@ main {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
   color: var(--heading-primary-01);
   text-align: center;
   margin-bottom: 8px;
