@@ -103,9 +103,9 @@
 
   --background-main: #121212;
 
-  --glass-dark: rgba(40, 40, 40, 0.58);
+  --glass-dark: rgba(29, 29, 31, 0.72);
 
-  --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 4px 20px 0px rgba(0, 0, 0, 0.45);
+  --drop-shadow-dark: 0px 0px 1px 1px #393939, 0px 4px 20px 0px rgba(0, 0, 0, 0.40);
 
   --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
 
@@ -168,9 +168,9 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(246, 246, 246, 0.72);
+  --glass-light: rgba(255,255,255,0.72);
 
-  --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.12), 0px 0px 2px 0px rgba(0, 0, 0, 0.16);
+  --drop-shadow-light: 0px 4px 25px 0px rgba(18, 18, 18, 0.08), 0px 0px 1px 1px rgba(0, 0, 0, 0.16);
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
 }
@@ -581,7 +581,7 @@ body {
 }
 
 .mySwiper swiper-slide {
-  border-radius: 12px;
+  border-radius: 16px;
   width: fit-content;
   height: fit-content;
 }
