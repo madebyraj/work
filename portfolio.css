@@ -375,9 +375,12 @@ body {
 }
 
 .logo {
-  text-decoration: none;
   height: 44px;
   width: 44px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(./assets/mylogo.png);
   background-size: cover;
   background-position: center;
@@ -393,9 +396,7 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
   padding: 4px;
-  background-color: transparent;
   transition: 200ms ease-out;
-  text-decoration: none;
 }
 
 #dynamic-nav a:hover {
