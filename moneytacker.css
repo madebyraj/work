@@ -61,7 +61,7 @@
 
   --nav-border-dark: rgba(60, 43, 153, 0.125);
 
-  --drop-shadow-dark: rgba(255, 255, 255, 0.2) 0px -1px 0px inset, rgba(0, 0, 0, 0.05) 0px 8px 24px, rgba(10, 132, 255, 10%) 0px 8px 24px;
+  --drop-shadow-dark: rgba(255, 255, 255, 0.2) 0px -1px 0px inset, rgba(0, 0, 0, 0.05) 0px 8px 24px, rgba(10, 132, 255, 10%) 0px 4px 24px;
 
   --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
 
@@ -128,7 +128,7 @@
 
   --nav-border-light: #EDF2F7;
 
-  --drop-shadow-light: inset 0 -1px 0 hsla(100, 100%, 100%, 0.2), 0 8px 24px rgba(255, 255, 255, .05), 0px 8px 24px rgba(20, 141, 255, 10%);
+  --drop-shadow-light: inset 0 -1px 0 hsla(100, 100%, 100%, 0.2), 0 8px 24px rgba(255, 255, 255, .05), 0px 4px 24px rgba(20, 141, 255, 10%);
 
   --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
 
@@ -362,7 +362,7 @@ main {
   border-radius: 0px 8px 8px 0px;
   padding: 12px 24px;
   z-index: 100;
-  box-shadow: var(--drop-shadow-dark);
+  border: 1px solid var(--nav-border-dark);
 }
 
 #side-navbar .inner-nav {
@@ -399,7 +399,7 @@ main {
   background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(22px);
   text-decoration: none;
-  box-shadow: var(--drop-shadow-dark);
+  border: 1px solid var(--nav-border-dark);
 }
 
 #back-to-top:hover {
@@ -781,7 +781,7 @@ main {
   width: fit-content;
   padding: 15px 24px;
   background-color: var(--button-secondary);
-  border-radius: 10px;
+  border-radius: 128px;
   font-size: 16px;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -946,7 +946,7 @@ main {
   width: fit-content;
   padding: 15px 24px;
   background-color: var(--button-secondary);
-  border-radius: 10px;
+  border-radius: 128px;
   font-size: 16px;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
