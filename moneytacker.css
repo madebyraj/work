@@ -779,9 +779,9 @@ main {
 
 .full-research {
   width: fit-content;
-  padding: 15px 24px;
+  padding: 14px 18px;
   background-color: var(--button-secondary);
-  border-radius: 128px;
+  border-radius: 10px;
   font-size: 16px;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -944,9 +944,9 @@ main {
 
 #pr-link {
   width: fit-content;
-  padding: 15px 24px;
+  padding: 14px 18px;
   background-color: var(--button-secondary);
-  border-radius: 128px;
+  border-radius: 10px;
   font-size: 16px;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
