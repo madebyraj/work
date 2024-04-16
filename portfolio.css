@@ -537,13 +537,6 @@ body {
   gap: 8px;
 }
 
-.dive-in::after{
-  content: "→";
-}
-/* #arrow-right {
-  font-size: 20px;
-} */
-
 .dive-in:hover {
   background-color: var(--button-primary-hover);
   cursor: pointer;
@@ -1104,6 +1097,11 @@ body {
     margin: 0px;
   }
 
+  .swiper-wrapper{
+    padding: 0px 48px;
+  }
+
+
   .main {
     padding-top: 0px;
     order: 2;
@@ -1413,6 +1411,10 @@ body {
     height: fit-content;
     padding: 32px 24px;
     gap: 24px;
+  }
+
+  .swiper-wrapper{
+    padding: 0px 16px;
   }
 
   /* #memoji {
