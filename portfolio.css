@@ -73,15 +73,15 @@
 
   /* Light Mode */
 
-  --primary-light: #148EFF;
+  --primary-light: #0081F2;
 
-  --button-primary-light: #007AFF;
-  --button-primary-hover-light: #1F8AFF;
-  --button-primary-active-light: #3D9AFF;
+  --button-primary-light: #0081F2;
+  --button-primary-hover-light: #045AC4;
+  --button-primary-active-light: #045AC4;
 
-  --button-secondary-light: #EDF2F7;
-  --button-secondary-hover-light: #DADFE3;
-  --button-secondary-active-light: #D1D5D9;
+  --button-secondary-light: #F6F5F4;
+  --button-secondary-hover-light: #F1EFEE;
+  --button-secondary-active-light: #F1EFEE;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
@@ -89,30 +89,30 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #0066CC;
-  --link-primary-hover-light: #0062C4;
+  --link-primary-light: #0081F2;
+  --link-primary-hover-light: #045AC4;
 
-  --heading-primary-light: #181A1E;
-  --heading-primary-01-light: #171C23;
-  --heading-primary-02-light: #171E28;
+  --heading-primary-light: #050505;
+  --heading-primary-01-light: #121212;
+  --heading-primary-02-light: #666666;
 
-  --paragraph-primary-light: #2C3035;
-  --paragraph-primary-100-light: #2E4255;
-  --paragraph-primary-200-light: #344C65;
+  --paragraph-primary-light: #050505;
+  --paragraph-primary-100-light: #121212;
+  --paragraph-primary-200-light: #666666;
 
-  --surface-layer-01-light: #FDFDFD;
-  --surface-layer-02-light: #FAFAFA;
-  --surface-layer-03-light: #F8F8F8;
+  --surface-layer-01-light: #FFFDFA;
+  --surface-layer-02-light: #F6F5F4;
+  --surface-layer-03-light: #F1EFEE;
 
-  --surface-layer-01-hover-light: #EEEEF2;
-  --surface-layer-02-hover-light: #EAEAEE;
-  --surface-layer-03-hover-light: #E4E4E8;
+  --surface-layer-01-hover-light: #F5F3F0;
+  --surface-layer-02-hover-light: #ECEBEA;
+  --surface-layer-03-hover-light: #E7E5E4;
 
-  --border-subtle-01-light: #FBFBFD;
-  --border-subtle-02-light: #F9F9FA;
-  --border-subtle-03-light: #F6F6F8;
+  --border-subtle-01-light: #E6E6E6;
+  --border-subtle-02-light: #CCCCCC;
+  --border-subtle-03-light: #999999;
 
-  --partition-light: #F5F6F7;
+  --partition-light: #E6E6E6;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -126,9 +126,9 @@
 
   --glass-light: rgba(255, 255, 255, 0.8);
 
-  --nav-border-light: #EDF2F7;
+  --nav-border-light: #CCCCCC;
 
-  --drop-shadow-light: inset 0 -1px 0 hsla(100, 100%, 100%, 0.2), 0 8px 24px rgba(255, 255, 255, .05), 0px 4px 24px rgba(20, 141, 255, 10%);
+  --drop-shadow-light: 0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013);
 
   --button-drop-shadow-light: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
@@ -1041,20 +1041,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  gap: 48px;
+  gap: 64px;
   min-width: 100%;
 }
 
 #cricket {
   width: 100%;
-  padding: 16px;
-  background-image: var(--green-gradient);
-  border: 0.4px solid var(--border-subtle-02);
-  border-radius: 16px;
 }
 
 #cricket h6 {
-  color: var(--primary-button-text);
+  color: var(--heading-primary-01);
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -1064,20 +1060,16 @@ body {
 }
 
 #cricket p {
-  color: var(--primary-button-text);
+  color: var(--paragraph-primary-100);
   font-size: var(--fontSizes-18);
 }
 
 #music {
   width: 100%;
-  padding: 16px;
-  background-image: var(--blue-gradient);
-  border: 0.4px solid var(--border-subtle-02);
-  border-radius: 16px;
 }
 
 #music h6 {
-  color: var(--primary-button-text);
+  color: var(--heading-primary-01);
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -1087,7 +1079,7 @@ body {
 }
 
 #music p {
-  color: var(--primary-button-text);
+  color: var(--paragraph-primary-100);
   font-size: var(--fontSizes-18);
 }
 
