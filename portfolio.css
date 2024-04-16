@@ -343,7 +343,7 @@
   font-family: var(--fonts-body);
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
-  line-height: var(--lineHeights-base);
+  line-height: var(--lineHeights-short);
 }
 
 html {

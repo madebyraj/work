@@ -63,7 +63,7 @@
 
   --drop-shadow-dark: rgba(255, 255, 255, 0.2) 0px -1px 0px inset, rgba(0, 0, 0, 0.05) 0px 8px 24px, rgba(10, 132, 255, 10%) 0px 4px 24px;
 
-  --button-drop-shadow-dark: 0px 1px 2.5px 0px rgba(15, 98, 254, 0.24), 0px 0px 0px 0.5px rgba(15, 98, 254, 0.12);
+  --button-drop-shadow-dark: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
 
 
@@ -130,7 +130,7 @@
 
   --drop-shadow-light: inset 0 -1px 0 hsla(100, 100%, 100%, 0.2), 0 8px 24px rgba(255, 255, 255, .05), 0px 4px 24px rgba(20, 141, 255, 10%);
 
-  --button-drop-shadow-light: 0px 1px 2.5px 0px rgba(0, 0, 0, 0.24), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  --button-drop-shadow-light: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
 
 
@@ -343,7 +343,7 @@
   font-family: var(--fonts-body);
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
-  line-height: var(--lineHeights-base);
+  line-height: var(--lineHeights-short);
 }
 
 html {
