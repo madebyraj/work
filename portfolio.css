@@ -521,15 +521,9 @@ body {
 }
 
 .dive-in {
-<<<<<<< HEAD
-  padding: 8px 14px;
+  padding: 14px 18px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-400);
-=======
-  padding: 15px 24px;
-  background-color: var(--button-primary);
-  border-radius: 128px;
->>>>>>> parent of 447af22 (button-padding)
+  border-radius: var(--border-radius-700);
   font-size: 16px;
   letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
@@ -537,10 +531,14 @@ body {
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 8px;
+}
+
+#rocket{
+  font-size: 24px;
 }
 
 .dive-in:hover {
@@ -1098,14 +1096,14 @@ body {
   .hero-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     padding: 32px 40px;
-    gap: 40px;
+    gap: 32px;
     height: fit-content;
     margin: 0px;
   }
 
-  .swiper-wrapper{
+  /* .swiper-wrapper{
     padding: 0px 40px;
-  }
+  } */
 
 
   .main {
@@ -1116,12 +1114,10 @@ body {
   .heading {
     font-size: 56px;
     width: 100%;
-    text-align: center;
   }
 
   .para {
     font-size: 18px;
-    text-align: center;
   }
 
   #hero-image {
