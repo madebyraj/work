@@ -791,9 +791,16 @@ main {
   justify-content: center;
 }
 .full-research {
+<<<<<<< HEAD
   padding: 8px 14px;
   background-color: var(--button-secondary);
   border-radius: var(--border-radius-400);
+=======
+  width: fit-content;
+  padding: 15px 24px;
+  background-color: var(--button-secondary);
+  border-radius: 128px;
+>>>>>>> parent of 447af22 (button-padding)
   font-size: 16px;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -961,9 +968,16 @@ main {
 }
 
 #pr-link {
+<<<<<<< HEAD
   padding: 8px 14px;
   background-color: var(--button-secondary);
   border-radius: var(--border-radius-400);
+=======
+  width: fit-content;
+  padding: 15px 24px;
+  background-color: var(--button-secondary);
+  border-radius: 128px;
+>>>>>>> parent of 447af22 (button-padding)
   font-size: 16px;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
