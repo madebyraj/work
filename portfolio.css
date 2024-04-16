@@ -179,6 +179,14 @@
 
 
 
+  --border-radius-200: 0.25rem;
+  --border-radius-300: 0.3125rem;
+  --border-radius-400: 0.375rem;
+  --border-radius-500: 0.5rem;
+  --border-radius-700: 0.75rem;
+
+
+
 }
 
 
@@ -442,10 +450,9 @@ body {
   align-items: start;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 128px;
-  padding: 32px 112px;
+  padding: 32px 120px;
   max-width: 1600px;
   height: 100vh;
-  height: 100dvh;
   margin: auto;
   overflow: hidden;
 }
@@ -478,12 +485,12 @@ body {
 .heading {
   font-size: 56px;
   color: var(--heading-primary);
-  max-width: 1064px;
+  width: 100%;
   margin-bottom: 16px;
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
 }
 
 .para {
@@ -514,9 +521,9 @@ body {
 }
 
 .dive-in {
-  padding: 14px 18px;
+  padding: 8px 14px;
   background-color: var(--button-primary);
-  border-radius: 10px;
+  border-radius: var(--border-radius-400);
   font-size: 16px;
   letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
@@ -524,15 +531,18 @@ body {
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-decoration: none;
   transition: 0.3s ease-out;
-  gap: 16px;
+  gap: 8px;
 }
 
-#arrow-right {
-  font-size: 20px;
+.dive-in::after{
+  content: "→";
 }
+/* #arrow-right {
+  font-size: 20px;
+} */
 
 .dive-in:hover {
   background-color: var(--button-primary-hover);
@@ -543,7 +553,7 @@ body {
 #scroll {
   max-width: 1600px;
   margin: auto;
-  padding: 64px 112px;
+  padding: 64px 120px;
 }
 
 #selected {
@@ -553,7 +563,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
 }
 
 #project-container {
@@ -609,7 +619,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
 }
 
 #project-1 p {
@@ -655,7 +665,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary-01);
 }
 
@@ -693,7 +703,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary-01);
 }
 
@@ -731,7 +741,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary-01);
 }
 
@@ -751,7 +761,7 @@ body {
 #writing-section {
   max-width: 1600px;
   margin: auto;
-  padding: 64px 112px;
+  padding: 64px 120px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -764,7 +774,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary-01);
 }
 
@@ -799,7 +809,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
   color: var(--heading-primary-01);
 }
@@ -838,7 +848,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
   color: var(--heading-primary-01);
 }
@@ -877,7 +887,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
   color: var(--heading-primary-01);
 }
@@ -919,7 +929,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary-01);
   margin-bottom: 16px;
 }
@@ -960,7 +970,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  padding: 64px 128px;
+  padding: 64px 120px;
   max-width: 1600px;
   margin: auto;
 }
@@ -978,7 +988,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
 }
 
@@ -1008,7 +1018,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   color: var(--heading-primary-01);
 }
 
@@ -1034,7 +1044,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
 }
 
@@ -1057,7 +1067,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
 }
 
@@ -1088,7 +1098,7 @@ body {
 
   .hero-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    padding: 32px;
+    padding: 32px 40px;
     gap: 40px;
     height: fit-content;
     margin: 0px;
@@ -1114,6 +1124,10 @@ body {
 
   #navbutton {
     margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
 
@@ -1136,7 +1150,7 @@ body {
   #scroll {
     max-width: 1600px;
     margin: auto;
-    padding: 32px;
+    padding: 32px 40px;
   }
 
   #project-container {
@@ -1195,7 +1209,7 @@ body {
 
   #writing-section {
     margin: auto;
-    padding: 32px 32px;
+    padding: 32px 40px;
     gap: 32px;
   }
 
@@ -1274,7 +1288,7 @@ body {
 
 
   .footer {
-    padding: 32px;
+    padding: 32px 40px;
     max-width: 1600px;
   }
 
@@ -1290,7 +1304,7 @@ body {
     justify-content: start;
     align-items: start;
     gap: 32px;
-    padding: 32px;
+    padding: 32px 40px;
   }
 
   .about {
@@ -1428,13 +1442,12 @@ body {
 
   #navbutton {
     margin-top: 20px;
-    width: 100%;
     padding: 0px;
   }
 
-  .dive-in {
+  /* .dive-in {
     width: 100%;
-  }
+  } */
 
   #scroll {
     max-width: 1600px;
