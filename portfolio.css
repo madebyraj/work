@@ -25,27 +25,27 @@
   --link-primary: #2997FF;
   --link-primary-hover: #2791F5;
 
-  --heading-primary: #F0F3F7;
-  --heading-primary-01: #ECF1F7;
-  --heading-primary-02: #E7EFF7;
+  --heading-primary: #FAFAFA;
+  --heading-primary-01: #F5F5F7;
+  --heading-primary-02: #91918C;
 
-  --paragraph-primary: #E6EBF0;
-  --paragraph-primary-100: #C4D7E9;
-  --paragraph-primary-200: #B4CCE3;
+  --paragraph-primary: #FAFAFA;
+  --paragraph-primary-100: #F5F5F7;
+  --paragraph-primary-200: #91918C;
 
-  --surface-layer-01: #141414;
-  --surface-layer-02: #181818;
-  --surface-layer-03: #1A1A1A;
+  --surface-layer-01: #1D1D1F;
+  --surface-layer-02: #161617;
+  --surface-layer-03: #1D1D1F;
 
-  --surface-layer-01-hover: #292929;
-  --surface-layer-02-hover: #2C2C2C;
-  --surface-layer-03-hover: #252525;
+  --surface-layer-01-hover: #262628;
+  --surface-layer-02-hover: #1F1F20;
+  --surface-layer-03-hover: #262628;
 
-  --border-subtle-01: #444444;
-  --border-subtle-02: #474747;
-  --border-subtle-03: #484848;
+  --border-subtle-01: #262628;
+  --border-subtle-02: #242426;
+  --border-subtle-03: #232325;
 
-  --partition-dark: #191C24;
+  --partition-dark: #262628;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -55,9 +55,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #0E1014;
+  --background-main: #080808;
 
-  --glass-dark: rgba(23, 25, 35, 0.8);
+  --glass-dark: rgba(29, 29, 31, 0.8);
 
   --nav-border-dark: rgba(60, 43, 153, 0.125);
 
@@ -252,6 +252,8 @@
 
   --partition-light: var(--partition-dark);
 
+  --nav-border-light: var(--nav-border-dark);
+
   --secondary-green-light: var(--secondary-green);
   --secondary-yellow-light: var(--secondary-yellow);
   --secondary-red-light: var(--secondary-red);
@@ -315,6 +317,8 @@
   --border-subtle-03: var(--border-subtle-03-light);
 
   --partition-dark: var(--partition-light);
+
+  --nav-border-dark: var(--nav-border-light);
 
   --secondary-green: var(--secondary-green-light);
   --secondary-yellow: var(--secondary-yellow-light);
