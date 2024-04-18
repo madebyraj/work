@@ -3,15 +3,15 @@
   /* Dark mode */
 
 
-  --primary: #0561EB;
+  --primary: #005FE6;
 
-  --button-primary: #0A84FF;
-  --button-primary-hover: #0974E0;
-  --button-primary-active: #086FD6;
+  --button-primary: #005FE6;
+  --button-primary-hover: #0054CA;
+  --button-primary-active: #0054CA;
 
-  --button-secondary: #292B34;
-  --button-secondary-hover: #3A3C44;
-  --button-secondary-active: #43444C;
+  --button-secondary: #323232;
+  --button-secondary-hover: #424242;
+  --button-secondary-active: #4B4B4B;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -55,7 +55,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #080808;
+  --background-main: #000000;
 
   --glass-dark: rgba(29, 29, 31, 0.8);
 
@@ -67,17 +67,17 @@
 
 
 
-  --green-gradient: linear-gradient(-45deg, #18B774, #055648);
-  --blue-gradient: linear-gradient(-45deg, #2F49BD, #4898F1);
+  --dark-gradient: linear-gradient(to bottom,#005fe6 -40%,rgba(0,95,230,0) 50%);
+
 
 
   /* Light Mode */
 
   --primary-light: #0081F2;
 
-  --button-primary-light: #0081F2;
-  --button-primary-hover-light: #045AC4;
-  --button-primary-active-light: #045AC4;
+  --button-primary-light: #000000;
+  --button-primary-hover-light: #333333;
+  --button-primary-active-light: #333333;
 
   --button-secondary-light: #F6F5F4;
   --button-secondary-hover-light: #F1EFEE;
@@ -124,7 +124,7 @@
 
   --background-main-light: #ffffff;
 
-  --glass-light: rgba(255, 255, 255, 0.8);
+  --glass-light: rgba(255, 255, 255, 0.72);
 
   --nav-border-light: #CCCCCC;
 
@@ -132,7 +132,7 @@
 
   --button-drop-shadow-light: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
-
+  --light-gradient: linear-gradient(to bottom,#ffffff -40%,rgba(0,95,230,0) 50%);
 
 
   /* Fonts */
@@ -270,6 +270,8 @@
 
   --button-drop-shadow-light: var(--button-drop-shadow-dark);
 
+  --light-gradient: var(--dark-gradient);
+
 }
 
 
@@ -336,8 +338,9 @@
 
   --button-drop-shadow-dark: var(--button-drop-shadow-light);
 
-}
+  --dark-gradient: var(--light-gradient);
 
+}
 
 
 * {
@@ -358,6 +361,16 @@ body {
   background-color: var(--background-main);
 }
 
+
+.gradient{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: var(--dark-gradient);
+  z-index: -99;
+}
 
 .indicator {
   position: fixed;
@@ -542,9 +555,9 @@ body {
 }
 
 .dive-in {
-  padding: 8px 14px;
+  padding: 9px 14px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-500);
   font-size: var(--fontSizes-16);
   letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
@@ -552,7 +565,7 @@ body {
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 8px;
@@ -1466,9 +1479,9 @@ body {
     padding: 0px;
   }
 
-  /* .dive-in {
+  .dive-in {
     width: 100%;
-  } */
+  }
 
   #scroll {
     max-width: 1600px;
