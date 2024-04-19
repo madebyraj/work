@@ -9,9 +9,9 @@
   --button-primary-hover: #0054CA;
   --button-primary-active: #0054CA;
 
-  --button-secondary: #323232;
-  --button-secondary-hover: #424242;
-  --button-secondary-active: #4B4B4B;
+  --button-secondary: #333333;
+  --button-secondary-hover: #262626;
+  --button-secondary-active: #262626;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -67,7 +67,7 @@
 
 
 
-  --dark-gradient: linear-gradient(to bottom,#005fe6 -40%,rgba(0,95,230,0) 50%);
+  --dark-gradient: linear-gradient(to bottom,#005fe6 -40%,rgba(14, 1, 70, 0.64) 42.31%,rgba(0,0,0,0) 81.62%);
 
 
 
@@ -811,13 +811,13 @@ main {
 
 .btn-one {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 .full-research {
   width: fit-content;
-  padding: 9px 14px;
+  padding: 0.625rem 0.875rem;
   background-color: var(--button-secondary);
   border-radius: var(--border-radius-500);
   font-size: var(--fontSizes-16);
@@ -982,12 +982,12 @@ main {
 
 .btn-two {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 #pr-link {
-  padding: 9px 14px;
+  padding: 0.625rem 0.875rem;
   background-color: var(--button-secondary);
   border-radius: var(--border-radius-500);
   font-size: var(--fontSizes-16);
