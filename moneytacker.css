@@ -67,7 +67,7 @@
 
 
 
-  --dark-gradient: linear-gradient(to bottom,#005fe6 -40%,rgba(14, 1, 70, 0.64) 42.31%,rgba(0,0,0,0) 81.62%);
+  --dark-gradient: linear-gradient(to bottom,#005fe6 -40%,rgba(35, 1, 68, 0.64) 44%,rgba(0,0,0,0) 80%);
 
 
 
@@ -79,9 +79,9 @@
   --button-primary-hover-light: #333333;
   --button-primary-active-light: #333333;
 
-  --button-secondary-light: #F6F5F4;
-  --button-secondary-hover-light: #F1EFEE;
-  --button-secondary-active-light: #F1EFEE;
+  --button-secondary-light: #DCDCDC;
+  --button-secondary-hover-light: #BCBCBC;
+  --button-secondary-active-light: #BCBCBC;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
