@@ -622,6 +622,7 @@ body {
   background-color: var(--surface-layer-03);
   padding: 12px;
   border-radius: 0px 0px 12px 12px;
+  min-width: 100%;
 }
 
 .image-wrapper {
@@ -1446,6 +1447,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
   }
 
   .logo {
