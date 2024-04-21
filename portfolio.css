@@ -3,15 +3,15 @@
   /* Dark mode */
 
 
-  --primary: #005FE6;
+  --primary: #0082FA;
 
-  --button-primary: #005FE6;
-  --button-primary-hover: #0054CA;
-  --button-primary-active: #0054CA;
+  --button-primary: #0082FA;
+  --button-primary-hover: #006DD2;
+  --button-primary-active: #0063BE;
 
-  --button-secondary: #333333;
-  --button-secondary-hover: #262626;
-  --button-secondary-active: #262626;
+  --button-secondary: #192534;
+  --button-secondary-hover: #232F3E;
+  --button-secondary-active: #354150;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -22,30 +22,30 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #2997FF;
-  --link-primary-hover: #2791F5;
+  --link-primary: #0082FA;
+  --link-primary-hover: #006DD2;
 
-  --heading-primary: #FAFAFA;
-  --heading-primary-01: #F5F5F7;
-  --heading-primary-02: #91918C;
+  --heading-primary: #FBFBFB;
+  --heading-primary-01: #F8F8F8;
+  --heading-primary-02: #9BA7B6;
 
-  --paragraph-primary: #FAFAFA;
-  --paragraph-primary-100: #F5F5F7;
-  --paragraph-primary-200: #91918C;
+  --paragraph-primary: #F8F8F8;
+  --paragraph-primary-100: #F4F4F4;
+  --paragraph-primary-200: #8D99A8;
 
-  --surface-layer-01: #1D1D1F;
-  --surface-layer-02: #161617;
-  --surface-layer-03: #1D1D1F;
+  --surface-layer-01: #000716;
+  --surface-layer-02: #0F1B2A;
+  --surface-layer-03: #192534;
 
-  --surface-layer-01-hover: #262628;
-  --surface-layer-02-hover: #1F1F20;
-  --surface-layer-03-hover: #262628;
+  --surface-layer-01-hover: #0F1B2A;
+  --surface-layer-02-hover: #192534;
+  --surface-layer-03-hover: #232F3E;
 
-  --border-subtle-01: #262628;
-  --border-subtle-02: #242426;
-  --border-subtle-03: #232325;
+  --border-subtle-01: #232F3E;
+  --border-subtle-02: #354150;
+  --border-subtle-03: #414D5C;
 
-  --partition-dark: #262628;
+  --partition-dark: #232F3E;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -57,27 +57,27 @@
 
   --background-main: #000000;
 
-  --glass-dark: rgba(29, 29, 31, 0.8);
+  --glass-dark: rgba(0, 07, 22, 0.72);
 
-  --nav-border-dark: rgba(60, 43, 153, 0.125);
+  --nav-border-dark: #192534;
 
-  --drop-shadow-dark: rgba(255, 255, 255, 0.2) 0px -1px 0px inset, rgba(0, 0, 0, 0.05) 0px 8px 24px, rgba(10, 132, 255, 10%) 0px 4px 24px;
+  --drop-shadow-dark:  0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013);
 
   --button-drop-shadow-dark: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
 
 
-  --dark-gradient: linear-gradient(to bottom,#3759CE -40%,rgba(74, 35, 139, 0.52) 44%,rgba(0,0,0,0) 80%);
+  --dark-gradient: linear-gradient(to bottom,#3759CE -40%,rgba(74, 35, 139, 0.48) 44%,rgba(0,0,0,0) 80%);
 
 
 
   /* Light Mode */
 
-  --primary-light: #0081F2;
+  --primary-light: #0075E0;
 
   --button-primary-light: #0075E0;
-  --button-primary-hover-light: #00366E;
-  --button-primary-active-light: #00366E;
+  --button-primary-hover-light: #0062BC;
+  --button-primary-active-light: #0059AA;
 
   --button-secondary-light: #F4F4F4;
   --button-secondary-hover-light: #E9EBED;
@@ -90,7 +90,7 @@
   --button-icon-light: #000000;
 
   --link-primary-light: #0075E0;
-  --link-primary-hover-light: #00366E;
+  --link-primary-hover-light: #0062BC;
 
   --heading-primary-light: #000716;
   --heading-primary-01-light: #0F1B2A;
@@ -126,7 +126,7 @@
 
   --glass-light: rgba(255, 255, 255, 0.72);
 
-  --nav-border-light: #CCCCCC;
+  --nav-border-light: #D1D5DB;
 
   --drop-shadow-light: 0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013);
 
@@ -609,7 +609,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
 }
 
@@ -619,7 +619,7 @@ body {
   align-items: start;
   justify-content: space-between;
   gap: 8px;
-  background-color: var(--surface-layer-02);
+  background-color: var(--surface-layer-01);
   padding: 12px;
   border-radius: 0px 0px 12px 12px;
   min-width: 100%;
@@ -675,7 +675,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
 }
 
@@ -728,7 +728,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
 }
 
@@ -773,7 +773,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
 }
 
@@ -856,9 +856,9 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
-  background-color: var(--surface-layer-02);
+  background-color: var(--surface-layer-01);
 }
 
 #info-1{ 
@@ -902,9 +902,9 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
-  background-color: var(--surface-layer-02);
+  background-color: var(--surface-layer-01);
 }
 
 #info-2{
@@ -949,9 +949,9 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  border: 1.6px solid var(--border-subtle-02);
+  border: 1.6px solid var(--border-subtle-01);
   border-radius: 12px;
-  background-color: var(--surface-layer-02);
+  background-color: var(--surface-layer-01);
 }
 
 #info-3{
