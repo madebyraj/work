@@ -67,7 +67,7 @@
 
 
 
-  --dark-gradient: linear-gradient(to bottom,#005fe6 -40%,rgba(35, 1, 68, 0.64) 44%,rgba(0,0,0,0) 80%);
+  --dark-gradient: linear-gradient(to bottom,#3759CE -40%,rgba(74, 35, 139, 0.52) 44%,rgba(0,0,0,0) 80%);
 
 
 
@@ -75,13 +75,13 @@
 
   --primary-light: #0081F2;
 
-  --button-primary-light: #000000;
-  --button-primary-hover-light: #333333;
-  --button-primary-active-light: #333333;
+  --button-primary-light: #0075E0;
+  --button-primary-hover-light: #00366E;
+  --button-primary-active-light: #00366E;
 
-  --button-secondary-light: #DCDCDC;
-  --button-secondary-hover-light: #BCBCBC;
-  --button-secondary-active-light: #BCBCBC;
+  --button-secondary-light: #F4F4F4;
+  --button-secondary-hover-light: #E9EBED;
+  --button-secondary-active-light: #E9EBED;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
@@ -89,30 +89,30 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #0081F2;
-  --link-primary-hover-light: #045AC4;
+  --link-primary-light: #0075E0;
+  --link-primary-hover-light: #00366E;
 
-  --heading-primary-light: #050505;
-  --heading-primary-01-light: #121212;
-  --heading-primary-02-light: #666666;
+  --heading-primary-light: #000716;
+  --heading-primary-01-light: #0F1B2A;
+  --heading-primary-02-light: #414D5C;
 
-  --paragraph-primary-light: #050505;
-  --paragraph-primary-100-light: #121212;
-  --paragraph-primary-200-light: #666666;
+  --paragraph-primary-light: #0F1B2A;
+  --paragraph-primary-100-light: #192534;
+  --paragraph-primary-200-light: #5F6B7A;
 
-  --surface-layer-01-light: #FFFDFA;
-  --surface-layer-02-light: #F6F5F4;
-  --surface-layer-03-light: #F1EFEE;
+  --surface-layer-01-light: #FBFBFB;
+  --surface-layer-02-light: #F8F8F8;
+  --surface-layer-03-light: #F4F4F4;
 
-  --surface-layer-01-hover-light: #F5F3F0;
-  --surface-layer-02-hover-light: #ECEBEA;
-  --surface-layer-03-hover-light: #E7E5E4;
+  --surface-layer-01-hover-light: #F8F8F8;
+  --surface-layer-02-hover-light: #F4F4F4;
+  --surface-layer-03-hover-light: #E9EBED;
 
-  --border-subtle-01-light: #E6E6E6;
-  --border-subtle-02-light: #CCCCCC;
-  --border-subtle-03-light: #999999;
+  --border-subtle-01-light: #E9EBED;
+  --border-subtle-02-light: #D1D5DB;
+  --border-subtle-03-light: #9BA7B6;
 
-  --partition-light: #E6E6E6;
+  --partition-light: #E9EBED;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -122,7 +122,7 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #ffffff;
+  --background-main-light: #FFFFFF;
 
   --glass-light: rgba(255, 255, 255, 0.72);
 
