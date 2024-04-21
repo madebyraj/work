@@ -55,19 +55,19 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #00040D;
 
-  --glass-dark: rgba(0, 07, 22, 0.72);
+  --glass-dark: rgba(0, 04, 13, 0.72);
 
   --nav-border-dark: #192534;
 
-  --drop-shadow-dark:  0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013);
+  --drop-shadow-dark: 0px 4px 18px rgb(0 0 0/4%), 0px 2.025px 7.84688px rgba(0, 0, 0, .027), 0px 0.8px 2.925px rgb(0 0 0/2%), 0px 0.175px 1.04062px rgba(0, 0, 0, .013);
 
   --button-drop-shadow-dark: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
 
 
-  --dark-gradient: linear-gradient(to bottom,#3759CE -40%,rgba(74, 35, 139, 0.48) 44%,rgba(0,0,0,0) 80%);
+  --dark-gradient:  linear-gradient(to bottom, #0972D3, #539FE5);
 
 
 
@@ -128,11 +128,11 @@
 
   --nav-border-light: #D1D5DB;
 
-  --drop-shadow-light: 0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013);
+  --drop-shadow-light: 0px 4px 18px rgb(0 0 0/4%), 0px 2.025px 7.84688px rgba(0, 0, 0, .027), 0px 0.8px 2.925px rgb(0 0 0/2%), 0px 0.175px 1.04062px rgba(0, 0, 0, .013);
 
   --button-drop-shadow-light: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
-  --light-gradient: linear-gradient(to bottom,#ffffff -40%,rgba(0,95,230,0) 50%);
+  --light-gradient: linear-gradient(to bottom, #273EA5, #3759CE);
 
 
   /* Fonts */
@@ -362,7 +362,7 @@ body {
 }
 
 
-.gradient{
+.gradient {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -861,7 +861,7 @@ body {
   background-color: var(--surface-layer-01);
 }
 
-#info-1{ 
+#info-1 {
   padding: 12px;
   border-radius: 0px 0px 12px 12px;
 }
@@ -907,7 +907,7 @@ body {
   background-color: var(--surface-layer-01);
 }
 
-#info-2{
+#info-2 {
   padding: 12px;
   border-radius: 0px 0px 12px 12px;
 }
@@ -954,7 +954,7 @@ body {
   background-color: var(--surface-layer-01);
 }
 
-#info-3{
+#info-3 {
   padding: 12px;
   border-radius: 0px 0px 12px 12px;
 }
@@ -1180,7 +1180,7 @@ body {
     margin: 0px;
   }
 
-  .swiper-wrapper{
+  .swiper-wrapper {
     display: none;
   }
 
