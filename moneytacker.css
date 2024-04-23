@@ -817,9 +817,9 @@ main {
 
 .full-research {
   width: fit-content;
-  padding: 0.625rem 0.875rem;
+  padding: 0.875rem 1.25rem;
   background-color: var(--button-secondary);
-  border-radius: var(--border-radius-500);
+  border-radius: var(--border-radius-700);
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -831,6 +831,7 @@ main {
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 8px;
+  max-height: 48px;
 }
 
 .full-research:hover {
@@ -987,9 +988,9 @@ main {
 }
 
 #pr-link {
-  padding: 0.625rem 0.875rem;
+  padding: 0.875rem 1.25rem;
   background-color: var(--button-secondary);
-  border-radius: var(--border-radius-500);
+  border-radius: var(--border-radius-700);
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -1002,6 +1003,7 @@ main {
   transition: 0.3s ease-out;
   gap: 8px;
   margin-bottom: 16px;
+  max-height: 48px;
 }
 
 #pr-link:hover {

@@ -554,9 +554,9 @@ body {
 }
 
 .dive-in {
-  padding: 0.625rem 0.875rem;
+  padding: 0.875rem 1.25rem;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-500);
+  border-radius: var(--border-radius-700);
   font-size: var(--fontSizes-16);
   letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
@@ -569,6 +569,7 @@ body {
   transition: 0.3s ease-out;
   gap: 8px;
   box-shadow: var(--button-drop-shadow-dark);
+  max-height: 48px;
 }
 
 #rocket {
