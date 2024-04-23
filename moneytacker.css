@@ -816,14 +816,12 @@ main {
 }
 
 .full-research {
-  width: fit-content;
-  padding: 0.875rem 1.25rem;
-  background-color: var(--button-secondary);
-  border-radius: var(--border-radius-700);
+  padding: 0.25rem 0rem;
+  border-bottom: 2px solid var(--link-primary);
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  color: var(--secondary-button-text-dark);
+  color: var(--button-text);
   letter-spacing: var(--letterSpacings-wide);
   display: flex;
   align-items: center;
@@ -831,12 +829,12 @@ main {
   text-decoration: none;
   transition: 0.3s ease-out;
   gap: 8px;
-  max-height: 48px;
 }
 
 .full-research:hover {
-  background-color: var(--button-secondary-hover);
+  color: var(--link-primary-hover);
   cursor: pointer;
+  border-color: var(--link-primary-hover);
 }
 
 .questions {
@@ -988,13 +986,12 @@ main {
 }
 
 #pr-link {
-  padding: 0.875rem 1.25rem;
-  background-color: var(--button-secondary);
-  border-radius: var(--border-radius-700);
+  padding: 0.25rem 0rem;
+  border-bottom: 2px solid var(--link-primary);
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  color: var(--secondary-button-text-dark);
+  color: var(--button-text);
   letter-spacing: var(--letterSpacings-wide);
   display: flex;
   align-items: center;
@@ -1003,12 +1000,12 @@ main {
   transition: 0.3s ease-out;
   gap: 8px;
   margin-bottom: 16px;
-  max-height: 48px;
 }
 
 #pr-link:hover {
-  background-color: var(--button-secondary-hover);
+  color: var(--link-primary-hover);
   cursor: pointer;
+  border-color: var(--link-primary-hover);
 }
 
 #arrow-up {
@@ -1146,8 +1143,7 @@ main {
   font-weight: var(--fontWeights-medium);
   color: var(--button-text);
   font-size: var(--fontSizes-18);
-  padding: 2px 4px;
-  border-radius: 2px;
+  padding: 0.125rem 0.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1549,9 +1545,9 @@ main {
     margin-bottom: 16px;
   }
 
-  .full-research {
+  /* .full-research {
     width: 100%;
-  }
+  } */
 
   .questions {
     padding: 16px 0px;
@@ -1638,7 +1634,6 @@ main {
   }
 
   #pr-link {
-    width: 100%;
     margin-bottom: 16px;
   }
 

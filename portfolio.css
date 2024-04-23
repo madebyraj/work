@@ -533,7 +533,6 @@ body {
 }
 
 .mySwiper swiper-slide {
-  border-radius: 16px;
   width: fit-content;
   height: fit-content;
 }
@@ -541,7 +540,7 @@ body {
 #hero-image {
   width: 100%;
   height: 100%;
-  border-radius: 12px;
+  border-radius: 16px;
   object-fit: cover;
   object-position: center;
 }
@@ -1533,9 +1532,9 @@ body {
     padding: 0px;
   }
 
-  .dive-in {
+  /* .dive-in {
     width: 100%;
-  }
+  } */
 
   #scroll {
     max-width: 1600px;
