@@ -67,17 +67,17 @@
 
 
 
-  --dark-gradient:  linear-gradient(to bottom, #0972D3, #539FE5);
+  --dark-gradient: linear-gradient(to bottom, #0972D3, #539FE5);
 
 
 
   /* Light Mode */
 
-  --primary-light: #0075E0;
+  --primary-light: #276EF1;
 
-  --button-primary-light: #0075E0;
-  --button-primary-hover-light: #0062BC;
-  --button-primary-active-light: #0059AA;
+  --button-primary-light: #276EF1;
+  --button-primary-hover-light: #175BCC;
+  --button-primary-active-light: #175BCC;
 
   --button-secondary-light: #F4F4F4;
   --button-secondary-hover-light: #E9EBED;
@@ -89,8 +89,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #0075E0;
-  --link-primary-hover-light: #0062BC;
+  --link-primary-light: #068BEE;
+  --link-primary-hover-light: #266EF1;
 
   --heading-primary-light: #000716;
   --heading-primary-01-light: #0F1B2A;
@@ -535,6 +535,7 @@ body {
 .mySwiper swiper-slide {
   width: fit-content;
   height: fit-content;
+  border-radius: 16px;
 }
 
 #hero-image {
