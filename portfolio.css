@@ -57,11 +57,11 @@
 
   --background-main: #000000;
 
-  --glass-dark: rgba(0, 0, 0, 0.85);
+  --glass-dark: rgba(12, 12, 13, 0.72);
 
   --nav-border-dark: #19191A;
 
-  --nav-hover-dark: #0C0C0D;
+  --nav-hover-dark: #19191A;
 
   --drop-shadow-dark: 0px 4px 18px rgb(0 0 0/4%), 0px 2.025px 7.84688px rgba(0, 0, 0, .027), 0px 0.8px 2.925px rgb(0 0 0/2%), 0px 0.175px 1.04062px rgba(0, 0, 0, .013);
 
@@ -126,7 +126,7 @@
 
   --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(255, 255, 255, 0.85);
+  --glass-light: rgba(255, 255, 255, 0.72);
 
   --nav-border-light: #E5E5E6;
 
