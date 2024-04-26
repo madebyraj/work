@@ -3,6 +3,8 @@
   /* Dark mode */
 
 
+  --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
+
   --primary: #0A84FF;
 
   --button-primary: #0A84FF;
@@ -57,13 +59,13 @@
 
   --background-main: #000000;
 
-  --glass-dark: rgba(29, 29, 31, 0.85);
+  --glass-dark: rgba(29, 29, 31, 0.8);
 
   --nav-border-dark: #242426;
 
   --nav-hover-dark: #242426;
 
-  --drop-shadow-dark: 0.6px 1.2px 0px 0px #242426, 0px 4px 32px 0px rgba(10, 132, 255, 0.08), -0.6px -1.2px 0px 0px #444446;
+  --drop-shadow-dark: 0.6px 1.2px 0px 0px #242426, -0.6px -1.2px 0px 0px #444446;
 
   --button-drop-shadow-dark: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
@@ -74,6 +76,8 @@
 
 
   /* Light Mode */
+
+  --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
   --primary-light: #007AFF;
 
@@ -126,13 +130,13 @@
 
   --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(255, 255, 255, 0.85);
+  --glass-light: rgba(255, 255, 255, 0.8);
 
   --nav-border-light: #EBEBF0;
 
   --nav-hover-light: #EBEBF0;
 
-  --drop-shadow-light: 0.6px 1.2px 0px 0px #EBEBF0, 0px 4px 32px 0px rgba(0, 122, 255, 0.08), -0.6px -1.2px 0px 0px #D8D8DC;
+  --drop-shadow-light: 0.6px 1.2px 0px 0px #EBEBF0, -0.6px -1.2px 0px 0px #D8D8DC;
 
   --button-drop-shadow-light: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
 
@@ -214,6 +218,8 @@
 
 [color-scheme="dark"] {
 
+  --logo-light: var(--logo-dark);
+
   --primary-light: var(--primary);
 
   --button-primary-light: var(--button-primary);
@@ -284,6 +290,8 @@
 
 
 [color-scheme="light"] {
+
+  --logo-dark: var(--logo-light);
 
   --primary: var(--primary-light);
 
@@ -399,7 +407,7 @@ main {
   max-width: 168px;
   height: min-content;
   background-color: var(--glass-dark);
-  backdrop-filter: saturate(180%) blur(22px);
+  backdrop-filter: saturate(180%) blur(20px);
   border-radius: 0px 8px 8px 0px;
   padding: 12px 24px;
   z-index: 100;
@@ -438,7 +446,7 @@ main {
   justify-content: center;
   z-index: 100;
   background-color: var(--glass-dark);
-  backdrop-filter: saturate(180%) blur(22px);
+  backdrop-filter: saturate(180%) blur(20px);
   text-decoration: none;
   border: 1px solid var(--nav-border-dark);
 }
