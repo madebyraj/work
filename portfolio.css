@@ -1476,15 +1476,8 @@ body {
   }
 
   .logo {
-    text-decoration: none;
     height: 42px;
     width: 42px;
-    background-image: url(./assets/mylogo.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    border-radius: 50%;
   }
 
   #dynamic-nav a {
