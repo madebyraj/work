@@ -485,13 +485,11 @@ body {
   border-radius: 50%;
   background-color: transparent;
   border: none;
-  display: grid;
-  place-items: center;
-  transition: 400ms ease-out;
-  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 400ms ease-out;
+  padding: 4px;
 }
 
 .theme:hover {
@@ -1500,12 +1498,6 @@ body {
   .theme {
     height: 42px;
     width: 42px;
-    border-radius: 50%;
-    border: none;
-    display: grid;
-    place-items: center;
-    transition: 400ms ease-out;
-    padding: 4px;
   }
 
   #nav-info a {
