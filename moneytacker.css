@@ -188,10 +188,8 @@
 
 
   --border-radius-200: 0.25rem;
-  --border-radius-300: 0.3125rem;
-  --border-radius-400: 0.375rem;
-  --border-radius-500: 0.5rem;
-  --border-radius-700: 0.75rem;
+  --border-radius-400: 0.5rem;
+  --border-radius-500: 0.625rem;
 
 
 
@@ -391,7 +389,7 @@ main {
 }
 
 #cover-mt {
-  border-radius: 16px;
+  border-radius: var(--border-radius-400);
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -401,13 +399,13 @@ main {
 
 #side-navbar {
   position: fixed;
-  top: 110px;
+  top: 104px;
   left: 0;
   max-width: 168px;
   height: min-content;
   background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(20px);
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 0px var(--border-radius-200) var(--border-radius-200) 0px;
   padding: 12px 24px;
   z-index: 100;
   border: 1px solid var(--nav-border-dark);
