@@ -635,8 +635,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
+  gap: 16px;
 }
 
 #bottom-text-h {
@@ -645,16 +644,13 @@ body {
   align-items: start;
   justify-content: space-between;
   gap: 8px;
-  background-color: var(--surface-layer-01);
-  padding: 12px;
-  border-radius: 0px 0px 12px 12px;
   min-width: 100%;
 }
 
 .image-wrapper {
   width: 100%;
   height: 100%;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
@@ -663,7 +659,7 @@ body {
 .pro-bg-1 {
   width: 100%;
   height: 100%;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -701,8 +697,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
+  gap: 16px;
 }
 
 #bottom-text-h {
@@ -717,7 +712,7 @@ body {
 .pro-bg-2 {
   max-width: 100%;
   height: 100%;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -754,15 +749,14 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
+  gap: 16px;
 }
 
 
 .pro-bg-3 {
   width: 100%;
   height: 100%;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -799,15 +793,14 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
+  gap: 16px;
 }
 
 
 .pro-bg-4 {
   width: 100%;
   height: 100%;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -882,15 +875,12 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
-  background-color: var(--surface-layer-01);
+  gap: 16px;
 }
 
-#info-1 {
+/* #info-1 {
   padding: 12px;
-  border-radius: 0px 0px 12px 12px;
-}
+} */
 
 #info-1 h6 {
   font-size: var(--fontSizes-24);
@@ -916,7 +906,7 @@ body {
 #f-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center;
 }
@@ -928,15 +918,12 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
-  background-color: var(--surface-layer-01);
+  gap: 16px;
 }
 
-#info-2 {
-  padding: 12px;
-  border-radius: 0px 0px 12px 12px;
-}
+/* #info-2 {
+
+} */
 
 #info-2 h6 {
   font-size: var(--fontSizes-24);
@@ -965,7 +952,6 @@ body {
   border-radius: 12px;
   object-fit: cover;
   object-position: center;
-  border-radius: 12px 12px 0px 0px;
 }
 
 .third-article {
@@ -975,15 +961,13 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  border: 1.6px solid var(--border-subtle-01);
-  border-radius: 12px;
-  background-color: var(--surface-layer-01);
+  gap: 16px;
 }
 
-#info-3 {
+/* #info-3 {
   padding: 12px;
   border-radius: 0px 0px 12px 12px;
-}
+} */
 
 #info-3 h6 {
   font-size: var(--fontSizes-24);
@@ -1012,7 +996,6 @@ body {
   border-radius: 12px;
   object-fit: cover;
   object-position: center;
-  border-radius: 12px 12px 0px 0px;
 }
 
 /* footer Section */
