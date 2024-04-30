@@ -5,11 +5,11 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #0A84FF;
+  --primary: #068BEE;
 
-  --button-primary: #0A84FF;
-  --button-primary-hover: #409CFF;
-  --button-primary-active: #409CFF;
+  --button-primary: #068BEE;
+  --button-primary-hover: #6DAAFB;
+  --button-primary-active: #6DAAFB;
 
   --button-secondary: #2C2C2E;
   --button-secondary-hover: #3A3A3C;
@@ -24,8 +24,8 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #0A84FF;
-  --link-primary-hover: #409CFF;
+  --link-primary: #068BEE;
+  --link-primary-hover: #6DAAFB;
 
   --heading-primary: #F2F2F7;
   --heading-primary-01: #E5E5EA;
@@ -79,11 +79,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #007AFF;
+  --primary-light: #266EF1;
 
-  --button-primary-light: #007AFF;
-  --button-primary-hover-light: #0040DD;
-  --button-primary-active-light: #0040DD;
+  --button-primary-light: #266EF1;
+  --button-primary-hover-light: #175BCC;
+  --button-primary-active-light: #175BCC;
 
   --button-secondary-light: #E5E5EA;
   --button-secondary-hover-light: #D1D1D6;
@@ -95,8 +95,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #007AFF;
-  --link-primary-hover-light: #0040DD;
+  --link-primary-light: #266EF1;
+  --link-primary-hover-light: #175BCC;
 
   --heading-primary-light: #1C1C1E;
   --heading-primary-01-light: #2C2C2E;
@@ -187,9 +187,11 @@
 
 
 
+  --border-radius-none: 0rem;
   --border-radius-200: 0.25rem;
   --border-radius-400: 0.5rem;
-  --border-radius-500: 0.625rem;
+  --border-radius-600: 0.75rem;
+  --border-radius-full: 10rem;
 
 
 
@@ -418,7 +420,7 @@ body {
   align-content: center;
   justify-content: space-between;
   padding: 6px 8px;
-  border-radius: 2rem;
+  border-radius: var(--border-radius-full);
   background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(20px);
   background-blend-mode: luminosity;
@@ -466,11 +468,6 @@ body {
 #dynamic-nav a:hover {
   border-radius: 2rem;
   color: var(--link-primary-hover);
-}
-
-#dynamic-nav a:focus{
-  outline: 0.2rem solid var(--link-primary-hover);
-  border-radius: 2rem;
 }
 
 #nav-info a {
@@ -587,9 +584,9 @@ body {
 }
 
 .dive-in {
-  padding: 0.875rem 1.25rem;
+  padding: 0.875rem 1.5rem;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-500);
+  border-radius: var(--border-radius-full);
   font-size: var(--fontSizes-16);
   letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
@@ -602,7 +599,7 @@ body {
   transition: 0.3s ease-out;
   gap: 8px;
   box-shadow: var(--button-drop-shadow-dark);
-  max-height: 48px;
+  min-height: 48px;
 }
 
 #rocket {
