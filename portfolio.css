@@ -5,15 +5,15 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #068BEE;
+  --primary: #1F6FEB;
 
-  --button-primary: #068BEE;
-  --button-primary-hover: #6DAAFB;
-  --button-primary-active: #6DAAFB;
+  --button-primary: #1F6FEB;
+  --button-primary-hover: #388BFD;
+  --button-primary-active: #388BFD;
 
-  --button-secondary: #2C2C2E;
-  --button-secondary-hover: #3A3A3C;
-  --button-secondary-active: #3A3A3C;
+  --button-secondary: #161B22;
+  --button-secondary-hover: #21262D;
+  --button-secondary-active: #21262D;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -24,30 +24,30 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #068BEE;
-  --link-primary-hover: #6DAAFB;
+  --link-primary: #1F6FEB;
+  --link-primary-hover: #388BFD;
 
-  --heading-primary: #F2F2F7;
-  --heading-primary-01: #E5E5EA;
-  --heading-primary-02: #D1D1D6;
+  --heading-primary: #F0F6FC;
+  --heading-primary-01: #C9D1D9;
+  --heading-primary-02: #B1BAC4;
 
-  --paragraph-primary: #F2F2F7;
-  --paragraph-primary-100: #E5E5EA;
-  --paragraph-primary-200: #D1D1D6;
+  --paragraph-primary: #F0F6FC;
+  --paragraph-primary-100: #C9D1D9;
+  --paragraph-primary-200: #B1BAC4;
 
-  --surface-layer-01: #1C1C1E;
-  --surface-layer-02: #2C2C2E;
-  --surface-layer-03: #3A3A3C;
+  --surface-layer-01: #0D1117;
+  --surface-layer-02: #161B22;
+  --surface-layer-03: #21262D;
 
-  --surface-layer-01-hover: #242426;
-  --surface-layer-02-hover: #363638;
-  --surface-layer-03-hover: #444446;
+  --surface-layer-01-hover: #161B22;
+  --surface-layer-02-hover: #21262D;
+  --surface-layer-03-hover: #30363D;
 
-  --border-subtle-01: #242426;
-  --border-subtle-02: #363638;
-  --border-subtle-03: #444446;
+  --border-subtle-01: #161B22;
+  --border-subtle-02: #21262D;
+  --border-subtle-03: #30363D;
 
-  --partition-dark: #242426;
+  --partition-dark: #161B22;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -57,19 +57,13 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #010409;
 
-  --glass-dark: rgba(29, 29, 31, 0.8);
+  --glass-dark: rgba(1, 4, 9, 0.8);
 
-  --nav-border-dark: #242426;
-
-  --nav-hover-dark: #242426;
-
-  --drop-shadow-dark: 0.6px 1.2px 0px 0px #242426, -0.6px -1.2px 0px 0px #444446;
+  --drop-shadow-dark: 0.6px 1.2px 0px 0px #161B22, 0px 2px 12px rgba(33, 139, 255, 0.12), -0.6px -1.2px 0px 0px #21262D;
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
-
-
 
   --dark-gradient: linear-gradient(to bottom, #0972D3, #539FE5);
 
@@ -79,15 +73,15 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #266EF1;
+  --primary-light: #218BFF;
 
-  --button-primary-light: #266EF1;
-  --button-primary-hover-light: #175BCC;
-  --button-primary-active-light: #175BCC;
+  --button-primary-light: #218BFF;
+  --button-primary-hover-light: #0969DA;
+  --button-primary-active-light: #0969DA;
 
-  --button-secondary-light: #E5E5EA;
-  --button-secondary-hover-light: #D1D1D6;
-  --button-secondary-active-light: #D1D1D6;
+  --button-secondary-light: #EAEEF2;
+  --button-secondary-hover-light: #D0D7DE;
+  --button-secondary-active-light: #D0D7DE;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
@@ -95,30 +89,30 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #266EF1;
-  --link-primary-hover-light: #175BCC;
+  --link-primary-light: #218BFF;
+  --link-primary-hover-light: #0969DA;
 
-  --heading-primary-light: #1C1C1E;
-  --heading-primary-01-light: #2C2C2E;
-  --heading-primary-02-light: #3A3A3C;
+  --heading-primary-light: #24292F;
+  --heading-primary-01-light: #32383F;
+  --heading-primary-02-light: #424A53;
 
-  --paragraph-primary-light: #1C1C1E;
-  --paragraph-primary-100-light: #2C2C2E;
-  --paragraph-primary-200-light: #3A3A3C;
+  --paragraph-primary-light: #24292F;
+  --paragraph-primary-100-light: #32383F;
+  --paragraph-primary-200-light: #424A53;
 
-  --surface-layer-01-light: #F2F2F7;
-  --surface-layer-02-light: #E5E5EA;
-  --surface-layer-03-light: #D1D1D6;
+  --surface-layer-01-light: #F6F8FA;
+  --surface-layer-02-light: #EAEEF2;
+  --surface-layer-03-light: #D0D7DE;
 
-  --surface-layer-01-hover-light: #EBEBF0;
-  --surface-layer-02-hover-light: #D8D8DC;
-  --surface-layer-03-hover-light: #BCBCC0;
+  --surface-layer-01-hover-light: #EAEEF2;
+  --surface-layer-02-hover-light: #D0D7DE;
+  --surface-layer-03-hover-light: #AFB8C1;
 
-  --border-subtle-01-light: #EBEBF0;
-  --border-subtle-02-light: #D8D8DC;
-  --border-subtle-03-light: #BCBCC0;
+  --border-subtle-01-light: #EAEEF2;
+  --border-subtle-02-light: #D0D7DE;
+  --border-subtle-03-light: #AFB8C1;
 
-  --partition-light: #EBEBF0;
+  --partition-light: #EAEEF2;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -132,11 +126,7 @@
 
   --glass-light: rgba(255, 255, 255, 0.8);
 
-  --nav-border-light: #EBEBF0;
-
-  --nav-hover-light: #EBEBF0;
-
-  --drop-shadow-light: 0.6px 1.2px 0px 0px #EBEBF0, -0.6px -1.2px 0px 0px #D8D8DC;
+  --drop-shadow-light: 0.6px 1.2px 0px 0px #EAEEF2, 0px 2px 12px rgba(33, 139, 255, 0.12), -0.6px -1.2px 0px 0px #D0D7DE;
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
@@ -154,7 +144,7 @@
   --fontWeights-thin: 200;
   --fontWeights-light: 300;
   --fontWeights-normal: 400;
-  --fontWeights-medium: 600;
+  --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
   --fontWeights-bold: 700;
   --fontWeights-extrabold: 800;
