@@ -67,7 +67,7 @@
 
   --drop-shadow-dark: 0.6px 1.2px 0px 0px #242426, -0.6px -1.2px 0px 0px #444446;
 
-  --button-drop-shadow-dark: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
+  --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
 
 
@@ -138,7 +138,7 @@
 
   --drop-shadow-light: 0.6px 1.2px 0px 0px #EBEBF0, -0.6px -1.2px 0px 0px #D8D8DC;
 
-  --button-drop-shadow-light: 0 .3259259164px .7333333492px 0 rgba(0, 0, 0, .12), 0 1.5407407284px 2.8666665554px 0 rgba(0, 0, 0, .07), 0 4px 9px 0 rgba(0, 0, 0, .05);
+  --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
   --light-gradient: linear-gradient(to bottom, #273EA5, #3759CE);
 
