@@ -511,7 +511,7 @@ body {
   display: grid;
   justify-content: start;
   align-items: start;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
   padding: 32px 104px;
   max-width: 1600px;
@@ -577,14 +577,14 @@ body {
 }
 
 #navbutton {
-  margin-top: 48px;
+  margin-top: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .dive-in {
-  padding: 0.875rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   background-color: var(--button-primary);
   border-radius: var(--border-radius-full);
   font-size: var(--fontSizes-16);
@@ -599,7 +599,6 @@ body {
   transition: 0.3s ease-out;
   gap: 8px;
   box-shadow: var(--button-drop-shadow-dark);
-  min-height: 48px;
 }
 
 #rocket {
@@ -1160,7 +1159,7 @@ body {
 
   .hero-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    padding: 32px 40px;
+    padding: 24px 40px;
     gap: 32px;
     height: fit-content;
     margin: 0px;
@@ -1191,7 +1190,7 @@ body {
   }
 
   #navbutton {
-    margin-top: 40px;
+    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -1512,7 +1511,7 @@ body {
   #scroll {
     max-width: 1600px;
     margin: auto;
-    padding: 32px 24px;
+    padding: 16px 24px;
   }
 
   #project-container {
