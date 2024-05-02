@@ -5,15 +5,15 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #1F6FEB;
+  --primary: #116CE3;
 
-  --button-primary: #1F6FEB;
-  --button-primary-hover: #388BFD;
-  --button-primary-active: #388BFD;
+  --button-primary: #116CE3;
+  --button-primary-hover: #368EF9;
+  --button-primary-active: #368EF9;
 
-  --button-secondary: #161B22;
-  --button-secondary-hover: #21262D;
-  --button-secondary-active: #21262D;
+  --button-secondary: #456885;
+  --button-secondary-hover: #5C7E99;
+  --button-secondary-active: #5C7E99;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -24,30 +24,30 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #1F6FEB;
-  --link-primary-hover: #388BFD;
+  --link-primary: #116CE3;
+  --link-primary-hover: #368EF9;
 
-  --heading-primary: #EBF1F5;
-  --heading-primary-01: #C5D3E0;
-  --heading-primary-02: #93A7C2;
+  --heading-primary: #EBF2F5;
+  --heading-primary-01: #D8E4EB;
+  --heading-primary-02: #93AFC2;
 
-  --paragraph-primary: #EBF1F5;
-  --paragraph-primary-100: #C5D3E0;
-  --paragraph-primary-200: #93A7C2;
+  --paragraph-primary: #EBF2F5;
+  --paragraph-primary-100: #D8E4EB;
+  --paragraph-primary-200: #93AFC2;
 
-  --surface-layer-01: #0A1533;
-  --surface-layer-02: #21335C;
-  --surface-layer-03: #455A85;
+  --surface-layer-01: #0A1F33;
+  --surface-layer-02: #21405C;
+  --surface-layer-03: #456885;
 
-  --surface-layer-01-hover: #21335C;
-  --surface-layer-02-hover: #455A85;
-  --surface-layer-03-hover: #5C7299;
+  --surface-layer-01-hover: #21405C;
+  --surface-layer-02-hover: #456885;
+  --surface-layer-03-hover: #5C7E99;
 
-  --border-subtle-01: #21335C;
-  --border-subtle-02: #455A85;
-  --border-subtle-03: #5C7299;
+  --border-subtle-01: #21405C;
+  --border-subtle-02: #456885;
+  --border-subtle-03: #5C7E99;
 
-  --partition-dark: #21335C;
+  --partition-dark: #21405C;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -57,9 +57,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #00030A;
+  --background-main: #00050A;
 
-  --glass-dark: #00030A;
+  --glass-dark: #00050A;
 
   --drop-shadow-dark: 0.6px 1.2px 0px 0px #21335C, -0.6px -1.2px 0px 0px #455A85;
 
@@ -73,15 +73,15 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #3691F9;
+  --primary-light: #116CE3;
 
-  --button-primary-light: #3691F9;
-  --button-primary-hover-light: #116CE3;
-  --button-primary-active-light: #116CE3;
+  --button-primary-light: #116CE3;
+  --button-primary-hover-light: #368EF9;
+  --button-primary-active-light: #368EF9;
 
-  --button-secondary-light: #93A7C2;
-  --button-secondary-hover-light: #768CAD;
-  --button-secondary-active-light: #768CAD;
+  --button-secondary-light: #B4C9D6;
+  --button-secondary-hover-light: #93AFC2;
+  --button-secondary-active-light: #93AFC2;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
@@ -89,30 +89,30 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #3691F9;
-  --link-primary-hover-light: #116CE3;
+  --link-primary-light: #116CE3;
+  --link-primary-hover-light: #368EF9;
 
-  --heading-primary-light: #00030A;
-  --heading-primary-01-light: #21335C;
-  --heading-primary-02-light: #5C7299;
+  --heading-primary-light: #00050A;
+  --heading-primary-01-light: #0A1F33;
+  --heading-primary-02-light: #5C7E99;
 
-  --paragraph-primary-light: #0A1533;
-  --paragraph-primary-100-light: #21335C;
-  --paragraph-primary-200-light: #5C7299;
+  --paragraph-primary-light: #00050A;
+  --paragraph-primary-100-light: #0A1F33;
+  --paragraph-primary-200-light: #5C7E99;
 
-  --surface-layer-01-light: #D8E2EB;
-  --surface-layer-02-light: #C5D3E0;
-  --surface-layer-03-light: #B4C4D6;
+  --surface-layer-01-light: #D8E4EB;
+  --surface-layer-02-light: #C5D7E0;
+  --surface-layer-03-light: #B4C9D6;
 
-  --surface-layer-01-hover-light: #C5D3E0;
-  --surface-layer-02-hover-light: #B4C4D6;
-  --surface-layer-03-hover-light: #93A7C2;
+  --surface-layer-01-hover-light: #C5D7E0;
+  --surface-layer-02-hover-light: #B4C9D6;
+  --surface-layer-03-hover-light: #93AFC2;
 
-  --border-subtle-01-light: #C5D3E0;
-  --border-subtle-02-light: #B4C4D6;
-  --border-subtle-03-light: #93A7C2;
+  --border-subtle-01-light: #C5D7E0;
+  --border-subtle-02-light: #B4C9D6;
+  --border-subtle-03-light: #93AFC2;
 
-  --partition-light: #C5D3E0;
+  --partition-light: #C5D7E0;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -122,9 +122,9 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #EBF1F5;
+  --background-main-light: #EBF2F5;
 
-  --glass-light: #EBF1F5;
+  --glass-light: #EBF2F5;
 
   --drop-shadow-light: 0.6px 1.2px 0px 0px #C5D3E0, -0.6px -1.2px 0px 0px #B4C4D6;
 
@@ -1256,7 +1256,7 @@ main {
   }
 
   #cover-mt {
-    margin-top: 12px;
+    margin-top: 16px;
   }
 
   #head {
