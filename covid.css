@@ -59,7 +59,7 @@
 
   --background-main: #00030A;
 
-  --glass-dark: rgba(0, 3, 10, 0.8);
+  --glass-dark: #00030A;
 
   --drop-shadow-dark: 0.6px 1.2px 0px 0px #21335C, -0.6px -1.2px 0px 0px #455A85;
 
@@ -124,7 +124,7 @@
 
   --background-main-light: #EBF1F5;
 
-  --glass-light: rgba(255, 255, 255, 0.72);
+  --glass-light: #EBF1F5;
 
   --drop-shadow-light: 0.6px 1.2px 0px 0px #C5D3E0, -0.6px -1.2px 0px 0px #B4C4D6;
 
@@ -382,23 +382,24 @@ main {
 }
 
 #cover-mt {
+  margin-top: 32px;
   max-width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-600);
 }
 
 #side-navbar {
   position: fixed;
-  top: 104px;
+  top: 110px;
   left: 0;
   max-width: 168px;
   height: min-content;
-  background-color: var(--surface-layer-01);
+  background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(20px);
-  border-radius: 0px var(--border-radius-200) var(--border-radius-200) 0px;
+  border-radius: 0px var(--border-radius-400) var(--border-radius-400) 0px;
   padding: 12px 24px;
   z-index: 100;
   border: 1px solid var(--border-subtle-01);
@@ -435,7 +436,7 @@ main {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  background-color: var(--surface-layer-01);
+  background-color: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(20px);
   text-decoration: none;
   border: 1px solid var(--border-subtle-01);
@@ -1053,6 +1054,10 @@ main {
 
   #upper-com {
     margin: 16px 0px;
+  }
+
+  #cover-mt {
+    margin-top: 12px;
   }
 
   #head {
