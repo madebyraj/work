@@ -57,9 +57,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #00050A;
 
-  --glass-dark: #000000;
+  --glass-dark: #00050A;
 
   --drop-shadow-dark: 0px;
 
@@ -122,9 +122,9 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #FFFFFF;
+  --background-main-light: #EBF2F5;
 
-  --glass-light: #FFFFFF;
+  --glass-light: #EBF2F5;
 
   --drop-shadow-light: 0px;
 
@@ -136,9 +136,9 @@
   /* Fonts */
 
 
-  --fonts-heading:  -apple-system, BlinkMacSystemFont, "Whyte Inktrap", system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, "Whyte", system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, "Whyte", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading:  -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
