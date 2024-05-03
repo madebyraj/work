@@ -136,8 +136,8 @@
   /* Fonts */
 
 
-  --fonts-heading: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -437,13 +437,17 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   padding: 8px;
-  transition: 200ms ease-out;
+  transition: 100ms ease-out;
+  border-radius: var(--border-radius-200);
 }
 
 #work:hover {
-  border-radius: var(--border-radius-400);
-  color: var(--link-primary-hover);
+  border-radius: var(--border-radius-200);
   background-color: var(--surface-layer-01);
+}
+
+#work:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
 }
 
 #about {
@@ -453,13 +457,17 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   padding: 8px;
-  transition: 200ms ease-out;
+  transition: 100ms ease-out;
+  border-radius: var(--border-radius-200);
 }
 
 #about:hover {
-  border-radius: var(--border-radius-400);
-  color: var(--link-primary-hover);
+  border-radius: var(--border-radius-200);
   background-color: var(--surface-layer-01);
+}
+
+#about:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
 }
 
 #resume {
@@ -469,13 +477,17 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   padding: 8px;
-  transition: 200ms ease-out;
+  transition: 100ms ease-out;
+  border-radius: var(--border-radius-200);
 }
 
 #resume:hover {
-  border-radius: var(--border-radius-400);
-  color: var(--link-primary-hover);
+  border-radius: var(--border-radius-200);
   background-color: var(--surface-layer-01);
+}
+
+#resume:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
 }
 
 
@@ -552,30 +564,28 @@ body {
   color: var(--heading-primary);
   width: 100%;
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-bold);
+  margin-bottom: 16px;
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  line-height: var(--lineHeights-shorter);
 }
 
-.d-o{
-  font-weight: var(--fontWeights-semibold);
+.d-o {
   color: var(--link-primary);
   text-decoration: none;
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-short);
+  font-weight: var(--fontWeights-bold);
 }
 
-.d-o:hover{
+.d-o:hover {
   text-decoration: underline var(--link-primary-hover);
   color: var(--link-primary-hover);
 }
 
-#animation{
+#animation {
   margin: auto;
   max-width: 1600px;
 }
+
 .para {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
@@ -586,13 +596,13 @@ body {
 .mySwiper swiper-slide {
   width: fit-content;
   height: fit-content;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
 }
 
 #hero-image {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -611,7 +621,7 @@ body {
   font-size: var(--fontSizes-16);
   letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   color: var(--primary-button-text);
   display: flex;
   align-items: center;
@@ -643,7 +653,7 @@ body {
   padding-bottom: 32px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
 }
@@ -675,7 +685,7 @@ body {
 .image-wrapper {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   overflow: hidden;
   object-fit: cover;
   object-position: center;
@@ -684,7 +694,7 @@ body {
 .pro-bg-1 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -699,7 +709,7 @@ body {
   font-size: var(--fontSizes-32);
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
 }
@@ -733,7 +743,7 @@ body {
 .pro-bg-2 {
   max-width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -747,7 +757,7 @@ body {
 #project-2 h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -773,7 +783,7 @@ body {
 .pro-bg-3 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -787,7 +797,7 @@ body {
 #project-3 h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -813,7 +823,7 @@ body {
 .pro-bg-4 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -827,7 +837,7 @@ body {
 #project-4 h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -843,7 +853,7 @@ body {
 /* Writing */
 
 #line {
-  border: 0.8px solid var(--border-subtle-01);
+  border: 1px solid var(--border-subtle-01);
   margin: 16px 104px;
 }
 
@@ -861,7 +871,7 @@ body {
 #writing {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -893,7 +903,7 @@ body {
 #info-1 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
@@ -910,7 +920,7 @@ body {
 #f-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -932,7 +942,7 @@ body {
 #info-2 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
@@ -949,7 +959,7 @@ body {
 #s-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -972,7 +982,7 @@ body {
 #info-3 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
@@ -989,7 +999,7 @@ body {
 #t-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -1016,7 +1026,7 @@ body {
 #bottom-text {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1075,7 +1085,7 @@ body {
 .about {
   font-size: var(--fontSizes-48);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1105,7 +1115,7 @@ body {
 .question {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1127,7 +1137,7 @@ body {
   color: var(--heading-primary);
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
@@ -1146,7 +1156,7 @@ body {
   color: var(--heading-primary);
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
