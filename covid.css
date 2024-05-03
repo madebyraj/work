@@ -136,8 +136,8 @@
   /* Fonts */
 
 
-  --fonts-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -419,7 +419,7 @@ main {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
 }
 
 .inner-nav a:hover {
@@ -465,7 +465,7 @@ main {
 #head {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
@@ -498,7 +498,7 @@ main {
 .r-r h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -513,7 +513,7 @@ main {
 .p-c h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -528,7 +528,7 @@ main {
 .tools h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -557,7 +557,7 @@ main {
 #problem-s h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -567,7 +567,7 @@ main {
 #problem-s h6:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #problem-s p {
@@ -584,7 +584,7 @@ main {
 #tackling-tp h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -594,7 +594,7 @@ main {
 #tackling-tp h6:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #tackling-tp p {
@@ -619,7 +619,7 @@ main {
 #re-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -629,7 +629,7 @@ main {
 #re-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #research-sec p {
@@ -654,7 +654,7 @@ main {
 #id-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -664,13 +664,13 @@ main {
 #id-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #hmw-head {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -690,7 +690,7 @@ main {
 #low-fi {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -728,7 +728,7 @@ main {
 #ta-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -738,7 +738,7 @@ main {
 #ta-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #task-sec p {
@@ -772,7 +772,7 @@ main {
 #so-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -782,7 +782,7 @@ main {
 #so-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #solution-sec p {
@@ -807,7 +807,7 @@ main {
 .for-em h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -829,7 +829,7 @@ main {
 .for-ma h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -851,7 +851,7 @@ main {
 #pr-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -861,7 +861,7 @@ main {
 #pr-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 
@@ -892,7 +892,7 @@ main {
 #ke-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -902,7 +902,7 @@ main {
 #ke-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #in-sec {
@@ -918,7 +918,7 @@ main {
 #fn-head {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1063,7 +1063,7 @@ main {
   #head {
     font-size: var(--fontSizes-32);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 12px;
   }
@@ -1104,7 +1104,7 @@ main {
   .r-r h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1116,7 +1116,7 @@ main {
   .p-c h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1128,7 +1128,7 @@ main {
   .tools h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1145,7 +1145,7 @@ main {
   #problem-s h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1165,7 +1165,7 @@ main {
   #tackling-tp h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1186,7 +1186,7 @@ main {
   #re-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1207,7 +1207,7 @@ main {
   #id-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1219,7 +1219,7 @@ main {
   #hmw-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 12px;
   }
@@ -1235,7 +1235,7 @@ main {
   #low-fi {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 24px;
   }
@@ -1252,7 +1252,7 @@ main {
   #ta-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1273,7 +1273,7 @@ main {
   #so-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1326,7 +1326,7 @@ main {
   #pr-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1354,7 +1354,7 @@ main {
   #ke-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1375,7 +1375,7 @@ main {
   #fn-head {
     font-size: var(--fontSizes-40);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     text-align: center;
     margin-bottom: 8px;

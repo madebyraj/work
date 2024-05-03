@@ -136,8 +136,8 @@
   /* Fonts */
 
 
-  --fonts-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -418,7 +418,7 @@ main {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
 }
 
 .inner-nav a:hover {
@@ -464,7 +464,7 @@ main {
 #head {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
@@ -498,7 +498,7 @@ main {
 .r-r h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -513,7 +513,7 @@ main {
 .p-c h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -528,7 +528,7 @@ main {
 .tools h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -562,7 +562,7 @@ main {
 #problem-s h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -572,7 +572,7 @@ main {
 #problem-s h6:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #problem-s p {
@@ -595,7 +595,7 @@ main {
 #sol-h {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -605,7 +605,7 @@ main {
 #sol-h:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .sol-1 {
@@ -631,7 +631,7 @@ main {
 #sol-info1 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -668,7 +668,7 @@ main {
 #sol-info2 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -704,7 +704,7 @@ main {
 #sol-info3 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -741,7 +741,7 @@ main {
 #sol-info4 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -762,7 +762,7 @@ main {
 #ap-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -772,7 +772,7 @@ main {
 #ap-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .ap-bg {
@@ -791,7 +791,7 @@ main {
 #re-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -801,7 +801,7 @@ main {
 #re-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .re-subh {
@@ -852,7 +852,7 @@ main {
 #q-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -862,7 +862,7 @@ main {
 #q-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .questions p {
@@ -879,7 +879,7 @@ main {
 #in-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -889,7 +889,7 @@ main {
 #in-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #insights p {
@@ -923,7 +923,7 @@ main {
 #de-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -933,7 +933,7 @@ main {
 #de-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #design-sec p {
@@ -967,7 +967,7 @@ main {
 #pr-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -977,7 +977,7 @@ main {
 #pr-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #proto-sec p {
@@ -1035,7 +1035,7 @@ main {
 #ev-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1045,7 +1045,7 @@ main {
 #ev-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 .ut-info {
@@ -1084,7 +1084,7 @@ main {
 #lr-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1094,7 +1094,7 @@ main {
 #lr-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #my-learn p {
@@ -1110,7 +1110,7 @@ main {
 #ns-head {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1120,7 +1120,7 @@ main {
 #ns-head:hover::after {
   content: "#";
   color: var(--primary-light);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
 }
 
 #next-st p {
@@ -1136,7 +1136,7 @@ main {
 #fn-head {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1262,7 +1262,7 @@ main {
   #head {
     font-size: var(--fontSizes-32);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 12px;
   }
@@ -1303,7 +1303,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1316,7 +1316,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1329,7 +1329,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1351,7 +1351,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1383,7 +1383,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 8px;
   }
@@ -1413,7 +1413,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1444,7 +1444,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1473,7 +1473,7 @@ main {
   #sol-info3 h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1502,7 +1502,7 @@ main {
   #sol-info4 h6 {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
     min-width: 100%;
@@ -1521,7 +1521,7 @@ main {
   #ap-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1537,7 +1537,7 @@ main {
   #re-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1567,7 +1567,7 @@ main {
   #q-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1588,7 +1588,7 @@ main {
   #in-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1609,7 +1609,7 @@ main {
   #de-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1630,7 +1630,7 @@ main {
   #pr-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1655,7 +1655,7 @@ main {
   #ev-head {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1686,7 +1686,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1708,7 +1708,7 @@ main {
     font-size: var(--fontSizes-24);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     margin-bottom: 16px;
   }
@@ -1730,7 +1730,7 @@ main {
     font-size: var(--fontSizes-40);
 
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     letter-spacing: var(--letterSpacings-tight);
     text-align: center;
     margin-bottom: 8px;

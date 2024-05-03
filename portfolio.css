@@ -136,8 +136,8 @@
   /* Fonts */
 
 
-  --fonts-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: "Bricolage Grotesque", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -435,7 +435,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   padding: 8px;
   transition: 200ms ease-out;
 }
@@ -451,7 +451,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   padding: 8px;
   transition: 200ms ease-out;
 }
@@ -467,7 +467,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   padding: 8px;
   transition: 200ms ease-out;
 }
@@ -514,7 +514,7 @@ body {
   display: grid;
   justify-content: start;
   align-items: start;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
   padding: 32px 104px;
   max-width: 1600px;
@@ -551,13 +551,31 @@ body {
   font-size: var(--fontSizes-60);
   color: var(--heading-primary);
   width: 100%;
-  margin-bottom: 16px;
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-shorter);
+  line-height: var(--lineHeights-short);
 }
 
+.d-o{
+  font-weight: var(--fontWeights-semibold);
+  color: var(--link-primary);
+  text-decoration: none;
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-medium);
+  letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-short);
+}
+
+.d-o:hover{
+  text-decoration: underline var(--link-primary-hover);
+  color: var(--link-primary-hover);
+}
+
+#animation{
+  margin: auto;
+  max-width: 1600px;
+}
 .para {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
@@ -625,7 +643,7 @@ body {
   padding-bottom: 32px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
 }
@@ -681,7 +699,7 @@ body {
   font-size: var(--fontSizes-32);
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
 }
@@ -729,7 +747,7 @@ body {
 #project-2 h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -769,7 +787,7 @@ body {
 #project-3 h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -809,7 +827,7 @@ body {
 #project-4 h6 {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -843,7 +861,7 @@ body {
 #writing {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -875,7 +893,7 @@ body {
 #info-1 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
@@ -914,7 +932,7 @@ body {
 #info-2 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
@@ -954,7 +972,7 @@ body {
 #info-3 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
@@ -998,7 +1016,7 @@ body {
 #bottom-text {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1057,7 +1075,7 @@ body {
 .about {
   font-size: var(--fontSizes-48);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1087,7 +1105,7 @@ body {
 .question {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -1109,7 +1127,7 @@ body {
   color: var(--heading-primary);
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
@@ -1128,7 +1146,7 @@ body {
   color: var(--heading-primary);
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
@@ -1198,10 +1216,6 @@ body {
   #hero-image {
     max-width: 100%;
     max-height: 100%;
-  }
-
-  #animation{
-    display: none;
   }
 
   #navbutton {
