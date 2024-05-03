@@ -1729,17 +1729,10 @@ main {
     margin: auto;
     width: max-content;
     padding: 2px 4px;
-    border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 4px;
-    border: none;
     text-decoration: none;
-    border-bottom: 2px solid var(--link-primary);
-  }
-
-  #back-to-all #arrow-right {
-    font-size: var(--fontSizes-24);
   }
 }

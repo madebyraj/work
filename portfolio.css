@@ -184,7 +184,7 @@
   --border-radius-full: 10rem;
 
 
-
+  --fontSizes-10: 0.625rem;
   --fontSizes-12: 0.75rem;
   --fontSizes-14: 0.875rem;
   --fontSizes-16: 1rem;
@@ -397,7 +397,7 @@ body {
   transition: transform 0.32s ease-out;
   background-color: var(--glass-dark);
   background-blend-mode: luminosity;
-  border: 1px solid var(--border-subtle-01);
+  border-bottom: 1px solid var(--border-subtle-01);
   box-shadow: var(--drop-shadow-dark);
 }
 
@@ -687,7 +687,7 @@ body {
 #label{
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
-  font-size: var(--fontSizes-16);
+  font-size: var(--fontSizes-14);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
   color: var(--paragraph-primary-200);
@@ -1097,7 +1097,7 @@ body {
 .me {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -1266,6 +1266,10 @@ body {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 32px;
+  }
+
+  #label{
+    font-size: var(--fontSizes-12);
   }
 
   #project-1 {
@@ -1547,6 +1551,10 @@ body {
     align-items: start;
     justify-content: space-between;
     gap: 8px;
+  }
+
+  #label{
+    font-size: var(--fontSizes-10);
   }
 
   .pro-bg-1 {
