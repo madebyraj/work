@@ -5,11 +5,11 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #116CE3;
+  --primary: #368EF9;
 
-  --button-primary: #116CE3;
-  --button-primary-hover: #368EF9;
-  --button-primary-active: #368EF9;
+  --button-primary: #368EF9;
+  --button-primary-hover: #67ADFD;
+  --button-primary-active: #67ADFD;
 
   --button-secondary: #456885;
   --button-secondary-hover: #5C7E99;
@@ -24,8 +24,8 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #116CE3;
-  --link-primary-hover: #368EF9;
+  --link-primary: #368EF9;
+  --link-primary-hover: #67ADFD;
 
   --heading-primary: #EBF2F5;
   --heading-primary-01: #D8E4EB;
@@ -61,7 +61,7 @@
 
   --glass-dark: #00050A;
 
-  --drop-shadow-dark: 0.6px 1.2px 0px 0px #21335C, -0.6px -1.2px 0px 0px #455A85;
+  --drop-shadow-dark: 0px 0px 12px 0px rgba(0, 0, 0, 0.88);
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
@@ -126,7 +126,7 @@
 
   --glass-light: #EBF2F5;
 
-  --drop-shadow-light: 0.6px 1.2px 0px 0px #C5D3E0, -0.6px -1.2px 0px 0px #B4C4D6;
+  --drop-shadow-light: 0px 0px 12px 0px rgba(30, 30, 30, 0.12);
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
