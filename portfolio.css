@@ -1,3 +1,142 @@
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Light.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Regular.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Book.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Black.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte Inktrap;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Whyte Inktrap"), url(./assets/fonts/whyte-inktrap/WhyteInktrap-Heavy.woff2) format("woff2");
+  font-display: swap;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Light.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Regular.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Book.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Black.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Whyte;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Whyte"), url(./assets/fonts/whyte/Whyte-Heavy.woff2) format("woff2");
+  font-display: swap;
+}
+
+
+
+
+
+
+
 :root {
 
   /* Dark mode */
@@ -57,9 +196,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #00050A;
+  --background-main: #000000;
 
-  --glass-dark: #00050A;
+  --glass-dark: #000000;
 
   --drop-shadow-dark: 0px;
 
@@ -73,11 +212,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #116CE3;
+  --primary-light: #365DF9;
 
-  --button-primary-light: #116CE3;
-  --button-primary-hover-light: #368EF9;
-  --button-primary-active-light: #368EF9;
+  --button-primary-light: #365DF9;
+  --button-primary-hover-light: #113BE3;
+  --button-primary-active-light: #113BE3;
 
   --button-secondary-light: #B4C9D6;
   --button-secondary-hover-light: #93AFC2;
@@ -89,8 +228,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #116CE3;
-  --link-primary-hover-light: #368EF9;
+  --link-primary-light: #365DF9;
+  --link-primary-hover-light: #113BE3;
 
   --heading-primary-light: #0A0A0A;
   --heading-primary-01-light: #141414;
@@ -122,9 +261,9 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #EBF2F5;
+  --background-main-light: #FFFFFF;
 
-  --glass-light: #EBF2F5;
+  --glass-light: #FFFFFF;
 
   --drop-shadow-light: 0px;
 
@@ -136,9 +275,9 @@
   /* Fonts */
 
 
-  --fonts-heading: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading:  -apple-system, BlinkMacSystemFont, "Whyte Inktrap", system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: -apple-system, BlinkMacSystemFont, "Whyte", system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: SFMono-Regular, "Whyte", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -437,13 +576,13 @@ body {
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
-  padding: 8px;
+  padding: 8px 12px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-full);
 }
 
 #work:hover {
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-full);
   background-color: var(--surface-layer-01);
 }
 
@@ -457,13 +596,13 @@ body {
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
-  padding: 8px;
+  padding: 8px 12px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-full);
 }
 
 #about:hover {
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-full);
   background-color: var(--surface-layer-01);
 }
 
@@ -477,13 +616,13 @@ body {
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
-  padding: 8px;
+  padding: 8px 12px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-full);
 }
 
 #resume:hover {
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-full);
   background-color: var(--surface-layer-01);
 }
 
@@ -1553,9 +1692,9 @@ body {
     gap: 8px;
   }
 
-  #label{
-    font-size: var(--fontSizes-10);
-  }
+  /* #label{
+    font-size: var(--fontSizes-12);
+  } */
 
   .pro-bg-1 {
     width: 100%;
