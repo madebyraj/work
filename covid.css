@@ -5,15 +5,15 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #368EF9;
+  --primary: #0C8CE9;
 
-  --button-primary: #368EF9;
-  --button-primary-hover: #67ADFD;
-  --button-primary-active: #67ADFD;
+  --button-primary: #0C8CE9;
+  --button-primary-hover: #7CC4F8;
+  --button-primary-active: #7CC4F8;
 
-  --button-secondary: #456885;
-  --button-secondary-hover: #5C7E99;
-  --button-secondary-active: #5C7E99;
+  --button-secondary: #A8D7FA;
+  --button-secondary-hover: #CFE9FC;
+  --button-secondary-active: #CFE9FC;
 
   --secondary-button-text-dark: #ffffff;
   --secondary-button-icon-dark: #ffffff;
@@ -24,28 +24,28 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #368EF9;
-  --link-primary-hover: #67ADFD;
+  --link-primary: #0C8CE9;
+  --link-primary-hover: #7CC4F8;
 
   --heading-primary: #F5F5F5;
-  --heading-primary-01: #EBEBEB;
-  --heading-primary-02: #E0E0E0;
+  --heading-primary-01: #E6E6E6;
+  --heading-primary-02: #B3B3B3;
 
   --paragraph-primary: #F5F5F5;
-  --paragraph-primary-100: #EBEBEB;
-  --paragraph-primary-200: #E0E0E0;
+  --paragraph-primary-100: #E6E6E6;
+  --paragraph-primary-200: #B3B3B3;
 
-  --surface-layer-01: #0A1F33;
-  --surface-layer-02: #21405C;
-  --surface-layer-03: #456885;
+  --surface-layer-01: #111111;
+  --surface-layer-02: #1E1E1E;
+  --surface-layer-03: #2C2C2C;
 
-  --surface-layer-01-hover: #21405C;
-  --surface-layer-02-hover: #456885;
-  --surface-layer-03-hover: #5C7E99;
+  --surface-layer-01-hover: #1E1E1E;
+  --surface-layer-02-hover: #2C2C2C;
+  --surface-layer-03-hover: #383838;
 
-  --border-subtle-01: #21405C;
-  --border-subtle-02: #456885;
-  --border-subtle-03: #5C7E99;
+  --border-subtle-01: #1E1E1E;
+  --border-subtle-02: #2C2C2C;
+  --border-subtle-03: #383838;
 
   --partition-dark: #21405C;
 
@@ -57,9 +57,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #00050A;
+  --background-main: #000000;
 
-  --glass-dark: #00050A;
+  --glass-dark: #000000;
 
   --drop-shadow-dark: 0px;
 
@@ -73,15 +73,15 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #365DF9;
+  --primary-light: #9747FF;
 
-  --button-primary-light: #365DF9;
-  --button-primary-hover-light: #113BE3;
-  --button-primary-active-light: #113BE3;
+  --button-primary-light: #9747FF;
+  --button-primary-hover-light: #8638E5;
+  --button-primary-active-light: #8638E5;
 
-  --button-secondary-light: #B4C9D6;
-  --button-secondary-hover-light: #93AFC2;
-  --button-secondary-active-light: #93AFC2;
+  --button-secondary-light: #F1E5FF;
+  --button-secondary-hover-light: #E4CCFF;
+  --button-secondary-active-light: #E4CCFF;
 
   --secondary-button-text-light: #000000;
   --secondary-button-icon-light: #000000;
@@ -89,30 +89,28 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #365DF9;
-  --link-primary-hover-light: #113BE3;
+  --link-primary-light: #9747FF;
+  --link-primary-hover-light: #8638E5;
 
-  --heading-primary-light: #0A0A0A;
-  --heading-primary-01-light: #141414;
-  --heading-primary-02-light: #1F1F1F;
+  --heading-primary-light: #111111;
+  --heading-primary-01-light: #1E1E1E;
+  --heading-primary-02-light: #383838;
 
-  --paragraph-primary-light: #0A0A0A;
-  --paragraph-primary-100-light: #141414;
-  --paragraph-primary-200-light: #1F1F1F;
+  --paragraph-primary-light: #111111;
+  --paragraph-primary-100-light: #1E1E1E;
+  --paragraph-primary-200-light: #383838;
 
-  --surface-layer-01-light: #D8E4EB;
-  --surface-layer-02-light: #C5D7E0;
-  --surface-layer-03-light: #B4C9D6;
+  --surface-layer-01-light: #F5F5F5;
+  --surface-layer-02-light: #E6E6E6;
+  --surface-layer-03-light: #D9D9D9;
 
-  --surface-layer-01-hover-light: #C5D7E0;
-  --surface-layer-02-hover-light: #B4C9D6;
-  --surface-layer-03-hover-light: #93AFC2;
+  --surface-layer-01-hover-light: #E6E6E6;
+  --surface-layer-02-hover-light: #D9D9D9;
+  --surface-layer-03-hover-light: #B3B3B3;
 
-  --border-subtle-01-light: #C5D7E0;
-  --border-subtle-02-light: #B4C9D6;
-  --border-subtle-03-light: #93AFC2;
-
-  --partition-light: #C5D7E0;
+  --border-subtle-01-light: #E6E6E6;
+  --border-subtle-02-light: #D9D9D9;
+  --border-subtle-03-light: #B3B3B3;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -122,9 +120,9 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #EBF2F5;
+  --background-main-light: #FFFFFF;
 
-  --glass-light: #EBF2F5;
+  --glass-light: #FFFFFF;
 
   --drop-shadow-light: 0px;
 
@@ -397,7 +395,7 @@ main {
   left: 0;
   max-width: 168px;
   height: min-content;
-  background-color: var(--glass-dark);
+  background-color: var(--surface-layer-01);
   backdrop-filter: saturate(180%) blur(20px);
   border-radius: 0px var(--border-radius-200) var(--border-radius-200) 0px;
   padding: 12px 24px;
@@ -436,7 +434,7 @@ main {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  background-color: var(--glass-dark);
+  background-color: var(--surface-layer-01);
   backdrop-filter: saturate(180%) blur(20px);
   text-decoration: none;
   border: 1px solid var(--border-subtle-01);
