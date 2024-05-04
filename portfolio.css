@@ -491,10 +491,7 @@ body {
 }
 
 .theme {
-  min-height: fit-content;
-  min-width: fit-content;
   border-radius: var(--border-radius-full);
-  background-color: transparent;
   border: none;
   display: flex;
   align-items: center;
