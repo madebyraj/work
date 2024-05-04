@@ -470,10 +470,10 @@
     function loadTheme(theme) {
       const root = document.querySelector(':root');
       if (theme === "light") {
-        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg">`
+        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg" preload alt="Dark mode button">`
       }
       else {
-        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg">`
+        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg" preload alt="Light mode button">`
       }
 
       root.setAttribute('color-scheme', `${theme}`)

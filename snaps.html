@@ -32,6 +32,7 @@
 </head>
 
 <body data-aos="zoom">
+  <div class="indicator"></div>
 
   <div id="dynamic-nav-head" class="dynamic-nav-head">
     <nav id="dynamic-nav">
@@ -90,6 +91,23 @@
       easing: "ease",
     });
   </script>
+
+<script>
+  let indicator = document.querySelector(".indicator");
+
+  let documentHeight = document.documentElement.scrollHeight;
+
+  let viewportHeight = document.documentElement.clientHeight;
+
+  window.onscroll = function () {
+    console.log(scrollY);
+
+    let percentageScrolled =
+      (scrollY / (documentHeight - viewportHeight)) * 100;
+    indicator.style.width = percentageScrolled + "%";
+  };
+</script>
+
   <script>
     const navbar = document.getElementById('dynamic-nav-head');
 
@@ -133,10 +151,10 @@
     function loadTheme(theme) {
       const root = document.querySelector(':root');
       if (theme === "light") {
-        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg">`
+        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg" preload alt="Dark mode button">`
       }
       else {
-        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg">`
+        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg" preload alt="Light mode button">`
       }
 
       root.setAttribute('color-scheme', `${theme}`)
