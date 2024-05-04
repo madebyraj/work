@@ -381,6 +381,9 @@ body {
 .image-main{
   width: 100%;
   height: auto;
+  border-radius: var(--border-radius-none);
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 1400px) {
