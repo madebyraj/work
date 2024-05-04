@@ -39,6 +39,7 @@
       <div class="right-side-wrapper">
         <div id="nav-info">
           <a href="about.html" id="about">About</a>
+          <a href="snaps.html" id="snaps">Snaps</a>
           <a href="https://drive.google.com/file/d/1A2yyI-WDQ58WboFTcDiQ8V0p2iZfJ0A-/view?usp=drive_link"
             target="_blank" id="resume">Resume</a>
         </div>
@@ -276,10 +277,10 @@
     function loadTheme(theme) {
       const root = document.querySelector(':root');
       if (theme === "light") {
-        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg">`
+        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg" preload alt="Dark mode button">`
       }
       else {
-        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg">`
+        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg" preload alt="Light mode button">`
       }
 
       root.setAttribute('color-scheme', `${theme}`)

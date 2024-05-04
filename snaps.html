@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5W2JG6QL');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <!-- <link rel="shortcut icon" type="x-icon" href="/assets/mylogo.png"> -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snaps by Raj</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="snaps.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c5e7659afb.js" crossorigin="anonymous"></script>
+  <!-- <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> -->
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=general-sans@200,201,300,301,400,401,500,501,600,601,700,701&f[]=satoshi@300,301,400,401,500,501,700,701,900,901&display=swap"
+    rel="stylesheet">
+</head>
+
+<body data-aos="zoom">
+
+  <div id="dynamic-nav-head" class="dynamic-nav-head">
+    <nav id="dynamic-nav">
+      <a href="index.html" id="work">Home</a>
+      <div class="right-side-wrapper">
+        <div id="nav-info">
+          <a href="about.html" id="about">About</a>
+          <a href="snaps.html" id="snaps">Snaps</a>
+          <a href="https://drive.google.com/file/d/1A2yyI-WDQ58WboFTcDiQ8V0p2iZfJ0A-/view?usp=drive_link"
+            target="_blank" id="resume">Resume</a>
+        </div>
+        <button class="theme" role=" theme switch" alt="theme switch" preload></button>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <div class="collage-outer">
+      <img src="./assets/snaps/1.png" class="image-main">
+      <img src="./assets/snaps/2.png" class="image-main">
+      <img src="./assets/snaps/3.png" class="image-main">
+      <img src="./assets/snaps/4.png" class="image-main">
+    </div>
+  </main>
+  <hr id="line">
+  <footer class="footer">
+    <div class="social">
+      <p class="trademark">© 2024 Raj Kumar</p>
+      <h5 id="bottom-text">Get in touch.</h5>
+      <div class="bottom-icons">
+        <a href="https://www.instagram.com/rajkumar.png?igsh=MWlvbXRiZ2QzdTd2Zw==" target="_blank">
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank">
+          LinkedIn
+        </a>
+        <a href="mailto:rahulkumxr@gmail.com" target="_blank">
+          Gmail
+        </a>
+        <a href="https://x.com/madebyraj_?t=Bgc5xmQJv0bxsGev_r3A5A&s=09" target="_blank">
+          Twitter
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 400,
+      easing: "ease",
+    });
+  </script>
+  <script>
+    const navbar = document.getElementById('dynamic-nav-head');
+
+    let lastScrollTop = 0;
+
+
+    function handleScroll() {
+
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+
+      if (currentScrollTop > lastScrollTop) {
+
+        navbar.classList.add('hidden');
+      } else {
+
+        navbar.classList.remove('hidden');
+      }
+
+      lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+  </script>
+
+  <script>
+    const themeBtn = document.querySelector('.theme');
+
+    function getCurrentTheme() {
+      let theme = window.matchMedia('(prefers-color-scheme: dark)')
+        .matches ? 'dark' : 'light';
+      localStorage.getItem('work.theme') ? theme =
+        localStorage.getItem('work.theme') : null;
+
+      return theme;
+    }
+
+
+
+    function loadTheme(theme) {
+      const root = document.querySelector(':root');
+      if (theme === "light") {
+        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg">`
+      }
+      else {
+        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg">`
+      }
+
+      root.setAttribute('color-scheme', `${theme}`)
+    }
+
+
+    themeBtn.addEventListener('click', () => {
+      let theme = getCurrentTheme();
+      if (theme === 'dark') {
+        theme = 'light';
+      }
+      else {
+        theme = 'dark';
+      }
+
+      localStorage.setItem('work.theme', `${theme}`);
+      loadTheme(theme);
+    })
+
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadTheme(getCurrentTheme());
+    })
+  </script>
+
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W2JG6QL" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+</body>
+
+</html>

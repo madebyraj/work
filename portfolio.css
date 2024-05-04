@@ -420,7 +420,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 
@@ -428,7 +428,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 #work {
@@ -437,15 +437,13 @@ body {
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  padding: 8px 12px;
+  padding: 8px 0px;
   transition: 100ms ease-out;
   border-radius: var(--border-radius-400);
 }
 
 #work:hover {
-  border-radius: var(--border-radius-400);
-  background-color: var(--surface-layer-01);
-  color: var(--link-primary);
+  text-decoration: 2px underline;
 }
 
 #about {
@@ -454,15 +452,28 @@ body {
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  padding: 8px 12px;
   transition: 100ms ease-out;
+  padding: 8px 0px;
   border-radius: var(--border-radius-400);
 }
 
 #about:hover {
+  text-decoration: 2px underline;
+}
+
+#snaps {
+  font-size: var(--fontSizes-16);
+  color: var(--paragraph-primary);
+  text-decoration: none;
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-semibold);
+  transition: 100ms ease-out;
+  padding: 8px 0px;
   border-radius: var(--border-radius-400);
-  background-color: var(--surface-layer-01);
-  color: var(--link-primary);
+}
+
+#snaps:hover {
+  text-decoration: 2px underline;
 }
 
 
@@ -472,15 +483,13 @@ body {
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  padding: 8px 12px;
   transition: 100ms ease-out;
+  padding: 8px 0px;
   border-radius: var(--border-radius-400);
 }
 
 #resume:hover {
-  border-radius: var(--border-radius-400);
-  background-color: var(--surface-layer-01);
-  color: var(--link-primary);
+  text-decoration: 2px underline;
 }
 
 
