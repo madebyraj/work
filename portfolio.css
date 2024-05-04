@@ -8,8 +8,8 @@
   --primary: #5551FF;
 
   --button-primary: #5551FF;
-  --button-primary-hover: #4E4BEB;
-  --button-primary-active: #4E4BEB;
+  --button-primary-hover: #5551FF;
+  --button-primary-active: #5551FF;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -25,7 +25,7 @@
   --button-icon: #ffffff;
 
   --link-primary: #5551FF;
-  --link-primary-hover: #4E4BEB;
+  --link-primary-hover: #5551FF;
 
   --heading-primary: #F5F5F5;
   --heading-primary-01: #E6E6E6;
@@ -76,8 +76,8 @@
   --primary-light: #5551FF;
 
   --button-primary-light: #5551FF;
-  --button-primary-hover-light: #4E4BEB;
-  --button-primary-active-light: #4E4BEB;
+  --button-primary-hover-light: #5551FF;
+  --button-primary-active-light: #5551FF;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -90,7 +90,7 @@
   --button-icon-light: #000000;
 
   --link-primary-light: #5551FF;
-  --link-primary-hover-light: #4E4BEB;
+  --link-primary-hover-light: #5551FF;
 
   --heading-primary-light: #111111;
   --heading-primary-01-light: #1E1E1E;
@@ -624,8 +624,12 @@ body {
 .dive-in:hover {
   background-color: var(--button-primary-hover);
   cursor: pointer;
+  transform: translateY(-2px);
 }
 
+.dive-in:focus{
+  transform: translateY(0px);
+}
 
 #scroll {
   max-width: 1600px;
@@ -1051,8 +1055,7 @@ body {
 }
 
 .bottom-icons a:hover {
-  color: var(--link-primary-hover);
-  text-decoration: underline var(--link-primary-hover);
+  text-decoration: 2px underline;
   cursor: pointer;
 }
 
@@ -1468,14 +1471,14 @@ body {
   }
 
   .right-side-wrapper {
-    gap: 20px;
+    gap: 24px;
   }
 
   #nav-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 24px;
   }
 
 
