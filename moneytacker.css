@@ -8,8 +8,8 @@
   --primary: #0C8CE9;
 
   --button-primary: #0C8CE9;
-  --button-primary-hover: #7CC4F8;
-  --button-primary-active: #7CC4F8;
+  --button-primary-hover: #0A6DC2;
+  --button-primary-active: #0A6DC2;
 
   --button-secondary: #A8D7FA;
   --button-secondary-hover: #CFE9FC;
@@ -25,7 +25,7 @@
   --button-icon: #ffffff;
 
   --link-primary: #0C8CE9;
-  --link-primary-hover: #7CC4F8;
+  --link-primary-hover: #0A6DC2;
 
   --heading-primary: #F5F5F5;
   --heading-primary-01: #E6E6E6;
@@ -134,9 +134,9 @@
   /* Fonts */
 
 
-  --fonts-heading:  -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -830,7 +830,7 @@ main {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 100s ease-out;
+  transition: 200ms ease-out;
   gap: 8px;
 }
 
@@ -998,7 +998,7 @@ main {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 0.3s ease-out;
+  transition: 200ms ease-out;
   gap: 8px;
   margin-bottom: 16px;
 }
@@ -1145,7 +1145,7 @@ main {
   justify-content: space-between;
   gap: 4px;
   text-decoration: none;
-  transition: 0.3s ease-out;
+  transition: 200ms ease-out;
 }
 
 #back-to-all:hover {

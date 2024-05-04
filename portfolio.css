@@ -8,8 +8,8 @@
   --primary: #0C8CE9;
 
   --button-primary: #0C8CE9;
-  --button-primary-hover: #7CC4F8;
-  --button-primary-active: #7CC4F8;
+  --button-primary-hover: #0A6DC2;
+  --button-primary-active: #0A6DC2;
 
   --button-secondary: #A8D7FA;
   --button-secondary-hover: #CFE9FC;
@@ -25,7 +25,7 @@
   --button-icon: #ffffff;
 
   --link-primary: #0C8CE9;
-  --link-primary-hover: #7CC4F8;
+  --link-primary-hover: #0A6DC2;
 
   --heading-primary: #F5F5F5;
   --heading-primary-01: #E6E6E6;
@@ -134,9 +134,9 @@
   /* Fonts */
 
 
-  --fonts-heading:  -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -408,7 +408,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  padding: 24px 104px 16px;
+  padding: 24px 96px 16px;
   max-width: 1600px;
   margin: auto;
 }
@@ -437,17 +437,13 @@ body {
   font-weight: var(--fontWeights-medium);
   padding: 8px 12px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-400);
 }
 
 #work:hover {
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-400);
   background-color: var(--surface-layer-01);
   color: var(--link-primary);
-}
-
-#work:focus {
-  outline: 0.2rem solid var(--link-primary-hover);
 }
 
 #about {
@@ -458,18 +454,15 @@ body {
   font-weight: var(--fontWeights-medium);
   padding: 8px 12px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-400);
 }
 
 #about:hover {
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-400);
   background-color: var(--surface-layer-01);
   color: var(--link-primary);
 }
 
-#about:focus {
-  outline: 0.2rem solid var(--link-primary-hover);
-}
 
 #resume {
   font-size: var(--fontSizes-16);
@@ -479,18 +472,15 @@ body {
   font-weight: var(--fontWeights-medium);
   padding: 8px 12px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-400);
 }
 
 #resume:hover {
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-400);
   background-color: var(--surface-layer-01);
   color: var(--link-primary);
 }
 
-#resume:focus {
-  outline: 0.2rem solid var(--link-primary-hover);
-}
 
 
 .sticky {
@@ -532,7 +522,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 32px 104px;
+  padding: 32px 96px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -608,11 +598,14 @@ body {
 }
 
 .dive-in {
-  font-size: var(--fontSizes-24);
-  letter-spacing: var(--letterSpacings-tight);
+  padding: 0.875rem 1.5rem;
+  background-color: var(--button-primary);
+  border-radius: var(--border-radius-600);
+  font-size: var(--fontSizes-16);
+  letter-spacing: var(--letterSpacings-normal);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-bold);
-  color: var(--link-primary);
+  font-weight: var(--fontWeights-semibold);
+  color: var(--primary-button-text);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,8 +615,7 @@ body {
 }
 
 .dive-in:hover {
-  color: var(--link-primary-hover);
-  text-decoration: underline var(--link-primary-hover);
+  background-color: var(--button-primary-hover);
   cursor: pointer;
 }
 
@@ -631,7 +623,7 @@ body {
 #scroll {
   max-width: 1600px;
   margin: auto;
-  padding: 32px 104px;
+  padding: 32px 96px;
 }
 
 #selected {
@@ -677,7 +669,7 @@ body {
   object-position: center;
 }
 
-.label-sec{
+.label-sec {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -685,7 +677,7 @@ body {
   gap: 8px;
 }
 
-#label{
+#label {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
   font-size: var(--fontSizes-14);
@@ -858,13 +850,13 @@ body {
 
 #line {
   border: 1px solid var(--border-subtle-01);
-  margin: 16px 104px;
+  margin: 16px 96px;
 }
 
 #writing-section {
   max-width: 1600px;
   margin: auto;
-  padding: 32px 104px;
+  padding: 32px 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1012,7 +1004,7 @@ body {
 
 
 .footer {
-  padding: 32px 104px;
+  padding: 32px 96px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1073,7 +1065,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  padding: 32px 104px;
+  padding: 32px 96px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1269,7 +1261,7 @@ body {
     gap: 32px;
   }
 
-  #label{
+  #label {
     font-size: var(--fontSizes-12);
   }
 
