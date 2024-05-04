@@ -47,7 +47,7 @@
   --border-subtle-02: #2C2C2C;
   --border-subtle-03: #383838;
 
-  --partition-dark: #21405C;
+  --partition-dark: #0C8CE9;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -112,6 +112,8 @@
   --border-subtle-02-light: #D9D9D9;
   --border-subtle-03-light: #B3B3B3;
 
+  --partition-light: #0D99FF;
+
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
   --secondary-red-light: #D44333;
@@ -136,7 +138,7 @@
 
   --fonts-heading: General Sans, Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Satoshi, Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: General Sans, "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -375,7 +377,7 @@ main {
   width: 0;
   height: 4px;
   z-index: 100;
-  background-color: var(--primary-light);
+  background-color: var(--partition-dark);
 }
 
 #cover-mt {

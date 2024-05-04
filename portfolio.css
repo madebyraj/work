@@ -47,7 +47,7 @@
   --border-subtle-02: #2C2C2C;
   --border-subtle-03: #383838;
 
-  --partition-dark: #21405C;
+  --partition-dark: #0C8CE9;
 
   --secondary-green: #11A859;
   --secondary-yellow: #FFC701;
@@ -111,6 +111,8 @@
   --border-subtle-01-light: #E6E6E6;
   --border-subtle-02-light: #D9D9D9;
   --border-subtle-03-light: #B3B3B3;
+
+  --partition-light: #0D99FF;
 
   --secondary-green-light: #3AA76D;
   --secondary-yellow-light: #FFC043;
@@ -384,7 +386,7 @@ body {
   width: 0;
   height: 4px;
   z-index: 100;
-  background-color: var(--primary-light);
+  background-color: var(--partition-dark);
 }
 
 #dynamic-nav-head {
@@ -571,7 +573,6 @@ body {
 
 .para {
   font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
   color: var(--paragraph-primary-100);
   max-width: 912px;
 }
@@ -1503,6 +1504,9 @@ body {
     font-size: var(--fontSizes-18);
   }
 
+  .dive-in{
+    width: 100%;
+  }
   /* #hero-image{
     display: none;
   } */
