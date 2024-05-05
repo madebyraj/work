@@ -29,6 +29,11 @@
   <link
     href="https://api.fontshare.com/v2/css?f[]=general-sans@200,201,300,301,400,401,500,501,600,601,700,701&f[]=satoshi@300,301,400,401,500,501,700,701,900,901&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body data-aos="zoom">
@@ -89,27 +94,27 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      offset: 300,
-      duration: 400,
+      offset: 400,
+      duration: 600,
       easing: "ease",
     });
   </script>
 
-<script>
-  let indicator = document.querySelector(".indicator");
+  <script>
+    let indicator = document.querySelector(".indicator");
 
-  let documentHeight = document.documentElement.scrollHeight;
+    let documentHeight = document.documentElement.scrollHeight;
 
-  let viewportHeight = document.documentElement.clientHeight;
+    let viewportHeight = document.documentElement.clientHeight;
 
-  window.onscroll = function () {
-    console.log(scrollY);
+    window.onscroll = function () {
+      console.log(scrollY);
 
-    let percentageScrolled =
-      (scrollY / (documentHeight - viewportHeight)) * 100;
-    indicator.style.width = percentageScrolled + "%";
-  };
-</script>
+      let percentageScrolled =
+        (scrollY / (documentHeight - viewportHeight)) * 100;
+      indicator.style.width = percentageScrolled + "%";
+    };
+  </script>
 
   <script>
     const navbar = document.getElementById('dynamic-nav-head');

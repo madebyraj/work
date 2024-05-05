@@ -27,25 +27,25 @@
   --link-primary: #5551FF;
   --link-primary-hover: #5551FF;
 
-  --heading-primary: #F5F5F5;
-  --heading-primary-01: #E6E6E6;
-  --heading-primary-02: #B3B3B3;
+  --heading-primary: #FAFDFF;
+  --heading-primary-01: #F0F5FA;
+  --heading-primary-02: #E7EEF5;
 
-  --paragraph-primary: #F5F5F5;
-  --paragraph-primary-100: #E6E6E6;
-  --paragraph-primary-200: #B3B3B3;
+  --paragraph-primary: #E7EEF5;
+  --paragraph-primary-100: #CAD9EB;
+  --paragraph-primary-200: #A3B5CC;
 
-  --surface-layer-01: #111111;
-  --surface-layer-02: #1E1E1E;
-  --surface-layer-03: #2C2C2C;
+  --surface-layer-01: #1A1D29;
+  --surface-layer-02: #1E2638;
+  --surface-layer-03: #2A3448;
 
-  --surface-layer-01-hover: #1E1E1E;
-  --surface-layer-02-hover: #2C2C2C;
-  --surface-layer-03-hover: #383838;
+  --surface-layer-01-hover: #1E2638;
+  --surface-layer-02-hover: #2A3448;
+  --surface-layer-03-hover: #414F66;
 
-  --border-subtle-01: #1E1E1E;
-  --border-subtle-02: #2C2C2C;
-  --border-subtle-03: #383838;
+  --border-subtle-01: #1E2638;
+  --border-subtle-02: #2A3448;
+  --border-subtle-03: #414F66;
 
   --partition-dark: #0C8CE9;
 
@@ -57,9 +57,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #0E0F1A;
 
-  --glass-dark: #000000;
+  --glass-dark: #0E0F1A;
 
   --drop-shadow-dark: 0px;
 
@@ -92,25 +92,25 @@
   --link-primary-light: #5551FF;
   --link-primary-hover-light: #5551FF;
 
-  --heading-primary-light: #111111;
-  --heading-primary-01-light: #1E1E1E;
-  --heading-primary-02-light: #383838;
+  --heading-primary-light: #0E0F1A;
+  --heading-primary-01-light: #1A1D29;
+  --heading-primary-02-light: #1E2638;
 
-  --paragraph-primary-light: #111111;
-  --paragraph-primary-100-light: #1E1E1E;
-  --paragraph-primary-200-light: #383838;
+  --paragraph-primary-light: #1E2638;
+  --paragraph-primary-100-light: #2A3448;
+  --paragraph-primary-200-light: #4C5970;
 
-  --surface-layer-01-light: #F5F5F5;
-  --surface-layer-02-light: #E6E6E6;
-  --surface-layer-03-light: #D9D9D9;
+  --surface-layer-01-light: #F0F5FA;
+  --surface-layer-02-light: #E7EEF5;
+  --surface-layer-03-light: #CAD9EB;
 
-  --surface-layer-01-hover-light: #E6E6E6;
-  --surface-layer-02-hover-light: #D9D9D9;
-  --surface-layer-03-hover-light: #B3B3B3;
+  --surface-layer-01-hover-light: #E7EEF5;
+  --surface-layer-02-hover-light: #CAD9EB;
+  --surface-layer-03-hover-light: #A3B5CC;
 
-  --border-subtle-01-light: #E6E6E6;
-  --border-subtle-02-light: #D9D9D9;
-  --border-subtle-03-light: #B3B3B3;
+  --border-subtle-01-light: #E7EEF5;
+  --border-subtle-02-light: #CAD9EB;
+  --border-subtle-03-light: #A3B5CC;
 
   --partition-light: #0D99FF;
 
@@ -122,9 +122,9 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #FFFFFF;
+  --background-main-light: #FAFDFF;
 
-  --glass-light: #FFFFFF;
+  --glass-light: #FAFDFF;
 
   --drop-shadow-light: 0px;
 
@@ -138,7 +138,7 @@
 
   --fonts-heading: General Sans, Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Satoshi, Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: "DM mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -505,16 +505,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 100ms ease-out;
+  transition: 400ms ease-out;
 }
 
 .theme:hover {
-  outline: 0.2rem solid var(--surface-layer-01-hover);
-  background-color: var(--surface-layer-01-hover);
+  transform: scale(1.2);
   cursor: pointer;
 }
 
 .theme:focus {
+  transform: scale(1);
   outline: 0.2rem solid var(--link-primary-hover);
   border-radius: 2rem;
 }
