@@ -410,6 +410,6 @@ body {
   .collage-outer{
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    padding: 16px 24px;
+    padding: 24px;
   }
 }

@@ -474,6 +474,7 @@ main {
 .cs {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
+  font-weight: var(--fontWeights-medium);
   color: var(--paragraph-primary-200);
   letter-spacing: var(--letterSpacings-wide);
   color: var(--paragraph-primary-200);
@@ -1258,7 +1259,6 @@ main {
 
   .cs {
     font-size: var(--fontSizes-16);
-    font-weight: 400;
     margin-bottom: 12px;
   }
 
