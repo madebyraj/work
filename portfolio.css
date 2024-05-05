@@ -1110,6 +1110,8 @@ body {
   border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
+  box-shadow: 16px 16px 0px 0px var(--partition-dark);
+  border: 1px solid var(--partition-dark);
 }
 
 .myself {
@@ -1437,6 +1439,10 @@ body {
     flex-direction: column-reverse;
   }
 
+  .me{
+    box-shadow: 8px 8px 0px 0px var(--partition-dark);
+  }
+
   .question {
     font-size: var(--fontSizes-32);
   }
@@ -1516,11 +1522,11 @@ body {
 
   .heading {
     margin-bottom: 16px;
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-20);
   }
 
   .para {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-20);
   }
 
   .dive-in {
@@ -1800,6 +1806,9 @@ body {
     font-size: var(--fontSizes-40);
   }
 
+  .me{
+    box-shadow: 8px 8px 0px 0px var(--partition-dark);
+  }
   .myself {
     gap: 16px;
   }
