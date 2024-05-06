@@ -529,7 +529,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 40px 96px;
+  padding: 32px 96px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -541,10 +541,6 @@ body {
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  padding: 40px;
-  background-color: var(--surface-layer-01);
-  box-shadow: 12px 12px 0px 0px var(--partition-dark);
-  border: 2px solid var(--partition-dark);
 }
 
 /* #memoji {
@@ -570,7 +566,7 @@ body {
   width: 100%;
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
 }
@@ -583,7 +579,7 @@ body {
 .para {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
-  max-width: 912px;
+  max-width: 800px;
 }
 
 .mySwiper swiper-slide {
@@ -1107,8 +1103,8 @@ body {
   border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
-  box-shadow: 12px 12px 0px 0px var(--secondary-green);
-  border: 2px solid var(--secondary-green);
+  box-shadow: 8px 8px 0px 0px var(--partition-dark);
+  border: 2px solid var(--partition-dark);
 }
 
 .myself {
@@ -1210,7 +1206,7 @@ body {
 
   .hero-section {
     top: 0;
-    padding: 40px;
+    padding: 32px 40px;
     gap: 32px;
     margin: 0px;
     justify-content: center;
@@ -1220,10 +1216,10 @@ body {
   .swiper-wrapper {
     display: none;
   }
-
+/* 
   .main {
     padding: 24px;
-  }
+  } */
 
   .heading {
     font-size: var(--fontSizes-48);
@@ -1436,7 +1432,7 @@ body {
   }
 
   .me{
-    box-shadow: 8px 8px 0px 0px var(--secondary-green);
+    box-shadow: 6px 6px 0px 0px var(--partition-dark);
   }
 
   .question {
@@ -1491,14 +1487,12 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 32px 24px 8px;
+    padding: 24px 24px 8px;
     gap: 24px;
   }
 
-  .main {
-    padding: 12px;
-    box-shadow: 8px 8px 0px 0px var(--partition-dark);
-  }
+  /* .main {
+  } */
 
   /* .swiper-wrapper{
     padding: 0px 12px;
@@ -1517,12 +1511,11 @@ body {
   } */
 
   .heading {
-    margin-bottom: 16px;
     font-size: var(--fontSizes-40);
   }
 
   .para {
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
   .dive-in {
@@ -1803,7 +1796,7 @@ body {
   }
 
   .me{
-    box-shadow: 8px 8px 0px 0px var(--secondary-green);
+    box-shadow: 4px 4px 0px 0px var(--partition-dark);
   }
   .myself {
     gap: 16px;
