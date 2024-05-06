@@ -49,7 +49,7 @@
 
   --partition-dark: #0C8CE9;
 
-  --secondary-green: #14AE5C;
+  --secondary-green: #078348;
   --secondary-yellow: #FFC701;
   --secondary-red: #F34E1E;
   --secondary-purple: #5650FF;
@@ -114,7 +114,7 @@
 
   --partition-light: #0D99FF;
 
-  --secondary-green-light: #14AE5C;
+  --secondary-green-light: #009951;
   --secondary-yellow-light: #FFC043;
   --secondary-red-light: #D44333;
   --secondary-purple-light: #716CFF;
@@ -1028,6 +1028,7 @@ body {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
   color: var(--paragraph-primary-200);
+  letter-spacing: var(--letterSpacings-wide);
 }
 
 #bottom-text {
@@ -1103,8 +1104,8 @@ body {
   border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
-  box-shadow: 8px 8px 0px 0px var(--partition-dark);
-  border: 2px solid var(--partition-dark);
+  box-shadow: 8px 8px 0px 0px var(--secondary-green);
+  border: 2px solid var(--secondary-green);
 }
 
 .myself {
@@ -1432,7 +1433,7 @@ body {
   }
 
   .me{
-    box-shadow: 6px 6px 0px 0px var(--partition-dark);
+    box-shadow: 6px 6px 0px 0px var(--secondary-green);
   }
 
   .question {
@@ -1796,7 +1797,7 @@ body {
   }
 
   .me{
-    box-shadow: 4px 4px 0px 0px var(--partition-dark);
+    box-shadow: 4px 4px 0px 0px var(--secondary-green);
   }
   .myself {
     gap: 16px;
