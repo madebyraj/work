@@ -529,7 +529,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 32px 96px;
+  padding: 40px 96px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -538,29 +538,23 @@ body {
 .main {
   min-width: 100%;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
-/* #memoji {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.main-logo{
+  margin-bottom: 16px;
+  transition: 300ms ease-out;
 }
 
-#memoji-photo {
-  height: 244px;
-  width: 244px;
-  background-image: url(./memoji.gif);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  border-radius: 50%;
-} */
+.main-logo:hover{
+  transform: scale(1.16);
+}
+
 
 .heading {
+  text-align: center;
   font-size: var(--fontSizes-60);
   color: var(--heading-primary);
   width: 100%;
@@ -577,9 +571,10 @@ body {
 }
 
 .para {
+  text-align: center;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
-  max-width: 800px;
+  max-width: 692px;
 }
 
 .mySwiper swiper-slide {
@@ -628,6 +623,12 @@ body {
 
 .dive-in:focus {
   transform: translateY(0px);
+}
+
+.partition{
+  width: 100%;
+  height: 16px;
+  background-color: var(--surface-layer-01);
 }
 
 #scroll {
@@ -1228,6 +1229,7 @@ body {
 
   .para {
     font-size: var(--fontSizes-20);
+    max-width: 564px;
   }
 
   /* #hero-image {
@@ -1239,7 +1241,6 @@ body {
     margin-top: 32px;
     display: flex;
     align-items: center;
-    justify-content: start;
     width: 100%;
   }
 
@@ -1488,7 +1489,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 24px 24px 8px;
+    padding: 24px 24px;
     gap: 24px;
   }
 
