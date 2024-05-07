@@ -579,10 +579,6 @@ body {
   height: 128px;
 }
 
-.main-logo:hover{
-  transform: scale(1.16);
-}
-
 
 .heading {
   text-align: center;
