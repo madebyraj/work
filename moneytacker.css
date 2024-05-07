@@ -5,11 +5,11 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #5551FF;
+  --primary: #0A84FF;
 
-  --button-primary: #5551FF;
-  --button-primary-hover: #5551FF;
-  --button-primary-active: #5551FF;
+  --button-primary: #0A84FF;
+  --button-primary-hover: #0A84FF;
+  --button-primary-active: #0A84FF;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -24,8 +24,8 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #5551FF;
-  --link-primary-hover: #5551FF;
+  --link-primary: #0A84FF;
+  --link-primary-hover: #0A84FF;
 
   --heading-primary: #FAFDFF;
   --heading-primary-01: #F0F5FA;
@@ -49,7 +49,7 @@
 
   --partition-dark: #0C8CE9;
 
-  --secondary-green: #078348;
+  --secondary-green: #198F51;
   --secondary-yellow: #FFC701;
   --secondary-red: #F34E1E;
   --secondary-purple: #5650FF;
@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: #0E0F1A;
+  --glass-dark: #1D1D1F;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -73,11 +73,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #5551FF;
+  --primary-light: #007AFF;
 
-  --button-primary-light: #5551FF;
-  --button-primary-hover-light: #5551FF;
-  --button-primary-active-light: #5551FF;
+  --button-primary-light: #007AFF;
+  --button-primary-hover-light: #007AFF;
+  --button-primary-active-light: #007AFF;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -89,8 +89,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #5551FF;
-  --link-primary-hover-light: #5551FF;
+  --link-primary-light: #007AFF;
+  --link-primary-hover-light: #007AFF;
 
   --heading-primary-light: #0E0F1A;
   --heading-primary-01-light: #1A1D29;
@@ -114,7 +114,7 @@
 
   --partition-light: #0D99FF;
 
-  --secondary-green-light: #009951;
+  --secondary-green-light: #14AE5C;
   --secondary-yellow-light: #FFC043;
   --secondary-red-light: #D44333;
   --secondary-purple-light: #716CFF;
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #FAFDFF;
+  --glass-light: #F0F0F0;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -381,7 +381,7 @@ main {
 }
 
 #cover-mt {
-  margin-top: 32px;
+  padding-top: 32px;
   border-radius: var(--border-radius-none);
   max-width: 100%;
   height: auto;
@@ -392,7 +392,7 @@ main {
 
 #side-navbar {
   position: fixed;
-  top: 110px;
+  top: 152px;
   left: 0;
   max-width: 168px;
   height: min-content;
@@ -414,7 +414,7 @@ main {
 
 .inner-nav a {
   padding: 8px 0px;
-  font-size: var(--fontSizes-16);
+  font-size: var(--fontSizes-14);
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);

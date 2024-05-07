@@ -117,31 +117,25 @@
       indicator.style.width = percentageScrolled + "%";
     };
   </script>
-
   <script>
-    const navbar = document.getElementById('dynamic-nav-head');
+    const navbar = document.getElementById("dynamic-nav-head");
 
     let lastScrollTop = 0;
 
-
     function handleScroll() {
-
-      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
+      const currentScrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
 
       if (currentScrollTop > lastScrollTop) {
-
-        navbar.classList.add('hidden');
+        navbar.classList.add("hidden");
       } else {
-
-        navbar.classList.remove('hidden');
+        navbar.classList.remove("hidden");
       }
 
       lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
     }
 
-    window.addEventListener('scroll', handleScroll);
-
+    window.addEventListener("scroll", handleScroll);
   </script>
 
   <script>
