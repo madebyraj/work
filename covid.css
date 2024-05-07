@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: #2E2E2E;
+  --glass-dark: rgba(51, 51, 51, 0.95);
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #474747;
+  --glass-light: rgba(51,51,51,0.95);
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
