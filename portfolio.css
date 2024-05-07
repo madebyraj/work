@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: #1D1D1F;
+  --glass-dark: #2E2E2E;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #333333;
+  --glass-light: #474747;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -430,6 +430,7 @@ body {
   color: var(--primary-button-text);
   text-align: center;
   transition: 300ms ease-out;
+  max-height: 48px;
 }
 
 .let-connect:hover{
@@ -523,6 +524,7 @@ body {
 
 .theme {
   border-radius: var(--border-radius-full);
+  background-color: transparent;
   border: none;
   display: flex;
   align-items: center;
@@ -538,7 +540,6 @@ body {
 .theme:focus {
   transform: scale(1);
   outline: 0.2rem solid var(--link-primary-hover);
-  border-radius: 2rem;
 }
 
 .hero-container {
@@ -1093,8 +1094,8 @@ body {
 .social {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 }
 
