@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #F0F0F0;
+  --glass-light: #333333;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -397,6 +397,8 @@ body {
   transition: transform 0.32s ease-out;
   display: flex;
   flex-direction: column;
+  background-color: var(--glass-dark);
+  height: fit-content;
 }
 
 .hidden {
@@ -453,7 +455,7 @@ body {
 
 #work {
   font-size: var(--fontSizes-16);
-  color: var(--paragraph-primary);
+  color: var(--primary-button-text);
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -468,7 +470,7 @@ body {
 
 #about {
   font-size: var(--fontSizes-16);
-  color: var(--paragraph-primary);
+  color: var(--primary-button-text);
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -483,7 +485,7 @@ body {
 
 #snaps {
   font-size: var(--fontSizes-16);
-  color: var(--paragraph-primary);
+  color: var(--primary-button-text);
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -499,7 +501,7 @@ body {
 
 #resume {
   font-size: var(--fontSizes-16);
-  color: var(--paragraph-primary);
+  color: var(--primary-button-text);
   text-decoration: none;
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
@@ -550,7 +552,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 48px 96px;
+  padding: 56px 96px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -1220,7 +1222,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 24px 40px 16px;
+    padding: 20px 40px 16px;
     background-color: var(--glass-dark);
     background-blend-mode: luminosity;
   }
@@ -1236,7 +1238,7 @@ body {
 
   .hero-section {
     top: 0;
-    padding: 40px;
+    padding: 48px 40px;
     gap: 32px;
     margin: 0px;
     justify-content: center;
@@ -1500,7 +1502,7 @@ body {
   }
 
   #dynamic-nav {
-    padding: 24px 24px 16px;
+    padding: 20px 24px 16px;
   }
 
   .right-side-wrapper {
@@ -1517,27 +1519,11 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 32px 24px;
+    padding: 40px 24px;
     gap: 24px;
   }
 
   /* .main {
-  } */
-
-  /* .swiper-wrapper{
-    padding: 0px 12px;
-  } */
-
-  /* #memoji {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 18px;
-  }
-
-  #memoji-photo {
-    height: 220px;
-    width: 220px;
   } */
 
   .heading {
@@ -1551,10 +1537,6 @@ body {
   .dive-in {
     width: 100%;
   }
-
-  /* #hero-image{
-    display: none;
-  } */
 
   #navbutton {
     margin-top: 24px;
