@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: rgba(51, 51, 51, 0.9);
+  --glass-dark: #2E2E2E;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: rgba(51,51,51,0.9);
+  --glass-light: #474747;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -181,6 +181,7 @@
   --border-radius-200: 0.25rem;
   --border-radius-400: 0.5rem;
   --border-radius-600: 0.75rem;
+  --border-radius-800: 1rem;
   --border-radius-full: 10rem;
 
 
@@ -200,151 +201,6 @@
   --fontSizes-128: 8rem;
 
 
-
-}
-
-
-
-
-[color-scheme="dark"] {
-
-  --logo-light: var(--logo-dark);
-
-  --primary-light: var(--primary);
-
-  --button-primary-light: var(--button-primary);
-  --button-primary-hover-light: var(--button-primary-hover);
-  --button-primary-active-light: var(--button-primary-active);
-
-  --button-secondary-light: var(--button-secondary);
-  --button-secondary-hover-light: var(--button-secondary-hover);
-  --button-secondary-active-light: var(--button-secondary-active);
-
-  --secondary-button-text-light: var(--secondary-button-text-dark);
-  --secondary-button-icon-light: var(--secondary-button-icon-dark);
-
-
-  --button-text-light: var(--button-text);
-  --button-icon-light: var(--button-icon);
-
-  --link-primary-light: var(--link-primary);
-  --link-primary-hover-light: var(--link-primary-hover);
-
-  --heading-primary-light: var(--heading-primary);
-  --heading-primary-01-light: var(--heading-primary-01);
-  --heading-primary-02-light: var(--heading-primary-02);
-
-  --paragraph-primary-light: var(--paragraph-primary);
-  --paragraph-primary-100-light: var(--paragraph-primary-100);
-  --paragraph-primary-200-light: var(--paragraph-primary-200);
-
-  --surface-layer-01-light: var(--surface-layer-01);
-  --surface-layer-02-light: var(--surface-layer-02);
-  --surface-layer-03-light: var(--surface-layer-03);
-
-  --surface-layer-01-hover-light: var(--surface-layer-01-hover);
-  --surface-layer-02-hover-light: var(--surface-layer-02-hover);
-  --surface-layer-03-hover-light: var(--surface-layer-03-hover);
-
-  --border-subtle-01-light: var(--border-subtle-01);
-  --border-subtle-02-light: var(--border-subtle-02);
-  --border-subtle-03-light: var(--border-subtle-03);
-
-  --partition-light: var(--partition-dark);
-
-  --nav-border-light: var(--nav-border-dark);
-
-  --nav-hover-light: var(--nav-hover-dark);
-
-  --secondary-green-light: var(--secondary-green);
-  --secondary-yellow-light: var(--secondary-yellow);
-  --secondary-red-light: var(--secondary-red);
-  --secondary-purple-light: var(--secondary-purple);
-  --secondary-orange-light: var(--secondary-orange);
-  --secondary-brown-light: var(--secondary-brown);
-  --secondary-teal-light: var(--secondary-teal);
-
-  --background-main-light: var(--background-main);
-
-  --glass-light: var(--glass-dark);
-
-  --drop-shadow-light: var(--drop-shadow-dark);
-
-  --button-drop-shadow-light: var(--button-drop-shadow-dark);
-
-  --light-gradient: var(--dark-gradient);
-
-}
-
-
-
-
-[color-scheme="light"] {
-
-  --logo-dark: var(--logo-light);
-
-  --primary: var(--primary-light);
-
-  --button-primary: var(--button-primary-light);
-  --button-primary-hover: var(--button-primary-hover-light);
-  --button-primary-active: var(--button-primary-active-light);
-
-  --button-secondary: var(--button-secondary-light);
-  --button-secondary-hover: var(--button-secondary-hover-light);
-  --button-secondary-active: var(--button-secondary-active-light);
-
-  --secondary-button-text-dark: var(--secondary-button-text-light);
-  --secondary-button-icon-dark: var(--secondary-button-icon-light);
-
-  --button-text: var(--button-text-light);
-  --button-icon: var(--button-icon-light);
-
-  --link-primary: var(--link-primary-light);
-  --link-primary-hover: var(--link-primary-hover-light);
-
-  --heading-primary: var(--heading-primary-light);
-  --heading-primary-01: var(--heading-primary-01-light);
-  --heading-primary-02: var(--heading-primary-02-light);
-
-  --paragraph-primary: var(--paragraph-primary-light);
-  --paragraph-primary-100: var(--paragraph-primary-100-light);
-  --paragraph-primary-200: var(--paragraph-primary-200-light);
-
-  --surface-layer-01: var(--surface-layer-01-light);
-  --surface-layer-02: var(--surface-layer-02-light);
-  --surface-layer-03: var(--surface-layer-03-light);
-
-  --surface-layer-01-hover: var(--surface-layer-01-hover-light);
-  --surface-layer-02-hover: var(--surface-layer-02-hover-light);
-  --surface-layer-03-hover: var(--surface-layer-03-hover-light);
-
-  --border-subtle-01: var(--border-subtle-01-light);
-  --border-subtle-02: var(--border-subtle-02-light);
-  --border-subtle-03: var(--border-subtle-03-light);
-
-  --partition-dark: var(--partition-light);
-
-  --nav-border-dark: var(--nav-border-light);
-
-  --nav-hover-dark: var(--nav-hover-light);
-
-  --secondary-green: var(--secondary-green-light);
-  --secondary-yellow: var(--secondary-yellow-light);
-  --secondary-red: var(--secondary-red-light);
-  --secondary-purple: var(--secondary-purple-light);
-  --secondary-orange: var(--secondary-orange-light);
-  --secondary-brown: var(--secondary-brown-light);
-  --secondary-teal: var(--secondary-teal-light);
-
-  --background-main: var(--background-main-light);
-
-  --glass-dark: var(--glass-light);
-
-  --drop-shadow-dark: var(--drop-shadow-light);
-
-  --button-drop-shadow-dark: var(--button-drop-shadow-light);
-
-  --dark-gradient: var(--light-gradient);
 
 }
 

@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: rgba(51, 51, 51, 0.90);
+  --glass-dark: #2E2E2E;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: rgba(51,51,51,0.90);
+  --glass-light: #474747;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -181,6 +181,7 @@
   --border-radius-200: 0.25rem;
   --border-radius-400: 0.5rem;
   --border-radius-600: 0.75rem;
+  --border-radius-800: 1rem;
   --border-radius-full: 10rem;
 
 
@@ -397,7 +398,7 @@ body {
   transition: transform 0.32s ease-out;
   display: flex;
   flex-direction: column;
-  background-color: var(--glass-dark);
+  background: var(--glass-dark);
   height: fit-content;
   backdrop-filter: saturate(180%) blur(20px);
   background-blend-mode: luminosity;
