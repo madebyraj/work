@@ -570,13 +570,8 @@ body {
 .main-logo{
   margin-bottom: 16px;
   transition: 300ms ease-out;
-  background-image: var(--logo-dark);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  width: 128px;
-  height: 128px;
+  height: auto;
+  width: auto;
 }
 
 
@@ -607,13 +602,13 @@ body {
 .mySwiper swiper-slide {
   width: fit-content;
   height: fit-content;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
 }
 
 #hero-image {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
 }
@@ -628,7 +623,7 @@ body {
 .dive-in {
   /* padding: 0.875rem 1.5rem;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-600); */
+  border-radius: var(--border-radius-800); */
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
   font-family: var(--fonts-body);
@@ -701,7 +696,7 @@ body {
 .image-wrapper {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   overflow: hidden;
   object-fit: cover;
   object-position: center;
@@ -729,14 +724,14 @@ body {
 .pro-bg-1 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
 }
 
 .pro-bg-1:hover {
-  transform: scale(1.06);
+  transform: scale(1.04);
   transition: transform 0.3s ease-out;
 }
 
@@ -778,14 +773,14 @@ body {
 .pro-bg-2 {
   max-width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
 }
 
 .pro-bg-2:hover {
-  transform: scale(1.06);
+  transform: scale(1.04);
   transition: transform 0.3s ease-out;
 }
 
@@ -818,14 +813,14 @@ body {
 .pro-bg-3 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
 }
 
 .pro-bg-3:hover {
-  transform: scale(1.06);
+  transform: scale(1.04);
   transition: transform 0.3s ease-out;
 }
 
@@ -858,14 +853,14 @@ body {
 .pro-bg-4 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
 }
 
 .pro-bg-4:hover {
-  transform: scale(1.06);
+  transform: scale(1.04);
   transition: transform 0.3s ease-out;
 }
 
@@ -955,7 +950,7 @@ body {
 #f-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
 }
@@ -994,7 +989,7 @@ body {
 #s-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
 }
@@ -1034,7 +1029,7 @@ body {
 #t-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
 }
@@ -1129,7 +1124,7 @@ body {
 .me {
   width: 100%;
   height: auto;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
 }

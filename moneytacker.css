@@ -237,8 +237,8 @@ main {
 }
 
 #cover-mt {
-  padding-top: 32px;
-  border-radius: var(--border-radius-none);
+  margin-top: 32px;
+  border-radius: var(--border-radius-800);
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -254,7 +254,7 @@ main {
   height: min-content;
   background-color: var(--surface-layer-01);
   backdrop-filter: saturate(180%) blur(20px);
-  border-radius: 0px var(--border-radius-200) var(--border-radius-200) 0px;
+  border-radius: 0px var(--border-radius-400) var(--border-radius-400) 0px;
   padding: 12px 24px;
   z-index: 100;
   border: 1px solid var(--border-subtle-01);
