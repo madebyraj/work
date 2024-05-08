@@ -570,8 +570,8 @@ body {
 .main-logo{
   margin-bottom: 16px;
   transition: 300ms ease-out;
-  height: auto;
-  width: auto;
+  height: fit-content;
+  width: fit-content;
 }
 
 
