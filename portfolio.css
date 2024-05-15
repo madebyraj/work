@@ -564,12 +564,12 @@ body {
   flex-direction: column;
 }
 
-.main-logo {
+/* .main-logo {
   margin-bottom: 16px;
   transition: 300ms ease-out;
   width: 136px;
-  border-radius: var(--border-radius-400);
-}
+  border-radius: var(--border-radius-200);
+} */
 
 
 .heading {
