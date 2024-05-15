@@ -549,11 +549,11 @@ body {
 
 .hero-section {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 56px 96px;
+  padding: 48px 96px 32px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -561,22 +561,18 @@ body {
 
 .main {
   min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
 .main-logo {
   margin-bottom: 16px;
   transition: 300ms ease-out;
-  height: fit-content;
-  width: fit-content;
+  width: 136px;
+  border-radius: var(--border-radius-400);
 }
 
 
 .heading {
-  text-align: center;
   font-size: var(--fontSizes-60);
   color: var(--heading-primary);
   width: 100%;
@@ -587,16 +583,10 @@ body {
   line-height: var(--lineHeights-shorter);
 }
 
-#animation {
-  margin: auto;
-  max-width: 1600px;
-}
-
 .para {
-  text-align: center;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
-  max-width: 692px;
+  max-width: 912px;
 }
 
 .mySwiper swiper-slide {
@@ -616,8 +606,8 @@ body {
 #navbutton {
   margin-top: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .dive-in {
@@ -1228,7 +1218,7 @@ body {
 
   .hero-section {
     top: 0;
-    padding: 48px 40px;
+    padding: 40px;
     gap: 32px;
     margin: 0px;
     justify-content: center;
@@ -1244,13 +1234,16 @@ body {
     padding: 24px;
   } */
 
+  .main-logo{
+    margin-bottom: 12px;
+  }
+
   .heading {
     font-size: var(--fontSizes-48);
   }
 
   .para {
     font-size: var(--fontSizes-20);
-    max-width: 564px;
   }
 
   /* #hero-image {
@@ -1510,7 +1503,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 40px 24px;
+    padding: 24px 24px 8px;
     gap: 24px;
   }
 
@@ -1525,9 +1518,9 @@ body {
     font-size: var(--fontSizes-18);
   }
 
-  .dive-in {
+  /* .dive-in {
     width: 100%;
-  }
+  } */
 
   #navbutton {
     margin-top: 24px;
