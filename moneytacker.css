@@ -7,9 +7,9 @@
 
   --primary: #0A84FF;
 
-  --button-primary: #0A84FF;
-  --button-primary-hover: #0A84FF;
-  --button-primary-active: #0A84FF;
+  --button-primary: #0C8CE9;
+  --button-primary-hover: #0C8CE9;
+  --button-primary-active: #0C8CE9;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -24,8 +24,8 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #0A84FF;
-  --link-primary-hover: #0A84FF;
+  --link-primary: #0C8CE9;
+  --link-primary-hover: #0C8CE9;
 
   --heading-primary: #FAFDFF;
   --heading-primary-01: #F0F5FA;
@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: #2E2E2E;
+  --glass-dark: #1C1C1E;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -73,11 +73,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #007AFF;
+  --primary-light: #007BE5;
 
-  --button-primary-light: #007AFF;
-  --button-primary-hover-light: #007AFF;
-  --button-primary-active-light: #007AFF;
+  --button-primary-light: #007BE5;
+  --button-primary-hover-light: #007BE5;
+  --button-primary-active-light: #007BE5;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -89,8 +89,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #007AFF;
-  --link-primary-hover-light: #007AFF;
+  --link-primary-light: #007BE5;
+  --link-primary-hover-light: #007BE5;
 
   --heading-primary-light: #0E0F1A;
   --heading-primary-01-light: #1A1D29;
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #474747;
+  --glass-light: #2C2C2E;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -376,14 +376,14 @@ main {
 .indicator {
   position: fixed;
   width: 0;
-  height: 4px;
+  height: 2px;
   z-index: 100;
   background-color: var(--partition-dark);
 }
 
 #cover-mt {
   margin-top: 32px;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -393,7 +393,7 @@ main {
 
 #side-navbar {
   position: fixed;
-  top: 152px;
+  top: 144px;
   left: 0;
   max-width: 168px;
   height: min-content;

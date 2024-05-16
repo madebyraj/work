@@ -7,9 +7,9 @@
 
   --primary: #0A84FF;
 
-  --button-primary: #0A84FF;
-  --button-primary-hover: #0A84FF;
-  --button-primary-active: #0A84FF;
+  --button-primary: #0C8CE9;
+  --button-primary-hover: #0C8CE9;
+  --button-primary-active: #0C8CE9;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -24,8 +24,8 @@
   --button-text: #ffffff;
   --button-icon: #ffffff;
 
-  --link-primary: #0A84FF;
-  --link-primary-hover: #0A84FF;
+  --link-primary: #0C8CE9;
+  --link-primary-hover: #0C8CE9;
 
   --heading-primary: #FAFDFF;
   --heading-primary-01: #F0F5FA;
@@ -59,7 +59,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: #2E2E2E;
+  --glass-dark: #1C1C1E;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -73,11 +73,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #007AFF;
+  --primary-light: #007BE5;
 
-  --button-primary-light: #007AFF;
-  --button-primary-hover-light: #007AFF;
-  --button-primary-active-light: #007AFF;
+  --button-primary-light: #007BE5;
+  --button-primary-hover-light: #007BE5;
+  --button-primary-active-light: #007BE5;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -89,8 +89,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #007AFF;
-  --link-primary-hover-light: #007AFF;
+  --link-primary-light: #007BE5;
+  --link-primary-hover-light: #007BE5;
 
   --heading-primary-light: #0E0F1A;
   --heading-primary-01-light: #1A1D29;
@@ -124,7 +124,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #474747;
+  --glass-light: #2C2C2E;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -385,7 +385,7 @@ body {
 .indicator {
   position: fixed;
   width: 0;
-  height: 4px;
+  height: 2px;
   z-index: 100;
   background-color: var(--partition-dark);
 }
@@ -413,7 +413,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  padding: 20px 96px 14px;
+  padding: 16px 96px 12px;
   width: 100%;
   max-width: 1600px;
   margin: auto;
@@ -431,6 +431,10 @@ body {
   color: var(--primary-button-text);
   text-align: center;
   transition: 300ms ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 46px;
 }
 
 .let-connect:hover {
@@ -553,7 +557,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 48px 96px 32px;
+  padding: 56px 96px 32px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -592,13 +596,13 @@ body {
 .mySwiper swiper-slide {
   width: fit-content;
   height: fit-content;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
 }
 
 #hero-image {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -613,7 +617,7 @@ body {
 .dive-in {
   /* padding: 0.875rem 1.5rem;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-800); */
+  border-radius: var(--border-radius-none); */
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
   font-family: var(--fonts-body);
@@ -686,7 +690,7 @@ body {
 .image-wrapper {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   overflow: hidden;
   object-fit: cover;
   object-position: center;
@@ -714,7 +718,7 @@ body {
 .pro-bg-1 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -763,7 +767,7 @@ body {
 .pro-bg-2 {
   max-width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -803,7 +807,7 @@ body {
 .pro-bg-3 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -843,7 +847,7 @@ body {
 .pro-bg-4 {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -940,7 +944,7 @@ body {
 #f-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -979,7 +983,7 @@ body {
 #s-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -1019,7 +1023,7 @@ body {
 #t-a-bg {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -1114,7 +1118,7 @@ body {
 .me {
   width: 100%;
   height: auto;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -1202,7 +1206,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 20px 40px 16px;
+    padding: 16px 40px 12px;
     background-color: var(--glass-dark);
     background-blend-mode: luminosity;
   }
@@ -1218,7 +1222,7 @@ body {
 
   .hero-section {
     top: 0;
-    padding: 40px;
+    padding: 48px 40px 16px;
     gap: 32px;
     margin: 0px;
     justify-content: center;
@@ -1486,7 +1490,7 @@ body {
   }
 
   #dynamic-nav {
-    padding: 20px 24px 16px;
+    padding: 16px 24px 12px;
   }
 
   .right-side-wrapper {
@@ -1503,7 +1507,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 24px 24px 8px;
+    padding: 32px 24px 8px;
     gap: 24px;
   }
 
