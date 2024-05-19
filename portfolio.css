@@ -143,7 +143,7 @@
 
   --fontWeights-thin: 200;
   --fontWeights-light: 300;
-  --fontWeights-normal: 450;
+  --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
   --fontWeights-bold: 700;
@@ -385,7 +385,7 @@ body {
 .indicator {
   position: fixed;
   width: 0;
-  height: 2px;
+  height: 3.2px;
   z-index: 100;
   background-color: var(--partition-dark);
 }
@@ -1476,12 +1476,6 @@ body {
 }
 
 @media (max-width: 688px) {
-  .indicator {
-    position: fixed;
-    width: 0;
-    height: 6px;
-    z-index: 100;
-  }
 
   #dynamic-nav-head {
     position: sticky;
