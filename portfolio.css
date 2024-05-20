@@ -6,6 +6,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Whyte Medium';
+  src: url('./assets/Fonts/whyte-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* @font-face {
   font-family: 'Whyte';
   src: url('./assets/Fonts/whtye-bold.woff2') format('woff2');
@@ -472,29 +480,6 @@ body {
   margin: auto;
 }
 
-.let-connect {
-  width: 100%;
-  padding: 0.875rem 1rem;
-  text-decoration: none;
-  background-color: var(--button-primary);
-  font-size: var(--fontSizes-16);
-  letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
-  color: var(--primary-button-text);
-  text-align: center;
-  transition: 300ms ease-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 46px;
-}
-
-.let-connect:hover {
-  text-decoration: 2px underline;
-  cursor: pointer;
-}
-
 
 #nav-info {
   display: flex;
@@ -620,36 +605,32 @@ body {
   min-width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
-
-/* .main-logo {
-  margin-bottom: 16px;
-  transition: 300ms ease-out;
-  width: 136px;
-  border-radius: var(--border-radius-200);
-} */
 
 
 .heading {
-  text-align: center;
   font-size: var(--fontSizes-60);
   color: var(--heading-primary);
   width: 100%;
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-normal);
   margin-bottom: 8px;
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
+  max-width: 1200px;
 }
 
-.para {
-  text-align: center;
+.opportunities{
+  font-weight: var(--fontWeights-bold);
+}
+
+/* .para {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
   max-width: 696px;
-}
+} */
 
 .mySwiper swiper-slide {
   width: fit-content;
@@ -666,38 +647,38 @@ body {
 }
 
 #navbutton {
-  margin-top: 40px;
+  margin-top: 24px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
-.dive-in {
-  /* padding: 0.875rem 1.5rem;
+.let-connect {
+  padding: 1rem 1.25rem 0.875rem;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-none); */
+  border-radius: var(--border-radius-600);
+  text-decoration: none;
+  background-color: var(--button-primary);
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
-  color: var(--link-primary);
+  font-family: Whyte Medium, var(--fonts-body);
+  font-weight: var(--fontWeights-medium);
+  color: var(--primary-button-text);
+  text-align: center;
+  transition: 300ms ease-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  transition: 300ms ease-out;
-  gap: 8px;
 }
 
-.dive-in:hover {
+.let-connect:hover {
   cursor: pointer;
-  text-decoration: 2px dashed underline var(--link-primary-hover);
-  /* transform: translateY(-2px); */
+  transform: translateY(-2.4px);
 }
 
-/* .dive-in:focus {
+.let-connect:focus {
   transform: translateY(0px);
-} */
+}
 
 .partition {
   width: 100%;
@@ -1304,9 +1285,9 @@ body {
     font-size: var(--fontSizes-48);
   }
 
-  .para {
+  /* .para {
     font-size: var(--fontSizes-20);
-  }
+  } */
 
   /* #hero-image {
     max-width: 100%;
@@ -1314,10 +1295,10 @@ body {
   } */
 
   #navbutton {
-    margin-top: 32px;
+    margin-top: 24px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     width: 100%;
   }
 
@@ -1326,17 +1307,6 @@ body {
   #selected {
     font-size: var(--fontSizes-40);
   }
-
-  /* #memoji-photo {
-    height: 336px;
-    width: 336px;
-    background-image: url(./memoji.gif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    border-radius: 50%;
-  } */
 
   #scroll {
     max-width: 1600px;
@@ -1568,20 +1538,21 @@ body {
   } */
 
   .heading {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-32);
   }
 
   .para {
     font-size: var(--fontSizes-18);
   }
 
-  /* .dive-in {
-    width: 100%;
-  } */
-
   #navbutton {
     margin-top: 24px;
     padding: 0px;
+  }
+
+  .let-connect{
+    padding: 0.825rem 1.25rem 0.8rem;
+    font-size: var(--fontSizes-16);
   }
 
   #scroll {
