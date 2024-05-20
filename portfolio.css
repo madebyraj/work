@@ -620,11 +620,19 @@ body {
   margin-bottom: 8px;
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
-  max-width: 1200px;
+  max-width: 1024px;
 }
 
 .opportunities{
   font-weight: var(--fontWeights-bold);
+  animation-name: text-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text-color {
+  from {color: #7C2BDA;}
+  to {color: #008043;}
 }
 
 /* .para {
@@ -655,7 +663,7 @@ body {
 }
 
 .let-connect {
-  padding: 1rem 1.25rem 0.875rem;
+  padding: 1rem 1.5rem 0.875rem;
   background-color: var(--button-primary);
   border-radius: var(--border-radius-500);
   text-decoration: none;
