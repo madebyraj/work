@@ -1,3 +1,55 @@
+@font-face {
+  font-family: 'Whyte';
+  src: url('./assets/Fonts/whyte-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Whyte';
+  src: url('./assets/Fonts/whtye-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Apercu Mono';
+  src: url('./assets/Fonts/apercu-mono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* @font-face {
+  font-family: 'Whyte';
+  src: url('https://d8o6urisxu54f.cloudfront.net/template_image/08f759c569c2e23f75c76706b06fe8a657a811ee/original/1698906410-0d7c418f197287f9.woff2?1698906410') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('https://d8o6urisxu54f.cloudfront.net/template_image/1b85942aca7bfe7d0efc9b8d2df4b33bb7f9b14e/original/1698906423-769eb3d5cf971456.woff2?1698906423') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Whyte';
+  src: url('https://d8o6urisxu54f.cloudfront.net/template_image/2f3bd93f405a47b4f6d963d9d37cac404711e8aa/original/1698906438-2b15c0de1eb0bd90.woff2?1698906438') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+
+
 :root {
 
   /* Dark mode */
@@ -59,7 +111,7 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark: #1C1C1E;
+  --glass-dark: #0E0F1A;
 
   --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
 
@@ -124,7 +176,7 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: #2C2C2E;
+  --glass-light: #FAFDFF;
 
   --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
 
@@ -136,9 +188,9 @@
   /* Fonts */
 
 
-  --fonts-heading: -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: Whyte, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Whyte, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -152,9 +204,9 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.025em;
+  --letterSpacings-tight: -0.010em;
   --letterSpacings-normal: 0;
-  --letterSpacings-wide: 0.025em;
+  --letterSpacings-wide: 0.010em;
   --letterSpacings-wider: 0.05em;
   --letterSpacings-widest: 0.1em;
 
@@ -402,6 +454,7 @@ body {
   height: fit-content;
   backdrop-filter: saturate(180%) blur(20px);
   background-blend-mode: luminosity;
+  border-bottom: 1px solid var(--border-subtle-01);
 }
 
 .hidden {
@@ -413,7 +466,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  padding: 16px 96px 12px;
+  padding: 20px 96px 12px;
   width: 100%;
   max-width: 1600px;
   margin: auto;
@@ -460,63 +513,63 @@ body {
 
 #work {
   font-size: var(--fontSizes-16);
-  color: var(--primary-button-text);
+  color: var(--secondary-button-text-dark);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   padding: 8px 0px;
   transition: 100ms ease-out;
   border-radius: var(--border-radius-400);
 }
 
 #work:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px dashed underline;
 }
 
 #about {
   font-size: var(--fontSizes-16);
-  color: var(--primary-button-text);
+  color: var(--secondary-button-text-dark);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
   border-radius: var(--border-radius-400);
 }
 
 #about:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px dashed underline;
 }
 
 #snaps {
   font-size: var(--fontSizes-16);
-  color: var(--primary-button-text);
+  color: var(--secondary-button-text-dark);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
   border-radius: var(--border-radius-400);
 }
 
 #snaps:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px dashed underline;
 }
 
 
 #resume {
   font-size: var(--fontSizes-16);
-  color: var(--primary-button-text);
+  color: var(--secondary-button-text-dark);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
   border-radius: var(--border-radius-400);
 }
 
 #resume:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px dashed underline;
 }
 
 
@@ -533,7 +586,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 300ms ease-out;
+  transition: 200ms ease-out;
 }
 
 .theme:hover {
@@ -553,8 +606,8 @@ body {
 
 .hero-section {
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
   padding: 56px 96px 32px;
@@ -566,6 +619,9 @@ body {
 .main {
   min-width: 100%;
   flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .main-logo {
@@ -577,6 +633,7 @@ body {
 
 
 .heading {
+  text-align: center;
   font-size: var(--fontSizes-60);
   color: var(--heading-primary);
   width: 100%;
@@ -588,9 +645,10 @@ body {
 }
 
 .para {
+  text-align: center;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
-  max-width: 912px;
+  max-width: 696px;
 }
 
 .mySwiper swiper-slide {
@@ -610,8 +668,8 @@ body {
 #navbutton {
   margin-top: 40px;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
 }
 
 .dive-in {
@@ -633,7 +691,7 @@ body {
 
 .dive-in:hover {
   cursor: pointer;
-  text-decoration: 2px underline var(--link-primary-hover);
+  text-decoration: 2px dashed underline var(--link-primary-hover);
   /* transform: translateY(-2px); */
 }
 
@@ -1072,7 +1130,7 @@ body {
 }
 
 .bottom-icons a:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px dashed underline;
   cursor: pointer;
 }
 
@@ -1206,7 +1264,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 16px 40px 12px;
+    padding: 20px 40px 12px;
     background-color: var(--glass-dark);
     background-blend-mode: luminosity;
   }
@@ -1259,6 +1317,7 @@ body {
     margin-top: 32px;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
   }
 
@@ -1484,7 +1543,7 @@ body {
   }
 
   #dynamic-nav {
-    padding: 16px 24px 12px;
+    padding: 20px 24px 12px;
   }
 
   .right-side-wrapper {
