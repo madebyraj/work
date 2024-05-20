@@ -240,6 +240,7 @@
   --border-radius-none: 0rem;
   --border-radius-200: 0.25rem;
   --border-radius-400: 0.5rem;
+  --border-radius-500: 0.625rem;
   --border-radius-600: 0.75rem;
   --border-radius-800: 1rem;
   --border-radius-full: 10rem;
@@ -500,11 +501,11 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: Whyte Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   padding: 8px 0px;
   transition: 100ms ease-out;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
 }
 
 #work:hover {
@@ -515,11 +516,11 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: Whyte Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
 }
 
 #about:hover {
@@ -530,11 +531,11 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: Whyte Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
 }
 
 #snaps:hover {
@@ -546,11 +547,11 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: Whyte Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
 }
 
 #resume:hover {
@@ -656,7 +657,7 @@ body {
 .let-connect {
   padding: 1rem 1.25rem 0.875rem;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-600);
+  border-radius: var(--border-radius-500);
   text-decoration: none;
   background-color: var(--button-primary);
   font-size: var(--fontSizes-20);
@@ -1538,7 +1539,7 @@ body {
   } */
 
   .heading {
-    font-size: var(--fontSizes-32);
+    font-size: var(--fontSizes-40);
   }
 
   .para {
@@ -1551,7 +1552,6 @@ body {
   }
 
   .let-connect{
-    padding: 0.825rem 1.25rem 0.8rem;
     font-size: var(--fontSizes-16);
   }
 

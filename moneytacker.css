@@ -180,6 +180,7 @@
   --border-radius-none: 0rem;
   --border-radius-200: 0.25rem;
   --border-radius-400: 0.5rem;
+  --border-radius-500: 0.625rem;
   --border-radius-600: 0.75rem;
   --border-radius-800: 1rem;
   --border-radius-full: 10rem;
@@ -393,7 +394,7 @@ main {
 
 #side-navbar {
   position: fixed;
-  top: 144px;
+  top: 104px;
   left: 0;
   max-width: 168px;
   height: min-content;
@@ -415,7 +416,7 @@ main {
 
 .inner-nav a {
   padding: 8px 0px;
-  font-size: var(--fontSizes-14);
+  font-size: var(--fontSizes-16);
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
@@ -841,7 +842,7 @@ main {
 .full-research:hover {
   color: var(--link-primary-hover);
   cursor: pointer;
-  text-decoration: 2px underline var(--link-primary-hover);
+  text-decoration: 2px dashed underline var(--link-primary-hover);
 }
 
 .questions {
@@ -1010,7 +1011,7 @@ main {
 #pr-link:hover {
   color: var(--link-primary-hover);
   cursor: pointer;
-  text-decoration: 2px underline var(--link-primary-hover);
+  text-decoration: 2px dashed underline var(--link-primary-hover);
 }
 
 .proto-bg {
