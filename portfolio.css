@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Whyte';
+  font-family: 'Whyte Regular';
   src: url('./assets/Fonts/whyte-regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -14,13 +14,13 @@
   font-display: swap;
 }
 
-/* @font-face {
-  font-family: 'Whyte';
+@font-face {
+  font-family: 'Whyte Bold';
   src: url('./assets/Fonts/whtye-bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-} */
+}
 
 @font-face {
   font-family: 'Apercu Mono';
@@ -196,8 +196,8 @@
   /* Fonts */
 
 
-  --fonts-heading: Whyte, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Whyte, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Whyte Bold, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Whyte Regular, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -501,7 +501,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: Whyte Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   padding: 8px 0px;
   transition: 100ms ease-out;
@@ -516,7 +516,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: Whyte Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -531,7 +531,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: Whyte Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -547,7 +547,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: Whyte Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -615,24 +615,23 @@ body {
   font-size: var(--fontSizes-60);
   color: var(--heading-primary);
   width: 100%;
-  font-family: var(--fonts-heading);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-normal);
   margin-bottom: 8px;
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-shorter);
+  line-height: var(--lineHeights-none);
   max-width: 1024px;
 }
 
 .opportunities{
-  font-weight: var(--fontWeights-bold);
-  animation-name: text-color;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  font-family: var(--fonts-heading);
+  line-height: var(--lineHeights-shorter);
+  text-decoration: none;
+  color: var(--heading-primary);
 }
 
-@keyframes text-color {
-  from {color: #7C2BDA;}
-  to {color: #008043;}
+.opportunities:hover{
+  text-decoration: dashed underline;
 }
 
 /* .para {
