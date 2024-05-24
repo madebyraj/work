@@ -573,9 +573,11 @@ body {
   align-items: center;
   justify-content: center;
   transition: 200ms ease-out;
+  background-color: var(--surface-layer-01);
 }
 
 .theme:hover {
+  background-color: var(--surface-layer-01-hover);
   transform: scale(1.1);
   cursor: pointer;
 }
