@@ -360,6 +360,7 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
+  font-feature-settings: 'ss02' on;
 }
 
 html {
