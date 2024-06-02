@@ -1156,7 +1156,7 @@ main {
 
 #back-to-all:hover {
   color: var(--link-primary-hover);
-  text-decoration: 2px underline var(--link-primary-hover);
+  text-decoration: 2px dashed underline var(--link-primary-hover);
   cursor: pointer;
 }
 
