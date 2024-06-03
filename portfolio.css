@@ -607,8 +607,8 @@ body {
   min-width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 
@@ -620,14 +620,12 @@ body {
   margin-bottom: 8px;
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
-  text-align: center;
 }
 
 .para {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
   max-width: 912px;
-  text-align: center;
 }
 
 #navbutton {
@@ -1280,10 +1278,6 @@ body {
 
   #navbutton {
     margin-top: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
   }
 
 
