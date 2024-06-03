@@ -607,8 +607,8 @@ body {
   min-width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -627,6 +627,7 @@ body {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary-100);
   max-width: 912px;
+  text-align: center;
 }
 
 #navbutton {
@@ -1280,8 +1281,8 @@ body {
   #navbutton {
     margin-top: 24px;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
 
