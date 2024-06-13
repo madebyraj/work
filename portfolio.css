@@ -502,7 +502,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   padding: 8px 0px;
   transition: 100ms ease-out;
@@ -517,7 +517,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -532,7 +532,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -548,7 +548,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
