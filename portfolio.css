@@ -502,7 +502,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   padding: 8px 0px;
   transition: 100ms ease-out;
@@ -517,7 +517,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -532,7 +532,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -548,7 +548,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px 0px;
@@ -1087,8 +1087,8 @@ body {
 }
 
 .bottom-icons a {
-  font-family: var(--fonts-mono);
-  font-size: var(--fontSizes-16);
+  font-family: var(--fonts-body);
+  font-size: var(--fontSizes-18);
   text-decoration: none;
   transition: 200ms ease-out;
 }
@@ -1505,23 +1505,6 @@ body {
     justify-content: space-between;
     gap: 24px;
   }
-  
-  #work {
-    font-size: var(--fontSizes-14);
-  }
-
-  #about {
-    font-size: var(--fontSizes-14);
-  }
-  
-  #snaps {
-    font-size: var(--fontSizes-14);
-  }
-  
-  #resume {
-    font-size: var(--fontSizes-14);
-  }
-
 
   .hero-section {
     height: fit-content;
@@ -1783,7 +1766,6 @@ body {
   .bottom-icons a {
     text-decoration: none;
     transition: 200ms ease-out;
-    font-size: var(--fontSizes-14);
   }
 
   .social {
