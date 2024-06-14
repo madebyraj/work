@@ -1505,6 +1505,22 @@ body {
     justify-content: space-between;
     gap: 24px;
   }
+  
+  #work {
+    font-size: var(--fontSizes-14);
+  }
+
+  #about {
+    font-size: var(--fontSizes-14);
+  }
+  
+  #snaps {
+    font-size: var(--fontSizes-14);
+  }
+  
+  #resume {
+    font-size: var(--fontSizes-14);
+  }
 
 
   .hero-section {
@@ -1767,6 +1783,7 @@ body {
   .bottom-icons a {
     text-decoration: none;
     transition: 200ms ease-out;
+    font-size: var(--fontSizes-14);
   }
 
   .social {
