@@ -59,9 +59,9 @@
 
   --background-main: #000000;
 
-  --glass-dark:rgba(28, 28, 30, 0.80);
+  --glass-dark:rgba(0, 0, 0, 0.80);
 
-  --drop-shadow-dark: 0px 2px 12px 4px rgba(22, 30, 54, 0.40), 0.6px 1.2px 0px 0px #2C2C2E, 0.6px 1.2px 0px 0px #3A3A3C inset;
+  --drop-shadow-dark: 0.6px 1.2px 0px 0px #2C2C2E, 0.6px 1.2px 0px 0px #3A3A3C inset;
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
@@ -92,25 +92,25 @@
   --link-primary-light: #007BE5;
   --link-primary-hover-light: #007BE5;
 
-  --heading-primary-light: #0E0F1A;
-  --heading-primary-01-light: #1A1D29;
-  --heading-primary-02-light: #1E2638;
+  --heading-primary-light: #000000;
+  --heading-primary-01-light: #1C1C1E;
+  --heading-primary-02-light: #2C2C2E;
 
-  --paragraph-primary-light: #1E2638;
-  --paragraph-primary-100-light: #2A3448;
-  --paragraph-primary-200-light: #4C5970;
+  --paragraph-primary-light: #1C1C1E;
+  --paragraph-primary-100-light: #2C2C2E;
+  --paragraph-primary-200-light: #3A3A3C;
 
-  --surface-layer-01-light: #F0F5FA;
-  --surface-layer-02-light: #E7EEF5;
-  --surface-layer-03-light: #CAD9EB;
+  --surface-layer-01-light: #F2F2F7;
+  --surface-layer-02-light: #E5E5EA;
+  --surface-layer-03-light: #D1D1D6;
 
-  --surface-layer-01-hover-light: #E7EEF5;
-  --surface-layer-02-hover-light: #CAD9EB;
-  --surface-layer-03-hover-light: #A3B5CC;
+  --surface-layer-01-hover-light: #E5E5EA;
+  --surface-layer-02-hover-light: #D1D1D6;
+  --surface-layer-03-hover-light: #C7C7CC;
 
-  --border-subtle-01-light: #E7EEF5;
-  --border-subtle-02-light: #CAD9EB;
-  --border-subtle-03-light: #A3B5CC;
+  --border-subtle-01-light: #E5E5EA;
+  --border-subtle-02-light: #D1D1D6;
+  --border-subtle-03-light: #C7C7CC;
 
   --partition-light: #0D99FF;
 
@@ -122,11 +122,11 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #FAFDFF;
+  --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(250, 253, 255, 0.70);
+  --glass-light: rgba(255, 255, 255, 0.80);
 
-  --drop-shadow-light: 0.6px 1.2px 0px 0px #E7EEF5, 0.6px 1.2px 0px 0px #CAD9EB inset;
+  --drop-shadow-light: 0.6px 1.2px 0px 0px #E5E5EA, 0.6px 1.2px 0px 0px #D1D1D6 inset;
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
