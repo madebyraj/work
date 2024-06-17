@@ -59,9 +59,9 @@
 
   --background-main: #0E0F1A;
 
-  --glass-dark:rgba(14, 15, 26, 0.75);
+  --glass-dark:rgba(14, 15, 26, 0.70);
 
-  --drop-shadow-dark: 16px 16px 0px 0px #0C8CE9;
+  --drop-shadow-dark: 0.6px 1.2px 0px 0px #1E2638, 0.6px 1.2px 0px 0px #2A3448 inset;
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
@@ -124,9 +124,9 @@
 
   --background-main-light: #FAFDFF;
 
-  --glass-light: rgba(250, 253, 255, 0.75);
+  --glass-light: rgba(250, 253, 255, 0.80);
 
-  --drop-shadow-light: 16px 16px 0px 0px #0D99FF;
+  --drop-shadow-light: 0.6px 1.2px 0px 0px #E7EEF5, 0.6px 1.2px 0px 0px #CAD9EB inset;
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
