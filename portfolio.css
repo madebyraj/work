@@ -489,7 +489,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 #work {
@@ -521,13 +521,19 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
-  padding: 6px;
-  border-radius: var(--border-radius-none);
+  padding: 6px 8px;
+  border-radius: var(--border-radius-full);
 }
 
 #about:hover {
-  text-decoration: 2px dashed underline;
+  background-color: var(--surface-layer-01-hover);
+  color: var(--link-primary-hover);
 }
+
+#about:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
+}
+
 
 #snaps {
   font-size: var(--fontSizes-16);
@@ -536,14 +542,18 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
-  padding: 6px;
-  border-radius: var(--border-radius-none);
+  padding: 6px 8px;
+  border-radius: var(--border-radius-full);
 }
 
 #snaps:hover {
-  text-decoration: 2px dashed underline;
+  background-color: var(--surface-layer-01-hover);
+  color: var(--link-primary-hover);
 }
 
+#snaps:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
+}
 
 #resume {
   font-size: var(--fontSizes-16);
@@ -552,12 +562,17 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
-  padding: 6px;
-  border-radius: var(--border-radius-none);
+  padding: 6px 8px;
+  border-radius: var(--border-radius-full);
 }
 
 #resume:hover {
-  text-decoration: 2px dashed underline;
+  background-color: var(--surface-layer-01-hover);
+  color: var(--link-primary-hover);
+}
+
+#resume:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
 }
 
 
