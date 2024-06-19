@@ -121,7 +121,7 @@
 
   --glass-dark:#1C1C1E;
 
-  --drop-shadow-dark: 0.6px 1.2px 0px 0px #2C2C2E, 0.6px 1.2px 0px 0px #3A3A3C inset;
+  --drop-shadow-dark: 0.4px 0.8px 0px 0px #2C2C2E, 0.6px 1.2px 0px 0px #3A3A3C inset;
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
@@ -186,7 +186,7 @@
 
   --glass-light:#F2F2F7;
 
-  --drop-shadow-light: 0.6px 1.2px 0px 0px #E5E5EA, 0.6px 1.2px 0px 0px #D1D1D6 inset;
+  --drop-shadow-light: 0.4px 0.8px 0px 0px #E5E5EA, 0.6px 1.2px 0px 0px #D1D1D6 inset;
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
