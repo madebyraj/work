@@ -493,10 +493,10 @@ body {
 }
 
 #work {
+  background-image: var(--logo-dark);
   min-width: 36px;
   min-height: 36px;
   border-radius: var(--border-radius-full);
-  background-color: transparent;
   border: none;
   display: flex;
   align-items: center;
