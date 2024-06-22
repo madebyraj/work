@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Whyte Regular';
-  src: url('./assets/Fonts/whyte-regular.woff2') format('woff2');
+  src: url('./assets/Fonts/whyte/whyte-regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,16 +8,16 @@
 
 @font-face {
   font-family: 'Whyte Medium';
-  src: url('./assets/Fonts/whyte-medium.woff2') format('woff2');
-  font-weight: 500;
+  src: url('./assets/Fonts/whyte/whyte-medium.woff2') format('woff2');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Whyte Bold';
-  src: url('./assets/Fonts/whtye-bold.woff2') format('woff2');
-  font-weight: 700;
+  src: url('./assets/Fonts/whyte/whtye-bold.woff2') format('woff2');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -31,29 +31,30 @@
 }
 
 
-/* @font-face {
-  font-family: 'Whyte';
-  src: url('https://d8o6urisxu54f.cloudfront.net/template_image/08f759c569c2e23f75c76706b06fe8a657a811ee/original/1698906410-0d7c418f197287f9.woff2?1698906410') format('woff2');
-  font-weight: 500;
+@font-face {
+  font-family: 'Haldane Regular';
+  src: url('./assets/Fonts/haldane/HeldaneTextRegular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Whyte';
-  src: url('https://d8o6urisxu54f.cloudfront.net/template_image/1b85942aca7bfe7d0efc9b8d2df4b33bb7f9b14e/original/1698906423-769eb3d5cf971456.woff2?1698906423') format('woff2');
-  font-weight: 500;
-  font-style: italic;
+  font-family: 'Haldane Medium';
+  src: url('./assets/Fonts/haldane/HeldaneTextMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Whyte';
-  src: url('https://d8o6urisxu54f.cloudfront.net/template_image/2f3bd93f405a47b4f6d963d9d37cac404711e8aa/original/1698906438-2b15c0de1eb0bd90.woff2?1698906438') format('woff2');
-  font-weight: 900;
+  font-family: 'Haldane Bold';
+  src: url('./assets/Fonts/haldane/HeldaneTextBold.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
-} */
+}
+
 
 
 
@@ -196,7 +197,7 @@
   /* Fonts */
 
 
-  --fonts-heading: Whyte Medium, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Haldane Medium, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Whyte Regular, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -212,7 +213,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.025em;
+  --letterSpacings-tight: -0.015em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
