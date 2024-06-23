@@ -120,7 +120,7 @@
 
   --background-main: #000000;
 
-  --glass-dark:#1C1C1E;
+  --glass-dark:#1c1c1eb8;
 
   --drop-shadow-dark: 0.4px 0.8px 0px 0px #2C2C2E, 0.6px 1.2px 0px 0px #3A3A3C inset;
 
@@ -1114,7 +1114,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 
 .bottom-icons a {
@@ -1145,7 +1145,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  gap: 8px;
+  gap: 16px;
 }
 
 
@@ -1464,10 +1464,6 @@ body {
     max-width: 1600px;
   }
 
-  /* #bottom-text {
-    margin-bottom: 8px;
-  } */
-
   /* about section  */
 
   #main-about {
@@ -1784,7 +1780,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    gap: 32px;
   }
 
   .bottom-icons a {
@@ -1793,7 +1789,7 @@ body {
   }
 
   .social {
-    gap: 8px;
+    gap: 16px;
   }
 
 
