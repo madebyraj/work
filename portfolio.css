@@ -529,7 +529,6 @@ body {
 
 #about:hover {
   background-color: var(--surface-layer-01-hover);
-  color: var(--link-primary-hover);
 }
 
 #about:focus {
@@ -550,7 +549,6 @@ body {
 
 #snaps:hover {
   background-color: var(--surface-layer-01-hover);
-  color: var(--link-primary-hover);
 }
 
 #snaps:focus {
@@ -570,7 +568,6 @@ body {
 
 #resume:hover {
   background-color: var(--surface-layer-01-hover);
-  color: var(--link-primary-hover);
 }
 
 #resume:focus {
@@ -594,7 +591,6 @@ body {
   align-items: center;
   justify-content: center;
   transition: 200ms ease-out;
-  background-color: var(--surface-layer-01);
 }
 
 .theme:hover {
