@@ -699,13 +699,16 @@ body {
 }
 
 #selected {
-  font-size: var(--fontSizes-40);
-  padding-bottom: 32px;
+  /* font-size: var(--fontSizes-40);
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-shorter);
+  line-height: var(--lineHeights-shorter); */
+  font-size: var(--fontSizes-20);
+  color: var(--heading-primary);
+  font-family: var(--fonts-mono);
+  padding-bottom: 32px;
 }
 
 #project-container {
@@ -938,12 +941,15 @@ body {
 }
 
 #writing {
-  font-size: var(--fontSizes-40);
+  /* font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
+  color: var(--heading-primary); */
+  font-size: var(--fontSizes-20);
   color: var(--heading-primary);
+  font-family: var(--fonts-mono);
 }
 
 #article-section {
@@ -1153,12 +1159,15 @@ body {
 }
 
 .about {
-  font-size: var(--fontSizes-48);
+  /* font-size: var(--fontSizes-48);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
+  color: var(--heading-primary); */
+  font-size: var(--fontSizes-20);
   color: var(--heading-primary);
+  font-family: var(--fonts-mono);
 }
 
 .me {
@@ -1293,7 +1302,7 @@ body {
 
 
   #selected {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-20);
   }
 
   #scroll {
@@ -1365,7 +1374,7 @@ body {
   }
 
   #writing {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-20);
   }
 
   #article-section {
@@ -1459,7 +1468,7 @@ body {
   }
 
   .about {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-20);
   }
 
   .me-section {
@@ -1540,7 +1549,7 @@ body {
   }
 
   #selected {
-    font-size: var(--fontSizes-32);
+    font-size: var(--fontSizes-18);
     padding-bottom: 16px;
   }
 
@@ -1694,7 +1703,7 @@ body {
   }
 
   #writing {
-    font-size: var(--fontSizes-32);
+    font-size: var(--fontSizes-18);
   }
 
   #info-1 {
@@ -1787,7 +1796,7 @@ body {
 
 
   .about {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-18);
   }
 
   /* .me{
