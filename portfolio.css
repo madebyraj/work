@@ -660,16 +660,16 @@ body {
 }
 
 .let-connect {
-  padding: 15px 20px;
+  /* padding: 15px 20px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-500);
+  border-radius: var(--border-radius-500); */
   text-decoration: none;
-  background-color: var(--button-primary);
-  font-size: var(--fontSizes-16);
+  /* background-color: var(--button-primary); */
+  font-size: var(--fontSizes-24);
   letter-spacing: var(--letterSpacings-normal);
   font-family: Whyte Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
-  color: var(--primary-button-text);
+  color: var(--link-primary);
   text-align: center;
   transition: 300ms ease-out;
   display: flex;
@@ -679,12 +679,13 @@ body {
 
 .let-connect:hover {
   cursor: pointer;
-  transform: translateY(-2.4px);
+  /* transform: translateY(-2.4px); */
+  text-decoration: 2px dashed underline var(--link-primary-hover);
 }
 
-.let-connect:focus {
+/* .let-connect:focus {
   transform: translateY(0px);
-}
+} */
 
 .partition {
   width: 100%;
@@ -1540,6 +1541,10 @@ body {
 
   .para {
     font-size: var(--fontSizes-32);
+  }
+
+  .let-connect{
+    font-size: var(--fontSizes-20);
   }
 
   #navbutton {
