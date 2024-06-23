@@ -635,7 +635,7 @@ body {
 
 
 .heading {
-  font-size: var(--fontSizes-20);
+  font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
   margin-bottom: 8px;
@@ -706,7 +706,7 @@ body {
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter); */
-  font-size: var(--fontSizes-20);
+  font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
   padding-bottom: 32px;
@@ -948,7 +948,7 @@ body {
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary); */
-  font-size: var(--fontSizes-20);
+  font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
 }
@@ -1094,10 +1094,9 @@ body {
 }
 
 .trademark {
-  font-size: var(--fontSizes-16);
+  font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
-  color: var(--paragraph-primary-200);
-  letter-spacing: var(--letterSpacings-wide);
+  color: var(--heading-primary-01);
 }
 
 #bottom-text {
@@ -1177,7 +1176,7 @@ body {
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary); */
-  font-size: var(--fontSizes-20);
+  font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
 }
@@ -1295,7 +1294,7 @@ body {
   }
 
   .heading {
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
   .para {
@@ -1314,7 +1313,7 @@ body {
 
 
   #selected {
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
   #scroll {
@@ -1386,7 +1385,7 @@ body {
   }
 
   #writing {
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
   #article-section {
@@ -1476,7 +1475,7 @@ body {
   }
 
   .about {
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
   .me-section {
@@ -1532,7 +1531,7 @@ body {
   } */
 
   .heading {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-16);
   }
 
   .para {
@@ -1561,7 +1560,7 @@ body {
   }
 
   #selected {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-16);
     padding-bottom: 16px;
   }
 
@@ -1715,7 +1714,7 @@ body {
   }
 
   #writing {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-16);
   }
 
   #info-1 {
@@ -1808,7 +1807,7 @@ body {
 
 
   .about {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-16);
   }
 
   /* .me{
