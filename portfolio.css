@@ -1775,6 +1775,10 @@ body {
     padding: 32px 24px;
   }
 
+  .trademark {
+    font-size: var(--fontSizes-16);
+  }
+
   .bottom-icons {
     display: flex;
     justify-content: space-between;
