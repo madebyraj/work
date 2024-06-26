@@ -58,9 +58,9 @@
   --heading-primary-01: #E3ECF2;
   --heading-primary-02: #D2DAE4;
 
-  --paragraph-primary: #E3ECF2;
-  --paragraph-primary-100: #D2DAE4;
-  --paragraph-primary-200: #AFBCCF;
+  --paragraph-primary: #D2DAE4;
+  --paragraph-primary-100: #AFBCCF;
+  --paragraph-primary-200: #667799;
 
   --surface-layer-01: #111111;
   --surface-layer-02: #1E1E1E;
@@ -84,9 +84,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #020202;
+  --background-main: #000000;
 
-  --glass-dark: rgba(17, 17, 17, 0.72);
+  --glass-dark: rgba(17, 17, 17, 0.75);
 
   --drop-shadow-dark: 0.5px 1px 0px 0px #1E1E1E, 0.6px 1.2px 0px 0px #383838 inset;
 
@@ -119,25 +119,25 @@
   --link-primary-light: #007BE5;
   --link-primary-hover-light: #007BE5;
 
-  --heading-primary-light: #060617;
-  --heading-primary-01-light: #1A1F36;
-  --heading-primary-02-light: #2F364F;
+  --heading-primary-light: #121721;
+  --heading-primary-01-light: #252D41;
+  --heading-primary-02-light: #394360;
 
-  --paragraph-primary-light: #2F364F;
-  --paragraph-primary-100-light: #48526B;
-  --paragraph-primary-200-light: #606E8B;
+  --paragraph-primary-light: #394360;
+  --paragraph-primary-100-light: #4A5878;
+  --paragraph-primary-200-light: #536383;
 
-  --surface-layer-01-light: #F0F5FA;
-  --surface-layer-02-light: #E7ECF5;
-  --surface-layer-03-light: #CAD7EB;
+  --surface-layer-01-light: #F1F5F8;
+  --surface-layer-02-light: #E3ECF2;
+  --surface-layer-03-light: #D2DAE4;
 
-  --surface-layer-01-hover-light: #E7ECF5;
-  --surface-layer-02-hover-light: #CAD7EB;
-  --surface-layer-03-hover-light: #A3B1CC;
+  --surface-layer-01-hover-light: #E3ECF2;
+  --surface-layer-02-hover-light: #D2DAE4;
+  --surface-layer-03-hover-light: #AFBCCF;
 
-  --border-subtle-01-light: #E7ECF5;
-  --border-subtle-02-light: #CAD7EB;
-  --border-subtle-03-light: #A3B1CC;
+  --border-subtle-01-light: #E3ECF2;
+  --border-subtle-02-light: #D2DAE4;
+  --border-subtle-03-light: #AFBCCF;
 
   --partition-light: #0D99FF;
 
@@ -149,11 +149,11 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #FAFDFF;
+  --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(250, 253, 255, 0.80);
+  --glass-light: rgba(255, 255, 255, 0.75);
 
-  --drop-shadow-light: 0.4px 0.8px 0px 0px #E7ECF5, 0.6px 1.2px 0px 0px #CAD7EB inset;
+  --drop-shadow-light: 0.5px 1px 0px 0px #E3ECF2, 0.6px 1.2px 0px 0px #D2DAE4 inset;
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
