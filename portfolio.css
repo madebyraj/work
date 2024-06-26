@@ -122,7 +122,7 @@
 
   --glass-dark: rgba(18, 23, 33, 0.75);
 
-  --drop-shadow-dark: 0.5px 1px 0px 0px #121721, 0.6px 1.2px 0px 0px #252D41 inset;
+  --drop-shadow-dark: 0.6px 1.2px 0px 0px #121721, 0.6px 1.2px 0px 0px #252D41 inset;
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
@@ -153,25 +153,25 @@
   --link-primary-light: #007BE5;
   --link-primary-hover-light: #007BE5;
 
-  --heading-primary-light: #121721;
-  --heading-primary-01-light: #252D41;
-  --heading-primary-02-light: #394360;
+  --heading-primary-light: rgba(0, 0, 0, 1);
+  --heading-primary-01-light: rgba(0, 0, 0, 0.95);
+  --heading-primary-02-light: rgba(0, 0, 0, 0.90);
 
-  --paragraph-primary-light: #394360;
-  --paragraph-primary-100-light: #4A5878;
-  --paragraph-primary-200-light: #536383;
+  --paragraph-primary-light: rgba(0, 0, 0, 1);
+  --paragraph-primary-100-light: rgba(0, 0, 0, 0.95);
+  --paragraph-primary-200-light: rgba(0, 0, 0, 0.90);
 
   --surface-layer-01-light: #F1F5F8;
-  --surface-layer-02-light: #E3ECF2;
-  --surface-layer-03-light: #D2DAE4;
+  --surface-layer-02-light: #FFFFFF;
+  --surface-layer-03-light: #E3ECF2;
 
   --surface-layer-01-hover-light: #E3ECF2;
-  --surface-layer-02-hover-light: #D2DAE4;
-  --surface-layer-03-hover-light: #AFBCCF;
+  --surface-layer-02-hover-light: #F1F5F8;
+  --surface-layer-03-hover-light: #D2DAE4;
 
   --border-subtle-01-light: #E3ECF2;
-  --border-subtle-02-light: #D2DAE4;
-  --border-subtle-03-light: #AFBCCF;
+  --border-subtle-02-light: #F1F5F8;
+  --border-subtle-03-light: #D2DAE4;
 
   --partition-light: #0D99FF;
 
@@ -187,7 +187,7 @@
 
   --glass-light: rgba(255, 255, 255, 0.75);
 
-  --drop-shadow-light: 0.5px 1px 0px 0px #E3ECF2, 0.6px 1.2px 0px 0px #D2DAE4 inset;
+  --drop-shadow-light: 0.6px 1.2px 0px 0px #F1F5F8, 0.6px 1.2px 0px 0px #E3ECF2 inset;
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
