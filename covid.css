@@ -27,25 +27,25 @@
   --link-primary: #0C8CE9;
   --link-primary-hover: #0C8CE9;
 
-  --heading-primary: #FAFDFF;
-  --heading-primary-01: #F0F5FA;
-  --heading-primary-02: #E7ECF5;
+  --heading-primary: #F1F5F8;
+  --heading-primary-01: #E3ECF2;
+  --heading-primary-02: #D2DAE4;
 
-  --paragraph-primary: #E7ECF5;
-  --paragraph-primary-100: #CAD7EB;
-  --paragraph-primary-200: #A3B1CC;
+  --paragraph-primary: #E3ECF2;
+  --paragraph-primary-100: #D2DAE4;
+  --paragraph-primary-200: #AFBCCF;
 
-  --surface-layer-01: #1A1F36;
-  --surface-layer-02: #2F364F;
-  --surface-layer-03: #48526B;
+  --surface-layer-01: #111111;
+  --surface-layer-02: #1E1E1E;
+  --surface-layer-03: #2C2C2C;
 
-  --surface-layer-01-hover: #2F364F;
-  --surface-layer-02-hover: #48526B;
-  --surface-layer-03-hover: #606E8B;
+  --surface-layer-01-hover: #1E1E1E;
+  --surface-layer-02-hover: #2C2C2C;
+  --surface-layer-03-hover: #383838;
 
-  --border-subtle-01: #2F364F;
-  --border-subtle-02: #48526B;
-  --border-subtle-03: #606E8B;
+  --border-subtle-01: #1E1E1E;
+  --border-subtle-02: #2C2C2C;
+  --border-subtle-03: #383838;
 
   --partition-dark: #0C8CE9;
 
@@ -57,11 +57,11 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #060617;
+  --background-main: #020202;
 
-  --glass-dark: rgba(6, 6, 23, 0.80);
+  --glass-dark: rgba(17, 17, 17, 0.72);
 
-  --drop-shadow-dark: 0.4px 0.8px 0px 0px #2F364F, 0.6px 1.2px 0px 0px #48526B inset;
+  --drop-shadow-dark: 0.5px 1px 0px 0px #1E1E1E, 0.6px 1.2px 0px 0px #383838 inset;
 
   --button-drop-shadow-dark: 0px 1px 4px rgba(6, 139, 238, 0.24), 0px 0px 0px 1px rgba(6, 139, 238, 0.12);
 
