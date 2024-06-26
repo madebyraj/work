@@ -31,32 +31,6 @@
 }
 
 
-@font-face {
-  font-family: 'Haldane Regular';
-  src: url('./assets/Fonts/haldane/HeldaneTextRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Haldane Medium';
-  src: url('./assets/Fonts/haldane/HeldaneTextMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Haldane Bold';
-  src: url('./assets/Fonts/haldane/HeldaneTextBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-
 
 
 :root {
@@ -197,7 +171,7 @@
   /* Fonts */
 
 
-  --fonts-heading: Haldane Medium, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Whyte Medium, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Whyte Regular, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -213,7 +187,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.010em;
+  --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -638,7 +612,7 @@ body {
 }
 
 .para {
-  max-width: 944px;
+  max-width: 1024px;
   font-size: var(--fontSizes-48);
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
