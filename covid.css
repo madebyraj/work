@@ -92,25 +92,25 @@
   --link-primary-light: #007BE5;
   --link-primary-hover-light: #007BE5;
 
-  --heading-primary-light: rgba(0, 0, 0, 1);
-  --heading-primary-01-light: rgba(0, 0, 0, 0.95);
-  --heading-primary-02-light: rgba(0, 0, 0, 0.90);
+  --heading-primary-light: #1E1E1E;
+  --heading-primary-01-light: #757575;
+  --heading-primary-02-light: #B3B3B3;
 
-  --paragraph-primary-light: rgba(0, 0, 0, 1);
-  --paragraph-primary-100-light: rgba(0, 0, 0, 0.95);
-  --paragraph-primary-200-light: rgba(0, 0, 0, 0.90);
+  --paragraph-primary-light: #1E1E1E;
+  --paragraph-primary-100-light: #757575;
+  --paragraph-primary-200-light: #B3B3B3;
 
-  --surface-layer-01-light: #F1F5F8;
-  --surface-layer-02-light: #FFFFFF;
-  --surface-layer-03-light: #E3ECF2;
+  --surface-layer-01-light: #FFFFFF;
+  --surface-layer-02-light: #F5F5F5;
+  --surface-layer-03-light: #E6E6E6;
 
-  --surface-layer-01-hover-light: #E3ECF2;
-  --surface-layer-02-hover-light: #F1F5F8;
-  --surface-layer-03-hover-light: #D2DAE4;
+  --surface-layer-01-hover-light: #F5F5F5;
+  --surface-layer-02-hover-light: #E6E6E6;
+  --surface-layer-03-hover-light: #D9D9D9;
 
-  --border-subtle-01-light: #E3ECF2;
-  --border-subtle-02-light: #F1F5F8;
-  --border-subtle-03-light: #D2DAE4;
+  --border-subtle-01-light: #D9D9D9;
+  --border-subtle-02-light: #757575;
+  --border-subtle-03-light: #383838;
 
   --partition-light: #0D99FF;
 
@@ -126,7 +126,7 @@
 
   --glass-light: rgba(255, 255, 255, 0.75);
 
-  --drop-shadow-light: 0.6px 1.2px 0px 0px #F1F5F8, 0.6px 1.2px 0px 0px #E3ECF2 inset;
+  --drop-shadow-light: 0px 1px 4px 0px rgba(12, 12, 13, 0.05);
 
   --button-drop-shadow-light: 0px 1px 4px rgba(38, 110, 241, 0.24), 0px 0px 0px 1px rgba(38, 110, 241, 0.12);
 
@@ -479,14 +479,14 @@ main {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
-  color: var(--paragraph-primary-200);
+  color: var(--paragraph-primary-100);
   letter-spacing: var(--letterSpacings-wide);
   margin-bottom: 16px;
 }
 
 .po {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -511,7 +511,7 @@ main {
 
 .r-r p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
 }
 
 .p-c h6 {
@@ -526,7 +526,7 @@ main {
 
 .p-c p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
 }
 
 .tools h6 {
@@ -541,7 +541,7 @@ main {
 
 .tools p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
 }
 
 .line {
@@ -576,7 +576,7 @@ main {
 
 #problem-s p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -603,7 +603,7 @@ main {
 
 #tackling-tp p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -638,7 +638,7 @@ main {
 
 #research-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -683,7 +683,7 @@ main {
 
 #hmw-q {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 32px;
 }
 
@@ -703,7 +703,7 @@ main {
 
 #lf-para {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -747,7 +747,7 @@ main {
 
 #task-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -791,7 +791,7 @@ main {
 
 #solution-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -871,7 +871,7 @@ main {
 
 #map-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
   margin-bottom: 16px;
 }
 
@@ -916,7 +916,7 @@ main {
 
 #in-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--paragraph-primary-100);
+  color: var(--paragraph-primary);
 }
 
 
