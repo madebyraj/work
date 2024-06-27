@@ -92,7 +92,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #080808;
 
   --glass-dark: rgba(18, 23, 33, 0.75);
 
@@ -447,7 +447,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 12px;
+  padding: 0.5rem 1rem;
   width: 100%;
   max-width: 384px;
   margin: auto;
@@ -470,9 +470,9 @@ body {
 
 #work {
   background-image: var(--logo-dark);
-  min-width: 36px;
-  min-height: 36px;
-  border-radius: var(--border-radius-400);
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: var(--border-radius-200);
   border: none;
   display: flex;
   align-items: center;
@@ -488,6 +488,7 @@ body {
 #work:focus {
   transform: scale(1);
   outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 4px;
 }
 
 #about {
@@ -556,9 +557,7 @@ body {
 }
 
 .theme {
-  min-width: 36px;
-  min-height: 36px;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-200);
   background-color: transparent;
   border: none;
   display: flex;
@@ -575,6 +574,7 @@ body {
 .theme:focus {
   transform: scale(1);
   outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 4px;
 }
 
 .hero-container {

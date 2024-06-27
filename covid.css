@@ -57,7 +57,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #080808;
 
   --glass-dark: rgba(18, 23, 33, 0.75);
 
@@ -401,8 +401,8 @@ main {
   max-width: 168px;
   height: min-content;
   background-color: var(--surface-layer-01);
-  backdrop-filter: saturate(180%) blur(20px);
-  border-radius: 0px var(--border-radius-400) var(--border-radius-400) 0px;
+  box-shadow: var(--drop-shadow-dark);
+  border-radius: 0px var(--border-radius-600) var(--border-radius-600) 0px;
   padding: 12px 24px;
   z-index: 100;
   border: 1px solid var(--border-subtle-01);
@@ -434,13 +434,13 @@ main {
   bottom: 32px;
   right: 32px;
   height: min-content;
-  border-radius: 48px;
+  border-radius: var(--border-radius-full);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
   background-color: var(--surface-layer-01);
-  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: var(--drop-shadow-dark);
   text-decoration: none;
   border: 1px solid var(--border-subtle-01);
 }
