@@ -62,17 +62,17 @@
   --paragraph-primary-100:rgba(255, 255, 255, 0.7);
   --paragraph-primary-200:rgba(255, 255, 255, 0.4);
 
-  --surface-layer-01: #0F172A;
-  --surface-layer-02: #1E293B;
-  --surface-layer-03: #475569;
+  --surface-layer-01: #1C1E21;
+  --surface-layer-02: #303338;
+  --surface-layer-03: #444950;
 
-  --surface-layer-01-hover: #334155;
-  --surface-layer-02-hover: #0F172A;
-  --surface-layer-03-hover: #334155;
+  --surface-layer-01-hover: #303338;
+  --surface-layer-02-hover: #1C1E21;
+  --surface-layer-03-hover: #606770;
 
-  --border-subtle-01: #475569;
-  --border-subtle-02: #64748B;
-  --border-subtle-03: #CBD5E1;
+  --border-subtle-01: #303338;
+  --border-subtle-02: #444950;
+  --border-subtle-03: #606770;
 
   --partition-dark: #0C8CE9;
 
@@ -84,7 +84,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #020617;
+  --background-main: #000000;
 
   --glass-dark: rgba(18, 23, 33, 0.75);
 
@@ -127,17 +127,17 @@
   --paragraph-primary-100-light: rgba(0, 0, 0, 0.7);
   --paragraph-primary-200-light: rgba(0, 0, 0, 0.4);
 
-  --surface-layer-01-light: #F8FAFC;
-  --surface-layer-02-light: #F1F5F9;
-  --surface-layer-03-light: #E2E8F0;
+  --surface-layer-01-light: #F5F6F7;
+  --surface-layer-02-light: #EBEDF0;
+  --surface-layer-03-light: #CCD0D5;
 
-  --surface-layer-01-hover-light: #F1F5F9;
-  --surface-layer-02-hover-light: #E2E8F0;
-  --surface-layer-03-hover-light: #CBD5E1;
+  --surface-layer-01-hover-light: #EBEDF0;
+  --surface-layer-02-hover-light: #CCD0D5;
+  --surface-layer-03-hover-light: #EBEDF0;
 
-  --border-subtle-01-light: #E2E8F0;
-  --border-subtle-02-light: #64748B;
-  --border-subtle-03-light: #334155;
+  --border-subtle-01-light: #EBEDF0;
+  --border-subtle-02-light: #CCD0D5;
+  --border-subtle-03-light: #606770;
 
   --partition-light: #0D99FF;
 
@@ -149,7 +149,7 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #F8FAFC;
+  --background-main-light: #FFFFFF;
 
   --glass-light: rgba(255, 255, 255, 0.75);
 
