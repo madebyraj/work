@@ -88,25 +88,25 @@
   --link-primary: #0C8CE9;
   --link-primary-hover: #0C8CE9;
 
-  --heading-primary: #FFFFFF;
-  --heading-primary-01: rgba(255, 255, 255, 0.7);
-  --heading-primary-02: rgba(255, 255, 255, 0.4);
+  --heading-primary: #F9FBFC;
+  --heading-primary-01: #CAD2E0;
+  --heading-primary-02: #A7B0C2;
 
-  --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100:rgba(255, 255, 255, 0.7);
-  --paragraph-primary-200:rgba(255, 255, 255, 0.4);
+  --paragraph-primary: #F9FBFC;
+  --paragraph-primary-100:#CAD2E0;
+  --paragraph-primary-200:#A7B0C2;
 
-  --surface-layer-01: #111318;
-  --surface-layer-02: #292C32;
-  --surface-layer-03: #3B3E45;
+  --surface-layer-01: #0D0D1A;
+  --surface-layer-02: #1B1C2E;
+  --surface-layer-03: #2D3148;
 
-  --surface-layer-01-hover: #292C32;
-  --surface-layer-02-hover: #111318;
-  --surface-layer-03-hover: #51545D;
+  --surface-layer-01-hover: #1B1C2E;
+  --surface-layer-02-hover: #0D0D1A;
+  --surface-layer-03-hover: #4D536B;
 
-  --border-subtle-01: #3B3E45;
-  --border-subtle-02: #51545D;
-  --border-subtle-03: #6C707A;
+  --border-subtle-01: #2D3148;
+  --border-subtle-02: #4D536B;
+  --border-subtle-03: #747F99;
 
   --partition-dark: #0C8CE9;
 
@@ -118,9 +118,9 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #000000;
+  --background-main: #0D0D1A;
 
-  --glass-dark: rgba(18, 23, 33, 0.75);
+  --glass-dark: rgba(13, 13, 26, 0.75);
 
   --drop-shadow-dark: 0px 1px 4px 0px rgba(22, 30, 54, 0.05);
 
@@ -153,25 +153,25 @@
   --link-primary-light: #007BE5;
   --link-primary-hover-light: #007BE5;
 
-  --heading-primary-light: #000000;
-  --heading-primary-01-light: rgba(0, 0, 0, 0.7);
-  --heading-primary-02-light: rgba(0, 0, 0, 0.4);
+  --heading-primary-light: #0D0D1A;
+  --heading-primary-01-light: #4D536B;
+  --heading-primary-02-light: #747F99;
 
-  --paragraph-primary-light: #000000;
-  --paragraph-primary-100-light: rgba(0, 0, 0, 0.7);
-  --paragraph-primary-200-light: rgba(0, 0, 0, 0.4);
+  --paragraph-primary-light: #0D0D1A;
+  --paragraph-primary-100-light: #4D536B;
+  --paragraph-primary-200-light: #747F99;
 
-  --surface-layer-01-light: #F6F7F8;
-  --surface-layer-02-light: #D3D6D9;
-  --surface-layer-03-light: #C1C4C8;
+  --surface-layer-01-light: #F9FBFC;
+  --surface-layer-02-light: #F2F4F7;
+  --surface-layer-03-light: #E4E9F0;
 
-  --surface-layer-01-hover-light: #D3D6D9;
-  --surface-layer-02-hover-light: #C1C4C8;
-  --surface-layer-03-hover-light: #AEB1B7;
+  --surface-layer-01-hover-light: #F2F4F7;
+  --surface-layer-02-hover-light: #E4E9F0;
+  --surface-layer-03-hover-light: #CAD2E0;
 
-  --border-subtle-01-light: #C1C4C8;
-  --border-subtle-02-light: #989CA4;
-  --border-subtle-03-light: #51545D;
+  --border-subtle-01-light: #E4E9F0;
+  --border-subtle-02-light: #A7B0C2;
+  --border-subtle-03-light: #4D536B;
 
   --partition-light: #0D99FF;
 
@@ -183,9 +183,9 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #FFFFFF;
+  --background-main-light: #F9FBFC;
 
-  --glass-light: rgba(255, 255, 255, 0.75);
+  --glass-light: rgba(249, 251, 252, 0.75);
 
   --drop-shadow-light: 0px 1px 4px 0px rgba(13, 25, 63, 0.05);
 
