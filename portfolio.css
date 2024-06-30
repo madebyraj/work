@@ -59,6 +59,43 @@
 
 
 
+@font-face {
+  font-family: 'RK Bold';
+  src: url('./assets/Fonts/SF-Pro-Display-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'RK Medium';
+  src: url('./assets/Fonts/SF-Pro-Text-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'RK Regular';
+  src: url('./assets/Fonts/SF-Pro-Text-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'RK Mono';
+  src: url('./assets/Fonts/SF-Mono-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 :root {
 
   /* Dark mode */
@@ -197,9 +234,9 @@
   /* Fonts */
 
 
-  --fonts-heading: -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: RK Bold, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: RK Regular, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: RK Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -213,7 +250,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.025em;
+  --letterSpacings-tight: -0.010em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -521,7 +558,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: RK Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px;
@@ -541,7 +578,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: RK Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px;
@@ -560,7 +597,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: var(--fonts-body);
+  font-family: RK Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px;
@@ -664,7 +701,7 @@ body {
   /* background-color: var(--button-primary); */
   font-size: var(--fontSizes-24);
   letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-body);
+  font-family: RK Medium, var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   color: var(--link-primary);
   text-align: center;

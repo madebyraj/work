@@ -136,9 +136,9 @@
   /* Fonts */
 
 
-  --fonts-heading: -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: RK Bold, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: RK Regular, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: RK Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -152,7 +152,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.025em;
+  --letterSpacings-tight: -0.010em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
