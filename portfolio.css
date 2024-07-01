@@ -60,7 +60,7 @@
 
 
 @font-face {
-  font-family: 'RK Bold';
+  font-family: 'SF Pro Display Bold';
   src: url('./assets/Fonts/SF-Pro-Display-Bold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -69,25 +69,7 @@
 
 
 @font-face {
-  font-family: 'RK Medium';
-  src: url('./assets/Fonts/SF-Pro-Text-Medium.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'RK Regular';
-  src: url('./assets/Fonts/SF-Pro-Text-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'RK Mono';
+  font-family: 'SF Mono';
   src: url('./assets/Fonts/SF-Mono-Medium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -113,25 +95,25 @@
   --button-secondary-hover: #A8D7FA;
   --button-secondary-active: #A8D7FA;
 
-  --secondary-button-text-dark: #ffffff;
-  --secondary-button-icon-dark: #ffffff;
+  --secondary-button-text-dark: #FFFFFF;
+  --secondary-button-icon-dark: #FFFFFF;
 
-  --primary-button-text: #ffffff;
-  --primary-button-icon: #ffffff;
+  --primary-button-text: #FFFFFF;
+  --primary-button-icon: #FFFFFF;
 
-  --button-text: #ffffff;
-  --button-icon: #ffffff;
+  --button-text: #FFFFFF;
+  --button-icon: #FFFFFF;
 
   --link-primary: #0C8CE9;
   --link-primary-hover: #0C8CE9;
 
-  --heading-primary: #F9FBFC;
-  --heading-primary-01: #CAD2E0;
-  --heading-primary-02: #A7B0C2;
+  --heading-primary: #FFFFFF;
+  --heading-primary-01: #C8D0DE;
+  --heading-primary-02: #A4ADBF;
 
-  --paragraph-primary: #F9FBFC;
-  --paragraph-primary-100:#CAD2E0;
-  --paragraph-primary-200:#A7B0C2;
+  --paragraph-primary: #FFFFFF;
+  --paragraph-primary-100:#C8D0DE;
+  --paragraph-primary-200:#A4ADBF;
 
   --surface-layer-01: #0D0D1A;
   --surface-layer-02: #1B1C2E;
@@ -190,24 +172,24 @@
   --link-primary-light: #007BE5;
   --link-primary-hover-light: #007BE5;
 
-  --heading-primary-light: #0D0D1A;
+  --heading-primary-light: #000000;
   --heading-primary-01-light: #4D536B;
   --heading-primary-02-light: #747F99;
 
-  --paragraph-primary-light: #0D0D1A;
+  --paragraph-primary-light: #000000;
   --paragraph-primary-100-light: #4D536B;
   --paragraph-primary-200-light: #747F99;
 
-  --surface-layer-01-light: #F9FBFC;
+  --surface-layer-01-light: #FAFBFC;
   --surface-layer-02-light: #F2F4F7;
-  --surface-layer-03-light: #E4E9F0;
+  --surface-layer-03-light: #E1E6ED;
 
   --surface-layer-01-hover-light: #F2F4F7;
-  --surface-layer-02-hover-light: #E4E9F0;
-  --surface-layer-03-hover-light: #CAD2E0;
+  --surface-layer-02-hover-light: #E1E6ED;
+  --surface-layer-03-hover-light: #C8D0DE;
 
-  --border-subtle-01-light: #E4E9F0;
-  --border-subtle-02-light: #A7B0C2;
+  --border-subtle-01-light: #E1E6ED;
+  --border-subtle-02-light: #A4ADBF;
   --border-subtle-03-light: #4D536B;
 
   --partition-light: #0D99FF;
@@ -220,7 +202,7 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #F9FBFC;
+  --background-main-light: #FAFBFC;
 
   --glass-light: rgba(249, 251, 252, 0.75);
 
@@ -234,9 +216,9 @@
   /* Fonts */
 
 
-  --fonts-heading: RK Bold, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: RK Regular, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: RK Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: SF Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -250,7 +232,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.010em;
+  --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -281,7 +263,7 @@
   --border-radius-500: 0.625rem;
   --border-radius-600: 0.75rem;
   --border-radius-800: 1rem;
-  --border-radius-full: 10rem;
+  --border-radius-full: 100rem;
 
 
   --fontSizes-10: 0.625rem;
@@ -460,7 +442,7 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
-  font-feature-settings: 'ss02' on;
+  /* font-feature-settings: 'ss02' on; */
 }
 
 html {
@@ -558,7 +540,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: RK Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px;
@@ -578,7 +560,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: RK Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px;
@@ -597,7 +579,7 @@ body {
   font-size: var(--fontSizes-16);
   color: var(--secondary-button-text-dark);
   text-decoration: none;
-  font-family: RK Medium, var(--fonts-body);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 8px;
@@ -702,7 +684,7 @@ body {
   font-size: var(--fontSizes-24);
   letter-spacing: var(--letterSpacings-normal);
   font-family: RK Medium, var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-semibold);
   color: var(--link-primary);
   text-align: center;
   transition: 300ms ease-out;
