@@ -32,8 +32,8 @@
   --heading-primary-02: #A4ADBF;
 
   --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100:#C8D0DE;
-  --paragraph-primary-200:#A4ADBF;
+  --paragraph-primary-100: #C8D0DE;
+  --paragraph-primary-200: #A4ADBF;
 
   --surface-layer-01: #0D0D1A;
   --surface-layer-02: #1B1C2E;
@@ -136,9 +136,9 @@
   /* Fonts */
 
 
-  --fonts-heading: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: EB Garamond, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SF Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -146,13 +146,13 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 650;
+  --fontWeights-bold: 500;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.025em;
+  --letterSpacings-tight: -0.010em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -432,7 +432,8 @@ main {
   position: fixed;
   bottom: 32px;
   right: 32px;
-  height: min-content;
+  min-height: 56px;
+  min-width: 56px;
   border-radius: var(--border-radius-full);
   display: flex;
   align-items: center;
@@ -442,6 +443,11 @@ main {
   box-shadow: var(--drop-shadow-dark);
   text-decoration: none;
   border: 1px solid var(--border-subtle-01);
+  font-family: var(--fonts-body);
+  font-size: var(--fontSizes-20);
+  font-weight: var(--fontWeights-medium);
+  color: var(--secondary-button-icon-dark);
+
 }
 
 #back-to-top:hover {

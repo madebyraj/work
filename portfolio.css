@@ -57,20 +57,9 @@
 } */
 
 
-
-
 @font-face {
-  font-family: 'SF Pro Display Bold';
-  src: url('./assets/Fonts/SF-Pro-Display-Bold.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'SF Mono';
-  src: url('./assets/Fonts/SF-Mono-Medium.woff2') format('woff2');
+  font-family: 'Apercu Mono';
+  src: url('./assets/Fonts/apercu-mono.woff') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -112,8 +101,8 @@
   --heading-primary-02: #A4ADBF;
 
   --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100:#C8D0DE;
-  --paragraph-primary-200:#A4ADBF;
+  --paragraph-primary-100: #C8D0DE;
+  --paragraph-primary-200: #A4ADBF;
 
   --surface-layer-01: #0D0D1A;
   --surface-layer-02: #1B1C2E;
@@ -216,9 +205,9 @@
   /* Fonts */
 
 
-  --fonts-heading: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: EB Garamond, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SF Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -226,13 +215,13 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 650;
+  --fontWeights-bold: 500;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.025em;
+  --letterSpacings-tight: -0.010em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -775,7 +764,7 @@ body {
   font-size: var(--fontSizes-14);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
-  letter-spacing: var(--letterSpacings-wider);
+  letter-spacing: var(--letterSpacings-normal);
   color: var(--paragraph-primary-100);
   border-radius: var(--border-radius-400);
 }
@@ -1123,7 +1112,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 24px;
 }
 
 .bottom-icons a {
@@ -1132,20 +1121,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--border-radius-200);
-  font-size: var(--fontSizes-24);
+  font-size: var(--fontSizes-18);
 }
 
 .bottom-icons a:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  text-decoration: 2px dashed underline;
 }
 
-.bottom-icons a:focus{
+/* .bottom-icons a:focus{
   transform: scale(1);
   outline-offset: 4px;
   outline: 0.2rem solid var(--link-primary-hover);
-}
+} */
 
 .social {
   display: flex;
@@ -1546,7 +1534,7 @@ body {
     font-size: var(--fontSizes-32);
   }
 
-  .let-connect{
+  .let-connect {
     font-size: var(--fontSizes-20);
   }
 
@@ -1791,7 +1779,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 16px;
   }
 
   .bottom-icons a {
