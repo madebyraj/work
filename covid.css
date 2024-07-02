@@ -136,7 +136,7 @@
   /* Fonts */
 
 
-  --fonts-heading: EB Garamond, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Haldane Medium, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -152,7 +152,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.010em;
+  --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -474,7 +474,7 @@ main {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
   color: var(--heading-primary);
@@ -508,7 +508,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 8px;
@@ -523,7 +523,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 8px;
@@ -538,7 +538,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 8px;
@@ -567,7 +567,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -594,7 +594,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -629,7 +629,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -664,7 +664,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -680,7 +680,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 24px;
@@ -700,7 +700,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 24px;
@@ -738,7 +738,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -782,7 +782,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -817,7 +817,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 24px;
@@ -839,7 +839,7 @@ main {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 24px;
@@ -861,7 +861,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -902,7 +902,7 @@ main {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 32px;
@@ -933,7 +933,7 @@ main {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   text-align: center;
@@ -1060,7 +1060,7 @@ main {
     font-size: var(--fontSizes-32);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 12px;
   }
 
@@ -1100,7 +1100,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -1112,7 +1112,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -1124,7 +1124,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -1141,7 +1141,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -1161,7 +1161,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -1182,7 +1182,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -1203,7 +1203,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1215,7 +1215,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 12px;
   }
 
@@ -1231,7 +1231,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 24px;
   }
 
@@ -1248,7 +1248,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1269,7 +1269,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1322,7 +1322,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1350,7 +1350,7 @@ main {
     font-size: var(--fontSizes-24);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1371,7 +1371,7 @@ main {
     font-size: var(--fontSizes-40);
     font-family: var(--fonts-heading);
     font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+    letter-spacing: var(--letterSpacings-normal);
     text-align: center;
     margin-bottom: 8px;
   }

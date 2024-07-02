@@ -59,12 +59,38 @@
 
 @font-face {
   font-family: 'Apercu Mono';
-  src: url('./assets/Fonts/apercu-mono.woff') format('woff2');
+  src: url('./assets/Fonts/apercu-mono.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+
+@font-face {
+  font-family: 'Haldane Regular';
+  src: url('./assets/Fonts/HeldaneTextRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Haldane Medium';
+  src: url('./assets/Fonts/HeldaneTextMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Haldane Bold';
+  src: url('./assets/Fonts/HeldaneTextBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 
 :root {
@@ -205,7 +231,7 @@
   /* Fonts */
 
 
-  --fonts-heading: EB Garamond, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Haldane Medium, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -221,7 +247,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.010em;
+  --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -653,7 +679,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   margin-bottom: 8px;
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
 }
 
@@ -709,7 +735,7 @@ body {
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter); */
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
@@ -788,7 +814,7 @@ body {
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
 }
 
@@ -836,7 +862,7 @@ body {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
 }
@@ -876,7 +902,7 @@ body {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
 }
@@ -916,7 +942,7 @@ body {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
 }
@@ -979,7 +1005,7 @@ body {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
   color: var(--heading-primary);
@@ -1018,7 +1044,7 @@ body {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
   color: var(--heading-primary);
@@ -1058,7 +1084,7 @@ body {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
   color: var(--heading-primary);
@@ -1102,7 +1128,7 @@ body {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   margin-bottom: 8px;
@@ -1169,7 +1195,7 @@ body {
   /* font-size: var(--fontSizes-48);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary); */
   font-size: var(--fontSizes-18);
@@ -1202,7 +1228,7 @@ body {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
 }
@@ -1224,7 +1250,7 @@ body {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
 }
@@ -1243,7 +1269,7 @@ body {
   font-size: var(--fontSizes-32);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
 }
