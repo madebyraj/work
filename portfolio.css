@@ -24,13 +24,7 @@
 
 
 
-/* @font-face {
-  font-family: 'Whyte Regular';
-  src: url('./assets/Fonts/CircularSpotifyTxT-Book.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+/* 
 
 @font-face {
   font-family: 'Whyte Medium';
@@ -89,6 +83,8 @@
 
 
 
+
+
 @font-face {
   font-family: 'Roc Grotesk';
   src: url('./assets/Fonts/Roc-Grotesk-Bold.woff') format('woff');
@@ -96,6 +92,16 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Whyte Regular';
+  src: url('./assets/Fonts/whyte-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 
 
@@ -238,7 +244,7 @@
 
 
   --fonts-heading: Roc Grotesk, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Whyte Regular, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Spline Sans Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -463,7 +469,7 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
-  /* font-feature-settings: 'ss02' on; */
+  font-feature-settings: 'ss02' on;
 }
 
 html {
