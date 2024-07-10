@@ -57,16 +57,7 @@
 } */
 
 
-@font-face {
-  font-family: 'Apercu Mono';
-  src: url('./assets/Fonts/apercu-mono.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
+/* @font-face {
   font-family: 'Haldane Regular';
   src: url('./assets/Fonts/HeldaneTextRegular.woff') format('woff');
   font-weight: normal;
@@ -87,6 +78,29 @@
 @font-face {
   font-family: 'Haldane Bold';
   src: url('./assets/Fonts/HeldaneTextBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+
+/* Active Fonts */
+
+
+
+@font-face {
+  font-family: 'Roc Grotesk';
+  src: url('./assets/Fonts/Roc-Grotesk-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Apercu Mono';
+  src: url('./assets/Fonts/apercu-mono.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -231,7 +245,7 @@
   /* Fonts */
 
 
-  --fonts-heading: Haldane Medium, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Roc Grotesk, InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: InterVariable, -apple-system, BlinkMacSystemFont, Inter, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -679,7 +693,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   margin-bottom: 8px;
-  letter-spacing: var(--letterSpacings-normal);
+  letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
 }
 
