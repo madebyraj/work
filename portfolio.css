@@ -659,7 +659,7 @@ body {
 .hero-section {
   display: grid;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 128px;
   padding: 48px 96px;
@@ -713,7 +713,7 @@ body {
 }
 
 .let-connect {
-  padding: 15px 20px;
+  padding: 15px 24px;
   background-color: var(--button-primary);
   border-radius: var(--border-radius-500);
   text-decoration: none;
@@ -749,7 +749,7 @@ body {
 #scroll {
   max-width: 1600px;
   margin: auto;
-  padding: 32px 96px;
+  padding: 48px 96px;
 }
 
 #selected {
@@ -988,7 +988,7 @@ body {
 #writing-section {
   max-width: 1600px;
   margin: auto;
-  padding: 32px 96px;
+  padding: 48px 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1134,7 +1134,7 @@ body {
 
 
 .footer {
-  padding: 32px 96px;
+  padding: 48px 96px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1204,7 +1204,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  padding: 32px 96px;
+  padding: 48px 96px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1332,6 +1332,7 @@ body {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
     padding: 48px 40px;
     gap: 32px;
     margin: 0px;
@@ -1580,7 +1581,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 32px 24px 8px;
+    padding: 32px 24px;
     gap: 24px;
   }
 
