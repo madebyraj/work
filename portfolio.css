@@ -715,11 +715,11 @@ body {
 .let-connect {
   padding: 15px 24px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-500);
+  border-radius: var(--border-radius-600);
   text-decoration: none;
   background-color: var(--button-primary);
-  font-size: var(--fontSizes-24);
-  letter-spacing: var(--letterSpacings-normal);
+  font-size: var(--fontSizes-20);
+  letter-spacing: var(--letterSpacings-wide);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
@@ -753,12 +753,6 @@ body {
 }
 
 #selected {
-  /* font-size: var(--fontSizes-40);
-  color: var(--heading-primary);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter); */
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
@@ -1360,7 +1354,7 @@ body {
   }
 
   .let-connect{
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
 
@@ -1576,7 +1570,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 32px 24px;
+    padding: 40px 24px;
     gap: 24px;
   }
 
@@ -1592,7 +1586,7 @@ body {
   }
 
   .let-connect {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-16);
     width: 100%;
   }
 
@@ -1604,7 +1598,7 @@ body {
   #scroll {
     max-width: 1600px;
     margin: auto;
-    padding: 32px 24px;
+    padding: 40px 24px;
   }
 
   #project-container {
@@ -1758,7 +1752,7 @@ body {
 
   #writing-section {
     margin: auto;
-    padding: 32px 24px;
+    padding: 40px 24px;
     gap: 16px;
   }
 
@@ -1826,7 +1820,7 @@ body {
   }
 
   .footer {
-    padding: 32px 24px;
+    padding: 40px 24px;
   }
 
   .trademark {
@@ -1860,7 +1854,7 @@ body {
     justify-content: start;
     align-items: start;
     gap: 24px;
-    padding: 32px 24px;
+    padding: 40px 24px;
   }
 
 
