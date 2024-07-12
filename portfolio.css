@@ -1827,6 +1827,10 @@ body {
     font-size: var(--fontSizes-16);
   }
 
+  #bottom-text{
+    font-size: var(--fontSizes-24);
+  }
+
   .bottom-icons {
     display: flex;
     justify-content: space-between;
