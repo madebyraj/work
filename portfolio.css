@@ -101,7 +101,27 @@
 
 
 
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('./assets/Fonts/Inter.var.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Inter Italic Variable';
+  src: url('./assets/Fonts/Inter-italic.var.woff2') format('woff2');
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Whyte Variable';
+  src: url('./assets/Fonts/ABC-whyte.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
 
 
 
@@ -248,9 +268,9 @@
   /* Fonts */
 
 
-  --fonts-heading: Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Inter, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: Inter, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: Inter Variable, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   --fontWeights-thin: 200;
@@ -258,7 +278,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 700;
+  --fontWeights-bold: 600;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -812,7 +832,7 @@ body {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
   font-size: var(--fontSizes-14);
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-semibold);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
   letter-spacing: var(--letterSpacings-wider);
