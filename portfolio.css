@@ -546,7 +546,7 @@ body {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   width: 100%;
-  max-width: 384px;
+  max-width: 392px;
   margin: auto;
   background: var(--surface-layer-01);
   /* height: fit-content;
@@ -1249,6 +1249,7 @@ body {
 }
 
 .me {
+  border: 2px solid var();
   width: 100%;
   height: auto;
   border-radius: var(--border-radius-none);
