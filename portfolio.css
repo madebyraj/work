@@ -1599,6 +1599,10 @@ body {
     gap: 16px;
   }
 
+  .hero-img{
+    max-width: 320px;
+  }
+
   /* .main {
   } */
 
