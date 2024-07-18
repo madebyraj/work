@@ -1165,10 +1165,6 @@ main {
   cursor: pointer;
 }
 
-#back-to-all #arrow-right {
-  font-size: var(--fontSizes-24);
-}
-
 /* small desktop */
 
 @media (max-width: 1400px) {
@@ -1205,12 +1201,6 @@ main {
 
   #project-info {
     gap: 24px;
-  }
-
-
-  #arrow-up2 {
-    padding: 20px;
-    font-size: var(--fontSizes-24);
   }
 }
 

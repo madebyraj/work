@@ -414,6 +414,13 @@ body {
   color: var(--paragraph-primary);
 }
 
+.button-group {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
 .link-to-video {
   margin-top: 8px;
   width: fit-content;
@@ -421,7 +428,6 @@ body {
   background-color: var(--button-primary);
   border-radius: var(--border-radius-600);
   text-decoration: none;
-  background-color: var(--button-primary);
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
   font-family: var(--fonts-body);
@@ -443,6 +449,40 @@ body {
   transform: translateY(0px);
 }
 
+#finish {
+  padding: 56px 0px;
+}
+
+#fn-head {
+  font-size: var(--fontSizes-40);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-normal);
+  line-height: var(--lineHeights-shorter);
+  color: var(--heading-primary);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#back-to-all {
+  margin: auto;
+  width: max-content;
+  font-weight: var(--fontWeights-semibold);
+  color: var(--link-primary);
+  font-size: var(--fontSizes-18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  text-decoration: none;
+  transition: 200ms ease-out;
+}
+
+#back-to-all:hover {
+  color: var(--link-primary-hover);
+  text-decoration: 2px dashed underline var(--link-primary-hover);
+  cursor: pointer;
+}
 
 
 @media (max-width: 1400px) {}
@@ -452,12 +492,16 @@ body {
     padding: 32px 40px;
   }
 
-  #upper-com{
+  #upper-com {
     margin-top: 24px;
   }
 
   .link-to-video {
     font-size: var(--fontSizes-18);
+  }
+
+  #finish {
+    padding: 48px 0px;
   }
 
 
@@ -468,7 +512,7 @@ body {
     padding: 24px;
   }
 
-  #upper-com{
+  #upper-com {
     margin-top: 16px;
   }
 
@@ -490,5 +534,30 @@ body {
   .link-to-video {
     font-size: var(--fontSizes-16);
     width: 100%;
+  }
+
+  #finish {
+    padding: 40px 0px;
+  }
+
+  #fn-head {
+    font-size: var(--fontSizes-40);
+
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-normal);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  #back-to-all {
+    margin: auto;
+    width: max-content;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    text-decoration: none;
   }
 }

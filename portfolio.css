@@ -1362,7 +1362,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     padding: 48px 40px;
-    gap: 24px;
+    gap: 32px;
     margin: 0px;
   }
 
@@ -1605,11 +1605,11 @@ body {
   .hero-section {
     height: fit-content;
     padding: 40px 24px;
-    gap: 16px;
+    gap: 24px;
   }
 
   .hero-img{
-    max-width: 320px;
+    max-width: 328px;
   }
 
   /* .main {
