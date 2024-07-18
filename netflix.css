@@ -451,6 +451,7 @@ body {
 
 #finish {
   padding: 56px 0px;
+  margin-top: 48px;
 }
 
 #fn-head {
@@ -502,6 +503,7 @@ body {
 
   #finish {
     padding: 48px 0px;
+    margin-top: 32px;
   }
 
 
@@ -538,6 +540,7 @@ body {
 
   #finish {
     padding: 40px 0px;
+    margin-top: 24px;
   }
 
   #fn-head {
