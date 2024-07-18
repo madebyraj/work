@@ -1187,7 +1187,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 
 .bottom-icons a {

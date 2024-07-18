@@ -388,7 +388,7 @@ body {
   max-width: 1600px;
   margin: auto;
   min-height: 100vh;
-  padding: 48px 96px 32px;
+  padding: 48px 96px;
 }
 
 .image-main {
@@ -399,7 +399,9 @@ body {
   object-position: center;
 }
 
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+  
+}
 
 @media (max-width: 1024px) {
   .collage-outer {
