@@ -167,12 +167,12 @@
   --paragraph-primary-100: #C8D0DE;
   --paragraph-primary-200: #A4ADBF;
 
-  --surface-layer-01: #0D0D1A;
+  --surface-layer-01: #0B0B14;
   --surface-layer-02: #1B1C2E;
   --surface-layer-03: #2D3148;
 
   --surface-layer-01-hover: #1B1C2E;
-  --surface-layer-02-hover: #0D0D1A;
+  --surface-layer-02-hover: #0B0B14;
   --surface-layer-03-hover: #4D536B;
 
   --border-subtle-01: #2D3148;
@@ -189,7 +189,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #0D0D1A;
+  --background-main: #0B0B14;
 
   --glass-dark: rgba(13, 13, 26, 0.75);
 
