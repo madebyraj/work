@@ -5,11 +5,11 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #0A84FF;
+  --primary: #5551FF;
 
-  --button-primary: #0C8CE9;
-  --button-primary-hover: #0C8CE9;
-  --button-primary-active: #0C8CE9;
+  --button-primary: #5551FF;
+  --button-primary-hover: #5551FF;
+  --button-primary-active: #5551FF;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -28,24 +28,24 @@
   --link-primary-hover: #0C8CE9;
 
   --heading-primary: #FFFFFF;
-  --heading-primary-01: #C8D0DE;
-  --heading-primary-02: #A4ADBF;
+  --heading-primary-01: #C3CFE4;
+  --heading-primary-02: #9FAECB;
 
   --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100: #C8D0DE;
-  --paragraph-primary-200: #A4ADBF;
+  --paragraph-primary-100: #C3CFE4;
+  --paragraph-primary-200: #9FAECB;
 
-  --surface-layer-01: #0B0B14;
-  --surface-layer-02: #1B1C2E;
-  --surface-layer-03: #2D3148;
+  --surface-layer-01: #16161D;
+  --surface-layer-02: #252632;
+  --surface-layer-03: #333648;
 
-  --surface-layer-01-hover: #1B1C2E;
-  --surface-layer-02-hover: #0B0B14;
-  --surface-layer-03-hover: #4D536B;
+  --surface-layer-01-hover: #252632;
+  --surface-layer-02-hover: #16161D;
+  --surface-layer-03-hover: #525975;
 
-  --border-subtle-01: #2D3148;
-  --border-subtle-02: #4D536B;
-  --border-subtle-03: #747F99;
+  --border-subtle-01: #333648;
+  --border-subtle-02: #525975;
+  --border-subtle-03: #727FA1;
 
   --partition-dark: #0C8CE9;
 
@@ -57,7 +57,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #0B0B14;
+  --background-main: #16161D;
 
   --glass-dark: rgba(13, 13, 26, 0.75);
 
@@ -73,11 +73,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #007BE5;
+  --primary-light: #5551FF;
 
-  --button-primary-light: #007BE5;
-  --button-primary-hover-light: #007BE5;
-  --button-primary-active-light: #007BE5;
+  --button-primary-light: #5551FF;
+  --button-primary-hover-light: #5551FF;
+  --button-primary-active-light: #5551FF;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -93,24 +93,24 @@
   --link-primary-hover-light: #007BE5;
 
   --heading-primary-light: #000000;
-  --heading-primary-01-light: #4D536B;
-  --heading-primary-02-light: #747F99;
+  --heading-primary-01-light: #525975;
+  --heading-primary-02-light: #727FA1;
 
   --paragraph-primary-light: #000000;
-  --paragraph-primary-100-light: #4D536B;
-  --paragraph-primary-200-light: #747F99;
+  --paragraph-primary-100-light: #525975;
+  --paragraph-primary-200-light: #727FA1;
 
-  --surface-layer-01-light: #FAFBFC;
-  --surface-layer-02-light: #F2F4F7;
-  --surface-layer-03-light: #E1E6ED;
+  --surface-layer-01-light: #F7FAFD;
+  --surface-layer-02-light: #EDF2F8;
+  --surface-layer-03-light: #DEE6F2;
 
-  --surface-layer-01-hover-light: #F2F4F7;
-  --surface-layer-02-hover-light: #E1E6ED;
-  --surface-layer-03-hover-light: #C8D0DE;
+  --surface-layer-01-hover-light: #EDF2F8;
+  --surface-layer-02-hover-light: #DEE6F2;
+  --surface-layer-03-hover-light: #C3CFE4;
 
-  --border-subtle-01-light: #E1E6ED;
-  --border-subtle-02-light: #A4ADBF;
-  --border-subtle-03-light: #4D536B;
+  --border-subtle-01-light: #DEE6F2;
+  --border-subtle-02-light: #9FAECB;
+  --border-subtle-03-light: #525975;
 
   --partition-light: #0D99FF;
 
@@ -122,7 +122,7 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #FAFBFC;
+  --background-main-light: #F7FAFD;
 
   --glass-light: rgba(249, 251, 252, 0.75);
 
