@@ -343,6 +343,19 @@
   --fontSizes-128: 8rem;
 
 
+  --shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  --shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
+  --shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --shadows-none: none;
+  --shadows-dark-lg: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
+
+
 
 }
 
@@ -558,12 +571,9 @@ body {
   max-width: 392px;
   margin: auto;
   background: var(--surface-layer-01);
-  /* height: fit-content;
-  backdrop-filter: saturate(180%) blur(25px);
-  background-blend-mode: luminosity; */
   border-radius: var(--border-radius-800);
   border: 1px solid var(--border-subtle-01);
-  box-shadow: var(--drop-shadow-dark);
+  box-shadow: var(--shadows-sm);
 }
 
 
@@ -702,7 +712,7 @@ body {
   overflow: hidden;
 }
 
-.hero-img{
+.hero-img {
   width: 100%;
   height: auto;
   border-radius: var(--border-radius-none);
@@ -1366,7 +1376,7 @@ body {
     margin: 0px;
   }
 
-  .hero-img{
+  .hero-img {
     max-width: 416px;
   }
 
@@ -1387,7 +1397,7 @@ body {
     justify-content: center;
   }
 
-  .let-connect{
+  .let-connect {
     font-size: var(--fontSizes-18);
   }
 
@@ -1608,7 +1618,7 @@ body {
     gap: 24px;
   }
 
-  .hero-img{
+  .hero-img {
     max-width: 336px;
   }
 
@@ -1865,7 +1875,7 @@ body {
     font-size: var(--fontSizes-16);
   }
 
-  #bottom-text{
+  #bottom-text {
     font-size: var(--fontSizes-24);
   }
 
