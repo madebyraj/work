@@ -5,11 +5,11 @@
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
 
-  --primary: #5551FF;
+  --primary: #0095F6;
 
-  --button-primary: #5551FF;
-  --button-primary-hover: #5551FF;
-  --button-primary-active: #5551FF;
+  --button-primary: #0095F6;
+  --button-primary-hover: #0095F6;
+  --button-primary-active: #0095F6;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -24,8 +24,8 @@
   --button-text: #FFFFFF;
   --button-icon: #FFFFFF;
 
-  --link-primary: #0C8CE9;
-  --link-primary-hover: #0C8CE9;
+  --link-primary: #0095F6;
+  --link-primary-hover: #0095F6;
 
   --heading-primary: #FFFFFF;
   --heading-primary-01: #C3CFE4;
@@ -63,7 +63,7 @@
 
   --drop-shadow-dark: 0px 1px 4px 0px rgba(22, 30, 54, 0.05);
 
-  --button-drop-shadow-dark: 0px -4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  --button-drop-shadow-dark: 0px 0px 4px 0px #0057A3;
 
   --dark-gradient: linear-gradient(to bottom, #0972D3, #539FE5);
 
@@ -73,11 +73,11 @@
 
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --primary-light: #5551FF;
+  --primary-light: #0095F6;
 
-  --button-primary-light: #5551FF;
-  --button-primary-hover-light: #5551FF;
-  --button-primary-active-light: #5551FF;
+  --button-primary-light: #0095F6;
+  --button-primary-hover-light: #0095F6;
+  --button-primary-active-light: #0095F6;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -89,8 +89,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #007BE5;
-  --link-primary-hover-light: #007BE5;
+  --link-primary-light: #0095F6;
+  --link-primary-hover-light: #0095F6;
 
   --heading-primary-light: #000000;
   --heading-primary-01-light: #525975;
@@ -128,7 +128,7 @@
 
   --drop-shadow-light: 0px 1px 4px 0px rgba(13, 25, 63, 0.05);
 
-  --button-drop-shadow-light: 0px -4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  --button-drop-shadow-light: 0px 0px 2px 0px #0057A3;
 
   --light-gradient: linear-gradient(to bottom, #273EA5, #3759CE);
 
@@ -141,6 +141,8 @@
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
+   /* Fonts Weights */
+
   --fontWeights-thin: 200;
   --fontWeights-light: 300;
   --fontWeights-normal: 400;
@@ -151,12 +153,18 @@
   --fontWeights-black: 900;
 
 
+   /* Letter Spacing */
+
+
   --letterSpacings-tighter: -0.05em;
   --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
   --letterSpacings-widest: 0.1em;
+
+
+   /* Line Heights */
 
 
   --lineHeights-3: .75rem;
@@ -176,6 +184,8 @@
   --lineHeights-taller: 2;
 
 
+   /* Border Radius */
+
 
   --border-radius-none: 0rem;
   --border-radius-200: 0.25rem;
@@ -184,6 +194,9 @@
   --border-radius-600: 0.75rem;
   --border-radius-800: 1rem;
   --border-radius-full: 100rem;
+
+
+   /* Font Sizes */
 
 
   --fontSizes-10: 0.625rem;
@@ -202,6 +215,9 @@
   --fontSizes-128: 8rem;
 
 
+   /* Shadows */
+
+
   --shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
   --shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -213,6 +229,7 @@
   --shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
   --shadows-none: none;
   --shadows-dark-lg: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
+
 
 
 
@@ -361,6 +378,7 @@
 
   --dark-gradient: var(--light-gradient);
 
+  
 }
 
 
@@ -373,7 +391,6 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
-  /* font-feature-settings: 'ss02' on; */
 }
 
 html {
