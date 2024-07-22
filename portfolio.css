@@ -642,7 +642,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: start;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
   padding: 48px 96px;
   max-width: 1600px;
@@ -1115,18 +1115,29 @@ body {
   padding: 48px 96px;
   max-width: 1600px;
   margin: auto;
+  background-color: var(--surface-layer-02);
+  border-top: 2px dashed var(--border-subtle-02);
 }
 
-.footer .bottom-icons a {
-  color: var(--paragraph-primary);
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
-.trademark {
+.foot-sec-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.designed-coded{
+  color: var(--paragraph-primary-200);
   font-size: var(--fontSizes-18);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
-  letter-spacing: var(--letterSpacings-wider);
-  color: var(--heading-primary-01);
 }
 
 #bottom-text {
@@ -1136,17 +1147,26 @@ body {
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
-  margin-bottom: 8px;
 }
+
+.foot-sec-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
 
 .bottom-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
+  gap: 40px;
 }
 
 .bottom-icons a {
+  color: var(--paragraph-primary);
   text-decoration: none;
   transition: 200ms ease-out;
   display: flex;
@@ -1160,19 +1180,21 @@ body {
   text-decoration: 2px dashed underline;
 }
 
+.trademark {
+  font-size: var(--fontSizes-18);
+  font-family: var(--fonts-mono);
+  font-weight: var(--fontWeights-semibold);
+  letter-spacing: var(--letterSpacings-wider);
+  color: var(--heading-primary-01);
+}
+
 /* .bottom-icons a:focus{
   transform: scale(1);
   outline-offset: 4px;
   outline: 0.2rem solid var(--link-primary-hover);
 } */
 
-.social {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  gap: 16px;
-}
+
 
 
 /* About Page */
