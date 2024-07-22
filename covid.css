@@ -513,9 +513,9 @@ main {
 .cs {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   color: var(--paragraph-primary-100);
-  letter-spacing: var(--letterSpacings-wider);
+  letter-spacing: var(--letterSpacings-normal);
   margin-bottom: 16px;
 }
 

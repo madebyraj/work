@@ -73,10 +73,27 @@
 
 :root {
 
-  /* Dark mode */
+  /* Icons */
 
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
+  --logo-light: url(./assets/Icons/logo-light-mode.svg);
+
+  --instagram-dark: url(./assets/Icons/Instagram-dark.svg);
+  --instagram-light: url(./assets/Icons/Instagram-light.svg);
+
+  --mail-dark: url(./assets/Icons/Mail-dark.svg);
+  --mail-light: url(./assets/Icons/Mail-light.svg);
+
+  --twitter-dark: url(./assets/Icons/Twitter-dark.svg);
+  --twitter-light: url(./assets/Icons/Twitter-light.svg);
+
+  --linkedin-dark: url(./assets/Icons/Linkedin-dark.svg);
+  --linkedin-light: url(./assets/Icons/Linkedin-light.svg);
+
+
+  /* Dark mode */
+
 
   --primary: #0095F6;
 
@@ -144,7 +161,6 @@
 
   /* Light Mode */
 
-  --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
   --primary-light: #0095F6;
 
@@ -214,7 +230,7 @@
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
-   /* Fonts Weights */
+  /* Fonts Weights */
 
   --fontWeights-thin: 200;
   --fontWeights-light: 300;
@@ -226,7 +242,7 @@
   --fontWeights-black: 900;
 
 
-   /* Letter Spacing */
+  /* Letter Spacing */
 
 
   --letterSpacings-tighter: -0.05em;
@@ -237,7 +253,7 @@
   --letterSpacings-widest: 0.1em;
 
 
-   /* Line Heights */
+  /* Line Heights */
 
 
   --lineHeights-3: .75rem;
@@ -257,7 +273,7 @@
   --lineHeights-taller: 2;
 
 
-   /* Border Radius */
+  /* Border Radius */
 
 
   --border-radius-none: 0rem;
@@ -269,7 +285,7 @@
   --border-radius-full: 100rem;
 
 
-   /* Font Sizes */
+  /* Font Sizes */
 
 
   --fontSizes-10: 0.625rem;
@@ -288,7 +304,7 @@
   --fontSizes-128: 8rem;
 
 
-   /* Shadows */
+  /* Shadows */
 
 
   --shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
@@ -312,6 +328,14 @@
 
 
 [color-scheme="dark"] {
+
+  --instagram-light: var(--instagram-dark);
+
+  --mail-light: var(--mail-dark);
+
+  --twitter-light: var(--twitter-dark);
+
+  --linkedin-light: var(--linkedin-dark);
 
   --logo-light: var(--logo-dark);
 
@@ -386,6 +410,14 @@
 
 [color-scheme="light"] {
 
+  --instagram-dark: var(--instagram-light);
+
+  --mail-dark: var(--mail-light);
+
+  --twitter-dark: var(--twitter-light);
+
+  --linkedin-dark: var(--linkedin-light);
+
   --logo-dark: var(--logo-light);
 
   --primary: var(--primary-light);
@@ -451,7 +483,7 @@
 
   --dark-gradient: var(--light-gradient);
 
-  
+
 }
 
 
@@ -554,6 +586,7 @@ body {
   transition: 100ms ease-out;
   padding: 8px;
   border-radius: var(--border-radius-400);
+  text-align: center;
 }
 
 #about:hover {
@@ -574,6 +607,7 @@ body {
   transition: 100ms ease-out;
   padding: 8px;
   border-radius: var(--border-radius-400);
+  text-align: center;
 }
 
 #snaps:hover {
@@ -593,6 +627,7 @@ body {
   transition: 100ms ease-out;
   padding: 8px;
   border-radius: var(--border-radius-400);
+  text-align: center;
 }
 
 #resume:hover {
@@ -672,8 +707,8 @@ body {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
-  letter-spacing: var(--letterSpacings-wider);
+  font-weight: var(--fontWeights-medium);
+  letter-spacing: var(--letterSpacings-normal);
   margin-bottom: 8px;
 }
 
@@ -738,8 +773,8 @@ body {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
-  letter-spacing: var(--letterSpacings-wider);
+  font-weight: var(--fontWeights-medium);
+  letter-spacing: var(--letterSpacings-normal);
   padding-bottom: 32px;
 }
 
@@ -788,10 +823,10 @@ body {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
   font-size: var(--fontSizes-14);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
-  letter-spacing: var(--letterSpacings-wider);
+  letter-spacing: var(--letterSpacings-normal);
   color: var(--paragraph-primary-100);
   border-radius: var(--border-radius-400);
 }
@@ -977,8 +1012,8 @@ body {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
-  letter-spacing: var(--letterSpacings-wider);
+  font-weight: var(--fontWeights-medium);
+  letter-spacing: var(--letterSpacings-normal);
 }
 
 #article-section {
@@ -1127,7 +1162,7 @@ body {
   gap: 24px;
 }
 
-.foot-sec-one{
+.foot-sec-one {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1135,9 +1170,10 @@ body {
   gap: 16px;
 }
 
-.designed-coded{
-  color: var(--paragraph-primary-200);
+.designed-coded {
+  color: var(--paragraph-primary-100);
   font-size: var(--fontSizes-18);
+  text-align: center;
 }
 
 #bottom-text {
@@ -1147,9 +1183,10 @@ body {
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
+  text-align: center;
 }
 
-.foot-sec-two{
+.foot-sec-two {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1165,39 +1202,127 @@ body {
   gap: 40px;
 }
 
-.bottom-icons a {
-  color: var(--paragraph-primary);
-  text-decoration: none;
-  transition: 200ms ease-out;
+#instagram-logo {
+  background-image: var(--instagram-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: var(--border-radius-200);
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--fontSizes-18);
+  transition: 200ms ease-out;
+  text-decoration: none;
 }
 
-.bottom-icons a:hover {
+#instagram-logo:hover {
+  transform: scale(1.2);
   cursor: pointer;
-  text-decoration: 2px dashed underline;
 }
+
+#instagram-logo:focus {
+  transform: scale(1);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 4px;
+}
+
+#linkedin-logo {
+  background-image: var(--linkedin-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: var(--border-radius-200);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms ease-out;
+  text-decoration: none;
+}
+
+#linkedin-logo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#linkedin-logo:focus {
+  transform: scale(1);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 4px;
+}
+
+#mail-logo {
+  background-image: var(--mail-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: var(--border-radius-200);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms ease-out;
+  text-decoration: none;
+}
+
+#mail-logo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#mail-logo:focus {
+  transform: scale(1);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 4px;
+}
+
+#twitter-logo {
+  background-image: var(--twitter-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: var(--border-radius-200);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms ease-out;
+  text-decoration: none;
+}
+
+#twitter-logo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#twitter-logo:focus {
+  transform: scale(1);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 4px;
+}
+
 
 .trademark {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
-  letter-spacing: var(--letterSpacings-wider);
-  color: var(--heading-primary-01);
+  font-weight: var(--fontWeights-medium);
+  letter-spacing: var(--letterSpacings-normal);
+  color: var(--heading-primary-02);
+  text-align: center;
 }
-
-/* .bottom-icons a:focus{
-  transform: scale(1);
-  outline-offset: 4px;
-  outline: 0.2rem solid var(--link-primary-hover);
-} */
 
 
 
 
 /* About Page */
+
+
+
 
 #main-about {
   display: flex;
@@ -1223,7 +1348,7 @@ body {
   color: var(--heading-primary-01);
   font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-semibold);
-  letter-spacing: var(--letterSpacings-wider);
+  letter-spacing: var(--letterSpacings-normal);
 }
 
 .me {
