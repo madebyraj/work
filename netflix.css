@@ -1,9 +1,32 @@
 :root {
 
-  /* Dark mode */
+  /* Icons */
 
 
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
+  --logo-light: url(./assets/Icons/logo-light-mode.svg);
+
+  --instagram-dark: url(./assets/Icons/Instagram-dark.svg);
+  --instagram-light: url(./assets/Icons/Instagram-light.svg);
+
+  --youtube-dark: url(./assets/Icons/Youtube-dark.svg);
+  --youtube-light: url(./assets/Icons/Youtube-light.svg);
+
+  --twitter-dark: url(./assets/Icons/Twitter-dark.svg);
+  --twitter-light: url(./assets/Icons/Twitter-light.svg);
+
+  --linkedin-dark: url(./assets/Icons/Linkedin-dark.svg);
+  --linkedin-light: url(./assets/Icons/Linkedin-light.svg);
+
+  --arrow-up-dark: url(./assets/Icons/Arrow-up-dark.svg);
+  --arrow-up-light: url(./assets/Icons/Arrow-up-light.svg);
+  
+  --chevron-left-dark: url(./assets/Icons/Chevron-left-dark.svg);
+  --chevron-left-light: url(./assets/Icons/Chevron-left-light.svg);
+
+
+  /* Dark mode */
+
 
   --primary: #0095F6;
 
@@ -71,7 +94,6 @@
 
   /* Light Mode */
 
-  --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
   --primary-light: #0095F6;
 
@@ -141,7 +163,7 @@
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
-   /* Fonts Weights */
+  /* Fonts Weights */
 
   --fontWeights-thin: 200;
   --fontWeights-light: 300;
@@ -153,7 +175,7 @@
   --fontWeights-black: 900;
 
 
-   /* Letter Spacing */
+  /* Letter Spacing */
 
 
   --letterSpacings-tighter: -0.05em;
@@ -164,7 +186,7 @@
   --letterSpacings-widest: 0.1em;
 
 
-   /* Line Heights */
+  /* Line Heights */
 
 
   --lineHeights-3: .75rem;
@@ -184,7 +206,7 @@
   --lineHeights-taller: 2;
 
 
-   /* Border Radius */
+  /* Border Radius */
 
 
   --border-radius-none: 0rem;
@@ -196,7 +218,7 @@
   --border-radius-full: 100rem;
 
 
-   /* Font Sizes */
+  /* Font Sizes */
 
 
   --fontSizes-10: 0.625rem;
@@ -215,7 +237,7 @@
   --fontSizes-128: 8rem;
 
 
-   /* Shadows */
+  /* Shadows */
 
 
   --shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
@@ -239,6 +261,18 @@
 
 
 [color-scheme="dark"] {
+
+  --instagram-light: var(--instagram-dark);
+
+  --youtube-light: var(--youtube-dark);
+
+  --twitter-light: var(--twitter-dark);
+
+  --linkedin-light: var(--linkedin-dark);
+
+  --arrow-up-light: var(--arrow-up-dark);
+  
+  --chevron-left-light: var(--chevron-left-dark);
 
   --logo-light: var(--logo-dark);
 
@@ -313,6 +347,18 @@
 
 [color-scheme="light"] {
 
+  --instagram-dark: var(--instagram-light);
+
+  --youtube-dark: var(--youtube-light);
+
+  --twitter-dark: var(--twitter-light);
+
+  --linkedin-dark: var(--linkedin-light);
+
+  --arrow-up-dark: var(--arrow-up-light);
+  
+  --chevron-left-dark: var(--chevron-left-light);
+
   --logo-dark: var(--logo-light);
 
   --primary: var(--primary-light);
@@ -378,7 +424,7 @@
 
   --dark-gradient: var(--light-gradient);
 
-  
+
 }
 
 
@@ -468,7 +514,7 @@ body {
   text-decoration: none;
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
   text-align: center;

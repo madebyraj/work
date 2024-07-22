@@ -82,14 +82,20 @@
   --instagram-dark: url(./assets/Icons/Instagram-dark.svg);
   --instagram-light: url(./assets/Icons/Instagram-light.svg);
 
-  --mail-dark: url(./assets/Icons/Mail-dark.svg);
-  --mail-light: url(./assets/Icons/Mail-light.svg);
+  --youtube-dark: url(./assets/Icons/Youtube-dark.svg);
+  --youtube-light: url(./assets/Icons/Youtube-light.svg);
 
   --twitter-dark: url(./assets/Icons/Twitter-dark.svg);
   --twitter-light: url(./assets/Icons/Twitter-light.svg);
 
   --linkedin-dark: url(./assets/Icons/Linkedin-dark.svg);
   --linkedin-light: url(./assets/Icons/Linkedin-light.svg);
+
+  --arrow-up-dark: url(./assets/Icons/Arrow-up-dark.svg);
+  --arrow-up-light: url(./assets/Icons/Arrow-up-light.svg);
+  
+  --chevron-left-dark: url(./assets/Icons/Chevron-left-dark.svg);
+  --chevron-left-light: url(./assets/Icons/Chevron-left-light.svg);
 
 
   /* Dark mode */
@@ -331,11 +337,15 @@
 
   --instagram-light: var(--instagram-dark);
 
-  --mail-light: var(--mail-dark);
+  --youtube-light: var(--youtube-dark);
 
   --twitter-light: var(--twitter-dark);
 
   --linkedin-light: var(--linkedin-dark);
+
+  --arrow-up-light: var(--arrow-up-dark);
+  
+  --chevron-left-light: var(--chevron-left-dark);
 
   --logo-light: var(--logo-dark);
 
@@ -412,11 +422,15 @@
 
   --instagram-dark: var(--instagram-light);
 
-  --mail-dark: var(--mail-light);
+  --youtube-dark: var(--youtube-light);
 
   --twitter-dark: var(--twitter-light);
 
   --linkedin-dark: var(--linkedin-light);
+
+  --arrow-up-dark: var(--arrow-up-light);
+  
+  --chevron-left-dark: var(--chevron-left-light);
 
   --logo-dark: var(--logo-light);
 
@@ -706,7 +720,7 @@ body {
 .heading {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
   margin-bottom: 8px;
@@ -738,7 +752,7 @@ body {
   background-color: var(--button-primary);
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
   text-align: center;
@@ -772,7 +786,7 @@ body {
 #selected {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
   padding-bottom: 32px;
@@ -1011,7 +1025,7 @@ body {
 #writing {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
 }
@@ -1254,8 +1268,8 @@ body {
   outline-offset: 4px;
 }
 
-#mail-logo {
-  background-image: var(--mail-dark);
+#youtube-logo {
+  background-image: var(--youtube-dark);
   background-repeat: no-repeat;
   background-position: center;
   min-width: 24px;
@@ -1269,12 +1283,12 @@ body {
   text-decoration: none;
 }
 
-#mail-logo:hover {
+#youtube-logo:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
 
-#mail-logo:focus {
+#youtube-logo:focus {
   transform: scale(1);
   outline: 0.2rem solid var(--link-primary-hover);
   outline-offset: 4px;
@@ -1307,16 +1321,6 @@ body {
 }
 
 
-.trademark {
-  font-size: var(--fontSizes-18);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
-  color: var(--heading-primary-02);
-  text-align: center;
-}
-
-
 
 
 /* About Page */
@@ -1346,8 +1350,8 @@ body {
 .about {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
+  font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
 }
 
@@ -1968,11 +1972,6 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-  }
-
-  .bottom-icons a {
-    text-decoration: none;
-    transition: 200ms ease-out;
   }
 
   .social {
