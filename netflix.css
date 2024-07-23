@@ -472,7 +472,7 @@ body {
   text-decoration: none;
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
   text-align: center;

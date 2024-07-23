@@ -678,7 +678,7 @@ body {
 .heading {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
   margin-bottom: 8px;
@@ -710,7 +710,7 @@ body {
   background-color: var(--button-primary);
   font-size: var(--fontSizes-20);
   letter-spacing: var(--letterSpacings-normal);
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
   text-align: center;
@@ -744,7 +744,7 @@ body {
 #selected {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
   padding-bottom: 32px;
@@ -965,14 +965,14 @@ body {
 /* Writing */
 
 #line {
-  border: 1px solid var(--border-subtle-01);
-  margin: 16px 96px;
+  border: 2px dashed var(--border-subtle-01);
+  margin: 0px 96px;
 }
 
 #writing-section {
   max-width: 1600px;
   margin: auto;
-  padding: 48px 96px;
+  padding: 64px 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -983,7 +983,7 @@ body {
 #writing {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
 }
@@ -1145,6 +1145,7 @@ body {
 .designed-coded {
   color: var(--paragraph-primary-100);
   font-size: var(--fontSizes-18);
+  font-family: var(--fonts-mono);
   text-align: center;
 }
 
@@ -1272,7 +1273,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  padding: 48px 96px;
+  padding: 64px 96px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1288,7 +1289,7 @@ body {
 .about {
   font-size: var(--fontSizes-18);
   color: var(--heading-primary-01);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-normal);
 }
