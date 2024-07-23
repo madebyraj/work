@@ -1007,10 +1007,6 @@ body {
   gap: 16px;
 }
 
-/* #info-1 {
-  padding: 12px;
-} */
-
 #info-1 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
@@ -1046,10 +1042,6 @@ body {
   gap: 16px;
 }
 
-/* #info-2 {
-
-} */
-
 #info-2 h6 {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
@@ -1084,11 +1076,6 @@ body {
   text-decoration: none;
   gap: 16px;
 }
-
-/* #info-3 {
-  padding: 12px;
-  border-radius: 0px 0px 12px 12px;
-} */
 
 #info-3 h6 {
   font-size: var(--fontSizes-24);
@@ -1804,9 +1791,9 @@ body {
 
   /* writing section */
 
-  /* #line1 {
-    margin: 16px 24px;
-  } */
+  #line {
+    margin: 0px 24px;
+  }
 
   #writing-section {
     margin: auto;
