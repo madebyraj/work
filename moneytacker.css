@@ -6,24 +6,6 @@
   --logo-dark: url(./assets/Icons/logo-dark-mode.svg);
   --logo-light: url(./assets/Icons/logo-light-mode.svg);
 
-  --instagram-dark: url(./assets/Icons/Instagram-dark.svg);
-  --instagram-light: url(./assets/Icons/Instagram-light.svg);
-
-  --youtube-dark: url(./assets/Icons/Youtube-dark.svg);
-  --youtube-light: url(./assets/Icons/Youtube-light.svg);
-
-  --twitter-dark: url(./assets/Icons/Twitter-dark.svg);
-  --twitter-light: url(./assets/Icons/Twitter-light.svg);
-
-  --linkedin-dark: url(./assets/Icons/Linkedin-dark.svg);
-  --linkedin-light: url(./assets/Icons/Linkedin-light.svg);
-
-  --arrow-up-dark: url(./assets/Icons/Arrow-up-dark.svg);
-  --arrow-up-light: url(./assets/Icons/Arrow-up-light.svg);
-  
-  --chevron-left-dark: url(./assets/Icons/Chevron-left-dark.svg);
-  --chevron-left-light: url(./assets/Icons/Chevron-left-light.svg);
-
 
   /* Dark mode */
 
@@ -262,18 +244,6 @@
 
 [color-scheme="dark"] {
 
-  --instagram-light: var(--instagram-dark);
-
-  --youtube-light: var(--youtube-dark);
-
-  --twitter-light: var(--twitter-dark);
-
-  --linkedin-light: var(--linkedin-dark);
-
-  --arrow-up-light: var(--arrow-up-dark);
-  
-  --chevron-left-light: var(--chevron-left-dark);
-
   --logo-light: var(--logo-dark);
 
   --primary-light: var(--primary);
@@ -346,18 +316,6 @@
 
 
 [color-scheme="light"] {
-
-  --instagram-dark: var(--instagram-light);
-
-  --youtube-dark: var(--youtube-light);
-
-  --twitter-dark: var(--twitter-light);
-
-  --linkedin-dark: var(--linkedin-light);
-
-  --arrow-up-dark: var(--arrow-up-light);
-  
-  --chevron-left-dark: var(--chevron-left-light);
 
   --logo-dark: var(--logo-light);
 
