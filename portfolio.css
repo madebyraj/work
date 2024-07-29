@@ -83,11 +83,11 @@
   /* Dark mode */
 
 
-  --primary: #0095F6;
+  --primary: #0A84FF;
 
-  --button-primary: #0095F6;
-  --button-primary-hover: #0095F6;
-  --button-primary-active: #0095F6;
+  --button-primary: #0A84FF;
+  --button-primary-hover: #0A84FF;
+  --button-primary-active: #0A84FF;
 
   --button-secondary: #CFE9FC;
   --button-secondary-hover: #A8D7FA;
@@ -102,8 +102,8 @@
   --button-text: #FFFFFF;
   --button-icon: #FFFFFF;
 
-  --link-primary: #0095F6;
-  --link-primary-hover: #0095F6;
+  --link-primary: #0A84FF;
+  --link-primary-hover: #0A84FF;
 
   --heading-primary: #FFFFFF;
   --heading-primary-01: #C3CFE4;
@@ -150,11 +150,11 @@
   /* Light Mode */
 
 
-  --primary-light: #0095F6;
+  --primary-light: #007AFF;
 
-  --button-primary-light: #0095F6;
-  --button-primary-hover-light: #0095F6;
-  --button-primary-active-light: #0095F6;
+  --button-primary-light: #007AFF;
+  --button-primary-hover-light: #007AFF;
+  --button-primary-active-light: #007AFF;
 
   --button-secondary-light: #E5F4FF;
   --button-secondary-hover-light: #BDE3FF;
@@ -166,8 +166,8 @@
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #0095F6;
-  --link-primary-hover-light: #0095F6;
+  --link-primary-light: #007AFF;
+  --link-primary-hover-light: #007AFF;
 
   --heading-primary-light: #000000;
   --heading-primary-01-light: #525975;
@@ -213,7 +213,7 @@
   /* Fonts */
 
 
-  --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -225,7 +225,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 600;
+  --fontWeights-bold: 700;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -1107,7 +1107,7 @@ body {
 
 .footer {
   padding: 48px 96px;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin: auto;
   background-color: var(--surface-layer-02);
   border-top: 2px dashed var(--border-subtle-02);
