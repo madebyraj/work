@@ -16,12 +16,12 @@
   --button-primary-hover: #0A84FF;
   --button-primary-active: #0A84FF;
 
-  --button-secondary: #CFE9FC;
-  --button-secondary-hover: #A8D7FA;
-  --button-secondary-active: #A8D7FA;
+  --button-secondary: #35353D;
+  --button-secondary-hover: #404049;
+  --button-secondary-active: #404049;
 
-  --secondary-button-text-dark: #FFFFFF;
-  --secondary-button-icon-dark: #FFFFFF;
+  --secondary-button-text-dark: #0A84FF;
+  --secondary-button-icon-dark: #0A84FF;
 
   --primary-button-text: #FFFFFF;
   --primary-button-icon: #FFFFFF;
@@ -33,24 +33,24 @@
   --link-primary-hover: #0A84FF;
 
   --heading-primary: #FFFFFF;
-  --heading-primary-01: #C3CFE4;
-  --heading-primary-02: #9FAECB;
+  --heading-primary-01: #B1B1B5;
+  --heading-primary-02: #404049;
 
   --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100: #C3CFE4;
-  --paragraph-primary-200: #9FAECB;
+  --paragraph-primary-100: #B1B1B5;
+  --paragraph-primary-200: #404049;
 
-  --surface-layer-01: #16161D;
-  --surface-layer-02: #252632;
-  --surface-layer-03: #333648;
+  --surface-layer-01: #101113;
+  --surface-layer-02: #1D1D21;
+  --surface-layer-03: #35353D;
 
-  --surface-layer-01-hover: #252632;
-  --surface-layer-02-hover: #16161D;
-  --surface-layer-03-hover: #525975;
+  --surface-layer-01-hover: #2A2A30;
+  --surface-layer-02-hover: #101113;
+  --surface-layer-03-hover: #2A2A30;
 
-  --border-subtle-01: #333648;
-  --border-subtle-02: #525975;
-  --border-subtle-03: #727FA1;
+  --border-subtle-01: #35353D;
+  --border-subtle-02: #404049;
+  --border-subtle-03: #727279;
 
   --partition-dark: #0C8CE9;
 
@@ -62,7 +62,7 @@
   --secondary-brown: #A6674B;
   --secondary-teal: #45AEE5;
 
-  --background-main: #16161D;
+  --background-main: #101113;
 
   --glass-dark: rgba(13, 13, 26, 0.75);
 
@@ -83,12 +83,12 @@
   --button-primary-hover-light: #007AFF;
   --button-primary-active-light: #007AFF;
 
-  --button-secondary-light: #E5F4FF;
-  --button-secondary-hover-light: #BDE3FF;
-  --button-secondary-active-light: #BDE3FF;
+  --button-secondary-light: #E5E5E6;
+  --button-secondary-hover-light: #D8D8DA;
+  --button-secondary-active-light: #D8D8DA;
 
-  --secondary-button-text-light: #000000;
-  --secondary-button-icon-light: #000000;
+  --secondary-button-text-light: #007AFF;
+  --secondary-button-icon-light: #007AFF;
 
   --button-text-light: #000000;
   --button-icon-light: #000000;
@@ -104,17 +104,17 @@
   --paragraph-primary-100-light: #525975;
   --paragraph-primary-200-light: #727FA1;
 
-  --surface-layer-01-light: #F7FAFD;
-  --surface-layer-02-light: #EDF2F8;
-  --surface-layer-03-light: #DEE6F2;
+  --surface-layer-01-light: #FFFFFF;
+  --surface-layer-02-light: #F5F5F6;
+  --surface-layer-03-light: #E5E5E6;
 
-  --surface-layer-01-hover-light: #EDF2F8;
-  --surface-layer-02-hover-light: #DEE6F2;
-  --surface-layer-03-hover-light: #C3CFE4;
+  --surface-layer-01-hover-light: #F5F5F6;
+  --surface-layer-02-hover-light: #E5E5E6;
+  --surface-layer-03-hover-light: #D8D8DA;
 
-  --border-subtle-01-light: #DEE6F2;
-  --border-subtle-02-light: #9FAECB;
-  --border-subtle-03-light: #525975;
+  --border-subtle-01-light: #D8D8DA;
+  --border-subtle-02-light: #727279;
+  --border-subtle-03-light: #35353D;
 
   --partition-light: #0D99FF;
 
@@ -126,7 +126,7 @@
   --secondary-brown-light: #99644C;
   --secondary-teal-light: #22a6ed;
 
-  --background-main-light: #F7FAFD;
+  --background-main-light: #FFFFFF;
 
   --glass-light: rgba(249, 251, 252, 0.75);
 
@@ -140,7 +140,7 @@
   /* Fonts */
 
 
-  --fonts-heading: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -152,7 +152,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 700;
+  --fontWeights-bold: 650;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -480,7 +480,7 @@ main {
   font-family: var(--fonts-body);
   font-size: var(--fontSizes-20);
   font-weight: var(--fontWeights-medium);
-  color: var(--secondary-button-icon-dark);
+  color: var(--heading-primary);
 
 }
 
@@ -861,16 +861,18 @@ main {
 
 .btn-one {
   display: flex;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 }
 
 .full-research {
+  padding: 14px 24px;
+  background-color: var(--button-secondary);
+  border-radius: var(--border-radius-400);
+  color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  color: var(--link-primary);
-  letter-spacing: var(--letterSpacings-wide);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -882,7 +884,7 @@ main {
 .full-research:hover {
   color: var(--link-primary-hover);
   cursor: pointer;
-  text-decoration: 2px dashed underline var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
 }
 
 .questions {
@@ -1029,16 +1031,18 @@ main {
 
 .btn-two {
   display: flex;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 }
 
 #pr-link {
+  padding: 14px 24px;
+  background-color: var(--button-secondary);
+  border-radius: var(--border-radius-400);
+  color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
-  color: var(--link-primary);
-  letter-spacing: var(--letterSpacings-wide);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1051,7 +1055,7 @@ main {
 #pr-link:hover {
   color: var(--link-primary-hover);
   cursor: pointer;
-  text-decoration: 2px dashed underline var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
 }
 
 .proto-bg {
