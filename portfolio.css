@@ -225,7 +225,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 650;
+  --fontWeights-bold: 600;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -286,7 +286,7 @@
   --fontSizes-32: 2rem;
   --fontSizes-40: 2.5rem;
   --fontSizes-48: 3rem;
-  --fontSizes-60: 3.75rem;
+  --fontSizes-56: 3.5rem;
   --fontSizes-72: 4.5rem;
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
@@ -676,23 +676,22 @@ body {
 
 
 .heading {
-  font-size: var(--fontSizes-18);
-  color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
+  max-width: 744px;
+  font-size: var(--fontSizes-56);
+  color: var(--heading-primary);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-shorter);
   margin-bottom: 8px;
 }
 
 .para {
-  max-width: 1024px;
-  font-size: var(--fontSizes-48);
-  color: var(--heading-primary);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  margin-bottom: 8px;
-  letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-shorter);
+  max-width: 744px;
+  font-size: var(--fontSizes-24);
+  color: var(--paragraph-primary);
+  font-family: var(--fonts-body);
+
 }
 
 #navbutton {
@@ -705,10 +704,10 @@ body {
 .let-connect {
   padding: 14px 24px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-600);
   text-decoration: none;
   background-color: var(--button-primary);
-  font-size: var(--fontSizes-16);
+  font-size: var(--fontSizes-20);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
@@ -741,11 +740,11 @@ body {
 }
 
 #selected {
-  font-size: var(--fontSizes-18);
-  color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
+  font-size: var(--fontSizes-40);
+  color: var(--heading-primary);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
   padding-bottom: 32px;
 }
 
@@ -964,7 +963,7 @@ body {
 /* Writing */
 
 #line {
-  border: 2px dashed var(--border-subtle-01);
+  border: 1px solid var(--border-subtle-01);
   margin: 0px 96px;
 }
 
@@ -980,11 +979,11 @@ body {
 }
 
 #writing {
-  font-size: var(--fontSizes-18);
-  color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
+  font-size: var(--fontSizes-40);
+  color: var(--heading-primary);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
 }
 
 #article-section {
@@ -1131,7 +1130,7 @@ body {
 .designed-coded {
   color: var(--paragraph-primary-100);
   font-size: var(--fontSizes-18);
-  font-family: var(--fonts-mono);
+  font-family: var(--fonts-body);
   text-align: center;
 }
 
@@ -1273,11 +1272,11 @@ body {
 }
 
 .about {
-  font-size: var(--fontSizes-18);
-  color: var(--heading-primary-01);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
+  font-size: var(--fontSizes-40);
+  color: var(--heading-primary);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
 }
 
 .me {
@@ -1386,11 +1385,11 @@ body {
 
 
   .heading {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-48);
   }
 
   .para {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-24);
   }
 
 
@@ -1408,7 +1407,7 @@ body {
 
 
   #selected {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-40);
   }
 
   #scroll {
@@ -1480,7 +1479,7 @@ body {
   }
 
   #writing {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-40);
   }
 
   #article-section {
@@ -1566,7 +1565,7 @@ body {
   }
 
   .about {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-40);
   }
 
   .me-section {
@@ -1622,21 +1621,19 @@ body {
   } */
 
   .heading {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-40);
   }
 
   .para {
-    font-size: var(--fontSizes-32);
+    font-size: var(--fontSizes-20);
   }
 
   .let-connect {
     font-size: var(--fontSizes-16);
-    width: 100%;
   }
 
   #navbutton {
     margin-top: 16px;
-    width: 100%;
   }
 
   #scroll {
@@ -1652,7 +1649,7 @@ body {
   }
 
   #selected {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-32);
     padding-bottom: 16px;
   }
 
@@ -1806,7 +1803,7 @@ body {
   }
 
   #writing {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-32);
   }
 
   #info-1 {
@@ -1892,7 +1889,7 @@ body {
 
 
   .about {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-32);
   }
 
   /* .me{

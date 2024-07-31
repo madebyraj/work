@@ -577,7 +577,6 @@ body {
 
   .link-to-video {
     font-size: var(--fontSizes-16);
-    width: 100%;
   }
 
   #finish {
