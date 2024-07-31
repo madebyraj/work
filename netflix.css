@@ -458,14 +458,14 @@ body {
 .link-to-video {
   margin-top: 8px;
   width: fit-content;
-  padding: 14px 24px;
+  padding: 12px 22px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-600);
+  border-radius: var(--border-radius-full);
   text-decoration: none;
-  font-size: var(--fontSizes-20);
-  letter-spacing: var(--letterSpacings-normal);
+  font-size: var(--fontSizes-18);
+  letter-spacing: var(--letterSpacings-tight);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   color: var(--primary-button-text);
   text-align: center;
   transition: 300ms ease-out;
@@ -476,11 +476,11 @@ body {
 
 .link-to-video:hover {
   cursor: pointer;
-  transform: translateY(-3.2px);
+  background-color: var(--button-primary-hover);
 }
 
 .link-to-video:focus {
-  transform: translateY(0px);
+  background-color: var(--button-primary-active);
 }
 
 #finish {

@@ -741,8 +741,8 @@ body {
 
 
 .heading {
-  max-width: 744px;
-  font-size: var(--fontSizes-56);
+  max-width: 752px;
+  font-size: var(--fontSizes-48);
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -752,10 +752,10 @@ body {
 }
 
 .para {
-  max-width: 744px;
+  max-width: 752px;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
-  font-family: var(--fonts-body);
+  font-family: var(--fonts-heading);
 }
 
 #navbutton {
@@ -766,15 +766,16 @@ body {
 }
 
 .let-connect {
-  padding: 14px 24px;
+  padding: 12px 22px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-600);
+  border-radius: var(--border-radius-full);
   text-decoration: none;
   background-color: var(--button-primary);
-  font-size: var(--fontSizes-20);
+  font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   color: var(--primary-button-text);
+  letter-spacing: var(--letterSpacings-tight);
   text-align: center;
   transition: 300ms ease-out;
   display: flex;
@@ -784,11 +785,11 @@ body {
 
 .let-connect:hover {
   cursor: pointer;
-  transform: translateY(-3.2px);
+  background-color: var(--button-primary-hover);
 }
 
 .let-connect:focus {
-  transform: translateY(0px);
+  background-color: var(--button-primary-active);
 }
 
 .partition {
@@ -1464,9 +1465,9 @@ body {
     justify-content: center;
   }
 
-  .let-connect {
+  /* .let-connect {
     font-size: var(--fontSizes-18);
-  }
+  } */
 
 
 
@@ -1692,9 +1693,9 @@ body {
     font-size: var(--fontSizes-20);
   }
 
-  .let-connect {
+  /* .let-connect {
     font-size: var(--fontSizes-16);
-  }
+  } */
 
   #navbutton {
     margin-top: 16px;
