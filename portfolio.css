@@ -63,8 +63,73 @@
 }
 
 
+/* SF Pro Display */
 
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Display-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Display-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Display-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Display-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SF Pro Text */
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Text-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Text-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Text-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./assets/Fonts/SF-Pro/SF-Pro-Text-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Style Guide */
 
@@ -213,9 +278,9 @@
   /* Fonts */
 
 
-  --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: SF Pro Text, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -225,7 +290,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 600;
+  --fontWeights-bold: 700;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -792,10 +857,10 @@ body {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
   font-size: var(--fontSizes-14);
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-semibold);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
-  letter-spacing: var(--letterSpacings-normal);
+  letter-spacing: var(--letterSpacings-wide);
   color: var(--paragraph-primary-100);
   border-radius: var(--border-radius-400);
 }
