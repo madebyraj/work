@@ -280,7 +280,7 @@
 
   --fonts-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: SF Pro Text, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: SF Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -742,7 +742,7 @@ body {
 
 .heading {
   max-width: 752px;
-  font-size: var(--fontSizes-48);
+  font-size: var(--fontSizes-56);
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -861,7 +861,7 @@ body {
   font-weight: var(--fontWeights-semibold);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
-  letter-spacing: var(--letterSpacings-wide);
+  letter-spacing: var(--letterSpacings-tight);
   color: var(--paragraph-primary-100);
   border-radius: var(--border-radius-400);
 }
