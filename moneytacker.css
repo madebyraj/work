@@ -140,9 +140,9 @@
   /* Fonts */
 
 
-  --fonts-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: SF Pro Text, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -152,7 +152,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 700;
+  --fontWeights-bold: 600;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -491,7 +491,7 @@ main {
 }
 
 #main-container {
-  max-width: 1064px;
+  max-width: 1024px;
   margin: auto;
   width: 100%;
 }
@@ -857,20 +857,16 @@ main {
 
 .btn-one {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 .full-research {
-  min-width: 28px;
-  padding: 8px 16px;
-  background-color: var(--button-secondary);
-  border-radius: var(--border-radius-full);
-  color: var(--secondary-button-text-dark);
-  font-size: var(--fontSizes-16);
+  color: var(--link-primary);
+  font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -882,7 +878,7 @@ main {
 .full-research:hover {
   color: var(--link-primary-hover);
   cursor: pointer;
-  background-color: var(--button-secondary-hover);
+  text-decoration: 2px underline dashed var(--link-primary-hover);
 }
 
 .questions {
@@ -1029,20 +1025,16 @@ main {
 
 .btn-two {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 #pr-link {
-  min-width: 28px;
-  padding: 8px 16px;
-  background-color: var(--button-secondary);
-  border-radius: var(--border-radius-full);
-  color: var(--secondary-button-text-dark);
-  font-size: var(--fontSizes-16);
+  color: var(--link-primary);
+  font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-normal);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1055,7 +1047,7 @@ main {
 #pr-link:hover {
   color: var(--link-primary-hover);
   cursor: pointer;
-  background-color: var(--button-secondary-hover);
+  text-decoration: 2px underline dashed var(--link-primary-hover);
 }
 
 .proto-bg {
@@ -1186,7 +1178,7 @@ main {
 #back-to-all {
   margin: auto;
   width: max-content;
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   color: var(--link-primary);
   font-size: var(--fontSizes-18);
   display: flex;

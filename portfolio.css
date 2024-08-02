@@ -65,7 +65,7 @@
 
 /* SF Pro Display */
 
-@font-face {
+/* @font-face {
   font-family: 'SF Pro Display';
   src: url('./assets/Fonts/SF-Pro/SF-Pro-Display-Bold.woff2') format('woff2');
   font-weight: 700;
@@ -95,11 +95,11 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 /* SF Pro Text */
 
-@font-face {
+/* @font-face {
   font-family: 'SF Pro Text';
   src: url('./assets/Fonts/SF-Pro/SF-Pro-Text-Bold.woff2') format('woff2');
   font-weight: 700;
@@ -129,7 +129,7 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 /* Style Guide */
 
@@ -278,9 +278,9 @@
   /* Fonts */
 
 
-  --fonts-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: SF Pro Text, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: SF Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -290,7 +290,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 700;
+  --fontWeights-bold: 600;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -716,7 +716,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 48px 96px;
+  padding: 48px 128px 32px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -755,27 +755,26 @@ body {
   max-width: 752px;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
-  font-family: var(--fonts-heading);
+  font-family: var(--fonts-body);
 }
 
 #navbutton {
-  margin-top: 24px;
+  margin-top: 32px;
   display: flex;
   justify-content: start;
   align-items: start;
 }
 
 .let-connect {
-  padding: 12px 22px;
+  padding: 14px 24px;
   background-color: var(--button-primary);
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-500);
   text-decoration: none;
   background-color: var(--button-primary);
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-semibold);
   color: var(--primary-button-text);
-  letter-spacing: var(--letterSpacings-tight);
   text-align: center;
   transition: 300ms ease-out;
   display: flex;
@@ -786,10 +785,12 @@ body {
 .let-connect:hover {
   cursor: pointer;
   background-color: var(--button-primary-hover);
+  transform: translateY(-3.2px);
 }
 
 .let-connect:focus {
   background-color: var(--button-primary-active);
+  transform: translateY(0px);
 }
 
 .partition {
@@ -801,7 +802,7 @@ body {
 #scroll {
   max-width: 1600px;
   margin: auto;
-  padding: 48px 96px;
+  padding: 48px 128px;
 }
 
 #selected {
@@ -861,7 +862,7 @@ body {
   font-weight: var(--fontWeights-semibold);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-wide);
   color: var(--paragraph-primary-100);
   border-radius: var(--border-radius-400);
 }
@@ -1029,13 +1030,13 @@ body {
 
 #line {
   border: 1px solid var(--border-subtle-01);
-  margin: 0px 96px;
+  margin: 0px 128px;
 }
 
 #writing-section {
   max-width: 1600px;
   margin: auto;
-  padding: 64px 96px;
+  padding: 48px 128px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1169,7 +1170,7 @@ body {
 
 
 .footer {
-  padding: 48px 96px;
+  padding: 48px 128px;
   /* max-width: 1600px; */
   margin: auto;
   background-color: var(--surface-layer-02);
@@ -1323,7 +1324,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  padding: 64px 96px;
+  padding: 48px 128px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1439,7 +1440,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding: 48px 40px;
+    padding: 48px 40px 24px;
     gap: 32px;
     margin: 0px;
   }
@@ -1674,7 +1675,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 40px 24px;
+    padding: 40px 24px 8px;
     gap: 24px;
   }
 
