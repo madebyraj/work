@@ -64,9 +64,9 @@
 
   --background-main: #101013;
 
-  --glass-dark: rgba(13, 13, 26, 0.75);
+  --glass-dark: rgba(35, 35, 41, 0.75);
 
-  --drop-shadow-dark: 0px 1px 4px 0px rgba(22, 30, 54, 0.05);
+  --drop-shadow-dark: 0.5px 1px 0px 0px #595964 inset, -0.5px -1px 0px 0px #2F2F36 inset;
 
   --button-drop-shadow-dark: 0px 0px 4px 0px #0057A3;
 
@@ -128,9 +128,9 @@
 
   --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(249, 251, 252, 0.75);
+  --glass-light: rgba(255, 255, 255, 0.75);
 
-  --drop-shadow-light: 0px 1px 4px 0px rgba(13, 25, 63, 0.05);
+  --drop-shadow-light: 0.5px 1px 0px 0px #CCCCD4 inset, -0.5px -1px 0px 0px #E3E3E9 inset;
 
   --button-drop-shadow-light: 0px 0px 2px 0px #0057A3;
 
@@ -430,16 +430,17 @@ main {
 
 #side-navbar {
   position: fixed;
-  top: 104px;
+  top: 112px;
   left: 0;
   max-width: 168px;
   height: min-content;
-  background-color: var(--surface-layer-01);
-  box-shadow: var(--shadows-sm);
+  background: var(--glass-dark);
+  backdrop-filter: saturate(180%) blur(22px);
+  box-shadow: var(--drop-shadow-dark);
   border-radius: 0px var(--border-radius-600) var(--border-radius-600) 0px;
   padding: 12px 24px;
   z-index: 100;
-  border: 1px solid var(--border-subtle-01);
+  /* border: 1px solid var(--border-subtle-01); */
 }
 
 #side-navbar .inner-nav {
@@ -474,10 +475,11 @@ main {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  background-color: var(--surface-layer-01);
-  box-shadow: var(--shadows-sm);
+  background: var(--glass-dark);
+  backdrop-filter: saturate(180%) blur(22px);
+  box-shadow: var(--drop-shadow-dark);
   text-decoration: none;
-  border: 1px solid var(--border-subtle-01);
+  /* border: 1px solid var(--border-subtle-01); */
 }
 
 #back-to-top:hover {

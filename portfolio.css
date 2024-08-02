@@ -202,9 +202,9 @@
 
   --background-main: #101013;
 
-  --glass-dark: rgba(13, 13, 26, 0.75);
+  --glass-dark: rgba(35, 35, 41, 0.75);
 
-  --drop-shadow-dark: 0px 1px 4px 0px rgba(22, 30, 54, 0.05);
+  --drop-shadow-dark: 0.5px 1px 0px 0px #595964 inset, -0.5px -1px 0px 0px #2F2F36 inset;
 
   --button-drop-shadow-dark: 0px 0px 4px 0px #0057A3;
 
@@ -266,9 +266,9 @@
 
   --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(249, 251, 252, 0.75);
+  --glass-light: rgba(255, 255, 255, 0.75);
 
-  --drop-shadow-light: 0px 1px 4px 0px rgba(13, 25, 63, 0.05);
+  --drop-shadow-light: 0.5px 1px 0px 0px #CCCCD4 inset, -0.5px -1px 0px 0px #E3E3E9 inset;
 
   --button-drop-shadow-light: 0px 0px 2px 0px #0057A3;
 
@@ -561,7 +561,7 @@ body {
   transition: transform 0.32s ease-out;
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
+  padding-top: 32px;
 }
 
 .hidden {
@@ -577,10 +577,11 @@ body {
   width: 100%;
   max-width: 392px;
   margin: auto;
-  background: var(--surface-layer-01);
+  background: var(--glass-dark);
+  backdrop-filter: saturate(180%) blur(22px);
   border-radius: var(--border-radius-800);
-  border: 1px solid var(--border-subtle-01);
-  box-shadow: var(--shadows-sm);
+  /* border: 1px solid var(--border-subtle-01); */
+  box-shadow: var(--drop-shadow-dark);
 }
 
 
@@ -635,7 +636,7 @@ body {
 }
 
 
-#snaps {
+#home {
   font-size: var(--fontSizes-16);
   color: var(--paragraph-primary);
   text-decoration: none;
@@ -647,11 +648,11 @@ body {
   text-align: center;
 }
 
-#snaps:hover {
+#home:hover {
   color: var(--link-primary-hover);
 }
 
-#snaps:focus {
+#home:focus {
   outline: 0.2rem solid var(--link-primary-hover);
 }
 
@@ -1368,6 +1369,7 @@ body {
 }
 
 .question {
+  max-width: 752px;
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -1376,7 +1378,57 @@ body {
   color: var(--heading-primary);
 }
 
-.hobbies {
+.collage-outer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.image-main {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-none);
+  object-fit: cover;
+  object-position: center;
+}
+
+#finish {
+  padding: 56px 0px;
+  margin: auto;
+}
+
+#fn-head {
+  font-size: var(--fontSizes-40);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-normal);
+  line-height: var(--lineHeights-shorter);
+  color: var(--heading-primary);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#back-to-all {
+  margin: auto;
+  width: max-content;
+  font-weight: var(--fontWeights-medium);
+  color: var(--link-primary);
+  font-size: var(--fontSizes-18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  text-decoration: none;
+  transition: 200ms ease-out;
+}
+
+#back-to-all:hover {
+  color: var(--link-primary-hover);
+  text-decoration: 2px dashed underline var(--link-primary-hover);
+  cursor: pointer;
+}
+
+/* .hobbies {
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -1420,7 +1472,7 @@ body {
 #music p {
   color: var(--paragraph-primary);
   font-size: var(--fontSizes-18);
-}
+} */
 
 
 @media (max-width: 1400px) {
@@ -1561,10 +1613,6 @@ body {
     min-width: 100%;
   }
 
-  /* #info-1 {
-    padding: 16px;
-  } */
-
   #info-1 h6 {
     font-size: var(--fontSizes-24);
     margin-bottom: 8px;
@@ -1582,10 +1630,6 @@ body {
     text-decoration: none;
     min-width: 100%;
   }
-
-  /* #info-2 {
-    padding: 16px;
-  } */
 
   #info-2 h6 {
     font-size: var(--fontSizes-24);
@@ -1644,7 +1688,16 @@ body {
     font-size: var(--fontSizes-32);
   }
 
-  .hobbies {
+  .collage-outer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #finish {
+    padding: 48px 0px;
+  }
+
+  /* .hobbies {
     flex-direction: column;
     gap: 24px;
   }
@@ -1657,7 +1710,7 @@ body {
   #music h6 {
     font-size: var(--fontSizes-32);
     margin-bottom: 16px;
-  }
+  } */
 }
 
 @media (max-width: 688px) {
@@ -1958,9 +2011,6 @@ body {
     font-size: var(--fontSizes-32);
   }
 
-  /* .me{
-    box-shadow: 4px 4px 0px 0px var(--secondary-green);
-  } */
   .myself {
     gap: 16px;
   }
@@ -1973,7 +2023,16 @@ body {
     font-size: var(--fontSizes-32);
   }
 
-  #cricket h6 {
+  .collage-outer {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  #finish {
+    padding: 40px 0px;
+  }
+
+  /* #cricket h6 {
     font-size: var(--fontSizes-24);
     margin-bottom: 16px;
   }
@@ -1981,5 +2040,5 @@ body {
   #music h6 {
     font-size: var(--fontSizes-24);
     margin-bottom: 16px;
-  }
+  } */
 }
