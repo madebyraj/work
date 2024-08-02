@@ -202,7 +202,7 @@
 
   --background-main: #101013;
 
-  --glass-dark: rgba(35, 35, 41, 0.75);
+  --glass-dark: rgba(35, 35, 41, 0.80);
 
   --drop-shadow-dark: 0.5px 1px 0px 0px #595964 inset, -0.5px -1px 0px 0px #2F2F36 inset;
 
@@ -266,7 +266,7 @@
 
   --background-main-light: #FFFFFF;
 
-  --glass-light: rgba(255, 255, 255, 0.75);
+  --glass-light: rgba(255, 255, 255, 0.80);
 
   --drop-shadow-light: 0.5px 1px 0px 0px #CCCCD4 inset, -0.5px -1px 0px 0px #E3E3E9 inset;
 
@@ -578,9 +578,9 @@ body {
   max-width: 392px;
   margin: auto;
   background: var(--glass-dark);
-  backdrop-filter: saturate(180%) blur(22px);
+  backdrop-filter: saturate(180%) blur(20px);
   border-radius: var(--border-radius-800);
-  /* border: 1px solid var(--border-subtle-01); */
+  min-height: 54px;
   box-shadow: var(--drop-shadow-dark);
 }
 
@@ -622,13 +622,14 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
-  padding: 8px;
+  padding: 6px 8px;
   border-radius: var(--border-radius-400);
   text-align: center;
 }
 
 #about:hover {
-  color: var(--link-primary-hover);
+  color: var(--primary-button-text);
+  background-color: var(--link-primary-hover);
 }
 
 #about:focus {
@@ -643,13 +644,14 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
-  padding: 8px;
+  padding: 6px 8px;
   border-radius: var(--border-radius-400);
   text-align: center;
 }
 
 #home:hover {
-  color: var(--link-primary-hover);
+  color: var(--primary-button-text);
+  background-color: var(--link-primary-hover);
 }
 
 #home:focus {
@@ -663,13 +665,14 @@ body {
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
-  padding: 8px;
+  padding: 6px 8px;
   border-radius: var(--border-radius-400);
   text-align: center;
 }
 
 #resume:hover {
-  color: var(--link-primary-hover);
+  color: var(--primary-button-text);
+  background-color: var(--link-primary-hover);
 }
 
 #resume:focus {
@@ -1373,7 +1376,7 @@ body {
   font-size: var(--fontSizes-40);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
+  letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
 }
