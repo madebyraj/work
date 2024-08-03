@@ -55,8 +55,8 @@
 
 
 @font-face {
-  font-family: 'Apercu Mono';
-  src: url('./assets/Fonts/apercu-mono-var.woff2') format('woff');
+  font-family: 'Whyte Mono';
+  src: url('./assets/Fonts/ABCWhyteMono-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -155,8 +155,8 @@
   --button-primary-active: #0A84FF;
 
   --button-secondary: #373741;
-  --button-secondary-hover: #43434E;
-  --button-secondary-active: #43434E;
+  --button-secondary-hover: #373741;
+  --button-secondary-active: #373741;
 
   --secondary-button-text-dark: #0A84FF;
   --secondary-button-icon-dark: #0A84FF;
@@ -222,8 +222,8 @@
   --button-primary-active-light: #007AFF;
 
   --button-secondary-light: #E5E5EB;
-  --button-secondary-hover-light: #D8D8DE;
-  --button-secondary-active-light: #D8D8DE;
+  --button-secondary-hover-light: #E5E5EB;
+  --button-secondary-active-light: #E5E5EB;
 
   --secondary-button-text-light: #007AFF;
   --secondary-button-icon-light: #007AFF;
@@ -280,7 +280,7 @@
 
   --fonts-heading: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: Apercu Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -580,7 +580,7 @@ body {
   background: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(20px);
   border-radius: var(--border-radius-800);
-  min-height: 54px;
+  min-height: 56px;
   box-shadow: var(--drop-shadow-dark);
 }
 
@@ -628,8 +628,8 @@ body {
 }
 
 #about:hover {
-  color: var(--primary-button-text);
-  background-color: var(--link-primary-hover);
+  color: var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
 }
 
 #about:focus {
@@ -650,8 +650,8 @@ body {
 }
 
 #home:hover {
-  color: var(--primary-button-text);
-  background-color: var(--link-primary-hover);
+  color: var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
 }
 
 #home:focus {
@@ -671,8 +671,8 @@ body {
 }
 
 #resume:hover {
-  color: var(--primary-button-text);
-  background-color: var(--link-primary-hover);
+  color: var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
 }
 
 #resume:focus {
@@ -743,6 +743,13 @@ body {
   justify-content: start;
 }
 
+.eyebrow-text{
+  font-family: var(--fonts-mono);
+  font-size: var(--fontSizes-16);
+  color: var(--paragraph-primary-100);
+  letter-spacing: var(--letterSpacings-wide);
+  margin-bottom: 8px;
+}
 
 .heading {
   max-width: 752px;
@@ -863,7 +870,6 @@ body {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
   font-size: var(--fontSizes-14);
-  font-weight: var(--fontWeights-semibold);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
   letter-spacing: var(--letterSpacings-wide);
