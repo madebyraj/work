@@ -290,7 +290,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 600;
+  --fontWeights-bold: 500;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -1181,10 +1181,7 @@ body {
 
 .footer {
   padding: 48px 128px;
-  /* max-width: 1600px; */
   margin: auto;
-  background-color: var(--surface-layer-02);
-  border-top: 2px dashed var(--border-subtle-02);
 }
 
 .social {
@@ -1233,7 +1230,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 48px;
 }
 
 #instagram-logo {
@@ -1334,7 +1331,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 48px;
-  padding: 48px 128px;
+  padding: 64px 128px;
   max-width: 1600px;
   margin: auto;
 }
@@ -1753,7 +1750,7 @@ body {
   }
 
   .para {
-    font-size: var(--fontSizes-20);
+    font-size: var(--fontSizes-18);
   }
 
   /* .let-connect {

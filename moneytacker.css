@@ -152,7 +152,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 600;
+  --fontWeights-bold: 500;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -514,7 +514,6 @@ main {
 .cs {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-wide);
   color: var(--paragraph-primary-100);
   margin-bottom: 16px;
