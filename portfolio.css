@@ -720,7 +720,7 @@ body {
   align-items: start;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 128px;
-  padding: 48px 128px 32px;
+  padding: 64px 128px;
   max-width: 1600px;
   margin: auto;
   overflow: hidden;
@@ -745,10 +745,10 @@ body {
 
 .eyebrow-text{
   font-family: var(--fonts-mono);
-  font-size: var(--fontSizes-16);
+  font-size: var(--fontSizes-18);
   color: var(--paragraph-primary-100);
   letter-spacing: var(--letterSpacings-wide);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .heading {
@@ -759,7 +759,7 @@ body {
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .para {
@@ -770,7 +770,7 @@ body {
 }
 
 #navbutton {
-  margin-top: 32px;
+  margin-top: 40px;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -813,7 +813,7 @@ body {
 #scroll {
   max-width: 1600px;
   margin: auto;
-  padding: 48px 128px;
+  padding: 64px 128px;
 }
 
 #selected {
@@ -822,7 +822,7 @@ body {
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  padding-bottom: 32px;
+  padding-bottom: 40px;
 }
 
 #project-container {
@@ -1046,12 +1046,12 @@ body {
 #writing-section {
   max-width: 1600px;
   margin: auto;
-  padding: 48px 128px;
+  padding: 64px 128px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  gap: 32px;
+  gap: 40px;
 }
 
 #writing {
@@ -1180,7 +1180,7 @@ body {
 
 
 .footer {
-  padding: 48px 128px;
+  padding: 64px 128px;
   margin: auto;
 }
 
@@ -1401,6 +1401,11 @@ body {
 #finish {
   padding: 56px 0px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 #fn-head {
@@ -1411,7 +1416,6 @@ body {
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   text-align: center;
-  margin-bottom: 8px;
 }
 
 #back-to-all {
