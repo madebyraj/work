@@ -456,28 +456,19 @@ body {
 }
 
 .link-to-video {
-  margin-top: 8px;
   width: fit-content;
-  padding: 14px 24px;
-  background-color: var(--button-primary);
-  border-radius: var(--border-radius-500);
   text-decoration: none;
   font-size: var(--fontSizes-18);
-  letter-spacing: var(--letterSpacings-normal);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
-  color: var(--primary-button-text);
-  text-align: center;
+  font-weight: var(--fontWeights-medium);
+  color: var(--link-primary-hover);
   transition: 300ms ease-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .link-to-video:hover {
   cursor: pointer;
-  background-color: var(--button-primary-hover);
-  transform: translateY(-3.2px);
+  color: var(--link-primary-hover);
+  text-decoration: 2px underline dashed var(--link-primary-hover);
 }
 
 .link-to-video:focus {
@@ -530,20 +521,15 @@ body {
 
 @media (max-width: 1024px) {
   .prototype-container {
-    padding: 32px 40px;
+    padding: 48px 40px;
   }
 
   #upper-com {
     margin-top: 24px;
   }
 
-  .link-to-video {
-    font-size: var(--fontSizes-18);
-  }
-
   #finish {
     padding: 48px 0px;
-    margin-top: 32px;
   }
 
 
@@ -551,7 +537,7 @@ body {
 
 @media (max-width: 688px) {
   .prototype-container {
-    padding: 24px;
+    padding: 40px 24px;
   }
 
   #upper-com {
@@ -569,34 +555,8 @@ body {
     font-size: var(--fontSizes-18);
   }
 
-  .link-to-video {
-    font-size: var(--fontSizes-16);
-  }
-
   #finish {
     padding: 40px 0px;
-    margin-top: 24px;
-  }
-
-  #fn-head {
-    font-size: var(--fontSizes-40);
-
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-normal);
-    text-align: center;
-    margin-bottom: 8px;
-  }
-
-  #back-to-all {
-    margin: auto;
-    width: max-content;
-    padding: 2px 4px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4px;
-    text-decoration: none;
   }
 
 

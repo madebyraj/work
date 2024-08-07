@@ -743,7 +743,7 @@ body {
   justify-content: start;
 }
 
-.eyebrow-text{
+.eyebrow-text {
   font-family: var(--fonts-mono);
   font-size: var(--fontSizes-18);
   color: var(--paragraph-primary-100);
@@ -1502,7 +1502,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding: 48px 40px 24px;
+    padding: 48px 40px;
     gap: 32px;
     margin: 0px;
   }
@@ -1541,7 +1541,7 @@ body {
   #scroll {
     max-width: 1600px;
     margin: auto;
-    padding: 32px 40px;
+    padding: 48px 40px;
   }
 
   #project-container {
@@ -1602,7 +1602,7 @@ body {
 
   #writing-section {
     margin: auto;
-    padding: 32px 40px;
+    padding: 48px 40px;
     gap: 32px;
   }
 
@@ -1669,7 +1669,7 @@ body {
 
 
   .footer {
-    padding: 32px 40px;
+    padding: 48px 40px;
   }
 
 
@@ -1681,7 +1681,7 @@ body {
     justify-content: start;
     align-items: start;
     gap: 32px;
-    padding: 32px 40px;
+    padding: 48px 40px;
   }
 
   .about {
@@ -1726,9 +1726,6 @@ body {
 @media (max-width: 688px) {
 
   #dynamic-nav-head {
-    position: sticky;
-    top: 0;
-    z-index: 10;
     padding: 20px 16px 0px 16px;
   }
 
@@ -1738,7 +1735,7 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 40px 24px 8px;
+    padding: 40px 24px;
     gap: 24px;
   }
 
@@ -1748,6 +1745,10 @@ body {
 
   /* .main {
   } */
+
+  .eyebrow-text {
+    font-size: var(--fontSizes-16);
+  }
 
   .heading {
     font-size: var(--fontSizes-40);

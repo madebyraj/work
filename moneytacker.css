@@ -1161,7 +1161,13 @@ main {
 }
 
 #finish {
-  padding: 32px 0px 64px;
+  padding: 56px 0px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 #fn-head {
@@ -1172,7 +1178,6 @@ main {
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
   text-align: center;
-  margin-bottom: 8px;
 }
 
 #back-to-all {
@@ -1232,6 +1237,11 @@ main {
   #project-info {
     gap: 24px;
   }
+
+  #finish {
+    padding: 48px 0px;
+  }
+  
 }
 
 /* Mobile */
@@ -1734,27 +1744,6 @@ main {
   }
 
   #finish {
-    padding: 32px 0px 64px;
-  }
-
-  #fn-head {
-    font-size: var(--fontSizes-40);
-
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-normal);
-    text-align: center;
-    margin-bottom: 8px;
-  }
-
-  #back-to-all {
-    margin: auto;
-    width: max-content;
-    padding: 2px 4px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4px;
-    text-decoration: none;
+    padding: 40px 0px;
   }
 }
