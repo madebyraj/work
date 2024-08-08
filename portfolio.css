@@ -329,7 +329,7 @@
 
 
   --fonts-heading: Reckless Neue, Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -585,6 +585,7 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
+  font-feature-settings: 'ss02' on;
 }
 
 html {
@@ -670,7 +671,6 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -692,7 +692,6 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -713,7 +712,6 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -834,7 +832,7 @@ body {
   background-color: var(--button-primary);
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   color: var(--primary-button-text);
   text-align: center;
   transition: 300ms ease-out;

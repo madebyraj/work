@@ -141,7 +141,7 @@
 
 
   --fonts-heading: Reckless Neue, Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -149,7 +149,7 @@
 
   --fontWeights-thin: 200;
   --fontWeights-light: 300;
-  --fontWeights-normal: 400;
+  --fontWeights-normal: 350;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
   --fontWeights-bold: 600;
@@ -396,6 +396,7 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
+  font-feature-settings: 'ss02' on;
 }
 
 html {
