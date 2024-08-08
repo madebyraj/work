@@ -152,7 +152,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 500;
+  --fontWeights-bold: 600;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -161,7 +161,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.013em;
+  --letterSpacings-tight: -0.000em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
