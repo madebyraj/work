@@ -864,7 +864,8 @@ body {
   gap: 48px;
 }
 
-#project-1 {
+
+.main-project-container {
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -873,22 +874,30 @@ body {
   gap: 16px;
 }
 
-#bottom-text-h {
+.pro-cover {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius-none);
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-out;
+}
+
+.pro-info {
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  gap: 12px;
-  min-width: 100%;
+  gap: 8px;
 }
 
-.image-wrapper {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  overflow: hidden;
-  object-fit: cover;
-  object-position: center;
+.pro-heading {
+  font-size: var(--fontSizes-32);
+  color: var(--heading-primary);
+  font-family: var(--fonts-heading);
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-normal);
+  line-height: var(--lineHeights-shorter);
 }
 
 .label-sec {
@@ -910,164 +919,12 @@ body {
   border-radius: var(--border-radius-400);
 }
 
-.pro-bg-1 {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
-}
-
-.pro-bg-1:hover {
-  transform: scale(1.04);
-  transition: transform 0.3s ease-out;
-}
-
-#project-1 h6 {
-  font-size: var(--fontSizes-32);
-  color: var(--heading-primary);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-}
-
-#project-1 p {
+.pro-description {
   color: var(--paragraph-primary);
   font-size: var(--fontSizes-18);
   text-overflow: ellipsis;
-  overflow: hidden;
 }
 
-#project-2 {
-  overflow: hidden;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-#bottom-text-h {
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.pro-bg-2 {
-  max-width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
-}
-
-.pro-bg-2:hover {
-  transform: scale(1.04);
-  transition: transform 0.3s ease-out;
-}
-
-#project-2 h6 {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  color: var(--heading-primary);
-}
-
-#project-2 p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-#project-3 {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-
-.pro-bg-3 {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
-}
-
-.pro-bg-3:hover {
-  transform: scale(1.04);
-  transition: transform 0.3s ease-out;
-}
-
-#project-3 h6 {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  color: var(--heading-primary);
-}
-
-#project-3 p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-#project-4 {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-
-.pro-bg-4 {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
-}
-
-.pro-bg-4:hover {
-  transform: scale(1.04);
-  transition: transform 0.3s ease-out;
-}
-
-#project-4 h6 {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  color: var(--heading-primary);
-}
-
-#project-4 p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
 
 /* Writing */
 
@@ -1587,46 +1444,6 @@ body {
     font-size: var(--fontSizes-12);
   }
 
-  #project-1 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  #project-2 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  #project-3 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  #project-4 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
   /* writing section */
 
   #line {
@@ -1788,7 +1605,7 @@ body {
   }
 
   .para {
-    font-size: var(--fontSizes-18);
+    font-size: var(--fontSizes-20);
   }
 
   /* .let-connect {
@@ -1805,147 +1622,25 @@ body {
     padding: 40px 24px;
   }
 
-  #project-container {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 32px;
-  }
-
   #selected {
     font-size: var(--fontSizes-32);
     padding-bottom: 16px;
   }
 
-  #project-1 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
+  #project-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 32px;
   }
-
-  #bottom-text-h {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    gap: 8px;
-  }
-
-  /* #label{
-    font-size: var(--fontSizes-12);
-  } */
-
-  .pro-bg-1 {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  #project-1 h6 {
+  
+  .pro-heading {
     font-size: var(--fontSizes-24);
   }
-
-  #project-1 p {
+  
+  .pro-description {
+    color: var(--paragraph-primary);
     font-size: var(--fontSizes-18);
-  }
-
-  #project-2 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  #bottom-text-h {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    gap: 8px;
-  }
-
-  .pro-bg-2 {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  #project-2 h6 {
-    font-size: var(--fontSizes-24);
-  }
-
-  #project-2 p {
-    font-size: var(--fontSizes-18);
-  }
-
-  #project-3 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  #bottom-text-h {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    gap: 8px;
-  }
-
-  .pro-bg-3 {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  #project-3 h6 {
-    font-size: var(--fontSizes-24);
-  }
-
-  #project-3 p {
-    font-size: var(--fontSizes-18);
-  }
-
-  #project-4 {
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-  }
-
-  #bottom-text-h {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    gap: 8px;
-  }
-
-  .pro-bg-4 {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  #project-4 h6 {
-    font-size: var(--fontSizes-24);
-  }
-
-  #project-4 p {
-    font-size: var(--fontSizes-18);
+    text-overflow: ellipsis;
   }
 
   /* writing section */
