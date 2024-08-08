@@ -334,7 +334,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.000em;
+  --letterSpacings-tight: -0.0125em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -1555,7 +1555,7 @@ body {
 
 
   #navbutton {
-    margin-top: 16px;
+    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1795,9 +1795,9 @@ body {
     font-size: var(--fontSizes-16);
   } */
 
-  #navbutton {
-    margin-top: 16px;
-  }
+  /* #navbutton {
+    margin-top: 32px;
+  } */
 
   #scroll {
     max-width: 1600px;
