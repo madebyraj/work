@@ -874,6 +874,11 @@ body {
   gap: 16px;
 }
 
+.main-project-container:hover .pro-heading {
+  cursor: pointer;
+  text-decoration: 2px underline dashed var(--heading-primary);
+}
+
 .pro-cover {
   width: 100%;
   height: 100%;
@@ -961,8 +966,7 @@ body {
   min-width: 100%;
 }
 
-.first-article {
-  min-width: 100%;
+.main-article-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -971,24 +975,12 @@ body {
   gap: 16px;
 }
 
-#info-1 h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  margin-bottom: 8px;
-  color: var(--heading-primary);
+.main-article-container:hover .article-heading {
+  cursor: pointer;
+  text-decoration: 2px underline dashed var(--heading-primary);
 }
 
-#info-1 p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-#f-a-bg {
+.article-cover {
   width: 100%;
   height: 100%;
   border-radius: var(--border-radius-none);
@@ -996,75 +988,29 @@ body {
   object-position: center;
 }
 
-.second-article {
-  min-width: 100%;
+.article-info {
   display: flex;
   flex-direction: column;
+  align-items: start;
   justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  gap: 16px;
+  gap: 8px;
 }
 
-#info-2 h6 {
+.article-heading {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  margin-bottom: 8px;
   color: var(--heading-primary);
 }
 
-#info-2 p {
+.article-description {
   color: var(--paragraph-primary);
   font-size: var(--fontSizes-18);
   text-overflow: ellipsis;
-  overflow: hidden;
 }
 
-#s-a-bg {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  object-fit: cover;
-  object-position: center;
-}
-
-.third-article {
-  min-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  gap: 16px;
-}
-
-#info-3 h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  margin-bottom: 8px;
-  color: var(--heading-primary);
-}
-
-#info-3 p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-#t-a-bg {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius-none);
-  object-fit: cover;
-  object-position: center;
-}
 
 /* footer Section */
 
@@ -1328,52 +1274,6 @@ body {
   cursor: pointer;
 }
 
-/* .hobbies {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  gap: 64px;
-  min-width: 100%;
-}
-
-#cricket {
-  width: 100%;
-}
-
-#cricket h6 {
-  color: var(--heading-primary);
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  margin-bottom: 16px;
-}
-
-#cricket p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-}
-
-#music {
-  width: 100%;
-}
-
-#music h6 {
-  color: var(--heading-primary);
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
-  margin-bottom: 16px;
-}
-
-#music p {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
-} */
-
 
 @media (max-width: 1400px) {
 
@@ -1401,7 +1301,6 @@ body {
     max-width: 416px;
   }
 
-
   .heading {
     font-size: var(--fontSizes-48);
   }
@@ -1421,8 +1320,6 @@ body {
   /* .let-connect {
     font-size: var(--fontSizes-18);
   } */
-
-
 
   #selected {
     font-size: var(--fontSizes-40);
@@ -1465,56 +1362,8 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .first-article {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    min-width: 100%;
-  }
-
-  #info-1 h6 {
+  .article-heading {
     font-size: var(--fontSizes-24);
-    margin-bottom: 8px;
-  }
-
-  #info-1 p {
-    font-size: var(--fontSizes-18);
-  }
-
-
-  .second-article {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    min-width: 100%;
-  }
-
-  #info-2 h6 {
-    font-size: var(--fontSizes-24);
-    margin-bottom: 8px;
-  }
-
-  #info-2 p {
-    font-size: var(--fontSizes-18);
-  }
-
-  .third-article {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    min-width: 100%;
-  }
-
-  #info-3 h6 {
-    font-size: var(--fontSizes-24);
-    margin-bottom: 8px;
-  }
-
-  #info-3 p {
-    font-size: var(--fontSizes-18);
   }
 
 
@@ -1632,11 +1481,11 @@ body {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 32px;
   }
-  
+
   .pro-heading {
     font-size: var(--fontSizes-24);
   }
-  
+
   .pro-description {
     color: var(--paragraph-primary);
     font-size: var(--fontSizes-18);
@@ -1664,57 +1513,13 @@ body {
     font-size: var(--fontSizes-32);
   }
 
-  #info-1 {
-    min-width: 100%;
-  }
-
-  #info-1 h6 {
-    min-width: 100%;
+  #article-heading {
     font-size: var(--fontSizes-24);
-    margin-bottom: 8px;
   }
-
-  #info-1 p {
-    font-size: var(--fontSizes-18);
-  }
-
-  /* #f-a-bg {
-  } */
-
-  #info-2 {
-    min-width: 100%;
-  }
-
-  #info-2 h6 {
-    font-size: var(--fontSizes-24);
-    margin-bottom: 8px;
-  }
-
-  #info-2 p {
-    font-size: var(--fontSizes-18);
-  }
-
-  /* #s-a-bg {
-  } */
-
-  #info-3 {
-    min-width: 100%;
-  }
-
-  #info-3 h6 {
-    font-size: var(--fontSizes-24);
-    margin-bottom: 8px;
-  }
-
-  #info-3 p {
-    font-size: var(--fontSizes-18);
-  }
-
 
   .footer {
     padding: 40px 24px;
   }
-
 
   #bottom-text {
     font-size: var(--fontSizes-24);
@@ -1730,7 +1535,6 @@ body {
     align-items: center;
     gap: 40px;
   }
-
 
 
   /* about section */
@@ -1771,13 +1575,4 @@ body {
     padding: 40px 0px;
   }
 
-  /* #cricket h6 {
-    font-size: var(--fontSizes-24);
-    margin-bottom: 16px;
-  }
-
-  #music h6 {
-    font-size: var(--fontSizes-24);
-    margin-bottom: 16px;
-  } */
 }
