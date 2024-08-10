@@ -26,7 +26,7 @@
 
 
 
-/* Active Fonts */
+/* Base Fonts */
 
 
 
@@ -63,10 +63,12 @@
 }
 
 
+/* New York */
+
 
 @font-face {
   font-family: 'New York';
-  src: url('./assets/Fonts/NewYorkLarge-Bold.woff') format('woff');
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -74,7 +76,7 @@
 
 @font-face {
   font-family: 'New York';
-  src: url('./assets/Fonts/NewYorkLarge-Semibold.woff') format('woff');
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -82,7 +84,7 @@
 
 @font-face {
   font-family: 'New York';
-  src: url('./assets/Fonts/NewYorkLarge-Medium.woff') format('woff');
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -90,13 +92,47 @@
 
 @font-face {
   font-family: 'New York';
-  src: url('./assets/Fonts/NewYorkLarge-Regular.woff') format('woff');
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 
+/* New York Italic */
+
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
 
 /* SF Pro Display */
 
@@ -227,9 +263,9 @@
 
   --partition-dark: #0C8CE9;
 
-  --secondary-green: #198F51;
+  --secondary-green: #34C759;
   --secondary-yellow: #FFC701;
-  --secondary-red: #F34E1E;
+  --secondary-red: #FF453A;
   --secondary-purple: #5650FF;
   --secondary-orange: #FF6924;
   --secondary-brown: #A6674B;
@@ -291,9 +327,9 @@
 
   --partition-light: #0D99FF;
 
-  --secondary-green-light: #14AE5C;
+  --secondary-green-light: #30D158;
   --secondary-yellow-light: #FFC043;
-  --secondary-red-light: #D44333;
+  --secondary-red-light: #FF3B30;
   --secondary-purple-light: #716CFF;
   --secondary-orange-light: #ED6E33;
   --secondary-brown-light: #99644C;
@@ -793,6 +829,22 @@ body {
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 12px;
+}
+
+#occupation {
+  font-family: New York Italic, serif;
+  font-style: italic;
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-shorter);
+}
+
+#focus-on {
+  font-family: New York Italic, serif;
+  font-style: italic;
+  font-weight: var(--fontWeights-bold);
+  letter-spacing: var(--letterSpacings-tight);
+  line-height: var(--lineHeights-shorter);
 }
 
 .para {
