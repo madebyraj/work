@@ -266,10 +266,10 @@
   --secondary-green: #34C759;
   --secondary-yellow: #FFC701;
   --secondary-red: #FF453A;
-  --secondary-purple: #5650FF;
+  --secondary-purple: #5551FF;
   --secondary-orange: #FF6924;
   --secondary-brown: #A6674B;
-  --secondary-teal: #45AEE5;
+  --secondary-teal: #64D2FF;
 
   --background-main: #101013;
 
@@ -330,10 +330,10 @@
   --secondary-green-light: #30D158;
   --secondary-yellow-light: #FFC043;
   --secondary-red-light: #FF3B30;
-  --secondary-purple-light: #716CFF;
+  --secondary-purple-light: #5551FF;
   --secondary-orange-light: #ED6E33;
   --secondary-brown-light: #99644C;
-  --secondary-teal-light: #22a6ed;
+  --secondary-teal-light: #32ADE6;
 
   --background-main-light: #FFFFFF;
 
@@ -837,6 +837,7 @@ body {
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
+  text-decoration: 4px underline dashed var(--secondary-purple);
 }
 
 #focus-on {
@@ -845,6 +846,7 @@ body {
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
+  text-decoration: 4px underline dashed var(--secondary-green);
 }
 
 .para {
@@ -881,7 +883,7 @@ body {
 .let-connect:hover {
   cursor: pointer;
   background-color: var(--button-primary-hover);
-  transform: translateY(-3.2px);
+  transform: translateY(-4px);
 }
 
 .let-connect:focus {
@@ -918,12 +920,22 @@ body {
 
 
 .main-project-container {
+  transition: 200ms ease-out;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
   gap: 16px;
+}
+
+.main-project-container:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.main-project-container:focus {
+  transform: scale(1);
 }
 
 .main-project-container:hover .pro-heading {
@@ -1019,12 +1031,23 @@ body {
 }
 
 .main-article-container {
+  transition: 200ms ease-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
   gap: 16px;
+}
+
+.main-article-container:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.main-article-container:focus {
+  transform: scale(1);
+  cursor: pointer;
 }
 
 .main-article-container:hover .article-heading {

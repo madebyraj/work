@@ -57,10 +57,10 @@
   --secondary-green: #34C759;
   --secondary-yellow: #FFC701;
   --secondary-red: #FF453A;
-  --secondary-purple: #5650FF;
+  --secondary-purple: #5551FF;
   --secondary-orange: #FF6924;
   --secondary-brown: #A6674B;
-  --secondary-teal: #45AEE5;
+  --secondary-teal: #64D2FF;
 
   --background-main: #101013;
 
@@ -121,10 +121,10 @@
   --secondary-green-light: #30D158;
   --secondary-yellow-light: #FFC043;
   --secondary-red-light: #FF3B30;
-  --secondary-purple-light: #716CFF;
+  --secondary-purple-light: #5551FF;
   --secondary-orange-light: #ED6E33;
   --secondary-brown-light: #99644C;
-  --secondary-teal-light: #22a6ed;
+  --secondary-teal-light: #32ADE6;
 
   --background-main-light: #FFFFFF;
 
@@ -430,38 +430,43 @@ main {
 
 #side-navbar {
   position: fixed;
-  top: 112px;
+  top: 120px;
   left: 0;
-  max-width: 168px;
-  height: min-content;
   background: var(--glass-dark);
   backdrop-filter: saturate(180%) blur(20px);
-  border-radius: 0px var(--border-radius-600) var(--border-radius-600) 0px;
-  padding: 12px 24px;
+  border-radius: 0px var(--border-radius-800) var(--border-radius-800) 0px;
+  padding: 8px;
   z-index: 100;
-  /* border: 1px solid var(--border-subtle-01); */
   box-shadow: var(--drop-shadow-dark);
 }
 
-#side-navbar .inner-nav {
-  padding: 0px 8px;
+.inner-nav {
+  padding: 0.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  gap: 0.25rem;
 }
 
-.inner-nav a {
-  padding: 8px 0px;
+.nav-children {
+  transition: 100ms ease-out;
+  padding: 6px 8px;
   font-size: var(--fontSizes-16);
+  font-family: var(--fonts-body);
   color: var(--paragraph-primary);
   text-decoration: none;
-  font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-normal);
+  min-width: 128px;
+  border-radius: var(--border-radius-400);
 }
 
-.inner-nav a:hover {
+.nav-children:hover {
   color: var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
+}
+
+.nav-children:focus {
+  outline: 0.2rem solid var(--link-primary-hover);
 }
 
 #back-to-top {
