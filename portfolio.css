@@ -209,6 +209,14 @@
 
 :root {
 
+  /* Cursors */
+
+  --cursor-default: url(./assets/Cursor/cursor-default.svg);
+  --cursor-pointer: url(./assets/Cursor/cursor-pointer.svg);
+  --cursor-grab: url(./assets/Cursor/cursor-grab.svg);
+  --cursor-grabbed: url(./assets/Cursor/cursor-grabbed.svg);
+  --cursor-text: url(./assets/Cursor/curson-text.svg);
+
   /* Icons */
 
 
@@ -615,6 +623,7 @@ html {
 
 body {
   background-color: var(--background-main);
+  cursor: var(--cursor-default), auto;
 }
 
 .indicator {
@@ -678,7 +687,7 @@ body {
 
 #work:hover {
   transform: scale(1.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 #work:focus {
@@ -701,6 +710,7 @@ body {
 #about:hover {
   color: var(--link-primary-hover);
   background-color: var(--button-secondary-hover);
+  cursor: var(--cursor-pointer), auto;
 }
 
 #about:focus {
@@ -722,6 +732,7 @@ body {
 #home:hover {
   color: var(--link-primary-hover);
   background-color: var(--button-secondary-hover);
+  cursor: var(--cursor-pointer), auto;
 }
 
 #home:focus {
@@ -742,6 +753,7 @@ body {
 #resume:hover {
   color: var(--link-primary-hover);
   background-color: var(--button-secondary-hover);
+  cursor: var(--cursor-pointer), auto;
 }
 
 #resume:focus {
@@ -769,7 +781,7 @@ body {
 
 .theme:hover {
   transform: scale(1.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 .theme:focus {
@@ -837,7 +849,6 @@ body {
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
-  text-decoration: 4px underline dashed var(--secondary-purple);
 }
 
 #focus-on {
@@ -846,7 +857,6 @@ body {
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-shorter);
-  text-decoration: 4px underline dashed var(--secondary-green);
 }
 
 .para {
@@ -881,7 +891,7 @@ body {
 }
 
 .let-connect:hover {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
   background-color: var(--button-primary-hover);
   transform: translateY(-4px);
 }
@@ -931,7 +941,7 @@ body {
 
 .main-project-container:hover {
   transform: scale(1.04);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 .main-project-container:focus {
@@ -939,7 +949,7 @@ body {
 }
 
 .main-project-container:hover .pro-heading {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
   text-decoration: 2px underline dashed var(--heading-primary);
 }
 
@@ -1042,16 +1052,16 @@ body {
 
 .main-article-container:hover {
   transform: scale(1.04);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 .main-article-container:focus {
   transform: scale(1);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 .main-article-container:hover .article-heading {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
   text-decoration: 2px underline dashed var(--heading-primary);
 }
 
@@ -1156,7 +1166,7 @@ body {
 
 #instagram-logo:hover {
   transform: scale(1.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 #instagram-logo:focus {
@@ -1177,7 +1187,7 @@ body {
 
 #linkedin-logo:hover {
   transform: scale(1.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 #linkedin-logo:focus {
@@ -1198,7 +1208,7 @@ body {
 
 #mail-logo:hover {
   transform: scale(1.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 #mail-logo:focus {
@@ -1219,7 +1229,7 @@ body {
 
 #twitter-logo:hover {
   transform: scale(1.2);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 #twitter-logo:focus {
@@ -1346,7 +1356,7 @@ body {
 #back-to-all:hover {
   color: var(--link-primary-hover);
   text-decoration: 2px dashed underline var(--link-primary-hover);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 

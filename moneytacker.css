@@ -1,5 +1,13 @@
 :root {
 
+  /* Cursors */
+
+  --cursor-default: url(./assets/Cursor/cursor-default.svg);
+  --cursor-pointer: url(./assets/Cursor/cursor-pointer.svg);
+  --cursor-grab: url(./assets/Cursor/cursor-grab.svg);
+  --cursor-grabbed: url(./assets/Cursor/cursor-grabbed.svg);
+  --cursor-text: url(./assets/Cursor/curson-text.svg);
+
   /* Icons */
 
 
@@ -404,6 +412,7 @@ html {
 
 body {
   background-color: var(--background-main);
+  cursor: var(--cursor-default), auto;
 }
 
 main {
@@ -463,6 +472,7 @@ main {
 .nav-children:hover {
   color: var(--link-primary-hover);
   background-color: var(--button-secondary-hover);
+  cursor: var(--cursor-pointer), auto;
 }
 
 .nav-children:focus {
@@ -484,11 +494,11 @@ main {
   border-radius: var(--border-radius-full);
   box-shadow: var(--drop-shadow-dark);
   text-decoration: none;
-  /* border: 1px solid var(--border-subtle-01); */
 }
 
 #back-to-top:hover {
   background-color: var(--surface-layer-01-hover);
+  cursor: var(--cursor-pointer), auto;
 }
 
 #arrow-up2 {
@@ -883,7 +893,7 @@ main {
 
 .full-research:hover {
   color: var(--link-primary-hover);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
   text-decoration: 2px underline dashed var(--link-primary-hover);
 }
 
@@ -1052,7 +1062,7 @@ main {
 
 #pr-link:hover {
   color: var(--link-primary-hover);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
   text-decoration: 2px underline dashed var(--link-primary-hover);
 }
 
@@ -1203,7 +1213,7 @@ main {
 #back-to-all:hover {
   color: var(--link-primary-hover);
   text-decoration: 2px dashed underline var(--link-primary-hover);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
 }
 
 /* small desktop */
