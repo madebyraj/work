@@ -30,7 +30,7 @@
     <nav id="dynamic-nav">
       <a href="index.html" id="work"></a>
       <div id="nav-info">
-        <a href="index.html" id="home">Work</a>
+        <a href="index.html#scroll" id="home">Work</a>
         <a href="about.html" id="about">About</a>
         <a href="https://drive.google.com/file/d/1GN_r4BaWqkorgWtkzwYz8-ubUDNphRk9/view?usp=drive_link" target="_blank"
           id="resume">Resume</a>
@@ -448,94 +448,21 @@
 
 
 
-  <script>
-    let indicator = document.querySelector(".indicator");
+  
 
-    let documentHeight = document.documentElement.scrollHeight;
+  <!-- Indicator -->
 
-    let viewportHeight = document.documentElement.clientHeight;
-
-    window.onscroll = function () {
-      console.log(scrollY);
-
-      let percentageScrolled =
-        (scrollY / (documentHeight - viewportHeight)) * 100;
-      indicator.style.width = percentageScrolled + "%";
-    };
-  </script>
-  <script>
-    const navbar = document.getElementById('dynamic-nav-head');
-
-    let lastScrollTop = 0;
+  <script src="app/indicator.js"></script>
 
 
-    function handleScroll() {
+  <!-- Navbar -->
 
-      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-
-      if (currentScrollTop > lastScrollTop) {
-
-        navbar.classList.add('hidden');
-      } else {
-
-        navbar.classList.remove('hidden');
-      }
-
-      lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
-    }
-
-    window.addEventListener('scroll', handleScroll);
-
-  </script>
-
-  <script>
-    const themeBtn = document.querySelector('.theme');
-
-    function getCurrentTheme() {
-      let theme = window.matchMedia('(prefers-color-scheme: dark)')
-        .matches ? 'dark' : 'light';
-      localStorage.getItem('work.theme') ? theme =
-        localStorage.getItem('work.theme') : null;
-
-      return theme;
-    }
+  <script src="app/navbar.js"></script>
 
 
+  <!-- Theme -->
 
-    function loadTheme(theme) {
-      const root = document.querySelector(':root');
-      if (theme === "light") {
-        themeBtn.innerHTML = `<img src="./assets/Icons/dark-mode.svg" preload alt="Dark mode button">`
-      }
-      else {
-        themeBtn.innerHTML = `<img src="./assets/Icons/light-mode.svg" preload alt="Light mode button">`
-      }
-
-      root.setAttribute('color-scheme', `${theme}`)
-    }
-
-
-    themeBtn.addEventListener('click', () => {
-      let theme = getCurrentTheme();
-      if (theme === 'dark') {
-        theme = 'light';
-      }
-      else {
-        theme = 'dark';
-      }
-
-      localStorage.setItem('work.theme', `${theme}`);
-      loadTheme(theme);
-    })
-
-
-    window.addEventListener('DOMContentLoaded', () => {
-      loadTheme(getCurrentTheme());
-    })
-  </script>
-
-
+  <script src="app/theme.js"></script>
 
 
   <!-- Cursor -->
