@@ -135,43 +135,6 @@
 }
 
 
-/* Netflix Sans Italic */
-
-
-
-@font-face {
-  font-family: 'Netflix Sans';
-  src: url('./assets/Fonts/Netflix-Sans/NetflixSans-Blk.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Netflix Sans';
-  src: url('./assets/Fonts/Netflix-Sans/NetflixSans-Bd.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Netflix Sans';
-  src: url('./assets/Fonts/Netflix-Sans/NetflixSans-Md.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Netflix Sans';
-  src: url('./assets/Fonts/Netflix-Sans/NetflixSans-Rg.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-
 
 
 
@@ -340,7 +303,7 @@
 
 
   --fonts-heading: New York, Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Netflix Sans, -apple-system, BlinkMacSystemFont, Inter Variable, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Whyte Variable, -apple-system, BlinkMacSystemFont, Inter Variable, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -683,7 +646,6 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -706,7 +668,6 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -728,7 +689,6 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
