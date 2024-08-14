@@ -893,10 +893,10 @@ body {
   transform: scale(1);
 }
 
-.main-project-container:hover .pro-heading {
+/* .main-project-container:hover .pro-heading {
   cursor: var(--cursor-pointer), auto;
   text-decoration: 2px underline dashed var(--heading-primary);
-}
+} */
 
 .pro-cover {
   width: 100%;
@@ -1005,10 +1005,10 @@ body {
   cursor: var(--cursor-pointer), auto;
 }
 
-.main-article-container:hover .article-heading {
+/* .main-article-container:hover .article-heading {
   cursor: var(--cursor-pointer), auto;
   text-decoration: 2px underline dashed var(--heading-primary);
-}
+} */
 
 .article-cover {
   width: 100%;
