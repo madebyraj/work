@@ -1183,7 +1183,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 #fn-head {
@@ -1205,18 +1205,24 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4px;
+  padding: 10px 16px;
+  border: 2px dashed var(--button-secondary);
+  border-radius: var(--border-radius-600);
   text-decoration: none;
   transition: 200ms ease-out;
 }
 
 #back-to-all:hover {
   color: var(--link-primary-hover);
-  text-decoration: 2px dashed underline var(--link-primary-hover);
+  background-color: var(--button-secondary-hover);
   cursor: var(--cursor-pointer), auto;
 }
 
+
+
 /* small desktop */
+
+
 
 @media (max-width: 1400px) {
 
