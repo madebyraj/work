@@ -828,6 +828,7 @@ body {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
   font-family: var(--fonts-body);
+  letter-spacing: var(--letterSpacings-tight);
 }
 
 #navbutton {
@@ -1243,7 +1244,7 @@ body {
   border: 2px solid var();
   width: 100%;
   height: auto;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-400);
   object-fit: cover;
   object-position: center;
 }
