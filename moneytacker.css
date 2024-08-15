@@ -149,7 +149,7 @@
 
 
   --fonts-heading: New York, Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: Whyte Variable, -apple-system, BlinkMacSystemFont, Inter Variable, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: SF Pro Text, Inter Variable, -apple-system, BlinkMacSystemFont, Inter Variable, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -429,7 +429,7 @@ main {
 
 #cover-mt {
   margin-top: 32px;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-400);
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -462,6 +462,7 @@ main {
   transition: 100ms ease-out;
   padding: 6px 8px;
   font-size: var(--fontSizes-16);
+  font-weight: var(--fontWeights-semibold);
   font-family: var(--fonts-body);
   color: var(--paragraph-primary);
   text-decoration: none;
