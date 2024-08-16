@@ -1,3 +1,6 @@
+/* Sementics Variables */
+
+
 :root {
 
   /* Cursors */
@@ -18,18 +21,18 @@
   /* Dark mode */
 
 
-  --primary: #0A84FF;
+  --primary: #3182CE;
 
-  --button-primary: #0A84FF;
-  --button-primary-hover: #0A84FF;
-  --button-primary-active: #0A84FF;
+  --button-primary: #3182CE;
+  --button-primary-hover: #3182CE;
+  --button-primary-active: #3182CE;
 
   --button-secondary: #373741;
   --button-secondary-hover: #373741;
   --button-secondary-active: #373741;
 
-  --secondary-button-text-dark: #0A84FF;
-  --secondary-button-icon-dark: #0A84FF;
+  --secondary-button-text-dark: #3182CE;
+  --secondary-button-icon-dark: #3182CE;
 
   --primary-button-text: #FFFFFF;
   --primary-button-icon: #FFFFFF;
@@ -37,8 +40,8 @@
   --button-text: #FFFFFF;
   --button-icon: #FFFFFF;
 
-  --link-primary: #2997FF;
-  --link-primary-hover: #2997FF;
+  --link-primary: #4299E1;
+  --link-primary-hover: #4299E1;
 
   --heading-primary: #FFFFFF;
   --heading-primary-01: #B2B2BA;
@@ -60,49 +63,35 @@
   --border-subtle-02: #43434E;
   --border-subtle-03: #73737E;
 
-  --partition-dark: #0C8CE9;
-
-  --secondary-green: #34C759;
-  --secondary-yellow: #FFC701;
-  --secondary-red: #FF453A;
-  --secondary-purple: #5551FF;
-  --secondary-orange: #FF6924;
-  --secondary-brown: #A6674B;
-  --secondary-teal: #64D2FF;
-
   --background-main: #101013;
 
   --glass-dark: rgba(35, 35, 41, 0.80);
 
   --drop-shadow-dark: 0.5px 1px 0px 0px #595964 inset, -0.5px -1px 0px 0px #2F2F36 inset;
 
-  --button-drop-shadow-dark: 0px 0px 4px 0px #0057A3;
-
-  --dark-gradient: linear-gradient(to bottom, #0972D3, #539FE5);
-
 
 
   /* Light Mode */
 
 
-  --primary-light: #007AFF;
+  --primary-light: #2B6CB0;
 
-  --button-primary-light: #007AFF;
-  --button-primary-hover-light: #007AFF;
-  --button-primary-active-light: #007AFF;
+  --button-primary-light: #2B6CB0;
+  --button-primary-hover-light: #2B6CB0;
+  --button-primary-active-light: #2B6CB0;
 
   --button-secondary-light: #E5E5EB;
   --button-secondary-hover-light: #E5E5EB;
   --button-secondary-active-light: #E5E5EB;
 
-  --secondary-button-text-light: #007AFF;
-  --secondary-button-icon-light: #007AFF;
+  --secondary-button-text-light: #2B6CB0;
+  --secondary-button-icon-light: #2B6CB0;
 
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #0066CC;
-  --link-primary-hover-light: #0066CC;
+  --link-primary-light: #2C5282;
+  --link-primary-hover-light: #2C5282;
 
   --heading-primary-light: #000000;
   --heading-primary-01-light: #373741;
@@ -124,25 +113,12 @@
   --border-subtle-02-light: #B2B2BA;
   --border-subtle-03-light: #43434E;
 
-  --partition-light: #0D99FF;
-
-  --secondary-green-light: #30D158;
-  --secondary-yellow-light: #FFC043;
-  --secondary-red-light: #FF3B30;
-  --secondary-purple-light: #5551FF;
-  --secondary-orange-light: #ED6E33;
-  --secondary-brown-light: #99644C;
-  --secondary-teal-light: #32ADE6;
-
   --background-main-light: #FFFFFF;
 
   --glass-light: rgba(255, 255, 255, 0.80);
 
   --drop-shadow-light: 0.5px 1px 0px 0px #CCCCD4 inset, -0.5px -1px 0px 0px #E3E3E9 inset;
 
-  --button-drop-shadow-light: 0px 0px 2px 0px #0057A3;
-
-  --light-gradient: linear-gradient(to bottom, #273EA5, #3759CE);
 
 
   /* Fonts */
@@ -151,6 +127,7 @@
   --fonts-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
 
 
   /* Fonts Weights */
@@ -165,6 +142,7 @@
   --fontWeights-black: 900;
 
 
+
   /* Letter Spacing */
 
 
@@ -174,6 +152,7 @@
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
   --letterSpacings-widest: 0.1em;
+
 
 
   /* Line Heights */
@@ -196,6 +175,7 @@
   --lineHeights-taller: 2;
 
 
+
   /* Border Radius */
 
 
@@ -206,6 +186,7 @@
   --border-radius-600: 0.75rem;
   --border-radius-800: 1rem;
   --border-radius-full: 1000rem;
+
 
 
   /* Font Sizes */
@@ -226,6 +207,7 @@
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
+  
 
   /* Shadows */
 
@@ -294,29 +276,11 @@
   --border-subtle-02-light: var(--border-subtle-02);
   --border-subtle-03-light: var(--border-subtle-03);
 
-  --partition-light: var(--partition-dark);
-
-  --nav-border-light: var(--nav-border-dark);
-
-  --nav-hover-light: var(--nav-hover-dark);
-
-  --secondary-green-light: var(--secondary-green);
-  --secondary-yellow-light: var(--secondary-yellow);
-  --secondary-red-light: var(--secondary-red);
-  --secondary-purple-light: var(--secondary-purple);
-  --secondary-orange-light: var(--secondary-orange);
-  --secondary-brown-light: var(--secondary-brown);
-  --secondary-teal-light: var(--secondary-teal);
-
   --background-main-light: var(--background-main);
 
   --glass-light: var(--glass-dark);
 
   --drop-shadow-light: var(--drop-shadow-dark);
-
-  --button-drop-shadow-light: var(--button-drop-shadow-dark);
-
-  --light-gradient: var(--dark-gradient);
 
 }
 
@@ -366,29 +330,11 @@
   --border-subtle-02: var(--border-subtle-02-light);
   --border-subtle-03: var(--border-subtle-03-light);
 
-  --partition-dark: var(--partition-light);
-
-  --nav-border-dark: var(--nav-border-light);
-
-  --nav-hover-dark: var(--nav-hover-light);
-
-  --secondary-green: var(--secondary-green-light);
-  --secondary-yellow: var(--secondary-yellow-light);
-  --secondary-red: var(--secondary-red-light);
-  --secondary-purple: var(--secondary-purple-light);
-  --secondary-orange: var(--secondary-orange-light);
-  --secondary-brown: var(--secondary-brown-light);
-  --secondary-teal: var(--secondary-teal-light);
-
   --background-main: var(--background-main-light);
 
   --glass-dark: var(--glass-light);
 
   --drop-shadow-dark: var(--drop-shadow-light);
-
-  --button-drop-shadow-dark: var(--button-drop-shadow-light);
-
-  --dark-gradient: var(--light-gradient);
 
 
 }
@@ -442,12 +388,11 @@ main {
   position: fixed;
   top: 120px;
   left: 0;
-  background: var(--glass-dark);
-  backdrop-filter: saturate(180%) blur(20px);
+  background-color: var(--surface-layer-01);
   border-radius: 0px var(--border-radius-800) var(--border-radius-800) 0px;
   padding: 8px;
   z-index: 100;
-  box-shadow: var(--drop-shadow-dark);
+  border: 1px solid var(--border-subtle-01);
 }
 
 .inner-nav {
@@ -493,9 +438,8 @@ main {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  background: var(--glass-dark);
-  backdrop-filter: saturate(180%) blur(20px);
-  box-shadow: var(--drop-shadow-dark);
+  background-color: var(--surface-layer-01);
+  border: 1px solid var(--border-subtle-01);
   text-decoration: none;
 }
 

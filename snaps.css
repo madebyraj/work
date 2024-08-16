@@ -25,6 +25,170 @@
 
 
 
+/* Base Fonts */
+
+
+
+
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('./assets/Fonts/Inter-var.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Italic Variable';
+  src: url('./assets/Fonts/Inter-italic-var.woff2') format('woff2');
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Whyte Variable';
+  src: url('./assets/Fonts/abc-whyte-var.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Whyte Mono';
+  src: url('./assets/Fonts/ABCWhyteMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* New York */
+
+
+@font-face {
+  font-family: 'New York';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* New York Italic */
+
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'New York Italic';
+  src: url('./assets/Fonts/New-York/NewYorkLarge-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+/* SF Pro Text */
+
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./assets/Fonts/SF-Pro-Text/sf-pro-text-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./assets/Fonts/SF-Pro-Text/sf-pro-text-semibold.woff2') format('woff2');
+  font-weight: 500 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* SF Pro Icons */
+
+
+@font-face {
+  font-family: 'SF Pro Icons';
+  src: url('./assets/Fonts/SF-Pro-Icons/SFProIcons-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Icons';
+  src: url('./assets/Fonts/SF-Pro-Icons/SFProIcons-semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -457,7 +621,7 @@ body {
   background-color: var(--partition-dark);
 }
 
-.primary-container{
+.primary-container {
   max-width: 1600px;
   margin: auto;
   min-height: 100vh;
@@ -514,13 +678,11 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 1400px) {
-
-}
+@media (max-width: 1400px) {}
 
 @media (max-width: 1024px) {
 
-  .primary-container{
+  .primary-container {
     padding: 32px 40px;
   }
 
@@ -539,7 +701,7 @@ body {
 
 @media (max-width: 688px) {
 
-  .primary-container{
+  .primary-container {
     padding: 24px;
   }
 
