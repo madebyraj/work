@@ -505,8 +505,8 @@ body {
 }
 
 .theme {
-  min-height: 24px;
-  min-width: 24px;
+  height: 24px;
+  width: 24px;
   border-radius: var(--border-radius-200);
   background-color: transparent;
   border: none;
