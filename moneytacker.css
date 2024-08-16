@@ -207,7 +207,7 @@
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
-  
+
 
   /* Shadows */
 
@@ -846,9 +846,9 @@ main {
 }
 
 .full-research:focus {
-  background-color: var(--button-secondary-hover);
-  cursor: var(--cursor-pointer), auto;
   transform: translateY(0px);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 2px;
 }
 
 .questions {
@@ -1025,6 +1025,8 @@ main {
 
 #pr-link:focus {
   transform: translateY(0px);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 2px;
 }
 
 .proto-bg {
@@ -1182,6 +1184,8 @@ main {
 
 #back-to-all:focus {
   transform: translateY(0px);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 2px;
 }
 
 

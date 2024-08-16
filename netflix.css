@@ -207,7 +207,7 @@
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
-  
+
 
   /* Shadows */
 
@@ -415,7 +415,8 @@ body {
   text-decoration: none;
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
-  color: var(--link-primary-hover);
+  font-weight: var(--fontWeights-medium);
+  color: var(--link-primary);
   transition: 300ms ease-out;
 }
 
@@ -423,11 +424,6 @@ body {
   cursor: var(--cursor-pointer), auto;
   color: var(--link-primary-hover);
   text-decoration: 2px underline solid var(--link-primary-hover);
-}
-
-.link-to-video:focus {
-  background-color: var(--button-primary-active);
-  transform: translateY(0px);
 }
 
 #finish {
@@ -475,6 +471,8 @@ body {
 
 #back-to-all:focus {
   transform: translateY(0px);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 2px;
 }
 
 

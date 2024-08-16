@@ -207,7 +207,7 @@
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
-  
+
 
   /* Shadows */
 
@@ -1084,11 +1084,11 @@ body {
 
 #back-to-all:focus {
   transform: translateY(0px);
+  outline: 0.2rem solid var(--link-primary-hover);
+  outline-offset: 2px;
 }
 
-@media (max-width: 1400px) {
-
-}
+@media (max-width: 1400px) {}
 
 @media (max-width: 1024px) {
 
