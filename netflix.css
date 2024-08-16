@@ -59,9 +59,9 @@
   --surface-layer-02-hover: #1F2233;
   --surface-layer-03-hover: #2B2F40;
 
-  --border-subtle-01: #1F2233;
-  --border-subtle-02: #2B2F40;
-  --border-subtle-03: #3C3F4F;
+  --border-subtle-01: #2B2F40;
+  --border-subtle-02: #3C3F4F;
+  --border-subtle-03: #696C7D;
 
   --background-main: #090B12;
 
@@ -420,9 +420,9 @@ body {
 }
 
 .link-to-video:hover {
- cursor: var(--cursor-pointer), auto;
+  cursor: var(--cursor-pointer), auto;
   color: var(--link-primary-hover);
-  text-decoration: 2px underline dashed var(--link-primary-hover);
+  text-decoration: 2px underline solid var(--link-primary-hover);
 }
 
 .link-to-video:focus {
@@ -454,20 +454,19 @@ body {
   margin: auto;
   width: max-content;
   font-weight: var(--fontWeights-medium);
-  color: var(--link-primary);
+  color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-18);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 16px;
-  border: 2px dashed var(--button-secondary);
+  background-color: var(--button-secondary);
   border-radius: var(--border-radius-600);
   text-decoration: none;
   transition: 200ms ease-out;
 }
 
 #back-to-all:hover {
-  color: var(--link-primary-hover);
   background-color: var(--button-secondary-hover);
   cursor: var(--cursor-pointer), auto;
 }
@@ -478,9 +477,7 @@ body {
 
 
 
-@media (max-width: 1400px) {
-
-}
+@media (max-width: 1400px) {}
 
 
 

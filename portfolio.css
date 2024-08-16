@@ -59,9 +59,9 @@
   --surface-layer-02-hover: #1F2233;
   --surface-layer-03-hover: #2B2F40;
 
-  --border-subtle-01: #1F2233;
-  --border-subtle-02: #2B2F40;
-  --border-subtle-03: #3C3F4F;
+  --border-subtle-01: #2B2F40;
+  --border-subtle-02: #3C3F4F;
+  --border-subtle-03: #696C7D;
 
   --background-main: #090B12;
 
@@ -398,7 +398,7 @@ body {
   backdrop-filter: saturate(180%) blur(20px);
   border-radius: var(--border-radius-800);
   min-height: 56px;
-  box-shadow: var(--shadows-base);
+  box-shadow: var(--shadows-sm);
   border: 1px solid var(--border-subtle-01);
 }
 
@@ -1072,20 +1072,19 @@ body {
   margin: auto;
   width: max-content;
   font-weight: var(--fontWeights-medium);
-  color: var(--link-primary);
+  color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-18);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 16px;
-  border: 2px dashed var(--button-secondary);
+  background-color: var(--button-secondary);
   border-radius: var(--border-radius-600);
   text-decoration: none;
   transition: 200ms ease-out;
 }
 
 #back-to-all:hover {
-  color: var(--link-primary-hover);
   background-color: var(--button-secondary-hover);
   cursor: var(--cursor-pointer), auto;
 }
@@ -1093,7 +1092,6 @@ body {
 
 @media (max-width: 1400px) {
 
-  /* about section */
 }
 
 @media (max-width: 1024px) {
@@ -1132,10 +1130,6 @@ body {
     align-items: center;
     justify-content: center;
   }
-
-  /* .let-connect {
-    font-size: var(--fontSizes-18);
-  } */
 
   #selected {
     font-size: var(--fontSizes-40);
