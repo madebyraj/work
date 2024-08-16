@@ -27,12 +27,12 @@
   --button-primary-hover: #3182CE;
   --button-primary-active: #3182CE;
 
-  --button-secondary: #373741;
-  --button-secondary-hover: #373741;
-  --button-secondary-active: #373741;
+  --button-secondary: #1F2233;
+  --button-secondary-hover: #2B2F40;
+  --button-secondary-active: #2B2F40;
 
-  --secondary-button-text-dark: #3182CE;
-  --secondary-button-icon-dark: #3182CE;
+  --secondary-button-text-dark: #FFFFFF;
+  --secondary-button-icon-dark: #FFFFFF;
 
   --primary-button-text: #FFFFFF;
   --primary-button-icon: #FFFFFF;
@@ -44,26 +44,26 @@
   --link-primary-hover: #4299E1;
 
   --heading-primary: #FFFFFF;
-  --heading-primary-01: #B2B2BA;
-  --heading-primary-02: #43434E;
+  --heading-primary-01: #A4A8BA;
+  --heading-primary-02: #3C3F4F;
 
   --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100: #B2B2BA;
-  --paragraph-primary-200: #43434E;
+  --paragraph-primary-100: #A4A8BA;
+  --paragraph-primary-200: #3C3F4F;
 
-  --surface-layer-01: #101013;
-  --surface-layer-02: #1D1D23;
-  --surface-layer-03: #373741;
+  --surface-layer-01: #090B12;
+  --surface-layer-02: #141724;
+  --surface-layer-03: #1F2233;
 
-  --surface-layer-01-hover: #2C2B34;
-  --surface-layer-02-hover: #101013;
-  --surface-layer-03-hover: #2C2B34;
+  --surface-layer-01-hover: #141724;
+  --surface-layer-02-hover: #1F2233;
+  --surface-layer-03-hover: #2B2F40;
 
-  --border-subtle-01: #373741;
-  --border-subtle-02: #43434E;
-  --border-subtle-03: #73737E;
+  --border-subtle-01: #1F2233;
+  --border-subtle-02: #2B2F40;
+  --border-subtle-03: #3C3F4F;
 
-  --background-main: #101013;
+  --background-main: #090B12;
 
   --glass-dark: rgba(35, 35, 41, 0.80);
 
@@ -80,12 +80,12 @@
   --button-primary-hover-light: #2B6CB0;
   --button-primary-active-light: #2B6CB0;
 
-  --button-secondary-light: #E5E5EB;
-  --button-secondary-hover-light: #E5E5EB;
-  --button-secondary-active-light: #E5E5EB;
+  --button-secondary-light: #F2F3F7;
+  --button-secondary-hover-light: #E1E3EB;
+  --button-secondary-active-light: #E1E3EB;
 
-  --secondary-button-text-light: #2B6CB0;
-  --secondary-button-icon-light: #2B6CB0;
+  --secondary-button-text-light: #000000;
+  --secondary-button-icon-light: #000000;
 
   --button-text-light: #000000;
   --button-icon-light: #000000;
@@ -94,24 +94,24 @@
   --link-primary-hover-light: #2C5282;
 
   --heading-primary-light: #000000;
-  --heading-primary-01-light: #373741;
-  --heading-primary-02-light: #73737E;
+  --heading-primary-01-light: #2B2F40;
+  --heading-primary-02-light: #696C7D;
 
   --paragraph-primary-light: #000000;
-  --paragraph-primary-100-light: #373741;
-  --paragraph-primary-200-light: #73737E;
+  --paragraph-primary-100-light: #2B2F40;
+  --paragraph-primary-200-light: #696C7D;
 
   --surface-layer-01-light: #FFFFFF;
-  --surface-layer-02-light: #F4F4F8;
-  --surface-layer-03-light: #E5E5EB;
+  --surface-layer-02-light: #F2F3F7;
+  --surface-layer-03-light: #E1E3EB;
 
-  --surface-layer-01-hover-light: #F4F4F8;
-  --surface-layer-02-hover-light: #E5E5EB;
-  --surface-layer-03-hover-light: #D8D8DE;
+  --surface-layer-01-hover-light: #F2F3F7;
+  --surface-layer-02-hover-light: #E1E3EB;
+  --surface-layer-03-hover-light: #CCCFDE;
 
-  --border-subtle-01-light: #E5E5EB;
-  --border-subtle-02-light: #B2B2BA;
-  --border-subtle-03-light: #43434E;
+  --border-subtle-01-light: #E1E3EB;
+  --border-subtle-02-light: #A4A8BA;
+  --border-subtle-03-light: #3C3F4F;
 
   --background-main-light: #FFFFFF;
 
@@ -349,7 +349,6 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
-  /* font-feature-settings: 'ss02' on; */
 }
 
 html {
@@ -357,7 +356,7 @@ html {
 }
 
 body {
-  background-color: var(--background-main);
+  background-color: var(--surface-layer-01);
   cursor: var(--cursor-default), auto;
 }
 
