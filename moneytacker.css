@@ -24,15 +24,15 @@
   --primary: #3182CE;
 
   --button-primary: #3182CE;
-  --button-primary-hover: #3182CE;
-  --button-primary-active: #3182CE;
+  --button-primary-hover: #4299E1;
+  --button-primary-active: #4299E1;
 
-  --button-secondary: #1F2233;
-  --button-secondary-hover: #2B2F40;
-  --button-secondary-active: #2B2F40;
+  --button-secondary: #141724;
+  --button-secondary-hover: #1F2233;
+  --button-secondary-active: #1F2233;
 
-  --secondary-button-text-dark: #FFFFFF;
-  --secondary-button-icon-dark: #FFFFFF;
+  --secondary-button-text-dark: #4299E1;
+  --secondary-button-icon-dark: #4299E1;
 
   --primary-button-text: #FFFFFF;
   --primary-button-icon: #FFFFFF;
@@ -40,7 +40,7 @@
   --button-text: #FFFFFF;
   --button-icon: #FFFFFF;
 
-  --link-primary: #4299E1;
+  --link-primary: #3182CE;
   --link-primary-hover: #4299E1;
 
   --heading-primary: #FFFFFF;
@@ -77,20 +77,20 @@
   --primary-light: #2B6CB0;
 
   --button-primary-light: #2B6CB0;
-  --button-primary-hover-light: #2B6CB0;
-  --button-primary-active-light: #2B6CB0;
+  --button-primary-hover-light: #2C5282;
+  --button-primary-active-light: #2C5282;
 
   --button-secondary-light: #F2F3F7;
   --button-secondary-hover-light: #E1E3EB;
   --button-secondary-active-light: #E1E3EB;
 
-  --secondary-button-text-light: #000000;
-  --secondary-button-icon-light: #000000;
+  --secondary-button-text-light: #2C5282;
+  --secondary-button-icon-light: #2C5282;
 
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #2C5282;
+  --link-primary-light: #2B6CB0;
   --link-primary-hover-light: #2C5282;
 
   --heading-primary-light: #000000;
@@ -367,9 +367,9 @@ main {
 .indicator {
   position: fixed;
   width: 0;
-  height: 3.2px;
+  height: 4px;
   z-index: 100;
-  background-color: var(--partition-dark);
+  background-color: var(--primary);
 }
 
 #cover-mt {
@@ -832,16 +832,23 @@ main {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 200ms ease-out;
+  transition: 300ms ease-out;
   gap: 8px;
   background-color: var(--button-secondary);
-  padding: 10px 16px;
-  border-radius: var(--border-radius-600);
+  padding: 12px 16px;
+  border-radius: var(--border-radius-400);
 }
 
 .full-research:hover {
   background-color: var(--button-secondary-hover);
   cursor: var(--cursor-pointer), auto;
+  transform: translateY(-2px);
+}
+
+.full-research:focus {
+  background-color: var(--button-secondary-hover);
+  cursor: var(--cursor-pointer), auto;
+  transform: translateY(0px);
 }
 
 .questions {
@@ -1002,17 +1009,22 @@ main {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 200ms ease-out;
+  transition: 300ms ease-out;
   gap: 8px;
   margin-bottom: 16px;
-  padding: 10px 16px;
+  padding: 12px 16px;
   background-color: var(--button-secondary);
-  border-radius: var(--border-radius-600);
+  border-radius: var(--border-radius-400);
 }
 
 #pr-link:hover {
   background-color: var(--button-secondary-hover);
   cursor: var(--cursor-pointer), auto;
+  transform: translateY(-2px);
+}
+
+#pr-link:focus {
+  transform: translateY(0px);
 }
 
 .proto-bg {
@@ -1153,17 +1165,23 @@ main {
   font-size: var(--fontSizes-18);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 16px;
+  justify-content: center;
+  padding: 12px 16px;
   background-color: var(--button-secondary);
-  border-radius: var(--border-radius-600);
+  border-radius: var(--border-radius-400);
   text-decoration: none;
-  transition: 200ms ease-out;
+  transition: 300ms ease-out;
+  gap: 8px;
 }
 
 #back-to-all:hover {
   background-color: var(--button-secondary-hover);
   cursor: var(--cursor-pointer), auto;
+  transform: translateY(-2px);
+}
+
+#back-to-all:focus {
+  transform: translateY(0px);
 }
 
 
