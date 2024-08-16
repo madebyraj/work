@@ -148,9 +148,9 @@
   /* Fonts */
 
 
-  --fonts-heading: New York, Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: SF Pro Text, Inter Variable, -apple-system, BlinkMacSystemFont, Inter Variable, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -169,7 +169,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.0125em;
+  --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -404,7 +404,7 @@
   letter-spacing: var(--letterSpacings-normal);
   font-weight: var(--fontWeights-normal);
   line-height: var(--lineHeights-short);
-  font-feature-settings: 'ss02' on;
+  /* font-feature-settings: 'ss02' on; */
 }
 
 html {
@@ -435,7 +435,7 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
 }
 
 #side-navbar {
@@ -464,7 +464,7 @@ main {
   padding: 6px 8px;
   font-size: var(--fontSizes-16);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   color: var(--paragraph-primary);
   text-decoration: none;
   min-width: 128px;
@@ -533,6 +533,7 @@ main {
 .cs {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
+  font-weight: var(--fontWeights-medium);
   color: var(--paragraph-primary-100);
   letter-spacing: var(--letterSpacings-wide);
   margin-bottom: 16px;

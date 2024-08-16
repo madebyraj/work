@@ -318,9 +318,9 @@
   /* Fonts */
 
 
-  --fonts-heading: New York, Whyte Variable, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: SF Pro Text, Inter Variable, -apple-system, BlinkMacSystemFont, Inter Variable, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-mono: Whyte Mono, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --fonts-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
   /* Fonts Weights */
@@ -339,7 +339,7 @@
 
 
   --letterSpacings-tighter: -0.05em;
-  --letterSpacings-tight: -0.0125em;
+  --letterSpacings-tight: -0.025em;
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
@@ -662,7 +662,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -685,7 +685,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -707,7 +707,7 @@ body {
   color: var(--paragraph-primary);
   text-decoration: none;
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   transition: 100ms ease-out;
   padding: 6px 8px;
   border-radius: var(--border-radius-400);
@@ -791,6 +791,7 @@ body {
 .eyebrow-text {
   font-family: var(--fonts-mono);
   font-size: var(--fontSizes-18);
+  font-weight: var(--fontWeights-medium);
   color: var(--paragraph-primary-100);
   letter-spacing: var(--letterSpacings-wide);
   margin-bottom: 12px;
@@ -808,7 +809,6 @@ body {
 }
 
 #occupation {
-  font-family: New York Italic, serif;
   font-style: italic;
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
@@ -816,7 +816,6 @@ body {
 }
 
 #focus-on {
-  font-family: New York Italic, serif;
   font-style: italic;
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
@@ -828,7 +827,6 @@ body {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
   font-family: var(--fonts-body);
-  letter-spacing: var(--letterSpacings-tight);
 }
 
 #navbutton {
@@ -853,6 +851,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--shadows-base);
 }
 
 .let-connect:hover {
@@ -922,7 +921,7 @@ body {
 .pro-cover {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -957,6 +956,7 @@ body {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
   font-size: var(--fontSizes-14);
+  font-weight: var(--fontWeights-medium);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
   letter-spacing: var(--letterSpacings-wide);
@@ -1035,7 +1035,7 @@ body {
 .article-cover {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -1244,7 +1244,7 @@ body {
   border: 2px solid var();
   width: 100%;
   height: auto;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
