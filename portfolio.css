@@ -163,7 +163,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 600;
+  --fontWeights-bold: 650;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -591,7 +591,7 @@ body {
 .heading {
   text-align: center;
   font-size: var(--fontSizes-96);
-  max-width: 512px;
+  max-width: 588px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -1135,7 +1135,7 @@ body {
 
   .heading {
     font-size: var(--fontSizes-72);
-    max-width: 400px;
+    max-width: 448px;
   }
 
   .para {
