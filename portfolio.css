@@ -591,11 +591,11 @@ body {
 .heading {
   text-align: center;
   font-size: var(--fontSizes-96);
-  max-width: 712px;
+  max-width: 696px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  letter-spacing: var(--letterSpacings-tighter);
   line-height: var(--lineHeights-none);
 }
 
@@ -1263,7 +1263,7 @@ body {
   }
 
   .heading {
-    font-size: var(--fontSizes-72);
+    font-size: var(--fontSizes-56);
     text-align: left;
   }
 
