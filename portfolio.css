@@ -163,7 +163,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 700;
+  --fontWeights-bold: 600;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -583,32 +583,25 @@ body {
   min-width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: start;
-  justify-content: start;
-}
-
-.eyebrow-text {
-  font-family: var(--fonts-mono);
-  font-size: var(--fontSizes-18);
-  font-weight: var(--fontWeights-medium);
-  color: var(--paragraph-primary-100);
-  letter-spacing: var(--letterSpacings-wide);
-  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 .heading {
-  max-width: 752px;
-  font-size: var(--fontSizes-56);
+  text-align: center;
+  font-size: var(--fontSizes-96);
+  max-width: 712px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-shorter);
-  margin-bottom: 12px;
+  line-height: var(--lineHeights-none);
 }
 
 .para {
-  max-width: 752px;
+  text-align: center;
+  max-width: 712px;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
   font-family: var(--fonts-body);
@@ -616,10 +609,10 @@ body {
 }
 
 #navbutton {
-  margin-top: 40px;
+  margin-top: 24px;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
 }
 
 .let-connect {
@@ -1141,7 +1134,8 @@ body {
   }
 
   .heading {
-    font-size: var(--fontSizes-48);
+    font-size: var(--fontSizes-72);
+    max-width: 512px;
   }
 
   .para {
@@ -1263,19 +1257,22 @@ body {
     max-width: 336px;
   }
 
-  .eyebrow-text {
-    font-size: var(--fontSizes-16);
+  .main {
+    align-items: start;
+    justify-content: start;
   }
 
   .heading {
-    font-size: var(--fontSizes-40);
+    font-size: var(--fontSizes-72);
+    text-align: left;
   }
 
   .para {
-    font-size: var(--fontSizes-20);
+    text-align: left;
   }
 
   #navbutton {
+    margin-top: 8px;
     width: 100%;
   }
 
