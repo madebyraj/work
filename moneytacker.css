@@ -124,8 +124,8 @@
   /* Fonts */
 
 
-  --fonts-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -406,7 +406,7 @@ main {
   transition: 100ms ease-out;
   padding: 6px 8px;
   font-size: var(--fontSizes-16);
-  font-weight: var(--fontWeights-semibold);
+  font-weight: var(--fontWeights-medium);
   font-family: var(--fonts-body);
   color: var(--paragraph-primary);
   text-decoration: none;
@@ -826,8 +826,8 @@ main {
   color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
+  font-weight: var(--fontWeights-semibold);
+  line-height: var(--lineHeights-6);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1003,8 +1003,8 @@ main {
   color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-normal);
+  font-weight: var(--fontWeights-semibold);
+  line-height: var(--lineHeights-6);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1162,7 +1162,8 @@ main {
 #back-to-all {
   margin: auto;
   width: max-content;
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-semibold);
+  line-height: var(--lineHeights-6);
   color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-18);
   display: flex;

@@ -1,3 +1,29 @@
+/* Base Fonts */
+
+
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('./assets/Fonts/Inter-var.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Italic Variable';
+  src: url('./assets/Fonts/Inter-italic-var.woff2') format('woff2');
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
 /* Sementics Variables */
 
 
@@ -124,8 +150,8 @@
   /* Fonts */
 
 
-  --fonts-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-heading: Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -586,6 +612,7 @@ body {
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
   font-family: var(--fonts-body);
+  font-weight: var(--fontWeights-medium);
 }
 
 #navbutton {
@@ -604,6 +631,7 @@ body {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-body);
   font-weight: var(--fontWeights-semibold);
+  line-height: var(--lineHeights-6);
   color: var(--primary-button-text);
   text-align: center;
   transition: 300ms ease-out;
@@ -1062,7 +1090,8 @@ body {
 #back-to-all {
   margin: auto;
   width: max-content;
-  font-weight: var(--fontWeights-medium);
+  font-weight: var(--fontWeights-semibold);
+  line-height: var(--lineHeights-6);
   color: var(--secondary-button-text-dark);
   font-size: var(--fontSizes-18);
   display: flex;
@@ -1244,6 +1273,14 @@ body {
 
   .para {
     font-size: var(--fontSizes-20);
+  }
+
+  #navbutton {
+    width: 100%;
+  }
+
+  .let-connect {
+    width: 100%;
   }
 
   #scroll {
