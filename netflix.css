@@ -137,7 +137,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 620;
+  --fontWeights-bold: 625;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -204,6 +204,7 @@
   --fontSizes-48: 3rem;
   --fontSizes-56: 3.5rem;
   --fontSizes-72: 4.5rem;
+  --fontSizes-88: 5.5rem;
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
