@@ -591,11 +591,11 @@ body {
 .heading {
   text-align: center;
   font-size: var(--fontSizes-96);
-  max-width: 696px;
+  max-width: 512px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tighter);
+  letter-spacing: var(--letterSpacings-tight);
   line-height: var(--lineHeights-none);
 }
 
@@ -1135,7 +1135,7 @@ body {
 
   .heading {
     font-size: var(--fontSizes-72);
-    max-width: 512px;
+    max-width: 400px;
   }
 
   .para {
@@ -1144,10 +1144,7 @@ body {
 
 
   #navbutton {
-    margin-top: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 16px;
   }
 
   #selected {
@@ -1264,6 +1261,7 @@ body {
 
   .heading {
     font-size: var(--fontSizes-56);
+    max-width: 344px;
     text-align: left;
   }
 
