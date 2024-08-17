@@ -163,7 +163,7 @@
   --fontWeights-normal: 400;
   --fontWeights-medium: 500;
   --fontWeights-semibold: 600;
-  --fontWeights-bold: 650;
+  --fontWeights-bold: 620;
   --fontWeights-extrabold: 800;
   --fontWeights-black: 900;
 
@@ -230,6 +230,7 @@
   --fontSizes-48: 3rem;
   --fontSizes-56: 3.5rem;
   --fontSizes-72: 4.5rem;
+  --fontSizes-88: 5.5rem;
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
@@ -562,8 +563,8 @@ body {
   display: grid;
   justify-content: center;
   align-items: start;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 128px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 80px;
   padding: 64px 128px;
   max-width: 1600px;
   margin: auto;
@@ -576,22 +577,20 @@ body {
   border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
-  order: 2;
 }
 
 .main {
   min-width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   gap: 16px;
 }
 
 .heading {
-  text-align: center;
-  font-size: var(--fontSizes-96);
-  max-width: 588px;
+  font-size: var(--fontSizes-88);
+  max-width: 544px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -600,8 +599,6 @@ body {
 }
 
 .para {
-  text-align: center;
-  max-width: 712px;
   font-size: var(--fontSizes-24);
   color: var(--paragraph-primary);
   font-family: var(--fonts-body);
@@ -611,8 +608,8 @@ body {
 #navbutton {
   margin-top: 24px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .let-connect {
@@ -1122,16 +1119,13 @@ body {
 
   .hero-section {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
-    padding: 48px 40px;
-    gap: 32px;
+    padding: 48px 40px 32px;
+    gap: 48px;
     margin: 0px;
   }
 
-  .hero-img {
-    max-width: 416px;
-  }
 
   .heading {
     font-size: var(--fontSizes-72);
@@ -1139,9 +1133,9 @@ body {
   }
 
   .para {
+    max-width: 448px;
     font-size: var(--fontSizes-24);
   }
-
 
   #navbutton {
     margin-top: 16px;
@@ -1246,27 +1240,13 @@ body {
 
   .hero-section {
     height: fit-content;
-    padding: 40px 24px;
-    gap: 24px;
-  }
-
-  .hero-img {
-    max-width: 336px;
-  }
-
-  .main {
-    align-items: start;
-    justify-content: start;
+    padding: 40px 24px 24px;
+    gap: 32px;
   }
 
   .heading {
     font-size: var(--fontSizes-56);
     max-width: 344px;
-    text-align: left;
-  }
-
-  .para {
-    text-align: left;
   }
 
   #navbutton {
