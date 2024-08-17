@@ -21,18 +21,18 @@
   /* Dark mode */
 
 
-  --primary: #3182CE;
+  --primary: #087FE7;
 
-  --button-primary: #3182CE;
-  --button-primary-hover: #4299E1;
-  --button-primary-active: #4299E1;
+  --button-primary: #087FE7;
+  --button-primary-hover: #0896E7;
+  --button-primary-active: #0896E7;
 
-  --button-secondary: #141724;
-  --button-secondary-hover: #1F2233;
-  --button-secondary-active: #1F2233;
+  --button-secondary: #1D1F23;
+  --button-secondary-hover: #2B2D34;
+  --button-secondary-active: #2B2D34;
 
-  --secondary-button-text-dark: #4299E1;
-  --secondary-button-icon-dark: #4299E1;
+  --secondary-button-text-dark: #0896E7;
+  --secondary-button-icon-dark: #0896E7;
 
   --primary-button-text: #FFFFFF;
   --primary-button-icon: #FFFFFF;
@@ -40,30 +40,30 @@
   --button-text: #FFFFFF;
   --button-icon: #FFFFFF;
 
-  --link-primary: #3182CE;
-  --link-primary-hover: #4299E1;
+  --link-primary: #087FE7;
+  --link-primary-hover: #0896E7;
 
   --heading-primary: #FFFFFF;
-  --heading-primary-01: #A4A8BA;
-  --heading-primary-02: #3C3F4F;
+  --heading-primary-01: #B2B4BA;
+  --heading-primary-02: #43464E;
 
   --paragraph-primary: #FFFFFF;
-  --paragraph-primary-100: #A4A8BA;
-  --paragraph-primary-200: #3C3F4F;
+  --paragraph-primary-100: #B2B4BA;
+  --paragraph-primary-200: #43464E;
 
-  --surface-layer-01: #090B12;
-  --surface-layer-02: #141724;
-  --surface-layer-03: #1F2233;
+  --surface-layer-01: #101113;
+  --surface-layer-02: #1D1F23;
+  --surface-layer-03: #2B2D34;
 
-  --surface-layer-01-hover: #141724;
-  --surface-layer-02-hover: #1F2233;
-  --surface-layer-03-hover: #2B2F40;
+  --surface-layer-01-hover: #1D1F23;
+  --surface-layer-02-hover: #2B2D34;
+  --surface-layer-03-hover: #373A41;
 
-  --border-subtle-01: #2B2F40;
-  --border-subtle-02: #3C3F4F;
-  --border-subtle-03: #696C7D;
+  --border-subtle-01: #2B2D34;
+  --border-subtle-02: #373A41;
+  --border-subtle-03: #43464E;
 
-  --background-main: #090B12;
+  --background-main: #101113;
 
   --glass-dark: rgba(35, 35, 41, 0.80);
 
@@ -74,44 +74,44 @@
   /* Light Mode */
 
 
-  --primary-light: #2B6CB0;
+  --primary-light: #055AC2;
 
-  --button-primary-light: #2B6CB0;
-  --button-primary-hover-light: #2C5282;
-  --button-primary-active-light: #2C5282;
+  --button-primary-light: #055AC2;
+  --button-primary-hover-light: #133681;
+  --button-primary-active-light: #133681;
 
-  --button-secondary-light: #F2F3F7;
-  --button-secondary-hover-light: #E1E3EB;
-  --button-secondary-active-light: #E1E3EB;
+  --button-secondary-light: #F4F5F8;
+  --button-secondary-hover-light: #E5E7EB;
+  --button-secondary-active-light: #E5E7EB;
 
-  --secondary-button-text-light: #2C5282;
-  --secondary-button-icon-light: #2C5282;
+  --secondary-button-text-light: #133681;
+  --secondary-button-icon-light: #133681;
 
   --button-text-light: #000000;
   --button-icon-light: #000000;
 
-  --link-primary-light: #2B6CB0;
-  --link-primary-hover-light: #2C5282;
+  --link-primary-light: #055AC2;
+  --link-primary-hover-light: #133681;
 
   --heading-primary-light: #000000;
-  --heading-primary-01-light: #2B2F40;
-  --heading-primary-02-light: #696C7D;
+  --heading-primary-01-light: #373A41;
+  --heading-primary-02-light: #73767E;
 
   --paragraph-primary-light: #000000;
-  --paragraph-primary-100-light: #2B2F40;
-  --paragraph-primary-200-light: #696C7D;
+  --paragraph-primary-100-light: #373A41;
+  --paragraph-primary-200-light: #73767E;
 
   --surface-layer-01-light: #FFFFFF;
-  --surface-layer-02-light: #F2F3F7;
-  --surface-layer-03-light: #E1E3EB;
+  --surface-layer-02-light: #F4F5F8;
+  --surface-layer-03-light: #E5E7EB;
 
-  --surface-layer-01-hover-light: #F2F3F7;
-  --surface-layer-02-hover-light: #E1E3EB;
-  --surface-layer-03-hover-light: #CCCFDE;
+  --surface-layer-01-hover-light: #F4F5F8;
+  --surface-layer-02-hover-light: #E5E7EB;
+  --surface-layer-03-hover-light: #D8DADE;
 
-  --border-subtle-01-light: #E1E3EB;
-  --border-subtle-02-light: #A4A8BA;
-  --border-subtle-03-light: #3C3F4F;
+  --border-subtle-01-light: #E5E7EB;
+  --border-subtle-02-light: #B2B4BA;
+  --border-subtle-03-light: #43464E;
 
   --background-main-light: #FFFFFF;
 
@@ -151,7 +151,6 @@
   --letterSpacings-normal: 0;
   --letterSpacings-wide: 0.025em;
   --letterSpacings-wider: 0.05em;
-  --letterSpacings-widest: 0.1em;
 
 
 
@@ -203,8 +202,9 @@
   --fontSizes-40: 2.5rem;
   --fontSizes-48: 3rem;
   --fontSizes-56: 3.5rem;
+  --fontSizes-64: 4rem;
   --fontSizes-72: 4.5rem;
-  --fontSizes-88: 5.5rem;
+  --fontSizes-80: 5rem;
   --fontSizes-96: 6rem;
   --fontSizes-128: 8rem;
 
