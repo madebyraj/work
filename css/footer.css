@@ -1,0 +1,196 @@
+/* Linked CSS Files */
+
+@import url('./variables.css');
+
+
+
+
+
+
+
+
+/* footer Section */
+
+
+.footer {
+    padding: 64px 128px;
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.foot-sec-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.designed-coded {
+    color: var(--paragraph-primary-100);
+    font-size: var(--fontSizes-18);
+    font-family: var(--fonts-body);
+    text-align: center;
+}
+
+#bottom-text {
+    font-size: var(--fontSizes-32);
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-bold);
+    letter-spacing: var(--letterSpacings-normal);
+    line-height: var(--lineHeights-shorter);
+    color: var(--heading-primary);
+    text-align: center;
+}
+
+.foot-sec-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.bottom-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+#instagram-logo {
+    border-radius: var(--border-radius-200);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-out;
+    text-decoration: none;
+}
+
+#instagram-logo:hover {
+    transform: scale(1.2);
+    cursor: var(--cursor-pointer), auto;
+}
+
+#instagram-logo:focus {
+    transform: scale(1);
+    outline: 0.2rem solid var(--link-primary-hover);
+    outline-offset: 4px;
+}
+
+#linkedin-logo {
+    border-radius: var(--border-radius-200);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-out;
+    text-decoration: none;
+}
+
+#linkedin-logo:hover {
+    transform: scale(1.2);
+    cursor: var(--cursor-pointer), auto;
+}
+
+#linkedin-logo:focus {
+    transform: scale(1);
+    outline: 0.2rem solid var(--link-primary-hover);
+    outline-offset: 4px;
+}
+
+#mail-logo {
+    border-radius: var(--border-radius-200);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-out;
+    text-decoration: none;
+}
+
+#mail-logo:hover {
+    transform: scale(1.2);
+    cursor: var(--cursor-pointer), auto;
+}
+
+#mail-logo:focus {
+    transform: scale(1);
+    outline: 0.2rem solid var(--link-primary-hover);
+    outline-offset: 4px;
+}
+
+#twitter-logo {
+    border-radius: var(--border-radius-200);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-out;
+    text-decoration: none;
+}
+
+#twitter-logo:hover {
+    transform: scale(1.2);
+    cursor: var(--cursor-pointer), auto;
+}
+
+#twitter-logo:focus {
+    transform: scale(1);
+    outline: 0.2rem solid var(--link-primary-hover);
+    outline-offset: 4px;
+}
+
+
+
+/* Small Desktop */
+
+@media (max-width: 1400px) {}
+
+
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+
+    .footer {
+        padding: 48px 40px;
+    }
+
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 688px) {
+
+    .footer {
+        padding: 40px 24px;
+    }
+
+    #bottom-text {
+        font-size: var(--fontSizes-24);
+    }
+
+    .social {
+        gap: 32px;
+    }
+
+    .bottom-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+}

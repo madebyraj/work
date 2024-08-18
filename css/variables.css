@@ -1,0 +1,233 @@
+@import url('./font-face.css');
+
+
+
+
+:root {
+
+    /* Cursors */
+
+    --cursor-default: url(/assets/Cursor/cursor-default.svg);
+    --cursor-pointer: url(/assets/Cursor/cursor-pointer.svg);
+    --cursor-grab: url(/assets/Cursor/cursor-grab.svg);
+    --cursor-grabbed: url(/assets/Cursor/cursor-grabbed.svg);
+    --cursor-text: url(/assets/Cursor/curson-text.svg);
+
+    /* Icons */
+
+
+    --logo-dark: url(/assets/Icons/logo-dark-mode.svg);
+    --logo-light: url(/assets/Icons/logo-light-mode.svg);
+
+
+    /* Dark mode */
+
+
+    --primary: #087FE7;
+
+    --button-primary: #087FE7;
+    --button-primary-hover: #0896E7;
+    --button-primary-active: #0896E7;
+
+    --button-secondary: #1D1F23;
+    --button-secondary-hover: #2B2D34;
+    --button-secondary-active: #2B2D34;
+
+    --secondary-button-text-dark: #0896E7;
+    --secondary-button-icon-dark: #0896E7;
+
+    --primary-button-text: #FFFFFF;
+    --primary-button-icon: #FFFFFF;
+
+    --button-text: #FFFFFF;
+    --button-icon: #FFFFFF;
+
+    --link-primary: #087FE7;
+    --link-primary-hover: #0896E7;
+
+    --heading-primary: #FFFFFF;
+    --heading-primary-01: #B2B4BA;
+    --heading-primary-02: #43464E;
+
+    --paragraph-primary: #FFFFFF;
+    --paragraph-primary-100: #B2B4BA;
+    --paragraph-primary-200: #43464E;
+
+    --surface-layer-01: #101113;
+    --surface-layer-02: #1D1F23;
+    --surface-layer-03: #2B2D34;
+
+    --surface-layer-01-hover: #1D1F23;
+    --surface-layer-02-hover: #2B2D34;
+    --surface-layer-03-hover: #373A41;
+
+    --border-subtle-01: #2B2D34;
+    --border-subtle-02: #373A41;
+    --border-subtle-03: #43464E;
+
+    --background-main: #101113;
+
+    --glass-dark: rgba(35, 35, 41, 0.80);
+
+    --drop-shadow-dark: 0.5px 1px 0px 0px #595964 inset, -0.5px -1px 0px 0px #2F2F36 inset;
+
+
+
+    /* Light Mode */
+
+
+    --primary-light: #055AC2;
+
+    --button-primary-light: #055AC2;
+    --button-primary-hover-light: #133681;
+    --button-primary-active-light: #133681;
+
+    --button-secondary-light: #F4F5F8;
+    --button-secondary-hover-light: #E5E7EB;
+    --button-secondary-active-light: #E5E7EB;
+
+    --secondary-button-text-light: #133681;
+    --secondary-button-icon-light: #133681;
+
+    --button-text-light: #000000;
+    --button-icon-light: #000000;
+
+    --link-primary-light: #055AC2;
+    --link-primary-hover-light: #133681;
+
+    --heading-primary-light: #000000;
+    --heading-primary-01-light: #373A41;
+    --heading-primary-02-light: #73767E;
+
+    --paragraph-primary-light: #000000;
+    --paragraph-primary-100-light: #373A41;
+    --paragraph-primary-200-light: #73767E;
+
+    --surface-layer-01-light: #FFFFFF;
+    --surface-layer-02-light: #F4F5F8;
+    --surface-layer-03-light: #E5E7EB;
+
+    --surface-layer-01-hover-light: #F4F5F8;
+    --surface-layer-02-hover-light: #E5E7EB;
+    --surface-layer-03-hover-light: #D8DADE;
+
+    --border-subtle-01-light: #E5E7EB;
+    --border-subtle-02-light: #B2B4BA;
+    --border-subtle-03-light: #43464E;
+
+    --background-main-light: #FFFFFF;
+
+    --glass-light: rgba(255, 255, 255, 0.80);
+
+    --drop-shadow-light: 0.5px 1px 0px 0px #CCCCD4 inset, -0.5px -1px 0px 0px #E3E3E9 inset;
+
+
+
+    /* Fonts */
+
+
+    --fonts-heading: Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-body: Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+
+    /* Fonts Weights */
+
+    --fontWeights-thin: 200;
+    --fontWeights-light: 300;
+    --fontWeights-normal: 400;
+    --fontWeights-medium: 500;
+    --fontWeights-semibold: 600;
+    --fontWeights-bold: 625;
+    --fontWeights-extrabold: 800;
+    --fontWeights-black: 900;
+
+
+
+    /* Letter Spacing */
+
+
+    --letterSpacings-tighter: -0.05em;
+    --letterSpacings-tight: -0.025em;
+    --letterSpacings-normal: 0;
+    --letterSpacings-wide: 0.025em;
+    --letterSpacings-wider: 0.05em;
+
+
+
+    /* Line Heights */
+
+
+    --lineHeights-3: .75rem;
+    --lineHeights-4: 1rem;
+    --lineHeights-5: 1.25rem;
+    --lineHeights-6: 1.5rem;
+    --lineHeights-7: 1.75rem;
+    --lineHeights-8: 2rem;
+    --lineHeights-9: 2.25rem;
+    --lineHeights-10: 2.5rem;
+    --lineHeights-normal: normal;
+    --lineHeights-none: 1;
+    --lineHeights-shorter: 1.25;
+    --lineHeights-short: 1.375;
+    --lineHeights-base: 1.5;
+    --lineHeights-tall: 1.625;
+    --lineHeights-taller: 2;
+
+
+
+    /* Border Radius */
+
+
+    --border-radius-none: 0rem;
+    --border-radius-200: 0.25rem;
+    --border-radius-400: 0.5rem;
+    --border-radius-500: 0.625rem;
+    --border-radius-600: 0.75rem;
+    --border-radius-800: 1rem;
+    --border-radius-full: 1000rem;
+
+
+
+    /* Font Sizes */
+
+
+    --fontSizes-10: 0.625rem;
+    --fontSizes-12: 0.75rem;
+    --fontSizes-14: 0.875rem;
+    --fontSizes-16: 1rem;
+    --fontSizes-18: 1.125rem;
+    --fontSizes-20: 1.25rem;
+    --fontSizes-24: 1.5rem;
+    --fontSizes-32: 2rem;
+    --fontSizes-40: 2.5rem;
+    --fontSizes-48: 3rem;
+    --fontSizes-56: 3.5rem;
+    --fontSizes-64: 4rem;
+    --fontSizes-72: 4.5rem;
+    --fontSizes-80: 5rem;
+    --fontSizes-96: 6rem;
+    --fontSizes-128: 8rem;
+
+
+
+    /* Shadows */
+
+
+    --shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    --shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
+    --shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    --shadows-none: none;
+    --shadows-dark-lg: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
+
+
+
+
+}
