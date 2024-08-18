@@ -592,12 +592,12 @@ body {
 
 .heading {
   font-size: var(--fontSizes-80);
-  max-width: 496px;
+  max-width: 448px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
-  line-height: var(--lineHeights-none);
+  line-height: 88px;
 }
 
 .para {
@@ -1131,11 +1131,12 @@ body {
 
   .heading {
     font-size: var(--fontSizes-72);
-    max-width: 448px;
+    line-height: 80px;
+    max-width: 400px;
   }
 
   .para {
-    max-width: 448px;
+    max-width: 400px;
     font-size: var(--fontSizes-24);
   }
 
@@ -1248,7 +1249,8 @@ body {
 
   .heading {
     font-size: var(--fontSizes-56);
-    max-width: 344px;
+    line-height: 64px;
+    max-width: 320px;
   }
 
   #navbutton {
