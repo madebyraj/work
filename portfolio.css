@@ -3,14 +3,16 @@
 
 @font-face {
   font-family: 'Inter Variable';
-  src: url('./assets/Fonts/Inter-var.woff2') format('woff2');
+  src: url('./assets/Fonts/Inter-40/InterVariable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter Italic Variable';
-  src: url('./assets/Fonts/Inter-italic-var.woff2') format('woff2');
+  font-family: 'Inter Variable Italic';
+  src: url('./assets/Fonts/Inter-40/InterVariable-Italic.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: italic;
   font-display: swap;
 }
