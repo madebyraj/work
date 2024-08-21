@@ -13,3 +13,20 @@
     font-style: italic;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Whyte Variable';
+    src: url('/assets/Fonts/abc-whyte-var.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Whyte Mono';
+    src: url('/assets/Fonts/ABCWhyteMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
