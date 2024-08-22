@@ -46,7 +46,7 @@
 @font-face {
     font-family: 'Netflix Sans';
     src: url('/assets/Fonts/netflix-sans-font/NetflixSans-Medium.woff2') format('woff2');
-    font-weight: 500 600;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
@@ -54,7 +54,7 @@
 @font-face {
     font-family: 'Netflix Sans';
     src: url('/assets/Fonts/netflix-sans-font/NetflixSans-Regular.woff2') format('woff2');
-    font-weight: 400;
+    font-weight: 400 500;
     font-style: normal;
     font-display: swap;
 }

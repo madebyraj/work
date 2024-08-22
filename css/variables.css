@@ -29,9 +29,9 @@
     --button-primary-hover: #0896E7;
     --button-primary-active: #0896E7;
 
-    --button-secondary: #1D1F23;
-    --button-secondary-hover: #2B2D34;
-    --button-secondary-active: #2B2D34;
+    --button-secondary: #171921;
+    --button-secondary-hover: #262832;
+    --button-secondary-active: #262832;
 
     --secondary-button-text-dark: #0896E7;
     --secondary-button-icon-dark: #0896E7;
@@ -46,26 +46,26 @@
     --link-primary-hover: #0896E7;
 
     --heading-primary: #FFFFFF;
-    --heading-primary-01: #B2B4BA;
-    --heading-primary-02: #43464E;
+    --heading-primary-01: #ADAFBA;
+    --heading-primary-02: #42444E;
 
     --paragraph-primary: #FFFFFF;
-    --paragraph-primary-100: #B2B4BA;
-    --paragraph-primary-200: #43464E;
+    --paragraph-primary-100: #ADAFBA;
+    --paragraph-primary-200: #42444E;
 
-    --surface-layer-01: #101113;
-    --surface-layer-02: #1D1F23;
-    --surface-layer-03: #2B2D34;
+    --surface-layer-01: #0A0B11;
+    --surface-layer-02: #171921;
+    --surface-layer-03: #262832;
 
-    --surface-layer-01-hover: #1D1F23;
-    --surface-layer-02-hover: #2B2D34;
-    --surface-layer-03-hover: #373A41;
+    --surface-layer-01-hover: #171921;
+    --surface-layer-02-hover: #262832;
+    --surface-layer-03-hover: #333540;
 
-    --border-subtle-01: #2B2D34;
-    --border-subtle-02: #373A41;
-    --border-subtle-03: #43464E;
+    --border-subtle-01: #262832;
+    --border-subtle-02: #333540;
+    --border-subtle-03: #42444E;
 
-    --background-main: #101113;
+    --background-main: #0A0B11;
 
     --glass-dark: rgba(35, 35, 41, 0.80);
 
@@ -82,9 +82,9 @@
     --button-primary-hover-light: #133681;
     --button-primary-active-light: #133681;
 
-    --button-secondary-light: #F4F5F8;
-    --button-secondary-hover-light: #E5E7EB;
-    --button-secondary-active-light: #E5E7EB;
+    --button-secondary-light: #F3F4F8;
+    --button-secondary-hover-light: #E5E6EB;
+    --button-secondary-active-light: #E5E6EB;
 
     --secondary-button-text-light: #133681;
     --secondary-button-icon-light: #133681;
@@ -96,24 +96,24 @@
     --link-primary-hover-light: #133681;
 
     --heading-primary-light: #000000;
-    --heading-primary-01-light: #373A41;
-    --heading-primary-02-light: #73767E;
+    --heading-primary-01-light: #333540;
+    --heading-primary-02-light: #71747E;
 
     --paragraph-primary-light: #000000;
-    --paragraph-primary-100-light: #373A41;
-    --paragraph-primary-200-light: #73767E;
+    --paragraph-primary-100-light: #333540;
+    --paragraph-primary-200-light: #71747E;
 
     --surface-layer-01-light: #FFFFFF;
-    --surface-layer-02-light: #F4F5F8;
-    --surface-layer-03-light: #E5E7EB;
+    --surface-layer-02-light: #F3F4F8;
+    --surface-layer-03-light: #E5E6EB;
 
-    --surface-layer-01-hover-light: #F4F5F8;
-    --surface-layer-02-hover-light: #E5E7EB;
-    --surface-layer-03-hover-light: #D8DADE;
+    --surface-layer-01-hover-light: #F3F4F8;
+    --surface-layer-02-hover-light: #E5E6EB;
+    --surface-layer-03-hover-light: #D3D5DE;
 
-    --border-subtle-01-light: #E5E7EB;
-    --border-subtle-02-light: #B2B4BA;
-    --border-subtle-03-light: #43464E;
+    --border-subtle-01-light: #E5E6EB;
+    --border-subtle-02-light: #ADAFBA;
+    --border-subtle-03-light: #42444E;
 
     --background-main-light: #FFFFFF;
 
@@ -126,9 +126,9 @@
     /* Fonts */
 
 
-    --fonts-heading: Netflix Sans, Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --fonts-body: Netflix Sans, Inter Variable, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --fonts-heading: Netflix Sans, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-body: Netflix Sans, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fonts-mono: Netflix Sans, "Helvetica Neue", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
 
@@ -138,9 +138,9 @@
     --fontWeights-light: 300;
     --fontWeights-normal: 400;
     --fontWeights-medium: 500;
-    --fontWeights-semibold: 500;
-    --fontWeights-bold: 600;
-    --fontWeights-extrabold: 700;
+    --fontWeights-semibold: 600;
+    --fontWeights-bold: 700;
+    --fontWeights-extrabold: 800;
     --fontWeights-black: 900;
 
 

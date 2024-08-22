@@ -72,7 +72,7 @@ body {
   max-width: 496px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-extrabold);
+  font-weight: var(--fontWeights-bold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: 88px;
 }
@@ -210,11 +210,11 @@ body {
 #label {
   font-family: var(--fonts-mono);
   padding: 0.25rem 0.75rem;
-  font-size: var(--fontSizes-14);
-  font-weight: var(--fontWeights-medium);
+  font-size: var(--fontSizes-12);
+  font-weight: var(--fontWeights-semibold);
   border: 1px solid var(--border-subtle-01);
   text-decoration: none;
-  letter-spacing: var(--letterSpacings-wide);
+  letter-spacing: var(--letterSpacings-wider);
   color: var(--paragraph-primary-100);
   border-radius: var(--border-radius-400);
 }
