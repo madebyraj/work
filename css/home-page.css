@@ -72,7 +72,7 @@ body {
   max-width: 496px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-extrabold);
   letter-spacing: var(--letterSpacings-tight);
   line-height: 88px;
 }

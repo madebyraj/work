@@ -30,3 +30,39 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+
+/* Netflix Sans */
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('/assets/Fonts/netflix-sans-font/NetflixSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('/assets/Fonts/netflix-sans-font/NetflixSans-Medium.woff2') format('woff2');
+    font-weight: 500 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('/assets/Fonts/netflix-sans-font/NetflixSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('/assets/Fonts/netflix-sans-font/NetflixSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
