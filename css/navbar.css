@@ -31,13 +31,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.25rem;
     width: 100%;
     max-width: 392px;
     margin: auto;
     background: var(--surface-layer-01);
     backdrop-filter: saturate(180%) blur(20px);
-    border-radius: var(--border-radius-800);
+    border-radius: var(--border-radius-full);
     min-height: 56px;
     box-shadow: var(--shadows-sm);
     border: 1px solid var(--border-subtle-01);
@@ -48,11 +48,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 4px;
 }
 
 #work {
-    border-radius: var(--border-radius-200);
+    border-radius: var(--border-radius-full);
     border: none;
     display: flex;
     align-items: center;
@@ -78,8 +78,8 @@
     font-family: var(--fonts-body);
     font-weight: var(--fontWeights-medium);
     transition: 100ms ease-out;
-    padding: 6px 8px;
-    border-radius: var(--border-radius-400);
+    padding: 6px 10px;
+    border-radius: var(--border-radius-full);
     text-align: center;
 }
 
@@ -101,8 +101,8 @@
     font-family: var(--fonts-body);
     font-weight: var(--fontWeights-medium);
     transition: 100ms ease-out;
-    padding: 6px 8px;
-    border-radius: var(--border-radius-400);
+    padding: 6px 10px;
+    border-radius: var(--border-radius-full);
     text-align: center;
 }
 
@@ -123,8 +123,8 @@
     font-family: var(--fonts-body);
     font-weight: var(--fontWeights-medium);
     transition: 100ms ease-out;
-    padding: 6px 8px;
-    border-radius: var(--border-radius-400);
+    padding: 6px 10px;
+    border-radius: var(--border-radius-full);
     text-align: center;
 }
 
@@ -148,7 +148,7 @@
 .theme {
     height: 24px;
     width: 24px;
-    border-radius: var(--border-radius-200);
+    border-radius: var(--border-radius-full);
     background-color: transparent;
     border: none;
     display: flex;
