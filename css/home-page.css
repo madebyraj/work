@@ -69,7 +69,7 @@ body {
 
 .heading {
   font-size: var(--fontSizes-80);
-  max-width: 496px;
+  max-width: 472px;
   color: var(--heading-primary);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-bold);
@@ -332,7 +332,7 @@ body {
   .heading {
     font-size: var(--fontSizes-72);
     line-height: 80px;
-    max-width: 448px;
+    max-width: 424px;
   }
 
   .para {
@@ -402,7 +402,7 @@ body {
   .heading {
     font-size: var(--fontSizes-56);
     line-height: 64px;
-    max-width: 348px;
+    max-width: 332px;
   }
 
   #navbutton {
