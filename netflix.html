@@ -20,7 +20,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Netflix - Raj Kumar</title>
   <link rel="stylesheet" href="/css/netflix.css" />
-  <link rel="stylesheet" href="./css/navbar.css" />
+  <!-- <link rel="stylesheet" href="./css/navbar.css" /> -->
+  <link rel="stylesheet" href="./css/dynamic-nav.css" />
   <link rel="stylesheet" href="./css/footer.css" />
   <link rel="stylesheet" href="./css/theme-switch.css" />
 </head>
@@ -29,24 +30,60 @@
   <div class="indicator"></div>
 
 
-  <div id="dynamic-nav-head" class="dynamic-nav-head">
-    <nav id="dynamic-nav">
-      <a href="index.html" id="work"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-          fill="none">
-          <path
-            d="M12.6778 15.2853C12.3021 15.7203 11.9956 16.2246 11.7583 16.798C11.5408 17.3714 11.4321 17.9942 11.4321 18.6665C12.5393 18.8049 13.4884 18.7258 14.2794 18.4292C15.0703 18.1326 15.6733 17.7075 16.0886 17.1539C16.5038 16.5805 16.7114 15.9675 16.7114 15.315C16.7114 14.8998 16.5928 14.5636 16.3555 14.3066C16.1182 14.0298 15.7524 13.8914 15.2581 13.8914C14.8627 13.8914 14.4474 14.0001 14.0124 14.2176C13.5774 14.4153 13.1325 14.7712 12.6778 15.2853ZM9 26.2889V5.52743H11.4321V14.7515C11.788 13.7826 12.3416 13.0411 13.093 12.527C13.8641 12.0129 14.7539 11.7559 15.7623 11.7559C16.9289 11.7559 17.7792 12.092 18.313 12.7643C18.8667 13.4168 19.1435 14.2473 19.1435 15.2557C19.1435 15.9477 18.9754 16.6497 18.6393 17.3615C18.3229 18.0535 17.8187 18.6764 17.1266 19.23C16.4346 19.7837 15.5646 20.1791 14.5166 20.4164L19.5291 25.8737V26.2889H16.5631L11.4321 20.535V26.2889H9Z"
-            fill="var(--button-icon)" />
-          <path
-            d="M23.1908 26.4669C22.6965 26.4669 22.2713 26.2889 21.9154 25.933C21.5595 25.5771 21.3816 25.152 21.3816 24.6577C21.3816 24.1634 21.5595 23.7382 21.9154 23.3823C22.2713 23.0264 22.6965 22.8485 23.1908 22.8485C23.6851 22.8485 24.1102 23.0264 24.4661 23.3823C24.822 23.7382 25 24.1634 25 24.6577C25 25.152 24.822 25.5771 24.4661 25.933C24.1102 26.2889 23.6851 26.4669 23.1908 26.4669Z"
-            fill="var(--button-icon)" />
-        </svg></a>
-      <div id="nav-info">
-        <a href="index.html#scroll" id="home" aria-label="Click Here to check out my work">Work</a>
-        <a href="about.html" id="about" aria-label="Click Here to know about me">About</a>
-        <a href="https://drive.google.com/file/d/1GN_r4BaWqkorgWtkzwYz8-ubUDNphRk9/view?usp=drive_link" target="_blank"
-          id="resume" aria-label="Click Here to see my resume">Resume</a>
-      </div>
-      <button class="theme" role="theme switch" alt="theme switch" preload></button>
+  <!-- Floating Theme Switch -->
+
+  <button class="theme" role="theme switch" alt="theme switch" preload></button>
+
+  <!-- New Nav -->
+
+  <div class="nav-container">
+    <nav class="main-nav">
+
+      <ul class="mobile-nav">
+        <li>
+          <a href="index.html" id="link-logo" aria-label="This is the Logo">Made by Raj</a>
+        </li>
+        <div class="right-side">
+          <li>
+            <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank" id="let-connect"
+              aria-label="Click Here to see my resume">Let's connect
+            </a>
+          </li>
+          <li>
+            <div class="menu-icon-container">
+              <div class="menu-icon">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </li>
+        </div>
+      </ul>
+
+
+      <ul class="desktop-nav">
+        <li>
+          <a href="index.html" id="link-logo" aria-label="This is the Logo">Made by Raj</a>
+        </li>
+        <div class="desktop-right-side">
+          <li>
+            <a href="index.html#scroll" id="work" aria-label="Click Here to check out my work">Work</a>
+          </li>
+          <li>
+            <a href="about.html" id="about" aria-label="Click Here to know about me">About</a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1GN_r4BaWqkorgWtkzwYz8-ubUDNphRk9/view?usp=drive_link"
+              target="_blank" id="resume" aria-label="Click Here to see my resume">Resume</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank" id="let-connect"
+              aria-label="Click Here to see my resume">Let's connect
+            </a>
+          </li>
+        </div>
+      </ul>
+
     </nav>
   </div>
 
@@ -160,6 +197,8 @@
   <!-- Navbar -->
 
   <script src="app/navbar.js"></script>
+
+  <script src="app/dynamic-nav.js"></script>
 
 
   <!-- Theme -->

@@ -19,7 +19,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Raj Kumar - UX Designer</title>
   <link rel="stylesheet" href="./css/home-page.css" />
-  <link rel="stylesheet" href="./css/navbar.css" />
+  <!-- <link rel="stylesheet" href="./css/navbar.css" /> -->
+  <link rel="stylesheet" href="./css/dynamic-nav.css" />
   <link rel="stylesheet" href="./css/footer.css" />
   <link rel="stylesheet" href="./css/theme-switch.css" />
 </head>
@@ -27,8 +28,65 @@
 <body id="home-body">
   <div class="indicator"></div>
 
+  <!-- Floating Theme Switch -->
 
-  <div id="dynamic-nav-head" class="dynamic-nav-head">
+  <button class="theme" role="theme switch" alt="theme switch" preload></button>
+
+  <!-- New Nav -->
+
+  <div class="nav-container">
+    <nav class="main-nav">
+
+      <ul class="mobile-nav">
+        <li>
+          <a href="index.html" id="link-logo" aria-label="This is the Logo">Made by Raj</a>
+        </li>
+        <div class="right-side">
+          <li>
+            <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank" id="let-connect"
+              aria-label="Click Here to see my resume">Let's connect
+            </a>
+          </li>
+          <li>
+            <div class="menu-icon-container">
+              <div class="menu-icon">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </li>
+        </div>
+      </ul>
+
+
+      <ul class="desktop-nav">
+        <li>
+          <a href="index.html" id="link-logo" aria-label="This is the Logo">Made by Raj</a>
+        </li>
+        <div class="desktop-right-side">
+          <li>
+            <a href="index.html#scroll" id="work" aria-label="Click Here to check out my work">Work</a>
+          </li>
+          <li>
+            <a href="about.html" id="about" aria-label="Click Here to know about me">About</a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1GN_r4BaWqkorgWtkzwYz8-ubUDNphRk9/view?usp=drive_link"
+              target="_blank" id="resume" aria-label="Click Here to see my resume">Resume</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank" id="let-connect"
+              aria-label="Click Here to see my resume">Let's connect
+            </a>
+          </li>
+        </div>
+      </ul>
+
+    </nav>
+  </div>
+
+
+  <!-- <div id="dynamic-nav-head" class="dynamic-nav-head">
     <nav id="dynamic-nav">
       <a href="index.html" id="work"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
           fill="none">
@@ -47,7 +105,7 @@
       </div>
       <button class="theme" role="theme switch" alt="theme switch" preload></button>
     </nav>
-  </div>
+  </div> -->
 
 
   <main data-aos="zoom">
@@ -59,17 +117,6 @@
         <p class="para">
           By solving wicked problems.
         </p>
-        <div id="navbutton" class="show">
-          <a href="https://www.linkedin.com/in/raj-kumar-0588a4281" target="_blank" class="let-connect" role="button"
-            aria-label="Click Here to connect and talk with me">
-            Let's connect & talk <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-              fill="none">
-              <path
-                d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11M15 3H21M21 3V9M21 3L10 14"
-                stroke="var(--primary-button-icon)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
 
@@ -277,6 +324,8 @@
   <!-- Navbar -->
 
   <script src="app/navbar.js"></script>
+
+  <script src="app/dynamic-nav.js"></script>
 
 
   <!-- Theme -->

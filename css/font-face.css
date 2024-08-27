@@ -37,16 +37,24 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('/assets/Fonts/SF-Pro/sf-pro-display_regular.woff') format('woff2');
-    font-weight: 400 500;
+    src: url('/assets/Fonts/SF-Pro/sf-pro-display_bold.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('/assets/Fonts/SF-Pro/sf-pro-display_semibold.woff') format('woff2');
-    font-weight: 600 700;
+    src: url('/assets/Fonts/SF-Pro/sf-pro-display_semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/assets/Fonts/SF-Pro/sf-pro-display_regular.woff') format('woff');
+    font-weight: 400 500;
     font-style: normal;
     font-display: swap;
 }
