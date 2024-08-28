@@ -157,12 +157,10 @@
 
 .theme {
     position: fixed;
-    right: 36px;
-    bottom: 36px;
+    right: 32px;
+    bottom: 32px;
     z-index: 999;
-    background-color: var(--surface-layer-02);
-    border: 1px solid var(--border-subtle-02);
-    padding: 2px;
+    border: none;
     border-radius: var(--border-radius-full);
     display: flex;
     align-items: center;
