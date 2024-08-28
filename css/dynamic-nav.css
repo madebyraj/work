@@ -9,6 +9,22 @@
 
 
 
+/*  Animations */
+
+@keyframes pageLoading {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+
+
 /* Dynanmic Nav */
 
 * {
@@ -196,8 +212,8 @@
         width: 100%;
         flex-direction: column;
         justify-content: start;
-        background: var(--surface-layer-01);
-        height: 64px;
+        background: var(--surface-layer-02);
+        height: 0px;
         position: fixed;
         top: 0;
         left: 0;

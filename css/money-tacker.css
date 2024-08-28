@@ -9,6 +9,22 @@
 
 
 
+/*  Animations */
+
+@keyframes pageLoading {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +42,7 @@ html {
 body {
   background-color: var(--surface-layer-01);
   cursor: var(--cursor-default), auto;
+  animation: pageLoading 500ms;
 }
 
 main {
