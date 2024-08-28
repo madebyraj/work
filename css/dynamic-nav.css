@@ -66,6 +66,11 @@
     color: var(--link-primary-hover);
 }
 
+.current {
+    color: var(--paragraph-primary-100) !important;
+    cursor: var(--cursor-default), auto !important;
+}
+
 .desktop-right-side {
     display: flex;
     align-items: center;
@@ -79,7 +84,7 @@
     color: var(--paragraph-primary);
     text-decoration: none;
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-weight: var(--fontWeights-semibold);
     transition: 100ms ease-out;
     height: 64px;
     display: flex;
@@ -111,6 +116,15 @@
 
 #let-connect:focus {
     box-shadow: var(--shadows-outline);
+}
+
+
+
+/* Hidden Items */
+
+.desktop-right-side li:nth-last-of-type(1),
+.nav-container.active .main-nav .desktop-nav .desktop-right-side li:nth-last-child(1) {
+    transition-delay: 30ms;
 }
 
 
@@ -183,7 +197,7 @@
         flex-direction: column;
         justify-content: start;
         background: var(--surface-layer-01);
-        height: 0;
+        height: 64px;
         position: fixed;
         top: 0;
         left: 0;
@@ -199,20 +213,20 @@
 
     .desktop-nav li {
         width: 100%;
-        padding: 0 32px;
+        padding: 0 40px;
     }
 
     .desktop-nav li a {
         width: 100%;
         padding: 10px 0px 12px;
         display: block;
-        font-size: var(--fontSizes-24);
+        font-size: var(--fontSizes-18);
         font-weight: var(--fontWeights-semibold);
         border-bottom: 1px solid var(--border-subtle-01);
     }
 
-    .desktop-nav li:first-child {
-        margin-top: 32px;
+    .desktop-nav .desktop-right-side li:first-child {
+        margin-top: 64px;
     }
 
     .desktop-right-side {
