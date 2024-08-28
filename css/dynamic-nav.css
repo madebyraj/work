@@ -112,12 +112,16 @@
     color: var(--paragraph-primary);
     text-decoration: none;
     font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-semibold);
+    font-weight: var(--fontWeights-bold);
     transition: 100ms ease-out;
     height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#link-logo:hover {
+    cursor: var(--cursor-pointer), auto;
 }
 
 #let-connect {

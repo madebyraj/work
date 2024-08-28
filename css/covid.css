@@ -42,7 +42,7 @@ html {
 body {
   background-color: var(--surface-layer-01);
   cursor: var(--cursor-default), auto;
-  animation: pageLoading 500ms;
+  animation: pageLoading 600ms;
 }
 
 main {
@@ -598,30 +598,20 @@ main {
   margin: auto;
   width: max-content;
   font-weight: var(--fontWeights-semibold);
-  line-height: var(--lineHeights-6);
-  color: var(--secondary-button-text-dark);
+  color: var(--link-primary);
   font-size: var(--fontSizes-18);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 16px;
-  background-color: var(--button-secondary);
-  border-radius: var(--border-radius-400);
   text-decoration: none;
   transition: 300ms ease-out;
   gap: 8px;
 }
 
 #back-to-all:hover {
-  background-color: var(--button-secondary-hover);
+  color: var(--link-primary-hover);
   cursor: var(--cursor-pointer), auto;
-  transform: translateY(-2px);
-}
-
-#back-to-all:focus {
-  transform: translateY(0px);
-  outline: 0.2rem solid var(--link-primary-hover);
-  outline-offset: 2px;
+  text-decoration: 2px underline solid var(--link-primary-hover);
 }
 
 
