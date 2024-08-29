@@ -246,7 +246,7 @@
         display: inline-block;
         font-size: var(--fontSizes-18);
         font-weight: var(--fontWeights-semibold);
-        border-bottom: 1px solid var(--drop-shadow-dark);
+        border-bottom: 1.2px solid var(--drop-shadow-dark);
     }
 
     #let-connect {
