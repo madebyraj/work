@@ -13,11 +13,13 @@
     --cursor-grabbed: url(/assets/Cursor/cursor-grabbed.svg);
     --cursor-text: url(/assets/Cursor/curson-text.svg);
 
-    /* Icons */
+    /* Assets */
 
 
-    --logo-dark: url(/assets/Icons/logo-dark-mode.svg);
-    --logo-light: url(/assets/Icons/logo-light-mode.svg);
+    --hello-hero-dark: url(/assets/global/dark-hello-hero.png);
+    --hello-hero-dark-bg: #1B335F;
+    --hello-hero-light: url(/assets/global/light-hello-hero.png);
+    --hello-hero-light-bg: #BDE3FF;
 
 
     /* Dark mode */
