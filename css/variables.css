@@ -29,7 +29,7 @@
     --button-primary-hover: #0077ED;
     --button-primary-active: #0077ED;
 
-    --button-secondary: linear-gradient(180deg, #394360 0%, #252D41 50%, #121721 100%);
+    --button-secondary: #2f6ec3;
     --button-secondary-hover: #262832;
     --button-secondary-active: #262832;
 
@@ -82,7 +82,7 @@
     --button-primary-hover-light: #0077ED;
     --button-primary-active-light: #0077ED;
 
-    --button-secondary-light: linear-gradient(180deg, #394360 0%, #252D41 50%, #121721 100%);
+    --button-secondary-light: #2f6ec3;
     --button-secondary-hover-light: #E5E6EB;
     --button-secondary-active-light: #E5E6EB;
 
