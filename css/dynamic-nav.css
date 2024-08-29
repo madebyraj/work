@@ -54,14 +54,24 @@
     z-index: 999;
     background: var(--glass-dark);
     backdrop-filter: saturate(180%) blur(22px);
-    border-bottom: 1.2px solid var(--drop-shadow-dark);
     padding: 14px 128px;
-    max-width: 1600px;
     height: 64px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.main-nav::after {
+    height: 1.2px;
+    display: block;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--drop-shadow-dark);
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
 }
 
 .desktop-nav {
@@ -70,6 +80,10 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .inner-right-side-container li a {
