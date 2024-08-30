@@ -55,7 +55,7 @@ footer {
 }
 
 #email-me-btn {
-    padding: 10px 22px;
+    padding: 12px 24px;
     text-decoration: none;
     font-size: var(--fontSizes-18);
     font-family: var(--fonts-heading);
@@ -83,7 +83,7 @@ footer {
 .navigation-container {
     display: flex;
     justify-content: space-between;
-    gap: 64px;
+    gap: 48px;
 }
 
 .pages {
@@ -230,9 +230,12 @@ footer {
         flex-direction: column;
     }
 
+    .email-container {
+        gap: 16px;
+    }
+    
     #email-heading {
-        max-width: 376px;
-        font-size: var(--fontSizes-32);
+        font-size: var(--fontSizes-40);
     }
 
     .navigation-container {
@@ -241,12 +244,24 @@ footer {
         flex-direction: column;
     }
 
+    .pages-link {
+        gap: 12px;
+    }
+
     .link-to-page {
         font-size: var(--fontSizes-20);
     }
 
+    .projects-link {
+        gap: 12px;
+    }
+
     .link-to-project {
         font-size: var(--fontSizes-20);
+    }
+
+    .socials-link {
+        gap: 12px;
     }
 
     .link-to-social {
