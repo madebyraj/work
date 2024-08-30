@@ -31,86 +31,45 @@ footer {
 .footer-container-one {
     margin: auto;
     max-width: 1024px;
-    display: flex;
-    justify-content: space-between;
-    gap: 96px;
-}
-
-.email-container {
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 32px;
-}
-
-#email-heading {
-    max-width: 512px;
-    font-size: var(--fontSizes-48);
-    color: var(--heading-primary);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-semibold);
-    line-height: var(--lineHeights-shorter);
-}
-
-#email-me-btn {
-    padding: 12px 24px;
-    text-decoration: none;
-    font-size: var(--fontSizes-18);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-medium);
-    letter-spacing: var(--letterSpacings-wide);
-    color: var(--primary-button-text);
-    background-color: var(--button-primary);
-    border-radius: var(--border-radius-full);
-    text-align: center;
-    transition: 200ms ease-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#email-me-btn:hover {
-    cursor: var(--cursor-pointer), auto;
-    background-color: var(--button-primary-hover);
-}
-
-#email-me-btn:focus {
-    box-shadow: var(--shadows-outline);
 }
 
 .navigation-container {
     display: flex;
-    justify-content: space-between;
-    gap: 48px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .pages {
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 24px;
+    gap: 8px;
+    flex-basis: 33.3333%;
+    max-width: 33.33333%;
+    width: 33.33333%;
 }
 
 #pages-sec-heading {
-    font-size: var(--fontSizes-14);
+    font-family: var(--fonts-heading);
+    font-size: var(--fontSizes-24);
     font-weight: var(--fontWeights-semibold);
-    color: var(--heading-primary-01);
-    letter-spacing: var(--letterSpacings-wider);
+    color: var(--heading-primary);
+    letter-spacing: var(--letterSpacings-wide);
 }
 
 .pages-link {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 16px;
 }
 
 .link-to-page {
+    width: max-content;
     text-decoration: none;
     font-size: var(--fontSizes-18);
-    color: var(--paragraph-primary);
+    color: var(--paragraph-primary-100);
+    max-width: 160px;
 }
 
 .link-to-page:hover {
@@ -120,30 +79,36 @@ footer {
 }
 
 .projects {
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 24px;
+    gap: 8px;
+    flex-basis: 33.3333%;
+    max-width: 33.33333%;
+    width: 33.33333%;
 }
 
 #projects-sec-heading {
-    font-size: var(--fontSizes-14);
+    font-family: var(--fonts-heading);
+    font-size: var(--fontSizes-24);
     font-weight: var(--fontWeights-semibold);
-    color: var(--heading-primary-01);
-    letter-spacing: var(--letterSpacings-wider);
+    color: var(--heading-primary);
+    letter-spacing: var(--letterSpacings-wide);
 }
 
 .projects-link {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 16px;
 }
 
 .link-to-project {
+    width: max-content;
     text-decoration: none;
     font-size: var(--fontSizes-18);
-    color: var(--paragraph-primary);
+    color: var(--paragraph-primary-100);
+    max-width: 160px;
 }
 
 .link-to-project:hover {
@@ -153,30 +118,36 @@ footer {
 }
 
 .socials {
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 24px;
+    gap: 8px;
+    flex-basis: 33.3333%;
+    max-width: 33.33333%;
+    width: 33.33333%;
 }
 
 #socials-sec-heading {
-    font-size: var(--fontSizes-14);
+    font-family: var(--fonts-heading);
+    font-size: var(--fontSizes-24);
     font-weight: var(--fontWeights-semibold);
-    color: var(--heading-primary-01);
-    letter-spacing: var(--letterSpacings-wider);
+    color: var(--heading-primary);
+    letter-spacing: var(--letterSpacings-wide);
 }
 
 .socials-link {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 16px;
 }
 
 .link-to-social {
+    width: max-content;
     text-decoration: none;
     font-size: var(--fontSizes-18);
-    color: var(--paragraph-primary);
+    color: var(--paragraph-primary-100);
+    max-width: 160px;
 }
 
 .link-to-social:hover {
@@ -201,16 +172,16 @@ footer {
         padding: 96px 48px;
     }
 
-    .footer-container-one {
-        gap: 80px;
+    .pages {
+        padding: 16px;
     }
 
-    #email-heading {
-        font-size: var(--fontSizes-40);
+    .projects {
+        padding: 16px;
     }
 
-    .navigation-container {
-        gap: 40px;
+    .socials {
+        padding: 16px;
     }
 
 }
@@ -225,47 +196,38 @@ footer {
         padding: 96px 24px;
     }
 
-    .footer-container-one {
-        gap: 64px;
-        flex-direction: column;
-    }
-
-    .email-container {
-        gap: 16px;
-    }
-    
-    #email-heading {
-        font-size: var(--fontSizes-40);
-    }
-
     .navigation-container {
-        gap: 40px;
-        order: 2;
         flex-direction: column;
     }
 
-    .pages-link {
-        gap: 12px;
+    .pages {
+        padding: 24px 0px;
+        width: 100%;
+        max-width: 100%;
     }
 
-    .link-to-page {
-        font-size: var(--fontSizes-20);
+    .link-to-pages {
+        max-width: 296px;
     }
 
-    .projects-link {
-        gap: 12px;
+    .projects {
+        padding: 24px 0px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .link-to-project {
-        font-size: var(--fontSizes-20);
+        max-width: 296px;
     }
 
-    .socials-link {
-        gap: 12px;
+    .socials {
+        padding: 24px 0px;
+        width: 100%;
+        max-width: 100%;
     }
 
-    .link-to-social {
-        font-size: var(--fontSizes-20);
+    .link-to-socials {
+        max-width: 296px;
     }
 
 }
