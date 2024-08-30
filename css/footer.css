@@ -40,7 +40,6 @@ footer {
 }
 
 .pages {
-    padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -79,7 +78,6 @@ footer {
 }
 
 .projects {
-    padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -118,7 +116,6 @@ footer {
 }
 
 .socials {
-    padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -170,18 +167,6 @@ footer {
 
     footer {
         padding: 96px 48px;
-    }
-
-    .pages {
-        padding: 16px;
-    }
-
-    .projects {
-        padding: 16px;
-    }
-
-    .socials {
-        padding: 16px;
     }
 
 }

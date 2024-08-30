@@ -111,7 +111,7 @@ body {
   gap: 80px;
   max-width: 1024px;
   margin: auto;
-  padding: 128px 0px;
+  padding: 128px 0px 80px;
 }
 
 #project-section-headline {
@@ -206,22 +206,24 @@ body {
 }
 
 #writing-section {
-  max-width: 1600px;
+  max-width: 1024px;
   margin: auto;
-  padding: 64px 128px;
+  padding: 80px 0px 128px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
-  gap: 40px;
+  align-items: center;
+  gap: 80px;
 }
 
-#writing {
+#writing-section-headline {
+  max-width: 360px;
+  text-align: center;
   font-size: var(--fontSizes-40);
-  color: var(--heading-primary);
+  color: var(--heading-primary-01);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
-  letter-spacing: var(--letterSpacings-tight);
+  font-weight: var(--fontWeights-semibold);
+  line-height: var(--lineHeights-shorter);
 }
 
 #article-section {
@@ -257,7 +259,7 @@ body {
 .article-cover {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-800);
   object-fit: cover;
   object-position: center;
 }
@@ -273,7 +275,7 @@ body {
 .article-heading {
   font-size: var(--fontSizes-24);
   font-family: var(--fonts-heading);
-  font-weight: var(--fontWeights-bold);
+  font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   color: var(--heading-primary);
@@ -351,7 +353,7 @@ body {
 
   #project-section {
     margin: auto;
-    padding: 96px 48px;
+    padding: 96px 48px 64px;
   }
 
   #project-container {
@@ -381,18 +383,9 @@ body {
 
   /* writing section */
 
-  #line {
-    margin: 0px 40px;
-  }
-
   #writing-section {
     margin: auto;
-    padding: 48px 40px;
-    gap: 32px;
-  }
-
-  #writing {
-    font-size: var(--fontSizes-40);
+    padding: 64px 40px 96px;
   }
 
   #article-section {
@@ -414,7 +407,7 @@ body {
   }
 
   .hello-hero {
-    height: 512px;
+    height: 648px;
     background-size: 200% auto;
     background-position: center top;
   }
@@ -432,7 +425,7 @@ body {
   }
 
   #project-section {
-    padding: 80px 24px;
+    padding: 80px 24px 56px;
     gap: 48px;
   }
 
@@ -472,14 +465,10 @@ body {
 
   /* writing section */
 
-  #line {
-    margin: 0px 24px;
-  }
-
   #writing-section {
     margin: auto;
-    padding: 40px 24px;
-    gap: 16px;
+    padding: 56px 24px 80px;
+    gap: 48px;
   }
 
   #article-section {
@@ -487,8 +476,9 @@ body {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  #writing {
+  #writing-section-headline {
     font-size: var(--fontSizes-32);
+    max-width: 280px;
   }
 
   #article-heading {
