@@ -380,19 +380,19 @@ body {
   }
 
   #project-section {
-    padding: 64px 24px;
+    padding: 80px 24px;
     gap: 48px;
   }
 
   #project-section-headline {
     font-size: var(--fontSizes-32);
-    max-width: 296px;
+    max-width: 280px;
   }
 
   #project-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 40px;
+    gap: 48px;
   }
 
   .main-project-container {
