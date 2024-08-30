@@ -41,17 +41,17 @@
     --primary-button-text: #FFFFFF;
     --primary-button-icon: #FFFFFF;
 
-    --button-text: #F9F9FE;
-    --button-icon: #F9F9FE;
+    --button-text: #FBFBFE;
+    --button-icon: #FBFBFE;
 
     --link-primary: #2997FF;
     --link-primary-hover: #2997FF;
 
-    --heading-primary: #F9F9FE;
+    --heading-primary: #FBFBFE;
     --heading-primary-01: #AEAEB2;
     --heading-primary-02: #636366;
 
-    --paragraph-primary: #F9F9FE;
+    --paragraph-primary: #FBFBFE;
     --paragraph-primary-100: #AEAEB2;
     --paragraph-primary-200: #636366;
 
@@ -105,7 +105,7 @@
     --paragraph-primary-100-light: #636366;
     --paragraph-primary-200-light: #AEAEB2;
 
-    --surface-layer-01-light: #F9F9FE;
+    --surface-layer-01-light: #FBFBFE;
     --surface-layer-02-light: #F2F2F7;
     --surface-layer-03-light: #E5E5EA;
 
@@ -117,7 +117,7 @@
     --border-subtle-02-light: #D1D1D6;
     --border-subtle-03-light: #C7C7CC;
 
-    --background-main-light: #F9F9FE;
+    --background-main-light: #FBFBFE;
 
     --glass-light: rgba(255, 255, 255, 0.75);
 

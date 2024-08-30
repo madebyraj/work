@@ -63,6 +63,10 @@ body {
 
 .hello-hero {
   position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: var(--hello-hero-dark);
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -360,23 +364,26 @@ body {
 @media (max-width: 735px) {
 
   .hero-section {
-    height: 512px;
+    min-height: 512px;
+    max-height: 512px;
   }
 
   .hello-hero {
-    height: 664px;
+    height: 512px;
     background-size: 200% auto;
-    background-position: center center;
+    background-position: center top;
   }
 
   .main {
+    width: 100%;
+    padding: 24px;
     bottom: 64px;
   }
 
   .para {
     font-size: var(--fontSizes-20);
     line-height: var(--lineHeights-7);
-    max-width: 344px;
+    max-width: 336px;
   }
 
   #project-section {
