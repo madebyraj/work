@@ -89,7 +89,7 @@
 
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('/assets/Fonts/SF-Pro/sf-pro-text_regular.woff2') format('woff2');
+    src: url('/assets/Fonts/SF-Pro/sf-pro-text_medium.woff') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
