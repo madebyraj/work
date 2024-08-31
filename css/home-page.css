@@ -62,7 +62,7 @@ body {
 }
 
 .hello-hero {
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -90,8 +90,8 @@ body {
 .para {
   max-width: 480px;
   text-align: center;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: var(--fontSizes-28);
+  line-height: var(--lineHeights-short);
   color: var(--paragraph-primary);
   font-family: var(--fonts-heading);
   letter-spacing: var(--letterSpacings-wide);
@@ -242,7 +242,9 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  gap: 16px;
+  background-color: var(--surface-layer-01);
+  overflow: hidden;
+  border-radius: 24px;
 }
 
 .main-article-container:hover {
@@ -259,21 +261,23 @@ body {
 .article-cover {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-800);
+  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
 
 .article-info {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
   gap: 8px;
+  padding: 24px;
 }
 
 .article-heading {
-  font-size: var(--fontSizes-24);
+  font-size: var(--fontSizes-20);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-semibold);
   letter-spacing: var(--letterSpacings-normal);
@@ -281,9 +285,15 @@ body {
   color: var(--heading-primary);
 }
 
-.article-description {
-  color: var(--paragraph-primary);
-  font-size: var(--fontSizes-18);
+.article-read-time {
+  color: var(--paragraph-primary-100);
+  font-size: var(--fontSizes-14);
+  text-overflow: ellipsis;
+}
+
+.article-date-of-release {
+  color: var(--paragraph-primary-100);
+  font-size: var(--fontSizes-14);
   text-overflow: ellipsis;
 }
 
@@ -375,7 +385,7 @@ body {
     left: 48px;
     font-size: var(--fontSizes-16);
   }
-  
+
   .pro-description {
     width: 200px;
     font-size: var(--fontSizes-20);
@@ -391,10 +401,6 @@ body {
   #article-section {
     gap: 32px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .article-heading {
-    font-size: var(--fontSizes-24);
   }
 
 }
@@ -414,7 +420,7 @@ body {
 
   .main {
     width: 100%;
-    padding: 24px;
+    padding: 32px;
     bottom: 64px;
   }
 
@@ -430,14 +436,14 @@ body {
   }
 
   #project-section-headline {
-    font-size: var(--fontSizes-32);
+    font-size: var(--fontSizes-28);
     max-width: 280px;
   }
 
   #project-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 48px;
+    gap: 40px;
   }
 
   .main-project-container {
@@ -457,7 +463,7 @@ body {
     left: 0;
     font-size: var(--fontSizes-16);
   }
-  
+
   .pro-description {
     width: 100%;
     font-size: var(--fontSizes-32);
@@ -472,17 +478,13 @@ body {
   }
 
   #article-section {
-    gap: 32px;
+    gap: 40px;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   #writing-section-headline {
     font-size: var(--fontSizes-32);
     max-width: 280px;
-  }
-
-  #article-heading {
-    font-size: var(--fontSizes-24);
   }
 
 }
