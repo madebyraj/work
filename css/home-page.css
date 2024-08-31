@@ -176,7 +176,7 @@ body {
   justify-content: center;
 }
 
-.pro-heading {
+.pro-key-feature {
   position: absolute;
   top: 48px;
   left: 56px;
@@ -198,17 +198,13 @@ body {
 }
 
 
-/* Writing */
 
-#line {
-  border: 1px solid var(--border-subtle-01);
-  margin: 0px 128px;
-}
+/* Writing */
 
 #writing-section {
   max-width: 1024px;
   margin: auto;
-  padding: 80px 0px 128px;
+  padding: 80px 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -297,28 +293,70 @@ body {
   text-overflow: ellipsis;
 }
 
-.email-container {
-  padding: 128px 0px;
+
+
+/* Work Together Section */
+
+.work-together {
+  padding: 80px 0px 128px;
   margin: auto;
   max-width: 1024px;
+}
+
+.work-together-container {
+  position: relative;
+  padding: 64px 0px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(14, 14, 15, 0.48);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.work-together-bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+  height: 100%;
+}
+
+.email-container {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 8px;
+  padding: 32px;
 }
 
 #email-heading {
-  max-width: 512px;
-  font-size: var(--fontSizes-48);
-  color: var(--heading-primary);
+  max-width: 448px;
+  text-align: center;
+  font-size: var(--fontSizes-40);
+  color: var(--primary-button-text);
   font-family: var(--fonts-heading);
   font-weight: var(--fontWeights-semibold);
   line-height: var(--lineHeights-shorter);
 }
 
 #email-me-btn {
-  padding: 12px 24px;
+  margin-top: 32px;
+  padding: 12px 22px;
   text-decoration: none;
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-heading);
@@ -373,34 +411,46 @@ body {
 
   .main-project-container {
     min-height: 360px;
-    grid-template-columns: 48% 52%;
+    grid-template-columns: 44% 56%;
   }
 
   .pro-info {
     padding-left: 48px;
   }
 
-  .pro-heading {
+  .pro-key-feature {
     top: 40px;
     left: 48px;
     font-size: var(--fontSizes-16);
   }
 
   .pro-description {
-    width: 200px;
-    font-size: var(--fontSizes-20);
+    width: 216px;
+    font-size: var(--fontSizes-24);
   }
 
   /* writing section */
 
   #writing-section {
     margin: auto;
-    padding: 64px 40px 96px;
+    padding: 64px 40px;
   }
 
   #article-section {
     gap: 32px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+
+
+  /* Work Together Section */
+
+  .work-together {
+    padding: 64px 40px 96px;
+  }
+
+  .work-together-container {
+    padding: 64px 0px;
   }
 
 }
@@ -436,7 +486,7 @@ body {
   }
 
   #project-section-headline {
-    font-size: var(--fontSizes-28);
+    font-size: var(--fontSizes-32);
     max-width: 280px;
   }
 
@@ -457,7 +507,7 @@ body {
     padding: 32px;
   }
 
-  .pro-heading {
+  .pro-key-feature {
     position: relative;
     top: 0;
     left: 0;
@@ -466,14 +516,14 @@ body {
 
   .pro-description {
     width: 100%;
-    font-size: var(--fontSizes-32);
+    font-size: var(--fontSizes-28);
   }
 
   /* writing section */
 
   #writing-section {
     margin: auto;
-    padding: 56px 24px 80px;
+    padding: 56px 24px;
     gap: 48px;
   }
 
@@ -485,6 +535,18 @@ body {
   #writing-section-headline {
     font-size: var(--fontSizes-32);
     max-width: 280px;
+  }
+
+
+
+  /* Work Together Section */
+
+  .work-together {
+    padding: 56px 24px 80px;
+  }
+
+  .work-together-container {
+    padding: 80px 0px;
   }
 
 }
