@@ -32,10 +32,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--fonts-body);
-    letter-spacing: var(--letterSpacings-normal);
-    font-weight: var(--fontWeights-normal);
-    line-height: var(--lineHeights-short);
+    font-family: var(--karma-font-body);
+    letter-spacing: var(--karma-letterSpacing-normal);
+    font-weight: var(--karma-fontWeights-normal);
+    line-height: var(--karma-lineHeight-short);
 }
 
 html {
@@ -45,17 +45,21 @@ html {
 body {
     background-color: var(--surface-layer-01);
     cursor: var(--cursor-default), auto;
-    animation: pageLoading 600ms;
+    animation: pageLoading 800ms;
 }
 
-#main-about {
+
+
+/* Introduction Section */
+
+.introduction-section {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    gap: 48px;
-    padding: 64px 128px;
-    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 128px 0px 80px;
+    max-width: 1024px;
     margin: auto;
 }
 
@@ -67,98 +71,70 @@ body {
     gap: 80px;
 }
 
-.about {
-    font-size: var(--fontSizes-40);
-    color: var(--heading-primary);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
+.introduction-section-heading {
+    text-align: center;
+    max-width: 512px;
+    font-size: var(--karma-fontSize-40x1);
+    line-height: var(--karma-lineHeight-40x1);
+    color: var(--heading-primary-01);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-semibold);
+    letter-spacing: var(--karma-letterSpacing-normal);
 }
 
 .me {
-    border: 2px solid var();
     width: 100%;
     height: auto;
-    border-radius: var(--border-radius-none);
+    border-radius: var(--karma-border-radius-40x1);
     object-fit: cover;
     object-position: center;
 }
 
 .myself {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 24px;
-}
-
-.myself p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     color: var(--paragraph-primary);
 }
 
-.question {
-    max-width: 752px;
-    font-size: var(--fontSizes-40);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-tight);
-    line-height: var(--lineHeights-shorter);
-    color: var(--heading-primary);
-}
 
-.collage-outer {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 8px;
-}
 
-.image-main {
-    width: 100%;
-    height: auto;
-    border-radius: var(--border-radius-none);
-    object-fit: cover;
-    object-position: center;
-}
+/* Photography Section */
 
-#finish {
-    padding: 56px 0px;
-    margin: auto;
+.photography-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-}
-
-#fn-head {
-    font-size: var(--fontSizes-40);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
-    letter-spacing: var(--letterSpacings-normal);
-    line-height: var(--lineHeights-shorter);
-    color: var(--heading-primary);
-    text-align: center;
-}
-
-#back-to-all {
+    gap: 80px;
+    padding: 80px 0px 128px;
+    max-width: 1024px;
     margin: auto;
-    width: max-content;
-    font-weight: var(--fontWeights-semibold);
-    color: var(--link-primary);
-    font-size: var(--fontSizes-18);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: 300ms ease-out;
-    gap: 8px;
 }
 
-#back-to-all:hover {
-    color: var(--link-primary-hover);
-    cursor: var(--cursor-pointer), auto;
-    text-decoration: 2px underline solid var(--link-primary-hover);
+.photography-section-heading {
+    text-align: center;
+    max-width: 512px;
+    font-size: var(--karma-fontSize-40x1);
+    line-height: var(--karma-lineHeight-40x1);
+    color: var(--heading-primary-01);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-semibold);
+    letter-spacing: var(--karma-letterSpacing-normal);
+}
+
+.collage-outer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.snap {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--karma-border-radius-none);
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -171,38 +147,24 @@ body {
 
 /* Tablet */
 
-@media (max-width: 1024px) {
+@media (max-width: 1068px) {
 
-    #main-about {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        gap: 32px;
-        padding: 48px 40px;
-    }
-
-    .about {
-        font-size: var(--fontSizes-40);
+    .introduction-section {
+        padding: 96px 48px 64px;
     }
 
     .me-section {
-        gap: 24px;
+        gap: 48px;
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .question {
-        font-size: var(--fontSizes-32);
+    .photography-section {
+        padding: 64px 48px 96px;
     }
 
     .collage-outer {
-        display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    #finish {
-        padding: 48px 0px;
     }
 
 }
@@ -211,41 +173,39 @@ body {
 
 /* Mobile */
 
-@media (max-width: 688px) {
+@media (max-width: 735px) {
 
-    #main-about {
+    .introduction-section {
+        padding: 80px 24px 56px;
+        gap: 48px;
+    }
+
+    .introduction-section-heading {
+        max-width: 360px;
+        font-size: var(--karma-fontSize-32x1);
+        line-height: var(--karma-lineHeight-32x1);
+    }
+
+    .me-section {
+        gap: 40px;
         display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        gap: 24px;
-        padding: 40px 24px;
+        flex-direction: column-reverse;
     }
 
-
-    .about {
-        font-size: var(--fontSizes-32);
+    .photography-section {
+        padding: 56px 24px 80px;
+        gap: 48px;
     }
 
-    .myself {
-        gap: 16px;
-    }
-
-    .myself p {
-        font-size: var(--fontSizes-18);
-    }
-
-    .question {
-        font-size: var(--fontSizes-32);
+    .photography-section-heading {
+        max-width: 360px;
+        font-size: var(--karma-fontSize-32x1);
+        line-height: var(--karma-lineHeight-32x1);
     }
 
     .collage-outer {
         display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-
-    #finish {
-        padding: 40px 0px;
     }
 
 }

@@ -43,7 +43,7 @@ html {
 body {
   background-color: var(--surface-layer-02);
   cursor: var(--cursor-default), auto;
-  animation: pageLoading 600ms;
+  animation: pageLoading 800ms;
 }
 
 .hero-container {
