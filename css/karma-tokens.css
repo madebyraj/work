@@ -1,0 +1,120 @@
+:root {
+
+
+
+    /* Fonts */
+
+
+    --karma-font-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --karma-font-body: SF Pro Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --karma-font-mono: "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+
+    /* Fonts Weights */
+
+    --karma-fontWeight-thin: 200;
+    --karma-fontWeight-light: 300;
+    --karma-fontWeight-regular: 400;
+    --karma-fontWeight-medium: 500;
+    --karma-fontWeight-semibold: 600;
+    --karma-fontWeight-bold: 700;
+    --karma-fontWeight-extrabold: 800;
+    --karma-fontWeight-black: 900;
+
+
+
+    /* Letter Spacing */
+
+
+    --karma-letterSpacing-tighter: -0.05em;
+    --karma-letterSpacing-tight: -0.025em;
+    --karma-letterSpacing-normal: 0;
+    --karma-letterSpacing-wide: 0.025em;
+    --karma-letterSpacing-wider: 0.05em;
+
+
+
+    /* Line Heights */
+
+
+    --karma-lineHeight-12x1: 1rem;
+    --karma-lineHeight-14x1: 1.125rem;
+    --karma-lineHeight-16x1: 1.25rem;
+    --karma-lineHeight-18x1: 1.625rem;
+    --karma-lineHeight-20x1: 1.75rem;
+    --karma-lineHeight-24x1: 2rem;
+    --karma-lineHeight-32x1: 2.5rem;
+    --karma-lineHeight-40x1: 3rem;
+    --karma-lineHeight-48x1: 3.5rem;
+    --karma-lineHeight-56x1: 4rem;
+    --karma-lineHeight-64x1: 4.5rem;
+    --karma-lineHeight-72x1: 5rem;
+    --karma-lineHeight-80x1: 5.5rem;
+    --karma-lineHeight-96x1: 6.5rem;
+    --karma-lineHeight-128x1: 8.5rem;
+
+
+
+    /* Border Radius */
+
+
+    --karma-border-radius-none: 0rem;
+    --karma-border-radius-2x1: 0.625rem;
+    --karma-border-radius-4x1: 0.25rem;
+    --karma-border-radius-8x1: 0.5rem;
+    --karma-border-radius-12x1: 0.75rem;
+    --karma-border-radius-16x1: 1rem;
+    --karma-border-radius-24x1: 1.5rem;
+    --karma-border-radius-32x1: 2rem;
+    --karma-border-radius-40x1: 2.5rem;
+    --karma-border-radius-48x1: 3rem;
+    --karma-border-radius-64x1: 4rem;
+    --karma-border-radius-full: 999rem;
+
+
+
+    /* Font Sizes */
+
+
+    --karma-fontSize-12x1: 0.75rem;
+    --karma-fontSize-14x1: 0.875rem;
+    --karma-fontSize-16x1: 1rem;
+    --karma-fontSize-18x1: 1.125rem;
+    --karma-fontSize-20x1: 1.25rem;
+    --karma-fontSize-24x1: 1.5rem;
+    --karma-fontSize-32x1: 2rem;
+    --karma-fontSize-40x1: 2.5rem;
+    --karma-fontSize-48x1: 3rem;
+    --karma-fontSize-56x1: 3.5rem;
+    --karma-fontSize-64x1: 4rem;
+    --karma-fontSize-72x1: 4.5rem;
+    --karma-fontSize-80x1: 5rem;
+    --karma-fontSize-96x1: 6rem;
+    --karma-fontSize-128x1: 8rem;
+
+
+
+    /* Shadows */
+
+
+    --karma-tile-shadow: 2px 4px 12px rgba(0, 0, 0,0.08);
+
+
+
+    --karma-shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    --karma-shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --karma-shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --karma-shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --karma-shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --karma-shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --karma-shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --karma-shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
+    --karma-shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    --karma-shadows-none: none;
+    --karma-shadows-dark-lg: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
+
+
+
+
+}

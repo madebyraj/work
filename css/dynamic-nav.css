@@ -53,7 +53,7 @@
     left: 0;
     z-index: 999;
     background: var(--glass-dark);
-    backdrop-filter: saturate(180%) blur(22px);
+    backdrop-filter: saturate(180%) blur(20px);
     padding: 14px 128px;
     height: 64px;
     margin: auto;
