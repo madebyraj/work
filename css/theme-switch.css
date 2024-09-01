@@ -11,8 +11,15 @@
 
 [color-scheme="dark"] {
 
+    /* Assets */
+
     --hello-hero-light: var(--hello-hero-dark);
     --hello-hero-light-bg: var(--hello-hero-dark-bg);
+
+    --about-hero-light: var(--about-hero-dark);
+    --about-hero-light-bg: var(--about-hero-dark-bg);
+
+    /* Sementics */
 
     --primary-light: var(--primary);
 
@@ -67,8 +74,15 @@
 
 [color-scheme="light"] {
 
+    /* Assets */
+
     --hello-hero-dark: var(--hello-hero-light);
     --hello-hero-dark-bg: var(--hello-hero-light-bg);
+
+    --about-hero-dark: var(--about-hero-light);
+    --about-hero-dark-bg: var(--about-hero-light-bg);
+
+    /* Sementics */
 
     --primary: var(--primary-light);
 

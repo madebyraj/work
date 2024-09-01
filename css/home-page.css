@@ -46,11 +46,6 @@ body {
   animation: pageLoading 800ms;
 }
 
-.hero-container {
-  width: 100%;
-  height: 100%;
-}
-
 .hero-section {
   background-color: var(--hello-hero-dark-bg);
   position: relative;

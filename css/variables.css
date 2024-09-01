@@ -21,6 +21,11 @@
     --hello-hero-light: url(/assets/global/light-hello-hero.png);
     --hello-hero-light-bg: #DCE0DF;
 
+    --about-hero-dark: url(/assets/global/dark-about-section.png);
+    --about-hero-dark-bg: #1A1A1A;
+    --about-hero-light: url(/assets/global/light-about-section.png);
+    --about-hero-light-bg: #E6E6E6;
+
 
     /* Dark mode */
 
