@@ -127,7 +127,7 @@ body {
 
 .slide {
     flex: 0 0 calc(80% - 40px);
-    max-width: 400px;
+    max-width: 424px;
     height: auto;
     margin-right: 20px;
     border-radius: var(--karma-border-radius-none);

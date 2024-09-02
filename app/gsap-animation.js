@@ -55,7 +55,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // Call the function to apply animations
   animateTiles();
 
-  //  About Slider
+
+
+
+  //  About Snap Section Slider
 
   const sliderWrapper = document.querySelector(".slider-wrapper");
   const slides = document.querySelectorAll(".slide");
@@ -64,18 +67,24 @@ document.addEventListener("DOMContentLoaded", (event) => {
   let currentSlide = 0;
   let accumulatedDelta = 0;
   const wheelThreshold = 50;
-  
+
+  let isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  let isDragging = false;
+  let startX = 0;
+  let currentX = 0;
+  let translateX = 0;
+
   function updateButtons() {
     prevBtn.disabled = currentSlide === 0;
     nextBtn.disabled = currentSlide === slides.length - 1;
   }
-  
+
   function showSlide(index, animate = true) {
     const slideWidth = slides[0].offsetWidth;
     const slideGap = 20;
     const offset = window.innerWidth / 2 - slideWidth / 2 - slideGap / 2;
     const targetX = -index * (slideWidth + slideGap) + offset;
-  
+
     if (animate) {
       gsap.to(sliderWrapper, {
         x: targetX,
@@ -86,7 +95,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     } else {
       gsap.set(sliderWrapper, { x: targetX });
     }
-  
+
     slides.forEach((slide, i) => {
       if (i === index) {
         slide.classList.add("active");
@@ -94,20 +103,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
         slide.classList.remove("active");
       }
     });
-  
+
     currentSlide = index;
     updateButtons();
   }
-  
+
   function handleWheel(e) {
-    if ((currentSlide === 0 && e.deltaY < 0) || (currentSlide === slides.length - 1 && e.deltaY > 0)) {
-      // Allow natural page scrolling at the edges
-      return;
+    if (
+      (currentSlide === 0 && e.deltaY < 0) ||
+      (currentSlide === slides.length - 1 && e.deltaY > 0)
+    ) {
+      return; // Allow natural page scrolling at the edges
     }
-  
+
     e.preventDefault();
     accumulatedDelta += e.deltaY;
-  
+
     if (Math.abs(accumulatedDelta) >= wheelThreshold) {
       if (accumulatedDelta > 0 && currentSlide < slides.length - 1) {
         showSlide(currentSlide + 1);
@@ -117,29 +128,69 @@ document.addEventListener("DOMContentLoaded", (event) => {
       accumulatedDelta = 0;
     }
   }
-  
-  sliderWrapper.addEventListener("wheel", handleWheel, { passive: false });
-  
+
+  function handleTouchStart(e) {
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    translateX = gsap.getProperty(sliderWrapper, "x");
+  }
+
+  function handleTouchMove(e) {
+    if (!isDragging) return;
+    currentX = e.touches[0].clientX;
+    const deltaX = currentX - startX;
+
+    gsap.set(sliderWrapper, { x: translateX + deltaX });
+  }
+
+  function handleTouchEnd(e) {
+    isDragging = false;
+    const slideWidth = slides[0].offsetWidth;
+    const slideGap = 20;
+    const moveThreshold = slideWidth / 4;
+    const deltaX = currentX - startX;
+
+    if (Math.abs(deltaX) > moveThreshold) {
+      if (deltaX < 0 && currentSlide < slides.length - 1) {
+        showSlide(currentSlide + 1);
+      } else if (deltaX > 0 && currentSlide > 0) {
+        showSlide(currentSlide - 1);
+      } else {
+        showSlide(currentSlide);
+      }
+    } else {
+      showSlide(currentSlide);
+    }
+  }
+
+  if (isTouchDevice) {
+    sliderWrapper.addEventListener("touchstart", handleTouchStart);
+    sliderWrapper.addEventListener("touchmove", handleTouchMove);
+    sliderWrapper.addEventListener("touchend", handleTouchEnd);
+  } else {
+    sliderWrapper.addEventListener("wheel", handleWheel, { passive: false });
+  }
+
   prevBtn.addEventListener("click", () => {
     if (currentSlide > 0) {
       showSlide(currentSlide - 1);
     }
   });
-  
+
   nextBtn.addEventListener("click", () => {
     if (currentSlide < slides.length - 1) {
       showSlide(currentSlide + 1);
     }
   });
-  
+
   // Initialize the slider
   showSlide(0, false);
-  
+
   // Recenter on window resize
   window.addEventListener("resize", () => {
     showSlide(currentSlide, false);
   });
 
 
-  
+
 });
