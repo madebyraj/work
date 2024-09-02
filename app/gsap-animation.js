@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         opacity: 1, // End with opacity 1
         duration: 2, // Duration of the animation
         ease: "power2.out", // Ease out animation
-        delay: index * 0.3, // Delay each element based on its index
+        delay: index * 0.2, // Delay each element based on its index
         scrollTrigger: {
           trigger: element,
-          start: "top 75%", // Start animation when the top of element is 85% from the top of the viewport
+          start: "top 80%", // Start animation when the top of element is 85% from the top of the viewport
           end: "top 20%", // End animation when the top of element is 20% from the top of the viewport
           scrub: 1, // Smoothly scrub the animation as you scroll
         },
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           opacity: 1, // End with opacity 1
           duration: 1.5, // Duration of the animation
           ease: "power2.out", // Ease out animation
-          delay: index * 0.3, // Delay each element based on its index
+          delay: index * 0.2, // Delay each element based on its index
           scrollTrigger: {
             trigger: element,
             start: "top 80%", // Start animation when the top of element is 85% from the top of the viewport
