@@ -82,54 +82,110 @@ body {
 .myself {
     opacity: 0.48;
     max-width: 600px;
-    font-size: var(--karma-fontSize-40x1);
-    line-height: var(--karma-lineHeight-40x1);
+    font-size: var(--karma-fontSize-32x1);
+    line-height: var(--karma-lineHeight-32x1);
     color: var(--paragraph-primary);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-wide);
 }
 
-
-
-/* Photography Section */
-
-.photography-section {
+.slider-heading-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;
-    padding: 80px 0px 128px;
+    padding: 80px 0 0 0;
     max-width: 1024px;
     margin: auto;
 }
 
-.photography-section-heading {
+.slider-section-heading {
+    max-width: 448px;
     text-align: center;
-    max-width: 512px;
     font-size: var(--karma-fontSize-40x1);
-    line-height: var(--karma-lineHeight-40x1);
     color: var(--heading-primary-01);
-    font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--karma-letterSpacing-normal);
+    font-family: var(--fonts-heading);
+    font-weight: var(--fontWeights-semibold);
+    line-height: var(--karma-lineHeight-40x1);
 }
 
-.collage-outer {
+.slider-container {
+    padding: 80px 0px 128px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    touch-action: pan-y;
 }
 
-.snap {
+.slider-wrapper {
+    display: flex;
+    will-change: transform;
+}
+
+.slide {
+    flex: 0 0 calc(80% - 40px);
+    max-width: 400px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: var(--karma-border-radius-none);
+    overflow: hidden;
+    transition: opacity 0.5s ease;
+    opacity: 0.25;
+}
+
+.slide:last-child {
+    margin-right: 0;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
     width: 100%;
     height: 100%;
-    border-radius: var(--karma-border-radius-none);
     object-fit: cover;
     object-position: center;
+    pointer-events: none;
 }
+
+.controls {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
+    z-index: 10;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    background-color: var(--surface-layer-03);
+    border: none;
+    border-radius: var(--karma-border-radius-full);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    cursor: var(--cursor-pointer), auto;
+    background-color: var(--surface-layer-03-hover);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: var(--cursor-not-allowed), not-allowed;
+    background-color: var(--surface-layer-03);
+}
+
 
 
 
@@ -150,15 +206,19 @@ body {
     .myself {
         font-size: var(--karma-fontSize-32x1);
         line-height: var(--karma-lineHeight-32x1);
-        max-width: 448px;
+        max-width: 512px;
     }
 
     .photography-section {
         padding: 64px 48px 96px;
     }
 
-    .collage-outer {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .slider-heading-container {
+        padding: 64px 40px 0 40px;
+    }
+
+    .slider-container {
+        padding: 80px 0px 96px;
     }
 
 }
@@ -175,23 +235,30 @@ body {
     }
 
     .myself {
-        max-width: 344px;
-    }
-
-    .photography-section {
-        padding: 56px 24px 80px;
-        gap: 48px;
-    }
-
-    .photography-section-heading {
         max-width: 360px;
         font-size: var(--karma-fontSize-28x1);
         line-height: var(--karma-lineHeight-28x1);
     }
 
-    .collage-outer {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+    .slider-heading-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 56px 24px 0 24px;
+        max-width: 1024px;
+        margin: auto;
     }
+
+    .slider-section-heading {
+        max-width: 360px;
+        font-size: var(--karma-fontSize-32x1);
+        line-height: var(--karma-lineHeight-32x1);
+    }
+
+    .slider-container {
+        padding: 48px 0px 80px;
+        gap: 40px;
+    }
+
 
 }

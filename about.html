@@ -118,27 +118,68 @@
       </div>
     </section>
 
-
-
-    <section class="photography-section">
-      <h6 class="photography-section-heading">
+    <div class="slider-heading-container">
+      <h6 class="slider-section-heading">
         When I'm not working, I enjoy taking photos.
       </h6>
-      <div class="collage-outer">
-        <img src="./assets/snaps/1.png" class="snap" alt="First snap">
-        <img src="./assets/snaps/2.png" class="snap" alt="Second snap">
-        <img src="./assets/snaps/3.png" class="snap" alt="Third snap">
-        <img src="./assets/snaps/4.png" class="snap" alt="Fourth snap">
-        <img src="./assets/snaps/5.png" class="snap" alt="Fifth snap">
-        <img src="./assets/snaps/6.png" class="snap" alt="Sixth snap">
-        <img src="./assets/snaps/7.png" class="snap" alt="Seventh snap">
-        <img src="./assets/snaps/8.png" class="snap" alt="Eighth snap">
-        <img src="./assets/snaps/9.png" class="snap" alt="Ninth snap">
-        <img src="./assets/snaps/10.png" class="snap" alt="Tenth snap">
-        <img src="./assets/snaps/11.png" class="snap" alt="Eleventh snap">
-        <img src="./assets/snaps/12.png" class="snap" alt="Twelfth snap">
+    </div>
+
+    <div class="slider-container">
+      <div class="slider-wrapper">
+        <div class="slide">
+          <img src="./assets/snaps/1.png" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/2.png" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/3.png" alt="Slide 3">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/4.png" alt="Slide 4">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/5.png" alt="Slide 5">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/6.png" alt="Slide 6">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/7.png" alt="Slide 7">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/8.png" alt="Slide 8">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/9.png" alt="Slide 9">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/10.png" alt="Slide 10">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/11.png" alt="Slide 11">
+        </div>
+        <div class="slide">
+          <img src="./assets/snaps/12.png" alt="Slide 12">
+        </div>
       </div>
-    </section>
+      <div class="controls">
+        <button id="prevBtn" class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path
+              d="M11.4244 19.5061C11.4369 18.8783 11.6504 18.3636 12.1652 17.8739L21.6574 8.57003C22.0466 8.19336 22.4986 8.00502 23.0511 8.00502C24.156 8.00502 25.0725 8.90904 25.0725 10.0014C25.0725 10.5538 24.834 11.0686 24.4196 11.4704L16.1454 19.4936L24.4196 27.5293C24.834 27.9436 25.0725 28.4459 25.0725 29.0109C25.0725 30.1158 24.156 31.0073 23.0511 31.0073C22.4986 31.0073 22.0466 30.8189 21.6574 30.4422L12.1652 21.1384C11.6504 20.6362 11.4244 20.1214 11.4244 19.5061Z"
+              fill="var(--button-icon)" />
+          </svg>
+        </button>
+        <button id="nextBtn" class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path
+              d="M28.5631 19.5061C28.5631 20.1214 28.3496 20.6362 27.8223 21.1384L18.3301 30.4422C17.9534 30.8189 17.4888 31.0073 16.9364 31.0073C15.8315 31.0073 14.9275 30.1158 14.9275 29.0109C14.9275 28.4459 15.1535 27.9436 15.5678 27.5293L23.8421 19.4936L15.5678 11.4704C15.1535 11.0686 14.9275 10.5538 14.9275 10.0014C14.9275 8.90904 15.8315 8.00502 16.9364 8.00502C17.4888 8.00502 17.9534 8.19336 18.3301 8.57003L27.8223 17.8739C28.3371 18.3636 28.5631 18.8783 28.5631 19.5061Z"
+              fill="var(--button-icon)" />
+          </svg>
+        </button>
+      </div>
+    </div>
 
 
 
@@ -158,7 +199,7 @@
           <h6 id="pages-sec-heading">Pages</h6>
           <div class="pages-link">
             <a href="/index.html" class="link-to-page">Home</a>
-            <a href="/about.html" class="link-to-page">About me</a>
+            <a href="/about.html" class="link-to-page">About</a>
           </div>
         </div>
         <div class="projects">
@@ -209,6 +250,9 @@
 
 
 
+  <!-- Slider -->
+
+  <script src="app/about-slider.js"></script>
 
   <!-- Indicator -->
 

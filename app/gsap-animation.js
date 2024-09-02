@@ -55,6 +55,91 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // Call the function to apply animations
   animateTiles();
 
+  //  About Slider
+
+  const sliderWrapper = document.querySelector(".slider-wrapper");
+  const slides = document.querySelectorAll(".slide");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  let currentSlide = 0;
+  let accumulatedDelta = 0;
+  const wheelThreshold = 50;
+  
+  function updateButtons() {
+    prevBtn.disabled = currentSlide === 0;
+    nextBtn.disabled = currentSlide === slides.length - 1;
+  }
+  
+  function showSlide(index, animate = true) {
+    const slideWidth = slides[0].offsetWidth;
+    const slideGap = 20;
+    const offset = window.innerWidth / 2 - slideWidth / 2 - slideGap / 2;
+    const targetX = -index * (slideWidth + slideGap) + offset;
+  
+    if (animate) {
+      gsap.to(sliderWrapper, {
+        x: targetX,
+        duration: 0.5,
+        ease: "power2.out",
+        scrub: true,
+      });
+    } else {
+      gsap.set(sliderWrapper, { x: targetX });
+    }
+  
+    slides.forEach((slide, i) => {
+      if (i === index) {
+        slide.classList.add("active");
+      } else {
+        slide.classList.remove("active");
+      }
+    });
+  
+    currentSlide = index;
+    updateButtons();
+  }
+  
+  function handleWheel(e) {
+    if ((currentSlide === 0 && e.deltaY < 0) || (currentSlide === slides.length - 1 && e.deltaY > 0)) {
+      // Allow natural page scrolling at the edges
+      return;
+    }
+  
+    e.preventDefault();
+    accumulatedDelta += e.deltaY;
+  
+    if (Math.abs(accumulatedDelta) >= wheelThreshold) {
+      if (accumulatedDelta > 0 && currentSlide < slides.length - 1) {
+        showSlide(currentSlide + 1);
+      } else if (accumulatedDelta < 0 && currentSlide > 0) {
+        showSlide(currentSlide - 1);
+      }
+      accumulatedDelta = 0;
+    }
+  }
+  
+  sliderWrapper.addEventListener("wheel", handleWheel, { passive: false });
+  
+  prevBtn.addEventListener("click", () => {
+    if (currentSlide > 0) {
+      showSlide(currentSlide - 1);
+    }
+  });
+  
+  nextBtn.addEventListener("click", () => {
+    if (currentSlide < slides.length - 1) {
+      showSlide(currentSlide + 1);
+    }
+  });
+  
+  // Initialize the slider
+  showSlide(0, false);
+  
+  // Recenter on window resize
+  window.addEventListener("resize", () => {
+    showSlide(currentSlide, false);
+  });
 
 
+  
 });

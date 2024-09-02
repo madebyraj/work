@@ -5,6 +5,8 @@
 
 :root {
 
+
+    --gallery-side-padding: max(6.25%,calc(50% - 840px));
     /* Cursors */
 
     --cursor-default: url(/assets/Cursor/cursor-default.svg);
@@ -12,6 +14,7 @@
     --cursor-grab: url(/assets/Cursor/cursor-grab.svg);
     --cursor-grabbed: url(/assets/Cursor/cursor-grabbed.svg);
     --cursor-text: url(/assets/Cursor/curson-text.svg);
+    --cursor-not-allowed: url(/assets/Cursor/cursor-not-allowed.svg);
 
     /* Assets */
 
