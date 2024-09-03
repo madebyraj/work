@@ -61,6 +61,8 @@
     --border-subtle-02-light: var(--border-subtle-02);
     --border-subtle-03-light: var(--border-subtle-03);
 
+    --focused-state-outline-light: var(--focused-state-outline-dark);
+
     --background-main-light: var(--background-main);
 
     --glass-light: var(--glass-dark);
@@ -122,6 +124,8 @@
     --border-subtle-01: var(--border-subtle-01-light);
     --border-subtle-02: var(--border-subtle-02-light);
     --border-subtle-03: var(--border-subtle-03-light);
+
+    --focused-state-outline-dark: var(--focused-state-outline-light);
 
     --background-main: var(--background-main-light);
 

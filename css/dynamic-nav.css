@@ -105,7 +105,8 @@
 
 .current {
     color: var(--paragraph-primary-100) !important;
-    cursor: var(--cursor-default), auto !important;
+    cursor: var(--cursor-not-allowed), auto !important;
+    opacity: 0.96;
 }
 
 .right-side-container {
@@ -194,11 +195,10 @@
 
 .theme:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--surface-layer-02-hover);
 }
 
 .theme:focus {
-    box-shadow: var(--shadows-outline);
+    outline: 0.25rem solid var(--focused-state-outline-dark);
 }
 
 

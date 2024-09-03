@@ -151,8 +151,7 @@ body {
 
 .main-project-container:focus {
   transform: scale(1);
-  outline: 0.2rem solid var(--link-primary-hover);
-  outline-offset: 8px;
+  outline: 0.25rem solid var(--focused-state-outline-dark);
 }
 
 .pro-cover {
@@ -248,8 +247,7 @@ body {
 
 .main-article-container:focus {
   transform: scale(1);
-  outline: 0.2rem solid var(--link-primary-hover);
-  outline-offset: 8px;
+  outline: 0.25rem solid var(--focused-state-outline-dark);
 }
 
 .article-cover {

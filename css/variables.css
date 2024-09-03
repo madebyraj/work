@@ -7,6 +7,9 @@
 
 
     --gallery-side-padding: max(6.25%, calc(50% - 840px));
+
+
+
     /* Cursors */
 
     --cursor-default: url(/assets/Cursor/cursor-default.svg);
@@ -75,6 +78,8 @@
     --border-subtle-02: #3A3A3C;
     --border-subtle-03: #48484A;
 
+    --focused-state-outline-dark: rgba(0, 125, 250, 0.6);
+
     --background-main: #0E0E0F;
 
     --glass-dark: rgba(14, 14, 15, 0.75);
@@ -124,6 +129,8 @@
     --border-subtle-01-light: #E5E5EA;
     --border-subtle-02-light: #D1D1D6;
     --border-subtle-03-light: #C7C7CC;
+
+    --focused-state-outline-light: rgba(0, 125, 250, 0.6);
 
     --background-main-light: #FBFBFE;
 
