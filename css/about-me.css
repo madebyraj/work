@@ -105,8 +105,8 @@ body {
     text-align: center;
     font-size: var(--karma-fontSize-40x1);
     color: var(--heading-primary-01);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-semibold);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
 }
 
