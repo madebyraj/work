@@ -6,7 +6,7 @@
 :root {
 
 
-    --gallery-side-padding: max(6.25%,calc(50% - 840px));
+    --gallery-side-padding: max(6.25%, calc(50% - 840px));
     /* Cursors */
 
     --cursor-default: url(/assets/Cursor/cursor-default.svg);
@@ -77,7 +77,7 @@
 
     --background-main: #0E0E0F;
 
-    --glass-dark: rgba(0, 0, 0, 0.8);
+    --glass-dark: rgba(14, 14, 15, 0.75);
 
     --drop-shadow-dark: rgba(255, 255, 255, 0.24);
 
@@ -127,7 +127,7 @@
 
     --background-main-light: #FBFBFE;
 
-    --glass-light: rgba(255, 255, 255, 0.8);
+    --glass-light: rgba(255, 255, 255, 0.75);
 
     --drop-shadow-light: rgba(0, 0, 0, 0.16);
 

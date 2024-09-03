@@ -1,6 +1,7 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
+@import url('./karma-tokens.css');
 
 
 
@@ -122,11 +123,12 @@
 
 #link-logo {
     text-decoration: none;
-    font-size: var(--fontSizes-20);
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
     color: var(--paragraph-primary);
     text-decoration: none;
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-bold);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-bold);
     transition: 100ms ease-out;
     height: 64px;
     display: flex;
@@ -232,21 +234,26 @@
 
     .nav-container.active .main-nav {
         height: 100vh;
-        transition: all 600ms ease;
+        transition: all 500ms ease;
     }
 
     .inner-right-side-container li {
         width: 100%;
+        transition: 100ms ease-out;
     }
 
     .inner-right-side-container li a {
         text-align: start;
         width: 100%;
-        padding: 10px 0px 12px;
+        padding: 8px 0px 10px;
         display: inline-block;
-        font-size: var(--fontSizes-18);
+        font-family: var(--karma-font-heading);
+        letter-spacing: var(--karma-letterSpacing-wide);
+        font-size: var(--karma-fontSize-28x1);
+        line-height: var(--karma-lineHeight-28x1);
         font-weight: var(--fontWeights-semibold);
-        border-bottom: 1.2px solid var(--drop-shadow-dark);
+        transform: translateY(-24px);
+        transition: 200ms ease-out;
     }
 
     #let-connect {
@@ -254,7 +261,7 @@
     }
 
     .right-side-container {
-        gap: 24px;
+        gap: 20px;
     }
 
     .nav-container.active #link-logo,
@@ -338,21 +345,19 @@
 
     /* Link Animation */
 
-    .nav-container .main-nav .inner-right-side-container li a:nth-last-of-type(1),
     .nav-container.active .main-nav .inner-right-side-container li a:nth-last-of-type(1) {
         transition-delay: 0ms;
+        transform: translateY(0px);
     }
 
-    .nav-container .main-nav .inner-right-side-container li a:nth-last-of-type(2),
     .nav-container.active .main-nav .inner-right-side-container li a:nth-last-of-type(2) {
         transition-delay: 60ms;
-        opacity: 1;
+        transform: translateY(0px);
     }
 
-    .nav-container .main-nav .inner-right-side-container li a:nth-last-of-type(3),
     .nav-container.active .main-nav .inner-right-side-container li a:nth-last-of-type(3) {
         transition-delay: 120ms;
-        opacity: 1;
+        transform: translateY(0px);
     }
 
 }
