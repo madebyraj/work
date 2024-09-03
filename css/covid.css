@@ -50,16 +50,8 @@ main {
   min-height: 100vh;
 }
 
-.indicator {
-  position: fixed;
-  width: 0;
-  height: 4px;
-  z-index: 100;
-  background-color: var(--primary);
-}
-
 #cover-mt {
-  margin-top: 32px;
+  margin-bottom: 16px;
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -68,51 +60,9 @@ main {
   border-radius: var(--border-radius-none);
 }
 
-#side-navbar {
-  position: fixed;
-  top: 120px;
-  left: 0;
-  background-color: var(--surface-layer-01);
-  border-radius: 0px var(--border-radius-800) var(--border-radius-800) 0px;
-  padding: 8px;
-  z-index: 100;
-  border: 1px solid var(--border-subtle-01);
-}
-
-.inner-nav {
-  padding: 0.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  gap: 0.25rem;
-}
-
-.nav-children {
-  transition: 100ms ease-out;
-  padding: 6px 8px;
-  font-size: var(--fontSizes-16);
-  font-family: var(--fonts-body);
-  font-weight: var(--fontWeights-medium);
-  color: var(--paragraph-primary);
-  text-decoration: none;
-  min-width: 128px;
-  border-radius: var(--border-radius-400);
-}
-
-.nav-children:hover {
-  color: var(--link-primary-hover);
-  background-color: var(--button-secondary-hover);
-  cursor: var(--cursor-pointer), auto;
-}
-
-.nav-children:focus {
-  outline: 0.2rem solid var(--link-primary-hover);
-}
-
 #main-container {
-  max-width: 1024px;
-  margin: auto;
+  max-width: 800px;
+  margin: 40px auto;
   width: 100%;
 }
 
@@ -151,7 +101,7 @@ main {
   justify-content: space-between;
   align-items: start;
   margin-bottom: 24px;
-  gap: 80px;
+  gap: 40px;
 }
 
 .r-r h6 {
@@ -165,7 +115,7 @@ main {
 }
 
 .r-r p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--fontSizes-16);
   color: var(--paragraph-primary);
 }
 
@@ -180,7 +130,7 @@ main {
 }
 
 .p-c p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--fontSizes-16);
   color: var(--paragraph-primary);
 }
 
@@ -195,7 +145,7 @@ main {
 }
 
 .tools p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--fontSizes-16);
   color: var(--paragraph-primary);
 }
 
@@ -641,7 +591,7 @@ main {
 
 /* Tablet */
 
-@media (max-width: 1024px) {
+@media (max-width: 1068px) {
 
   #main-container {
     max-width: 972px;
@@ -672,7 +622,7 @@ main {
 
 /* Mobile */
 
-@media (max-width: 688px) {
+@media (max-width: 735px) {
 
   #main-container {
     margin: auto;

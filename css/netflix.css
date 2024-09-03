@@ -45,16 +45,8 @@ body {
   animation: pageLoading 800ms;
 }
 
-.indicator {
-  position: fixed;
-  width: 0;
-  height: 4px;
-  z-index: 100;
-  background-color: var(--primary);
-}
-
 .prototype-container {
-  max-width: 1024px;
+  max-width: 800px;
   margin: auto;
   padding: 64px 0px;
   min-height: 75vh;
@@ -160,7 +152,7 @@ body {
 
 /* Tablet */
 
-@media (max-width: 1024px) {
+@media (max-width: 1068px) {
   .prototype-container {
     padding: 48px 40px;
   }
@@ -180,7 +172,7 @@ body {
 
 /* Mobile*/
 
-@media (max-width: 688px) {
+@media (max-width: 735px) {
   .prototype-container {
     padding: 40px 24px;
   }

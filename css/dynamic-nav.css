@@ -211,7 +211,7 @@
 
 /* Tablet */
 
-@media (max-width: 1024px) {
+@media (max-width: 1068px) {
 
     .main-nav {
         padding: 14px 40px;
@@ -223,7 +223,7 @@
 
 /* Mobile */
 
-@media (max-width: 688px) {
+@media (max-width: 735px) {
 
     .main-nav {
         align-items: start;
