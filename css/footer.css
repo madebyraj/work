@@ -27,17 +27,21 @@ footer {
     margin: auto;
     background-color: var(--surface-layer-01);
     border-top: 1.2px solid var(--border-subtle-01);
+
 }
 
 .footer-container-one {
     margin: auto;
     max-width: 1024px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 80px;
+    width: 100%;
 }
 
 .navigation-container {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .pages {
@@ -152,6 +156,55 @@ footer {
     color: var(--link-primary);
     text-decoration: 2px underline solid var(--link-primary-hover);
     cursor: var(--cursor-pointer), auto;
+}
+
+/* Theme Change Section */
+
+
+.theme-change-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.design-and-code {
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
+    font-weight: var(--karma-fontWeight-medium);
+    color: var(--paragraph-primary-100);
+}
+
+
+.theme-switch {
+    width: fit-content;
+    border: 2px solid var(--button-primary);
+    display: flex;
+    border-radius: var(--karma-border-radius-full);
+    padding: 2px;
+}
+
+.theme-option {
+    border: none;
+    background-color: transparent;
+    color: var(--link-primary);
+    padding: 2px 8px;
+    border-radius: var(--karma-border-radius-full);
+    font-family: var(--karma-font-heading);
+    cursor: var(--cursor-pointer), auto;
+    font-size: var(--karma-fontSize-14x1);
+    line-height: var(--karma-lineHeight-14x1);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.theme-option.active {
+    background-color: var(--link-primary);
+    color: var(--primary-button-text);
 }
 
 

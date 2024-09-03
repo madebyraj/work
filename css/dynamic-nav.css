@@ -178,29 +178,6 @@
 
 
 
-/* Floating Theme Switch */
-
-.theme {
-    position: fixed;
-    right: 32px;
-    bottom: 32px;
-    z-index: 999;
-    border: none;
-    border-radius: var(--border-radius-full);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 200ms ease-out;
-}
-
-.theme:hover {
-    cursor: var(--cursor-pointer), auto;
-}
-
-.theme:focus {
-    outline: 0.25rem solid var(--focused-state-outline-dark);
-}
-
 
 
 /* Small Desktop */
