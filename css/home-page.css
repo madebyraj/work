@@ -478,15 +478,15 @@ body {
   }
 
   .hello-hero {
-    height: 648px;
+    height: 416px;
     background-size: 200% auto;
-    background-position: center top;
+    background-position: center center;
   }
 
   .main {
     width: 100%;
     padding: 32px;
-    bottom: 64px;
+    bottom: 56px;
   }
 
   .para {
