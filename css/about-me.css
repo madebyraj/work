@@ -49,8 +49,8 @@ body {
 }
 
 .about-hero-section {
-    background-color: var(--about-hero-dark-bg);
-    height: 692px;
+    background-color: var(--surface-layer-02);
+    height: 696px;
     width: 100%;
     margin: auto;
     overflow: hidden;
@@ -236,7 +236,7 @@ body {
 @media (max-width: 735px) {
 
     .about-hero-section {
-        height: 512px;
+        height: 600px;
     }
 
     .introduction-section {

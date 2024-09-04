@@ -2,6 +2,7 @@
 
 @import url('./variables.css');
 @import url('./karma-tokens.css');
+@import url('./animation.css');
 
 
 
@@ -47,34 +48,98 @@ body {
 }
 
 .hero-section {
-  background-color: var(--hello-hero-dark-bg);
+  background-color: var(--surface-layer-01);
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 692px;
+  height: 696px;
   width: 100%;
+  gap: 40px;
 }
 
-.hello-hero {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: var(--hello-hero-dark);
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 1990px 864px;
-  width: 100%;
-  height: 692px;
-  max-width: 2400px;
+.different-hello-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.hello-word {
+  text-align: center;
+  font-family: var(--karma-font-heading);
+  font-size: var(--karma-fontSize-48x1);
+  line-height: var(--karma-lineHeight-none);
+  font-weight: var(--karma-fontWeight-semibold);
+}
+
+#german {
+  color: #087FE7;
+  animation: locomotion-0_c6 2300ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c6;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#spanish {
+  color: #F64831;
+  animation: locomotion-0_c2 900ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c2;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#french {
+  color: #2A9D99;
+  animation: locomotion-0_c4 1600ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c4;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#english {
+  color: #9949E9;
+  animation: locomotion-0_c1 550ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c1;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#russian {
+  color: #FFAF0F;
+  animation: locomotion-0_c3 1250ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c3;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#portuguese {
+  color: #1AAD3A;
+  animation: locomotion-0_c5 1950ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c5;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#japanese {
+  color: #DB5B00;
+  animation: locomotion-0_c7 2650ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c7;
+  animation-play-state: running;
+  animation-delay: 0ms;
+}
+
+#hindi {
+  color: #FFBB33;
+  animation: locomotion-0_c8 3000ms linear 0s normal 1 both;
+  animation-name: locomotion-0_c8;
+  animation-play-state: running;
+  animation-delay: 0ms;
 }
 
 .main {
-  position: absolute;
-  bottom: 112px;
   max-width: 1024px;
   flex-direction: column;
   display: flex;
@@ -402,16 +467,7 @@ body {
 @media (max-width: 1068px) {
 
   .hero-section {
-    min-height: 592px;
-  }
-
-  .hello-hero {
-    height: 650px;
-    background-size: 1594px 692px;
-  }
-
-  .main {
-    bottom: 72px;
+    height: 600px;
   }
 
   #project-section {
@@ -471,20 +527,12 @@ body {
 @media (max-width: 735px) {
 
   .hero-section {
-    min-height: 512px;
-    max-height: 512px;
-  }
-
-  .hello-hero {
-    height: 416px;
-    background-size: 200% auto;
-    background-position: center center;
+    height: 600px;
   }
 
   .main {
     width: 100%;
-    padding: 32px;
-    bottom: 56px;
+    padding: 0px 24px;
   }
 
   .para {

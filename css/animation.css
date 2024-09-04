@@ -1,0 +1,419 @@
+@keyframes locomotion-0_c1 {
+    0% {
+        delayed: 0ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    0% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    7.27% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    70.91% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    85.46% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    92.72999999999999% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c1 {
+    animation: locomotion-0_c1 550ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c2 {
+    38.89% {
+        delayed: 350ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    38.89% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    43.33% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    82.22% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    91.11% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    95.55% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c2 {
+    animation: locomotion-0_c2 900ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c3 {
+    56% {
+        delayed: 700ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    56% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    59.2% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    87.2% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    93.60000000000001% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    96.80000000000001% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c3 {
+    animation: locomotion-0_c3 1250ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c4 {
+    65.63% {
+        delayed: 1050ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    65.63% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    68.13% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    90.00999999999999% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    95.00999999999999% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    97.50999999999999% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c4 {
+    animation: locomotion-0_c4 1600ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c5 {
+    71.79% {
+        delayed: 1400ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    71.79% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    73.84% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    91.79% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    95.89% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    97.94% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c5 {
+    animation: locomotion-0_c5 1950ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c6 {
+    76.09% {
+        delayed: 1750ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    76.09% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    77.83% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    93.05% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    96.53% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    98.27% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c6 {
+    animation: locomotion-0_c6 2300ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c7 {
+    79.25% {
+        delayed: 2100ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    79.25% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    80.76% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    93.97% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    96.99% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    98.5% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c7 {
+    animation: locomotion-0_c7 2650ms linear 0s normal 1 both;
+}
+
+
+
+
+
+@keyframes locomotion-0_c8 {
+    81.67% {
+        delayed: 2450ms;
+        opacity: inherit;
+        animation-timing-function: inherit;
+        transform: inherit;
+    }
+
+    81.67% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    83% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(0.95);
+    }
+
+    94.67% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.15);
+    }
+
+    97.34% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+
+    98.67% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        transform: scale(1);
+    }
+}
+
+.locomotion-0_c8 {
+    animation: locomotion-0_c8 3000ms linear 0s normal 1 both;
+}
