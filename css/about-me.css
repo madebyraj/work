@@ -43,53 +43,114 @@ html {
 }
 
 body {
-    background-color: var(--surface-layer-01);
+    background-color: var(--surface-layer-02);
     cursor: var(--cursor-default), auto;
     animation: pageLoading 800ms;
 }
 
-.about-hero-section {
-    background-color: var(--surface-layer-02);
-    height: 696px;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
 
-.about-hero-img {
-    width: 100%;
-    height: 100%;
-    background-image: url(/assets/global/about-hero-section.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 /* Introduction Section */
 
 .introduction-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 128px 0px 80px;
-    max-width: 1024px;
-    margin: auto;
-}
-
-.me-section {
-    margin: auto;
-}
-
-.myself {
-    opacity: 0.48;
     max-width: 600px;
-    font-size: var(--karma-fontSize-32x1);
-    line-height: var(--karma-lineHeight-32x1);
-    color: var(--paragraph-primary);
-    font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    margin: auto;
+    gap: 32px;
 }
+
+.question-section {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+.question-1 {
+    max-width: 416px;
+    padding: 14px 20px;
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
+    color: var(--primary-button-text);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    border-radius: 32px 32px 32px 4px;
+    background-color: #333333;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
+}
+
+
+.answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 4px;
+}
+
+.answer {
+    max-width: 416px;
+    padding: 14px 20px;
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
+    color: var(--primary-button-text);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    background-color: #055AC2;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
+}
+
+.me {
+    position: relative;
+    max-width: 416px;
+    width: 100%;
+    height: 280px;
+    background-image: url(/assets/me.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 32px 4px 4px 32px;
+    border: 4px solid #055AC2;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
+}
+
+.reaction {
+    z-index: 1;
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFEBAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--karma-border-radius-full);
+}
+
+#answer-1 {
+    border-radius: 32px 32px 4px 32px;
+}
+
+#answer-2, #answer-3, #answer-4  {
+    border-radius: 32px 4px 4px 32px;
+}
+
+#answer-5 {
+    border-radius: 32px 4px 32px 32px;
+}
+
+
+
+/* SLider Section */
 
 .slider-heading-container {
     display: flex;
@@ -200,13 +261,9 @@ body {
 
 @media (max-width: 1068px) {
 
-    .about-hero-section {
-        height: 592px;
-    }
-
 
     .introduction-section {
-        padding: 96px 48px 64px;
+        padding: 96px 0px 64px;
     }
 
     .myself {
@@ -235,19 +292,29 @@ body {
 
 @media (max-width: 735px) {
 
-    .about-hero-section {
-        height: 600px;
-    }
-
     .introduction-section {
         padding: 80px 24px 56px;
-        gap: 48px;
+        gap: 24px;
     }
 
-    .myself {
-        max-width: 360px;
-        font-size: var(--karma-fontSize-28x1);
-        line-height: var(--karma-lineHeight-28x1);
+    .question-1 {
+        max-width: 320px;
+        padding: 14px 20px;
+        font-size: var(--karma-fontSize-18x1);
+        line-height: var(--karma-lineHeight-18x1);
+    }
+    
+    .answer {
+        max-width: 320px;
+        padding: 12px 20px;
+        font-size: var(--karma-fontSize-20x1);
+        line-height: var(--karma-lineHeight-20x1);
+    }
+    
+    .me {
+        max-width: 320px;
+        width: 100%;
+        height: 224px;
     }
 
     .slider-heading-container {
