@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  background-color: var(--surface-layer-01);
+  background-color: var(--surface-layer-02);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
