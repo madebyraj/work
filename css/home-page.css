@@ -49,6 +49,7 @@ body {
 
 .hero-section {
   background-color: var(--surface-layer-01);
+  border-bottom: 1px solid var(--border-subtle-01);
   position: relative;
   display: flex;
   flex-direction: column;

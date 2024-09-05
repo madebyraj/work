@@ -26,7 +26,7 @@ footer {
     padding: 128px 0px;
     margin: auto;
     background-color: var(--surface-layer-01);
-    border-top: 1.2px solid var(--border-subtle-01);
+    border-top: 1px solid var(--border-subtle-01);
 
 }
 
@@ -185,6 +185,7 @@ footer {
     border-radius: var(--karma-border-radius-10x1);
     padding: 2px;
     background-color: var(--surface-layer-03);
+    overflow: hidden;
 }
 
 .theme-option {
