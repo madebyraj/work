@@ -166,12 +166,13 @@ body {
     margin-bottom: 16px;
 }
 
-#time {
-    margin-bottom: 16px;
+#seen {
+    width: fit-content;
 }
 
 #blocked {
     margin-top: 32px;
+    color: var(--paragraph-primary-100);
 }
 
 
