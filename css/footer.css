@@ -179,32 +179,37 @@ footer {
 
 .theme-switch {
     width: fit-content;
-    border: 2px solid var(--button-primary);
     display: flex;
-    border-radius: var(--karma-border-radius-full);
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--karma-border-radius-10x1);
     padding: 2px;
+    background-color: var(--surface-layer-03);
 }
 
 .theme-option {
     border: none;
     background-color: transparent;
-    color: var(--link-primary);
-    padding: 2px 8px;
-    border-radius: var(--karma-border-radius-full);
+    color: var(--heading-primary);
+    padding: 4px 8px;
+    border-radius: var(--karma-border-radius-8x1);
     font-family: var(--karma-font-heading);
     cursor: var(--cursor-pointer), auto;
-    font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-14x1);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 4px;
+    width: 64px;
 }
 
 .theme-option.active {
-    background-color: var(--link-primary);
+    background-color: var(--primary);
     color: var(--primary-button-text);
+    box-shadow: var(--karma-shadows-base);
 }
 
 
