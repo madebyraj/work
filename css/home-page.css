@@ -447,10 +447,14 @@ body {
   background-color: var(--button-primary);
   border-radius: var(--karma-border-radius-full);
   text-align: center;
-  transition: 200ms ease-out;
+  transition: all 200ms ease-out;
+  border: 1px solid rgba(0, 0, 0, 0.16);
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 8px 0px #0060c0, var(--karma-shadows-lg), var(--karma-shadows-inner);
+  position: relative;
+  top: 0;
 }
 
 #email-me-btn:hover {
@@ -459,7 +463,8 @@ body {
 }
 
 #email-me-btn:focus {
-  box-shadow: var(--shadows-outline);
+  box-shadow: none;
+  top: 8px;
 }
 
 
