@@ -1,6 +1,7 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
+@import url('./system-sementics.css');
 
 
 
@@ -69,6 +70,26 @@
 
     --drop-shadow-light: var(--drop-shadow-dark);
 
+
+
+
+    /* Brand */
+
+    --keyColor-light: var(--keyColor-dark);
+    --keyColor-rollover-light: var(--keyColor-rollover-dark);
+    --keyColor-pressed-light: var(--keyColor-pressed-dark);
+    --keyColor-deepPressed-light: var(--keyColor-deepPressed-dark);
+    --keyColor-disabled-light: var(--keyColor-disabled-dark);
+    --keyColor-default-IC-light: var(--keyColor-default-IC-dark);
+    --keyColor-rollover-IC-light: var(--keyColor-rollover-IC-dark);
+    --keyColor-pressed-IC-light: var(--keyColor-pressed-IC-dark);
+    --keyColor-deepPressed-IC-light: var(--keyColor-deepPressed-IC-dark);
+    --keyColor-disabled-IC-light: var(--keyColor-disabled-IC-dark);
+
+
+
+
+
 }
 
 
@@ -132,6 +153,22 @@
     --glass-dark: var(--glass-light);
 
     --drop-shadow-dark: var(--drop-shadow-light);
+
+
+
+
+    /* Brand */
+
+    --keyColor-dark: var(--keyColor-light);
+    --keyColor-rollover-dark: var(--keyColor-rollover-light);
+    --keyColor-pressed-dark: var(--keyColor-pressed-light);
+    --keyColor-deepPressed-dark: var(--keyColor-deepPressed-light);
+    --keyColor-disabled-dark: var(--keyColor-disabled-light);
+    --keyColor-default-IC-dark: var(--keyColor-default-IC-light);
+    --keyColor-rollover-IC-dark: var(--keyColor-rollover-IC-light);
+    --keyColor-pressed-IC-dark: var(--keyColor-pressed-IC-light);
+    --keyColor-deepPressed-IC-dark: var(--keyColor-deepPressed-IC-light);
+    --keyColor-disabled-IC-dark: var(--keyColor-disabled-IC-light);
 
 
 }

@@ -1,7 +1,8 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
-@import url('./karma-tokens.css');
+@import url('./system-sementics.css');
+@import url('./karma-typography.css');
 
 
 

@@ -1,7 +1,8 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
-@import url('./karma-tokens.css');
+@import url('./system-sementics.css');
+@import url('./karma-typography.css');
 @import url('./animation.css');
 
 
@@ -448,13 +449,9 @@ body {
   border-radius: var(--karma-border-radius-full);
   text-align: center;
   transition: all 200ms ease-out;
-  border: 1px solid rgba(0, 0, 0, 0.16);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 8px 0px #0060c0, var(--karma-shadows-lg), var(--karma-shadows-inner);
-  position: relative;
-  top: 0;
 }
 
 #email-me-btn:hover {
@@ -463,8 +460,11 @@ body {
 }
 
 #email-me-btn:active {
-  box-shadow: none;
-  top: 8px;
+  background-color: var(--button-primary-hover);
+}
+
+#email-me-btn:focus {
+  background-color: var(--button-primary-hover);
 }
 
 
