@@ -41,7 +41,7 @@
 .nav-container {
     height: 64px;
     z-index: 999;
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -168,7 +168,7 @@
     background-color: var(--button-primary-hover);
 }
 
-#let-connect:focus {
+#let-connect:active {
     box-shadow: none;
     top: 4px;
 }

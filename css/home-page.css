@@ -462,7 +462,7 @@ body {
   background-color: var(--button-primary-hover);
 }
 
-#email-me-btn:focus {
+#email-me-btn:active {
   box-shadow: none;
   top: 8px;
 }

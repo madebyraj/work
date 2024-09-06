@@ -48,14 +48,7 @@ body {
 
 main {
   min-height: 100vh;
-}
-
-.indicator {
-  position: fixed;
-  width: 0;
-  height: 4px;
-  z-index: 100;
-  background-color: var(--primary);
+  margin-top: 64px;
 }
 
 #cover-mt {
@@ -70,12 +63,12 @@ main {
 
 #main-container {
   max-width: 800px;
-  margin: 40px auto;
+  margin: auto;
   width: 100%;
 }
 
 #upper-com {
-  margin: 32px 0px;
+  padding: 32px 0px;
 }
 
 #head {
@@ -838,7 +831,7 @@ main {
   }
 
   #upper-com {
-    margin: 16px 0px;
+    padding: 16px 0px;
   }
 
   #cover-mt {
