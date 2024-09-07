@@ -1,7 +1,7 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
-@import url('./system-sementics.css');
+@import url('./karma-semantics.css');
 
 
 
@@ -73,18 +73,34 @@
 
 
 
-    /* Brand */
 
-    --keyColor-light: var(--keyColor-dark);
-    --keyColor-rollover-light: var(--keyColor-rollover-dark);
-    --keyColor-pressed-light: var(--keyColor-pressed-dark);
-    --keyColor-deepPressed-light: var(--keyColor-deepPressed-dark);
-    --keyColor-disabled-light: var(--keyColor-disabled-dark);
-    --keyColor-default-IC-light: var(--keyColor-default-IC-dark);
-    --keyColor-rollover-IC-light: var(--keyColor-rollover-IC-dark);
-    --keyColor-pressed-IC-light: var(--keyColor-pressed-IC-dark);
-    --keyColor-deepPressed-IC-light: var(--keyColor-deepPressed-IC-dark);
-    --keyColor-disabled-IC-light: var(--keyColor-disabled-IC-dark);
+    /* Borders */
+
+    --karma-color-border-brand-accent-light: var(--karma-color-border-brand-accent-dark);
+    --karma-color-border-default-light: var(--karma-color-border-default-dark);
+    --karma-color-border-muted-light: var(--karma-color-border-muted-dark);
+    --karma-color-border-strong-light: var(--karma-color-border-strong-dark);
+    --karma-color-border-focus-light: var(--karma-color-border-focus-dark);
+    --karma-color-border-error-light: var(--karma-color-border-error-dark);
+    --karma-color-border-warning-light: var(--karma-color-border-warning-dark);
+    --karma-color-border-success-light: var(--karma-color-border-success-dark);
+
+
+
+    /* System Background */
+
+    --karma-color-system-background-light: var(--karma-color-system-background-dark);
+
+
+
+    /* Fill */
+
+    --karma-color-fill-primary-light: var(--karma-color-fill-primary-dark);
+    --karma-color-fill-secondary-light: var(--karma-color-fill-secondary-dark);
+    --karma-color-fill-tertiary-light: var(--karma-color-fill-tertiary-dark);
+    --karma-color-fill-error-light: var(--karma-color-fill-error-dark);
+    --karma-color-fill-warning-light: var(--karma-color-fill-warning-dark);
+    --karma-color-fill-success-light: var(--karma-color-fill-success-dark);
 
 
 
@@ -157,18 +173,37 @@
 
 
 
-    /* Brand */
 
-    --keyColor-dark: var(--keyColor-light);
-    --keyColor-rollover-dark: var(--keyColor-rollover-light);
-    --keyColor-pressed-dark: var(--keyColor-pressed-light);
-    --keyColor-deepPressed-dark: var(--keyColor-deepPressed-light);
-    --keyColor-disabled-dark: var(--keyColor-disabled-light);
-    --keyColor-default-IC-dark: var(--keyColor-default-IC-light);
-    --keyColor-rollover-IC-dark: var(--keyColor-rollover-IC-light);
-    --keyColor-pressed-IC-dark: var(--keyColor-pressed-IC-light);
-    --keyColor-deepPressed-IC-dark: var(--keyColor-deepPressed-IC-light);
-    --keyColor-disabled-IC-dark: var(--keyColor-disabled-IC-light);
+    /* Borders */
+
+    --karma-color-border-brand-accent-dark: var(--karma-color-border-brand-accent-light);
+    --karma-color-border-default-dark: var(--karma-color-border-default-light);
+    --karma-color-border-muted-dark: var(--karma-color-border-muted-light);
+    --karma-color-border-strong-dark: var(--karma-color-border-strong-light);
+    --karma-color-border-focus-dark: var(--karma-color-border-focus-light);
+    --karma-color-border-error-dark: var(--karma-color-border-error-light);
+    --karma-color-border-warning-dark: var(--karma-color-border-warning-light);
+    --karma-color-border-success-dark: var(--karma-color-border-success-light);
+
+
+
+    /* System Background */
+
+    --karma-color-system-background-dark: var(--karma-color-system-background-light);
+
+
+
+    /* Fill */
+
+    --karma-color-fill-primary-dark: var(--karma-color-fill-primary-light);
+    --karma-color-fill-secondary-dark: var(--karma-color-fill-secondary-light);
+    --karma-color-fill-tertiary-dark: var(--karma-color-fill-tertiary-light);
+    --karma-color-fill-error-dark: var(--karma-color-fill-error-light);
+    --karma-color-fill-warning-dark: var(--karma-color-fill-warning-light);
+    --karma-color-fill-success-dark: var(--karma-color-fill-success-light);
+
+
+
 
 
 }

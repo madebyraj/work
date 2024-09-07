@@ -1,7 +1,7 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
-@import url('./system-sementics.css');
+@import url('./karma-semantics.css');
 @import url('./karma-typography.css');
 
 
@@ -35,7 +35,7 @@
     box-sizing: border-box;
     font-family: var(--karma-font-body);
     letter-spacing: var(--karma-letterSpacing-normal);
-    font-weight: var(--karma-fontWeights-normal);
+    font-weight: var(--karma-fontWeight-normal);
     line-height: var(--karma-lineHeight-short);
 }
 
@@ -44,7 +44,7 @@ html {
 }
 
 body {
-    background-color: var(--surface-layer-02);
+    background-color: var(--karma-color-system-background-dark);
     cursor: var(--cursor-default), auto;
     animation: pageLoading 800ms;
 }

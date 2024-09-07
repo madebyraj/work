@@ -1,7 +1,7 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
-@import url('./system-sementics.css');
+@import url('./karma-semantics.css');
 @import url('./karma-typography.css');
 @import url('./animation.css');
 
@@ -43,14 +43,14 @@ html {
 }
 
 body {
-  background-color: var(--surface-layer-02);
+  background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
 
 .hero-section {
-  background-color: var(--surface-layer-01);
-  border-bottom: 1px solid var(--border-subtle-01);
+  background-color: var(--karma-color-fill-primary-dark);
+  border-bottom: 1px solid var(--karma-color-border-muted-dark);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -161,12 +161,6 @@ body {
   font-weight: var(--karma-fontWeight-semibold);
 }
 
-.partition {
-  width: 100%;
-  height: 16px;
-  background-color: var(--surface-layer-02);
-}
-
 #project-section {
   display: flex;
   flex-direction: column;
@@ -195,7 +189,7 @@ body {
 
 
 .main-project-container {
-  box-shadow: var(--karma-tile-shadow);
+  box-shadow: var(--karma-depth-floating);
   position: relative;
   min-height: 536px;
   height: auto;
@@ -206,7 +200,7 @@ body {
   grid-column: span 2;
   grid-template-rows: 100%;
   grid-template-columns: 40% 60%;
-  background-color: var(--surface-layer-01);
+  background-color: var(--karma-color-fill-primary-dark);
   justify-content: center;
   overflow: hidden;
 }
@@ -295,14 +289,14 @@ body {
 }
 
 .main-article-container {
-  box-shadow: var(--karma-tile-shadow);
+  box-shadow: var(--karma-depth-floating);
   transition: 200ms ease-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  background-color: var(--surface-layer-01);
+  background-color: var(--karma-color-fill-primary-dark);
   overflow: hidden;
   border-radius: var(--karma-border-radius-24x1);
 }
@@ -377,8 +371,8 @@ body {
   align-items: end;
   justify-content: center;
   overflow: hidden;
-  box-shadow: var(--karma-tile-shadow);
-  border: 1px solid var(--drop-shadow-dark);
+  box-shadow: var(--karma-depth-floating);
+  border: 1px solid var(--karma-color-border-default-dark);
 }
 
 .work-together-bg {

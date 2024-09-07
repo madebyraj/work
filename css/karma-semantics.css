@@ -1,0 +1,97 @@
+:root {
+
+
+
+    /* Global */
+
+
+
+    /* Depth */
+
+    --karma-depth-baseline: 0 0 0 0 transparent;
+    --karma-depth-raised: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+    --karma-depth-elevated: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    --karma-depth-floating: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
+
+
+
+
+    /* Dark Mode */
+
+
+
+    /* Borders */
+
+    --karma-color-border-brand-accent-dark: #2997FF;
+    --karma-color-border-default-dark: #6E6E73;
+    --karma-color-border-muted-dark: #424245;
+    --karma-color-border-strong-dark: #F5F5F7;
+    --karma-color-border-focus-dark: #2997FF;
+    --karma-color-border-error-dark: #FF3037;
+    --karma-color-border-warning-dark: #AD8200;
+    --karma-color-border-success-dark: #03A10E;
+
+
+
+    /* System Background */
+
+    --karma-color-system-background-dark: #1C1C1E;
+
+
+
+    /* Fill */
+
+    --karma-color-fill-primary-dark: #161617;
+    --karma-color-fill-secondary-dark: #1D1D1F;
+    --karma-color-fill-tertiary-dark: #333336;
+    --karma-color-fill-error-dark: #330000;
+    --karma-color-fill-warning-dark: #2B2000;
+    --karma-color-fill-success-dark: #002B03;
+
+
+
+
+
+    /* ---------------------------------------------------------------------------------- */
+
+
+
+
+
+    /* Light Mode */
+
+
+
+    /* Borders */
+
+    --karma-color-border-brand-accent-light: #0071E3;
+    --karma-color-border-default-light: #86868B;
+    --karma-color-border-muted-light: #E8E8ED;
+    --karma-color-border-strong-light: #1D1D1F;
+    --karma-color-border-focus-light: #0071E3;
+    --karma-color-border-error-light: #E30000;
+    --karma-color-border-warning-light: #FFE045;
+    --karma-color-border-success-light: #008009;
+
+
+
+    /* System Background */
+
+    --karma-color-system-background-light: #FFFFFF;
+
+
+
+    /* Fill */
+
+    --karma-color-fill-primary-light: #FFFFFF;
+    --karma-color-fill-secondary-light: #FBFBFD;
+    --karma-color-fill-tertiary-light: #F5F5F7;
+    --karma-color-fill-error-light: #FFF2F4;
+    --karma-color-fill-warning-light: #FFFEF2;
+    --karma-color-fill-success-light: #F5FFF6;
+
+
+
+
+
+}

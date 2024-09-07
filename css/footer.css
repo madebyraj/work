@@ -1,7 +1,7 @@
 /* Linked CSS Files */
 
 @import url('./variables.css');
-@import url('./system-sementics.css');
+@import url('./karma-semantics.css');
 @import url('./karma-typography.css');
 
 
@@ -17,17 +17,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--fonts-body);
-    letter-spacing: var(--letterSpacings-normal);
-    font-weight: var(--fontWeights-normal);
-    line-height: var(--lineHeights-short);
+    font-family: var(--karma-font-body);
+    letter-spacing: var(--karma-letterSpacing-normal);
+    font-weight: var(--karma-fontWeight-normal);
+    line-height: var(--karma-lineHeight-short);
 }
 
 footer {
     padding: 128px 0px;
     margin: auto;
-    background-color: var(--surface-layer-01);
-    border-top: 1px solid var(--border-subtle-01);
+    background-color: var(--karma-color-fill-primary-dark);
+    border-top: 1px solid var(--karma-color-border-muted-dark);
 
 }
 
@@ -211,7 +211,7 @@ footer {
 .theme-option.active {
     background-color: var(--primary);
     color: var(--primary-button-text);
-    box-shadow: var(--karma-shadows-base);
+    box-shadow: var(--karma-depth-raised);
 }
 
 
