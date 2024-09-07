@@ -1,0 +1,445 @@
+/* Linked CSS Files */
+
+@import url('./variables.css');
+@import url('./karma-semantics.css');
+
+
+
+
+
+
+
+
+[color-scheme="dark"] {
+
+    /* Assets */
+
+    --hello-hero-light: var(--hello-hero-dark);
+    --hello-hero-light-bg: var(--hello-hero-dark-bg);
+
+    --about-hero-light: var(--about-hero-dark);
+    --about-hero-light-bg: var(--about-hero-dark-bg);
+
+    /* Sementics */
+
+    --primary-light: var(--primary);
+
+    --button-primary-light: var(--button-primary);
+    --button-primary-hover-light: var(--button-primary-hover);
+    --button-primary-active-light: var(--button-primary-active);
+
+    --button-secondary-light: var(--button-secondary);
+    --button-secondary-hover-light: var(--button-secondary-hover);
+    --button-secondary-active-light: var(--button-secondary-active);
+
+    --secondary-button-text-light: var(--secondary-button-text-dark);
+    --secondary-button-icon-light: var(--secondary-button-icon-dark);
+
+
+    --button-text-light: var(--button-text);
+    --button-icon-light: var(--button-icon);
+
+    --link-primary-light: var(--link-primary);
+    --link-primary-hover-light: var(--link-primary-hover);
+
+    --heading-primary-light: var(--heading-primary);
+    --heading-primary-01-light: var(--heading-primary-01);
+    --heading-primary-02-light: var(--heading-primary-02);
+
+    --paragraph-primary-light: var(--paragraph-primary);
+    --paragraph-primary-100-light: var(--paragraph-primary-100);
+    --paragraph-primary-200-light: var(--paragraph-primary-200);
+
+    --surface-layer-01-light: var(--surface-layer-01);
+    --surface-layer-02-light: var(--surface-layer-02);
+    --surface-layer-03-light: var(--surface-layer-03);
+
+    --surface-layer-01-hover-light: var(--surface-layer-01-hover);
+    --surface-layer-02-hover-light: var(--surface-layer-02-hover);
+    --surface-layer-03-hover-light: var(--surface-layer-03-hover);
+
+    --border-subtle-01-light: var(--border-subtle-01);
+    --border-subtle-02-light: var(--border-subtle-02);
+    --border-subtle-03-light: var(--border-subtle-03);
+
+    --focused-state-outline-light: var(--focused-state-outline-dark);
+
+    --background-main-light: var(--background-main);
+
+    --glass-light: var(--glass-dark);
+
+    --drop-shadow-light: var(--drop-shadow-dark);
+
+
+
+
+
+    /* --Border-- */
+
+    --karma-color-border-brand-accent-light: var(--karma-color-border-brand-accent-dark);
+    --karma-color-border-default-light: var(--karma-color-border-default-dark);
+    --karma-color-border-muted-light: var(--karma-color-border-muted-dark);
+    --karma-color-border-strong-light: var(--karma-color-border-strong-dark);
+    --karma-color-border-focus-light: var(--karma-color-border-focus-dark);
+    --karma-color-border-error-light: var(--karma-color-border-error-dark);
+    --karma-color-border-warning-light: var(--karma-color-border-warning-dark);
+    --karma-color-border-success-light: var(--karma-color-border-success-dark);
+
+
+
+    /* System Background */
+
+    --karma-color-system-background-light: var(--karma-color-system-background-dark);
+
+
+
+    /* --Fill-- */
+
+    --karma-color-fill-primary-light: var(--karma-color-fill-primary-dark);
+    --karma-color-fill-secondary-light: var(--karma-color-fill-secondary-dark);
+    --karma-color-fill-tertiary-light: var(--karma-color-fill-tertiary-dark);
+    --karma-color-fill-error-light: var(--karma-color-fill-error-dark);
+    --karma-color-fill-warning-light: var(--karma-color-fill-warning-dark);
+    --karma-color-fill-success-light: var(--karma-color-fill-success-dark);
+
+
+
+    /* --Fill Action-- */
+
+
+
+    /* Brand */
+
+    --karma-color-fill-action-brand-default-light: var(--karma-color-fill-action-brand-default-dark);
+    --karma-color-fill-action-brand-hover-light: var(--karma-color-fill-action-brand-hover-dark);
+    --karma-color-fill-action-brand-pressed-light: var(--karma-color-fill-action-brand-pressed-dark);
+    --karma-color-fill-action-brand-selected-light: var(--karma-color-fill-action-brand-selected-dark);
+    --karma-color-fill-action-brand-disabled-light: var(--karma-color-fill-action-brand-disabled-dark);
+
+
+
+    /* Brand Accent */
+
+    --karma-color-fill-action-brand-accent-default-light: var(--karma-color-fill-action-brand-accent-default-dark);
+    --karma-color-fill-action-brand-accent-hover-light: var(--karma-color-fill-action-brand-accent-hover-dark);
+    --karma-color-fill-action-brand-accent-pressed-light: var(--karma-color-fill-action-brand-accent-pressed-dark);
+    --karma-color-fill-action-brand-accent-selected-light: var(--karma-color-fill-action-brand-accent-selected-dark);
+    --karma-color-fill-action-brand-accent-selection-light: var(--karma-color-fill-action-brand-accent-selection-dark);
+    --karma-color-fill-action-brand-accent-selection-hover-light: var(--karma-color-fill-action-brand-accent-selection-hover-dark);
+    --karma-color-fill-action-brand-accent-disabled-light: var(--karma-color-fill-action-brand-accent-disabled-dark);
+
+
+
+    /* Secondary */
+
+    --karma-color-fill-action-secondary-default-light: var(--karma-color-fill-action-secondary-default-dark);
+    --karma-color-fill-action-secondary-hover-light: var(--karma-color-fill-action-secondary-hover-dark);
+    --karma-color-fill-action-secondary-pressed-light: var(--karma-color-fill-action-secondary-pressed-dark);
+    --karma-color-fill-action-secondary-selected-light: var(--karma-color-fill-action-secondary-selected-dark);
+    --karma-color-fill-action-secondary-disabled-light: var(--karma-color-fill-action-secondary-disabled-dark);
+
+
+
+    /* Tertiary */
+
+    --karma-color-fill-action-tertiary-default-light: var(--karma-color-fill-action-tertiary-default-dark);
+    --karma-color-fill-action-tertiary-hover-light: var(--karma-color-fill-action-tertiary-hover-dark);
+    --karma-color-fill-action-tertiary-pressed-light: var(--karma-color-fill-action-tertiary-pressed-dark);
+    --karma-color-fill-action-tertiary-selected-light: var(--karma-color-fill-action-tertiary-selected-dark);
+    --karma-color-fill-action-tertiary-disabled-light: var(--karma-color-fill-action-tertiary-disabled-dark);
+
+
+
+    /* --Glyph-- */
+
+    --karma-color-glyph-default-light: var(--karma-color-glyph-default-dark);
+    --karma-color-glyph-muted-light: var(--karma-color-glyph-muted-dark);
+    --karma-color-glyph-error-light: var(--karma-color-glyph-error-dark);
+    --karma-color-glyph-warning-light: var(--karma-color-glyph-warning-dark);
+    --karma-color-glyph-success-light: var(--karma-color-glyph-success-dark);
+
+
+
+    /* --Glyph Action-- */
+
+
+
+    /* Brand */
+
+    --karma-color-glyph-action-brand-default-light: var(--karma-color-glyph-action-brand-default-dark);
+    --karma-color-glyph-action-brand-disabled-light: var(--karma-color-glyph-action-brand-disabled-dark);
+
+
+
+    /* Brand Accent */
+
+    --karma-color-glyph-action-brand-accent-default-light: var(--karma-color-glyph-action-brand-accent-default-dark);
+    --karma-color-glyph-action-brand-accent-disabled-light: var(--karma-color-glyph-action-brand-accent-disabled-dark);
+
+
+
+    /* Destructive */
+
+    --karma-color-glyph-action-destructive-default-light: var(--karma-color-glyph-action-destructive-default-dark);
+    --karma-color-glyph-action-destructive-disabled-light: var(--karma-color-glyph-action-destructive-disabled-dark);
+
+
+
+    /* Secondary */
+
+    --karma-color-glyph-action-secondary-default-light: var(--karma-color-glyph-action-secondary-default-dark);
+    --karma-color-glyph-action-secondary-disabled-light: var(--karma-color-glyph-action-secondary-disabled-dark);
+
+
+
+    /* Tertiary */
+
+    --karma-color-glyph-action-tertiary-default-light: var(--karma-color-glyph-action-tertiary-default-dark);
+    --karma-color-glyph-action-tertiary-disabled-light: var(--karma-color-glyph-action-tertiary-disabled-dark);
+
+
+
+    /* Interactive Brand Accent */
+
+    --karma-color-glyph-interactive-brand-accent-default-light: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+    --karma-color-glyph-interactive-brand-accent-hover-light: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+    --karma-color-glyph-interactive-brand-accent-pressed-light: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+    --karma-color-glyph-interactive-brand-accent-disabled-light: var(--karma-color-glyph-interactive-brand-accent-disabled-dark);
+
+
+
+    /* --Label-- */
+
+    --karma-color-label-primary-light: var(--karma-color-label-primary-dark);
+    --karma-color-label-secondary-light: var(--karma-color-label-secondary-dark);
+    --karma-color-label-tertiary-light: var(--karma-color-label-tertiary-dark);
+
+
+
+    /* --Material Sover-- */
+
+    --karma-color-materialSover-header-light: var(--karma-color-materialSover-header-dark);
+
+
+
+
+
+}
+
+
+
+
+[color-scheme="light"] {
+
+    /* Assets */
+
+    --hello-hero-dark: var(--hello-hero-light);
+    --hello-hero-dark-bg: var(--hello-hero-light-bg);
+
+    --about-hero-dark: var(--about-hero-light);
+    --about-hero-dark-bg: var(--about-hero-light-bg);
+
+    /* Sementics */
+
+    --primary: var(--primary-light);
+
+    --button-primary: var(--button-primary-light);
+    --button-primary-hover: var(--button-primary-hover-light);
+    --button-primary-active: var(--button-primary-active-light);
+
+    --button-secondary: var(--button-secondary-light);
+    --button-secondary-hover: var(--button-secondary-hover-light);
+    --button-secondary-active: var(--button-secondary-active-light);
+
+    --secondary-button-text-dark: var(--secondary-button-text-light);
+    --secondary-button-icon-dark: var(--secondary-button-icon-light);
+
+    --button-text: var(--button-text-light);
+    --button-icon: var(--button-icon-light);
+
+    --link-primary: var(--link-primary-light);
+    --link-primary-hover: var(--link-primary-hover-light);
+
+    --heading-primary: var(--heading-primary-light);
+    --heading-primary-01: var(--heading-primary-01-light);
+    --heading-primary-02: var(--heading-primary-02-light);
+
+    --paragraph-primary: var(--paragraph-primary-light);
+    --paragraph-primary-100: var(--paragraph-primary-100-light);
+    --paragraph-primary-200: var(--paragraph-primary-200-light);
+
+    --surface-layer-01: var(--surface-layer-01-light);
+    --surface-layer-02: var(--surface-layer-02-light);
+    --surface-layer-03: var(--surface-layer-03-light);
+
+    --surface-layer-01-hover: var(--surface-layer-01-hover-light);
+    --surface-layer-02-hover: var(--surface-layer-02-hover-light);
+    --surface-layer-03-hover: var(--surface-layer-03-hover-light);
+
+    --border-subtle-01: var(--border-subtle-01-light);
+    --border-subtle-02: var(--border-subtle-02-light);
+    --border-subtle-03: var(--border-subtle-03-light);
+
+    --focused-state-outline-dark: var(--focused-state-outline-light);
+
+    --background-main: var(--background-main-light);
+
+    --glass-dark: var(--glass-light);
+
+    --drop-shadow-dark: var(--drop-shadow-light);
+
+
+
+
+
+    /* --Border-- */
+
+    --karma-color-border-brand-accent-dark: var(--karma-color-border-brand-accent-light);
+    --karma-color-border-default-dark: var(--karma-color-border-default-light);
+    --karma-color-border-muted-dark: var(--karma-color-border-muted-light);
+    --karma-color-border-strong-dark: var(--karma-color-border-strong-light);
+    --karma-color-border-focus-dark: var(--karma-color-border-focus-light);
+    --karma-color-border-error-dark: var(--karma-color-border-error-light);
+    --karma-color-border-warning-dark: var(--karma-color-border-warning-light);
+    --karma-color-border-success-dark: var(--karma-color-border-success-light);
+
+
+
+    /* --System Background-- */
+
+    --karma-color-system-background-dark: var(--karma-color-system-background-light);
+
+
+
+    /* --Fill-- */
+
+    --karma-color-fill-primary-dark: var(--karma-color-fill-primary-light);
+    --karma-color-fill-secondary-dark: var(--karma-color-fill-secondary-light);
+    --karma-color-fill-tertiary-dark: var(--karma-color-fill-tertiary-light);
+    --karma-color-fill-error-dark: var(--karma-color-fill-error-light);
+    --karma-color-fill-warning-dark: var(--karma-color-fill-warning-light);
+    --karma-color-fill-success-dark: var(--karma-color-fill-success-light);
+
+
+
+    /* --Fill Action-- */
+
+
+
+    /* Brand */
+
+    --karma-color-fill-action-brand-default-dark: var(--karma-color-fill-action-brand-default-light);
+    --karma-color-fill-action-brand-hover-dark: var(--karma-color-fill-action-brand-hover-light);
+    --karma-color-fill-action-brand-pressed-dark: var(--karma-color-fill-action-brand-pressed-light);
+    --karma-color-fill-action-brand-selected-dark: var(--karma-color-fill-action-brand-selected-light);
+    --karma-color-fill-action-brand-disabled-dark: var(--karma-color-fill-action-brand-disabled-light);
+
+
+
+    /* Brand Accent */
+
+    --karma-color-fill-action-brand-accent-default-dark: var(--karma-color-fill-action-brand-accent-default-light);
+    --karma-color-fill-action-brand-accent-hover-dark: var(--karma-color-fill-action-brand-accent-hover-light);
+    --karma-color-fill-action-brand-accent-pressed-dark: var(--karma-color-fill-action-brand-accent-pressed-light);
+    --karma-color-fill-action-brand-accent-selected-dark: var(--karma-color-fill-action-brand-accent-selected-light);
+    --karma-color-fill-action-brand-accent-selection-dark: var(--karma-color-fill-action-brand-accent-selection-light);
+    --karma-color-fill-action-brand-accent-selection-hover-dark: var(--karma-color-fill-action-brand-accent-selection-hover-light);
+    --karma-color-fill-action-brand-accent-disabled-dark: var(--karma-color-fill-action-brand-accent-disabled-light);
+
+
+
+    /* Secondary */
+
+    --karma-color-fill-action-secondary-default-dark: var(--karma-color-fill-action-secondary-default-light);
+    --karma-color-fill-action-secondary-hover-dark: var(--karma-color-fill-action-secondary-hover-light);
+    --karma-color-fill-action-secondary-pressed-dark: var(--karma-color-fill-action-secondary-pressed-light);
+    --karma-color-fill-action-secondary-selected-dark: var(--karma-color-fill-action-secondary-selected-light);
+    --karma-color-fill-action-secondary-disabled-dark: var(--karma-color-fill-action-secondary-disabled-light);
+
+
+
+    /* Tertiary */
+
+    --karma-color-fill-action-tertiary-default-dark: var(--karma-color-fill-action-tertiary-default-light);
+    --karma-color-fill-action-tertiary-hover-dark: var(--karma-color-fill-action-tertiary-hover-light);
+    --karma-color-fill-action-tertiary-pressed-dark: var(--karma-color-fill-action-tertiary-pressed-light);
+    --karma-color-fill-action-tertiary-selected-dark: var(--karma-color-fill-action-tertiary-selected-light);
+    --karma-color-fill-action-tertiary-disabled-dark: var(--karma-color-fill-action-tertiary-disabled-light);
+
+
+
+    /* --Glyph-- */
+
+    --karma-color-glyph-default-dark: var(--karma-color-glyph-default-light);
+    --karma-color-glyph-muted-dark: var(--karma-color-glyph-muted-light);
+    --karma-color-glyph-error-dark: var(--karma-color-glyph-error-light);
+    --karma-color-glyph-warning-dark: var(--karma-color-glyph-warning-light);
+    --karma-color-glyph-success-dark: var(--karma-color-glyph-success-light);
+
+
+
+    /* --Glyph Action-- */
+
+
+
+    /* Brand */
+
+    --karma-color-glyph-action-brand-default-dark: var(--karma-color-glyph-action-brand-default-light);
+    --karma-color-glyph-action-brand-disabled-dark: var(--karma-color-glyph-action-brand-disabled-light);
+
+
+
+    /* Brand Accent */
+
+    --karma-color-glyph-action-brand-accent-default-dark: var(--karma-color-glyph-action-brand-accent-default-light);
+    --karma-color-glyph-action-brand-accent-disabled-dark: var(--karma-color-glyph-action-brand-accent-disabled-light);
+
+
+
+    /* Destructive */
+
+    --karma-color-glyph-action-destructive-default-dark: var(--karma-color-glyph-action-destructive-default-light);
+    --karma-color-glyph-action-destructive-disabled-dark: var(--karma-color-glyph-action-destructive-disabled-light);
+
+
+
+    /* Secondary */
+
+    --karma-color-glyph-action-secondary-default-dark: var(--karma-color-glyph-action-secondary-default-light);
+    --karma-color-glyph-action-secondary-disabled-dark: var(--karma-color-glyph-action-secondary-disabled-light);
+
+
+
+    /* Tertiary */
+
+    --karma-color-glyph-action-tertiary-default-dark: var(--karma-color-glyph-action-tertiary-default-light);
+    --karma-color-glyph-action-tertiary-disabled-dark: var(--karma-color-glyph-action-tertiary-disabled-light);
+
+
+
+    /* Interactive Brand Accent */
+
+    --karma-color-glyph-interactive-brand-accent-default-dark: var(--karma-color-glyph-interactive-brand-accent-default-light);
+    --karma-color-glyph-interactive-brand-accent-hover-dark: var(--karma-color-glyph-interactive-brand-accent-hover-light);
+    --karma-color-glyph-interactive-brand-accent-pressed-dark: var(--karma-color-glyph-interactive-brand-accent-pressed-light);
+    --karma-color-glyph-interactive-brand-accent-disabled-dark: var(--karma-color-glyph-interactive-brand-accent-disabled-light);
+
+
+
+    /* --Label-- */
+
+    --karma-color-label-primary-dark: var(--karma-color-label-primary-light);
+    --karma-color-label-secondary-dark: var(--karma-color-label-secondary-light);
+    --karma-color-label-tertiary-dark: var(--karma-color-label-tertiary-light);
+
+
+
+    /* --Material Sover-- */
+
+    --karma-color-materialSover-header-dark: var(--karma-color-materialSover-header-light);
+
+
+
+
+
+}

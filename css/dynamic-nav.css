@@ -2,7 +2,7 @@
 
 @import url('./variables.css');
 @import url('./karma-semantics.css');
-@import url('./karma-typography.css');
+@import url('./karma-typography&radius.css');
 
 
 
@@ -54,8 +54,8 @@
     right: 0;
     left: 0;
     z-index: 999;
-    background: var(--glass-dark);
-    backdrop-filter: saturate(180%) blur(20px);
+    background: var(--karma-color-materialSover-header-dark);
+    backdrop-filter: var(--karma-blur-materialSover-header);
     padding: 14px 128px;
     height: 64px;
     margin: auto;
