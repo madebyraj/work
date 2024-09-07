@@ -35,7 +35,7 @@
     box-sizing: border-box;
     font-family: var(--karma-font-body);
     letter-spacing: var(--karma-letterSpacing-normal);
-    font-weight: var(--karma-fontWeight-normal);
+    font-weight: var(--karma-fontWeight-regular);
     line-height: var(--karma-lineHeight-short);
 }
 
@@ -90,12 +90,13 @@
 
 .inner-right-side-container li a {
     text-decoration: none;
-    font-size: var(--fontSizes-14);
-    color: var(--paragraph-primary);
+    font-size: var(--karma-fontSize-14x1);
+    line-height: var(--karma-lineHeight-14x1);
+    color: var(--karma-color-label-primary-dark);
     text-decoration: none;
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-medium);
-    letter-spacing: var(--letterSpacings-wide);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
     transition: 100ms ease-out;
 }
 
@@ -105,9 +106,8 @@
 }
 
 .current {
-    color: var(--paragraph-primary-100) !important;
+    color: var(--karma-color-label-tertiary-dark) !important;
     cursor: var(--cursor-not-allowed), auto !important;
-    opacity: 0.96;
 }
 
 .right-side-container {
@@ -127,7 +127,7 @@
     text-decoration: none;
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
-    color: var(--paragraph-primary);
+    color: var(--karma-color-label-primary-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-bold);
@@ -145,14 +145,15 @@
 #let-connect {
     margin-left: 32px;
     padding: 5px 12px;
-    background-color: var(--button-primary);
-    border-radius: var(--border-radius-full);
+    border-radius: var(--karma-border-radius-full);
     text-decoration: none;
-    font-size: var(--fontSizes-14);
-    font-family: var(--fonts-heading);
-    font-weight: var(--fontWeights-medium);
-    letter-spacing: var(--letterSpacings-wide);
-    color: var(--primary-button-text);
+    font-size: var(--karma-fontSize-14x1);
+    line-height: var(--karma-lineHeight-14x1);
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    color: var(--karma-color-glyph-action-brand-accent-default-dark);
+    background-color: var(--karma-color-fill-action-brand-accent-default-dark);
     text-align: center;
     transition: all 200ms ease-out;
     display: flex;
@@ -162,11 +163,15 @@
 
 #let-connect:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--button-primary-hover);
+    background-color: var(--karma-color-fill-action-brand-accent-hover-dark);
 }
 
 #let-connect:active {
-    background-color: var(--button-primary-hover);
+    background-color: var(--karma-color-fill-action-brand-accent-pressed-dark);
+}
+
+#let-connect:focus {
+    background-color: var(--karma-color-fill-action-brand-accent-selected-dark);
 }
 
 

@@ -35,7 +35,7 @@
     box-sizing: border-box;
     font-family: var(--karma-font-body);
     letter-spacing: var(--karma-letterSpacing-normal);
-    font-weight: var(--karma-fontWeight-normal);
+    font-weight: var(--karma-fontWeight-regular);
     line-height: var(--karma-lineHeight-short);
 }
 
@@ -161,7 +161,7 @@ main {
     width: 100%;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    color: var(--paragraph-primary-200);
+    color: var(--karma-color-label-tertiary-dark);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
@@ -177,7 +177,7 @@ main {
 
 #blocked {
     margin-top: 32px;
-    color: var(--paragraph-primary-100);
+    color: var(--karma-color-label-secondary-dark);
 }
 
 
@@ -197,7 +197,7 @@ main {
     max-width: 448px;
     text-align: center;
     font-size: var(--karma-fontSize-40x1);
-    color: var(--heading-primary-01);
+    color: var(--karma-color-label-secondary-dark);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
@@ -263,7 +263,7 @@ main {
     width: 40px;
     height: 40px;
     padding: 4px;
-    background-color: var(--surface-layer-03);
+    background-color: var(--karma-color-fill-action-secondary-default-dark);
     border: none;
     border-radius: var(--karma-border-radius-full);
     transition: background-color 0.3s ease;
@@ -271,13 +271,13 @@ main {
 
 .btn:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--surface-layer-03-hover);
+    background-color: var(--karma-color-fill-action-secondary-hover-dark);
 }
 
 .btn:disabled {
     opacity: 0.5;
     cursor: var(--cursor-not-allowed), not-allowed;
-    background-color: var(--surface-layer-03);
+    background-color: var(--karma-color-fill-action-secondary-disabled-dark);
 }
 
 

@@ -33,7 +33,7 @@
   box-sizing: border-box;
   font-family: var(--karma-font-body);
   letter-spacing: var(--karma-letterSpacing-normal);
-  font-weight: var(--karma-fontWeight-normal);
+  font-weight: var(--karma-fontWeight-regular);
   line-height: var(--karma-lineHeight-short);
 }
 

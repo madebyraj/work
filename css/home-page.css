@@ -34,7 +34,7 @@
   box-sizing: border-box;
   font-family: var(--karma-font-body);
   letter-spacing: var(--karma-letterSpacing-normal);
-  font-weight: var(--karma-fontWeight-normal);
+  font-weight: var(--karma-fontWeight-regular);
   line-height: var(--karma-lineHeight-short);
 }
 
@@ -155,7 +155,7 @@ body {
   text-align: center;
   font-size: var(--karma-fontSize-28x1);
   line-height: var(--karma-lineHeight-28x1);
-  color: var(--paragraph-primary);
+  color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
   font-weight: var(--karma-fontWeight-semibold);
@@ -176,7 +176,7 @@ body {
   max-width: 360px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--heading-primary-01);
+  color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
 }
@@ -218,7 +218,6 @@ body {
 .pro-cover {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
@@ -238,7 +237,7 @@ body {
   top: 48px;
   left: 56px;
   font-size: var(--karma-fontSize-20x1);
-  color: var(--heading-primary);
+  color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-body);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-20x1);
@@ -247,7 +246,7 @@ body {
 .pro-description {
   width: 360px;
   font-size: var(--karma-fontSize-32x1);
-  color: var(--heading-primary);
+  color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-32x1);
@@ -274,7 +273,7 @@ body {
   max-width: 360px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--heading-primary-01);
+  color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
 }
@@ -314,7 +313,6 @@ body {
 .article-cover {
   width: 100%;
   height: 100%;
-  border-radius: var(--border-radius-none);
   object-fit: cover;
   object-position: center;
 }
@@ -335,18 +333,18 @@ body {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-normal);
   line-height: var(--karma-lineHeight-20x1);
-  color: var(--heading-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .article-read-time {
-  color: var(--paragraph-primary-100);
+  color: var(--karma-color-label-secondary-dark);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
   text-overflow: ellipsis;
 }
 
 .article-date-of-release {
-  color: var(--paragraph-primary-100);
+  color: var(--karma-color-label-secondary-dark);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
   text-overflow: ellipsis;
@@ -438,8 +436,8 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--primary-button-text);
-  background-color: var(--button-primary);
+  color: var(--karma-color-glyph-action-brand-accent-default-dark);
+  background-color: var(--karma-color-fill-action-brand-accent-default-dark);
   border-radius: var(--karma-border-radius-full);
   text-align: center;
   transition: all 200ms ease-out;
@@ -450,15 +448,15 @@ body {
 
 #email-me-btn:hover {
   cursor: var(--cursor-pointer), auto;
-  background-color: var(--button-primary-hover);
+  background-color: var(--karma-color-fill-action-brand-accent-hover-dark);
 }
 
 #email-me-btn:active {
-  background-color: var(--button-primary-hover);
+  background-color: var(--karma-color-fill-action-brand-accent-pressed-dark);
 }
 
 #email-me-btn:focus {
-  background-color: var(--button-primary-hover);
+  background-color: var(--karma-color-fill-action-brand-accent-selected-dark);
 }
 
 

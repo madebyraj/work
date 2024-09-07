@@ -19,7 +19,7 @@
     box-sizing: border-box;
     font-family: var(--karma-font-body);
     letter-spacing: var(--karma-letterSpacing-normal);
-    font-weight: var(--karma-fontWeight-normal);
+    font-weight: var(--karma-fontWeight-regular);
     line-height: var(--karma-lineHeight-short);
 }
 
@@ -55,11 +55,12 @@ footer {
 }
 
 #pages-sec-heading {
-    font-family: var(--fonts-heading);
-    font-size: var(--fontSizes-24);
-    font-weight: var(--fontWeights-semibold);
-    color: var(--heading-primary);
-    letter-spacing: var(--letterSpacings-wide);
+    font-family: var(--karma-font-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-weight: var(--karma-fontWeight-semibold);
+    color: var(--karma-color-label-primary-dark);
+    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 .pages-link {
@@ -72,13 +73,13 @@ footer {
 .link-to-page {
     width: max-content;
     text-decoration: none;
-    font-size: var(--fontSizes-18);
-    color: var(--paragraph-primary-100);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
+    color: var(--karma-color-label-secondary-dark);
     max-width: 160px;
 }
 
 .link-to-page:hover {
-    color: var(--link-primary);
     text-decoration: 2px underline solid var(--link-primary-hover);
     cursor: var(--cursor-pointer), auto;
 }
@@ -93,11 +94,12 @@ footer {
 }
 
 #projects-sec-heading {
-    font-family: var(--fonts-heading);
-    font-size: var(--fontSizes-24);
-    font-weight: var(--fontWeights-semibold);
-    color: var(--heading-primary);
-    letter-spacing: var(--letterSpacings-wide);
+    font-family: var(--karma-font-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-weight: var(--karma-fontWeight-semibold);
+    color: var(--karma-color-label-primary-dark);
+    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 .projects-link {
@@ -110,13 +112,13 @@ footer {
 .link-to-project {
     width: max-content;
     text-decoration: none;
-    font-size: var(--fontSizes-18);
-    color: var(--paragraph-primary-100);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
+    color: var(--karma-color-label-secondary-dark);
     max-width: 160px;
 }
 
 .link-to-project:hover {
-    color: var(--link-primary);
     text-decoration: 2px underline solid var(--link-primary-hover);
     cursor: var(--cursor-pointer), auto;
 }
@@ -131,11 +133,12 @@ footer {
 }
 
 #socials-sec-heading {
-    font-family: var(--fonts-heading);
-    font-size: var(--fontSizes-24);
-    font-weight: var(--fontWeights-semibold);
-    color: var(--heading-primary);
-    letter-spacing: var(--letterSpacings-wide);
+    font-family: var(--karma-font-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-weight: var(--karma-fontWeight-semibold);
+    color: var(--karma-color-label-primary-dark);
+    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 .socials-link {
@@ -148,13 +151,13 @@ footer {
 .link-to-social {
     width: max-content;
     text-decoration: none;
-    font-size: var(--fontSizes-18);
-    color: var(--paragraph-primary-100);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
+    color: var(--karma-color-label-secondary-dark);
     max-width: 160px;
 }
 
 .link-to-social:hover {
-    color: var(--link-primary);
     text-decoration: 2px underline solid var(--link-primary-hover);
     cursor: var(--cursor-pointer), auto;
 }
@@ -174,7 +177,7 @@ footer {
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
     font-weight: var(--karma-fontWeight-medium);
-    color: var(--paragraph-primary-100);
+    color: var(--karma-color-label-secondary-dark);
 }
 
 
@@ -185,14 +188,14 @@ footer {
     justify-content: center;
     border-radius: var(--karma-border-radius-10x1);
     padding: 2px;
-    background-color: var(--surface-layer-03);
+    background-color: var(--karma-color-fill-action-secondary-default-dark);
     overflow: hidden;
 }
 
 .theme-option {
     border: none;
-    background-color: transparent;
-    color: var(--heading-primary);
+    color: var(--karma-color-glyph-action-secondary-default-dark);
+    background-color: var(--karma-color-fill-action-tertiary-default-dark);
     padding: 4px 8px;
     border-radius: var(--karma-border-radius-8x1);
     font-family: var(--karma-font-heading);
@@ -208,9 +211,17 @@ footer {
     width: 64px;
 }
 
+.theme-option:hover {
+    background-color: var(--karma-color-fill-action-tertiary-hover-dark);
+}
+
+.theme-option:active {
+    background-color: var(--karma-color-fill-action-tertiary-pressed-dark);
+}
+
 .theme-option.active {
-    background-color: var(--primary);
-    color: var(--primary-button-text);
+    background-color: var(--karma-color-fill-action-brand-default-dark);
+    color: var(--karma-color-glyph-action-brand-default-dark);
     box-shadow: var(--karma-depth-raised);
 }
 
