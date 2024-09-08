@@ -412,7 +412,7 @@ body {
 #email-heading {
   text-align: center;
   font-size: var(--karma-fontSize-40x1);
-  color: var(--primary-button-text);
+  color: var(--karma-color-glyph-action-brand-accent-default-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-40x1);
@@ -423,7 +423,7 @@ body {
   max-width: 600px;
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
-  color: var(--primary-button-text);
+  color: var(--karma-color-glyph-action-brand-accent-default-dark);
   font-weight: var(--fontWeights-medium);
 }
 

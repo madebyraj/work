@@ -88,41 +88,6 @@
 
 }
 
-.inner-right-side-container li a {
-    text-decoration: none;
-    font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-14x1);
-    color: var(--karma-color-label-primary-dark);
-    text-decoration: none;
-    font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
-    transition: 100ms ease-out;
-}
-
-.inner-right-side-container li a:hover {
-    cursor: var(--cursor-pointer), auto;
-    color: var(--link-primary-hover);
-}
-
-.current {
-    color: var(--karma-color-label-quaternary-dark) !important;
-    cursor: var(--cursor-not-allowed), auto !important;
-}
-
-.right-side-container {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-
-.inner-right-side-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 32px;
-}
-
 #link-logo {
     text-decoration: none;
     font-size: var(--karma-fontSize-20x1);
@@ -142,8 +107,58 @@
     cursor: var(--cursor-pointer), auto;
 }
 
+
+.right-side-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.inner-right-side-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.inner-right-side-container li a {
+    padding: 5px 12px;
+    background-color: var(--karma-color-fill-action-tertiary-default-dark);
+    text-decoration: none;
+    border-radius: var(--karma-border-radius-full);
+    font-size: var(--karma-fontSize-14x1);
+    line-height: var(--karma-lineHeight-14x1);
+    color: var(--karma-color-glyph-action-tertiary-default-dark);
+    text-decoration: none;
+    font-family: var(--karma-font-heading);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    transition: 200ms ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-right-side-container li a:hover {
+    cursor: var(--cursor-pointer), auto;
+    background-color: var(--karma-color-fill-action-tertiary-hover-dark);
+}
+
+.inner-right-side-container li a:active {
+    background-color: var(--karma-color-fill-action-tertiary-pressed-dark);
+}
+
+.current {
+    color: var(--karma-color-glyph-action-tertiary-disabled-dark) !important;
+    cursor: var(--cursor-not-allowed), auto !important;
+    background-color: var(--karma-color-fill-action-tertiary-disabled-dark) !important;
+}
+
+
+
+
 #let-connect {
-    margin-left: 32px;
+    margin-left: 16px;
     padding: 5px 12px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
@@ -228,7 +243,7 @@
     .inner-right-side-container li a {
         text-align: start;
         width: 100%;
-        padding: 8px 0px 10px;
+        padding: 12px 22px;
         display: inline-block;
         font-family: var(--karma-font-heading);
         letter-spacing: var(--karma-letterSpacing-wide);

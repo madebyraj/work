@@ -54,6 +54,10 @@ footer {
     width: 33.33333%;
 }
 
+.doc-on-doc path {
+    fill: var(--karma-color-glyph-default-dark);
+}
+
 #pages-sec-heading {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
@@ -75,12 +79,12 @@ footer {
     text-decoration: none;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    color: var(--karma-color-label-secondary-dark);
+    color: var(--karma-color-glyph-action-secondary-default-dark);
     max-width: 160px;
 }
 
 .link-to-page:hover {
-    text-decoration: 2px underline solid var(--link-primary-hover);
+    text-decoration: 2px underline solid var(--karma-color-border-strong-dark);
     cursor: var(--cursor-pointer), auto;
 }
 
@@ -93,12 +97,16 @@ footer {
     width: 33.33333%;
 }
 
+.wrench-and-screwdriver path {
+    fill: var(--karma-color-glyph-default-dark);
+}
+
 #projects-sec-heading {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
-    color: var(--karma-color-label-primary-dark);
+    color: var(--karma-color-glyph-default-dark);
     letter-spacing: var(--karma-letterSpacing-wide);
 }
 
@@ -114,12 +122,12 @@ footer {
     text-decoration: none;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    color: var(--karma-color-label-secondary-dark);
+    color: var(--karma-color-glyph-action-secondary-default-dark);
     max-width: 160px;
 }
 
 .link-to-project:hover {
-    text-decoration: 2px underline solid var(--link-primary-hover);
+    text-decoration: 2px underline solid var(--karma-color-border-strong-dark);
     cursor: var(--cursor-pointer), auto;
 }
 
@@ -130,6 +138,10 @@ footer {
     flex-basis: 33.3333%;
     max-width: 33.33333%;
     width: 33.33333%;
+}
+
+.network path {
+    fill: var(--karma-color-glyph-default-dark);
 }
 
 #socials-sec-heading {
@@ -153,12 +165,12 @@ footer {
     text-decoration: none;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    color: var(--karma-color-label-secondary-dark);
+    color: var(--karma-color-glyph-action-secondary-default-dark);
     max-width: 160px;
 }
 
 .link-to-social:hover {
-    text-decoration: 2px underline solid var(--link-primary-hover);
+    text-decoration: 2px underline solid var(--karma-color-border-strong-dark);
     cursor: var(--cursor-pointer), auto;
 }
 
@@ -194,8 +206,8 @@ footer {
 
 .theme-option {
     border: none;
-    color: var(--karma-color-glyph-action-tertiary-default-dark);
-    background-color: var(--karma-color-fill-action-tertiary-default-dark);
+    color: var(--karma-color-glyph-action-secondary-default-dark);
+    background-color: var(--karma-color-fill-action-secondary-default-dark);
     padding: 4px 8px;
     border-radius: var(--karma-border-radius-8x1);
     font-family: var(--karma-font-heading);
@@ -211,16 +223,16 @@ footer {
 }
 
 .theme-option:hover {
-    background-color: var(--karma-color-fill-action-tertiary-hover-dark);
+    background-color: var(--karma-color-fill-action-secondary-hover-dark);
 }
 
 .theme-option:active {
-    background-color: var(--karma-color-fill-action-tertiary-pressed-dark);
+    background-color: var(--karma-color-fill-action-secondary-pressed-dark);
 }
 
 .theme-option.active {
     font-weight: var(--karma-fontWeight-semibold);
-    background-color: var(--karma-color-fill-action-brand-default-dark);
+    background-color: var(--karma-color-fill-action-brand-selected-dark);
     color: var(--karma-color-glyph-action-brand-default-dark);
     box-shadow: var(--karma-depth-raised);
 }
