@@ -186,15 +186,15 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--karma-border-radius-10x1);
-    padding: 2px;
+    border-radius: var(--karma-border-radius-12x1);
+    padding: 4px;
     background-color: var(--karma-color-fill-action-secondary-default-dark);
     overflow: hidden;
 }
 
 .theme-option {
     border: none;
-    color: var(--karma-color-glyph-action-secondary-default-dark);
+    color: var(--karma-color-glyph-action-tertiary-default-dark);
     background-color: var(--karma-color-fill-action-tertiary-default-dark);
     padding: 4px 8px;
     border-radius: var(--karma-border-radius-8x1);
@@ -207,7 +207,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4px;
     width: 64px;
 }
 
@@ -220,6 +219,7 @@ footer {
 }
 
 .theme-option.active {
+    font-weight: var(--karma-fontWeight-semibold);
     background-color: var(--karma-color-fill-action-brand-default-dark);
     color: var(--karma-color-glyph-action-brand-default-dark);
     box-shadow: var(--karma-depth-raised);

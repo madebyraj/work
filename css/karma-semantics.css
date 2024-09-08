@@ -172,6 +172,7 @@
     --karma-color-label-primary-dark: #FFFFFF;
     --karma-color-label-secondary-dark: rgba(255, 255, 255, 0.7);
     --karma-color-label-tertiary-dark: rgba(255, 255, 255, 0.5);
+    --karma-color-label-quaternary-dark: rgba(255, 255, 255, 0.3);
 
 
 
@@ -333,6 +334,7 @@
     --karma-color-label-primary-light: #000000;
     --karma-color-label-secondary-light: rgba(0, 0, 0, 0.76);
     --karma-color-label-tertiary-light: rgba(0, 0, 0, 0.56);
+    --karma-color-label-quaternary-light: rgba(0, 0, 0, 0.35);
 
 
 

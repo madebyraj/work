@@ -213,6 +213,7 @@
     --karma-color-label-primary-light: var(--karma-color-label-primary-dark);
     --karma-color-label-secondary-light: var(--karma-color-label-secondary-dark);
     --karma-color-label-tertiary-light: var(--karma-color-label-tertiary-dark);
+    --karma-color-label-quaternary-light: var(--karma-color-label-quaternary-dark);
 
 
 
@@ -431,6 +432,7 @@
     --karma-color-label-primary-dark: var(--karma-color-label-primary-light);
     --karma-color-label-secondary-dark: var(--karma-color-label-secondary-light);
     --karma-color-label-tertiary-dark: var(--karma-color-label-tertiary-light);
+    --karma-color-label-quaternary-dark: var(--karma-color-label-quaternary-light);
 
 
 

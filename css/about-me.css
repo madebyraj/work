@@ -260,13 +260,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    padding: 4px;
+    padding: 2px;
     background-color: var(--karma-color-fill-action-secondary-default-dark);
     border: none;
     border-radius: var(--karma-border-radius-full);
-    transition: background-color 0.3s ease;
+    transition: background-color 200ms ease;
+}
+
+.chevron-left path {
+    fill: var(--karma-color-glyph-action-secondary-default-dark);
+}
+
+.chevron-right path {
+    fill: var(--karma-color-glyph-action-secondary-default-dark);
 }
 
 .btn:hover {
@@ -275,11 +281,17 @@ main {
 }
 
 .btn:disabled {
-    opacity: 0.5;
     cursor: var(--cursor-not-allowed), not-allowed;
     background-color: var(--karma-color-fill-action-secondary-disabled-dark);
 }
 
+.btn:disabled .chevron-left path {
+    fill: var(--karma-color-glyph-action-secondary-disabled-dark);
+}
+
+.btn:disabled .chevron-right path {
+    fill: var(--karma-color-glyph-action-secondary-disabled-dark);
+}
 
 
 

@@ -106,7 +106,7 @@
 }
 
 .current {
-    color: var(--karma-color-label-tertiary-dark) !important;
+    color: var(--karma-color-label-quaternary-dark) !important;
     cursor: var(--cursor-not-allowed), auto !important;
 }
 
