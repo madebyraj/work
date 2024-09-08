@@ -83,7 +83,7 @@ main {
     color: var(--primary-button-text);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    letter-spacing: var(--karma-letterSpacing-normal);
     border-radius: 24px 24px 24px 4px;
     background-color: #313131;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -106,7 +106,7 @@ main {
     color: var(--primary-button-text);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    letter-spacing: var(--karma-letterSpacing-normal);
     background-color: #2A4DE4;
     overflow: hidden;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -164,7 +164,7 @@ main {
     color: var(--karma-color-label-tertiary-dark);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    letter-spacing: var(--karma-letterSpacing-normal);
 }
 
 #time {
