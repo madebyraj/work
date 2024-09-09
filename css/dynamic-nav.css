@@ -2,6 +2,7 @@
 
 @import url('./variables.css');
 @import url('./karma-semantics.css');
+@import url('./karma-colors&depths.css');
 @import url('./karma-typography&radius.css');
 
 
@@ -247,8 +248,8 @@
         display: inline-block;
         font-family: var(--karma-font-heading);
         letter-spacing: var(--karma-letterSpacing-normal);
-        font-size: var(--karma-fontSize-24x1);
-        line-height: var(--karma-lineHeight-24x1);
+        font-size: var(--karma-fontSize-28x1);
+        line-height: var(--karma-lineHeight-28x1);
         font-weight: var(--fontWeights-semibold);
         transform: translateY(-24px);
         transition: 200ms ease-out;

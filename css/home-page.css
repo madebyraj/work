@@ -2,6 +2,7 @@
 
 @import url('./variables.css');
 @import url('./karma-semantics.css');
+@import url('./karma-colors&depths.css');
 @import url('./karma-typography&radius.css');
 @import url('./animation.css');
 
@@ -59,7 +60,7 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-  gap: 48px;
+  gap: 40px;
 }
 
 .different-hello-container {
@@ -157,8 +158,8 @@ body {
   line-height: var(--karma-lineHeight-28x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
-  letter-spacing: var(--karma-letterSpacing-wide);
-  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-normal);
+  font-weight: var(--karma-fontWeight-semibold);
 }
 
 #project-section {

@@ -1,0 +1,184 @@
+:root {
+
+
+
+    /* ----Global---- */
+
+
+
+    /* --Depth-- */
+
+    --karma-depth-baseline: 0 0 0 0 transparent;
+    --karma-depth-raised: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+    --karma-depth-elevated: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    --karma-depth-floating: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
+
+
+
+    /* --Blur-- */
+
+    --karma-blur-materialSover-header: saturate(180%) blur(20px);
+
+
+
+
+
+
+    /* ---------------------------------------------------------------------------------- */
+
+
+
+
+
+    /* --Border-- */
+
+    --karma-color-border-brand-accent: #0071E3;
+    --karma-color-border-default: #86868B;
+    --karma-color-border-muted: #E8E8ED;
+    --karma-color-border-strong: #1D1D1F;
+    --karma-color-border-focus: #0071E3;
+    --karma-color-border-error: #E30000;
+    --karma-color-border-warning: #FFE045;
+    --karma-color-border-success: #008009;
+
+
+
+    /* --System Background-- */
+
+    --karma-color-system-background: #FFFFFF;
+
+
+
+    /* --Fill-- */
+
+    --karma-color-fill-primary: #FFFFFF;
+    --karma-color-fill-secondary: #FBFBFD;
+    --karma-color-fill-tertiary: #F5F5F7;
+    --karma-color-fill-error: #FFF2F4;
+    --karma-color-fill-warning: #FFFEF2;
+    --karma-color-fill-success: #F5FFF6;
+
+
+
+    /* --Fill Action-- */
+
+
+
+    /* Brand */
+
+    --karma-color-fill-action-brand-default: #000000;
+    --karma-color-fill-action-brand-hover: #1D1D1F;
+    --karma-color-fill-action-brand-pressed: #333336;
+    --karma-color-fill-action-brand-selected: #1D1D1F;
+    --karma-color-fill-action-brand-disabled: #6E6E73;
+
+
+
+    /* Brand Accent */
+
+    --karma-color-fill-action-brand-accent-default: #0071E3;
+    --karma-color-fill-action-brand-accent-hover: #0066CC;
+    --karma-color-fill-action-brand-accent-pressed: #00488F;
+    --karma-color-fill-action-brand-accent-selected: #0071E3;
+    --karma-color-fill-action-brand-accent-selection: #D6EAFF;
+    --karma-color-fill-action-brand-accent-selection-hover: #ADD6FF;
+    --karma-color-fill-action-brand-accent-disabled: #ADD6FF;
+
+
+
+    /* Secondary */
+
+    --karma-color-fill-action-secondary-default: #F5F5F7;
+    --karma-color-fill-action-secondary-hover: #E8E8ED;
+    --karma-color-fill-action-secondary-pressed: #D2D2D7;
+    --karma-color-fill-action-secondary-selected: #E8E8ED;
+    --karma-color-fill-action-secondary-disabled: #F5F5F7;
+
+
+
+    /* Tertiary */
+
+    --karma-color-fill-action-tertiary-default: rgba(0, 0, 0, 0);
+    --karma-color-fill-action-tertiary-hover: #F5F5F7;
+    --karma-color-fill-action-tertiary-pressed: #E8E8ED;
+    --karma-color-fill-action-tertiary-selected: #F5F5F7;
+    --karma-color-fill-action-tertiary-disabled: rgba(0, 0, 0, 0);
+
+
+
+    /* --Glyph-- */
+
+    --karma-color-glyph-default: #1D1D1F;
+    --karma-color-glyph-muted: #6E6E73;
+    --karma-color-glyph-error: #E30000;
+    --karma-color-glyph-warning: #977009;
+    --karma-color-glyph-success: #008009;
+
+
+
+    /* --Glyph Action-- */
+
+
+
+    /* Brand */
+
+    --karma-color-glyph-action-brand-default: #FFFFFF;
+    --karma-color-glyph-action-brand-disabled: #D2D2D7;
+
+
+
+    /* Brand Accent */
+
+    --karma-color-glyph-action-brand-accent-default: #FFFFFF;
+    --karma-color-glyph-action-brand-accent-disabled: #D2D2D7;
+
+
+
+    /* Destructive */
+
+    --karma-color-glyph-action-destructive-default: #E30000;
+    --karma-color-glyph-action-destructive-disabled: #FFADAD;
+
+
+
+    /* Secondary */
+
+    --karma-color-glyph-action-secondary-default: #1D1D1F;
+    --karma-color-glyph-action-secondary-disabled: #86868B;
+
+
+
+    /* Tertiary */
+
+    --karma-color-glyph-action-tertiary-default: #1D1D1F;
+    --karma-color-glyph-action-tertiary-disabled: #86868B;
+
+
+
+    /* Interactive Brand Accent */
+
+    --karma-color-glyph-interactive-brand-accent-default: #0071E3;
+    --karma-color-glyph-interactive-brand-accent-hover: #2997FF;
+    --karma-color-glyph-interactive-brand-accent-pressed: #70B8FF;
+    --karma-color-glyph-interactive-brand-accent-disabled: #ADD6FF;
+
+
+
+    /* --Label-- */
+
+    --karma-color-label-primary: #000000;
+    --karma-color-label-secondary: rgba(0, 0, 0, 0.76);
+    --karma-color-label-tertiary: rgba(0, 0, 0, 0.56);
+    --karma-color-label-quaternary: rgba(0, 0, 0, 0.35);
+
+
+
+    /* --Material Sover-- */
+
+    --karma-color-materialSover-header: rgba(255, 255, 255, 0.8);
+
+
+
+
+
+}
