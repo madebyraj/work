@@ -44,23 +44,23 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background-dark);
+  background-color: var(--karma-color-system-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
 
 .hero-section {
-  background-color: var(--karma-color-fill-primary-dark);
-  border-bottom: 1px solid var(--karma-color-border-muted-dark);
+  background-color: var(--karma-color-fill-primary);
+  border-bottom: 1px solid var(--karma-color-border-muted);
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 100vh;
+  height: 696px;
   width: 100%;
-  gap: 40px;
+  gap: 48px;
 }
 
 .different-hello-container {
@@ -79,7 +79,7 @@ body {
 }
 
 #german {
-  color: #087FE7;
+  color: #0084cb;
   animation: locomotion-0_c6 2300ms linear 0s normal 1 both;
   animation-name: locomotion-0_c6;
   animation-play-state: running;
@@ -87,7 +87,7 @@ body {
 }
 
 #spanish {
-  color: #F64831;
+  color: #e02200;
   animation: locomotion-0_c2 900ms linear 0s normal 1 both;
   animation-name: locomotion-0_c2;
   animation-play-state: running;
@@ -95,7 +95,7 @@ body {
 }
 
 #french {
-  color: #2A9D99;
+  color: #0b9e93;
   animation: locomotion-0_c4 1600ms linear 0s normal 1 both;
   animation-name: locomotion-0_c4;
   animation-play-state: running;
@@ -103,7 +103,7 @@ body {
 }
 
 #english {
-  color: #9949E9;
+  color: #6045ec;
   animation: locomotion-0_c1 550ms linear 0s normal 1 both;
   animation-name: locomotion-0_c1;
   animation-play-state: running;
@@ -111,7 +111,7 @@ body {
 }
 
 #russian {
-  color: #FFAF0F;
+  color: #ffb300;
   animation: locomotion-0_c3 1250ms linear 0s normal 1 both;
   animation-name: locomotion-0_c3;
   animation-play-state: running;
@@ -119,7 +119,7 @@ body {
 }
 
 #portuguese {
-  color: #1AAD3A;
+  color: #009146;
   animation: locomotion-0_c5 1950ms linear 0s normal 1 both;
   animation-name: locomotion-0_c5;
   animation-play-state: running;
@@ -127,7 +127,7 @@ body {
 }
 
 #japanese {
-  color: #DB5B00;
+  color: #e35416;
   animation: locomotion-0_c7 2650ms linear 0s normal 1 both;
   animation-name: locomotion-0_c7;
   animation-play-state: running;
@@ -156,7 +156,7 @@ body {
   text-align: center;
   font-size: var(--karma-fontSize-28x1);
   line-height: var(--karma-lineHeight-28x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-normal);
   font-weight: var(--karma-fontWeight-semibold);
@@ -177,7 +177,7 @@ body {
   max-width: 360px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
 }
@@ -198,10 +198,8 @@ body {
   transition: 200ms ease-out;
   text-decoration: none;
   display: grid;
-  grid-column: span 2;
-  grid-template-rows: 100%;
-  grid-template-columns: 40% 60%;
-  background-color: var(--karma-color-fill-primary-dark);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background-color: var(--karma-color-fill-primary);
   justify-content: center;
   overflow: hidden;
 }
@@ -213,7 +211,7 @@ body {
 
 .main-project-container:focus {
   transform: scale(1);
-  outline: 0.25rem solid var(--focused-state-outline-dark);
+  outline: 0.25rem solid var(--focused-state-outline);
 }
 
 .pro-cover {
@@ -238,7 +236,7 @@ body {
   top: 48px;
   left: 56px;
   font-size: var(--karma-fontSize-20x1);
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
   font-family: var(--karma-font-body);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-20x1);
@@ -247,7 +245,7 @@ body {
 .pro-description {
   width: 360px;
   font-size: var(--karma-fontSize-32x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-32x1);
@@ -274,7 +272,7 @@ body {
   max-width: 360px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
 }
@@ -296,7 +294,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  background-color: var(--karma-color-fill-primary-dark);
+  background-color: var(--karma-color-fill-primary);
   overflow: hidden;
   border-radius: var(--karma-border-radius-24x1);
 }
@@ -308,7 +306,7 @@ body {
 
 .main-article-container:focus {
   transform: scale(1);
-  outline: 0.25rem solid var(--focused-state-outline-dark);
+  outline: 0.25rem solid var(--focused-state-outline);
 }
 
 .article-cover {
@@ -334,18 +332,18 @@ body {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-normal);
   line-height: var(--karma-lineHeight-20x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .article-read-time {
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
   text-overflow: ellipsis;
 }
 
 .article-date-of-release {
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
   text-overflow: ellipsis;
@@ -362,45 +360,20 @@ body {
 }
 
 .work-together-container {
+  background: linear-gradient(134deg, #0D1387 0%, #867AF6 100%);
   min-height: 512px;
   position: relative;
   padding: 24px;
   border-radius: var(--karma-border-radius-40x1);
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: center;
   overflow: hidden;
   box-shadow: var(--karma-depth-floating);
-  border: 1px solid var(--karma-color-border-default-dark);
 }
 
-.work-together-bg {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  object-fit: cover;
-  object-position: center top;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.work-together-container::before {
-  background-size: 100.1% 100.1%;
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to top, hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.77311) 12.83%, hsla(0, 0%, 0%, 0.72685) 24%, hsla(0, 0%, 0%, 0.66487) 33.77%, hsla(0, 0%, 0%, 0.59081) 42.37%, hsla(0, 0%, 0%, 0.50831) 50.07%, hsla(0, 0%, 0%, 0.421) 57.13%, hsla(0, 0%, 0%, 0.33252) 63.78%, hsla(0, 0%, 0%, 0.24652) 70.3%, hsla(0, 0%, 0%, 0.16663) 76.92%, hsla(0, 0%, 0%, 0.09648) 83.91%, hsla(0, 0%, 0%, 0.03973) 91.52%, hsla(0, 0%, 0%, 0));
-}
-
-.briefcase path{
-  fill: var(--karma-color-glyph-action-brand-accent-default-dark);
+.briefcase path {
+  fill: var(--karma-color-glyph-action-brand-accent-default);
 }
 
 .email-container {
@@ -416,35 +389,37 @@ body {
 
 #email-heading {
   text-align: center;
-  font-size: var(--karma-fontSize-40x1);
-  color: var(--karma-color-glyph-action-brand-accent-default-dark);
+  max-width: 520px;
+  font-size: var(--karma-fontSize-56x1);
+  color: var(--karma-color-glyph-action-brand-accent-default);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  line-height: var(--karma-lineHeight-40x1);
+  line-height: var(--karma-lineHeight-56x1);
 }
 
 #email-description {
   text-align: center;
-  max-width: 600px;
+  max-width: 520px;
+  font-family: var(--karma-font-heading);
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
-  color: var(--karma-color-glyph-action-brand-accent-default-dark);
+  color: var(--karma-color-glyph-action-brand-accent-default);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 #email-me-btn {
   margin-top: 16px;
-  padding: 10px 16px;
+  padding: 10px 22px;
   text-decoration: none;
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-normal);
-  color: var(--karma-color-glyph-action-brand-accent-default-dark);
-  background-color: var(--karma-color-fill-action-brand-accent-default-dark);
-  border-radius: var(--karma-border-radius-12x1);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  color: var(--karma-color-glyph-action-secondary-default);
+  background-color: var(--karma-color-fill-action-secondary-default);
+  border-radius: var(--karma-border-radius-full);
   text-align: center;
   transition: all 200ms ease-out;
   display: flex;
@@ -454,17 +429,21 @@ body {
 
 #email-me-btn:hover {
   cursor: var(--cursor-pointer), auto;
-  background-color: var(--karma-color-fill-action-brand-accent-hover-dark);
+  background-color: var(--karma-color-fill-action-secondary-hover);
 }
 
 #email-me-btn:active {
-  background-color: var(--karma-color-fill-action-brand-accent-pressed-dark);
+  background-color: var(--karma-color-fill-action-secondary-pressed);
 }
 
 
 @media (max-width: 1400px) {}
 
 @media (max-width: 1068px) {
+
+  .hero-section {
+    height: 600px;
+  }
 
   #project-section {
     margin: auto;
@@ -478,7 +457,6 @@ body {
 
   .main-project-container {
     min-height: 360px;
-    grid-template-columns: 44% 56%;
   }
 
   .pro-info {
@@ -493,7 +471,7 @@ body {
   }
 
   .pro-description {
-    width: 216px;
+    width: 240px;
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
   }
@@ -522,6 +500,14 @@ body {
 
 @media (max-width: 735px) {
 
+  .hero-section {
+    height: 512px;
+  }
+
+  .hello-word {
+    font-size: var(--karma-fontSize-40x1);
+  }
+
   .main {
     width: 100%;
     padding: 0px 24px;
@@ -530,7 +516,7 @@ body {
   .para {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
-    max-width: 336px;
+    max-width: 360px;
   }
 
   #project-section {
@@ -552,8 +538,7 @@ body {
 
   .main-project-container {
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .pro-info {
@@ -607,13 +592,8 @@ body {
   }
 
   #email-heading {
-    font-size: var(--karma-fontSize-32x1);
-    line-height: var(--karma-lineHeight-32x1);
-  }
-
-  #email-description {
-    font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-20x1);
+    font-size: var(--karma-fontSize-40x1);
+    line-height: var(--karma-lineHeight-40x1);
   }
 
 }

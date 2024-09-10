@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    background-color: var(--karma-color-system-background-dark);
+    background-color: var(--karma-color-system-background);
     cursor: var(--cursor-default), auto;
     animation: pageLoading 800ms;
 }
@@ -53,10 +53,6 @@ body {
 
 
 /* Introduction Section */
-
-main {
-    margin-top: 64px;
-}
 
 .introduction-section {
     display: flex;
@@ -84,7 +80,7 @@ main {
     color: var(--primary-button-text);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-normal);
+    letter-spacing: var(--karma-letterSpacing-wide);
     border-radius: 24px 24px 24px 4px;
     background-color: #313131;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -107,7 +103,7 @@ main {
     color: var(--primary-button-text);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-normal);
+    letter-spacing: var(--karma-letterSpacing-wide);
     background-color: #2A4DE4;
     overflow: hidden;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -162,10 +158,10 @@ main {
     width: 100%;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    color: var(--karma-color-label-tertiary-dark);
+    color: var(--karma-color-label-tertiary);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-normal);
+    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 #time {
@@ -178,7 +174,7 @@ main {
 
 #blocked {
     margin-top: 32px;
-    color: var(--karma-color-label-secondary-dark);
+    color: var(--karma-color-label-secondary);
 }
 
 
@@ -198,7 +194,7 @@ main {
     max-width: 448px;
     text-align: center;
     font-size: var(--karma-fontSize-40x1);
-    color: var(--karma-color-label-secondary-dark);
+    color: var(--karma-color-label-secondary);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
@@ -262,36 +258,36 @@ main {
     align-items: center;
     justify-content: center;
     padding: 2px;
-    background-color: var(--karma-color-fill-action-secondary-default-dark);
+    background-color: var(--karma-color-fill-action-secondary-default);
     border: none;
     border-radius: var(--karma-border-radius-full);
     transition: background-color 200ms ease;
 }
 
 .chevron-left path {
-    fill: var(--karma-color-glyph-action-secondary-default-dark);
+    fill: var(--karma-color-glyph-action-secondary-default);
 }
 
 .chevron-right path {
-    fill: var(--karma-color-glyph-action-secondary-default-dark);
+    fill: var(--karma-color-glyph-action-secondary-default);
 }
 
 .btn:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-secondary-hover-dark);
+    background-color: var(--karma-color-fill-action-secondary-hover);
 }
 
 .btn:disabled {
     cursor: var(--cursor-not-allowed), not-allowed;
-    background-color: var(--karma-color-fill-action-secondary-disabled-dark);
+    background-color: var(--karma-color-fill-action-secondary-disabled);
 }
 
 .btn:disabled .chevron-left path {
-    fill: var(--karma-color-glyph-action-secondary-disabled-dark);
+    fill: var(--karma-color-glyph-action-secondary-disabled);
 }
 
 .btn:disabled .chevron-right path {
-    fill: var(--karma-color-glyph-action-secondary-disabled-dark);
+    fill: var(--karma-color-glyph-action-secondary-disabled);
 }
 
 
