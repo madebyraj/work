@@ -164,6 +164,15 @@
 
 
 
+    /* Interactive Secondary */
+
+    --karma-color-glyph-interactive-secondary-default: #1D1D1F;
+    --karma-color-glyph-interactive-secondary-hover: #2997FF;
+    --karma-color-glyph-interactive-secondary-pressed: #70B8FF;
+    --karma-color-glyph-interactive-secondary-disabled: #86868B;
+
+
+
     /* --Label-- */
 
     --karma-color-label-primary: #000000;

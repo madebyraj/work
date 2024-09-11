@@ -41,7 +41,7 @@
 }
 
 .nav-container {
-    height: 56px;
+    height: 60px;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -58,7 +58,7 @@
     background: var(--karma-color-materialSover-header);
     backdrop-filter: var(--karma-blur-materialSover-header);
     padding: 14px 128px;
-    height: 56px;
+    height: 60px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-bold);
     transition: 100ms ease-out;
-    height: 56px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,17 +120,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
+    gap: 32px;
 }
 
 .inner-right-side-container li a {
-    padding: 5px 12px;
-    background-color: var(--karma-color-fill-action-tertiary-default);
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-14x1);
-    color: var(--karma-color-glyph-action-tertiary-default);
+    color: var(--karma-color-glyph-interactive-secondary-default);
     text-decoration: none;
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
@@ -143,24 +141,23 @@
 
 .inner-right-side-container li a:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-tertiary-hover);
+    color: var(--karma-color-glyph-interactive-secondary-hover);
 }
 
 .inner-right-side-container li a:active {
-    background-color: var(--karma-color-fill-action-tertiary-pressed);
+    color: var(--karma-color-glyph-interactive-secondary-pressed);
 }
 
 .current {
     cursor: var(--cursor-not-allowed), auto !important;
-    background-color: var(--karma-color-fill-action-tertiary-disabled) !important;
-    color: var(--karma-color-glyph-action-tertiary-disabled) !important;
+    color: var(--karma-color-glyph-interactive-secondary-disabled) !important;
 }
 
 
 
 
 #nav-cta {
-    margin-left: 12px;
+    margin-left: 32px;
     padding: 5px 12px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
@@ -245,7 +242,7 @@
     .inner-right-side-container li a {
         text-align: start;
         width: 100%;
-        padding: 8px 18px;
+        padding: 0px 0px 16px;
         display: inline-block;
         font-family: var(--karma-font-heading);
         letter-spacing: var(--karma-letterSpacing-wide);
@@ -271,7 +268,7 @@
 
     .inner-right-side-container {
         display: none;
-        margin-top: 56px;
+        margin-top: 60px;
         flex-direction: column;
         align-items: start;
         position: fixed;
@@ -279,7 +276,7 @@
         left: 0;
         gap: 0;
         min-width: 100%;
-        padding: 0 24px;
+        padding: 0 40px;
     }
 
     .nav-container.active .inner-right-side-container {
@@ -289,13 +286,13 @@
         left: 0;
         gap: 0;
         width: 100%;
-        padding: 0 24px;
+        padding: 0 40px;
         height: 100vh;
     }
 
     .menu-icon-container {
         width: 20px;
-        height: 56px;
+        height: 60px;
         display: flex;
         align-items: center;
         cursor: var(--cursor-pointer), auto;
