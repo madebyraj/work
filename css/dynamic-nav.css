@@ -55,7 +55,7 @@
     right: 0;
     left: 0;
     z-index: 999;
-    background: var(--karma-color-materialSover-header);
+    background: var(--karma-color-materialSover-header-dark);
     backdrop-filter: var(--karma-blur-materialSover-header);
     padding: 14px 128px;
     height: 60px;
@@ -70,7 +70,7 @@
     display: block;
     width: 100%;
     z-index: 999;
-    background-color: var(--karma-color-border-muted);
+    background-color: var(--karma-color-border-muted-dark);
     position: absolute;
     content: "";
     top: 100%;
@@ -94,7 +94,7 @@
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
     letter-spacing: var(--karma-letterSpacing-normal);
-    color: var(--karma-color-label-primary);
+    color: var(--karma-color-label-primary-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-bold);
@@ -128,7 +128,7 @@
     border-radius: var(--karma-border-radius-full);
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-14x1);
-    color: var(--karma-color-glyph-interactive-secondary-default);
+    color: var(--karma-color-glyph-interactive-secondary-default-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
@@ -141,16 +141,16 @@
 
 .inner-right-side-container li a:hover {
     cursor: var(--cursor-pointer), auto;
-    color: var(--karma-color-glyph-interactive-secondary-hover);
+    color: var(--karma-color-glyph-interactive-secondary-hover-dark);
 }
 
 .inner-right-side-container li a:active {
-    color: var(--karma-color-glyph-interactive-secondary-pressed);
+    color: var(--karma-color-glyph-interactive-secondary-pressed-dark);
 }
 
 .current {
     cursor: var(--cursor-not-allowed), auto !important;
-    color: var(--karma-color-glyph-interactive-secondary-disabled) !important;
+    color: var(--karma-color-glyph-interactive-secondary-disabled-dark) !important;
 }
 
 
@@ -166,8 +166,8 @@
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
-    color: var(--karma-color-glyph-action-brand-accent-default);
-    background-color: var(--karma-color-fill-action-brand-accent-default);
+    color: var(--karma-color-glyph-action-brand-accent-default-dark);
+    background-color: var(--karma-color-fill-action-brand-accent-default-dark);
     text-align: center;
     transition: all 200ms ease-out;
     display: flex;
@@ -177,15 +177,15 @@
 
 #nav-cta:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-brand-accent-hover);
+    background-color: var(--karma-color-fill-action-brand-accent-hover-dark);
 }
 
 #nav-cta:active {
-    background-color: var(--karma-color-fill-action-brand-accent-pressed);
+    background-color: var(--karma-color-fill-action-brand-accent-pressed-dark);
 }
 
 #nav-cta:focus {
-    background-color: var(--karma-color-fill-action-brand-accent-selected);
+    background-color: var(--karma-color-fill-action-brand-accent-selected-dark);
 }
 
 

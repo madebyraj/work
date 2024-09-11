@@ -45,7 +45,7 @@ html {
 }
 
 body {
-    background-color: var(--karma-color-system-background);
+    background-color: var(--karma-color-system-background-dark);
     cursor: var(--cursor-default), auto;
     animation: pageLoading 800ms;
 }
@@ -104,7 +104,7 @@ body {
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
-    background-color: #2A4DE4;
+    background-color: #045ac3;
     overflow: hidden;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
 }
@@ -119,7 +119,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 24px 4px 4px 24px;
-    border: 4px solid #2A4DE4;
+    border: 4px solid #045ac3;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
 }
 
@@ -158,7 +158,7 @@ body {
     width: 100%;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    color: var(--karma-color-label-tertiary);
+    color: var(--karma-color-label-tertiary-dark);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
@@ -174,7 +174,7 @@ body {
 
 #blocked {
     margin-top: 32px;
-    color: var(--karma-color-label-secondary);
+    color: var(--karma-color-label-secondary-dark);
 }
 
 
@@ -194,7 +194,7 @@ body {
     max-width: 448px;
     text-align: center;
     font-size: var(--karma-fontSize-40x1);
-    color: var(--karma-color-label-secondary);
+    color: var(--karma-color-label-secondary-dark);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
@@ -258,36 +258,36 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2px;
-    background-color: var(--karma-color-fill-action-secondary-default);
+    background-color: var(--karma-color-fill-action-secondary-default-dark);
     border: none;
     border-radius: var(--karma-border-radius-full);
     transition: background-color 200ms ease;
 }
 
 .chevron-left path {
-    fill: var(--karma-color-glyph-action-secondary-default);
+    fill: var(--karma-color-glyph-action-secondary-default-dark);
 }
 
 .chevron-right path {
-    fill: var(--karma-color-glyph-action-secondary-default);
+    fill: var(--karma-color-glyph-action-secondary-default-dark);
 }
 
 .btn:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-secondary-hover);
+    background-color: var(--karma-color-fill-action-secondary-hover-dark);
 }
 
 .btn:disabled {
     cursor: var(--cursor-not-allowed), not-allowed;
-    background-color: var(--karma-color-fill-action-secondary-disabled);
+    background-color: var(--karma-color-fill-action-secondary-disabled-dark);
 }
 
 .btn:disabled .chevron-left path {
-    fill: var(--karma-color-glyph-action-secondary-disabled);
+    fill: var(--karma-color-glyph-action-secondary-disabled-dark);
 }
 
 .btn:disabled .chevron-right path {
-    fill: var(--karma-color-glyph-action-secondary-disabled);
+    fill: var(--karma-color-glyph-action-secondary-disabled-dark);
 }
 
 

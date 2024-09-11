@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background);
+  background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
@@ -79,7 +79,7 @@ main {
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
 }
 
 .cs {
@@ -87,13 +87,13 @@ main {
   font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--letterSpacings-wide);
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   margin-bottom: 16px;
 }
 
 .po {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -112,13 +112,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .r-r p {
   font-size: var(--fontSizes-16);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
 }
 
 .p-c h6 {
@@ -127,13 +127,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .p-c p {
   font-size: var(--fontSizes-16);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
 }
 
 .tools h6 {
@@ -142,23 +142,23 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .tools p {
   font-size: var(--fontSizes-16);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
 }
 
 .why-i {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   /* margin-bottom: 24px; */
 }
 
 .line {
-  border: 1px solid var(--karma-color-border-muted);
+  border: 1px solid var(--karma-color-border-muted-dark);
 }
 
 /* Main Case Study Section */
@@ -176,7 +176,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -188,7 +188,7 @@ main {
 
 #problem-s p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
 }
 
 .design-goal {
@@ -209,7 +209,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -245,13 +245,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info1 p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
@@ -282,13 +282,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info2 p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
@@ -318,13 +318,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info3 p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
@@ -355,13 +355,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info4 p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
@@ -376,7 +376,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -405,7 +405,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -417,13 +417,13 @@ main {
 
 .re-subh {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 .end-users {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -463,7 +463,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -475,7 +475,7 @@ main {
 
 .questions p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -490,7 +490,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -502,7 +502,7 @@ main {
 
 #insights p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -534,7 +534,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -546,7 +546,7 @@ main {
 
 #design-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -578,7 +578,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -590,7 +590,7 @@ main {
 
 #proto-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -639,7 +639,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -651,12 +651,12 @@ main {
 
 .ut-info {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 .observe {
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   font-size: var(--fontSizes-18);
   margin-bottom: 16px;
 }
@@ -688,7 +688,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -700,7 +700,7 @@ main {
 
 #my-learn p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -714,7 +714,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -726,7 +726,7 @@ main {
 
 #next-st p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -746,7 +746,7 @@ main {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-normal);
-  color: var(--karma-color-label-primary);
+   color: var(--karma-color-label-primary-dark);
   text-align: center;
 }
 
@@ -762,7 +762,7 @@ main {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -776,7 +776,7 @@ main {
   content: "";
   font-family: var(--karma-font-symbol);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -786,14 +786,14 @@ main {
 }
 
 .link-copy:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
 }
 
 .link-copy:active {
   color: var(--karma-color-glyph-interactive-brand-accent-pressed);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
 

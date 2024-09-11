@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background);
+  background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
@@ -79,21 +79,21 @@ main {
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
   margin-bottom: 16px;
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .cs {
   font-size: var(--fontSizes-18);
   font-family: var(--fonts-mono);
   font-weight: var(--fontWeights-medium);
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   letter-spacing: var(--letterSpacings-wide);
   margin-bottom: 16px;
 }
 
 .po {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -112,13 +112,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .r-r p {
   font-size: var(--fontSizes-16);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .p-c h6 {
@@ -127,13 +127,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .p-c p {
   font-size: var(--fontSizes-16);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .tools h6 {
@@ -142,17 +142,17 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .tools p {
   font-size: var(--fontSizes-16);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .line {
-  border: 1px solid var(--karma-color-border-muted);
+  border: 1px solid var(--karma-color-border-muted-dark);
 }
 
 /* Main Case Study Section */
@@ -171,7 +171,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -183,7 +183,7 @@ main {
 
 #problem-s p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -198,7 +198,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -210,7 +210,7 @@ main {
 
 #tackling-tp p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -233,7 +233,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -245,7 +245,7 @@ main {
 
 #research-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -268,7 +268,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -284,13 +284,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 24px;
 }
 
 #hmw-q {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -304,13 +304,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 24px;
 }
 
 #lf-para {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -342,7 +342,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -354,7 +354,7 @@ main {
 
 #task-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -386,7 +386,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -398,7 +398,7 @@ main {
 
 #solution-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -421,7 +421,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 24px;
 }
 
@@ -443,7 +443,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 24px;
 }
 
@@ -465,7 +465,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -478,7 +478,7 @@ main {
 
 #map-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
@@ -506,7 +506,7 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
 
@@ -523,7 +523,7 @@ main {
 
 #in-sec p {
   font-size: var(--fontSizes-18);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 
@@ -543,7 +543,7 @@ main {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-normal);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   text-align: center;
 }
 

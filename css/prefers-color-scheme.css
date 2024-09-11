@@ -208,6 +208,15 @@
 
 
 
+    /* Interactive Brand Accent */
+
+    --karma-color-glyph-interactive-secondary-default-light: var(--karma-color-glyph-interactive-secondary-default-dark);
+    --karma-color-glyph-interactive-secondary-hover-light: var(--karma-color-glyph-interactive-secondary-hover-dark);
+    --karma-color-glyph-interactive-secondary-pressed-light: var(--karma-color-glyph-interactive-secondary-pressed-dark);
+    --karma-color-glyph-interactive-secondary-disabled-light: var(--karma-color-glyph-interactive-secondary-disabled-dark);
+
+
+
     /* --Label-- */
 
     --karma-color-label-primary-light: var(--karma-color-label-primary-dark);
@@ -424,6 +433,15 @@
     --karma-color-glyph-interactive-brand-accent-hover-dark: var(--karma-color-glyph-interactive-brand-accent-hover-light);
     --karma-color-glyph-interactive-brand-accent-pressed-dark: var(--karma-color-glyph-interactive-brand-accent-pressed-light);
     --karma-color-glyph-interactive-brand-accent-disabled-dark: var(--karma-color-glyph-interactive-brand-accent-disabled-light);
+
+
+
+    /* Interactive Brand Accent */
+
+    --karma-color-glyph-interactive-secondary-default-dark: var(--karma-color-glyph-interactive-secondary-default-light);
+    --karma-color-glyph-interactive-secondary-hover-dark: var(--karma-color-glyph-interactive-secondary-hover-light);
+    --karma-color-glyph-interactive-secondary-pressed-dark: var(--karma-color-glyph-interactive-secondary-pressed-light);
+    --karma-color-glyph-interactive-secondary-disabled-dark: var(--karma-color-glyph-interactive-secondary-disabled-light);
 
 
 

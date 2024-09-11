@@ -44,14 +44,14 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background);
+  background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
 
 .hero-section {
-  background-color: var(--karma-color-fill-primary);
-  border-bottom: 1px solid var(--karma-color-border-muted);
+  background-color: var(--karma-color-fill-primary-dark);
+  border-bottom: 1px solid var(--karma-color-border-muted-dark);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -156,7 +156,7 @@ body {
   text-align: center;
   font-size: var(--karma-fontSize-28x1);
   line-height: var(--karma-lineHeight-28x1);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
   font-weight: var(--karma-fontWeight-semibold);
@@ -177,7 +177,7 @@ body {
   max-width: 360px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
 }
@@ -199,7 +199,7 @@ body {
   text-decoration: none;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  background-color: var(--karma-color-fill-primary);
+  background-color: var(--karma-color-fill-primary-dark);
   justify-content: center;
   overflow: hidden;
 }
@@ -236,7 +236,7 @@ body {
   top: 48px;
   left: 56px;
   font-size: var(--karma-fontSize-20x1);
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-body);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-20x1);
@@ -245,7 +245,7 @@ body {
 .pro-description {
   width: 360px;
   font-size: var(--karma-fontSize-32x1);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-32x1);
@@ -272,7 +272,7 @@ body {
   max-width: 360px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
 }
@@ -294,7 +294,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  background-color: var(--karma-color-fill-primary);
+  background-color: var(--karma-color-fill-primary-dark);
   overflow: hidden;
   border-radius: var(--karma-border-radius-24x1);
 }
@@ -332,18 +332,18 @@ body {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-normal);
   line-height: var(--karma-lineHeight-20x1);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .article-read-time {
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
   text-overflow: ellipsis;
 }
 
 .article-date-of-release {
-  color: var(--karma-color-label-secondary);
+  color: var(--karma-color-label-secondary-dark);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
   text-overflow: ellipsis;
@@ -373,7 +373,7 @@ body {
 }
 
 .briefcase path {
-  fill: var(--karma-color-glyph-action-brand-accent-default);
+  fill: var(--karma-color-glyph-action-brand-accent-default-dark);
 }
 
 .email-container {
@@ -391,7 +391,7 @@ body {
   text-align: center;
   max-width: 520px;
   font-size: var(--karma-fontSize-48x1);
-  color: var(--karma-color-glyph-action-brand-accent-default);
+  color: var(--karma-color-glyph-action-brand-accent-default-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-48x1);
@@ -403,7 +403,7 @@ body {
   font-family: var(--karma-font-heading);
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
-  color: var(--karma-color-glyph-action-brand-accent-default);
+  color: var(--karma-color-glyph-action-brand-accent-default-dark);
   font-weight: var(--fontWeights-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
 }
@@ -417,8 +417,8 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-glyph-action-secondary-default);
-  background-color: var(--karma-color-fill-action-secondary-default);
+  color: var(--karma-color-glyph-action-secondary-default-dark);
+  background-color: var(--karma-color-fill-action-secondary-default-dark);
   border-radius: var(--karma-border-radius-full);
   text-align: center;
   transition: all 200ms ease-out;
@@ -429,11 +429,11 @@ body {
 
 #email-me-btn:hover {
   cursor: var(--cursor-pointer), auto;
-  background-color: var(--karma-color-fill-action-secondary-hover);
+  background-color: var(--karma-color-fill-action-secondary-hover-dark);
 }
 
 #email-me-btn:active {
-  background-color: var(--karma-color-fill-action-secondary-pressed);
+  background-color: var(--karma-color-fill-action-secondary-pressed-dark);
 }
 
 

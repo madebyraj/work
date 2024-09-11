@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background);
+  background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
 }
@@ -65,7 +65,7 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .project-overview {
@@ -74,7 +74,7 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
 }
 
 .link-to-video {
@@ -85,19 +85,19 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   transition: 200ms ease-out;
 }
 
 .link-to-video:hover {
   cursor: var(--cursor-pointer), auto;
-  color: var(--karma-color-glyph-interactive-brand-accent-hover);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
 }
 
 .link-to-video:active {
   color: var(--karma-color-glyph-interactive-brand-accent-pressed);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
 .design-deck-section {
@@ -108,7 +108,7 @@ body {
   width: 100%;
   height: 100%;
   aspect-ratio: 3 / 2;
-  border: 1px solid var(--karma-color-border-muted);
+  border: 1px solid var(--karma-color-border-muted-dark);
 }
 
 .finish-section {
@@ -127,7 +127,7 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-normal);
-  color: var(--karma-color-label-primary);
+  color: var(--karma-color-label-primary-dark);
   text-align: center;
 }
 
@@ -143,7 +143,7 @@ body {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -157,7 +157,7 @@ body {
   content: "";
   font-family: var(--karma-font-symbol);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -167,14 +167,14 @@ body {
 }
 
 .link-copy:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
 }
 
 .link-copy:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
 
@@ -223,8 +223,18 @@ body {
   }
 
   .title {
-    font-size: var(--karma-fontSize-40x1);
-    line-height: var(--karma-lineHeight-40x1);
+    font-size: var(--karma-fontSize-32x1);
+    line-height: var(--karma-lineHeight-32x1);
+  }
+
+  .project-overview {
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
+  }
+  
+  .link-to-video {
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
   }
 
   .design-deck-section {
