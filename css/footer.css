@@ -37,7 +37,7 @@ footer {
     max-width: 1024px;
     display: flex;
     flex-direction: column-reverse;
-    gap: 80px;
+    gap: 48px;
     width: 100%;
 }
 

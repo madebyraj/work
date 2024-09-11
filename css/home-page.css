@@ -158,7 +158,7 @@ body {
   line-height: var(--karma-lineHeight-28x1);
   color: var(--karma-color-label-primary);
   font-family: var(--karma-font-heading);
-  letter-spacing: var(--karma-letterSpacing-normal);
+  letter-spacing: var(--karma-letterSpacing-wide);
   font-weight: var(--karma-fontWeight-semibold);
 }
 
@@ -390,11 +390,11 @@ body {
 #email-heading {
   text-align: center;
   max-width: 520px;
-  font-size: var(--karma-fontSize-56x1);
+  font-size: var(--karma-fontSize-48x1);
   color: var(--karma-color-glyph-action-brand-accent-default);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  line-height: var(--karma-lineHeight-56x1);
+  line-height: var(--karma-lineHeight-48x1);
 }
 
 #email-description {
@@ -500,13 +500,13 @@ body {
 
 @media (max-width: 735px) {
 
-  .hero-section {
+  /* .hero-section {
     height: 512px;
   }
 
   .hello-word {
     font-size: var(--karma-fontSize-40x1);
-  }
+  } */
 
   .main {
     width: 100%;
@@ -583,6 +583,10 @@ body {
 
   /* Work Together Section */
 
+  .work-together-container {
+    min-height: 448px;
+  }
+
   .work-together {
     padding: 56px 24px 80px;
   }
@@ -594,6 +598,12 @@ body {
   #email-heading {
     font-size: var(--karma-fontSize-40x1);
     line-height: var(--karma-lineHeight-40x1);
+  }
+
+  #email-description {
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
+
   }
 
 }

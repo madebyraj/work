@@ -159,7 +159,7 @@
 
 
 
-#let-connect {
+#nav-cta {
     margin-left: 12px;
     padding: 5px 12px;
     border-radius: var(--karma-border-radius-full);
@@ -178,16 +178,16 @@
     justify-content: center;
 }
 
-#let-connect:hover {
+#nav-cta:hover {
     cursor: var(--cursor-pointer), auto;
     background-color: var(--karma-color-fill-action-brand-accent-hover);
 }
 
-#let-connect:active {
+#nav-cta:active {
     background-color: var(--karma-color-fill-action-brand-accent-pressed);
 }
 
-#let-connect:focus {
+#nav-cta:focus {
     background-color: var(--karma-color-fill-action-brand-accent-selected);
 }
 
@@ -256,7 +256,7 @@
         transition: 200ms ease-out;
     }
 
-    #let-connect {
+    #nav-cta {
         margin-left: 0px;
     }
 
@@ -265,7 +265,7 @@
     }
 
     .nav-container.active #link-logo,
-    .nav-container.active #let-connect {
+    .nav-container.active #nav-cta {
         display: none;
     }
 
