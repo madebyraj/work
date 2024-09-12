@@ -259,7 +259,7 @@ body {
 #writing-section {
   max-width: 1024px;
   margin: auto;
-  padding: 80px 0px;
+  padding: 80px 0px 128px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -351,92 +351,6 @@ body {
 
 
 
-/* Work Together Section */
-
-.work-together {
-  padding: 80px 0px 128px;
-  margin: auto;
-  max-width: 1024px;
-}
-
-.work-together-container {
-  background: linear-gradient(134deg, #0D1387 0%, #867AF6 100%);
-  min-height: 512px;
-  position: relative;
-  padding: 24px;
-  border-radius: var(--karma-border-radius-40x1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-shadow: var(--karma-depth-floating);
-}
-
-.briefcase path {
-  fill: var(--karma-color-glyph-action-brand-accent-default-dark);
-}
-
-.email-container {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 24px;
-}
-
-#email-heading {
-  text-align: center;
-  max-width: 520px;
-  font-size: var(--karma-fontSize-48x1);
-  color: var(--karma-color-glyph-action-brand-accent-default-dark);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-  line-height: var(--karma-lineHeight-48x1);
-}
-
-#email-description {
-  text-align: center;
-  max-width: 520px;
-  font-family: var(--karma-font-heading);
-  font-size: var(--karma-fontSize-24x1);
-  line-height: var(--karma-lineHeight-24x1);
-  color: var(--karma-color-glyph-action-brand-accent-default-dark);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
-}
-
-#email-me-btn {
-  margin-top: 16px;
-  padding: 10px 22px;
-  text-decoration: none;
-  font-size: var(--karma-fontSize-18x1);
-  line-height: var(--karma-lineHeight-18x1);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-glyph-action-secondary-default-dark);
-  background-color: var(--karma-color-fill-action-secondary-default-dark);
-  border-radius: var(--karma-border-radius-full);
-  text-align: center;
-  transition: all 200ms ease-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#email-me-btn:hover {
-  cursor: var(--cursor-pointer), auto;
-  background-color: var(--karma-color-fill-action-secondary-hover-dark);
-}
-
-#email-me-btn:active {
-  background-color: var(--karma-color-fill-action-secondary-pressed-dark);
-}
-
-
 @media (max-width: 1400px) {}
 
 @media (max-width: 1068px) {
@@ -486,14 +400,6 @@ body {
   #article-section {
     gap: 32px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-
-
-  /* Work Together Section */
-
-  .work-together {
-    padding: 64px 40px 96px;
   }
 
 }
@@ -581,29 +487,6 @@ body {
 
 
 
-  /* Work Together Section */
 
-  .work-together-container {
-    min-height: 448px;
-  }
-
-  .work-together {
-    padding: 56px 24px 80px;
-  }
-
-  .email-container {
-    padding: 8px;
-  }
-
-  #email-heading {
-    font-size: var(--karma-fontSize-40x1);
-    line-height: var(--karma-lineHeight-40x1);
-  }
-
-  #email-description {
-    font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-20x1);
-
-  }
 
 }

@@ -308,7 +308,7 @@
         position: absolute;
         height: 1.2px;
         width: 100%;
-        background: var(--karma-color-glyph-action-secondary-default);
+        background: var(--karma-color-glyph-action-secondary-default-dark);
         transition-property: transform, top;
         transition-delay: 0ms, 150ms;
         transition-duration: 200ms;
