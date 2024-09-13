@@ -67,7 +67,7 @@ footer {
 
 #email-heading {
     text-align: center;
-    max-width: 520px;
+    max-width: 600px;
     font-size: var(--karma-fontSize-40x1);
     color: var(--karma-color-label-primary-dark);
     font-family: var(--karma-font-heading);
@@ -77,7 +77,7 @@ footer {
 
 #email-description {
     text-align: center;
-    max-width: 520px;
+    max-width: 600px;
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);

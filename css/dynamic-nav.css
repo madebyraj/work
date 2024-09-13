@@ -97,7 +97,7 @@
     color: var(--karma-color-label-primary-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-bold);
+    font-weight: var(--karma-fontWeight-semibold);
     transition: 100ms ease-out;
     height: 60px;
     display: flex;

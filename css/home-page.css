@@ -394,7 +394,7 @@ body {
 
   #writing-section {
     margin: auto;
-    padding: 64px 40px;
+    padding: 64px 40px 96px;
   }
 
   #article-section {
@@ -470,7 +470,7 @@ body {
 
   #writing-section {
     margin: auto;
-    padding: 56px 24px;
+    padding: 56px 24px 80px;
     gap: 48px;
   }
 
@@ -484,9 +484,5 @@ body {
     line-height: var(--karma-lineHeight-32x1);
     max-width: 280px;
   }
-
-
-
-
 
 }

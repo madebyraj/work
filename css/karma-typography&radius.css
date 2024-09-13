@@ -4,8 +4,8 @@
 
     /* Fonts */
 
-    --karma-font-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
-    --karma-font-body: SF Pro Text, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
+    --karma-font-heading: Sohne, SF Pro Display, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
+    --karma-font-body: Sohne, SF Pro Text, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
     --karma-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --karma-font-symbol: SF Pro Icons, system-ui, monospace;
 
