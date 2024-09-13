@@ -548,18 +548,11 @@ main {
 }
 
 .back-to-home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
   text-decoration: none;
-}
-
-.link-copy {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -569,28 +562,15 @@ main {
   transition: 200ms ease-out;
 }
 
-.icon-after::after {
-  content: "";
-  font-family: var(--karma-font-symbol);
-  font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default);
-  font-size: var(--karma-fontSize-20x1);
-  line-height: var(--karma-lineHeight-20x1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.link-copy:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover);
+.back-to-home:hover {
+  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
 }
 
-.link-copy:active {
+.back-to-home:active {
   color: var(--karma-color-glyph-interactive-brand-accent-pressed);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
 

@@ -172,6 +172,32 @@
 
 
 
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('/assets/Fonts/Inter/Inter-var.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Variable Italic';
+  src: url('/assets/Fonts/Inter/Inter-italic-var.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Whyte Mono';
+  src: url('/assets/Fonts/ABCWhyteMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 /* SF Pro Collection */
 
 
@@ -250,16 +276,18 @@
 /* SF Pro Icons */
 
 @font-face {
-  font-family: 'SF Symbols';
-  src: url('/assets/Fonts/SF-Pro/SFProIcons_regular.woff') format('woff');
+  font-family: 'SF Pro Icons';
+  src: url('/assets/Fonts/SF-Pro-Icons/SFProIcons-regular.woff') format('woff');
   font-weight: 400 500;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SF Symbols';
-  src: url('/assets/Fonts/SF-Pro/SFProIcons_semibold.woff') format('woff');
+  font-family: 'SF Pro Icons';
+  src: url('/assets/Fonts/SF-Pro-Icons/SFProIcons-semibold.woff') format('woff');
   font-weight: 600 700;
+  font-style: normal;
   font-display: swap;
 }
 

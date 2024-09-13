@@ -132,14 +132,7 @@ body {
 }
 
 .back-to-home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
   text-decoration: none;
-}
-
-.link-copy {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
@@ -153,27 +146,14 @@ body {
   transition: 200ms ease-out;
 }
 
-.icon-after::after {
-  content: "";
-  font-family: var(--karma-font-symbol);
-  font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
-  font-size: var(--karma-fontSize-20x1);
-  line-height: var(--karma-lineHeight-20x1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.link-copy:hover {
+.back-to-home:hover {
   color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
   cursor: var(--cursor-pointer), auto;
   text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
 }
 
-.link-copy:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+.back-to-home:active {
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
   text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
@@ -200,7 +180,7 @@ body {
   .design-deck-section {
     padding: 32px 0px;
   }
-  
+
   .finish-section {
     padding: 32px 0px 64px;
   }
@@ -231,7 +211,7 @@ body {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
   }
-  
+
   .link-to-video {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
@@ -240,7 +220,7 @@ body {
   .design-deck-section {
     padding: 24px 0px;
   }
-  
+
   .finish-section {
     padding: 24px 0px 64px;
   }
