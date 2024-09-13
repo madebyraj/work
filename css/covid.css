@@ -63,7 +63,7 @@ main {
 }
 
 #main-container {
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
   width: 100%;
 }
