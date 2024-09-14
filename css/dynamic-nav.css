@@ -55,6 +55,7 @@
     left: 0;
     z-index: 999;
     background: var(--karma-color-materialSover-header-dark);
+    -webkit-backdrop-filter: var(--karma-blur-materialSover-header);
     backdrop-filter: var(--karma-blur-materialSover-header);
     padding: 14px 128px;
     height: 60px;

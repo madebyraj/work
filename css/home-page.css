@@ -44,7 +44,7 @@ html {
 body {
   background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
-  animation: pageLoading 800ms;
+  animation: pageLoading 950ms;
 }
 
 .hero-section {
@@ -157,7 +157,6 @@ body {
   left: 56px;
   font-size: var(--karma-fontSize-20x1);
   color: var(--karma-color-label-secondary-dark);
-  font-family: var(--karma-font-body);
   font-weight: var(--karma-fontWeight-medium);
   line-height: var(--karma-lineHeight-20x1);
 }
@@ -344,9 +343,9 @@ body {
   }
 
   .hero-headline {
-    max-width: 440px;
-    font-size: var(--karma-fontSize-72x1);
-    line-height: var(--karma-lineHeight-72x1);
+    max-width: 400px;
+    font-size: var(--karma-fontSize-80x1);
+    line-height: var(--karma-lineHeight-none);
   }
 
   .para {
