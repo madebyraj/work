@@ -2,9 +2,7 @@
 
 @import url('./variables.css');
 @import url('./karma-semantics.css');
-@import url('./karma-colors&depths.css');
 @import url('./karma-typography&radius.css');
-@import url('./animation.css');
 
 
 
@@ -47,12 +45,10 @@ body {
   background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
-  font-feature-settings: 'ss01' on, 'ss04' on;
 }
 
 .hero-section {
   background-color: var(--karma-color-fill-primary-dark);
-  border-bottom: 1px solid var(--karma-color-border-muted-dark);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -61,107 +57,36 @@ body {
   overflow: hidden;
   height: 696px;
   width: 100%;
-  gap: 48px;
-}
-
-.different-hello-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.hello-word {
-  text-align: center;
-  font-family: var(--karma-font-heading);
-  font-size: var(--karma-fontSize-48x1);
-  line-height: var(--karma-lineHeight-none);
-  font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tight);
-}
-
-#german {
-  color: #0084cb;
-  animation: locomotion-0_c6 2300ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c6;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#spanish {
-  color: #e02200;
-  animation: locomotion-0_c2 900ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c2;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#french {
-  color: #0b9e93;
-  animation: locomotion-0_c4 1600ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c4;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#english {
-  color: #6045ec;
-  animation: locomotion-0_c1 550ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c1;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#russian {
-  color: #ffb300;
-  animation: locomotion-0_c3 1250ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c3;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#portuguese {
-  color: #009146;
-  animation: locomotion-0_c5 1950ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c5;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#japanese {
-  color: #e35416;
-  animation: locomotion-0_c7 2650ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c7;
-  animation-play-state: running;
-  animation-delay: 0ms;
-}
-
-#hindi {
-  color: #FFBB33;
-  animation: locomotion-0_c8 3000ms linear 0s normal 1 both;
-  animation-name: locomotion-0_c8;
-  animation-play-state: running;
-  animation-delay: 0ms;
 }
 
 .main {
   max-width: 1024px;
+  width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
+  align-items: start;
+  justify-content: start;
+  gap: 16px;
+}
+
+.hero-headline {
+  max-width: 720px;
+  font-size: var(--karma-fontSize-128x1);
+  line-height: var(--karma-lineHeight-128x1);
+  color: var(--karma-color-label-primary-dark);
+  font-family: var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-tight);
+  font-weight: var(--karma-fontWeight-semibold);
 }
 
 .para {
-  max-width: 512px;
-  text-align: center;
-  font-size: var(--karma-fontSize-28x1);
-  line-height: var(--karma-lineHeight-28x1);
+  max-width: 720px;
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
 }
 
 #project-section {
@@ -194,8 +119,7 @@ body {
 .main-project-container {
   box-shadow: var(--karma-depth-floating);
   position: relative;
-  min-height: 536px;
-  height: auto;
+  min-height: 512px;
   border-radius: var(--karma-border-radius-40x1);
   transition: 200ms ease-out;
   text-decoration: none;
@@ -351,6 +275,22 @@ body {
     height: 600px;
   }
 
+  .main {
+    padding: 0px 48px;
+  }
+
+  .hero-headline {
+    max-width: 592px;
+    font-size: var(--karma-fontSize-96x1);
+    line-height: var(--karma-lineHeight-96x1);
+  }
+
+  .para {
+    max-width: 592px;
+    font-size: var(--karma-fontSize-28x1);
+    line-height: var(--karma-lineHeight-28x1);
+  }
+
   #project-section {
     margin: auto;
     padding: 96px 48px 64px;
@@ -398,23 +338,21 @@ body {
 
 @media (max-width: 735px) {
 
-  /* .hero-section {
-    height: 512px;
-  }
-
-  .hello-word {
-    font-size: var(--karma-fontSize-40x1);
-  } */
-
   .main {
     width: 100%;
     padding: 0px 24px;
   }
 
+  .hero-headline {
+    max-width: 440px;
+    font-size: var(--karma-fontSize-72x1);
+    line-height: var(--karma-lineHeight-72x1);
+  }
+
   .para {
-    font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-20x1);
-    max-width: 360px;
+    max-width: 440px;
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
   }
 
   #project-section {

@@ -2,7 +2,6 @@
 
 @import url('./variables.css');
 @import url('./karma-semantics.css');
-@import url('./karma-colors&depths.css');
 @import url('./karma-typography&radius.css');
 
 
@@ -46,7 +45,6 @@ body {
   background-color: var(--karma-color-system-background-dark);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 800ms;
-  font-feature-settings: 'ss01' on, 'ss04' on;
 }
 
 main {
