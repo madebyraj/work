@@ -1,24 +1,26 @@
-/* Sohne */
+/* Helvatica Now Collection */
+
+/* Display */
 
 @font-face {
-    font-family: 'Sohne';
-    src: url('/assets/Fonts/Sohne/sohne-700-normal.woff') format('woff');
-    font-weight: 700;
+    font-family: 'Helvatica Now Display';
+    src: url('/assets/Fonts/Helvatica/Display/HelveticaNowDisplay-Bold.woff') format('woff');
+    font-weight: 600 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Sohne';
-    src: url('/assets/Fonts/Sohne/sohne-500-normal.woff') format('woff');
-    font-weight: 500 600;
+    font-family: 'Helvatica Now Display';
+    src: url('/assets/Fonts/Helvatica/Display/HelveticaNowDisplay-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Sohne';
-    src: url('/assets/Fonts/Sohne/sohne-400-normal.woff') format('woff');
+    font-family: 'Helvatica Now Display';
+    src: url('/assets/Fonts/Helvatica/Display/HelveticaNowDisplay-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -26,28 +28,28 @@
 
 
 
-/* Sohne Italic */
+/* Text */
 
 @font-face {
-    font-family: 'Sohne';
-    src: url('/assets/Fonts/Sohne/sohne-700-italic.woff') format('woff');
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Helvatica Now Text';
+    src: url('/assets/Fonts/Helvatica/Text/HelveticaNowText-Bold.woff') format('woff');
+    font-weight: 600 700;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Sohne';
-    src: url('/assets/Fonts/Sohne/sohne-500-italic.woff') format('woff');
-    font-weight: 500 600;
-    font-style: italic;
+    font-family: 'Helvatica Now Text';
+    src: url('/assets/Fonts/Helvatica/Text/HelveticaNowText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Sohne';
-    src: url('/assets/Fonts/Sohne/sohne-400-italic.woff') format('woff');
+    font-family: 'Helvatica Now Text';
+    src: url('/assets/Fonts/Helvatica/Text/HelveticaNowText-Regular.woff') format('woff');
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     font-display: swap;
 }

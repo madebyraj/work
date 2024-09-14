@@ -48,6 +48,7 @@ body {
     background-color: var(--karma-color-system-background-dark);
     cursor: var(--cursor-default), auto;
     animation: pageLoading 800ms;
+    font-feature-settings: 'ss01' on, 'ss04' on;
 }
 
 
