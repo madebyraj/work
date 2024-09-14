@@ -77,6 +77,7 @@ body {
   font-size: var(--karma-fontSize-48x1);
   line-height: var(--karma-lineHeight-none);
   font-weight: var(--karma-fontWeight-semibold);
+  letter-spacing: var(--karma-letterSpacing-tight);
 }
 
 #german {

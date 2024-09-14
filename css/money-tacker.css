@@ -178,12 +178,6 @@ main {
   margin-bottom: 32px;
 }
 
-#problem-s h6:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 #problem-s p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
@@ -209,12 +203,6 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
-}
-
-#sol-h:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
 }
 
 .sol-1 {
@@ -377,12 +365,6 @@ main {
   margin-bottom: 32px;
 }
 
-#ap-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 .ap-bg {
   max-width: 100%;
   height: auto;
@@ -403,12 +385,6 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
-}
-
-#re-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
 }
 
 .re-subh {
@@ -471,12 +447,6 @@ main {
   margin-bottom: 32px;
 }
 
-#q-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 .questions p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
@@ -496,12 +466,6 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
-}
-
-#in-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
 }
 
 #insights p {
@@ -542,12 +506,6 @@ main {
   margin-bottom: 32px;
 }
 
-#de-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 #design-sec p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
@@ -584,12 +542,6 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
-}
-
-#pr-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
 }
 
 #proto-sec p {
@@ -654,12 +606,6 @@ main {
   margin-bottom: 32px;
 }
 
-#ev-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 .ut-info {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
@@ -704,12 +650,6 @@ main {
   margin-bottom: 32px;
 }
 
-#lr-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 #my-learn p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
@@ -728,12 +668,6 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
-}
-
-#ns-head:hover::after {
-  content: "#";
-  color: var(--primary-light);
-  font-weight: var(--karma-fontWeight-semibold);
 }
 
 #next-st p {
@@ -800,10 +734,6 @@ main {
     width: 100%;
   }
 
-  #side-navbar {
-    display: none;
-  }
-
 }
 
 
@@ -860,7 +790,6 @@ main {
   #head {
     font-size: var(--karma-fontSize-32x1);
     line-height: var(--karma-lineHeight-32x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 12px;
   }
@@ -895,7 +824,6 @@ main {
   .r-r h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 8px;
   }
@@ -908,7 +836,6 @@ main {
   .p-c h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 8px;
   }
@@ -921,8 +848,6 @@ main {
   .tools h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 8px;
   }
@@ -945,29 +870,13 @@ main {
   #problem-s h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 8px;
-  }
-
-  #problem-s h6:hover::after {
-    content: "";
   }
 
   #problem-s p {
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-  }
-
-  .design-goal {
-    display: none;
-    /* height: 48px;
-        background-image: url(./assets/moneytracker/design-goal.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        margin-top: 16px; */
   }
 
   #solution {
@@ -977,7 +886,6 @@ main {
   #sol-h {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 8px;
   }
@@ -1006,7 +914,6 @@ main {
     display: block;
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
   }
@@ -1037,7 +944,6 @@ main {
   #sol-info2 h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
   }
@@ -1067,7 +973,6 @@ main {
   #sol-info3 h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
   }
@@ -1097,7 +1002,6 @@ main {
   #sol-info4 h6 {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
     min-width: 100%;
@@ -1117,13 +1021,8 @@ main {
   #ap-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #ap-head:hover::after {
-    content: "";
   }
 
   #research-sec {
@@ -1133,13 +1032,8 @@ main {
   #re-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #re-head:hover::after {
-    content: "";
   }
 
   .re-subh {
@@ -1165,13 +1059,8 @@ main {
   #q-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #q-head:hover::after {
-    content: "";
   }
 
   .questions p {
@@ -1187,13 +1076,8 @@ main {
   #in-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #in-head:hover::after {
-    content: "";
   }
 
   #insights p {
@@ -1209,13 +1093,8 @@ main {
   #de-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #de-head:hover::after {
-    content: "";
   }
 
   #design-sec p {
@@ -1231,13 +1110,8 @@ main {
   #pr-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #pr-head:hover::after {
-    content: "";
   }
 
   #proto-sec p {
@@ -1257,13 +1131,8 @@ main {
   #ev-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #ev-head:hover::after {
-    content: "";
   }
 
   .ut-info {
@@ -1289,13 +1158,8 @@ main {
   #lr-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #lr-head:hover::after {
-    content: "";
   }
 
   #my-learn p {
@@ -1311,13 +1175,8 @@ main {
   #ns-head {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     margin-bottom: 16px;
-  }
-
-  #ns-head:hover::after {
-    content: "";
   }
 
   #next-st p {

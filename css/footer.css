@@ -95,8 +95,8 @@ footer {
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-wide);
-    color: var(--karma-color-glyph-action-brand-accent-default-dark);
-    background-color: var(--karma-color-fill-action-brand-accent-default-dark);
+    color: var(--karma-color-glyph-action-brand-default-dark);
+    background-color: var(--karma-color-fill-action-brand-default-dark);
     border-radius: var(--karma-border-radius-full);
     text-align: center;
     transition: all 200ms ease-out;
@@ -107,11 +107,11 @@ footer {
 
 #email-me-btn:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-brand-accent-hover-dark);
+    background-color: var(--karma-color-fill-action-brand-hover-dark);
 }
 
 #email-me-btn:active {
-    background-color: var(--karma-color-fill-action-brand-accent-pressed-dark);
+    background-color: var(--karma-color-fill-action-brand-pressed-dark);
 }
 
 
