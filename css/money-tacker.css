@@ -74,26 +74,17 @@ main {
 }
 
 #head {
-  font-size: var(--fontSizes-40);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-40x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
+  line-height: var(--karma-lineHeight-40x1);
   margin-bottom: 16px;
   color: var(--karma-color-label-primary-dark);
 }
 
-.cs {
-  font-size: var(--fontSizes-18);
-  font-family: var(--fonts-mono);
-  font-weight: var(--fontWeights-medium);
-  letter-spacing: var(--letterSpacings-wide);
-  color: var(--karma-color-label-secondary-dark);
-  margin-bottom: 16px;
-}
-
 .po {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -108,23 +99,24 @@ main {
 }
 
 .r-r h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
 
 .r-r p {
-  font-size: var(--fontSizes-16);
+  font-size: var(--karma-fontSize-16x1);
+  line-height: var(--karma-lineHeight-16x1);
   color: var(--karma-color-label-primary-dark);
 }
 
 .p-c h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
@@ -133,13 +125,15 @@ main {
 }
 
 .p-c p {
-  font-size: var(--fontSizes-16);
+  font-size: var(--karma-fontSize-16x1);
+  line-height: var(--karma-lineHeight-16x1);
   color: var(--karma-color-label-primary-dark);
 }
 
 .tools h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
@@ -148,12 +142,14 @@ main {
 }
 
 .tools p {
-  font-size: var(--fontSizes-16);
+  font-size: var(--karma-fontSize-16x1);
+  line-height: var(--karma-lineHeight-16x1);
   color: var(--karma-color-label-primary-dark);
 }
 
 .why-i {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   /* margin-bottom: 24px; */
 }
@@ -172,8 +168,9 @@ main {
 }
 
 #problem-s h6 {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
@@ -188,7 +185,8 @@ main {
 }
 
 #problem-s p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
 }
 
@@ -205,11 +203,10 @@ main {
 }
 
 #sol-h {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -241,17 +238,17 @@ main {
 }
 
 #sol-info1 h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info1 p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
@@ -278,17 +275,17 @@ main {
 }
 
 #sol-info2 h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info2 p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
@@ -314,17 +311,17 @@ main {
 }
 
 #sol-info3 h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info3 p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
@@ -351,17 +348,17 @@ main {
 }
 
 #sol-info4 h6 {
-  font-size: var(--fontSizes-24);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-24x1);
+  line-height: var(--karma-lineHeight-24x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 #sol-info4 p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 8px;
 }
@@ -372,11 +369,10 @@ main {
 }
 
 #ap-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -401,11 +397,10 @@ main {
 }
 
 #re-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -417,13 +412,15 @@ main {
 }
 
 .re-subh {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 .end-users {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -435,22 +432,29 @@ main {
 }
 
 .full-research {
-  color: var(--link-primary);
-  font-size: var(--fontSizes-18);
-  font-family: var(--fonts-body);
-  font-weight: var(--karma-fontWeight-semibold);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
+  font-family: var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  font-weight: var(--karma-fontWeight-medium);
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 300ms ease-out;
+  transition: 200ms ease-out;
   gap: 8px;
 }
 
 .full-research:hover {
-  color: var(--link-primary-hover);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: 2px underline solid var(--link-primary-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+}
+
+.full-research:active {
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
 .questions {
@@ -459,11 +463,10 @@ main {
 }
 
 #q-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -475,7 +478,8 @@ main {
 }
 
 .questions p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -486,11 +490,10 @@ main {
 }
 
 #in-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -502,7 +505,8 @@ main {
 }
 
 #insights p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -530,11 +534,10 @@ main {
 }
 
 #de-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -546,7 +549,8 @@ main {
 }
 
 #design-sec p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -574,11 +578,10 @@ main {
 }
 
 #pr-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -590,7 +593,8 @@ main {
 }
 
 #proto-sec p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -602,23 +606,30 @@ main {
 }
 
 #pr-link {
-  color: var(--link-primary);
-  font-size: var(--fontSizes-18);
-  font-family: var(--fonts-body);
-  font-weight: var(--karma-fontWeight-semibold);
+  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
+  font-family: var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  font-weight: var(--karma-fontWeight-medium);
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 300ms ease-out;
+  transition: 200ms ease-out;
   gap: 8px;
   margin-bottom: 16px;
 }
 
 #pr-link:hover {
-  color: var(--link-primary-hover);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: 2px underline solid var(--link-primary-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+}
+
+#pr-link:active {
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
 .proto-bg {
@@ -635,11 +646,10 @@ main {
 }
 
 #ev-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -651,14 +661,16 @@ main {
 }
 
 .ut-info {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
 
 .observe {
   color: var(--karma-color-label-primary-dark);
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   margin-bottom: 16px;
 }
 
@@ -684,11 +696,10 @@ main {
 }
 
 #lr-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -700,7 +711,8 @@ main {
 }
 
 #my-learn p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -710,11 +722,10 @@ main {
 }
 
 #ns-head {
-  font-size: var(--fontSizes-32);
-  font-family: var(--fonts-heading);
+  font-size: var(--karma-fontSize-32x1);
+  line-height: var(--karma-lineHeight-32x1);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--letterSpacings-normal);
-  line-height: var(--lineHeights-shorter);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 32px;
 }
@@ -726,7 +737,8 @@ main {
 }
 
 #next-st p {
-  font-size: var(--fontSizes-18);
+  font-size: var(--karma-fontSize-18x1);
+  line-height: var(--karma-lineHeight-18x1);
   color: var(--karma-color-label-primary-dark);
   margin-bottom: 16px;
 }
@@ -746,7 +758,6 @@ main {
   line-height: var(--karma-lineHeight-40x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-normal);
   color: var(--karma-color-label-primary-dark);
   text-align: center;
 }
@@ -773,7 +784,7 @@ main {
 }
 
 .back-to-home:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
   text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
 }
 
@@ -847,20 +858,16 @@ main {
   }
 
   #head {
-    font-size: var(--fontSizes-32);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-32x1);
+    line-height: var(--karma-lineHeight-32x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
-    margin-bottom: 12px;
-  }
-
-  .cs {
-    font-size: var(--fontSizes-16);
     margin-bottom: 12px;
   }
 
   .po {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -886,46 +893,48 @@ main {
   }
 
   .r-r h6 {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
   .r-r p {
-    font-size: var(--fontSizes-16);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
   }
 
   .p-c h6 {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
   .p-c p {
-    font-size: var(--fontSizes-16);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
   }
 
   .tools h6 {
-    font-size: var(--fontSizes-24);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
 
-    font-family: var(--fonts-heading);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
   .tools p {
-    font-size: var(--fontSizes-16);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
   }
 
   .why-i {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     /* margin-bottom: 24px; */
   }
 
@@ -934,11 +943,10 @@ main {
   }
 
   #problem-s h6 {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -947,7 +955,8 @@ main {
   }
 
   #problem-s p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
   }
 
   .design-goal {
@@ -966,11 +975,10 @@ main {
   }
 
   #sol-h {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 8px;
   }
 
@@ -996,17 +1004,17 @@ main {
 
   #sol-info1 h6 {
     display: block;
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
   #sol-info1 p {
     display: block;
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 8px;
   }
 
@@ -1027,16 +1035,16 @@ main {
   }
 
   #sol-info2 h6 {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
   #sol-info2 p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 8px;
   }
 
@@ -1057,15 +1065,16 @@ main {
   }
 
   #sol-info3 h6 {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
   #sol-info3 p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 8px;
   }
 
@@ -1086,16 +1095,17 @@ main {
   }
 
   #sol-info4 h6 {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
     min-width: 100%;
   }
 
   #sol-info4 p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 8px;
     min-width: auto;
   }
@@ -1105,10 +1115,10 @@ main {
   }
 
   #ap-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1121,10 +1131,10 @@ main {
   }
 
   #re-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1133,12 +1143,14 @@ main {
   }
 
   .re-subh {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 12px;
   }
 
   .end-users {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1151,10 +1163,10 @@ main {
   }
 
   #q-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1163,7 +1175,8 @@ main {
   }
 
   .questions p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1172,10 +1185,10 @@ main {
   }
 
   #in-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1184,7 +1197,8 @@ main {
   }
 
   #insights p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1193,10 +1207,10 @@ main {
   }
 
   #de-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1205,7 +1219,8 @@ main {
   }
 
   #design-sec p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1214,10 +1229,10 @@ main {
   }
 
   #pr-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1226,7 +1241,8 @@ main {
   }
 
   #proto-sec p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1239,10 +1255,10 @@ main {
   }
 
   #ev-head {
-    font-size: var(--fontSizes-24);
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1251,7 +1267,8 @@ main {
   }
 
   .ut-info {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1260,7 +1277,8 @@ main {
   }
 
   .observe {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1269,11 +1287,10 @@ main {
   }
 
   #lr-head {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1282,7 +1299,8 @@ main {
   }
 
   #my-learn p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
@@ -1291,11 +1309,10 @@ main {
   }
 
   #ns-head {
-    font-size: var(--fontSizes-24);
-
-    font-family: var(--fonts-heading);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
+    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--letterSpacings-normal);
     margin-bottom: 16px;
   }
 
@@ -1304,7 +1321,8 @@ main {
   }
 
   #next-st p {
-    font-size: var(--fontSizes-18);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     margin-bottom: 16px;
   }
 
