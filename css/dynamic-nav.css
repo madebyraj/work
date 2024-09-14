@@ -131,7 +131,7 @@
     color: var(--karma-color-glyph-interactive-secondary-default-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-wide);
     transition: 200ms ease-out;
     display: flex;
@@ -164,7 +164,7 @@
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-14x1);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-wide);
     color: var(--karma-color-glyph-action-brand-accent-default-dark);
     background-color: var(--karma-color-fill-action-brand-accent-default-dark);
@@ -225,13 +225,13 @@
     .main-nav {
         align-items: start;
         padding: 0px 16px;
-        transition: all 300ms ease;
+        transition: all 250ms ease;
         justify-content: space-between;
     }
 
     .nav-container.active .main-nav {
         height: 100vh;
-        transition: all 500ms ease;
+        transition: all 400ms ease-out;
     }
 
     .inner-right-side-container li {
@@ -248,7 +248,7 @@
         letter-spacing: var(--karma-letterSpacing-wide);
         font-size: var(--karma-fontSize-28x1);
         line-height: var(--karma-lineHeight-28x1);
-        font-weight: var(--fontWeights-semibold);
+        font-weight: var(--karma-fontWeight-semibold);
         transform: translateY(-24px);
         transition: 200ms ease-out;
     }

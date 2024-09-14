@@ -153,13 +153,13 @@ body {
 }
 
 .para {
-  max-width: 480px;
+  max-width: 512px;
   text-align: center;
   font-size: var(--karma-fontSize-28x1);
   line-height: var(--karma-lineHeight-28x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
-  letter-spacing: var(--karma-letterSpacing-normal);
+  letter-spacing: var(--karma-letterSpacing-wide);
   font-weight: var(--karma-fontWeight-semibold);
 }
 
@@ -233,7 +233,7 @@ body {
   font-size: var(--karma-fontSize-20x1);
   color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-body);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
   line-height: var(--karma-lineHeight-20x1);
 }
 
@@ -328,6 +328,7 @@ body {
   color: var(--karma-color-label-secondary-dark);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
+  font-weight: var(--karma-fontWeight-medium);
   text-overflow: ellipsis;
 }
 
@@ -335,6 +336,7 @@ body {
   color: var(--karma-color-label-secondary-dark);
   font-size: var(--karma-fontSize-14x1);
   line-height: var(--karma-lineHeight-14x1);
+  font-weight: var(--karma-fontWeight-medium);
   text-overflow: ellipsis;
 }
 

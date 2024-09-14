@@ -65,7 +65,7 @@ body {
   line-height: var(--karma-lineHeight-48x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  letter-spacing: var(--karma-letterSpacing-normal);
   color: var(--karma-color-label-primary-dark);
 }
 

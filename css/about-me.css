@@ -79,7 +79,6 @@ body {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
     color: var(--primary-button-text);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-normal);
     border-radius: 24px 24px 24px 4px;
@@ -102,7 +101,6 @@ body {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
     color: var(--primary-button-text);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-normal);
     background-color: #045ac3;
@@ -161,8 +159,8 @@ body {
     line-height: var(--karma-lineHeight-18x1);
     color: var(--karma-color-label-tertiary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-normal);
+    font-weight: var(--karma-fontWeight-semibold);
+    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 #time {
