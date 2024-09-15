@@ -65,7 +65,7 @@
     justify-content: space-between;
 }
 
-.main-nav::after {
+/* .main-nav::after {
     height: 1px;
     display: block;
     width: 100%;
@@ -75,7 +75,7 @@
     content: "";
     top: 100%;
     left: 0;
-}
+} */
 
 .desktop-nav {
     width: 100%;
