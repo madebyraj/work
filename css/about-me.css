@@ -190,7 +190,7 @@ body {
     font-size: var(--karma-fontSize-40x1);
     color: var(--karma-color-label-secondary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-medium);
     line-height: var(--karma-lineHeight-40x1);
     letter-spacing: var(--karma-letterSpacing-tight);
 }

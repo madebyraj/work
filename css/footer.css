@@ -70,7 +70,8 @@ footer {
     font-size: var(--karma-fontSize-40x1);
     color: var(--karma-color-label-primary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-tight);
     line-height: var(--karma-lineHeight-40x1);
 }
 
@@ -126,16 +127,15 @@ footer {
 
 .navigation-container {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .pages {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex-basis: 33.3333%;
-    max-width: 33.33333%;
-    width: 33.33333%;
+    width: 100%;
 }
 
 .doc-on-doc path {
@@ -146,7 +146,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-label-primary-dark);
 }
 
@@ -175,9 +175,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex-basis: 33.3333%;
-    max-width: 33.33333%;
-    width: 33.33333%;
+    width: 100%;
 }
 
 .wrench-and-screwdriver path {
@@ -188,7 +186,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-glyph-default-dark);
 }
 
@@ -217,9 +215,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    flex-basis: 33.3333%;
-    max-width: 33.33333%;
-    width: 33.33333%;
+    width: 100%;
 }
 
 .network path {
@@ -230,7 +226,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-label-primary-dark);
 }
 
@@ -363,7 +359,7 @@ footer {
     }
 
     .navigation-container {
-        flex-direction: column;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
     .pages {

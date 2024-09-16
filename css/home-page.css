@@ -76,7 +76,7 @@ body {
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-tighter);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
 }
 
 .para {
@@ -106,7 +106,7 @@ body {
   line-height: var(--karma-lineHeight-40x1);
   color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
 }
 
@@ -167,7 +167,8 @@ body {
   font-size: var(--karma-fontSize-32x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   line-height: var(--karma-lineHeight-32x1);
   text-overflow: ellipsis;
 }
@@ -194,7 +195,7 @@ body {
   line-height: var(--karma-lineHeight-40x1);
   color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
 }
 
@@ -244,7 +245,8 @@ body {
 .article-heading {
   font-size: var(--karma-fontSize-20x1);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   line-height: var(--karma-lineHeight-20x1);
   color: var(--karma-color-label-primary-dark);
 }
