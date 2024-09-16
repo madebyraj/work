@@ -76,9 +76,8 @@ body {
     padding: 12px 22px;
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
-    color: var(--primary-button-text);
+    color: var(--karma-color-glyph-action-brand-accent-default-dark);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-normal);
     border-radius: 24px 24px 24px 4px;
     background-color: #313131;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -98,9 +97,8 @@ body {
     padding: 12px 20px;
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
-    color: var(--primary-button-text);
+    color: var(--karma-color-glyph-action-brand-accent-default-dark);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-normal);
     background-color: #1362EB;
     overflow: hidden;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -157,8 +155,7 @@ body {
     line-height: var(--karma-lineHeight-18x1);
     color: var(--karma-color-label-tertiary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font-weight: var(--karma-fontWeight-medium);
 }
 
 #time {
@@ -195,6 +192,7 @@ body {
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
+    letter-spacing: var(--karma-letterSpacing-tight);
 }
 
 .slider-container {

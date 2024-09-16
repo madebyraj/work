@@ -82,7 +82,6 @@ footer {
     line-height: var(--karma-lineHeight-24x1);
     color: var(--karma-color-label-primary-dark);
     font-weight: var(--fontWeights-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 #email-me-btn {
@@ -92,8 +91,7 @@ footer {
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-glyph-action-brand-default-dark);
     background-color: var(--karma-color-fill-action-brand-default-dark);
     border-radius: var(--karma-border-radius-full);
@@ -150,7 +148,6 @@ footer {
     line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
-    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 .pages-link {
@@ -193,7 +190,6 @@ footer {
     line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-glyph-default-dark);
-    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 .projects-link {
@@ -236,7 +232,6 @@ footer {
     line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
-    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 .socials-link {
@@ -301,7 +296,6 @@ footer {
     font-size: var(--karma-fontSize-16x1);
     line-height: var(--karma-lineHeight-16x1);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
     display: flex;
     align-items: center;
     justify-content: center;

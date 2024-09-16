@@ -6,6 +6,17 @@
 
 
 
+    /* Cursors */
+
+    --cursor-default: url(/assets/Cursor/cursor-default.svg);
+    --cursor-pointer: url(/assets/Cursor/cursor-pointer.svg);
+    --cursor-grab: url(/assets/Cursor/cursor-grab.svg);
+    --cursor-grabbed: url(/assets/Cursor/cursor-grabbed.svg);
+    --cursor-text: url(/assets/Cursor/curson-text.svg);
+    --cursor-not-allowed: url(/assets/Cursor/cursor-not-allowed.svg);
+
+
+
     /* --Depth-- */
 
     --karma-depth-baseline: 0 0 0 0 transparent;
@@ -219,7 +230,7 @@
 
     /* --System Background-- */
 
-    --karma-color-system-background-light: #F8F8FD;
+    --karma-color-system-background-light: #FFFFFF;
 
 
 

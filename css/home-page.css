@@ -75,7 +75,7 @@ body {
   line-height: var(--karma-lineHeight-128x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  letter-spacing: var(--karma-letterSpacing-tighter);
   font-weight: var(--karma-fontWeight-semibold);
 }
 
@@ -86,7 +86,7 @@ body {
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-regular);
 }
 
 #project-section {
@@ -101,12 +101,13 @@ body {
 
 #project-section-headline {
   text-align: center;
-  max-width: 360px;
+  max-width: 344px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
   color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
+  letter-spacing: var(--karma-letterSpacing-tight);
 }
 
 #project-container {
@@ -188,12 +189,13 @@ body {
 
 #writing-section-headline {
   text-align: center;
-  max-width: 360px;
+  max-width: 336px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
   color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
+  letter-spacing: var(--karma-letterSpacing-tight);
 }
 
 #article-section {
@@ -243,7 +245,6 @@ body {
   font-size: var(--karma-fontSize-20x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-normal);
   line-height: var(--karma-lineHeight-20x1);
   color: var(--karma-color-label-primary-dark);
 }

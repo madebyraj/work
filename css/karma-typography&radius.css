@@ -1,11 +1,15 @@
+@import url(/css/font-face.css);
+
+
+
 :root {
 
 
 
     /* Fonts */
 
-    --karma-font-heading: Helvatica Now Display, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
-    --karma-font-body: Helvatica Now Text, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
+    --karma-font-heading: Figma Sans, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
+    --karma-font-body: Figma Sans, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
     --karma-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
