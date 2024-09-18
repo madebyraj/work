@@ -70,7 +70,7 @@ footer {
     font-size: var(--karma-fontSize-40x1);
     color: var(--karma-color-label-primary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
     line-height: var(--karma-lineHeight-40x1);
 }
@@ -89,8 +89,8 @@ footer {
     margin-top: 16px;
     padding: 10px 22px;
     text-decoration: none;
-    font-size: var(--karma-fontSize-18x1);
-    line-height: var(--karma-lineHeight-18x1);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-glyph-action-brand-default-dark);
@@ -146,7 +146,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
 }
 
@@ -186,7 +186,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-glyph-default-dark);
 }
 
@@ -226,7 +226,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
 }
 

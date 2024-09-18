@@ -74,8 +74,8 @@ body {
 .question-1 {
     max-width: 416px;
     padding: 12px 22px;
-    font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-20x1);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     color: var(--karma-color-glyph-action-brand-accent-default-dark);
     font-weight: var(--karma-fontWeight-medium);
     border-radius: 24px 24px 24px 4px;
@@ -95,8 +95,8 @@ body {
 .answer {
     max-width: 416px;
     padding: 12px 20px;
-    font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-20x1);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     color: var(--karma-color-glyph-action-brand-accent-default-dark);
     font-weight: var(--karma-fontWeight-medium);
     background-color: #1362EB;
@@ -190,7 +190,7 @@ body {
     font-size: var(--karma-fontSize-40x1);
     color: var(--karma-color-label-secondary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
     letter-spacing: var(--karma-letterSpacing-tight);
 }
