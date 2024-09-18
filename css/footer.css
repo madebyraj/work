@@ -89,8 +89,8 @@ footer {
     margin-top: 16px;
     padding: 10px 22px;
     text-decoration: none;
-    font-size: var(--karma-fontSize-16x1);
-    line-height: var(--karma-lineHeight-16x1);
+    font-size: var(--karma-fontSize-18x1);
+    line-height: var(--karma-lineHeight-18x1);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-glyph-action-brand-default-dark);
@@ -275,9 +275,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--karma-border-radius-full);
-    border: 2px solid var(--karma-color-border-brand-accent-dark);
-    padding: 2px;
+    border-radius: var(--karma-border-radius-12x1);
+    padding: 4px;
+    background-color: var(--karma-color-fill-action-secondary-default-dark);
     overflow: hidden;
 }
 
@@ -286,11 +286,11 @@ footer {
     color: var(--karma-color-glyph-action-secondary-default-dark);
     background-color: transparent;
     padding: 4px 8px;
-    border-radius: var(--karma-border-radius-full);
+    border-radius: var(--karma-border-radius-8x1);
     font-family: var(--karma-font-heading);
     cursor: var(--cursor-pointer), auto;
-    font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-14x1);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
     font-weight: var(--karma-fontWeight-medium);
     display: flex;
     align-items: center;
@@ -308,8 +308,9 @@ footer {
 
 .theme-option.active {
     font-weight: var(--karma-fontWeight-semibold);
-    background-color: var(--karma-color-fill-action-brand-accent-selected-dark);
-    color: var(--karma-color-glyph-action-brand-accent-default-dark);
+    background-color: var(--karma-color-fill-action-brand-selected-dark);
+    color: var(--karma-color-glyph-action-brand-default-dark);
+    box-shadow: var(--karma-depth-raised);
 }
 
 
