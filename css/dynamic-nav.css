@@ -65,18 +65,6 @@
     justify-content: space-between;
 }
 
-/* .main-nav::after {
-    height: 1px;
-    display: block;
-    width: 100%;
-    z-index: 999;
-    background-color: var(--karma-color-border-muted-dark);
-    position: absolute;
-    content: "";
-    top: 100%;
-    left: 0;
-} */
-
 .desktop-nav {
     width: 100%;
     display: flex;
