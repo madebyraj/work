@@ -8,8 +8,8 @@
 
     /* Fonts */
 
-    --karma-font-heading: Figma Sans, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
-    --karma-font-body: Figma Sans, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
+    --karma-font-heading: Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
+    --karma-font-body: Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, system-ui, sans-serif;
     --karma-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
