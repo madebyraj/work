@@ -78,7 +78,6 @@ footer {
 #email-description {
     text-align: center;
     max-width: 544px;
-    font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
     color: var(--karma-color-label-primary-dark);
@@ -91,7 +90,6 @@ footer {
     text-decoration: none;
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-glyph-action-brand-default-dark);
     background-color: var(--karma-color-fill-action-brand-default-dark);
@@ -144,8 +142,8 @@ footer {
 
 #pages-sec-heading {
     font-family: var(--karma-font-heading);
-    font-size: var(--karma-fontSize-18x1);
-    line-height: var(--karma-lineHeight-18x1);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
 }
@@ -184,8 +182,8 @@ footer {
 
 #projects-sec-heading {
     font-family: var(--karma-font-heading);
-    font-size: var(--karma-fontSize-18x1);
-    line-height: var(--karma-lineHeight-18x1);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-glyph-default-dark);
 }
@@ -224,8 +222,8 @@ footer {
 
 #socials-sec-heading {
     font-family: var(--karma-font-heading);
-    font-size: var(--karma-fontSize-18x1);
-    line-height: var(--karma-lineHeight-18x1);
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-24x1);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
 }
@@ -287,7 +285,6 @@ footer {
     background-color: transparent;
     padding: 4px 8px;
     border-radius: var(--karma-border-radius-8x1);
-    font-family: var(--karma-font-heading);
     cursor: var(--cursor-pointer), auto;
     font-size: var(--karma-fontSize-16x1);
     line-height: var(--karma-lineHeight-16x1);

@@ -479,7 +479,7 @@ main {
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-color-label-primary-dark);
   text-align: center;
@@ -487,7 +487,6 @@ main {
 
 .back-to-home {
   text-decoration: none;
-  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);

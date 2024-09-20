@@ -118,7 +118,6 @@
     line-height: var(--karma-lineHeight-14x1);
     color: var(--karma-color-glyph-interactive-secondary-default-dark);
     text-decoration: none;
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     transition: 200ms ease-out;
     display: flex;
@@ -150,7 +149,6 @@
     text-decoration: none;
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-14x1);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
     color: var(--karma-color-glyph-action-brand-accent-default-dark);
     background-color: var(--karma-color-fill-action-brand-accent-default-dark);
@@ -230,7 +228,6 @@
         width: 100%;
         padding: 0px 0px 16px;
         display: inline-block;
-        font-family: var(--karma-font-heading);
         font-size: var(--karma-fontSize-28x1);
         line-height: var(--karma-lineHeight-28x1);
         font-weight: var(--karma-fontWeight-medium);

@@ -3,18 +3,44 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/Fonts/Inter-var.woff2') format('woff2');
+    src: url('/assets/Fonts/Inter/Inter-var.woff2') format('woff2');
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
 }
 
-
-
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/Fonts/Inter-italic-var.woff2') format('woff2');
+    src: url('/assets/Fonts/Inter/Inter-var.woff2') format('woff2');
     font-weight: 100 900;
     font-style: italic;
+    font-display: swap;
+}
+
+
+
+/* Haffer */
+
+@font-face {
+    font-family: 'Haffer';
+    src: url('/assets/Fonts/Haffer/Haffer-SemiBold.woff') format('woff');
+    font-weight: 600 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haffer';
+    src: url('/assets/Fonts/Haffer/Haffer-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haffer';
+    src: url('/assets/Fonts/Haffer/Haffer-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
     font-display: swap;
 }
