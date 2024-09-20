@@ -151,8 +151,8 @@ body {
 .status {
     text-align: center;
     width: 100%;
-    font-size: var(--karma-fontSize-18x1);
-    line-height: var(--karma-lineHeight-18x1);
+    font-size: var(--karma-fontSize-16x1);
+    line-height: var(--karma-lineHeight-16x1);
     color: var(--karma-color-label-tertiary-dark);
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
@@ -335,15 +335,15 @@ body {
     .question-1 {
         max-width: 320px;
         padding: 8px 16px;
-        font-size: var(--karma-fontSize-20x1);
+        font-size: var(--karma-fontSize-18x1);
         line-height: var(--karma-lineHeight-20x1);
     }
 
     .answer {
         max-width: 320px;
         padding: 8px 16px;
-        font-size: var(--karma-fontSize-20x1);
-        line-height: var(--karma-lineHeight-20x1);
+        font-size: var(--karma-fontSize-18x1);
+        line-height: var(--karma-lineHeight-18x1);
     }
 
     .me {

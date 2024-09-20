@@ -66,13 +66,13 @@ body {
   display: flex;
   align-items: start;
   justify-content: start;
-  gap: 16px;
+  gap: 24px;
 }
 
 .hero-headline {
   max-width: 728px;
-  font-size: var(--karma-fontSize-128x1);
-  line-height: var(--karma-lineHeight-128x1);
+  font-size: var(--karma-fontSize-96x1);
+  line-height: var(--karma-lineHeight-96x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-tighter);
@@ -278,6 +278,7 @@ body {
 
   .main {
     padding: 0px 48px;
+    gap: 16px;
   }
 
   .hero-headline {
@@ -342,16 +343,15 @@ body {
   .main {
     width: 100%;
     padding: 0px 24px;
+    gap: 8px;
   }
 
   .hero-headline {
-    max-width: 400px;
-    font-size: var(--karma-fontSize-80x1);
-    line-height: var(--karma-lineHeight-none);
+    font-size: var(--karma-fontSize-64x1);
+    line-height: var(--karma-lineHeight-64x1);
   }
 
   .para {
-    max-width: 440px;
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
   }
