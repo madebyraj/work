@@ -40,7 +40,7 @@
 }
 
 .nav-container {
-    height: 60px;
+    height: 56px;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -58,7 +58,7 @@
     -webkit-backdrop-filter: var(--karma-blur-materialSover-header);
     backdrop-filter: var(--karma-blur-materialSover-header);
     padding: 14px 128px;
-    height: 60px;
+    height: 56px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-semibold);
     transition: 100ms ease-out;
-    height: 60px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 28px;
 }
 
 .inner-right-side-container li a {
@@ -143,7 +143,7 @@
 
 
 #nav-cta {
-    margin-left: 32px;
+    margin-left: 28px;
     padding: 5px 12px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
@@ -250,7 +250,7 @@
 
     .inner-right-side-container {
         display: none;
-        margin-top: 60px;
+        margin-top: 56px;
         flex-direction: column;
         align-items: start;
         position: fixed;
@@ -274,7 +274,7 @@
 
     .menu-icon-container {
         width: 20px;
-        height: 60px;
+        height: 56px;
         display: flex;
         align-items: center;
         cursor: var(--cursor-pointer), auto;
@@ -288,9 +288,10 @@
     .line-1,
     .line-2 {
         position: absolute;
-        height: 1.2px;
+        height: 2px;
         width: 100%;
         background: var(--karma-color-glyph-action-secondary-default-dark);
+        border-radius: var(--karma-border-radius-full);
         transition-property: transform, top;
         transition-delay: 0ms, 150ms;
         transition-duration: 200ms;
