@@ -66,18 +66,63 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 48px;
 }
 
 .hero-headline {
+  text-decoration: 2px underline #0D99FF;
+  position: relative;
+  padding: 4px;
   text-align: center;
-  max-width: 680px;
-  font-size: var(--karma-fontSize-96x1);
-  line-height: var(--karma-lineHeight-96x1);
+  font-size: var(--karma-fontSize-128x1);
+  line-height: var(--karma-lineHeight-128x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-tight);
   font-weight: var(--karma-fontWeight-bold);
+  border: 2.5px solid #0D99FF;
+}
+
+.corner-box {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-color: white;
+  border: 2.5px solid #0D99FF;
+}
+
+#top-left {
+  top: -8px;
+  left: -8px;
+}
+
+#top-right {
+  top: -8px;
+  right: -8px;
+}
+
+#bottom-right {
+  bottom: -8px;
+  right: -8px;
+}
+
+#bottom-left {
+  bottom: -8px;
+  left: -8px;
+}
+
+.size {
+  padding: 4px 8px;
+  background-color: #0D99FF;
+  border-radius: var(--karma-border-radius-4x1);
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  position: absolute;
+  font-size: var(--karma-fontSize-14x1);
+  font-weight: var(--karma-fontWeight-medium);
+  color: white;
 }
 
 .para {
@@ -189,7 +234,6 @@ body {
 
   .main {
     padding: 0px 48px;
-    gap: 16px;
   }
 
   .hero-headline {
@@ -242,7 +286,7 @@ body {
   .main {
     width: 100%;
     padding: 0px 24px;
-    gap: 8px;
+    gap: 40px;
   }
 
   .hero-headline {
