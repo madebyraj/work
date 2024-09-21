@@ -228,9 +228,9 @@
         width: 100%;
         padding: 0px 0px 16px;
         display: inline-block;
-        font-size: var(--karma-fontSize-28x1);
-        line-height: var(--karma-lineHeight-28x1);
-        font-weight: var(--karma-fontWeight-medium);
+        font-size: var(--karma-fontSize-32x1);
+        line-height: var(--karma-lineHeight-32x1);
+        font-weight: var(--karma-fontWeight-semibold);
         transform: translateY(-24px);
         transition: 200ms ease-out;
     }

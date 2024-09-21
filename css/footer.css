@@ -81,7 +81,7 @@ footer {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
     color: var(--karma-color-label-primary-dark);
-    font-weight: var(--fontWeights-medium);
+    font-weight: var(--karma-fontWeight-medium);
 }
 
 #email-me-btn {
