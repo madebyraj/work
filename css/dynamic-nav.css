@@ -81,7 +81,7 @@
     text-decoration: none;
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-20x1);
-    letter-spacing: var(--karma-letterSpacing-normal);
+    letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-color-label-primary-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);

@@ -82,13 +82,13 @@ body {
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-tight);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-bold);
   border: 2.5px solid #0D99FF;
 }
 
 .corner-box {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   position: absolute;
   background-color: white;
   border: 2.5px solid #0D99FF;
@@ -145,7 +145,7 @@ body {
   gap: 80px;
   max-width: 1024px;
   margin: auto;
-  padding: 128px 0px 80px;
+  padding: 128px 0px;
 }
 
 #project-section-headline {
@@ -254,7 +254,7 @@ body {
 
   #project-section {
     margin: auto;
-    padding: 96px 48px 64px;
+    padding: 96px 48px;
   }
 
   #project-container {
@@ -303,7 +303,7 @@ body {
   }
 
   #project-section {
-    padding: 80px 24px 56px;
+    padding: 80px 24px;
     gap: 48px;
   }
 
