@@ -320,13 +320,14 @@ body {
   }
 
   .main-project-container {
-    min-height: 100%;
+    min-height: 448px;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .pro-info {
     gap: 16px;
     padding: 32px;
+    height: max-content;
   }
 
   .pro-key-feature {
