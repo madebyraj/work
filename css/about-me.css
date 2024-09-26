@@ -321,7 +321,7 @@ body {
 }
 
 .main-article-container {
-    box-shadow: var(--karma-depth-floating);
+    box-shadow: var(--karma-depth-raised);
     transition: 200ms ease-out;
     display: flex;
     flex-direction: column;
@@ -499,7 +499,7 @@ body {
     #writing-section-headline {
         font-size: var(--karma-fontSize-32x1);
         line-height: var(--karma-lineHeight-32x1);
-        max-width: 280px;
+        max-width: 256px;
     }
 
 

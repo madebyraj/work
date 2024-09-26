@@ -167,7 +167,7 @@ body {
 
 
 .main-project-container {
-  box-shadow: var(--karma-depth-floating);
+  box-shadow: var(--karma-depth-raised);
   position: relative;
   min-height: 512px;
   border-radius: var(--karma-border-radius-40x1);
@@ -320,7 +320,7 @@ body {
   }
 
   .main-project-container {
-    min-height: 480px;
+    min-height: 512px;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
