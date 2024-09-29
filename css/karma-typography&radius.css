@@ -8,8 +8,8 @@
 
     /* Fonts */
 
-    --karma-font-heading: SF Pro, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-    --karma-font-body: SF Pro, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --karma-font-heading: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --karma-font-body: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     --karma-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
@@ -28,6 +28,23 @@
 
 
     /* Letter Spacing */
+
+    --karma-letterSpacing-12x1: 0%;
+    --karma-letterSpacing-14x1: -0.6%;
+    --karma-letterSpacing-16x1: -1.1%;
+    --karma-letterSpacing-18x1: -1.4%;
+    --karma-letterSpacing-20x1: -1.7%;
+    --karma-letterSpacing-24x1: -1.9%;
+    --karma-letterSpacing-28x1: 2.25rem;
+    --karma-letterSpacing-32x1: 2.5rem;
+    --karma-letterSpacing-40x1: 3rem;
+    --karma-letterSpacing-48x1: -2.2%;
+    --karma-letterSpacing-56x1: 4rem;
+    --karma-letterSpacing-64x1: 4.5rem;
+    --karma-letterSpacing-72x1: 5rem;
+    --karma-letterSpacing-80x1: 5.5rem;
+    --karma-letterSpacing-96x1: 6.5rem;
+    --karma-letterSpacing-128x1: 8.5rem;
 
     --karma-letterSpacing-tighter: -0.05em;
     --karma-letterSpacing-tight: -0.025em;
