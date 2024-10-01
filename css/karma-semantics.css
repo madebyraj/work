@@ -46,11 +46,11 @@
 
     /* --Border-- */
 
-    --karma-color-border-brand-accent-dark: #0A7DF0;
+    --karma-color-border-brand-accent-dark: #0C8CE9;
     --karma-color-border-default-dark: #6E6E73;
     --karma-color-border-muted-dark: #424245;
     --karma-color-border-strong-dark: #F5F5F7;
-    --karma-color-border-focus-dark: #0A7DF0;
+    --karma-color-border-focus-dark: #0C8CE9;
     --karma-color-border-error-dark: #FF3037;
     --karma-color-border-warning-dark: #AD8200;
     --karma-color-border-success-dark: #03A10E;
@@ -90,13 +90,13 @@
 
     /* Brand Accent */
 
-    --karma-color-fill-action-brand-accent-default-dark: #0A7DF0;
-    --karma-color-fill-action-brand-accent-hover-dark: #1791FD;
-    --karma-color-fill-action-brand-accent-pressed-dark: #3DACFD;
-    --karma-color-fill-action-brand-accent-selected-dark: #1791FD;
-    --karma-color-fill-action-brand-accent-selection-dark: #122C54;
-    --karma-color-fill-action-brand-accent-selection-hover-dark: #023781;
-    --karma-color-fill-action-brand-accent-disabled-dark: #023781;
+    --karma-color-fill-action-brand-accent-default-dark: #0C8CE9;
+    --karma-color-fill-action-brand-accent-hover-dark: #7CC4F8;
+    --karma-color-fill-action-brand-accent-pressed-dark: #A8D7FA;
+    --karma-color-fill-action-brand-accent-selected-dark: #80CAFF;
+    --karma-color-fill-action-brand-accent-selection-dark: #093077;
+    --karma-color-fill-action-brand-accent-selection-hover-dark: #034AC1;
+    --karma-color-fill-action-brand-accent-disabled-dark: #034AC1;
 
 
 
@@ -171,18 +171,18 @@
 
     /* Interactive Brand Accent */
 
-    --karma-color-glyph-interactive-brand-accent-default-dark: #0A7DF0;
-    --karma-color-glyph-interactive-brand-accent-hover-dark: #095DB7;
-    --karma-color-glyph-interactive-brand-accent-pressed-dark: #023781;
-    --karma-color-glyph-interactive-brand-accent-disabled-dark: #122C54;
+    --karma-color-glyph-interactive-brand-accent-default-dark: #0C8CE9;
+    --karma-color-glyph-interactive-brand-accent-hover-dark: #0A6DC2;
+    --karma-color-glyph-interactive-brand-accent-pressed-dark: #105CAD;
+    --karma-color-glyph-interactive-brand-accent-disabled-dark: #1B335F;
 
 
 
     /* Interactive Secondary */
 
     --karma-color-glyph-interactive-secondary-default-dark: #F5F5F7;
-    --karma-color-glyph-interactive-secondary-hover-dark: #095DB7;
-    --karma-color-glyph-interactive-secondary-pressed-dark: #023781;
+    --karma-color-glyph-interactive-secondary-hover-dark: #0A6DC2;
+    --karma-color-glyph-interactive-secondary-pressed-dark: #105CAD;
     --karma-color-glyph-interactive-secondary-disabled-dark: #86868B;
 
 
@@ -198,7 +198,7 @@
 
     /* --Material Sover-- */
 
-    --karma-color-materialSover-header-dark: rgba(22, 22, 23, 0.8);
+    --karma-color-materialSover-header-dark: rgba(10, 10, 10, 0.8);
 
 
 
@@ -217,11 +217,11 @@
 
     /* --Border-- */
 
-    --karma-color-border-brand-accent-light: #0A7DF0;
+    --karma-color-border-brand-accent-light: #0D99FF;
     --karma-color-border-default-light: #86868B;
     --karma-color-border-muted-light: #E8E8ED;
     --karma-color-border-strong-light: #1D1D1F;
-    --karma-color-border-focus-light: #0A7DF0;
+    --karma-color-border-focus-light: #0D99FF;
     --karma-color-border-error-light: #E30000;
     --karma-color-border-warning-light: #FFE045;
     --karma-color-border-success-light: #008009;
@@ -261,13 +261,13 @@
 
     /* Brand Accent */
 
-    --karma-color-fill-action-brand-accent-default-light: #0A7DF0;
-    --karma-color-fill-action-brand-accent-hover-light: #095DB7;
-    --karma-color-fill-action-brand-accent-pressed-light: #023781;
-    --karma-color-fill-action-brand-accent-selected-light: #095DB7;
-    --karma-color-fill-action-brand-accent-selection-light: #9EDFFF;
-    --karma-color-fill-action-brand-accent-selection-hover-light: #91D3FD;
-    --karma-color-fill-action-brand-accent-disabled-light: #91D3FD;
+    --karma-color-fill-action-brand-accent-default-light: #0D99FF;
+    --karma-color-fill-action-brand-accent-hover-light: #007BE5;
+    --karma-color-fill-action-brand-accent-pressed-light: #0768CF;
+    --karma-color-fill-action-brand-accent-selected-light: #007BE5;
+    --karma-color-fill-action-brand-accent-selection-light: #E5F4FF;
+    --karma-color-fill-action-brand-accent-selection-hover-light: #BDE3FF;
+    --karma-color-fill-action-brand-accent-disabled-light: #BDE3FF;
 
 
 
@@ -342,18 +342,18 @@
 
     /* Interactive Brand Accent */
 
-    --karma-color-glyph-interactive-brand-accent-default-light: #0A7DF0;
-    --karma-color-glyph-interactive-brand-accent-hover-light: #1791FD;
-    --karma-color-glyph-interactive-brand-accent-pressed-light: #3DACFD;
-    --karma-color-glyph-interactive-brand-accent-disabled-light: #91D3FD;
+    --karma-color-glyph-interactive-brand-accent-default-light: #007BE5;
+    --karma-color-glyph-interactive-brand-accent-hover-light: #0D99FF;
+    --karma-color-glyph-interactive-brand-accent-pressed-light: #80CAFF;
+    --karma-color-glyph-interactive-brand-accent-disabled-light: #BDE3FF;
 
 
 
     /* Interactive Secondary */
 
     --karma-color-glyph-interactive-secondary-default-light: #1D1D1F;
-    --karma-color-glyph-interactive-secondary-hover-light: #1791FD;
-    --karma-color-glyph-interactive-secondary-pressed-light: #3DACFD;
+    --karma-color-glyph-interactive-secondary-hover-light: #0D99FF;
+    --karma-color-glyph-interactive-secondary-pressed-light: #80CAFF;
     --karma-color-glyph-interactive-secondary-disabled-light: #86868B;
 
 
