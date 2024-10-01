@@ -1,3 +1,40 @@
+/* Instagram Sans */
+
+
+@font-face {
+    font-family: 'Instagram Sans';
+    src: url('/assets/Fonts/Instagram-Sans/InstagramSans-Light.woff') format('woff');
+    font-weight: 100 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instagram Sans';
+    src: url('/assets/Fonts/Instagram-Sans/InstagramSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instagram Sans';
+    src: url('/assets/Fonts/Instagram-Sans/InstagramSans-Medium.woff') format('woff');
+    font-weight: 500 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instagram Sans';
+    src: url('/assets/Fonts/Instagram-Sans/InstagramSans-Bold.woff') format('woff');
+    font-weight: 700 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* SF Pro */
 
 

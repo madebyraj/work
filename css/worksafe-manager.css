@@ -107,6 +107,7 @@ body {
 
 .back-to-home {
   text-decoration: none;
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   font-size: var(--karma-fontSize-20x1);
