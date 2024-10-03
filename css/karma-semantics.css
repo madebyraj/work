@@ -198,7 +198,7 @@
 
     /* --Material Sover-- */
 
-    --karma-color-materialSover-header-dark: rgba(10, 10, 10, 0.8);
+    --karma-color-materialSover-header-dark: rgba(0, 0, 0, 0.72);
 
 
 
@@ -369,7 +369,7 @@
 
     /* --Material Sover-- */
 
-    --karma-color-materialSover-header-light: rgba(255, 255, 255, 0.8);
+    --karma-color-materialSover-header-light: rgba(255, 255, 255, 0.72);
 
 
 
