@@ -8,7 +8,7 @@
 
     /* Fonts */
 
-    --karma-font-heading: Onest, SF Pro, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --karma-font-heading: SF Pro, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     --karma-font-body: SF Pro, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     --karma-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -16,18 +16,21 @@
 
     /* Fonts Weights */
 
+    --karma-fontWeight-ultrathin: 100;
     --karma-fontWeight-thin: 200;
     --karma-fontWeight-light: 300;
+
     --karma-fontWeight-regular: 400;
     --karma-fontWeight-medium: 500;
     --karma-fontWeight-semibold: 600;
     --karma-fontWeight-bold: 700;
+
     --karma-fontWeight-extrabold: 800;
     --karma-fontWeight-black: 900;
 
 
 
-    /* Letter Spacing */
+    /* Letter Spacings */
 
     --karma-letterSpacing-12x1: 0%;
     --karma-letterSpacing-14x1: -0.6%;
