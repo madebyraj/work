@@ -154,7 +154,6 @@ body {
     font-size: var(--karma-fontSize-16x1);
     line-height: var(--karma-lineHeight-16x1);
     color: var(--karma-color-label-tertiary-dark);
-    font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-medium);
 }
 

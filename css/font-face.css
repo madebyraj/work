@@ -1,18 +1,41 @@
-/* Inter */
-
+/* Our Lexend */
 
 @font-face {
-    font-family: 'Inter';
-    src: url('/assets/Fonts/Inter/Inter-var.woff2') format('woff2');
-    font-weight: 100 900;
+    font-family: 'Our Lexend';
     font-style: normal;
+    font-weight: 800;
     font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('/assets/Fonts/Inter/Inter-italic-var.woff2') format('woff2');
-    font-weight: 100 900;
-    font-style: italic;
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 700;
     font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 400 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-light.ttf") format("truetype");
 }

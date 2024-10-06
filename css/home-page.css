@@ -73,7 +73,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: 2px underline #0D99FF;
+  text-decoration: 2px underline var(--karma-color-border-focus-dark);
   position: relative;
   padding: 2px 4px;
   text-align: center;
@@ -82,8 +82,8 @@ body {
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-tight);
-  font-weight: var(--karma-fontWeight-bold);
-  border: 2.5px solid #0D99FF;
+  font-weight: var(--karma-fontWeight-semibold);
+  border: 2.5px solid var(--karma-color-border-focus-dark);
 }
 
 .corner-box {
@@ -91,7 +91,7 @@ body {
   height: 14px;
   position: absolute;
   background-color: white;
-  border: 2.5px solid #0D99FF;
+  border: 2.5px solid var(--karma-color-border-focus-dark);
 }
 
 #top-left {
@@ -116,7 +116,7 @@ body {
 
 .size {
   padding: 4px 8px;
-  background-color: #0D99FF;
+  background-color: var(--karma-color-border-focus-dark);
   border-radius: var(--karma-border-radius-4x1);
   bottom: -40px;
   left: 50%;
