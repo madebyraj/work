@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Our Lexend';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-bold.ttf") format("truetype");
 }
@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'Our Lexend';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-semibold.ttf") format("truetype");
 }
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Our Lexend';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-medium.ttf") format("truetype");
 }
@@ -27,7 +27,7 @@
 @font-face {
     font-family: 'Our Lexend';
     font-style: normal;
-    font-weight: 400 500;
+    font-weight: 400;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/Our-Lexend/our-lexend-regular.ttf") format("truetype");
 }

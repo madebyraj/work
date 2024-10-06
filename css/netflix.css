@@ -62,7 +62,7 @@ body {
   font-size: var(--karma-fontSize-48x1);
   line-height: var(--karma-lineHeight-48x1);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-color-label-primary-dark);
 }
@@ -70,7 +70,7 @@ body {
 .project-overview {
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-regular);
   color: var(--karma-color-label-secondary-dark);
 }
 
@@ -79,7 +79,7 @@ body {
   text-decoration: none;
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-regular);
   color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   transition: 200ms ease-out;
 }
@@ -100,7 +100,7 @@ body {
   text-decoration: none;
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-regular);
   color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
   transition: 200ms ease-out;
 }
@@ -141,8 +141,7 @@ body {
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-color-label-primary-dark);
   text-align: center;
 }
