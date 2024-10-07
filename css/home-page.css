@@ -77,8 +77,8 @@ body {
   position: relative;
   padding: 2px 4px;
   text-align: center;
-  font-size: var(--karma-fontSize-128x1);
-  line-height: var(--karma-lineHeight-128x1);
+  font-size: var(--karma-fontSize-96x1);
+  line-height: var(--karma-lineHeight-96x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-tighter);
@@ -129,7 +129,7 @@ body {
   color: white;
 }
 
-.para {
+.hero-description {
   text-align: center;
   max-width: 680px;
   font-size: var(--karma-fontSize-32x1);
@@ -243,11 +243,11 @@ body {
 
   .hero-headline {
     max-width: 592px;
-    font-size: var(--karma-fontSize-96x1);
-    line-height: var(--karma-lineHeight-96x1);
+    font-size: var(--karma-fontSize-80x1);
+    line-height: var(--karma-lineHeight-80x1);
   }
 
-  .para {
+  .hero-description {
     max-width: 592px;
     font-size: var(--karma-fontSize-28x1);
     line-height: var(--karma-lineHeight-28x1);
@@ -294,11 +294,11 @@ body {
   }
 
   .hero-headline {
-    font-size: var(--karma-fontSize-56x1);
-    line-height: var(--karma-lineHeight-56x1);
+    font-size: var(--karma-fontSize-48x1);
+    line-height: var(--karma-lineHeight-48x1);
   }
 
-  .para {
+  .hero-description {
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
   }
