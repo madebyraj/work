@@ -134,7 +134,6 @@ body {
   max-width: 680px;
   font-size: var(--karma-fontSize-32x1);
   line-height: var(--karma-lineHeight-32x1);
-  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-color-label-primary-dark);
   font-weight: var(--karma-fontWeight-regular);
 }
