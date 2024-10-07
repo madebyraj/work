@@ -63,7 +63,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
 }
 
@@ -103,7 +103,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-glyph-default-dark);
 }
 
@@ -143,7 +143,7 @@ footer {
     font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-24x1);
     line-height: var(--karma-lineHeight-24x1);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-color-label-primary-dark);
 }
 
@@ -205,6 +205,8 @@ footer {
     padding: 4px 8px;
     border-radius: var(--karma-border-radius-8x1);
     cursor: var(--cursor-pointer), auto;
+    font-family: var(--karma-font-heading);
+    letter-spacing: var(--karma-letterSpacing-wide);
     font-size: var(--karma-fontSize-16x1);
     line-height: var(--karma-lineHeight-16x1);
     font-weight: var(--karma-fontWeight-medium);
@@ -223,9 +225,9 @@ footer {
 }
 
 .theme-option.active {
-    font-weight: var(--karma-fontWeight-medium);
-    background-color: var(--karma-color-fill-action-brand-selected-dark);
-    color: var(--karma-color-glyph-action-brand-default-dark);
+    font-weight: var(--karma-fontWeight-semibold);
+    background-color: var(--karma-color-fill-action-brand-accent-selected-dark);
+    color: var(--karma-color-glyph-action-brand-accent-default-dark);
     box-shadow: var(--karma-depth-raised);
 }
 

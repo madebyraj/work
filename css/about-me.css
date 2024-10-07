@@ -77,7 +77,7 @@ body {
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
     color: var(--karma-color-glyph-action-brand-accent-default-dark);
-    font-weight: var(--karma-fontWeight-regular);
+    font-weight: var(--karma-fontWeight-medium);
     border-radius: 24px 24px 24px 4px;
     background-color: #313131;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -98,7 +98,7 @@ body {
     font-size: var(--karma-fontSize-18x1);
     line-height: var(--karma-lineHeight-18x1);
     color: var(--karma-color-glyph-action-brand-accent-default-dark);
-    font-weight: var(--karma-fontWeight-regular);
+    font-weight: var(--karma-fontWeight-medium);
     background-color: #087FE7;
     overflow: hidden;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16)
@@ -154,8 +154,7 @@ body {
     font-size: var(--karma-fontSize-16x1);
     line-height: var(--karma-lineHeight-16x1);
     color: var(--karma-color-label-tertiary-dark);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font-weight: var(--karma-fontWeight-semibold);
 }
 
 #time {
@@ -190,7 +189,7 @@ body {
     font-size: var(--karma-fontSize-40x1);
     color: var(--karma-color-label-secondary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-40x1);
     letter-spacing: var(--karma-letterSpacing-tight);
 }
@@ -307,7 +306,7 @@ body {
     line-height: var(--karma-lineHeight-40x1);
     color: var(--karma-color-label-secondary-dark);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
 }
 
@@ -357,8 +356,7 @@ body {
 .article-heading {
     font-size: var(--karma-fontSize-20x1);
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
+    font-weight: var(--karma-fontWeight-semibold);
     line-height: var(--karma-lineHeight-20x1);
     color: var(--karma-color-label-primary-dark);
 }

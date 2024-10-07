@@ -66,76 +66,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 24px;
+  z-index: 1;
 }
 
 .hero-headline {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: 2px underline var(--karma-color-border-focus-dark);
-  position: relative;
-  padding: 2px 4px;
   text-align: center;
-  font-size: var(--karma-fontSize-96x1);
-  line-height: var(--karma-lineHeight-96x1);
+  font-size: var(--karma-fontSize-128x1);
+  line-height: var(--karma-lineHeight-128x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
-  letter-spacing: var(--karma-letterSpacing-tighter);
-  font-weight: var(--karma-fontWeight-semibold);
-  border: 2.5px solid var(--karma-color-border-focus-dark);
-}
-
-.corner-box {
-  width: 14px;
-  height: 14px;
-  position: absolute;
-  background-color: white;
-  border: 2.5px solid var(--karma-color-border-focus-dark);
-}
-
-#top-left {
-  top: -8px;
-  left: -8px;
-}
-
-#top-right {
-  top: -8px;
-  right: -8px;
-}
-
-#bottom-right {
-  bottom: -8px;
-  right: -8px;
-}
-
-#bottom-left {
-  bottom: -8px;
-  left: -8px;
-}
-
-.size {
-  padding: 4px 8px;
-  background-color: var(--karma-color-border-focus-dark);
-  border-radius: var(--karma-border-radius-4x1);
-  bottom: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-decoration: none;
-  position: absolute;
-  font-size: var(--karma-fontSize-14x1);
-  line-height: var(--karma-lineHeight-14x1);
-  font-weight: var(--karma-fontWeight-medium);
-  color: white;
+  letter-spacing: var(--karma-letterSpacing-tight);
+  font-weight: var(--karma-fontWeight-bold);
 }
 
 .hero-description {
   text-align: center;
   max-width: 680px;
+  font-family: var(--karma-font-heading);
   font-size: var(--karma-fontSize-32x1);
   line-height: var(--karma-lineHeight-32x1);
   color: var(--karma-color-label-primary-dark);
-  font-weight: var(--karma-fontWeight-regular);
+  font-weight: var(--karma-fontWeight-medium);
 }
 
 #project-section {
@@ -155,7 +107,7 @@ body {
   line-height: var(--karma-lineHeight-40x1);
   color: var(--karma-color-label-secondary-dark);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tight);
 }
 
@@ -167,7 +119,7 @@ body {
 
 
 .main-project-container {
-  box-shadow: var(--karma-depth-raised);
+  box-shadow: var(--tile-shadow);
   position: relative;
   min-height: 512px;
   border-radius: var(--karma-border-radius-40x1);
@@ -199,6 +151,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: center;
+  gap: 8px;
 }
 
 .pro-key-feature {
@@ -206,9 +159,9 @@ body {
   top: 48px;
   left: 56px;
   font-size: var(--karma-fontSize-20x1);
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-tertiary-dark);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-wide);
   line-height: var(--karma-lineHeight-20x1);
 }
 
@@ -217,9 +170,8 @@ body {
   font-size: var(--karma-fontSize-32x1);
   color: var(--karma-color-label-primary-dark);
   font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
-  line-height: var(--karma-lineHeight-32x1);
+  font-weight: var(--karma-fontWeight-semibold);
+  line-height: var(--karma-lineHeight-shorter);
   text-overflow: ellipsis;
 }
 
@@ -264,11 +216,12 @@ body {
   }
 
   .main-project-container {
-    min-height: 360px;
+    min-height: 344px;
   }
 
   .pro-info {
     padding-left: 48px;
+    gap: 4px;
   }
 
   .pro-key-feature {
@@ -279,9 +232,9 @@ body {
   }
 
   .pro-description {
-    width: 240px;
+    width: 248px;
     font-size: var(--karma-fontSize-24x1);
-    line-height: var(--karma-lineHeight-24x1);
+    line-height: var(--karma-lineHeight-shorter);
   }
 
 }
@@ -321,12 +274,12 @@ body {
   }
 
   .main-project-container {
-    min-height: 512px;
+    min-height: 480px;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .pro-info {
-    gap: 16px;
+    gap: 24px;
     padding: 32px;
     height: max-content;
   }
@@ -335,14 +288,13 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    font-size: var(--karma-fontSize-16x1);
-    line-height: var(--karma-lineHeight-16x1);
+    font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-20x1);
   }
 
   .pro-description {
     width: 100%;
     font-size: var(--karma-fontSize-28x1);
-    line-height: var(--karma-lineHeight-28x1);
   }
 
 }

@@ -85,7 +85,7 @@
     color: var(--karma-color-label-primary-dark);
     text-decoration: none;
     font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-bold);
     transition: 100ms ease-out;
     height: 60px;
     display: flex;
@@ -150,8 +150,8 @@
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-14x1);
     font-weight: var(--karma-fontWeight-medium);
-    color: var(--karma-color-glyph-action-brand-accent-default-dark);
-    background-color: var(--karma-color-fill-action-brand-accent-default-dark);
+    color: var(--karma-color-glyph-action-brand-default-dark);
+    background-color: var(--karma-color-fill-action-brand-default-dark);
     text-align: center;
     transition: all 200ms ease-out;
     display: flex;
@@ -161,15 +161,15 @@
 
 #nav-cta:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-brand-accent-hover-dark);
+    background-color: var(--karma-color-fill-action-brand-hover-dark);
 }
 
 #nav-cta:active {
-    background-color: var(--karma-color-fill-action-brand-accent-pressed-dark);
+    background-color: var(--karma-color-fill-action-brand-pressed-dark);
 }
 
 #nav-cta:focus {
-    background-color: var(--karma-color-fill-action-brand-accent-selected-dark);
+    background-color: var(--karma-color-fill-action-brand-selected-dark);
 }
 
 
