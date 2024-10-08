@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background-dark);
+  background-color: var(--karma-color-system-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
@@ -77,13 +77,13 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-40x1);
   margin-bottom: 16px;
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .po {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -101,14 +101,14 @@ main {
   line-height: var(--karma-lineHeight-24x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
 .r-r p {
   font-size: var(--karma-fontSize-16x1);
   line-height: var(--karma-lineHeight-16x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .p-c h6 {
@@ -118,14 +118,14 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
 .p-c p {
   font-size: var(--karma-fontSize-16x1);
   line-height: var(--karma-lineHeight-16x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .tools h6 {
@@ -135,25 +135,25 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
 .tools p {
   font-size: var(--karma-fontSize-16x1);
   line-height: var(--karma-lineHeight-16x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .why-i {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   /* margin-bottom: 24px; */
 }
 
 .line {
-  border: 1px solid var(--karma-color-border-muted-dark);
+  border: 1px solid var(--karma-color-border-muted);
 }
 
 /* Main Case Study Section */
@@ -172,14 +172,14 @@ main {
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--letterSpacings-normal);
   line-height: var(--lineHeights-shorter);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 #problem-s p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .design-goal {
@@ -199,7 +199,7 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
@@ -228,14 +228,14 @@ main {
   line-height: var(--karma-lineHeight-24x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
 #sol-info1 p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
@@ -265,14 +265,14 @@ main {
   line-height: var(--karma-lineHeight-24x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
 #sol-info2 p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
@@ -301,14 +301,14 @@ main {
   line-height: var(--karma-lineHeight-24x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
 #sol-info3 p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
@@ -338,14 +338,14 @@ main {
   line-height: var(--karma-lineHeight-24x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
 #sol-info4 p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 8px;
 }
 
@@ -359,7 +359,7 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
@@ -381,21 +381,21 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 .re-subh {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
 .end-users {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -406,7 +406,7 @@ main {
 }
 
 .full-research {
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-default);
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
   font-family: var(--karma-font-heading);
@@ -421,14 +421,14 @@ main {
 }
 
 .full-research:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
 }
 
 .full-research:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
 }
 
 .questions {
@@ -441,14 +441,14 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 .questions p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -462,14 +462,14 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 #insights p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -500,14 +500,14 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 #design-sec p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -538,14 +538,14 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 #proto-sec p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -556,7 +556,7 @@ main {
 }
 
 #pr-link {
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-default);
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
   font-family: var(--karma-font-heading);
@@ -572,14 +572,14 @@ main {
 }
 
 #pr-link:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
 }
 
 #pr-link:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
 }
 
 .proto-bg {
@@ -600,19 +600,19 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 .ut-info {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
 .observe {
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
   margin-bottom: 16px;
@@ -644,14 +644,14 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 #my-learn p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -664,14 +664,14 @@ main {
   line-height: var(--karma-lineHeight-32x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 32px;
 }
 
 #next-st p {
   font-size: var(--karma-fontSize-18x1);
   line-height: var(--karma-lineHeight-18x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   margin-bottom: 16px;
 }
 
@@ -691,7 +691,7 @@ main {
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   text-align: center;
 }
 
@@ -699,7 +699,7 @@ main {
   text-decoration: none;
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-default);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -710,14 +710,14 @@ main {
 }
 
 .back-to-home:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
 }
 
 .back-to-home:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
 }
 
 

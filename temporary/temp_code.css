@@ -785,6 +785,58 @@ body {
   cursor: pointer;
 }
 
+
+
+
+
+.theme-switch {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--karma-border-radius-12x1);
+  padding: 4px;
+  background-color: var(--karma-color-fill-action-secondary-default);
+  overflow: hidden;
+}
+
+.theme-option {
+  border: none;
+  color: var(--karma-color-glyph-action-secondary-default);
+  background-color: transparent;
+  padding: 4px 6px;
+  border-radius: var(--karma-border-radius-8x1);
+  cursor: var(--cursor-pointer), auto;
+  font-family: var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  font-size: var(--karma-fontSize-16x1);
+  line-height: var(--karma-lineHeight-16x1);
+  font-weight: var(--karma-fontWeight-medium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+}
+
+.theme-option:hover {
+  background-color: var(--karma-color-fill-action-secondary-hover);
+}
+
+.theme-option:active {
+  background-color: var(--karma-color-fill-action-secondary-pressed);
+}
+
+.theme-option.active {
+  font-weight: var(--karma-fontWeight-semibold);
+  background-color: var(--karma-color-fill-action-brand-accent-selected);
+  color: var(--karma-color-glyph-action-brand-accent-default);
+  box-shadow: var(--karma-depth-raised);
+}
+
+
+
+
+
 @media (max-width: 1400px) {}
 
 @media (max-width: 1024px) {

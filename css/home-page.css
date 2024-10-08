@@ -42,52 +42,61 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background-dark);
+  background-color: var(--karma-color-system-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
 
 .hero-section {
-  background-color: var(--karma-color-fill-primary-dark);
-  position: relative;
+  background-color: var(--karma-color-fill-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   overflow: hidden;
-  height: 696px;
+  height: 692px;
   width: 100%;
 }
 
-.main {
+.hero-wapper {
+  margin: 0 auto;
   max-width: 1024px;
   width: 100%;
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  z-index: 1;
 }
 
 .hero-headline {
   text-align: center;
-  font-size: var(--karma-fontSize-128x1);
-  line-height: var(--karma-lineHeight-128x1);
-  color: var(--karma-color-label-primary-dark);
-  font-family: var(--karma-font-heading);
+  max-width: 720px;
+  font-size: var(--karma-fontSize-96x1);
+  line-height: var(--karma-lineHeight-none);
   letter-spacing: var(--karma-letterSpacing-tight);
+  color: var(--karma-color-label-primary);
+  font-family: var(--karma-font-heading);
+  font-weight: var(--karma-fontWeight-bold);
+}
+
+.hero-headline-highlighted {
+  font-size: var(--karma-fontSize-96x1);
+  line-height: var(--karma-lineHeight-none);
+  letter-spacing: var(--karma-letterSpacing-tight);
+  color: var(--karma-color-label-primary);
+  font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-bold);
 }
 
 .hero-description {
   text-align: center;
-  max-width: 680px;
-  font-family: var(--karma-font-heading);
+  max-width: 600px;
   font-size: var(--karma-fontSize-32x1);
-  line-height: var(--karma-lineHeight-32x1);
-  color: var(--karma-color-label-primary-dark);
-  font-weight: var(--karma-fontWeight-medium);
+  line-height: var(--karma-lineHeight-shorter);
+  color: var(--karma-color-label-secondary);
+  font-family: var(--karma-font-heading);
+  font-weight: var(--karma-fontWeight-semibold);
 }
 
 #project-section {
@@ -105,7 +114,7 @@ body {
   max-width: 344px;
   font-size: var(--karma-fontSize-40x1);
   line-height: var(--karma-lineHeight-40x1);
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tight);
@@ -127,7 +136,7 @@ body {
   text-decoration: none;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  background-color: var(--karma-color-fill-primary-dark);
+  background-color: var(--karma-color-fill-primary);
   justify-content: center;
   overflow: hidden;
 }
@@ -159,7 +168,7 @@ body {
   top: 48px;
   left: 56px;
   font-size: var(--karma-fontSize-20x1);
-  color: var(--karma-color-label-tertiary-dark);
+  color: var(--karma-color-label-tertiary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-20x1);
@@ -168,7 +177,7 @@ body {
 .pro-description {
   width: 360px;
   font-size: var(--karma-fontSize-32x1);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-shorter);
@@ -189,20 +198,19 @@ body {
     height: 600px;
   }
 
-  .main {
+  .hero-wapper {
     padding: 0px 48px;
   }
 
   .hero-headline {
     max-width: 592px;
-    font-size: var(--karma-fontSize-80x1);
-    line-height: var(--karma-lineHeight-80x1);
+    font-size: var(--karma-fontSize-72x1);
   }
 
   .hero-description {
     max-width: 592px;
     font-size: var(--karma-fontSize-28x1);
-    line-height: var(--karma-lineHeight-28x1);
+    line-height: var(--karma-lineHeight-base);
   }
 
   #project-section {
@@ -228,7 +236,6 @@ body {
     top: 40px;
     left: 48px;
     font-size: var(--karma-fontSize-16x1);
-    line-height: var(--karma-lineHeight-16x1);
   }
 
   .pro-description {
@@ -241,19 +248,22 @@ body {
 
 @media (max-width: 735px) {
 
-  .main {
+  .hero-section {
+    height: 512px;
+  }
+
+  .hero-wapper {
     width: 100%;
     padding: 0px 24px;
   }
 
   .hero-headline {
     font-size: var(--karma-fontSize-48x1);
-    line-height: var(--karma-lineHeight-48x1);
   }
 
   .hero-description {
     font-size: var(--karma-fontSize-24x1);
-    line-height: var(--karma-lineHeight-24x1);
+    line-height: var(--karma-lineHeight-base);
   }
 
   #project-section {

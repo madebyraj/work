@@ -40,7 +40,7 @@
 }
 
 .nav-container {
-    height: 60px;
+    height: 52px;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -54,11 +54,11 @@
     right: 0;
     left: 0;
     z-index: 999;
-    background: var(--karma-color-materialSover-header-dark);
+    background: var(--karma-color-materialSover-header);
     -webkit-backdrop-filter: var(--karma-blur-materialSover-header);
     backdrop-filter: var(--karma-blur-materialSover-header);
     padding: 14px 128px;
-    height: 60px;
+    height: 52px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -80,14 +80,14 @@
 #link-logo {
     text-decoration: none;
     font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-20x1);
+    line-height: var(--karma-lineHeight-short);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-color-label-primary-dark);
+    color: var(--karma-system-white-900);
     text-decoration: none;
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-bold);
     transition: 100ms ease-out;
-    height: 60px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,9 +114,11 @@
 .inner-right-side-container li a {
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
+    font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-14x1);
-    color: var(--karma-color-glyph-interactive-secondary-default-dark);
+    line-height: var(--karma-lineHeight-tall);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    color: var(--karma-system-white-800);
     text-decoration: none;
     font-weight: var(--karma-fontWeight-medium);
     transition: 200ms ease-out;
@@ -127,16 +129,12 @@
 
 .inner-right-side-container li a:hover {
     cursor: var(--cursor-pointer), auto;
-    color: var(--karma-color-glyph-interactive-secondary-hover-dark);
-}
-
-.inner-right-side-container li a:active {
-    color: var(--karma-color-glyph-interactive-secondary-pressed-dark);
+    color: var(--karma-system-white-900);
 }
 
 .current {
     cursor: var(--cursor-not-allowed), auto !important;
-    color: var(--karma-color-glyph-interactive-secondary-disabled-dark) !important;
+    color: var(--karma-system-white-400) !important;
 }
 
 
@@ -148,10 +146,10 @@
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
     font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-14x1);
+    line-height: var(--karma-lineHeight-short);
     font-weight: var(--karma-fontWeight-medium);
-    color: var(--karma-color-glyph-action-brand-default-dark);
-    background-color: var(--karma-color-fill-action-brand-default-dark);
+    color: var(--karma-color-glyph-action-brand-accent-default);
+    background-color: var(--karma-color-fill-action-brand-accent-default);
     text-align: center;
     transition: all 200ms ease-out;
     display: flex;
@@ -161,15 +159,15 @@
 
 #nav-cta:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-brand-hover-dark);
+    background-color: var(--karma-color-fill-action-brand-accent-hover);
 }
 
 #nav-cta:active {
-    background-color: var(--karma-color-fill-action-brand-pressed-dark);
+    background-color: var(--karma-color-fill-action-brand-accent-pressed);
 }
 
 #nav-cta:focus {
-    background-color: var(--karma-color-fill-action-brand-selected-dark);
+    background-color: var(--karma-color-fill-action-brand-accent-selected);
 }
 
 
@@ -232,7 +230,7 @@
         align-items: start;
         justify-content: center;
         font-size: var(--karma-fontSize-32x1);
-        line-height: var(--karma-lineHeight-32x1);
+        line-height: var(--karma-lineHeight-base);
         font-weight: var(--karma-fontWeight-semibold);
         transform: translateY(-24px);
         transition: all 200ms ease-out;
@@ -254,7 +252,7 @@
 
     .inner-right-side-container {
         display: none;
-        margin-top: 60px;
+        margin-top: 52px;
         flex-direction: column;
         align-items: start;
         position: fixed;
@@ -278,7 +276,7 @@
 
     .menu-icon-container {
         width: 20px;
-        height: 60px;
+        height: 52px;
         display: flex;
         align-items: center;
         cursor: var(--cursor-pointer), auto;
@@ -294,7 +292,7 @@
         position: absolute;
         height: 2px;
         width: 100%;
-        background: var(--karma-color-glyph-action-secondary-default-dark);
+        background: var(--karma-system-white-900);
         border-radius: var(--karma-border-radius-full);
         transition-property: transform, top;
         transition-delay: 0ms, 150ms;

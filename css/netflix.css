@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  background-color: var(--karma-color-system-background-dark);
+  background-color: var(--karma-color-system-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
@@ -63,7 +63,7 @@ body {
   line-height: var(--karma-lineHeight-48x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
 }
 
 .project-overview {
@@ -71,7 +71,7 @@ body {
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-label-secondary-dark);
+  color: var(--karma-color-label-secondary);
 }
 
 .link-to-prototype {
@@ -81,19 +81,19 @@ body {
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-default);
   transition: 200ms ease-out;
 }
 
 .link-to-prototype:hover {
   cursor: var(--cursor-pointer), auto;
-  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
 }
 
 .link-to-prototype:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
 }
 
 .link-to-video {
@@ -103,19 +103,19 @@ body {
   font-size: var(--karma-fontSize-24x1);
   line-height: var(--karma-lineHeight-24x1);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-default);
   transition: 200ms ease-out;
 }
 
 .link-to-video:hover {
   cursor: var(--cursor-pointer), auto;
-  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
 }
 
 .link-to-video:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
 }
 
 .design-deck-section {
@@ -126,7 +126,7 @@ body {
   width: 100%;
   height: 100%;
   aspect-ratio: 3 / 2;
-  border: 1px solid var(--karma-color-border-muted-dark);
+  border: 1px solid var(--karma-color-border-muted);
 }
 
 .finish-section {
@@ -144,7 +144,7 @@ body {
   line-height: var(--karma-lineHeight-40x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  color: var(--karma-color-label-primary-dark);
+  color: var(--karma-color-label-primary);
   text-align: center;
 }
 
@@ -152,7 +152,7 @@ body {
   text-decoration: none;
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-color-glyph-interactive-brand-accent-default-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-default);
   font-size: var(--karma-fontSize-20x1);
   line-height: var(--karma-lineHeight-20x1);
   display: flex;
@@ -163,14 +163,14 @@ body {
 }
 
 .back-to-home:hover {
-  color: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-hover);
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover-dark);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-hover);
 }
 
 .back-to-home:active {
-  color: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
+  color: var(--karma-color-glyph-interactive-brand-accent-pressed);
+  text-decoration: underline var(--karma-color-glyph-interactive-brand-accent-pressed);
 }
 
 
