@@ -54,15 +54,27 @@
     right: 0;
     left: 0;
     z-index: 999;
-    background: var(--karma-color-materialSover-header);
-    -webkit-backdrop-filter: var(--karma-blur-materialSover-header);
-    backdrop-filter: var(--karma-blur-materialSover-header);
+    background: var(--karma-globalnav-background);
+    -webkit-backdrop-filter: var(--karma-globalnav-background);
+    backdrop-filter: var(--karma-globalnav-backdrop-filter);
     padding: 14px 128px;
     height: 52px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.main-nav::after {
+    height: 1px;
+    display: block;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--karma-globalnav-keyline-color);
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
 }
 
 .desktop-nav {
@@ -79,10 +91,10 @@
 
 #link-logo {
     text-decoration: none;
-    font-size: var(--karma-fontSize-20x1);
+    font-size: 21px;
     line-height: var(--karma-lineHeight-short);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-system-white-900);
+    color: var(--karma-globalnav-color);
     text-decoration: none;
     font-family: var(--karma-font-heading);
     font-weight: var(--karma-fontWeight-bold);
@@ -114,11 +126,9 @@
 .inner-right-side-container li a {
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
-    font-family: var(--karma-font-heading);
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-tall);
-    letter-spacing: var(--karma-letterSpacing-wide);
-    color: var(--karma-system-white-800);
+    color: var(--karma-globalnav-color);
     text-decoration: none;
     font-weight: var(--karma-fontWeight-medium);
     transition: 200ms ease-out;
@@ -129,12 +139,12 @@
 
 .inner-right-side-container li a:hover {
     cursor: var(--cursor-pointer), auto;
-    color: var(--karma-system-white-900);
+    color: var(--karma-globalnav-color-hover);
 }
 
 .current {
     cursor: var(--cursor-not-allowed), auto !important;
-    color: var(--karma-system-white-400) !important;
+    color: var(--karma-globalnav-color-disabled) !important;
 }
 
 
@@ -148,8 +158,8 @@
     font-size: var(--karma-fontSize-14x1);
     line-height: var(--karma-lineHeight-short);
     font-weight: var(--karma-fontWeight-medium);
-    color: var(--karma-color-glyph-action-brand-accent-default);
-    background-color: var(--karma-color-fill-action-brand-accent-default);
+    color: var(--karma-button-color);
+    background-color: var(--karma-button-background);
     text-align: center;
     transition: all 200ms ease-out;
     display: flex;
@@ -213,7 +223,7 @@
 
     .nav-container.active .main-nav {
         height: 100vh;
-        transition: all 400ms ease-out;
+        transition: all 350ms ease;
     }
 
     .inner-right-side-container li {
@@ -224,13 +234,15 @@
     .inner-right-side-container li a {
         text-align: start;
         width: 100%;
-        padding: 0px 0px 16px;
+        padding: 0px 0px 8px;
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        font-size: var(--karma-fontSize-32x1);
-        line-height: var(--karma-lineHeight-base);
+        font-family: var(--karma-font-heading);
+        font-size: var(--karma-fontSize-28x1);
+        line-height: var(--karma-lineHeight-short);
+        letter-spacing: var(--karma-letterSpacing-wide);
         font-weight: var(--karma-fontWeight-semibold);
         transform: translateY(-24px);
         transition: all 200ms ease-out;
@@ -260,7 +272,7 @@
         left: 0;
         gap: 0;
         min-width: 100%;
-        padding: 0 40px;
+        padding: 0 48px;
     }
 
     .nav-container.active .inner-right-side-container {
@@ -292,7 +304,7 @@
         position: absolute;
         height: 2px;
         width: 100%;
-        background: var(--karma-system-white-900);
+        background: var(--karma-globalnav-color);
         border-radius: var(--karma-border-radius-full);
         transition-property: transform, top;
         transition-delay: 0ms, 150ms;

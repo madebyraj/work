@@ -25,7 +25,7 @@
 
 footer {
     margin: auto;
-    background-color: var(--karma-system-black-900);
+    background-color: var(--karma-globalfooter-background);
 }
 
 .footer-container {
@@ -48,39 +48,27 @@ footer {
     gap: 16px;
 }
 
-.link-to-social {
+.footer-link {
     width: 36px;
     height: 36px;
     padding: 6px;
     border-radius: var(--karma-border-radius-8x1);
 }
 
-.link-to-social:hover {
+.link-svg {
+    fill: var(--karma-globalfooter-color);
+}
+
+.link-svg:hover {
     cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-system-white-300);
-}
-
-#instagram-link svg g path {
-    fill: var(--karma-system-white-900);
-}
-
-#twitter-link svg path {
-    fill: var(--karma-system-white-900);
-}
-
-#linkedin-link svg path {
-    fill: var(--karma-system-white-900);
-}
-
-#mail-link svg path {
-    fill: var(--karma-system-white-900);
+    fill: var(--karma-globalfooter-color-hover);
 }
 
 .design-and-code {
     font-size: var(--karma-fontSize-18x1);
-    line-height: var(--karma-lineHeight-tall);
+    line-height: var(--karma-lineHeight-base);
     font-weight: var(--karma-fontWeight-medium);
-    color: var(--karma-system-white-900);
+    color: var(--karma-globalfooter-color);
 }
 
 

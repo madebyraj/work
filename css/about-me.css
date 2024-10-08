@@ -195,7 +195,7 @@ body {
 }
 
 .slider-container {
-    padding: 80px 0px;
+    padding: 80px 0px 128px;
     width: 100%;
     overflow: hidden;
     display: flex;
