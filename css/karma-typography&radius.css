@@ -54,11 +54,11 @@
 
     --karma-lineHeight-normal: normal;
     --karma-lineHeight-none: 1;
-    --karma-lineHeight-shorter: 1.25;
-    --karma-lineHeight-short: 1.375;
-    --karma-lineHeight-base: 1.5;
-    --karma-lineHeight-tall: 1.625;
-    --karma-lineHeight-taller: 2;
+    --karma-lineHeight-shorter: 1.125;
+    --karma-lineHeight-short: 1.25;
+    --karma-lineHeight-base: 1.33;
+    --karma-lineHeight-tall: 1.5;
+    --karma-lineHeight-taller: 1.75;
 
 
 
