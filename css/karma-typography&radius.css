@@ -26,7 +26,7 @@
     /* Letter Spacings */
 
     --karma-letterSpacing-tighter: -0.05em;
-    --karma-letterSpacing-tight: -0.025em;
+    --karma-letterSpacing-tight: -0.015em;
     --karma-letterSpacing-normal: 0;
     --karma-letterSpacing-wide: 0.025em;
     --karma-letterSpacing-wider: 0.05em;
