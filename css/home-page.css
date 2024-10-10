@@ -42,6 +42,7 @@ html {
 }
 
 body {
+  padding-top: var(--karma-globalnav-height);
   background-color: var(--karma-body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
@@ -92,7 +93,7 @@ body {
   }
 
   68% {
-    transform: scale(1.25);
+    transform: scale(1.150);
   }
 
   100% {
@@ -134,7 +135,7 @@ body {
   font-weight: var(--karma-fontWeight-semibold);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   animation-name: moveUp;
-  animation-duration: 1000ms;
+  animation-duration: 800ms;
   overflow: hidden;
 }
 
@@ -149,15 +150,17 @@ body {
 @keyframes moveUp {
 
   0% {
-    transform: translateY(88px);
+    transform: translateY(64px);
+    opacity: 0;
   }
 
   75% {
-    transform: translateY(-24px);
+    transform: translateY(-32px);
   }
 
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 
 }
@@ -186,6 +189,7 @@ body {
 }
 
 .project {
+  max-width: 1024px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -280,7 +284,7 @@ body {
 .project-cover {
   object-fit: cover;
   object-position: center;
-  width: 1160px;
+  width: 100%;
   height: auto;
   transition: transform 0.3s ease-out;
 }
@@ -310,11 +314,11 @@ body {
   }
 
   .hero-description {
-    font-size: var(--karma-fontSize-32x1);
+    font-size: var(--karma-fontSize-40x1);
   }
 
   .hero-description-highlighted {
-    font-size: var(--karma-fontSize-32x1);
+    font-size: var(--karma-fontSize-40x1);
   }
 
   #project-section-wapper {
@@ -358,17 +362,12 @@ body {
     line-height: var(--karma-lineHeight-shorter);
   }
 
-  .project-cover {
-    width: 760px;
-    height: auto;
-  }
-
 }
 
 @media (max-width: 735px) {
 
   .hero-section {
-    height: 90vh;
+    height: 88vh;
   }
 
   .hero-wrapper {
@@ -387,11 +386,11 @@ body {
   }
 
   .hero-description {
-    font-size: var(--karma-fontSize-28x1);
+    font-size: var(--karma-fontSize-32x1);
   }
 
   .hero-description-highlighted {
-    font-size: var(--karma-fontSize-28x1);
+    font-size: var(--karma-fontSize-32x1);
   }
 
   #project-container {
@@ -429,11 +428,6 @@ body {
   .project-description {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-short);
-  }
-
-  .project-cover {
-    width: 544px;
-    height: auto;
   }
 
 
