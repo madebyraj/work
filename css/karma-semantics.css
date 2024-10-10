@@ -95,7 +95,7 @@
     --karma-text-secondary: rgb(66, 66, 69);
     --karma-text-tertiary: rgb(134, 134, 139);
 
-    --karma-text-gradient: linear-gradient(104deg, #FF0000 8%, #FF6200 25%, #FE6300 50%, #F622C8 75%, #AD5DF1 92%);
+    --karma-text-gradient: linear-gradient(108deg,#0894FF,#C959DD 34%,#FF2E54 68%,#FF9004);
 
     
 
@@ -110,7 +110,7 @@
 
     --karma-button-disabled-opacity: 0.42;
 
-    --karma-body-link-color: rgb(0, 102, 204);
+    --karma-link-color: rgb(0, 102, 204);
     --karma-link-disabled-opacity: 0.42;
 
 

@@ -102,6 +102,7 @@ body {
 }
 
 .hero-headline {
+  max-width: 800px;
   text-align: center;
   font-size: var(--karma-fontSize-96x1);
   line-height: var(--karma-lineHeight-none);
@@ -125,7 +126,7 @@ body {
 
 
 .hero-description {
-  max-width: 800px;
+  max-width: 744px;
   text-align: center;
   font-size: var(--karma-fontSize-32x1);
   line-height: var(--karma-lineHeight-base);
@@ -157,101 +158,118 @@ body {
   width: 100%;
 }
 
-#project-section-wapper {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 64px;
-  max-width: 1024px;
-  margin: auto;
-  padding: 128px 0px;
-}
-
-#project-section-headline {
-  font-size: var(--karma-fontSize-56x1);
-  line-height: var(--karma-lineHeight-none);
-  color: var(--karma-text-tertiary);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tight);
-  padding-left: 56px;
-}
-
-.project-headline-highlighted {
-  font-size: var(--karma-fontSize-56x1);
-  line-height: var(--karma-lineHeight-none);
-  color: var(--karma-text);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tight);
-}
-
 #project-container {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 48px;
+  gap: 24px;
 }
 
-
-.main-project-container {
-  position: relative;
-  min-height: 512px;
-  border-radius: var(--karma-border-radius-40x1);
-  transition: 200ms ease-out;
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: 44% 56%;
-  background-color: var(--karma-fill);
-  justify-content: center;
-  overflow: hidden;
-}
-
-.main-project-container:hover {
-  cursor: var(--cursor-pointer), auto;
-}
-
-.pro-cover {
+.project-wrapper {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
+  background-color: var(--karma-fill);
 }
 
-.pro-info {
-  grid-area: 1/1;
-  padding-left: 56px;
+.project {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 128px 0px;
+  overflow: hidden;
+  gap: 80px;
+}
+
+.project-information {
+  max-width: 648px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
-  gap: 8px;
+  justify-content: start;
+  gap: 32px;
 }
 
-.pro-key-feature {
-  position: absolute;
-  top: 56px;
-  left: 56px;
-  font-size: var(--karma-fontSize-20x1);
-  color: var(--karma-text-tertiary);
+.eyebrow-tag {
+  width: fit-content;
+  border-radius: var(--karma-border-radius-8x1);
+  padding: 5px 9px;
+  font-size: var(--karma-fontSize-18x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  line-height: var(--karma-lineHeight-base);
+  line-height: var(--karma-lineHeight-short);
+  text-overflow: ellipsis;
+  border: none;
 }
 
-.pro-description {
-  width: 380px;
-  font-size: var(--karma-fontSize-40x1);
+.project-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 16px;
+}
+
+.project-title {
+  font-size: var(--karma-fontSize-56x1);
   color: var(--karma-text);
   font-family: var(--karma-font-heading);
+  font-weight: var(--karma-fontWeight-semibold);
+  line-height: var(--karma-lineHeight-none);
+  letter-spacing: var(--karma-letterSpacing-tight);
+  text-overflow: ellipsis;
+}
+
+.project-description {
+  font-size: var(--karma-fontSize-28x1);
+  color: var(--karma-text-secondary);
+  font-family: var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-wide);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-shorter);
   text-overflow: ellipsis;
 }
 
+.project-cta {
+  text-decoration: none;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--karma-link-color);
+}
 
+.project-cta .project-cta-copy:hover {
+  text-decoration: underline;
+}
 
+.project-cta-copy {
+  font-size: var(--karma-fontSize-20x1);
 
+  font-family: var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  font-weight: var(--karma-fontWeight-medium);
+  line-height: var(--karma-lineHeight-tall);
+}
+
+.project-cta-icon::after {
+  content: "";
+  font-size: var(--karma-fontSize-20x1);
+  font-family: SF Pro Icons, var(--karma-font-heading);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  font-weight: var(--karma-fontWeight-medium);
+  line-height: var(--karma-lineHeight-tall);
+}
+
+.project-cover {
+  max-width: 984px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-out;
+}
 
 
 
@@ -260,15 +278,16 @@ body {
 @media (max-width: 1068px) {
 
   .hero-section {
-    height: 600px;
+    height: 616px;
   }
 
   .hero-wrapper {
     padding: 0px 48px;
+    gap: 24px;
   }
 
   .hero-headline {
-    max-width: 600px;
+    max-width: 760px;
     font-size: var(--karma-fontSize-80x1);
   }
 
@@ -277,7 +296,7 @@ body {
   }
 
   .hero-description {
-    max-width: 600px;
+    max-width: 648px;
     font-size: var(--karma-fontSize-28x1);
   }
 
@@ -286,39 +305,40 @@ body {
     padding: 96px 48px;
   }
 
-  #project-section-headline {
-    max-width: 448px;
-    font-size: var(--karma-fontSize-48x1);
-    padding-left: 48px;
-  }
-
-  .project-headline-highlighted {
-    font-size: var(--karma-fontSize-48x1);
-  }
-
   #project-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .main-project-container {
-    min-height: 360px;
+  .project {
+    padding: 96px 48px;
+    overflow: hidden;
+    gap: 80px;
   }
 
-  .pro-info {
-    padding-left: 48px;
-    gap: 4px;
+  .project-information {
+    max-width: 480px;
+    gap: 32px;
   }
 
-  .pro-key-feature {
-    top: 48px;
-    left: 48px;
-    font-size: var(--karma-fontSize-18x1);
+  .eyebrow-tag {
+    width: fit-content;
+    border-radius: var(--karma-border-radius-8x1);
+    padding: 4px 8px;
+    font-size: var(--karma-fontSize-16x1);
   }
 
-  .pro-description {
-    width: 248px;
-    font-size: var(--karma-fontSize-32x1);
+  .project-title-wrapper {
+    gap: 16px;
+  }
+
+  .project-title {
+    font-size: var(--karma-fontSize-48x1);
+  }
+
+  .project-description {
+    font-size: var(--karma-fontSize-24x1);
+    line-height: var(--karma-lineHeight-shorter);
   }
 
 }
@@ -326,71 +346,66 @@ body {
 @media (max-width: 735px) {
 
   .hero-section {
-    height: 600px;
+    height: 648px;
   }
 
   .hero-wrapper {
     width: 100%;
     padding: 0px 24px;
+    gap: 16px;
   }
 
   .hero-headline {
     font-size: var(--karma-fontSize-48x1);
-    line-height: var(--karma-lineHeight-shorter);
+    max-width: 400px;
   }
 
   .hero-headline-highlighted {
     font-size: var(--karma-fontSize-48x1);
-    line-height: var(--karma-lineHeight-shorter);
   }
 
   .hero-description {
     font-size: var(--karma-fontSize-24x1);
-    max-width: 328px;
-  }
-
-  #project-section-wapper {
-    padding: 80px 24px;
-    gap: 48px;
-  }
-
-  #project-section-headline {
-    font-size: var(--karma-fontSize-40x1);
-    max-width: 360px;
-    padding-left: 32px;
-  }
-
-  .project-headline-highlighted {
-    font-size: var(--karma-fontSize-40x1);
+    max-width: 504px;
   }
 
   #project-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 40px;
+    gap: 16px;
   }
 
-  .main-project-container {
-    min-height: 512px;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .project {
+    padding: 80px 24px;
+    overflow: hidden;
+    gap: 56px;
   }
 
-  .pro-info {
-    gap: 12px;
-    padding: 32px;
-    height: max-content;
+  .project-information {
+    max-width: 480px;
+    gap: 24px;
   }
 
-  .pro-key-feature {
-    position: relative;
-    top: 0;
-    left: 0;
+  .eyebrow-tag {
+    width: fit-content;
+    border-radius: var(--karma-border-radius-8x1);
+    padding: 4px 8px;
+    font-size: var(--karma-fontSize-16x1);
+  }
+
+  .project-title-wrapper {
+    gap: 16px;
+  }
+
+  .project-title {
+    font-size: var(--karma-fontSize-40x1);
+    line-height: var(--karma-lineHeight-none);
+  }
+
+  .project-description {
     font-size: var(--karma-fontSize-20x1);
+    line-height: var(--karma-lineHeight-short);
   }
 
-  .pro-description {
-    width: 100%;
-    font-size: var(--karma-fontSize-32x1);
-  }
 
 }
