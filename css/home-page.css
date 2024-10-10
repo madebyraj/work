@@ -133,9 +133,9 @@ body {
   color: var(--karma-text-tertiary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   animation-name: moveUp;
-  animation-duration: 800ms;
+  animation-duration: 900ms;
   overflow: hidden;
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 .project-information {
-  max-width: 648px;
+  max-width: 816px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -213,7 +213,7 @@ body {
   width: fit-content;
   border-radius: var(--karma-border-radius-8x1);
   padding: 5px 9px;
-  font-size: var(--karma-fontSize-18x1);
+  font-size: var(--karma-fontSize-20x1);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-short);
@@ -240,12 +240,12 @@ body {
 }
 
 .project-description {
-  font-size: var(--karma-fontSize-28x1);
+  font-size: var(--karma-fontSize-24x1);
   color: var(--karma-text-secondary);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
   font-weight: var(--karma-fontWeight-semibold);
-  line-height: var(--karma-lineHeight-shorter);
+  line-height: var(--karma-lineHeight-short);
   text-overflow: ellipsis;
 }
 
@@ -264,20 +264,19 @@ body {
 }
 
 .project-cta-copy {
-  font-size: var(--karma-fontSize-20x1);
-
+  font-size: var(--karma-fontSize-24x1);
   font-family: var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-tall);
 }
 
 .project-cta-icon::after {
   content: "";
-  font-size: var(--karma-fontSize-20x1);
+  font-size: var(--karma-fontSize-24x1);
   font-family: SF Pro Icons, var(--karma-font-heading);
   letter-spacing: var(--karma-letterSpacing-wide);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   line-height: var(--karma-lineHeight-tall);
 }
 
@@ -338,7 +337,7 @@ body {
   }
 
   .project-information {
-    max-width: 480px;
+    max-width: 680px;
     gap: 40px;
   }
 
@@ -346,7 +345,7 @@ body {
     width: fit-content;
     border-radius: var(--karma-border-radius-8x1);
     padding: 4px 8px;
-    font-size: var(--karma-fontSize-16x1);
+    font-size: var(--karma-fontSize-18x1);
   }
 
   .project-title-wrapper {
@@ -358,8 +357,15 @@ body {
   }
 
   .project-description {
-    font-size: var(--karma-fontSize-24x1);
-    line-height: var(--karma-lineHeight-shorter);
+    font-size: var(--karma-fontSize-20x1);
+  }
+
+  .project-cta-copy {
+    font-size: var(--karma-fontSize-20x1);
+  }
+
+  .project-cta-icon::after {
+    font-size: var(--karma-fontSize-20x1);
   }
 
 }
@@ -405,7 +411,6 @@ body {
   }
 
   .project-information {
-    max-width: 480px;
     gap: 32px;
   }
 
@@ -427,7 +432,6 @@ body {
 
   .project-description {
     font-size: var(--karma-fontSize-20x1);
-    line-height: var(--karma-lineHeight-short);
   }
 
 
