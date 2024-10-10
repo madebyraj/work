@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           scrollTrigger: {
             trigger: element,
             start: "top 85%", // Start animation when the top of element is 85% from the top of the viewport
-            end: "top 65%", // End animation when the top of element is 20% from the top of the viewport
+            end: "top 60%", // End animation when the top of element is 20% from the top of the viewport
             scrub: 1, // Smoothly scrub the animation as you scroll
           },
         }

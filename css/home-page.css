@@ -66,7 +66,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 24px;
 }
 
 .hero-headline-wrapper {
@@ -126,34 +126,51 @@ body {
 
 
 .hero-description {
-  max-width: 744px;
   text-align: center;
-  font-size: var(--karma-fontSize-32x1);
-  line-height: var(--karma-lineHeight-base);
-  color: var(--karma-text-secondary);
+  font-size: var(--karma-fontSize-40x1);
+  line-height: var(--karma-lineHeight-short);
+  color: var(--karma-text-tertiary);
   font-family: var(--karma-font-heading);
   font-weight: var(--karma-fontWeight-semibold);
-  transition: linear;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   animation-name: moveUp;
-  animation-duration: 1200ms;
+  animation-duration: 1000ms;
   overflow: hidden;
+}
+
+.hero-description-highlighted {
+  font-size: var(--karma-fontSize-40x1);
+  line-height: var(--karma-lineHeight-short);
+  color: var(--karma-text);
+  font-family: var(--karma-font-heading);
+  font-weight: var(--karma-fontWeight-semibold);
 }
 
 @keyframes moveUp {
 
   0% {
-    transform: translateY(128px);
+    transform: translateY(88px);
+  }
+
+  75% {
+    transform: translateY(-24px);
   }
 
   100% {
     transform: translateY(0);
-    opacity: 1;
   }
 
 }
 
+
+.divider {
+  width: 100%;
+  height: 16px;
+  background-color: var(--karma-fill-tertiary);
+}
+
 #project-section {
-  background-color: var(--karma-color-fill-tertiary);
+  background-color: var(--karma-fill-tertiary);
   overflow: hidden;
   width: 100%;
 }
@@ -161,7 +178,6 @@ body {
 #project-container {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 24px;
 }
 
 .project-wrapper {
@@ -170,7 +186,6 @@ body {
 }
 
 .project {
-  max-width: 1024px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -187,7 +202,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 32px;
+  gap: 40px;
 }
 
 .eyebrow-tag {
@@ -207,7 +222,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 16px;
+  gap: 24px;
 }
 
 .project-title {
@@ -234,7 +249,7 @@ body {
   text-decoration: none;
   width: fit-content;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   gap: 6px;
   color: var(--karma-link-color);
@@ -263,11 +278,10 @@ body {
 }
 
 .project-cover {
-  max-width: 984px;
   object-fit: cover;
-  object-position: top;
-  width: 100%;
-  height: 100%;
+  object-position: center;
+  width: 1160px;
+  height: auto;
   transition: transform 0.3s ease-out;
 }
 
@@ -278,7 +292,7 @@ body {
 @media (max-width: 1068px) {
 
   .hero-section {
-    height: 616px;
+    height: 75vh;
   }
 
   .hero-wrapper {
@@ -296,13 +310,16 @@ body {
   }
 
   .hero-description {
-    max-width: 648px;
-    font-size: var(--karma-fontSize-28x1);
+    font-size: var(--karma-fontSize-32x1);
+  }
+
+  .hero-description-highlighted {
+    font-size: var(--karma-fontSize-32x1);
   }
 
   #project-section-wapper {
     margin: auto;
-    padding: 96px 48px;
+    padding: 112px 48px;
   }
 
   #project-container {
@@ -318,7 +335,7 @@ body {
 
   .project-information {
     max-width: 480px;
-    gap: 32px;
+    gap: 40px;
   }
 
   .eyebrow-tag {
@@ -329,7 +346,7 @@ body {
   }
 
   .project-title-wrapper {
-    gap: 16px;
+    gap: 24px;
   }
 
   .project-title {
@@ -341,12 +358,17 @@ body {
     line-height: var(--karma-lineHeight-shorter);
   }
 
+  .project-cover {
+    width: 760px;
+    height: auto;
+  }
+
 }
 
 @media (max-width: 735px) {
 
   .hero-section {
-    height: 648px;
+    height: 90vh;
   }
 
   .hero-wrapper {
@@ -357,7 +379,7 @@ body {
 
   .hero-headline {
     font-size: var(--karma-fontSize-48x1);
-    max-width: 400px;
+    max-width: 448px;
   }
 
   .hero-headline-highlighted {
@@ -365,25 +387,27 @@ body {
   }
 
   .hero-description {
-    font-size: var(--karma-fontSize-24x1);
-    max-width: 504px;
+    font-size: var(--karma-fontSize-28x1);
+  }
+
+  .hero-description-highlighted {
+    font-size: var(--karma-fontSize-28x1);
   }
 
   #project-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 16px;
   }
 
   .project {
-    padding: 80px 24px;
+    padding: 96px 24px;
     overflow: hidden;
     gap: 56px;
   }
 
   .project-information {
     max-width: 480px;
-    gap: 24px;
+    gap: 32px;
   }
 
   .eyebrow-tag {
@@ -394,7 +418,7 @@ body {
   }
 
   .project-title-wrapper {
-    gap: 16px;
+    gap: 24px;
   }
 
   .project-title {
@@ -405,6 +429,11 @@ body {
   .project-description {
     font-size: var(--karma-fontSize-20x1);
     line-height: var(--karma-lineHeight-short);
+  }
+
+  .project-cover {
+    width: 544px;
+    height: auto;
   }
 
 

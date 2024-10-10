@@ -84,7 +84,7 @@ footer {
 @media (max-width: 1068px) {
 
     .footer-container {
-        padding: 40px 48px;
+        padding: 48px;
     }
 
 }
@@ -96,7 +96,7 @@ footer {
 @media (max-width: 735px) {
 
     .footer-container {
-        padding: 32px 24px;
+        padding: 40px 24px;
         flex-direction: column;
     }
 

@@ -224,7 +224,7 @@
     .nav-container.active .main-nav {
         height: 100vh;
         animation: globalNavbaropen;
-        transition: 400ms cubic-bezier(.4, 0, .6, 1) 20ms;
+        transition: 360ms cubic-bezier(.4, 0, .6, 1) 10ms;
         animation-timing-function: cubic-bezier(.4, 0, .6, 1);
         background: var(--karma-globalnav-background-opened);
     }

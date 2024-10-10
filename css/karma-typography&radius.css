@@ -25,11 +25,11 @@
 
     /* Letter Spacings */
 
-    --karma-letterSpacing-tighter: -0.05em;
-    --karma-letterSpacing-tight: -0.011em;
+    --karma-letterSpacing-tighter: -0.025em;
+    --karma-letterSpacing-tight: -0.0125em;
     --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.011em;
-    --karma-letterSpacing-wider: 0.05em;
+    --karma-letterSpacing-wide: 0.0125em;
+    --karma-letterSpacing-wider: 0.025em;
 
 
 
@@ -52,7 +52,6 @@
     --karma-lineHeight-96x1: 6.5rem;
     --karma-lineHeight-128x1: 8.5rem;
 
-    --karma-lineHeight-normal: normal;
     --karma-lineHeight-none: 1;
     --karma-lineHeight-shorter: 1.125;
     --karma-lineHeight-short: 1.25;
