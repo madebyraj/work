@@ -31,7 +31,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--karma-font-body);
+  font-family: var(--karma-font-sans);
   letter-spacing: var(--karma-letterSpacing-normal);
   font-weight: var(--karma-fontWeight-regular);
   line-height: var(--karma-lineHeight-short);
@@ -49,37 +49,26 @@ body {
 }
 
 .hero-section {
-  background-color: var(--karma-color-fill-primary);
+  background: #C2E0FF url(/assets/global/hero-background.png) 50% 50% no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   overflow: hidden;
-  height: 692px;
+  height: 696px;
   width: 100%;
 }
 
 .hero-wrapper {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 960px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   gap: 24px;
-}
-
-.hero-headline-wrapper {
-  width: 100%;
-  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation-name: scaleDown;
-  animation-duration: 1200ms;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 1024px;
-  margin: auto;
 }
 
 @keyframes scaleDown {
@@ -103,59 +92,34 @@ body {
 }
 
 .hero-headline {
-  max-width: 800px;
-  text-align: center;
-  font-size: var(--karma-fontSize-96x1);
-  line-height: var(--karma-lineHeight-none);
+  max-width: 600px;
+  font-size: var(--karma-fontSize-1000);
+  line-height: var(--karma-lineHeight-shorter);
   letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-family: var(--karma-font-serif);
+  font-weight: var(--karma-fontWeight-regular);
+  animation-timing-function: ease-out;
+  animation-name: moveUp;
+  animation-duration: 900ms;
 }
-
-.hero-headline-highlighted {
-  font-size: var(--karma-fontSize-96x1);
-  line-height: var(--karma-lineHeight-none);
-  letter-spacing: var(--karma-letterSpacing-tight);
-  background: var(--karma-text-gradient);
-  background-size: contain;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 
 .hero-description {
-  text-align: center;
-  font-size: var(--karma-fontSize-40x1);
-  line-height: var(--karma-lineHeight-short);
-  color: var(--karma-text-tertiary);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  max-width: 600px;
+  font-size: var(--karma-fontSize-450);
+  line-height: var(--karma-lineHeight-base);
+  color: var(--karma-text);
+  animation-timing-function: ease-out;
   animation-name: moveUp;
   animation-duration: 900ms;
   overflow: hidden;
 }
 
-.hero-description-highlighted {
-  font-size: var(--karma-fontSize-40x1);
-  line-height: var(--karma-lineHeight-short);
-  color: var(--karma-text);
-  font-family: var(--karma-font-heading);
-  font-weight: var(--karma-fontWeight-semibold);
-}
-
 @keyframes moveUp {
 
   0% {
-    transform: translateY(64px);
+    transform: translateY(80px);
     opacity: 0;
-  }
-
-  75% {
-    transform: translateY(-32px);
   }
 
   100% {
@@ -295,29 +259,22 @@ body {
 @media (max-width: 1068px) {
 
   .hero-section {
-    height: 75vh;
+    height: 680px;
   }
 
   .hero-wrapper {
     padding: 0px 48px;
-    gap: 24px;
+    gap: 16px;
   }
 
   .hero-headline {
-    max-width: 760px;
-    font-size: var(--karma-fontSize-80x1);
-  }
-
-  .hero-headline-highlighted {
-    font-size: var(--karma-fontSize-80x1);
+    max-width: 440px;
+    font-size: var(--karma-fontSize-800);
   }
 
   .hero-description {
-    font-size: var(--karma-fontSize-40x1);
-  }
-
-  .hero-description-highlighted {
-    font-size: var(--karma-fontSize-40x1);
+    max-width: 464px;
+    font-size: var(--karma-fontSize-400);
   }
 
   #project-section-wapper {
@@ -373,30 +330,22 @@ body {
 @media (max-width: 735px) {
 
   .hero-section {
-    height: 88vh;
+    height: 640px;
   }
 
   .hero-wrapper {
-    width: 100%;
     padding: 0px 24px;
-    gap: 16px;
+    gap: 12px;
   }
 
   .hero-headline {
-    font-size: var(--karma-fontSize-48x1);
-    max-width: 448px;
-  }
-
-  .hero-headline-highlighted {
-    font-size: var(--karma-fontSize-48x1);
+    font-size: var(--karma-fontSize-700);
+    max-width: 360px;
   }
 
   .hero-description {
-    font-size: var(--karma-fontSize-32x1);
-  }
-
-  .hero-description-highlighted {
-    font-size: var(--karma-fontSize-32x1);
+    max-width: 440px;
+    font-size: var(--karma-fontSize-350);
   }
 
   #project-container {

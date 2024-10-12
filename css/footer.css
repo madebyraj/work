@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--karma-font-body);
+    font-family: var(--karma-font-sans);
     letter-spacing: var(--karma-letterSpacing-normal);
     font-weight: var(--karma-fontWeight-regular);
     line-height: var(--karma-lineHeight-short);
@@ -29,9 +29,9 @@ footer {
 }
 
 .footer-container {
-    padding: 40px 0px;
+    padding: 56px 0px;
     margin: auto;
-    max-width: 1024px;
+    max-width: 960px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .footer-link {
@@ -65,9 +65,9 @@ footer {
 }
 
 .design-and-code {
-    font-size: var(--karma-fontSize-18x1);
+    font-size: var(--karma-fontSize-300);
     line-height: var(--karma-lineHeight-base);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-regular);
     color: var(--karma-globalfooter-color);
 }
 

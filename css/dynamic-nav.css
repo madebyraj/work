@@ -33,7 +33,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--karma-font-body);
+    font-family: var(--karma-font-sans);
     letter-spacing: var(--karma-letterSpacing-normal);
     font-weight: var(--karma-fontWeight-regular);
     line-height: var(--karma-lineHeight-short);
@@ -83,7 +83,7 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    max-width: 1024px;
+    max-width: 960px;
     margin-right: auto;
     margin-left: auto;
 
@@ -91,15 +91,9 @@
 
 #link-logo {
     text-decoration: none;
-    font-size: 21px;
-    line-height: var(--karma-lineHeight-short);
-    letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-globalnav-color);
-    text-decoration: none;
-    font-family: var(--karma-font-heading);
-    font-weight: var(--karma-fontWeight-bold);
+    width: 32px;
+    height: 32px;
     transition: 100ms ease-out;
-    height: var(--karma-globalnav-height);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,6 +101,13 @@
 
 #link-logo:hover {
     cursor: var(--cursor-pointer), auto;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -126,11 +127,11 @@
 .inner-right-side-container li a {
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
-    font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-tall);
+    font-size: var(--karma-fontSize-150);
+    line-height: var(--karma-lineHeight-base);
     color: var(--karma-globalnav-color);
-    text-decoration: none;
-    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
+    font-weight: var(--karma-fontWeight-regular);
     transition: 200ms ease-out;
     display: flex;
     align-items: center;
@@ -152,12 +153,13 @@
 
 #nav-cta {
     margin-left: 28px;
-    padding: 5px 12px;
+    padding: 5px 11px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
-    font-size: var(--karma-fontSize-14x1);
-    line-height: var(--karma-lineHeight-short);
+    font-size: var(--karma-fontSize-150);
+    line-height: var(--karma-lineHeight-base);
     font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-wide);
     color: var(--karma-button-color);
     background-color: var(--karma-button-background);
     text-align: center;
@@ -237,11 +239,10 @@
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        font-family: var(--karma-font-heading);
         font-size: var(--karma-fontSize-32x1);
         line-height: var(--karma-lineHeight-base);
         letter-spacing: var(--karma-letterSpacing-wide);
-        font-weight: var(--karma-fontWeight-semibold);
+        font-weight: var(--karma-fontWeight-medium);
         transition: all 200ms ease-out;
     }
 

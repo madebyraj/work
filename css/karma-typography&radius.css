@@ -14,6 +14,15 @@
 
 
 
+    /* Font Faces */
+
+    --karma-font-serif: Lastik, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+    --karma-font-sans: Sohne, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --karma-font-mono: Roboto Mono, Nitti, Menlo, Courier, monospace;
+    --karma-font-handwriting: permanent-marker, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+
     /* Fonts Weights */
 
     --karma-fontWeight-regular: 400;
@@ -81,6 +90,27 @@
 
 
     /* Font Sizes */
+
+    --karma-fontSize-50: 0.75rem;
+    --karma-fontSize-100: 0.875rem;
+    --karma-fontSize-150: 0.938rem;
+    --karma-fontSize-200: 1rem;
+    --karma-fontSize-250: 1.063rem;
+    --karma-fontSize-300: 1.125rem;
+    --karma-fontSize-350: 1.313rem;
+    --karma-fontSize-400: 1.5rem;
+    --karma-fontSize-450: 1.688rem;
+    --karma-fontSize-500: 1.875rem;
+    --karma-fontSize-550: 2.063rem;
+    --karma-fontSize-600: 2.25rem;
+    --karma-fontSize-650: 2.563rem;
+    --karma-fontSize-700: 2.813rem;
+    --karma-fontSize-750: 3.063rem;
+    --karma-fontSize-800: 3.313rem;
+    --karma-fontSize-850: 3.625rem;
+    --karma-fontSize-900: 3.813rem;
+    --karma-fontSize-950: 4.25rem;
+    --karma-fontSize-1000: 4.813rem;
 
     --karma-fontSize-12x1: 0.75rem;
     --karma-fontSize-14x1: 0.875rem;

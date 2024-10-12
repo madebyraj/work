@@ -58,9 +58,9 @@
 
 
 
-    --karma-globalnav-height: 52px;
-    --karma-globalnav-background: var(--karma-system-white-700);
-    --karma-globalnav-background-opened: #FAFAFC;
+    --karma-globalnav-height: 60px;
+    --karma-globalnav-background: var(--karma-system-white-900);
+    --karma-globalnav-background-opened: var(--karma-system-white-900);
 
     --karma-globalnav-color: var(--karma-system-black-700);
     --karma-globalnav-color-secondary: #E8E8ED;
@@ -95,9 +95,9 @@
     --karma-text-secondary: rgb(66, 66, 69);
     --karma-text-tertiary: rgb(134, 134, 139);
 
-    --karma-text-gradient: linear-gradient(108deg,#0894FF,#C959DD 34%,#FF2E54 68%,#FF9004);
+    --karma-text-gradient: linear-gradient(108deg, #0894FF, #C959DD 34%, #FF2E54 68%, #FF9004);
 
-    
+
 
 
     --karma-button-background: rgb(0, 113, 227);

@@ -69,6 +69,105 @@
 }
 
 
+/* Lastik */
+
+@font-face {
+    font-family: 'Lastik';
+    font-style: normal;
+    font-weight: 1 1000;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Lastik/Lastik-Regular.woff") format("woff");
+}
+
+
+
+/* Lastik */
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/sohne-700-normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/sohne-700-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: normal;
+    font-weight: 500 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/sohne-500-normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: italic;
+    font-weight: 500 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/sohne-500-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/sohne-400-normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/sohne-400-italic.woff") format("woff");
+}
+
+
+
+/* Roboto Mono */
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-Regular.woff") format("woff");
+}
+
+
 
 /* SF Pro Icons */
 
