@@ -16,7 +16,7 @@
 
     /* Font Faces */
 
-    --karma-font-serif: Lastik, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+    --karma-font-serif: GT Super, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
     --karma-font-sans: Sohne, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     --karma-font-mono: Roboto Mono, Nitti, Menlo, Courier, monospace;
     --karma-font-handwriting: permanent-marker, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
@@ -34,11 +34,11 @@
 
     /* Letter Spacings */
 
-    --karma-letterSpacing-tighter: -0.025em;
-    --karma-letterSpacing-tight: -0.0125em;
+    --karma-letterSpacing-tighter: -0.05em;
+    --karma-letterSpacing-tight: -0.025em;
     --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.0125em;
-    --karma-letterSpacing-wider: 0.025em;
+    --karma-letterSpacing-wide: 0.025em;
+    --karma-letterSpacing-wider: 0.05em;
 
 
 

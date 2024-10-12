@@ -69,19 +69,19 @@
 }
 
 
-/* Lastik */
+/* GT Super */
 
 @font-face {
-    font-family: 'Lastik';
+    font-family: 'GT Super';
     font-style: normal;
     font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Lastik/Lastik-Regular.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/GT-Super/gt-super-400-normal.woff") format("woff");
 }
 
 
 
-/* Lastik */
+/* Sohne */
 
 @font-face {
     font-family: 'Sohne';

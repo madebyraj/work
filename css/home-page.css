@@ -94,11 +94,11 @@ body {
 .hero-headline {
   max-width: 600px;
   font-size: var(--karma-fontSize-1000);
-  line-height: var(--karma-lineHeight-shorter);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  line-height: var(--karma-lineHeight-none);
+  letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text);
   font-family: var(--karma-font-serif);
-  font-weight: var(--karma-fontWeight-regular);
+  font-weight: var(--karma-fontWeight-medium);
   animation-timing-function: ease-out;
   animation-name: moveUp;
   animation-duration: 900ms;
