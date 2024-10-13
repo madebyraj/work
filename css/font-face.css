@@ -69,14 +69,55 @@
 }
 
 
-/* GT Super */
+
+/* Denton */
 
 @font-face {
-    font-family: 'GT Super';
+    font-family: 'Denton';
     font-style: normal;
-    font-weight: 1 1000;
+    font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/GT-Super/gt-super-400-normal.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-RegularItalic.woff") format("woff");
 }
 
 
