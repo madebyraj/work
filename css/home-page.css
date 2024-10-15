@@ -296,7 +296,7 @@ body {
 @media (max-width: 735px) {
 
   .hero-section {
-    height: 640px;
+    height: 88vh;
   }
 
   .hero-wrapper {

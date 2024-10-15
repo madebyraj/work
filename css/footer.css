@@ -85,6 +85,11 @@ footer {
         padding: 40px 48px;
     }
 
+    .design-and-code {
+        font-size: var(--karma-tablet-fontSize-footnote);
+        line-height: var(--karma-tablet-lineHeight-footnote);
+    }
+
 }
 
 
@@ -96,6 +101,11 @@ footer {
     .footer-container {
         padding: 40px 24px;
         flex-direction: column;
+    }
+
+    .design-and-code {
+        font-size: var(--karma-mobile-fontSize-footnote);
+        line-height: var(--karma-mobile-lineHeight-footnote);
     }
 
 }
