@@ -835,6 +835,119 @@ body {
 
 
 
+/* Slider Section */
+
+.slider-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0 0 0;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.slider-section-heading {
+  max-width: 432px;
+  text-align: center;
+  font-size: var(--karma-fontSize-40x1);
+  color: var(--karma-text);
+  font-family: var(--karma-font-heading);
+  font-weight: var(--karma-fontWeight-semibold);
+  line-height: var(--karma-lineHeight-shorter);
+  letter-spacing: var(--karma-letterSpacing-tight);
+}
+
+.slider-container {
+  padding: 80px 0px 128px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  touch-action: pan-y;
+}
+
+.slider-wrapper {
+  display: flex;
+  will-change: transform;
+}
+
+.slide {
+  flex: 0 0 calc(80% - 40px);
+  max-width: 424px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: var(--karma-border-radius-none);
+  overflow: hidden;
+  transition: opacity 0.5s ease;
+  opacity: 0.25;
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+}
+
+.controls {
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 16px;
+  z-index: 10;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  background-color: var(--karma-color-fill-action-secondary-default);
+  border: none;
+  border-radius: var(--karma-border-radius-full);
+  transition: background-color 200ms ease;
+}
+
+.chevron-left path {
+  fill: var(--karma-color-glyph-action-secondary-default);
+}
+
+.chevron-right path {
+  fill: var(--karma-color-glyph-action-secondary-default);
+}
+
+.btn:hover {
+  cursor: var(--cursor-pointer), auto;
+  background-color: var(--karma-color-fill-action-secondary-hover);
+}
+
+.btn:disabled {
+  cursor: var(--cursor-not-allowed), not-allowed;
+  background-color: var(--karma-color-fill-action-secondary-disabled);
+}
+
+.btn:disabled .chevron-left path {
+  fill: var(--karma-color-glyph-action-secondary-disabled);
+}
+
+.btn:disabled .chevron-right path {
+  fill: var(--karma-color-glyph-action-secondary-disabled);
+}
+
+
 
 
 @media (max-width: 1400px) {}

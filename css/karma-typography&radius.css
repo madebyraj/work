@@ -8,18 +8,17 @@
 
     /* Fonts */
 
-    --karma-font-heading: SF Pro Display, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --karma-font-body: SF Pro Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --karma-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --karma-font-heading: Sohne Extended, Helvetica, Arial, sans-serif;
+    --karma-font-body: Sohne, Helvetica, Arial, sans-serif;
+    --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
 
 
     /* Font Faces */
 
-    --karma-font-serif: Denton, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-    --karma-font-sans: Sohne, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --karma-font-mono: Roboto Mono, Nitti, Menlo, Courier, monospace;
-    --karma-font-handwriting: permanent-marker, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --karma-font-heading: Sohne Extended, Helvetica, Arial, sans-serif;
+    --karma-font-body: Sohne, Helvetica, Arial, sans-serif;
+    --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
 
 
@@ -31,34 +30,139 @@
 
 
 
+    /* Global */
+
+    --karma-fontFamily-display: var(--karma-font-heading);
+    --karma-fontWeight-display: var(--karma-fontWeight-medium);
+    --karma-fontWeight-display-emphasized: var(--karma-fontWeight-bold);
+
+    --karma-fontFamily-title: var(--karma-font-heading);
+    --karma-fontWeight-title: var(--karma-fontWeight-medium);
+    --karma-fontWeight-title-emphasized: var(--karma-fontWeight-bold);
+
+    --karma-fontFamily-heading: var(--karma-font-heading);
+    --karma-fontWeight-heading: var(--karma-fontWeight-medium);
+    --karma-fontWeight-heading-emphasized: var(--karma-fontWeight-bold);
+
+    --karma-fontFamily-subheading: var(--karma-font-body);
+    --karma-fontWeight-subheading: var(--karma-fontWeight-regular);
+    --karma-fontWeight-subheading-emphasized: var(--karma-fontWeight-medium);
+
+    --karma-fontFamily-headline: var(--karma-font-body);
+    --karma-fontWeight-headline: var(--karma-fontWeight-medium);
+    --karma-fontWeight-headline-emphasized: var(--karma-fontWeight-bold);
+
+    --karma-fontFamily-body: var(--karma-font-body);
+    --karma-fontWeight-body: var(--karma-fontWeight-regular);
+    --karma-fontWeight-body-emphasized: var(--karma-fontWeight-medium);
+
+    --karma-fontFamily-footnote: var(--karma-font-body);
+    --karma-fontWeight-footnote: var(--karma-fontWeight-regular);
+    --karma-fontWeight-footnote-emphasized: var(--karma-fontWeight-medium);
+
+    --karma-fontFamily-caption: var(--karma-font-body);
+    --karma-fontWeight-caption: var(--karma-fontWeight-regular);
+    --karma-fontWeight-caption-emphasized: var(--karma-fontWeight-medium);
+
+
+
+    /* Desktop */
+
+    --karma-desktop-fontSize-display: 72px;
+    --karma-desktop-lineHeight-display: 72px;
+
+    --karma-desktop-fontSize-title: 51px;
+    --karma-desktop-lineHeight-title: 64px;
+
+    --karma-desktop-fontSize-heading: 36px;
+    --karma-desktop-lineHeight-heading: 40px;
+
+    --karma-desktop-fontSize-subheading: 28px;
+    --karma-desktop-lineHeight-subheading: 37px;
+
+    --karma-desktop-fontSize-headline: 22px;
+    --karma-desktop-lineHeight-headline: 29px;
+
+    --karma-desktop-fontSize-body: 18px;
+    --karma-desktop-lineHeight-body: 25px;
+
+    --karma-desktop-fontSize-footnote: 16px;
+    --karma-desktop-lineHeight-footnote: 24px;
+
+    --karma-desktop-fontSize-caption: 14px;
+    --karma-desktop-lineHeight-caption: 23px;
+
+
+
+    /* Tablet */
+
+    --karma-tablet-fontSize-display: 57px;
+    --karma-tablet-lineHeight-display: 57px;
+
+    --karma-tablet-fontSize-title: 45px;
+    --karma-tablet-lineHeight-title: 48px;
+
+    --karma-tablet-fontSize-heading: 32px;
+    --karma-tablet-lineHeight-heading: 36px;
+
+    --karma-tablet-fontSize-subheading: 25px;
+    --karma-tablet-lineHeight-subheading: 31px;
+
+    --karma-tablet-fontSize-headline: 22px;
+    --karma-tablet-lineHeight-headline: 29px;
+
+    --karma-tablet-fontSize-body: 18px;
+    --karma-tablet-lineHeight-body: 25px;
+
+    --karma-tablet-fontSize-footnote: 16px;
+    --karma-tablet-lineHeight-footnote: 24px;
+
+    --karma-tablet-fontSize-caption: 14px;
+    --karma-tablet-lineHeight-caption: 23px;
+
+
+
+    /* Mobile */
+
+    --karma-mobile-fontSize-display: 45px;
+    --karma-mobile-lineHeight-display: 45px;
+
+    --karma-mobile-fontSize-title: 36px;
+    --karma-mobile-lineHeight-title: 38px;
+
+    --karma-mobile-fontSize-heading: 32px;
+    --karma-mobile-lineHeight-heading: 36px;
+
+    --karma-mobile-fontSize-subheading: 22px;
+    --karma-mobile-lineHeight-subheading: 27px;
+
+    --karma-mobile-fontSize-headline: 20px;
+    --karma-mobile-lineHeight-headline: 27px;
+
+    --karma-mobile-fontSize-body: 18px;
+    --karma-mobile-lineHeight-body: 25px;
+
+    --karma-mobile-fontSize-footnote: 16px;
+    --karma-mobile-lineHeight-footnote: 24px;
+
+    --karma-mobile-fontSize-caption: 14px;
+    --karma-mobile-lineHeight-caption: 23px;
+
+
+
     /* Letter Spacings */
 
-    --karma-letterSpacing-tighter: -0.025em;
-    --karma-letterSpacing-tight: -0.0125em;
+    --karma-letterSpacing-noair: -0.05rem;
+    --karma-letterSpacing-tighter: -0.025rem;
+    --karma-letterSpacing-tight: -0.0125rem;
     --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.0125em;
-    --karma-letterSpacing-wider: 0.025em;
+    --karma-letterSpacing-wide: 0.0125rem;
+    --karma-letterSpacing-wider: 0.025rem;
+    --karma-letterSpacing-gap: 0.05rem;
 
 
 
     /* Line Heights */
-
-    --karma-lineHeight-12x1: 1rem;
-    --karma-lineHeight-14x1: 1.125rem;
-    --karma-lineHeight-16x1: 1.25rem;
-    --karma-lineHeight-18x1: 1.5rem;
-    --karma-lineHeight-20x1: 1.75rem;
-    --karma-lineHeight-24x1: 2rem;
-    --karma-lineHeight-28x1: 2.25rem;
-    --karma-lineHeight-32x1: 2.5rem;
-    --karma-lineHeight-40x1: 3rem;
-    --karma-lineHeight-48x1: 3.5rem;
-    --karma-lineHeight-56x1: 4rem;
-    --karma-lineHeight-64x1: 4.5rem;
-    --karma-lineHeight-72x1: 5rem;
-    --karma-lineHeight-80x1: 5.5rem;
-    --karma-lineHeight-96x1: 6.5rem;
-    --karma-lineHeight-128x1: 8.5rem;
 
     --karma-lineHeight-none: 1;
     --karma-lineHeight-shorter: 1.125;
@@ -127,26 +231,6 @@
     --karma-fontSize-80x1: 5rem;
     --karma-fontSize-96x1: 6rem;
     --karma-fontSize-128x1: 8rem;
-
-
-
-    /* Shadows */
-
-    --karma-tile-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
-
-
-
-    --karma-shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
-    --karma-shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --karma-shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    --karma-shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --karma-shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --karma-shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    --karma-shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    --karma-shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
-    --karma-shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-    --karma-shadows-none: none;
-    --karma-shadows-dark-lg: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
 
 
 

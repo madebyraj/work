@@ -1,123 +1,27 @@
-/* SF Pro Display */
+/* Sohne Extended */
 
 @font-face {
-    font-family: 'SF Pro Display';
+    font-family: 'Sohne Extended';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-display_bold.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Sohne/Extended/sohne-700-extended.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-display_semibold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
+    font-family: 'Sohne Extended';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-display_medium.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Sohne/Extended/sohne-500-extended.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
+    font-family: 'Sohne Extended';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-display_regular.woff") format("woff");
-}
-
-
-
-/* SF Pro Text */
-
-@font-face {
-    font-family: 'SF Pro Text';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-text_regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'SF Pro Text';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-text_semibold.woff2") format("woff");
-}
-
-@font-face {
-    font-family: 'SF Pro Text';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-text_medium.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'SF Pro Text';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-text_regular.woff2") format("woff");
-}
-
-
-
-/* Denton */
-
-@font-face {
-    font-family: 'Denton';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-BoldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-Medium.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: italic;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-MediumItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-RegularItalic.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Sohne/Extended/sohne-400-extended.woff2") format("woff2");
 }
 
 
@@ -129,7 +33,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/sohne-700-normal.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-700-normal.woff") format("woff");
 }
 
 @font-face {
@@ -137,75 +41,39 @@
     font-style: italic;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/sohne-700-italic.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-700-italic.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Sohne';
-    font-style: normal;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/sohne-500-normal.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Sohne';
-    font-style: italic;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/sohne-500-italic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Sohne';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/sohne-400-normal.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Sohne';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/sohne-400-italic.woff") format("woff");
-}
-
-
-
-/* Roboto Mono */
-
-@font-face {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-SemiBold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-Medium.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-500-normal.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Roboto Mono';
+    font-family: 'Sohne';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-500-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Roboto-Mono/RobotoMono-Regular.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-400-normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-400-italic.woff") format("woff");
 }
 
 
@@ -215,7 +83,7 @@
 @font-face {
     font-family: 'SF Pro Icons';
     font-style: normal;
-    font-weight: 600 700;
+    font-weight: 500 600;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-icons_semibold.woff2") format("woff2");
 }
@@ -223,7 +91,7 @@
 @font-face {
     font-family: 'SF Pro Icons';
     font-style: normal;
-    font-weight: 400 500;
+    font-weight: 400;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-icons_regular.woff2") format("woff2");
 }

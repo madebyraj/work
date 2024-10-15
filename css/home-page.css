@@ -32,9 +32,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--karma-font-sans);
-  letter-spacing: var(--karma-letterSpacing-normal);
-  font-weight: var(--karma-fontWeight-regular);
-  line-height: var(--karma-lineHeight-short);
 }
 
 html {
@@ -49,12 +46,12 @@ body {
 }
 
 .hero-section {
-  background: #C2E0FF url(/assets/global/hero-background.png) 50% 50% no-repeat;
+  background: url(/assets/global/hero-background.png) 50% 50% no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   overflow: hidden;
   height: 696px;
   width: 100%;
@@ -62,56 +59,39 @@ body {
 
 .hero-wrapper {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: var(--karma-global-max-width);
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
-@keyframes scaleDown {
-
-  0% {
-    transform: scale(4);
-  }
-
-  50% {
-    transform: scale(1);
-  }
-
-  68% {
-    transform: scale(1.150);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-
-}
-
 .hero-headline {
-  max-width: 600px;
-  font-size: var(--karma-fontSize-1000);
-  line-height: var(--karma-lineHeight-none);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  text-align: center;
+  max-width: 800px;
+  font-size: var(--karma-desktop-fontSize-display);
+  line-height: var(--karma-desktop-lineHeight-display);
+  font-weight: var(--karma-fontWeight-display-emphasized);
+  font-family: var(--karma-fontFamily-display);
   color: var(--karma-text);
-  font-family: var(--karma-font-serif);
-  font-weight: var(--karma-fontWeight-medium);
   animation-timing-function: ease-out;
   animation-name: moveUp;
-  animation-duration: 900ms;
+  animation-duration: 700ms;
 }
 
 .hero-description {
+  text-align: center;
   max-width: 600px;
-  font-size: var(--karma-fontSize-450);
-  line-height: var(--karma-lineHeight-base);
+  font-size: var(--karma-desktop-fontSize-subheading);
+  line-height: var(--karma-desktop-lineHeight-subheading);
+  font-weight: var(--karma-fontWeight-subheading);
+  font-family: var(--karma-fontFamily-subheading);
   color: var(--karma-text);
   animation-timing-function: ease-out;
   animation-name: moveUp;
-  animation-duration: 900ms;
+  animation-duration: 700ms;
   overflow: hidden;
 }
 
@@ -131,12 +111,14 @@ body {
 
 
 .divider {
-  border: 1px solid var(--karma-system-black-200);
+  height: 1px;
+  background-color: var(--karma-system-black-200);
+  border-radius: var(--karma-border-radius-full);
 }
 
 #project-section {
   margin: auto;
-  max-width: 960px;
+  max-width: var(--karma-global-max-width);
   padding: 128px 0px;
   background-color: var(--karma-fill);
   overflow: hidden;
@@ -148,12 +130,26 @@ body {
   width: 100%;
 }
 
+.project-section-headline-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .project-section-headline {
-  font-size: var(--karma-fontSize-400);
+  font-size: var(--karma-desktop-fontSize-headline);
+  line-height: var(--karma-desktop-lineHeight-headline);
+  font-weight: var(--karma-fontWeight-headline-emphasized);
+  font-family: var(--karma-fontFamily-headline);
   color: var(--karma-text-tertiary);
-  font-family: var(--karma-font-mono);
-  font-weight: var(--karma-fontWeight-medium);
-  line-height: var(--karma-lineHeight-base);
+}
+
+.project-section-subheadline {
+  font-size: var(--karma-desktop-fontSize-headline);
+  line-height: var(--karma-desktop-lineHeight-headline);
+  font-weight: var(--karma-fontWeight-headline);
+  font-family: var(--karma-fontFamily-headline);
+  color: var(--karma-text-tertiary);
 }
 
 #project-container {
@@ -191,33 +187,35 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 20px;
+  gap: 16px;
 }
 
 .eyebrow-tag {
   width: fit-content;
-  font-size: var(--karma-fontSize-150);
-  font-weight: var(--karma-fontWeight-regular);
-  line-height: var(--karma-lineHeight-base);
+  font-size: var(--karma-desktop-fontSize-footnote);
+  line-height: var(--karma-desktop-lineHeight-footnote);
+  font-weight: var(--karma-fontWeight-footnote-emphasized);
+  font-family: var(--karma-fontFamily-footnote);
+  padding: 0 4px;
   text-overflow: ellipsis;
   border: none;
 }
 
 .project-title {
-  font-size: var(--karma-fontSize-600);
+  font-size: var(--karma-desktop-fontSize-heading);
+  line-height: var(--karma-desktop-lineHeight-heading);
+  font-weight: var(--karma-fontWeight-heading-emphasized);
+  font-family: var(--karma-fontFamily-heading);
   color: var(--karma-text);
-  font-family: var(--karma-font-serif);
-  font-weight: var(--karma-fontWeight-medium);
-  line-height: var(--karma-lineHeight-none);
-  letter-spacing: var(--karma-letterSpacing-tight);
   text-overflow: ellipsis;
 }
 
 .project-description {
-  font-size: var(--karma-fontSize-300);
+  font-size: var(--karma-desktop-fontSize-body);
+  line-height: var(--karma-desktop-lineHeight-body);
+  font-weight: var(--karma-fontWeight-body);
+  font-family: var(--karma-fontFamily-body);
   color: var(--karma-text-secondary);
-  font-weight: var(--karma-fontWeight-regular);
-  line-height: var(--karma-lineHeight-short);
   text-overflow: ellipsis;
 }
 
@@ -226,7 +224,7 @@ body {
   object-position: center;
   width: 100%;
   height: 100%;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 
@@ -245,13 +243,15 @@ body {
   }
 
   .hero-headline {
-    max-width: 440px;
-    font-size: var(--karma-fontSize-800);
+    max-width: 600px;
+    font-size: var(--karma-tablet-fontSize-display);
+    line-height: var(--karma-tablet-lineHeight-display);
   }
 
   .hero-description {
-    max-width: 464px;
-    font-size: var(--karma-fontSize-400);
+    max-width: 512px;
+    font-size: var(--karma-tablet-fontSize-subheading);
+    line-height: var(--karma-tablet-lineHeight-subheading);
   }
 
   #project-section {
@@ -260,7 +260,13 @@ body {
   }
 
   .project-section-headline {
-    font-size: var(--karma-fontSize-400);
+    font-size: var(--karma-tablet-fontSize-headline);
+    line-height: var(--karma-tablet-lineHeight-headline);
+  }
+
+  .project-section-subheadline {
+    font-size: var(--karma-tablet-fontSize-headline);
+    line-height: var(--karma-tablet-lineHeight-headline);
   }
 
   #project-container {
@@ -272,7 +278,8 @@ body {
   }
 
   .eyebrow-tag {
-    font-size: var(--karma-fontSize-150);
+    font-size: var(--karma-tablet-fontSize-footnote);
+    line-height: var(--karma-tablet-lineHeight-footnote);
   }
 
   .project-title-wrapper {
@@ -280,7 +287,8 @@ body {
   }
 
   .project-title {
-    font-size: var(--karma-fontSize-500);
+    font-size: var(--karma-tablet-fontSize-heading);
+    line-height: var(--karma-tablet-lineHeight-heading);
   }
 
 }
@@ -297,13 +305,16 @@ body {
   }
 
   .hero-headline {
-    font-size: var(--karma-fontSize-700);
-    max-width: 360px;
+    max-width: 400px;
+    font-size: var(--karma-mobile-fontSize-display);
+    line-height: var(--karma-mobile-lineHeight-display);
+
   }
 
   .hero-description {
     max-width: 440px;
-    font-size: var(--karma-fontSize-350);
+    font-size: var(--karma-mobile-fontSize-subheading);
+    line-height: var(--karma-mobile-lineHeight-subheading);
   }
 
   #project-section {
@@ -312,7 +323,13 @@ body {
   }
 
   .project-section-headline {
-    font-size: var(--karma-fontSize-350);
+    font-size: var(--karma-mobile-fontSize-headline);
+    line-height: var(--karma-mobile-lineHeight-headline);
+  }
+
+  .project-section-subheadline {
+    font-size: var(--karma-mobile-fontSize-headline);
+    line-height: var(--karma-mobile-lineHeight-headline);
   }
 
   #project-container {
@@ -329,7 +346,8 @@ body {
   }
 
   .eyebrow-tag {
-    font-size: var(--karma-fontSize-100);
+    font-size: var(--karma-mobile-fontSize-footnote);
+    line-height: var(--karma-mobile-lineHeight-footnote);
   }
 
   .project-title-wrapper {
@@ -337,7 +355,8 @@ body {
   }
 
   .project-title {
-    font-size: var(--karma-fontSize-450);
+    font-size: var(--karma-mobile-fontSize-heading);
+    line-height: var(--karma-mobile-lineHeight-heading);
   }
 
 

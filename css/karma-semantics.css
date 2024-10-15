@@ -33,6 +33,11 @@
     --karma-globalnav-backdrop-filter: saturate(180%) blur(20px);
 
 
+    /* Width */
+
+    --karma-global-max-width: 992px;
+
+
     /* System Colors */
 
     --karma-system-white-100: rgba(255, 255, 255, 0.00);

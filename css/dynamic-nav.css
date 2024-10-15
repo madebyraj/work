@@ -83,7 +83,7 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    max-width: 960px;
+    max-width: var(--karma-global-max-width);
     margin-right: auto;
     margin-left: auto;
 
@@ -121,17 +121,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 28px;
+    gap: 32px;
 }
 
 .inner-right-side-container li a {
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
-    font-size: var(--karma-fontSize-150);
-    line-height: var(--karma-lineHeight-base);
+    font-size: var(--karma-desktop-fontSize-footnote);
+    line-height: var(--karma-desktop-lineHeight-footnote);
+    font-weight: var(--karma-fontWeight-footnote-emphasized);
+    font-family: var(--karma-fontFamily-footnote);
     color: var(--karma-globalnav-color);
-    letter-spacing: var(--karma-letterSpacing-wide);
-    font-weight: var(--karma-fontWeight-regular);
     transition: 200ms ease-out;
     display: flex;
     align-items: center;
@@ -152,14 +152,14 @@
 
 
 #nav-cta {
-    margin-left: 28px;
-    padding: 5px 12px;
+    margin-left: 32px;
+    padding: 3px 11px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
-    font-size: var(--karma-fontSize-150);
-    line-height: var(--karma-lineHeight-base);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font-size: var(--karma-desktop-fontSize-footnote);
+    line-height: var(--karma-desktop-lineHeight-footnote);
+    font-weight: var(--karma-fontWeight-footnote-emphasized);
+    font-family: var(--karma-fontFamily-footnote);
     color: var(--karma-button-color);
     background-color: var(--karma-button-background);
     text-align: center;
@@ -205,7 +205,7 @@
 @media (max-width: 1068px) {
 
     .main-nav {
-        padding: 14px 40px;
+        padding: 14px 48px;
     }
 
 }
@@ -219,14 +219,14 @@
     .main-nav {
         align-items: start;
         padding: 0px 16px;
-        transition: 350ms cubic-bezier(.4, 0, .6, 1) 20ms;
+        transition: 300ms cubic-bezier(.4, 0, .6, 1) 20ms;
         justify-content: space-between;
     }
 
     .nav-container.active .main-nav {
         height: 100vh;
         animation: globalNavbaropen;
-        transition: 360ms cubic-bezier(.4, 0, .6, 1) 10ms;
+        transition: 300ms cubic-bezier(.4, 0, .6, 1) 10ms;
         animation-timing-function: cubic-bezier(.4, 0, .6, 1);
         background: var(--karma-globalnav-background-opened);
     }
@@ -234,15 +234,15 @@
     .inner-right-side-container li a {
         text-align: start;
         width: 100%;
-        padding: 0px 0px 4px;
+        padding: 0px 0px 8px;
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        font-size: var(--karma-fontSize-32x1);
-        line-height: var(--karma-lineHeight-base);
-        letter-spacing: var(--karma-letterSpacing-wide);
-        font-weight: var(--karma-fontWeight-medium);
+        font-size: var(--karma-mobile-fontSize-heading);
+        line-height: var(--karma-mobile-lineHeight-heading);
+        font-weight: var(--karma-fontWeight-heading-emphasized);
+        font-family: var(--karma-fontFamily-heading);
         transition: all 200ms ease-out;
     }
 
@@ -296,7 +296,7 @@
     }
 
     .menu-icon-container {
-        width: 20px;
+        width: 22px;
         height: var(--karma-globalnav-height);
         display: flex;
         align-items: center;
