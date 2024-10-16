@@ -8,16 +8,16 @@
 
     /* Fonts */
 
-    --karma-font-heading: Sohne Extended, Helvetica, Arial, sans-serif;
-    --karma-font-body: Sohne, Helvetica, Arial, sans-serif;
+    --karma-font-heading: Figtree, Helvetica, Arial, sans-serif;
+    --karma-font-body: Figtree, Helvetica, Arial, sans-serif;
     --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
 
 
     /* Font Faces */
 
-    --karma-font-heading: Sohne Extended, Helvetica, Arial, sans-serif;
-    --karma-font-body: Sohne, Helvetica, Arial, sans-serif;
+    --karma-font-heading: Figtree, Helvetica, Arial, sans-serif;
+    --karma-font-body: Figtree, Helvetica, Arial, sans-serif;
     --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
 
@@ -152,7 +152,7 @@
 
     /* Letter Spacings */
 
-    --karma-letterSpacing-noair: -0.05rem;
+    --karma-letterSpacing-shrinked: -0.05rem;
     --karma-letterSpacing-tighter: -0.025rem;
     --karma-letterSpacing-tight: -0.0125rem;
     --karma-letterSpacing-normal: 0;
@@ -164,12 +164,12 @@
 
     /* Line Heights */
 
-    --karma-lineHeight-none: 1;
+    --karma-lineHeight-none: 1.067;
     --karma-lineHeight-shorter: 1.125;
     --karma-lineHeight-short: 1.25;
     --karma-lineHeight-base: 1.33;
     --karma-lineHeight-tall: 1.5;
-    --karma-lineHeight-taller: 1.75;
+    --karma-lineHeight-taller: 1.618;
 
 
 

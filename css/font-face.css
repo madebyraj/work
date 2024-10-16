@@ -1,79 +1,67 @@
-/* Sohne Extended */
+/* Figtree */
 
 @font-face {
-    font-family: 'Sohne Extended';
+    font-family: 'Figtree';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Extended/sohne-700-extended.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Sohne Extended';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Extended/sohne-500-extended.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Sohne Extended';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Extended/sohne-400-extended.woff2") format("woff2");
-}
-
-
-
-/* Sohne */
-
-@font-face {
-    font-family: 'Sohne';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-700-normal.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Sohne';
+    font-family: 'Figtree';
     font-style: italic;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-700-italic.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-BoldItalic.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Sohne';
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Figtree';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Figtree';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-500-normal.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Medium.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Sohne';
+    font-family: 'Figtree';
     font-style: italic;
     font-weight: 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-500-italic.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-MediumItalic.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Sohne';
+    font-family: 'Figtree';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-400-normal.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Sohne';
+    font-family: 'Figtree';
     font-style: italic;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Sohne/Normal/sohne-400-italic.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Italic.woff2") format("woff2");
 }
 
 
@@ -83,15 +71,15 @@
 @font-face {
     font-family: 'SF Pro Icons';
     font-style: normal;
-    font-weight: 500 600;
+    font-weight: 600 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-icons_semibold.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/SF-Pro-Icons/sf-pro-icons_semibold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: 'SF Pro Icons';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro/sf-pro-icons_regular.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/SF-Pro-Icons/sf-pro-icons_regular.woff2") format("woff2");
 }
