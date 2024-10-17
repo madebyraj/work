@@ -125,7 +125,7 @@
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
     font-size: var(--karma-fontSize-200);
-    line-height: var(--karma-lineHeight-base);
+    line-height: var(--karma-lineHeight-200);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-globalnav-color);
     transition: 200ms ease-out;
@@ -149,11 +149,11 @@
 
 #nav-cta {
     margin-left: 32px;
-    padding: 4px 10px;
+    padding: 2px 10px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
     font-size: var(--karma-fontSize-200);
-    line-height: var(--karma-lineHeight-base);
+    line-height: var(--karma-lineHeight-200);
     font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-button-color);
     background-color: var(--karma-button-background);
@@ -235,7 +235,7 @@
         align-items: start;
         justify-content: center;
         font-size: var(--karma-fontSize-500);
-        line-height: var(--karma-lineHeight-base);
+        line-height: var(--karma-lineHeight-500);
         font-weight: var(--karma-fontWeight-bold);
         transition: all 200ms ease-out;
     }

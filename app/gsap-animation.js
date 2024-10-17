@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         delay: index * 0.3, // Delay each element based on its index
         scrollTrigger: {
           trigger: element,
-          start: "top 90%", // Start animation when the top of element is 85% from the top of the viewport
-          end: "top 75%", // End animation when the top of element is 20% from the top of the viewport
+          start: "top 95%", // Start animation when the top of element is 85% from the top of the viewport
+          end: "top 80%", // End animation when the top of element is 20% from the top of the viewport
           scrub: 1, // Smoothly scrub the animation as you scroll
         },
       }
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           scrollTrigger: {
             trigger: element,
             start: "top 85%", // Start animation when the top of element is 85% from the top of the viewport
-            end: "top 63%", // End animation when the top of element is 20% from the top of the viewport
+            end: "top 70%", // End animation when the top of element is 20% from the top of the viewport
             scrub: 1, // Smoothly scrub the animation as you scroll
           },
         }

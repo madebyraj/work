@@ -84,7 +84,7 @@ main {
 .hero-headline-intro {
   max-width: 648px;
   font-size: var(--karma-fontSize-750);
-  line-height: var(--karma-lineHeight-shorter);
+  line-height: var(--karma-lineHeight-750);
   font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-condensed);
   color: var(--karma-text);
@@ -93,7 +93,7 @@ main {
 .hero-headline-do {
   max-width: 648px;
   font-size: var(--karma-fontSize-750);
-  line-height: var(--karma-lineHeight-shorter);
+  line-height: var(--karma-lineHeight-750);
   font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-condensed);
   color: var(--karma-text-tertiary);
@@ -107,14 +107,14 @@ main {
 
 .currently-heading {
   font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-short);
+  line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-bold);
   color: var(--karma-text);
 }
 
 .currently-where {
   font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-short);
+  line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-text-tertiary);
 }
@@ -146,7 +146,7 @@ main {
 
 .project-section-headline {
   font-size: var(--karma-fontSize-600);
-  line-height: var(--karma-lineHeight-short);
+  line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text);
@@ -195,7 +195,7 @@ main {
 
 .project-title {
   font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-short);
+  line-height: var(--karma-lineHeight-550);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text);
@@ -205,7 +205,7 @@ main {
 .eyebrow-tag {
   width: fit-content;
   font-size: var(--karma-fontSize-200);
-  line-height: var(--karma-lineHeight-base);
+  line-height: var(--karma-lineHeight-200);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
   padding: 0 4px;
@@ -215,7 +215,7 @@ main {
 
 .project-description {
   font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-tall);
+  line-height: var(--karma-lineHeight-250);
   font-weight: var(--karma-fontWeight-regular);
   letter-spacing: var(--karma-letterSpacing-wide);
   color: var(--karma-text-secondary);
@@ -249,7 +249,7 @@ main {
 
 .writing-section-headline {
   font-size: var(--karma-fontSize-600);
-  line-height: var(--karma-lineHeight-short);
+  line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text);
@@ -288,7 +288,7 @@ main {
 
 .article-title {
   font-size: var(--karma-fontSize-450);
-  line-height: var(--karma-lineHeight-short);
+  line-height: var(--karma-lineHeight-450);
   font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text);
@@ -297,7 +297,7 @@ main {
 
 .article-description {
   font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-tall);
+  line-height: var(--karma-lineHeight-250);
   font-weight: var(--karma-fontWeight-regular);
   letter-spacing: var(--karma-letterSpacing-wide);
   color: var(--karma-text-secondary);
@@ -345,10 +345,12 @@ main {
 
   .hero-headline-intro {
     font-size: var(--karma-fontSize-700);
+    line-height: var(--karma-lineHeight-700);
   }
 
   .hero-headline-do {
     font-size: var(--karma-fontSize-700);
+    line-height: var(--karma-lineHeight-700);
   }
 
   .currently {
@@ -359,16 +361,12 @@ main {
 
   .currently-heading {
     font-size: var(--karma-fontSize-350);
-    line-height: var(--karma-lineHeight-short);
-    font-weight: var(--karma-fontWeight-bold);
-    color: var(--karma-text);
+    line-height: var(--karma-lineHeight-350);
   }
 
   .currently-where {
     font-size: var(--karma-fontSize-350);
-    line-height: var(--karma-lineHeight-short);
-    font-weight: var(--karma-fontWeight-semibold);
-    color: var(--karma-text-tertiary);
+    line-height: var(--karma-lineHeight-350);
   }
 
   /* Project Section */
@@ -395,13 +393,7 @@ main {
   }
 
   .project {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    overflow: hidden;
     gap: 24px;
-    text-decoration: none;
   }
 
   .project:hover {
@@ -410,7 +402,7 @@ main {
 
   .project-title {
     font-size: var(--karma-fontSize-500);
-    text-overflow: ellipsis;
+    line-height: var(--karma-lineHeight-500);
   }
 
   /* Writing Section */
@@ -423,6 +415,7 @@ main {
 
   .writing-section-headline {
     font-size: var(--karma-fontSize-550);
+    line-height: var(--karma-lineHeight-550);
   }
 
   #writing-container {
@@ -437,6 +430,7 @@ main {
 
   .article-title {
     font-size: var(--karma-fontSize-350);
+    line-height: var(--karma-lineHeight-350);
   }
 
 }
@@ -461,10 +455,12 @@ main {
 
   .hero-headline-intro {
     font-size: var(--karma-fontSize-600);
+    line-height: var(--karma-lineHeight-600);
   }
 
   .hero-headline-do {
     font-size: var(--karma-fontSize-600);
+    line-height: var(--karma-lineHeight-600);
   }
 
   .currently {
@@ -473,10 +469,12 @@ main {
 
   .currently-heading {
     font-size: var(--karma-fontSize-300);
+    line-height: var(--karma-lineHeight-300);
   }
 
   .currently-where {
     font-size: var(--karma-fontSize-300);
+    line-height: var(--karma-lineHeight-300);
   }
 
   /* Project Section */
@@ -489,6 +487,7 @@ main {
 
   .project-section-headline {
     font-size: var(--karma-fontSize-450);
+    line-height: var(--karma-lineHeight-450);
   }
 
   #project-container {
@@ -508,6 +507,7 @@ main {
 
   .project-title {
     font-size: var(--karma-fontSize-450);
+    line-height: var(--karma-lineHeight-450);
   }
 
   /* Writing Section */
@@ -520,6 +520,7 @@ main {
 
   .writing-section-headline {
     font-size: var(--karma-fontSize-450);
+    line-height: var(--karma-lineHeight-450);
   }
 
   #writing-container {
@@ -534,6 +535,7 @@ main {
 
   .article-title {
     font-size: var(--karma-fontSize-400);
+    line-height: var(--karma-lineHeight-400);
   }
 
 

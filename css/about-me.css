@@ -70,7 +70,7 @@ main {
 
 .about-section-headline {
     font-size: var(--karma-fontSize-600);
-    line-height: var(--karma-lineHeight-short);
+    line-height: var(--karma-lineHeight-600);
     font-weight: var(--karma-fontWeight-bold);
     letter-spacing: var(--karma-letterSpacing-tighter);
     color: var(--karma-text);
@@ -100,7 +100,7 @@ main {
 .journey-copy {
     color: var(--karma-text);
     font-size: var(--karma-fontSize-250);
-    line-height: var(--karma-lineHeight-tall);
+    line-height: var(--karma-lineHeight-250);
     font-weight: var(--karma-fontWeight-regular);
     letter-spacing: var(--karma-letterSpacing-wide);
 }
@@ -133,6 +133,7 @@ main {
 
     .about-section-headline {
         font-size: var(--karma-fontSize-550);
+        line-height: var(--karma-lineHeight-550);
     }
 
     .about-section-story-wrapper {
@@ -171,6 +172,7 @@ main {
 
     .about-section-headline {
         font-size: var(--karma-fontSize-550);
+        line-height: var(--karma-lineHeight-550);
     }
 
     .about-section-story-wrapper {

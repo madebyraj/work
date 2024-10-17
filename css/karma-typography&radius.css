@@ -45,6 +45,26 @@
 
     /* Line Heights */
 
+    --karma-lineHeight-100: var(--karma-lineHeight-taller);
+    --karma-lineHeight-150: var(--karma-lineHeight-taller);
+    --karma-lineHeight-200: var(--karma-lineHeight-taller);
+    --karma-lineHeight-250: var(--karma-lineHeight-tall);
+    --karma-lineHeight-300: var(--karma-lineHeight-tall);
+    --karma-lineHeight-350: var(--karma-lineHeight-tall);
+    --karma-lineHeight-400: var(--karma-lineHeight-base);
+    --karma-lineHeight-450: var(--karma-lineHeight-base);
+    --karma-lineHeight-500: var(--karma-lineHeight-base);
+    --karma-lineHeight-550: var(--karma-lineHeight-short);
+    --karma-lineHeight-600: var(--karma-lineHeight-short);
+    --karma-lineHeight-650: var(--karma-lineHeight-short);
+    --karma-lineHeight-700: var(--karma-lineHeight-shorter);
+    --karma-lineHeight-750: var(--karma-lineHeight-shorter);
+    --karma-lineHeight-800: var(--karma-lineHeight-shorter);
+    --karma-lineHeight-850: var(--karma-lineHeight-shorter);
+    --karma-lineHeight-900: var(--karma-lineHeight-none);
+    --karma-lineHeight-950: var(--karma-lineHeight-none);
+    --karma-lineHeight-1000: var(--karma-lineHeight-none);
+
     --karma-lineHeight-none: 1.067;
     --karma-lineHeight-shorter: 1.125;
     --karma-lineHeight-short: 1.25;
