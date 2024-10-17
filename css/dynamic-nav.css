@@ -34,9 +34,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--karma-font-sans);
-    letter-spacing: var(--karma-letterSpacing-normal);
-    font-weight: var(--karma-fontWeight-regular);
-    line-height: var(--karma-lineHeight-short);
 }
 
 .nav-container {
@@ -57,7 +54,7 @@
     background: var(--karma-globalnav-background);
     -webkit-backdrop-filter: var(--karma-globalnav-background);
     backdrop-filter: var(--karma-globalnav-backdrop-filter);
-    padding: 14px 128px;
+    padding: 14px 96px;
     height: var(--karma-globalnav-height);
     margin: auto;
     display: flex;
@@ -65,7 +62,7 @@
     justify-content: space-between;
 }
 
-/* .main-nav::after {
+.main-nav::after {
     height: 1px;
     display: block;
     width: 100%;
@@ -75,7 +72,7 @@
     content: "";
     top: 100%;
     left: 0;
-} */
+}
 
 .desktop-nav {
     width: 100%;
@@ -127,10 +124,9 @@
 .inner-right-side-container li a {
     text-decoration: none;
     border-radius: var(--karma-border-radius-full);
-    font-size: var(--karma-desktop-fontSize-footnote);
-    line-height: var(--karma-desktop-lineHeight-footnote);
-    font-weight: var(--karma-fontWeight-footnote-emphasized);
-    font-family: var(--karma-fontFamily-footnote);
+    font-size: var(--karma-fontSize-200);
+    line-height: var(--karma-lineHeight-base);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-globalnav-color);
     transition: 200ms ease-out;
     display: flex;
@@ -153,13 +149,12 @@
 
 #nav-cta {
     margin-left: 32px;
-    padding: 3px 11px;
+    padding: 4px 10px;
     border-radius: var(--karma-border-radius-full);
     text-decoration: none;
-    font-size: var(--karma-desktop-fontSize-footnote);
-    line-height: var(--karma-desktop-lineHeight-footnote);
-    font-weight: var(--karma-fontWeight-footnote-emphasized);
-    font-family: var(--karma-fontFamily-footnote);
+    font-size: var(--karma-fontSize-200);
+    line-height: var(--karma-lineHeight-base);
+    font-weight: var(--karma-fontWeight-semibold);
     color: var(--karma-button-color);
     background-color: var(--karma-button-background);
     text-align: center;
@@ -234,15 +229,14 @@
     .inner-right-side-container li a {
         text-align: start;
         width: 100%;
-        padding: 0px 0px 12px;
+        padding: 0px 0px 8px;
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        font-size: var(--karma-mobile-fontSize-heading);
-        line-height: var(--karma-mobile-lineHeight-heading);
-        font-weight: var(--karma-fontWeight-heading-emphasized);
-        font-family: var(--karma-fontFamily-heading);
+        font-size: var(--karma-fontSize-500);
+        line-height: var(--karma-lineHeight-base);
+        font-weight: var(--karma-fontWeight-bold);
         transition: all 200ms ease-out;
     }
 

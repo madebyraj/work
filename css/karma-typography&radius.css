@@ -16,8 +16,8 @@
 
     /* Font Faces */
 
-    --karma-font-heading: Figtree, Helvetica, Arial, sans-serif;
-    --karma-font-body: Figtree, Helvetica, Arial, sans-serif;
+    --karma-font-sans: Figtree, Helvetica, Arial, sans-serif;
+    --karma-font-serif: Denton, Georgia, Times New Roman, serif;
     --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
 
@@ -26,139 +26,20 @@
 
     --karma-fontWeight-regular: 400;
     --karma-fontWeight-medium: 500;
+    --karma-fontWeight-semibold: 600;
     --karma-fontWeight-bold: 700;
-
-
-
-    /* Global */
-
-    --karma-fontFamily-display: var(--karma-font-heading);
-    --karma-fontWeight-display: var(--karma-fontWeight-medium);
-    --karma-fontWeight-display-emphasized: var(--karma-fontWeight-bold);
-
-    --karma-fontFamily-title: var(--karma-font-heading);
-    --karma-fontWeight-title: var(--karma-fontWeight-medium);
-    --karma-fontWeight-title-emphasized: var(--karma-fontWeight-bold);
-
-    --karma-fontFamily-heading: var(--karma-font-heading);
-    --karma-fontWeight-heading: var(--karma-fontWeight-medium);
-    --karma-fontWeight-heading-emphasized: var(--karma-fontWeight-bold);
-
-    --karma-fontFamily-subheading: var(--karma-font-body);
-    --karma-fontWeight-subheading: var(--karma-fontWeight-regular);
-    --karma-fontWeight-subheading-emphasized: var(--karma-fontWeight-medium);
-
-    --karma-fontFamily-headline: var(--karma-font-body);
-    --karma-fontWeight-headline: var(--karma-fontWeight-medium);
-    --karma-fontWeight-headline-emphasized: var(--karma-fontWeight-bold);
-
-    --karma-fontFamily-body: var(--karma-font-body);
-    --karma-fontWeight-body: var(--karma-fontWeight-regular);
-    --karma-fontWeight-body-emphasized: var(--karma-fontWeight-medium);
-
-    --karma-fontFamily-footnote: var(--karma-font-body);
-    --karma-fontWeight-footnote: var(--karma-fontWeight-regular);
-    --karma-fontWeight-footnote-emphasized: var(--karma-fontWeight-medium);
-
-    --karma-fontFamily-caption: var(--karma-font-body);
-    --karma-fontWeight-caption: var(--karma-fontWeight-regular);
-    --karma-fontWeight-caption-emphasized: var(--karma-fontWeight-medium);
-
-
-
-    /* Desktop */
-
-    --karma-desktop-fontSize-display: 72px;
-    --karma-desktop-lineHeight-display: 72px;
-
-    --karma-desktop-fontSize-title: 51px;
-    --karma-desktop-lineHeight-title: 64px;
-
-    --karma-desktop-fontSize-heading: 36px;
-    --karma-desktop-lineHeight-heading: 40px;
-
-    --karma-desktop-fontSize-subheading: 28px;
-    --karma-desktop-lineHeight-subheading: 37px;
-
-    --karma-desktop-fontSize-headline: 22px;
-    --karma-desktop-lineHeight-headline: 29px;
-
-    --karma-desktop-fontSize-body: 18px;
-    --karma-desktop-lineHeight-body: 25px;
-
-    --karma-desktop-fontSize-footnote: 16px;
-    --karma-desktop-lineHeight-footnote: 24px;
-
-    --karma-desktop-fontSize-caption: 14px;
-    --karma-desktop-lineHeight-caption: 23px;
-
-
-
-    /* Tablet */
-
-    --karma-tablet-fontSize-display: 57px;
-    --karma-tablet-lineHeight-display: 57px;
-
-    --karma-tablet-fontSize-title: 45px;
-    --karma-tablet-lineHeight-title: 48px;
-
-    --karma-tablet-fontSize-heading: 32px;
-    --karma-tablet-lineHeight-heading: 36px;
-
-    --karma-tablet-fontSize-subheading: 25px;
-    --karma-tablet-lineHeight-subheading: 31px;
-
-    --karma-tablet-fontSize-headline: 22px;
-    --karma-tablet-lineHeight-headline: 29px;
-
-    --karma-tablet-fontSize-body: 18px;
-    --karma-tablet-lineHeight-body: 25px;
-
-    --karma-tablet-fontSize-footnote: 16px;
-    --karma-tablet-lineHeight-footnote: 24px;
-
-    --karma-tablet-fontSize-caption: 14px;
-    --karma-tablet-lineHeight-caption: 23px;
-
-
-
-    /* Mobile */
-
-    --karma-mobile-fontSize-display: 45px;
-    --karma-mobile-lineHeight-display: 45px;
-
-    --karma-mobile-fontSize-title: 36px;
-    --karma-mobile-lineHeight-title: 38px;
-
-    --karma-mobile-fontSize-heading: 32px;
-    --karma-mobile-lineHeight-heading: 36px;
-
-    --karma-mobile-fontSize-subheading: 22px;
-    --karma-mobile-lineHeight-subheading: 27px;
-
-    --karma-mobile-fontSize-headline: 20px;
-    --karma-mobile-lineHeight-headline: 27px;
-
-    --karma-mobile-fontSize-body: 18px;
-    --karma-mobile-lineHeight-body: 25px;
-
-    --karma-mobile-fontSize-footnote: 16px;
-    --karma-mobile-lineHeight-footnote: 24px;
-
-    --karma-mobile-fontSize-caption: 14px;
-    --karma-mobile-lineHeight-caption: 23px;
 
 
 
     /* Letter Spacings */
 
-    --karma-letterSpacing-shrinked: -0.05rem;
-    --karma-letterSpacing-tighter: -0.025rem;
-    --karma-letterSpacing-tight: -0.0125rem;
+    --karma-letterSpacing-condensed: -0.05em;
+    --karma-letterSpacing-tighter: -0.025em;
+    --karma-letterSpacing-tight: -0.0125em;
     --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.0125rem;
-    --karma-letterSpacing-wider: 0.025rem;
-    --karma-letterSpacing-gap: 0.05rem;
+    --karma-letterSpacing-wide: 0.0125em;
+    --karma-letterSpacing-wider: 0.025em;
+    --karma-letterSpacing-expanded: 0.05em;
 
 
 
@@ -194,43 +75,25 @@
 
     /* Font Sizes */
 
-    --karma-fontSize-50: 0.75rem;
-    --karma-fontSize-100: 0.875rem;
-    --karma-fontSize-150: 0.938rem;
-    --karma-fontSize-200: 1rem;
-    --karma-fontSize-250: 1.063rem;
-    --karma-fontSize-300: 1.125rem;
-    --karma-fontSize-350: 1.313rem;
-    --karma-fontSize-400: 1.5rem;
-    --karma-fontSize-450: 1.688rem;
-    --karma-fontSize-500: 1.875rem;
-    --karma-fontSize-550: 2.063rem;
-    --karma-fontSize-600: 2.25rem;
-    --karma-fontSize-650: 2.563rem;
-    --karma-fontSize-700: 2.813rem;
-    --karma-fontSize-750: 3.063rem;
-    --karma-fontSize-800: 3.313rem;
-    --karma-fontSize-850: 3.625rem;
-    --karma-fontSize-900: 3.813rem;
-    --karma-fontSize-950: 4.25rem;
-    --karma-fontSize-1000: 4.813rem;
-
-    --karma-fontSize-12x1: 0.75rem;
-    --karma-fontSize-14x1: 0.875rem;
-    --karma-fontSize-16x1: 1rem;
-    --karma-fontSize-18x1: 1.125rem;
-    --karma-fontSize-20x1: 1.25rem;
-    --karma-fontSize-24x1: 1.5rem;
-    --karma-fontSize-28x1: 1.75rem;
-    --karma-fontSize-32x1: 2rem;
-    --karma-fontSize-40x1: 2.5rem;
-    --karma-fontSize-48x1: 3rem;
-    --karma-fontSize-56x1: 3.5rem;
-    --karma-fontSize-64x1: 4rem;
-    --karma-fontSize-72x1: 4.5rem;
-    --karma-fontSize-80x1: 5rem;
-    --karma-fontSize-96x1: 6rem;
-    --karma-fontSize-128x1: 8rem;
+    --karma-fontSize-100: 12px;
+    --karma-fontSize-150: 14px;
+    --karma-fontSize-200: 16px;
+    --karma-fontSize-250: 18px;
+    --karma-fontSize-300: 20px;
+    --karma-fontSize-350: 22px;
+    --karma-fontSize-400: 25px;
+    --karma-fontSize-450: 28px;
+    --karma-fontSize-500: 32px;
+    --karma-fontSize-550: 36px;
+    --karma-fontSize-600: 40px;
+    --karma-fontSize-650: 45px;
+    --karma-fontSize-700: 51px;
+    --karma-fontSize-750: 57px;
+    --karma-fontSize-800: 64px;
+    --karma-fontSize-850: 72px;
+    --karma-fontSize-900: 81px;
+    --karma-fontSize-950: 91px;
+    --karma-fontSize-1000: 103px;
 
 
 

@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scrollTrigger: {
           trigger: element,
           start: "top 90%", // Start animation when the top of element is 85% from the top of the viewport
-          end: "top 65%", // End animation when the top of element is 20% from the top of the viewport
+          end: "top 75%", // End animation when the top of element is 20% from the top of the viewport
           scrub: 1, // Smoothly scrub the animation as you scroll
         },
       }
@@ -54,9 +54,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   // Call the function to apply animations
   animateTiles();
-
-
-
 
   //  About Snap Section Slider
 
@@ -190,7 +187,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
   window.addEventListener("resize", () => {
     showSlide(currentSlide, false);
   });
-
-
-
 });

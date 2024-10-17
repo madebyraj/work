@@ -33,10 +33,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--karma-font-body);
-    letter-spacing: var(--karma-letterSpacing-normal);
-    font-weight: var(--karma-fontWeight-regular);
-    line-height: var(--karma-lineHeight-short);
+    font-family: var(--karma-font-sans);
 }
 
 html {
@@ -50,30 +47,43 @@ body {
     animation: pageLoading 950ms;
 }
 
+main {
+    padding: 0 96px;
+    margin: auto;
+    min-height: 100vh;
+}
+
 
 
 /* About Section */
 
 .about-section {
     margin: auto;
-    max-width: 600px;
+    max-width: 1024px;
     padding: 128px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     gap: 64px;
 }
 
 .about-section-headline {
+    font-size: var(--karma-fontSize-600);
+    line-height: var(--karma-lineHeight-short);
+    font-weight: var(--karma-fontWeight-bold);
+    letter-spacing: var(--karma-letterSpacing-tighter);
     color: var(--karma-text);
-    font-size: var(--karma-desktop-fontSize-title);
-    line-height: var(--karma-desktop-lineHeight-title);
-    font-weight: var(--karma-fontWeight-title-emphasized);
-    font-family: var(--karma-fontFamily-title);
+}
+
+.about-section-story-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 80px;
 }
 
 .me {
+    order: 2;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -81,17 +91,18 @@ body {
 }
 
 .journey {
+    order: 1;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 24px;
 }
 
 .journey-copy {
     color: var(--karma-text);
-    font-size: var(--karma-desktop-fontSize-subheading);
-    line-height: var(--karma-desktop-lineHeight-subheading);
-    font-weight: var(--karma-fontWeight-subheading);
-    font-family: var(--karma-fontFamily-subheading);
+    font-size: var(--karma-fontSize-250);
+    line-height: var(--karma-lineHeight-tall);
+    font-weight: var(--karma-fontWeight-regular);
+    letter-spacing: var(--karma-letterSpacing-wide);
 }
 
 
@@ -106,36 +117,36 @@ body {
 
 @media (max-width: 1068px) {
 
+    main {
+        padding: 0 48px;
+        margin: auto;
+        min-height: 100vh;
+    }
+
 
     /* About Section */
 
     .about-section {
-        padding: 96px 48px;
+        padding: 80px 0;
         gap: 48px;
     }
 
     .about-section-headline {
-        font-size: var(--karma-tablet-fontSize-title);
-        line-height: var(--karma-tablet-lineHeight-title);
+        font-size: var(--karma-fontSize-550);
+    }
+
+    .about-section-story-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 48px;
     }
 
     .me {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
+        order: 1;
     }
 
     .journey {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .journey-copy {
-        color: var(--karma-text);
-        font-size: var(--karma-tablet-fontSize-subheading);
-        line-height: var(--karma-tablet-lineHeight-subheading);
+        order: 2;
     }
 
 }
@@ -146,35 +157,34 @@ body {
 
 @media (max-width: 735px) {
 
+    main {
+        padding: 0 24px;
+    }
+
+
     /* About Section */
 
     .about-section {
-        padding: 80px 24px;
+        padding: 64px 0;
         gap: 40px;
     }
 
     .about-section-headline {
-        font-size: var(--karma-mobile-fontSize-title);
-        line-height: var(--karma-mobile-lineHeight-title);
+        font-size: var(--karma-fontSize-550);
     }
 
-    .me {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .journey {
-        display: flex;
-        flex-direction: column;
+    .about-section-story-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
         gap: 32px;
     }
 
-    .journey-copy {
-        color: var(--karma-text);
-        font-size: var(--karma-mobile-fontSize-subheading);
-        line-height: var(--karma-mobile-lineHeight-subheading);
+    .me {
+        order: 1;
+    }
+
+    .journey {
+        order: 2;
     }
 
 
