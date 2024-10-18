@@ -66,7 +66,7 @@
 .design-and-code {
     font-size: var(--karma-fontSize-200);
     line-height: var(--karma-lineHeight-200);
-    font-weight: var(--karma-fontWeight-semibold);
+    font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
     color: var(--karma-globalfooter-color);
 }

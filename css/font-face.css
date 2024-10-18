@@ -83,3 +83,17 @@
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/SF-Pro-Icons/sf-pro-icons_regular.woff2") format("woff2");
 }
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Cereal';
+    font-style: normal;
+    font-weight: 1 1000;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/cereal-var.woff2") format("woff2");
+}

@@ -66,14 +66,12 @@ main {
   max-width: var(--karma-global-max-width);
   width: 100%;
   padding: 128px 0;
-  display: grid;
-  gap: 96px;
 }
 
 .hero-introduction-section {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 80px;
 }
 
 .hero-headline {
@@ -82,20 +80,18 @@ main {
 }
 
 .hero-headline-intro {
-  max-width: 648px;
-  font-size: var(--karma-fontSize-750);
-  line-height: var(--karma-lineHeight-750);
+  font-size: var(--karma-fontSize-850);
+  line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-condensed);
+  letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text);
 }
 
 .hero-headline-do {
-  max-width: 648px;
-  font-size: var(--karma-fontSize-750);
-  line-height: var(--karma-lineHeight-750);
+  font-size: var(--karma-fontSize-850);
+  line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-condensed);
+  letter-spacing: var(--karma-letterSpacing-tighter);
   color: var(--karma-text-tertiary);
 }
 
@@ -115,16 +111,10 @@ main {
 .currently-where {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-text-tertiary);
 }
 
-.hero-section-illustration {
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-  height: 100%;
-}
 
 
 /* Project Section */
@@ -140,15 +130,15 @@ main {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 64px;
+  gap: 48px;
   width: 100%;
 }
 
 .project-section-headline {
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
-  font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
 }
 
@@ -158,11 +148,6 @@ main {
   align-items: start;
   justify-content: start;
   gap: 48px;
-}
-
-.project-wrapper {
-  width: 100%;
-  background-color: var(--karma-fill);
 }
 
 .project {
@@ -182,35 +167,16 @@ main {
 .project-information {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-
-.project-title-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
   gap: 8px;
 }
 
 .project-title {
   font-size: var(--karma-fontSize-550);
   line-height: var(--karma-lineHeight-550);
-  font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-overflow: ellipsis;
-}
-
-.eyebrow-tag {
-  width: fit-content;
-  font-size: var(--karma-fontSize-200);
-  line-height: var(--karma-lineHeight-200);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
-  padding: 0 4px;
-  text-overflow: ellipsis;
-  border: none;
 }
 
 .project-description {
@@ -244,14 +210,14 @@ main {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 64px;
+  gap: 48px;
 }
 
 .writing-section-headline {
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
-  font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
 }
 
@@ -289,18 +255,18 @@ main {
 .article-title {
   font-size: var(--karma-fontSize-450);
   line-height: var(--karma-lineHeight-450);
-  font-weight: var(--karma-fontWeight-semibold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-overflow: ellipsis;
 }
 
 .article-description {
-  font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-250);
-  font-weight: var(--karma-fontWeight-regular);
+  font-size: var(--karma-fontSize-200);
+  line-height: var(--karma-lineHeight-200);
+  font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text-secondary);
+  color: var(--karma-text-tertiary);
   text-overflow: ellipsis;
 }
 
@@ -319,16 +285,9 @@ main {
 
   main {
     padding: 0 48px;
-    margin: auto;
-    min-height: 100vh;
   }
 
   .hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
     height: 600px;
     width: 100%;
   }
@@ -338,24 +297,20 @@ main {
   }
 
   .hero-introduction-section {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
+    gap: 64px;
   }
 
   .hero-headline-intro {
-    font-size: var(--karma-fontSize-700);
-    line-height: var(--karma-lineHeight-700);
+    font-size: var(--karma-fontSize-750);
+    line-height: var(--karma-lineHeight-750);
   }
 
   .hero-headline-do {
-    font-size: var(--karma-fontSize-700);
-    line-height: var(--karma-lineHeight-700);
+    font-size: var(--karma-fontSize-750);
+    line-height: var(--karma-lineHeight-750);
   }
 
   .currently {
-    display: flex;
-    flex-direction: column;
     gap: 4px;
   }
 
@@ -373,12 +328,13 @@ main {
 
 
   #project-section {
-    padding: 80px 0px 40px;
-    gap: 48px;
+    padding: 96px 0px 48px;
+    gap: 40px;
   }
 
   .project-section-headline {
     font-size: var(--karma-fontSize-550);
+    line-height: var(--karma-lineHeight-550);
   }
 
   #project-container {
@@ -387,17 +343,8 @@ main {
     gap: 40px;
   }
 
-  .project-wrapper {
-    width: 100%;
-    background-color: var(--karma-fill);
-  }
-
   .project {
-    gap: 24px;
-  }
-
-  .project:hover {
-    cursor: var(--cursor-pointer), auto;
+    gap: 16px;
   }
 
   .project-title {
@@ -409,8 +356,8 @@ main {
 
 
   #writing-section {
-    padding: 40px 0px 80px;
-    gap: 48px;
+    padding: 48px 0px 96px;
+    gap: 40px;
   }
 
   .writing-section-headline {
@@ -446,21 +393,21 @@ main {
   }
 
   .hero-section-wrapper {
-    padding: 64px 0;
+    padding: 0;
   }
 
   .hero-introduction-section {
-    gap: 48px;
+    gap: 64px;
   }
 
   .hero-headline-intro {
-    font-size: var(--karma-fontSize-600);
-    line-height: var(--karma-lineHeight-600);
+    font-size: var(--karma-fontSize-700);
+    line-height: var(--karma-lineHeight-700);
   }
 
   .hero-headline-do {
-    font-size: var(--karma-fontSize-600);
-    line-height: var(--karma-lineHeight-600);
+    font-size: var(--karma-fontSize-700);
+    line-height: var(--karma-lineHeight-700);
   }
 
   .currently {
@@ -481,13 +428,13 @@ main {
 
 
   #project-section {
-    padding: 64px 0px 32px;
-    gap: 40px;
+    padding: 80px 0px 40px;
+    gap: 32px;
   }
 
   .project-section-headline {
-    font-size: var(--karma-fontSize-450);
-    line-height: var(--karma-lineHeight-450);
+    font-size: var(--karma-fontSize-500);
+    line-height: var(--karma-lineHeight-500);
   }
 
   #project-container {
@@ -496,13 +443,8 @@ main {
     gap: 32px;
   }
 
-  .project-wrapper {
-    width: 100%;
-    background-color: var(--karma-fill);
-  }
-
   .project {
-    gap: 24px;
+    gap: 16px;
   }
 
   .project-title {
@@ -514,13 +456,13 @@ main {
 
 
   #writing-section {
-    padding: 32px 0px 64px;
-    gap: 48px;
+    padding: 40px 0px 80px;
+    gap: 32px;
   }
 
   .writing-section-headline {
-    font-size: var(--karma-fontSize-450);
-    line-height: var(--karma-lineHeight-450);
+    font-size: var(--karma-fontSize-500);
+    line-height: var(--karma-lineHeight-500);
   }
 
   #writing-container {
@@ -534,8 +476,8 @@ main {
   }
 
   .article-title {
-    font-size: var(--karma-fontSize-400);
-    line-height: var(--karma-lineHeight-400);
+    font-size: var(--karma-fontSize-350);
+    line-height: var(--karma-lineHeight-350);
   }
 
 
