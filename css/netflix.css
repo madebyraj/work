@@ -63,14 +63,14 @@ main {
   font-size: var(--karma-fontSize-650);
   line-height: var(--karma-lineHeight-650);
   letter-spacing: var(--karma-letterSpacing-tighter);
-  font-weight: var(--karma-fontWeight-bold);
+  font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-text);
 }
 
 .project-overview {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-regular);
   color: var(--karma-text-secondary);
 }
 
@@ -132,7 +132,7 @@ main {
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
   letter-spacing: var(--karma-letterSpacing-tight);
-  font-weight: var(--karma-fontWeight-semibold);
+  font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-text);
   text-align: center;
 }
