@@ -60,7 +60,7 @@ main {
 .about-section {
     margin: auto;
     max-width: 1024px;
-    padding: 128px 0;
+    padding: 128px 0 64px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -107,6 +107,146 @@ main {
 
 
 
+/* Outside of work */
+
+.outside-of-work {
+    margin: auto;
+    max-width: 1024px;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 48px;
+}
+
+.ow-section-headline {
+    max-width: 600px;
+    font-size: var(--karma-fontSize-600);
+    line-height: var(--karma-lineHeight-600);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-tight);
+    color: var(--karma-text);
+}
+
+.cricket-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 64px;
+}
+
+.me-cricket {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cricket-story {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cricket-story-heading {
+    font-size: var(--karma-fontSize-400);
+    line-height: var(--karma-lineHeight-400);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-tight);
+    color: var(--karma-text);
+}
+
+.cricket-story-copy {
+    color: var(--karma-text);
+    font-size: var(--karma-fontSize-250);
+    line-height: var(--karma-lineHeight-250);
+    font-weight: var(--karma-fontWeight-regular);
+    letter-spacing: var(--karma-letterSpacing-wide);
+}
+
+
+.snap-and-music-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 64px;
+}
+
+.snap-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.snap-section-heading {
+    font-size: var(--karma-fontSize-400);
+    line-height: var(--karma-lineHeight-400);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-tight);
+    color: var(--karma-text);
+}
+
+.snaps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.snap {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.snap-section-copy {
+    color: var(--karma-text);
+    font-size: var(--karma-fontSize-250);
+    line-height: var(--karma-lineHeight-250);
+    font-weight: var(--karma-fontWeight-regular);
+    letter-spacing: var(--karma-letterSpacing-wide);
+}
+
+
+.music-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.music-section-heading {
+    font-size: var(--karma-fontSize-400);
+    line-height: var(--karma-lineHeight-400);
+    font-weight: var(--karma-fontWeight-medium);
+    letter-spacing: var(--karma-letterSpacing-tight);
+    color: var(--karma-text);
+}
+
+.music-covers {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.music-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.music-section-copy {
+    color: var(--karma-text);
+    font-size: var(--karma-fontSize-250);
+    line-height: var(--karma-lineHeight-250);
+    font-weight: var(--karma-fontWeight-regular);
+    letter-spacing: var(--karma-letterSpacing-wide);
+}
+
+
+
+
 /* Small Desktop */
 
 @media (max-width: 1400px) {}
@@ -125,7 +265,7 @@ main {
     /* About Section */
 
     .about-section {
-        padding: 96px 0;
+        padding: 96px 0 48px;
         gap: 40px;
     }
 
@@ -148,6 +288,53 @@ main {
         order: 2;
     }
 
+
+    /* Outside of work */
+
+    .outside-of-work {
+        padding: 48px 0;
+        gap: 40px;
+    }
+
+    .ow-section-headline {
+        max-width: 512px;
+        font-size: var(--karma-fontSize-550);
+        line-height: var(--karma-lineHeight-550);
+    }
+
+    .cricket-section {
+        gap: 40px;
+    }
+
+    .cricket-story-heading {
+        font-size: var(--karma-fontSize-350);
+        line-height: var(--karma-lineHeight-350);
+    }
+
+
+    .snap-and-music-section {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+    }
+
+    .snap-section {
+        gap: 16px;
+    }
+
+    .snap-section-heading {
+        font-size: var(--karma-fontSize-350);
+        line-height: var(--karma-lineHeight-350);
+    }
+
+    .music-section {
+        gap: 16px;
+    }
+
+    .music-section-heading {
+        font-size: var(--karma-fontSize-350);
+        line-height: var(--karma-lineHeight-350);
+    }
+
 }
 
 
@@ -164,7 +351,7 @@ main {
     /* About Section */
 
     .about-section {
-        padding: 80px 0;
+        padding: 80px 0 40px;
         gap: 32px;
     }
 
@@ -174,7 +361,6 @@ main {
     }
 
     .about-section-story-wrapper {
-        display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
         gap: 32px;
     }
@@ -187,5 +373,36 @@ main {
         order: 2;
     }
 
+    /* Outside of work */
+
+    .outside-of-work {
+        padding: 40px 0;
+        gap: 32px;
+    }
+
+    .ow-section-headline {
+        max-width: 496px;
+        font-size: var(--karma-fontSize-500);
+        line-height: var(--karma-lineHeight-500);
+    }
+
+    .cricket-section {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .cricket-story {
+        gap: 8px;
+    }
+
+    .cricket-story-heading {
+        font-size: var(--karma-fontSize-350);
+        line-height: var(--karma-lineHeight-350);
+    }
+
+    .snap-and-music-section {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 32px;
+    }
 
 }
