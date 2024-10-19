@@ -263,8 +263,8 @@ main {
 }
 
 .article-title {
-  font-size: var(--karma-fontSize-450);
-  line-height: var(--karma-lineHeight-450);
+  font-size: var(--karma-fontSize-400);
+  line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
@@ -486,8 +486,8 @@ main {
   }
 
   .article-title {
-    font-size: var(--karma-fontSize-350);
-    line-height: var(--karma-lineHeight-350);
+    font-size: var(--karma-fontSize-300);
+    line-height: var(--karma-lineHeight-300);
   }
 
 

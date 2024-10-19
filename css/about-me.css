@@ -112,7 +112,7 @@ main {
 .outside-of-work {
     margin: auto;
     max-width: 1024px;
-    padding: 64px 0;
+    padding: 64px 0 128px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -292,7 +292,7 @@ main {
     /* Outside of work */
 
     .outside-of-work {
-        padding: 48px 0;
+        padding: 48px 0 96px;
         gap: 40px;
     }
 
@@ -376,7 +376,7 @@ main {
     /* Outside of work */
 
     .outside-of-work {
-        padding: 40px 0;
+        padding: 40px 0 80px;
         gap: 32px;
     }
 
