@@ -54,9 +54,15 @@ main {
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 64px;
   padding: 128px 0px 64px;
   max-width: 1024px;
+}
+
+.header-section-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .title {
@@ -70,6 +76,57 @@ main {
 .project-overview {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
+  letter-spacing: var(--karma-letterSpacing-wide);
+  color: var(--karma-text-secondary);
+}
+
+.project-information {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: space-between;
+  align-items: start;
+  gap: 24px;
+}
+
+.role h6 {
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
+  font-weight: var(--karma-fontWeight-medium);
+  color: var(--karma-text);
+  margin-bottom: 8px;
+}
+
+.role p {
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
+  color: var(--karma-text-secondary);
+}
+
+.timeline h6 {
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
+  font-weight: var(--karma-fontWeight-medium);
+  color: var(--karma-text);
+  margin-bottom: 8px;
+}
+
+.timeline p {
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
+  color: var(--karma-text-secondary);
+}
+
+.tools h6 {
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
+  font-weight: var(--karma-fontWeight-medium);
+  color: var(--karma-text);
+  margin-bottom: 8px;
+}
+
+.tools p {
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
   color: var(--karma-text-secondary);
 }
 
@@ -110,8 +167,8 @@ main {
   text-decoration: none;
   font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-link-color);
-  font-size: var(--karma-fontSize-300);
-  line-height: var(--karma-lineHeight-300);
+  font-size: var(--karma-fontSize-250);
+  line-height: var(--karma-lineHeight-250);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,6 +235,11 @@ main {
   .project-overview {
     font-size: var(--karma-fontSize-300);
     line-height: var(--karma-lineHeight-300);
+  }
+
+  .project-information {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 24px;
   }
 
   .design-deck-section {

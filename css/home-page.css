@@ -164,6 +164,11 @@ main {
   cursor: var(--cursor-pointer), auto;
 }
 
+.project:hover .project-title {
+  text-decoration: underline;
+  color: var(--karma-link-color);
+}
+
 .project-information {
   display: flex;
   flex-direction: column;
@@ -244,6 +249,11 @@ main {
 
 .article:hover {
   cursor: var(--cursor-pointer), auto;
+}
+
+.article:hover .article-title {
+  text-decoration: underline;
+  color: var(--karma-link-color);
 }
 
 .article-information {
