@@ -64,7 +64,7 @@
 
 
     --karma-globalnav-height: 64px;
-    --karma-globalnav-background: var(--karma-system-white-900);
+    --karma-globalnav-background: var(--karma-system-white-700);
     --karma-globalnav-background-opened: var(--karma-system-white-900);
 
     --karma-globalnav-color: var(--karma-system-black-700);

@@ -1,99 +1,15 @@
-/* Figtree */
-
 @font-face {
-    font-family: 'Figtree';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Bold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-BoldItalic.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-SemiBold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: italic;
-    font-weight: 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-SemiBoldItalic.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Medium.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: italic;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-MediumItalic.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Figtree';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Figtree/Figtree-Italic.woff2") format("woff2");
-}
-
-
-
-/* SF Pro Icons */
-
-@font-face {
-    font-family: 'SF Pro Icons';
-    font-style: normal;
-    font-weight: 600 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro-Icons/sf-pro-icons_semibold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'SF Pro Icons';
-    font-style: normal;
-    font-weight: 400 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/SF-Pro-Icons/sf-pro-icons_regular.woff2") format("woff2");
-}
-
-
-
-
-
-
-
-@font-face {
-    font-family: 'Cereal';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/cereal-var.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Inter/InterVariable.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 1 1000;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Inter/InterVariable-Italic.woff2") format("woff2");
 }
