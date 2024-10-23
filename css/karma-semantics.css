@@ -64,25 +64,25 @@
 
     --karma-gray-50: #F7FAFC;
     --karma-gray-100: #EDF2F7;
-    --karma-gray-200: #DDE6EE;
-    --karma-gray-300: #C9D4DF;
-    --karma-gray-400: #9DAFBE;
-    --karma-gray-500: #6A7E90;
-    --karma-gray-600: #495967;
-    --karma-gray-700: #2F3E4B;
-    --karma-gray-800: #1C2730;
-    --karma-gray-900: #0F161C;
+    --karma-gray-200: #E2E8F0;
+    --karma-gray-300: #CBD5E0;
+    --karma-gray-400: #A0AEC0;
+    --karma-gray-500: #718096;
+    --karma-gray-600: #4A5568;
+    --karma-gray-700: #2D3748;
+    --karma-gray-800: #1A202C;
+    --karma-gray-900: #171923;
 
-    --karma-blue-50: #D6E5E4;
-    --karma-blue-100: #C3D9E5;
-    --karma-blue-200: #B3CFE6;
-    --karma-blue-300: #5DABEE;
-    --karma-blue-400: #0896E7;
-    --karma-blue-500: #087FE7;
-    --karma-blue-600: #055AC2;
-    --karma-blue-700: #133681;
-    --karma-blue-800: #132B58;
-    --karma-blue-900: #101F32;
+    --karma-blue-50: #e8f0fe;
+    --karma-blue-100: #d2e3fc;
+    --karma-blue-200: #aecbfa;
+    --karma-blue-300: #669df6;
+    --karma-blue-400: #4299e1;
+    --karma-blue-500: #4285f4;
+    --karma-blue-600: #1a73e8;
+    --karma-blue-700: #1967d2;
+    --karma-blue-800: #185abc;
+    --karma-blue-900: #174ea6;
 
 
 
@@ -96,14 +96,14 @@
     --karma-globalnav-color-disabled: var(--karma-black-500);
     --karma-globalnav-keyline-color: var(--karma-black-100);
 
-    --karma-globalfooter-background: var(--karma-fill-secondary);
+    --karma-globalfooter-background: var(--karma-fill);
 
     --karma-globalfooter-color: var(--karma-black-700);
     --karma-globalfooter-color-hover: var(--karma-black-900);
     --karma-globalfooter-color-disabled: var(--karma-black-500);
-    --karma-globalfooter-keyline-color: var(--karma-black-200);
+    --karma-globalfooter-keyline-color: var(--karma-black-100);
 
-    --karma-body-background: var(--karma-white-900);
+    --karma-body-background: var(--karma-gray-50);
 
     --karma-fill: var(--karma-white-900);
     --karma-fill-secondary: var(--karma-gray-100);
@@ -122,6 +122,15 @@
     --karma-button-color-active: var(--karma-button-color-hover);
     --karma-button-disabled-opacity: 0.42;
 
+    --karma-button-secondary-background: var(--karma-gray-100);
+    --karma-button-secondary-background-hover: var(--karma-gray-200);
+    --karma-button-secondary-background-active: var(--karma-gray-300);
+
+    --karma-button-secondary-color: var(--karma-black-700);
+    --karma-button-secondary-color-hover: var(--karma-button-color);
+    --karma-button-secondary-color-active: var(--karma-button-color-hover);
+    --karma-button-secondary-disabled-opacity: 0.42;
+
     --karma-link-color: var(--karma-blue-600);
     --karma-link-disabled-opacity: 0.42;
 
@@ -136,37 +145,45 @@
 
         --karma-globalnav-background: var(--karma-black-700);
         --karma-globalnav-background-opened: var(--karma-black-700);
-    
+
         --karma-globalnav-color: var(--karma-white-700);
         --karma-globalnav-color-hover: var(--karma-white-900);
         --karma-globalnav-color-disabled: var(--karma-white-500);
         --karma-globalnav-keyline-color: var(--karma-white-100);
-    
-        --karma-globalfooter-background: var(--karma-fill-secondary);
-    
+
+        --karma-globalfooter-background: var(--karma-fill);
+
         --karma-globalfooter-color: var(--karma-white-700);
         --karma-globalfooter-color-hover: var(--karma-white-900);
         --karma-globalfooter-color-disabled: var(--karma-white-500);
-        --karma-globalfooter-keyline-color: var(--karma-white-200);
-    
+        --karma-globalfooter-keyline-color: var(--karma-white-100);
+
         --karma-body-background: var(--karma-gray-900);
-    
+
         --karma-fill: var(--karma-black-900);
         --karma-fill-secondary: var(--karma-gray-800);
         --karma-fill-tertiary: var(--karma-gray-700);
-    
+
         --karma-text: var(--karma-white-900);
         --karma-text-secondary: var(--karma-gray-300);
         --karma-text-tertiary: var(--karma-gray-500);
-    
+
         --karma-button-background: var(--karma-blue-500);
         --karma-button-background-hover: var(--karma-blue-400);
         --karma-button-background-active: var(--karma-blue-300);
-    
+
         --karma-button-color: var(--karma-white-900);
         --karma-button-color-hover: var(--karma-button-color);
         --karma-button-color-active: var(--karma-button-color-hover);
-    
+
+        --karma-button-secondary-background: var(--karma-gray-800);
+        --karma-button-secondary-background-hover: var(--karma-gray-700);
+        --karma-button-secondary-background-active: var(--karma-gray-600);
+
+        --karma-button-secondary-color: var(--karma-white-700);
+        --karma-button-secondary-color-hover: var(--karma-button-color);
+        --karma-button-secondary-color-active: var(--karma-button-color-hover);
+
         --karma-link-color: var(--karma-blue-400);
 
     }

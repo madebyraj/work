@@ -22,6 +22,7 @@
 
 .footer {
     margin: auto;
+    border-top: 1px solid var(--karma-globalfooter-keyline-color);
     background-color: var(--karma-globalfooter-background);
     padding: 0 96px;
     overflow: hidden;

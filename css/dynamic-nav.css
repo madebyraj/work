@@ -149,24 +149,30 @@
 /* Theme Button */
 
 .theme-toggle {
+    padding: 4px;
+    background-color: var(--karma-button-secondary-background);
     margin-left: 32px;
-    background: none;
     border: none;
     border-radius: var(--karma-border-radius-full);
     cursor: var(--cursor-pointer), auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease-out;
 }
 
-.theme-toggle:hover svg {
-    fill: var(--karma-globalnav-color-hover);
+.theme-toggle:hover {
+    background-color: var(--karma-button-secondary-background-hover);
+}
+
+.theme-toggle:active {
+    background-color: var(--karma-button-secondary-background-active);
 }
 
 .theme-toggle svg {
-    width: 32px;
-    height: 32px;
-    fill: var(--karma-globalnav-color);
+    width: 28px;
+    height: 28px;
+    fill: var(--karma-button-secondary-color);
     transition: fill 0.3s ease-out;
 }
 
