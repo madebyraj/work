@@ -10,333 +10,87 @@
 
 
 
-[color-scheme="dark"] {
+[data-theme="dark"] {
 
-    /* --Border-- */
+    --karma-globalnav-background: var(--karma-black-700);
+    --karma-globalnav-background-opened: var(--karma-black-700);
 
-    --karma-color-border-brand-accent-light: var(--karma-color-border-brand-accent-dark);
-    --karma-color-border-default-light: var(--karma-color-border-default-dark);
-    --karma-color-border-muted-light: var(--karma-color-border-muted-dark);
-    --karma-color-border-strong-light: var(--karma-color-border-strong-dark);
-    --karma-color-border-focus-light: var(--karma-color-border-focus-dark);
-    --karma-color-border-error-light: var(--karma-color-border-error-dark);
-    --karma-color-border-warning-light: var(--karma-color-border-warning-dark);
-    --karma-color-border-success-light: var(--karma-color-border-success-dark);
+    --karma-globalnav-color: var(--karma-white-700);
+    --karma-globalnav-color-hover: var(--karma-white-900);
+    --karma-globalnav-color-disabled: var(--karma-white-500);
+    --karma-globalnav-keyline-color: var(--karma-white-100);
 
+    --karma-globalfooter-background: var(--karma-fill-secondary);
 
+    --karma-globalfooter-color: var(--karma-white-700);
+    --karma-globalfooter-color-hover: var(--karma-white-900);
+    --karma-globalfooter-color-disabled: var(--karma-white-500);
+    --karma-globalfooter-keyline-color: var(--karma-white-200);
 
-    /* System Background */
+    --karma-body-background: var(--karma-gray-900);
 
-    --karma-color-system-background-light: var(--karma-color-system-background-dark);
+    --karma-fill: var(--karma-black-900);
+    --karma-fill-secondary: var(--karma-gray-800);
+    --karma-fill-tertiary: var(--karma-gray-700);
 
+    --karma-text: var(--karma-white-900);
+    --karma-text-secondary: var(--karma-gray-300);
+    --karma-text-tertiary: var(--karma-gray-500);
 
+    --karma-button-background: var(--karma-blue-500);
+    --karma-button-background-hover: var(--karma-blue-400);
+    --karma-button-background-active: var(--karma-blue-300);
 
-    /* --Fill-- */
+    --karma-button-color: var(--karma-white-900);
+    --karma-button-color-hover: var(--karma-button-color);
+    --karma-button-color-active: var(--karma-button-color-hover);
 
-    --karma-color-fill-primary-light: var(--karma-color-fill-primary-dark);
-    --karma-color-fill-secondary-light: var(--karma-color-fill-secondary-dark);
-    --karma-color-fill-tertiary-light: var(--karma-color-fill-tertiary-dark);
-    --karma-color-fill-error-light: var(--karma-color-fill-error-dark);
-    --karma-color-fill-warning-light: var(--karma-color-fill-warning-dark);
-    --karma-color-fill-success-light: var(--karma-color-fill-success-dark);
-
-
-
-    /* --Fill Action-- */
-
-
-
-    /* Brand */
-
-    --karma-color-fill-action-brand-default-light: var(--karma-color-fill-action-brand-default-dark);
-    --karma-color-fill-action-brand-hover-light: var(--karma-color-fill-action-brand-hover-dark);
-    --karma-color-fill-action-brand-pressed-light: var(--karma-color-fill-action-brand-pressed-dark);
-    --karma-color-fill-action-brand-selected-light: var(--karma-color-fill-action-brand-selected-dark);
-    --karma-color-fill-action-brand-disabled-light: var(--karma-color-fill-action-brand-disabled-dark);
-
-
-
-    /* Brand Accent */
-
-    --karma-color-fill-action-brand-accent-default-light: var(--karma-color-fill-action-brand-accent-default-dark);
-    --karma-color-fill-action-brand-accent-hover-light: var(--karma-color-fill-action-brand-accent-hover-dark);
-    --karma-color-fill-action-brand-accent-pressed-light: var(--karma-color-fill-action-brand-accent-pressed-dark);
-    --karma-color-fill-action-brand-accent-selected-light: var(--karma-color-fill-action-brand-accent-selected-dark);
-    --karma-color-fill-action-brand-accent-selection-light: var(--karma-color-fill-action-brand-accent-selection-dark);
-    --karma-color-fill-action-brand-accent-selection-hover-light: var(--karma-color-fill-action-brand-accent-selection-hover-dark);
-    --karma-color-fill-action-brand-accent-disabled-light: var(--karma-color-fill-action-brand-accent-disabled-dark);
-
-
-
-    /* Secondary */
-
-    --karma-color-fill-action-secondary-default-light: var(--karma-color-fill-action-secondary-default-dark);
-    --karma-color-fill-action-secondary-hover-light: var(--karma-color-fill-action-secondary-hover-dark);
-    --karma-color-fill-action-secondary-pressed-light: var(--karma-color-fill-action-secondary-pressed-dark);
-    --karma-color-fill-action-secondary-selected-light: var(--karma-color-fill-action-secondary-selected-dark);
-    --karma-color-fill-action-secondary-disabled-light: var(--karma-color-fill-action-secondary-disabled-dark);
-
-
-
-    /* Tertiary */
-
-    --karma-color-fill-action-tertiary-default-light: var(--karma-color-fill-action-tertiary-default-dark);
-    --karma-color-fill-action-tertiary-hover-light: var(--karma-color-fill-action-tertiary-hover-dark);
-    --karma-color-fill-action-tertiary-pressed-light: var(--karma-color-fill-action-tertiary-pressed-dark);
-    --karma-color-fill-action-tertiary-selected-light: var(--karma-color-fill-action-tertiary-selected-dark);
-    --karma-color-fill-action-tertiary-disabled-light: var(--karma-color-fill-action-tertiary-disabled-dark);
-
-
-
-    /* --Glyph-- */
-
-    --karma-color-glyph-default-light: var(--karma-color-glyph-default-dark);
-    --karma-color-glyph-muted-light: var(--karma-color-glyph-muted-dark);
-    --karma-color-glyph-error-light: var(--karma-color-glyph-error-dark);
-    --karma-color-glyph-warning-light: var(--karma-color-glyph-warning-dark);
-    --karma-color-glyph-success-light: var(--karma-color-glyph-success-dark);
-
-
-
-    /* --Glyph Action-- */
-
-
-
-    /* Brand */
-
-    --karma-color-glyph-action-brand-default-light: var(--karma-color-glyph-action-brand-default-dark);
-    --karma-color-glyph-action-brand-disabled-light: var(--karma-color-glyph-action-brand-disabled-dark);
-
-
-
-    /* Brand Accent */
-
-    --karma-color-glyph-action-brand-accent-default-light: var(--karma-color-glyph-action-brand-accent-default-dark);
-    --karma-color-glyph-action-brand-accent-disabled-light: var(--karma-color-glyph-action-brand-accent-disabled-dark);
-
-
-
-    /* Destructive */
-
-    --karma-color-glyph-action-destructive-default-light: var(--karma-color-glyph-action-destructive-default-dark);
-    --karma-color-glyph-action-destructive-disabled-light: var(--karma-color-glyph-action-destructive-disabled-dark);
-
-
-
-    /* Secondary */
-
-    --karma-color-glyph-action-secondary-default-light: var(--karma-color-glyph-action-secondary-default-dark);
-    --karma-color-glyph-action-secondary-disabled-light: var(--karma-color-glyph-action-secondary-disabled-dark);
-
-
-
-    /* Tertiary */
-
-    --karma-color-glyph-action-tertiary-default-light: var(--karma-color-glyph-action-tertiary-default-dark);
-    --karma-color-glyph-action-tertiary-disabled-light: var(--karma-color-glyph-action-tertiary-disabled-dark);
-
-
-
-    /* Interactive Brand Accent */
-
-    --karma-color-glyph-interactive-brand-accent-default-light: var(--karma-color-glyph-interactive-brand-accent-default-dark);
-    --karma-color-glyph-interactive-brand-accent-hover-light: var(--karma-color-glyph-interactive-brand-accent-hover-dark);
-    --karma-color-glyph-interactive-brand-accent-pressed-light: var(--karma-color-glyph-interactive-brand-accent-pressed-dark);
-    --karma-color-glyph-interactive-brand-accent-disabled-light: var(--karma-color-glyph-interactive-brand-accent-disabled-dark);
-
-
-
-    /* Interactive Brand Accent */
-
-    --karma-color-glyph-interactive-secondary-default-light: var(--karma-color-glyph-interactive-secondary-default-dark);
-    --karma-color-glyph-interactive-secondary-hover-light: var(--karma-color-glyph-interactive-secondary-hover-dark);
-    --karma-color-glyph-interactive-secondary-pressed-light: var(--karma-color-glyph-interactive-secondary-pressed-dark);
-    --karma-color-glyph-interactive-secondary-disabled-light: var(--karma-color-glyph-interactive-secondary-disabled-dark);
-
-
-
-    /* --Label-- */
-
-    --karma-color-label-primary-light: var(--karma-color-label-primary-dark);
-    --karma-color-label-secondary-light: var(--karma-color-label-secondary-dark);
-    --karma-color-label-tertiary-light: var(--karma-color-label-tertiary-dark);
-    --karma-color-label-quaternary-light: var(--karma-color-label-quaternary-dark);
-
-
-
-    /* --Material Sover-- */
-
-    --karma-color-materialSover-header-light: var(--karma-color-materialSover-header-dark);
-
-
-
-
+    --karma-link-color: var(--karma-blue-400);
 
 }
 
 
 
+/* ----------------------- */
 
-[color-scheme="light"] {
 
-    /* --Border-- */
 
-    --karma-color-border-brand-accent-dark: var(--karma-color-border-brand-accent-light);
-    --karma-color-border-default-dark: var(--karma-color-border-default-light);
-    --karma-color-border-muted-dark: var(--karma-color-border-muted-light);
-    --karma-color-border-strong-dark: var(--karma-color-border-strong-light);
-    --karma-color-border-focus-dark: var(--karma-color-border-focus-light);
-    --karma-color-border-error-dark: var(--karma-color-border-error-light);
-    --karma-color-border-warning-dark: var(--karma-color-border-warning-light);
-    --karma-color-border-success-dark: var(--karma-color-border-success-light);
+[data-theme="light"] {
 
 
+    --karma-globalnav-background: var(--karma-white-700);
+    --karma-globalnav-background-opened: var(--karma-white-700);
 
-    /* --System Background-- */
+    --karma-globalnav-color: var(--karma-black-700);
+    --karma-globalnav-color-hover: var(--karma-black-900);
+    --karma-globalnav-color-disabled: var(--karma-black-500);
+    --karma-globalnav-keyline-color: var(--karma-black-100);
 
-    --karma-color-system-background-dark: var(--karma-color-system-background-light);
+    --karma-globalfooter-background: var(--karma-fill-secondary);
 
+    --karma-globalfooter-color: var(--karma-black-700);
+    --karma-globalfooter-color-hover: var(--karma-black-900);
+    --karma-globalfooter-color-disabled: var(--karma-black-500);
+    --karma-globalfooter-keyline-color: var(--karma-black-200);
 
+    --karma-body-background: var(--karma-white-900);
 
-    /* --Fill-- */
+    --karma-fill: var(--karma-white-900);
+    --karma-fill-secondary: var(--karma-gray-100);
+    --karma-fill-tertiary: var(--karma-gray-200);
 
-    --karma-color-fill-primary-dark: var(--karma-color-fill-primary-light);
-    --karma-color-fill-secondary-dark: var(--karma-color-fill-secondary-light);
-    --karma-color-fill-tertiary-dark: var(--karma-color-fill-tertiary-light);
-    --karma-color-fill-error-dark: var(--karma-color-fill-error-light);
-    --karma-color-fill-warning-dark: var(--karma-color-fill-warning-light);
-    --karma-color-fill-success-dark: var(--karma-color-fill-success-light);
+    --karma-text: var(--karma-gray-900);
+    --karma-text-secondary: var(--karma-gray-700);
+    --karma-text-tertiary: var(--karma-gray-500);
 
+    --karma-button-background: var(--karma-blue-500);
+    --karma-button-background-hover: var(--karma-blue-600);
+    --karma-button-background-active: var(--karma-blue-700);
 
+    --karma-button-color: var(--karma-white-900);
+    --karma-button-color-hover: var(--karma-button-color);
+    --karma-button-color-active: var(--karma-button-color-hover);
 
-    /* --Fill Action-- */
-
-
-
-    /* Brand */
-
-    --karma-color-fill-action-brand-default-dark: var(--karma-color-fill-action-brand-default-light);
-    --karma-color-fill-action-brand-hover-dark: var(--karma-color-fill-action-brand-hover-light);
-    --karma-color-fill-action-brand-pressed-dark: var(--karma-color-fill-action-brand-pressed-light);
-    --karma-color-fill-action-brand-selected-dark: var(--karma-color-fill-action-brand-selected-light);
-    --karma-color-fill-action-brand-disabled-dark: var(--karma-color-fill-action-brand-disabled-light);
-
-
-
-    /* Brand Accent */
-
-    --karma-color-fill-action-brand-accent-default-dark: var(--karma-color-fill-action-brand-accent-default-light);
-    --karma-color-fill-action-brand-accent-hover-dark: var(--karma-color-fill-action-brand-accent-hover-light);
-    --karma-color-fill-action-brand-accent-pressed-dark: var(--karma-color-fill-action-brand-accent-pressed-light);
-    --karma-color-fill-action-brand-accent-selected-dark: var(--karma-color-fill-action-brand-accent-selected-light);
-    --karma-color-fill-action-brand-accent-selection-dark: var(--karma-color-fill-action-brand-accent-selection-light);
-    --karma-color-fill-action-brand-accent-selection-hover-dark: var(--karma-color-fill-action-brand-accent-selection-hover-light);
-    --karma-color-fill-action-brand-accent-disabled-dark: var(--karma-color-fill-action-brand-accent-disabled-light);
-
-
-
-    /* Secondary */
-
-    --karma-color-fill-action-secondary-default-dark: var(--karma-color-fill-action-secondary-default-light);
-    --karma-color-fill-action-secondary-hover-dark: var(--karma-color-fill-action-secondary-hover-light);
-    --karma-color-fill-action-secondary-pressed-dark: var(--karma-color-fill-action-secondary-pressed-light);
-    --karma-color-fill-action-secondary-selected-dark: var(--karma-color-fill-action-secondary-selected-light);
-    --karma-color-fill-action-secondary-disabled-dark: var(--karma-color-fill-action-secondary-disabled-light);
-
-
-
-    /* Tertiary */
-
-    --karma-color-fill-action-tertiary-default-dark: var(--karma-color-fill-action-tertiary-default-light);
-    --karma-color-fill-action-tertiary-hover-dark: var(--karma-color-fill-action-tertiary-hover-light);
-    --karma-color-fill-action-tertiary-pressed-dark: var(--karma-color-fill-action-tertiary-pressed-light);
-    --karma-color-fill-action-tertiary-selected-dark: var(--karma-color-fill-action-tertiary-selected-light);
-    --karma-color-fill-action-tertiary-disabled-dark: var(--karma-color-fill-action-tertiary-disabled-light);
-
-
-
-    /* --Glyph-- */
-
-    --karma-color-glyph-default-dark: var(--karma-color-glyph-default-light);
-    --karma-color-glyph-muted-dark: var(--karma-color-glyph-muted-light);
-    --karma-color-glyph-error-dark: var(--karma-color-glyph-error-light);
-    --karma-color-glyph-warning-dark: var(--karma-color-glyph-warning-light);
-    --karma-color-glyph-success-dark: var(--karma-color-glyph-success-light);
-
-
-
-    /* --Glyph Action-- */
-
-
-
-    /* Brand */
-
-    --karma-color-glyph-action-brand-default-dark: var(--karma-color-glyph-action-brand-default-light);
-    --karma-color-glyph-action-brand-disabled-dark: var(--karma-color-glyph-action-brand-disabled-light);
-
-
-
-    /* Brand Accent */
-
-    --karma-color-glyph-action-brand-accent-default-dark: var(--karma-color-glyph-action-brand-accent-default-light);
-    --karma-color-glyph-action-brand-accent-disabled-dark: var(--karma-color-glyph-action-brand-accent-disabled-light);
-
-
-
-    /* Destructive */
-
-    --karma-color-glyph-action-destructive-default-dark: var(--karma-color-glyph-action-destructive-default-light);
-    --karma-color-glyph-action-destructive-disabled-dark: var(--karma-color-glyph-action-destructive-disabled-light);
-
-
-
-    /* Secondary */
-
-    --karma-color-glyph-action-secondary-default-dark: var(--karma-color-glyph-action-secondary-default-light);
-    --karma-color-glyph-action-secondary-disabled-dark: var(--karma-color-glyph-action-secondary-disabled-light);
-
-
-
-    /* Tertiary */
-
-    --karma-color-glyph-action-tertiary-default-dark: var(--karma-color-glyph-action-tertiary-default-light);
-    --karma-color-glyph-action-tertiary-disabled-dark: var(--karma-color-glyph-action-tertiary-disabled-light);
-
-
-
-    /* Interactive Brand Accent */
-
-    --karma-color-glyph-interactive-brand-accent-default-dark: var(--karma-color-glyph-interactive-brand-accent-default-light);
-    --karma-color-glyph-interactive-brand-accent-hover-dark: var(--karma-color-glyph-interactive-brand-accent-hover-light);
-    --karma-color-glyph-interactive-brand-accent-pressed-dark: var(--karma-color-glyph-interactive-brand-accent-pressed-light);
-    --karma-color-glyph-interactive-brand-accent-disabled-dark: var(--karma-color-glyph-interactive-brand-accent-disabled-light);
-
-
-
-    /* Interactive Brand Accent */
-
-    --karma-color-glyph-interactive-secondary-default-dark: var(--karma-color-glyph-interactive-secondary-default-light);
-    --karma-color-glyph-interactive-secondary-hover-dark: var(--karma-color-glyph-interactive-secondary-hover-light);
-    --karma-color-glyph-interactive-secondary-pressed-dark: var(--karma-color-glyph-interactive-secondary-pressed-light);
-    --karma-color-glyph-interactive-secondary-disabled-dark: var(--karma-color-glyph-interactive-secondary-disabled-light);
-
-
-
-    /* --Label-- */
-
-    --karma-color-label-primary-dark: var(--karma-color-label-primary-light);
-    --karma-color-label-secondary-dark: var(--karma-color-label-secondary-light);
-    --karma-color-label-tertiary-dark: var(--karma-color-label-tertiary-light);
-    --karma-color-label-quaternary-dark: var(--karma-color-label-quaternary-light);
-
-
-
-    /* --Material Sover-- */
-
-    --karma-color-materialSover-header-dark: var(--karma-color-materialSover-header-light);
-
-
-
-
+    --karma-link-color: var(--karma-blue-600);
 
 }

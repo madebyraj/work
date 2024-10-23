@@ -121,7 +121,6 @@ main {
 
 
 #project-section {
-  background-color: var(--karma-fill);
   overflow: hidden;
   margin: auto;
   max-width: var(--karma-global-max-width);
@@ -207,7 +206,6 @@ main {
 
 
 #writing-section {
-  background-color: var(--karma-fill);
   margin: auto;
   max-width: var(--karma-global-max-width);
   padding: 64px 0px 128px;
@@ -234,7 +232,6 @@ main {
 
 .writing-wrapper {
   width: 100%;
-  background-color: var(--karma-fill);
 }
 
 .article {

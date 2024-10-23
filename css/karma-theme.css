@@ -1,0 +1,117 @@
+:root {
+
+    --karma-globalnav-height: 64px;
+    --karma-globalnav-background: var(--karma-system-white-700);
+    --karma-globalnav-background-opened: var(--karma-system-white-900);
+
+    --karma-globalnav-color: var(--karma-system-black-700);
+    --karma-globalnav-color-secondary: #E8E8ED;
+    --karma-globalnav-color-hover: var(--karma-system-black-900);
+    --karma-globalnav-color-disabled: var(--karma-system-black-500);
+    --karma-globalnav-keyline-color: var(--karma-system-black-200);
+
+
+
+
+    --karma-globalfooter-background: var(--karma-system-black-900);
+
+    --karma-globalfooter-color: var(--karma-system-white-700);
+    --karma-globalfooter-color-secondary: #E8E8ED;
+    --karma-globalfooter-color-hover: var(--karma-system-white-900);
+    --karma-globalfooter-color-disabled: var(--karma-system-white-500);
+    --karma-globalfooter-keyline-color: var(--karma-system-white-200);
+
+
+
+
+    --karma-body-background: var(--karma-system-white-900);
+
+    --karma-fill: var(--karma-system-white-900);
+    --karma-fill-secondary: rgb(250, 250, 252);
+    --karma-fill-tertiary: rgb(245, 245, 247);
+
+
+
+
+    --karma-text: #1D1D1F;
+    --karma-text-secondary: rgb(66, 66, 69);
+    --karma-text-tertiary: rgb(134, 134, 139);
+
+    --karma-text-gradient: linear-gradient(108deg, #0894FF, #C959DD 34%, #FF2E54 68%, #FF9004);
+
+
+
+
+    --karma-button-background: rgb(0, 113, 227);
+    --karma-button-background-hover: #0076DF;
+    --karma-button-background-active: #006EDB;
+
+    --karma-button-color: var(--karma-system-white-900);
+    --karma-button-color-hover: var(--karma-button-color);
+    --karma-button-color-active: var(--karma-button-color-hover);
+
+    --karma-button-disabled-opacity: 0.42;
+
+    --karma-link-color: rgb(0, 102, 204);
+    --karma-link-disabled-opacity: 0.42;
+
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --karma-globalnav-height: 64px;
+        --karma-globalnav-background: var(--karma-system-white-700);
+        --karma-globalnav-background-opened: var(--karma-system-white-900);
+
+        --karma-globalnav-color: var(--karma-system-black-700);
+        --karma-globalnav-color-secondary: #E8E8ED;
+        --karma-globalnav-color-hover: var(--karma-system-black-900);
+        --karma-globalnav-color-disabled: var(--karma-system-black-500);
+        --karma-globalnav-keyline-color: var(--karma-system-black-200);
+
+
+
+
+        --karma-globalfooter-background: var(--karma-system-black-900);
+
+        --karma-globalfooter-color: var(--karma-system-white-700);
+        --karma-globalfooter-color-secondary: #E8E8ED;
+        --karma-globalfooter-color-hover: var(--karma-system-white-900);
+        --karma-globalfooter-color-disabled: var(--karma-system-white-500);
+        --karma-globalfooter-keyline-color: var(--karma-system-white-200);
+
+
+
+
+        --karma-body-background: var(--karma-system-white-900);
+
+        --karma-fill: var(--karma-system-white-900);
+        --karma-fill-secondary: rgb(250, 250, 252);
+        --karma-fill-tertiary: rgb(245, 245, 247);
+
+
+
+
+        --karma-text: #1D1D1F;
+        --karma-text-secondary: rgb(66, 66, 69);
+        --karma-text-tertiary: rgb(134, 134, 139);
+
+        --karma-text-gradient: linear-gradient(108deg, #0894FF, #C959DD 34%, #FF2E54 68%, #FF9004);
+
+
+
+
+        --karma-button-background: rgb(0, 113, 227);
+        --karma-button-background-hover: #0076DF;
+        --karma-button-background-active: #006EDB;
+
+        --karma-button-color: var(--karma-system-white-900);
+        --karma-button-color-hover: var(--karma-button-color);
+        --karma-button-color-active: var(--karma-button-color-hover);
+
+        --karma-button-disabled-opacity: 0.42;
+
+        --karma-link-color: rgb(0, 102, 204);
+        --karma-link-disabled-opacity: 0.42;
+    }
+}

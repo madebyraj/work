@@ -62,7 +62,7 @@
     justify-content: space-between;
 }
 
-/* .main-nav::after {
+.main-nav::after {
     height: 1px;
     display: block;
     width: 100%;
@@ -72,7 +72,7 @@
     content: "";
     top: 100%;
     left: 0;
-} */
+}
 
 .desktop-nav {
     width: 100%;
@@ -146,36 +146,30 @@
 
 
 
+/* Theme Button */
 
-#nav-cta {
+.theme-toggle {
     margin-left: 32px;
-    padding: 3px 10px;
+    background: none;
+    border: none;
     border-radius: var(--karma-border-radius-full);
-    text-decoration: none;
-    font-size: var(--karma-fontSize-200);
-    line-height: var(--karma-lineHeight-200);
-    font-weight: var(--karma-fontWeight-medium);
-    color: var(--karma-button-color);
-    background-color: var(--karma-button-background);
-    text-align: center;
-    transition: all 200ms ease-out;
+    cursor: var(--cursor-pointer), auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#nav-cta:hover {
-    cursor: var(--cursor-pointer), auto;
-    background-color: var(--karma-color-fill-action-brand-accent-hover);
+.theme-toggle:hover svg {
+    fill: var(--karma-globalnav-color-hover);
 }
 
-#nav-cta:active {
-    background-color: var(--karma-color-fill-action-brand-accent-pressed);
+.theme-toggle svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--karma-globalnav-color);
+    transition: fill 0.3s ease-out;
 }
 
-#nav-cta:focus {
-    background-color: var(--karma-color-fill-action-brand-accent-selected);
-}
 
 
 

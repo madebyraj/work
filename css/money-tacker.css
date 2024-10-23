@@ -43,7 +43,7 @@ html {
 
 body {
   padding-top: var(--karma-globalnav-height);
-  background-color: var(--karma-color-system-background);
+  background-color: var(--karma-body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
