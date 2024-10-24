@@ -165,6 +165,10 @@
     background-color: var(--karma-button-secondary-background-hover);
 }
 
+.theme-toggle:hover svg {
+    fill: var(--karma-button-secondary-color-hover);
+}
+
 .theme-toggle:active {
     background-color: var(--karma-button-secondary-background-active);
 }

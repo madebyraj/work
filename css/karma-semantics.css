@@ -204,12 +204,12 @@
     --karma-button-color-active: var(--karma-button-color-hover);
     --karma-button-disabled-opacity: 0.42;
 
-    --karma-button-secondary-background: var(--karma-gray-100);
-    --karma-button-secondary-background-hover: var(--karma-gray-200);
-    --karma-button-secondary-background-active: var(--karma-gray-300);
+    --karma-button-secondary-background: var(--karma-black-100);
+    --karma-button-secondary-background-hover: var(--karma-black-200);
+    --karma-button-secondary-background-active: var(--karma-black-300);
 
     --karma-button-secondary-color: var(--karma-black-700);
-    --karma-button-secondary-color-hover: var(--karma-button-color);
+    --karma-button-secondary-color-hover: var(--karma-black-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
     --karma-button-secondary-disabled-opacity: 0.42;
 
@@ -258,12 +258,12 @@
         --karma-button-color-hover: var(--karma-button-color);
         --karma-button-color-active: var(--karma-button-color-hover);
 
-        --karma-button-secondary-background: var(--karma-gray-800);
-        --karma-button-secondary-background-hover: var(--karma-gray-700);
-        --karma-button-secondary-background-active: var(--karma-gray-600);
-
+        --karma-button-secondary-background: var(--karma-white-200);
+        --karma-button-secondary-background-hover: var(--karma-white-300);
+        --karma-button-secondary-background-active: var(--karma-white-400);
+    
         --karma-button-secondary-color: var(--karma-white-700);
-        --karma-button-secondary-color-hover: var(--karma-button-color);
+        --karma-button-secondary-color-hover: var(--karma-white-900);
         --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
         --karma-link-color: var(--karma-blue-400);

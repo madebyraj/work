@@ -8,15 +8,15 @@
 
     /* Fonts */
 
-    --karma-font-heading: Inter, Helvetica, Arial, sans-serif;
-    --karma-font-body: Inter, Helvetica, Arial, sans-serif;
+    --karma-font-heading: Figtree, system-ui, Helvetica, Arial, sans-serif;
+    --karma-font-body: Figtree, system-ui, Helvetica, Arial, sans-serif;
     --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
 
 
     /* Font Faces */
 
-    --karma-font-sans: Inter, Helvetica, Arial, sans-serif;
+    --karma-font-sans: Figtree, system-ui, Helvetica, Arial, sans-serif;
     --karma-font-serif: Denton, Georgia, Times New Roman, serif;
     --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
@@ -24,9 +24,15 @@
 
     /* Fonts Weights */
 
+    --karma-fontWeight-ultrathin: 100;
+    --karma-fontWeight-thin: 200;
+    --karma-fontWeight-light: 300;
     --karma-fontWeight-regular: 400;
+    --karma-fontWeight-medium: 500;
     --karma-fontWeight-medium: 600;
     --karma-fontWeight-bold: 700;
+    --karma-fontWeight-extrabold: 800;
+    --karma-fontWeight-black: 900;
 
 
 
