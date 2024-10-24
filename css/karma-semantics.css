@@ -30,7 +30,7 @@
 
     /* --Blur-- */
 
-    --karma-globalnav-backdrop-filter: saturate(180%) blur(24px);
+    --karma-globalnav-backdrop-filter: saturate(180%) blur(20px);
 
 
     /* Width */
@@ -38,7 +38,7 @@
     --karma-global-max-width: 1400px;
 
 
-    /* Colors */
+    /* Karma Atomic */
 
     --karma-white-50: rgba(255, 255, 255, 0.00);
     --karma-white-100: rgba(255, 255, 255, 0.08);
@@ -62,27 +62,109 @@
     --karma-black-800: rgba(0, 0, 0, 0.96);
     --karma-black-900: rgba(0, 0, 0, 1);
 
-    --karma-gray-50: #F7FAFC;
-    --karma-gray-100: #EDF2F7;
-    --karma-gray-200: #E2E8F0;
-    --karma-gray-300: #CBD5E0;
-    --karma-gray-400: #A0AEC0;
-    --karma-gray-500: #718096;
-    --karma-gray-600: #4A5568;
-    --karma-gray-700: #2D3748;
-    --karma-gray-800: #1A202C;
-    --karma-gray-900: #171923;
+    --karma-gray-50: #F7F8F9;
+    --karma-gray-100: #F0F1F2;
+    --karma-gray-200: #E6E7E8;
+    --karma-gray-300: #D5D8DB;
+    --karma-gray-400: #B8BCC0;
+    --karma-gray-500: #8E9296;
+    --karma-gray-600: #626568;
+    --karma-gray-700: #414345;
+    --karma-gray-800: #2A2C2E;
+    --karma-gray-900: #202224;
 
-    --karma-blue-50: #e8f0fe;
-    --karma-blue-100: #d2e3fc;
-    --karma-blue-200: #aecbfa;
-    --karma-blue-300: #669df6;
-    --karma-blue-400: #4299e1;
-    --karma-blue-500: #4285f4;
-    --karma-blue-600: #1a73e8;
-    --karma-blue-700: #1967d2;
-    --karma-blue-800: #185abc;
-    --karma-blue-900: #174ea6;
+    --karma-blue-50: #D6E5E4;
+    --karma-blue-100: #C3D9E5;
+    --karma-blue-200: #B3CFE6;
+    --karma-blue-300: #5DABEE;
+    --karma-blue-400: #0896E7;
+    --karma-blue-500: #087FE7;
+    --karma-blue-600: #055AC2;
+    --karma-blue-700: #133681;
+    --karma-blue-800: #132B58;
+    --karma-blue-900: #101F32;
+
+    --karma-red-50: #FFEDE0;
+    --karma-red-100: #FFDBBD;
+    --karma-red-200: #FDC4A0;
+    --karma-red-300: #F89C77;
+    --karma-red-400: #F77255;
+    --karma-red-500: #F64831;
+    --karma-red-600: #B52603;
+    --karma-red-700: #8A1700;
+    --karma-red-800: #701A00;
+    --karma-red-900: #4D1600;
+
+    --karma-green-50: #D0EACD;
+    --karma-green-100: #AFDFC0;
+    --karma-green-200: #79E28E;
+    --karma-green-300: #4AD96B;
+    --karma-green-400: #1CC457;
+    --karma-green-500: #1AAD3A;
+    --karma-green-600: #1A892E;
+    --karma-green-700: #0E712F;
+    --karma-green-800: #075022;
+    --karma-green-900: #073612;
+
+    --karma-yellow-50: #FFFBC7;
+    --karma-yellow-100: #FFEBAD;
+    --karma-yellow-200: #FFE28A;
+    --karma-yellow-300: #FFD452;
+    --karma-yellow-400: #FFC23D;
+    --karma-yellow-500: #FFAF0F;
+    --karma-yellow-600: #E09010;
+    --karma-yellow-700: #C76D00;
+    --karma-yellow-800: #944C00;
+    --karma-yellow-900: #6B3700;
+
+    --karma-pink-50: #FFDBF4;
+    --karma-pink-100: #FFC7F4;
+    --karma-pink-200: #FFADF4;
+    --karma-pink-300: #FF94F1;
+    --karma-pink-400: #FF80DB;
+    --karma-pink-500: #FF66C9;
+    --karma-pink-600: #DF58C9;
+    --karma-pink-700: #B351B1;
+    --karma-pink-800: #904789;
+    --karma-pink-900: #702E69;
+
+    --karma-purple-50: #DAD0F6;
+    --karma-purple-100: #C3BBF6;
+    --karma-purple-200: #BAA2F6;
+    --karma-purple-300: #A684F6;
+    --karma-purple-400: #9F64E8;
+    --karma-purple-500: #9949E9;
+    --karma-purple-600: #7942D1;
+    --karma-purple-700: #6539B1;
+    --karma-purple-800: #503A88;
+    --karma-purple-900: #3B2E70;
+
+    --karma-orange-50: #FFDFB8;
+    --karma-orange-100: #FFCE99;
+    --karma-orange-200: #FFB980;
+    --karma-orange-300: #FFA34D;
+    --karma-orange-400: #FF8F05;
+    --karma-orange-500: #FF6F00;
+    --karma-orange-600: #DB5B00;
+    --karma-orange-700: #C24400;
+    --karma-orange-800: #8A3200;
+    --karma-orange-900: #702700;
+
+    --karma-brown-50: #E8DAD3;
+    --karma-brown-100: #DEC9BF;
+    --karma-brown-200: #CDAD9D;
+    --karma-brown-300: #BC917B;
+    --karma-brown-400: #A9826A;
+    --karma-brown-500: #9C6F54;
+    --karma-brown-600: #895E3E;
+    --karma-brown-700: #764E2E;
+    --karma-brown-800: #663C1A;
+    --karma-brown-900: #513410;
+
+
+
+
+    /* Semantics/Component Specific */
 
 
 
