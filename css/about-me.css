@@ -69,10 +69,10 @@ main {
 }
 
 .about-section-headline {
+    font-family: var(--karma-font-serif);
     font-size: var(--karma-fontSize-600);
     line-height: var(--karma-lineHeight-600);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
 
@@ -121,11 +121,11 @@ main {
 }
 
 .ow-section-headline {
-    max-width: 600px;
+    font-family: var(--karma-font-serif);
+    max-width: 560px;
     font-size: var(--karma-fontSize-600);
     line-height: var(--karma-lineHeight-600);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
 
@@ -149,10 +149,10 @@ main {
 }
 
 .cricket-story-heading {
+    font-family: var(--karma-font-serif);
     font-size: var(--karma-fontSize-400);
     line-height: var(--karma-lineHeight-400);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
 
@@ -179,10 +179,10 @@ main {
 }
 
 .snap-section-heading {
+    font-family: var(--karma-font-serif);
     font-size: var(--karma-fontSize-400);
     line-height: var(--karma-lineHeight-400);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
 
@@ -216,10 +216,10 @@ main {
 }
 
 .music-section-heading {
+    font-family: var(--karma-font-serif);
     font-size: var(--karma-fontSize-400);
     line-height: var(--karma-lineHeight-400);
     font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
 
@@ -381,7 +381,7 @@ main {
     }
 
     .ow-section-headline {
-        max-width: 496px;
+        max-width: 464px;
         font-size: var(--karma-fontSize-500);
         line-height: var(--karma-lineHeight-500);
     }

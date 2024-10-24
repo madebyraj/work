@@ -16,7 +16,7 @@
 
     /* Font Faces */
 
-    --karma-font-sans: Figtree, system-ui, Helvetica, Arial, sans-serif;
+    --karma-font-sans: Gilroy, system-ui, Helvetica, Arial, sans-serif;
     --karma-font-serif: Denton, Georgia, Times New Roman, serif;
     --karma-font-mono: Nitti, Menlo, Courier, monospace;
 
@@ -25,7 +25,7 @@
     /* Fonts Weights */
 
     --karma-fontWeight-regular: 400;
-    --karma-fontWeight-medium: 575;
+    --karma-fontWeight-medium: 500;
     --karma-fontWeight-bold: 700;
 
 

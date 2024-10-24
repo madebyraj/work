@@ -80,18 +80,20 @@ main {
 }
 
 .hero-headline-intro {
+  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-850);
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
 }
 
 .hero-headline-do {
+  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-850);
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text-tertiary);
 }
 
@@ -134,10 +136,10 @@ main {
 }
 
 .project-section-headline {
+  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
 }
 
@@ -175,10 +177,10 @@ main {
 }
 
 .project-title {
+  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-550);
   line-height: var(--karma-lineHeight-550);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-overflow: ellipsis;
 }
@@ -217,10 +219,10 @@ main {
 }
 
 .writing-section-headline {
+  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
 }
 
@@ -260,10 +262,10 @@ main {
 }
 
 .article-title {
+  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-overflow: ellipsis;
 }
