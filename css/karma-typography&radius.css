@@ -24,15 +24,9 @@
 
     /* Fonts Weights */
 
-    --karma-fontWeight-ultrathin: 100;
-    --karma-fontWeight-thin: 200;
-    --karma-fontWeight-light: 300;
     --karma-fontWeight-regular: 400;
-    --karma-fontWeight-medium: 500;
-    --karma-fontWeight-medium: 600;
+    --karma-fontWeight-medium: 575;
     --karma-fontWeight-bold: 700;
-    --karma-fontWeight-extrabold: 800;
-    --karma-fontWeight-black: 900;
 
 
 
