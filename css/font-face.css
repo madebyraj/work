@@ -1,101 +1,17 @@
-/* Denton */
+/* Inter */
 
 @font-face {
-    font-family: 'Denton';
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-Bold.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Inter/InterVariable.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Denton';
+    font-family: 'Inter';
     font-style: italic;
-    font-weight: 700;
+    font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-BoldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: normal;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-Medium.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: italic;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-MediumItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Denton';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Denton/Denton-RegularItalic.woff") format("woff");
-}
-
-
-
-/* Gilroy */
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-BoldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Semibold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: italic;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-SemiboldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Medium.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-MediumItalic.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/Inter/InterVariable-Italic.woff2") format("woff2");
 }

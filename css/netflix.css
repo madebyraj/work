@@ -60,10 +60,9 @@ main {
 }
 
 .title {
-  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-650);
   line-height: var(--karma-lineHeight-650);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  letter-spacing: var(--karma-letterSpacing-tighter);
   font-weight: var(--karma-fontWeight-medium);
   color: var(--karma-text);
 }
@@ -201,10 +200,10 @@ main {
 }
 
 .finish-section-heading {
-  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-align: center;
 }

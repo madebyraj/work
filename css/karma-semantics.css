@@ -62,115 +62,27 @@
     --karma-black-800: rgba(0, 0, 0, 0.96);
     --karma-black-900: rgba(0, 0, 0, 1);
 
-    --karma-graybase-50: #F9F9F9;
-    --karma-graybase-100: #F2F2F2;
-    --karma-graybase-200: #E8E8E8;
-    --karma-graybase-300: #DBDBDB;
-    --karma-graybase-400: #C0C0C0;
-    --karma-graybase-500: #969696;
-    --karma-graybase-600: #686868;
-    --karma-graybase-700: #454545;
+    --karma-graybase-50: #F1F1F1;
+    --karma-graybase-100: #E2E2E2;
+    --karma-graybase-200: #C7C7C7;
+    --karma-graybase-300: #ABABAB;
+    --karma-graybase-400: #919191;
+    --karma-graybase-500: #777777;
+    --karma-graybase-600: #6A6A6A;
+    --karma-graybase-700: #464646;
     --karma-graybase-800: #2E2E2E;
-    --karma-graybase-900: #242424;
+    --karma-graybase-900: #161616;
 
-    --karma-gray-50: #F7F7F9;
-    --karma-gray-100: #EDEDF2;
-    --karma-gray-200: #DFDFE8;
-    --karma-gray-300: #CECEDB;
-    --karma-gray-400: #AFAFC0;
-    --karma-gray-500: #848496;
-    --karma-gray-600: #575768;
-    --karma-gray-700: #363644;
-    --karma-gray-800: #21212D;
-    --karma-gray-900: #171723;
-
-    --karma-blue-50: #D6E5E4;
-    --karma-blue-100: #C3D9E5;
-    --karma-blue-200: #B3CFE6;
-    --karma-blue-300: #5DABEE;
-    --karma-blue-400: #0896E7;
-    --karma-blue-500: #087FE7;
-    --karma-blue-600: #055AC2;
-    --karma-blue-700: #133681;
-    --karma-blue-800: #132B58;
-    --karma-blue-900: #101F32;
-
-    --karma-red-50: #FFEDE0;
-    --karma-red-100: #FFDBBD;
-    --karma-red-200: #FDC4A0;
-    --karma-red-300: #F89C77;
-    --karma-red-400: #F77255;
-    --karma-red-500: #F64831;
-    --karma-red-600: #B52603;
-    --karma-red-700: #8A1700;
-    --karma-red-800: #701A00;
-    --karma-red-900: #4D1600;
-
-    --karma-green-50: #D0EACD;
-    --karma-green-100: #AFDFC0;
-    --karma-green-200: #79E28E;
-    --karma-green-300: #4AD96B;
-    --karma-green-400: #1CC457;
-    --karma-green-500: #1AAD3A;
-    --karma-green-600: #1A892E;
-    --karma-green-700: #0E712F;
-    --karma-green-800: #075022;
-    --karma-green-900: #073612;
-
-    --karma-yellow-50: #FFFBC7;
-    --karma-yellow-100: #FFEBAD;
-    --karma-yellow-200: #FFE28A;
-    --karma-yellow-300: #FFD452;
-    --karma-yellow-400: #FFC23D;
-    --karma-yellow-500: #FFAF0F;
-    --karma-yellow-600: #E09010;
-    --karma-yellow-700: #C76D00;
-    --karma-yellow-800: #944C00;
-    --karma-yellow-900: #6B3700;
-
-    --karma-pink-50: #FFDBF4;
-    --karma-pink-100: #FFC7F4;
-    --karma-pink-200: #FFADF4;
-    --karma-pink-300: #FF94F1;
-    --karma-pink-400: #FF80DB;
-    --karma-pink-500: #FF66C9;
-    --karma-pink-600: #DF58C9;
-    --karma-pink-700: #B351B1;
-    --karma-pink-800: #904789;
-    --karma-pink-900: #702E69;
-
-    --karma-purple-50: #DAD0F6;
-    --karma-purple-100: #C3BBF6;
-    --karma-purple-200: #BAA2F6;
-    --karma-purple-300: #A684F6;
-    --karma-purple-400: #9F64E8;
-    --karma-purple-500: #9949E9;
-    --karma-purple-600: #7942D1;
-    --karma-purple-700: #6539B1;
-    --karma-purple-800: #503A88;
-    --karma-purple-900: #3B2E70;
-
-    --karma-orange-50: #FFDFB8;
-    --karma-orange-100: #FFCE99;
-    --karma-orange-200: #FFB980;
-    --karma-orange-300: #FFA34D;
-    --karma-orange-400: #FF8F05;
-    --karma-orange-500: #FF6F00;
-    --karma-orange-600: #DB5B00;
-    --karma-orange-700: #C24400;
-    --karma-orange-800: #8A3200;
-    --karma-orange-900: #702700;
-
-    --karma-brown-50: #E8DAD3;
-    --karma-brown-100: #DEC9BF;
-    --karma-brown-200: #CDAD9D;
-    --karma-brown-300: #BC917B;
-    --karma-brown-400: #A9826A;
-    --karma-brown-500: #9C6F54;
-    --karma-brown-600: #895E3E;
-    --karma-brown-700: #764E2E;
-    --karma-brown-800: #663C1A;
-    --karma-brown-900: #513410;
+    --karma-gray-50: #F0F0F6;
+    --karma-gray-100: #E2E2E8;
+    --karma-gray-200: #C6C6CC;
+    --karma-gray-300: #ABABB0;
+    --karma-gray-400: #909096;
+    --karma-gray-500: #76767C;
+    --karma-gray-600: #5D5D62;
+    --karma-gray-700: #45454A;
+    --karma-gray-800: #2E2E32;
+    --karma-gray-900: #16161A;
 
 
 
@@ -187,14 +99,14 @@
 
     --karma-globalnav-color: var(--karma-gray-700);
     --karma-globalnav-color-hover: var(--karma-black-900);
-    --karma-globalnav-color-disabled: var(--karma-gray-500);
+    --karma-globalnav-color-disabled: var(--karma-gray-200);
 
     --karma-globalfooter-background: var(--karma-fill);
     --karma-globalfooter-keyline-color: var(--karma-black-100);
 
     --karma-globalfooter-color: var(--karma-gray-700);
     --karma-globalfooter-color-hover: var(--karma-black-900);
-    --karma-globalfooter-color-disabled: var(--karma-gray-500);
+    --karma-globalfooter-color-disabled: var(--karma-gray-200);
 
     --karma-body-background: var(--karma-gray-50);
 
@@ -205,26 +117,27 @@
     --karma-text: var(--karma-black-900);
     --karma-text-secondary: var(--karma-gray-700);
     --karma-text-tertiary: var(--karma-gray-500);
+    --karma-text-quaternary: var(--karma-gray-200);
 
-    --karma-button-background: var(--karma-blue-500);
-    --karma-button-background-hover: var(--karma-blue-600);
-    --karma-button-background-active: var(--karma-blue-700);
+    --karma-button-background: #2383E2;
+    --karma-button-background-hover: #0077D4;
+    --karma-button-background-active: #006BC7;
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
     --karma-button-color-active: var(--karma-button-color-hover);
     --karma-button-disabled-opacity: 0.42;
 
-    --karma-button-secondary-background: var(--karma-graybase-200);
-    --karma-button-secondary-background-hover: var(--karma-graybase-300);
-    --karma-button-secondary-background-active: var(--karma-graybase-400);
+    --karma-button-secondary-background: var(--karma-graybase-50);
+    --karma-button-secondary-background-hover: var(--karma-graybase-100);
+    --karma-button-secondary-background-active: var(--karma-graybase-200);
 
     --karma-button-secondary-color: var(--karma-gray-700);
     --karma-button-secondary-color-hover: var(--karma-black-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
     --karma-button-secondary-disabled-opacity: 0.42;
 
-    --karma-link-color: var(--karma-blue-600);
+    --karma-link-color: #0077D4;
     --karma-link-disabled-opacity: 0.42;
 
 
@@ -242,15 +155,14 @@
 
         --karma-globalnav-color: var(--karma-gray-300);
         --karma-globalnav-color-hover: var(--karma-white-900);
-        --karma-globalnav-color-disabled: var(--karma-gray-500);
-
-
+        --karma-globalnav-color-disabled: var(--karma-gray-700);
+    
         --karma-globalfooter-background: var(--karma-fill);
         --karma-globalfooter-keyline-color: var(--karma-white-100);
-
+    
         --karma-globalfooter-color: var(--karma-gray-300);
         --karma-globalfooter-color-hover: var(--karma-white-900);
-        --karma-globalfooter-color-disabled: var(--karma-gray-500);
+        --karma-globalfooter-color-disabled: var(--karma-gray-700);
 
         --karma-body-background: var(--karma-gray-900);
 
@@ -261,10 +173,11 @@
         --karma-text: var(--karma-white-900);
         --karma-text-secondary: var(--karma-gray-300);
         --karma-text-tertiary: var(--karma-gray-500);
+        --karma-text-quaternary: var(--karma-gray-700);
 
-        --karma-button-background: var(--karma-blue-500);
-        --karma-button-background-hover: var(--karma-blue-400);
-        --karma-button-background-active: var(--karma-blue-300);
+        --karma-button-background: #348DE4;
+        --karma-button-background-hover: #0084EB;
+        --karma-button-background-active: #0076DB;
 
         --karma-button-color: var(--karma-white-900);
         --karma-button-color-hover: var(--karma-button-color);
@@ -278,7 +191,7 @@
         --karma-button-secondary-color-hover: var(--karma-white-900);
         --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-        --karma-link-color: var(--karma-blue-400);
+        --karma-link-color: #0084EB;
 
     }
 }
