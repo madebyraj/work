@@ -38,9 +38,9 @@
     --karma-text-tertiary: var(--karma-gray-500);
     --karma-text-quaternary: var(--karma-gray-700);
 
-    --karma-button-background: #348DE4;
-    --karma-button-background-hover: #0084EB;
-    --karma-button-background-active: #0076DB;
+    --karma-button-background: rgba(52, 141, 228);
+    --karma-button-background-hover: rgba(0, 132, 235);
+    --karma-button-background-active: rgba(0, 118, 219);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -54,7 +54,7 @@
     --karma-button-secondary-color-hover: var(--karma-white-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-    --karma-link-color: #0084EB;
+    --karma-link-color: rgba(52, 141, 228);
 
 }
 
@@ -73,7 +73,7 @@
 
     --karma-globalnav-color: var(--karma-gray-700);
     --karma-globalnav-color-hover: var(--karma-black-900);
-    --karma-globalnav-color-disabled: var(--karma-gray-200);
+    --karma-globalnav-color-disabled: var(--karma-gray-300);
 
     --karma-globalfooter-background: var(--karma-fill);
     --karma-globalfooter-keyline-color: var(--karma-black-100);
@@ -82,7 +82,7 @@
     --karma-globalfooter-color-hover: var(--karma-black-900);
     --karma-globalfooter-color-disabled: var(--karma-gray-200);
 
-    --karma-body-background: var(--karma-gray-50);
+    --karma-body-background: var(--karma-white-900);
 
     --karma-fill: var(--karma-white-900);
     --karma-fill-secondary: var(--karma-gray-100);
@@ -91,11 +91,11 @@
     --karma-text: var(--karma-black-900);
     --karma-text-secondary: var(--karma-gray-700);
     --karma-text-tertiary: var(--karma-gray-500);
-    --karma-text-quaternary: var(--karma-gray-200);
+    --karma-text-quaternary: var(--karma-gray-300);
 
-    --karma-button-background: #2383E2;
-    --karma-button-background-hover: #0077D4;
-    --karma-button-background-active: #006BC7;
+    --karma-button-background: rgba(35, 131, 226);
+    --karma-button-background-hover: rgba(0, 119, 212);
+    --karma-button-background-active: rgba(0, 107, 199);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -109,6 +109,6 @@
     --karma-button-secondary-color-hover: var(--karma-black-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-    --karma-link-color: #0077D4;
+    --karma-link-color: rgba(0, 119, 212);
 
 }
