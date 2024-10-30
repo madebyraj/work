@@ -15,3 +15,47 @@
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/Inter/InterVariable-Italic.woff2") format("woff2");
 }
+
+
+
+/* Our Lexend */
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-bold.woff") format("woff2");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-semibold.woff") format("woff2");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-medium.woff") format("woff2");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-regular.woff") format("woff2");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-light.woff") format("woff2");
+}
