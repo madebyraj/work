@@ -38,9 +38,9 @@
     --karma-text-tertiary: var(--karma-gray-500);
     --karma-text-quaternary: var(--karma-gray-700);
 
-    --karma-button-background: rgba(51, 149, 255);
-    --karma-button-background-hover: rgba(115, 182, 255);
-    --karma-button-background-active: rgba(173, 213, 255);
+    --karma-button-background: rgba(0, 116, 232);
+    --karma-button-background-hover: rgba(69, 163, 254);
+    --karma-button-background-active: rgba(117, 191, 255);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -54,7 +54,7 @@
     --karma-button-secondary-color-hover: var(--karma-white-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-    --karma-link-color: rgba(51, 149, 255);
+    --karma-link-color: rgba(69, 163, 254);
 
 }
 
@@ -93,9 +93,9 @@
     --karma-text-tertiary: var(--karma-gray-500);
     --karma-text-quaternary: var(--karma-gray-300);
 
-    --karma-button-background: rgba(0, 123, 255);
-    --karma-button-background-hover: rgba(0, 106, 219);
-    --karma-button-background-active: rgba(0, 71, 148);
+    --karma-button-background: rgba(0, 116, 232);
+    --karma-button-background-hover: rgba(0, 95, 203);
+    --karma-button-background-active: rgba(0, 75, 169);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -109,6 +109,6 @@
     --karma-button-secondary-color-hover: var(--karma-black-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-    --karma-link-color: rgba(0, 123, 255);
+    --karma-link-color: rgba(0, 116, 232);
 
 }
