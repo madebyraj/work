@@ -19,7 +19,7 @@
 
     /* --Depth-- */
 
-    --tile-shadow: 0px 2px 12px rgba(0 0 0/0.08);
+    --karma-tile-shadow: 0px 2px 12px rgba(0 0 0/0.08);
 
     --karma-depth-baseline: 0 0 0 0 transparent;
     --karma-depth-raised: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 12px 0 rgba(0, 0, 0, 0.08);
@@ -40,26 +40,26 @@
 
     /* Karma Atomic */
 
-    --karma-white-50: rgba(255, 255, 255, 0.00);
+    --karma-white-50: rgba(255, 255, 255, 0.04);
     --karma-white-100: rgba(255, 255, 255, 0.08);
     --karma-white-200: rgba(255, 255, 255, 0.16);
     --karma-white-300: rgba(255, 255, 255, 0.24);
-    --karma-white-400: rgba(255, 255, 255, 0.32);
-    --karma-white-500: rgba(255, 255, 255, 0.48);
-    --karma-white-600: rgba(255, 255, 255, 0.64);
-    --karma-white-700: rgba(255, 255, 255, 0.80);
-    --karma-white-800: rgba(255, 255, 255, 0.96);
+    --karma-white-400: rgba(255, 255, 255, 0.40);
+    --karma-white-500: rgba(255, 255, 255, 0.56);
+    --karma-white-600: rgba(255, 255, 255, 0.72);
+    --karma-white-700: rgba(255, 255, 255, 0.84);
+    --karma-white-800: rgba(255, 255, 255, 0.92);
     --karma-white-900: rgba(255, 255, 255, 1);
 
-    --karma-black-50: rgba(0, 0, 0, 0.00);
+    --karma-black-50: rgba(0, 0, 0, 0.04);
     --karma-black-100: rgba(0, 0, 0, 0.08);
     --karma-black-200: rgba(0, 0, 0, 0.16);
     --karma-black-300: rgba(0, 0, 0, 0.24);
-    --karma-black-400: rgba(0, 0, 0, 0.32);
-    --karma-black-500: rgba(0, 0, 0, 0.48);
-    --karma-black-600: rgba(0, 0, 0, 0.64);
-    --karma-black-700: rgba(0, 0, 0, 0.80);
-    --karma-black-800: rgba(0, 0, 0, 0.96);
+    --karma-black-400: rgba(0, 0, 0, 0.40);
+    --karma-black-500: rgba(0, 0, 0, 0.56);
+    --karma-black-600: rgba(0, 0, 0, 0.72);
+    --karma-black-700: rgba(0, 0, 0, 0.84);
+    --karma-black-800: rgba(0, 0, 0, 0.92);
     --karma-black-900: rgba(0, 0, 0, 1);
 
     --karma-gray-50: rgba(249, 249, 249);
@@ -73,6 +73,17 @@
     --karma-gray-800: rgba(25, 25, 25);
     --karma-gray-900: rgba(17, 17, 17);
 
+    --karma-blue-50: rgba(230, 244, 255);
+    --karma-blue-100: rgba(215, 237, 255);
+    --karma-blue-200: rgba(171, 219, 255);
+    --karma-blue-300: rgba(117, 191, 255);
+    --karma-blue-400: rgba(69, 163, 254);
+    --karma-blue-500: rgba(0, 116, 232);
+    --karma-blue-600: rgba(0, 95, 203);
+    --karma-blue-700: rgba(0, 75, 169);
+    --karma-blue-800: rgba(0, 60, 150);
+    --karma-blue-900: rgba(0, 41, 102);
+
 
 
 
@@ -82,13 +93,13 @@
 
 
     --karma-globalnav-height: 60px;
-    --karma-globalnav-background: var(--karma-white-700);
-    --karma-globalnav-background-opened: var(--karma-white-700);
+    --karma-globalnav-background: var(--karma-white-600);
+    --karma-globalnav-background-opened: var(--karma-white-600);
     --karma-globalnav-keyline-color: var(--karma-black-100);
 
     --karma-globalnav-color: var(--karma-gray-700);
     --karma-globalnav-color-hover: var(--karma-black-900);
-    --karma-globalnav-color-disabled: var(--karma-gray-300);
+    --karma-globalnav-color-disabled: var(--karma-gray-400);
 
     --karma-globalfooter-background: var(--karma-fill);
     --karma-globalfooter-keyline-color: var(--karma-black-100);
@@ -106,11 +117,11 @@
     --karma-text: var(--karma-black-900);
     --karma-text-secondary: var(--karma-gray-700);
     --karma-text-tertiary: var(--karma-gray-500);
-    --karma-text-quaternary: var(--karma-gray-300);
+    --karma-text-quaternary: var(--karma-gray-400);
 
-    --karma-button-background: rgba(0, 116, 232);
-    --karma-button-background-hover: rgba(0, 95, 203);
-    --karma-button-background-active: rgba(0, 75, 169);
+    --karma-button-background: var(--karma-blue-500);
+    --karma-button-background-hover: var(--karma-blue-600);
+    --karma-button-background-active: var(--karma-blue-700);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -126,7 +137,7 @@
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
     --karma-button-secondary-disabled-opacity: 0.42;
 
-    --karma-link-color: rgba(0, 116, 232);
+    --karma-link-color: var(--karma-blue-500);
     --karma-link-disabled-opacity: 0.42;
 
 
@@ -138,13 +149,13 @@
 @media (prefers-color-scheme: dark) {
     :root {
 
-        --karma-globalnav-background: var(--karma-black-700);
-        --karma-globalnav-background-opened: var(--karma-black-700);
+        --karma-globalnav-background: var(--karma-black-600);
+        --karma-globalnav-background-opened: var(--karma-black-600);
         --karma-globalnav-keyline-color: var(--karma-white-100);
-
+    
         --karma-globalnav-color: var(--karma-gray-300);
         --karma-globalnav-color-hover: var(--karma-white-900);
-        --karma-globalnav-color-disabled: var(--karma-gray-700);
+        --karma-globalnav-color-disabled: var(--karma-gray-600);
     
         --karma-globalfooter-background: var(--karma-fill);
         --karma-globalfooter-keyline-color: var(--karma-white-100);
@@ -162,11 +173,11 @@
         --karma-text: var(--karma-white-900);
         --karma-text-secondary: var(--karma-gray-300);
         --karma-text-tertiary: var(--karma-gray-500);
-        --karma-text-quaternary: var(--karma-gray-700);
+        --karma-text-quaternary: var(--karma-gray-600);
 
-        --karma-button-background: rgba(0, 116, 232);
-        --karma-button-background-hover: rgba(69, 163, 254);
-        --karma-button-background-active: rgba(117, 191, 255);
+        --karma-button-background: var(--karma-blue-500);
+        --karma-button-background-hover: var(--karma-blue-400);
+        --karma-button-background-active: var(--karma-blue-300);
 
         --karma-button-color: var(--karma-white-900);
         --karma-button-color-hover: var(--karma-button-color);
@@ -180,7 +191,7 @@
         --karma-button-secondary-color-hover: var(--karma-white-900);
         --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-        --karma-link-color: rgba(69, 163, 254);
+        --karma-link-color: var(--karma-blue-400);
 
     }
 }
