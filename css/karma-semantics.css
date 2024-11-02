@@ -62,16 +62,27 @@
     --karma-black-800: rgba(0, 0, 0, 0.92);
     --karma-black-900: rgba(0, 0, 0, 1);
 
-    --karma-gray-50: rgba(249, 249, 249);
-    --karma-gray-100: rgba(241, 241, 241);
-    --karma-gray-200: rgba(233, 233, 233);
-    --karma-gray-300: rgba(205, 205, 205);
-    --karma-gray-400: rgba(165, 165, 165);
-    --karma-gray-500: rgba(118, 118, 118);
-    --karma-gray-600: rgba(74, 74, 74);
-    --karma-gray-700: rgba(43, 43, 43);
-    --karma-gray-800: rgba(25, 25, 25);
-    --karma-gray-900: rgba(17, 17, 17);
+    --karma-neutral-50: rgba(249, 249, 249);
+    --karma-neutral-100: rgba(241, 241, 241);
+    --karma-neutral-200: rgba(233, 233, 233);
+    --karma-neutral-300: rgba(205, 205, 205);
+    --karma-neutral-400: rgba(165, 165, 165);
+    --karma-neutral-500: rgba(118, 118, 118);
+    --karma-neutral-600: rgba(74, 74, 74);
+    --karma-neutral-700: rgba(43, 43, 43);
+    --karma-neutral-800: rgba(25, 25, 25);
+    --karma-neutral-900: rgba(17, 17, 17);
+
+    --karma-gray-50: rgba(245, 247, 249);
+    --karma-gray-100: rgba(237, 239, 241);
+    --karma-gray-200: rgba(229, 231, 233);
+    --karma-gray-300: rgba(201, 203, 205);
+    --karma-gray-400: rgba(161, 163, 165);
+    --karma-gray-500: rgba(114, 116, 118);
+    --karma-gray-600: rgba(70, 72, 74);
+    --karma-gray-700: rgba(39, 41, 43);
+    --karma-gray-800: rgba(21, 23, 25);
+    --karma-gray-900: rgba(13, 15, 17);
 
     --karma-blue-50: rgba(230, 244, 255);
     --karma-blue-100: rgba(215, 237, 255);
@@ -128,9 +139,9 @@
     --karma-button-color-active: var(--karma-button-color-hover);
     --karma-button-disabled-opacity: 0.42;
 
-    --karma-button-secondary-background: var(--karma-gray-50);
-    --karma-button-secondary-background-hover: var(--karma-gray-100);
-    --karma-button-secondary-background-active: var(--karma-gray-200);
+    --karma-button-secondary-background: var(--karma-neutral-50);
+    --karma-button-secondary-background-hover: var(--karma-neutral-100);
+    --karma-button-secondary-background-active: var(--karma-neutral-200);
 
     --karma-button-secondary-color: var(--karma-gray-700);
     --karma-button-secondary-color-hover: var(--karma-black-900);
@@ -183,9 +194,9 @@
         --karma-button-color-hover: var(--karma-button-color);
         --karma-button-color-active: var(--karma-button-color-hover);
 
-        --karma-button-secondary-background: var(--karma-gray-700);
-        --karma-button-secondary-background-hover: var(--karma-gray-600);
-        --karma-button-secondary-background-active: var(--karma-gray-500);
+        --karma-button-secondary-background: var(--karma-neutral-700);
+        --karma-button-secondary-background-hover: var(--karma-neutral-600);
+        --karma-button-secondary-background-active: var(--karma-neutral-500);
     
         --karma-button-secondary-color: var(--karma-gray-300);
         --karma-button-secondary-color-hover: var(--karma-white-900);
