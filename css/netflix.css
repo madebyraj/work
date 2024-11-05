@@ -63,7 +63,7 @@ main {
   font-size: var(--karma-fontSize-650);
   line-height: var(--karma-lineHeight-650);
   letter-spacing: var(--karma-letterSpacing-tighter);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-bold);
   color: var(--karma-text);
 }
 
@@ -110,21 +110,6 @@ main {
   gap: 16px;
 }
 
-.title {
-  font-size: var(--karma-fontSize-650);
-  line-height: var(--karma-lineHeight-650);
-  letter-spacing: var(--karma-letterSpacing-tighter);
-  font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
-}
-
-.project-overview {
-  font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-400);
-  letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text-secondary);
-}
-
 .project-information {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -136,7 +121,7 @@ main {
 .role h6 {
   font-size: var(--karma-fontSize-300);
   line-height: var(--karma-lineHeight-300);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-text);
   margin-bottom: 8px;
 }
@@ -150,7 +135,7 @@ main {
 .timeline h6 {
   font-size: var(--karma-fontSize-300);
   line-height: var(--karma-lineHeight-300);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-text);
   margin-bottom: 8px;
 }
@@ -164,7 +149,7 @@ main {
 .tools h6 {
   font-size: var(--karma-fontSize-300);
   line-height: var(--karma-lineHeight-300);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   color: var(--karma-text);
   margin-bottom: 8px;
 }
@@ -202,7 +187,7 @@ main {
 .finish-section-heading {
   font-size: var(--karma-fontSize-600);
   line-height: var(--karma-lineHeight-600);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-semibold);
   letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-align: center;

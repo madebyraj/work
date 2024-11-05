@@ -74,7 +74,7 @@ main {
 
 #head {
   font-size: var(--karma-fontSize-600);
-  font-weight: var(--karma-fontWeight-medium);
+  font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-tighter);
   line-height: var(--karma-lineHeight-600);
   margin-bottom: 16px;

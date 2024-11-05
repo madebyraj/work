@@ -71,7 +71,7 @@ main {
 .about-section-headline {
     font-size: var(--karma-fontSize-600);
     line-height: var(--karma-lineHeight-600);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
@@ -124,7 +124,7 @@ main {
     max-width: 560px;
     font-size: var(--karma-fontSize-600);
     line-height: var(--karma-lineHeight-600);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
@@ -151,7 +151,7 @@ main {
 .cricket-story-heading {
     font-size: var(--karma-fontSize-400);
     line-height: var(--karma-lineHeight-400);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
@@ -181,7 +181,7 @@ main {
 .snap-section-heading {
     font-size: var(--karma-fontSize-400);
     line-height: var(--karma-lineHeight-400);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
@@ -218,7 +218,7 @@ main {
 .music-section-heading {
     font-size: var(--karma-fontSize-400);
     line-height: var(--karma-lineHeight-400);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-semibold);
     letter-spacing: var(--karma-letterSpacing-tight);
     color: var(--karma-text);
 }
