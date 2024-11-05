@@ -47,3 +47,15 @@
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-MediumItalic.woff") format("woff");
 }
+
+
+
+/* Marfa */
+
+@font-face {
+    font-family: 'Marfa';
+    font-style: normal;
+    font-weight: 1 1000;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Marfa/ABCMarfa-Variable.woff2") format("woff2");
+}
