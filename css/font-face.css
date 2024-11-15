@@ -1,61 +1,9 @@
-/* Gilroy */
+/* Figma Sans */
 
 @font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-BoldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Semibold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: italic;
-    font-weight: 500 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-SemiboldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Medium.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-MediumItalic.woff") format("woff");
-}
-
-
-
-/* Marfa */
-
-@font-face {
-    font-family: 'Marfa';
+    font-family: 'Figma Sans';
     font-style: normal;
     font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Marfa/ABCMarfa-Variable.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/figma-sans.woff2") format("woff2");
 }
