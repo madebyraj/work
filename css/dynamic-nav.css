@@ -240,7 +240,7 @@
         justify-content: center;
         font-size: var(--karma-fontSize-500);
         line-height: var(--karma-lineHeight-500);
-        font-weight: var(--karma-fontWeight-semibold);
+        font-weight: var(--karma-fontWeight-medium);
         transition: all 200ms ease-out;
     }
 

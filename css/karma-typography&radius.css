@@ -8,18 +8,16 @@
 
     /* Font Faces */
 
-    --karma-font-sans: Figma Sans, system-ui, Helvetica, Arial, sans-serif;
-    --karma-font-serif: Newsreader, Times New Roman, serif;
-    --karma-font-mono: Nitti, Menlo, Courier, monospace;
+    --karma-font-sans: Our Lexend, system-ui, Helvetica, Arial, sans-serif;
+    --karma-font-serif: Denton, Times New Roman, serif;
+    --karma-font-mono: Overpass Mono, Nitti, Menlo, Courier, monospace;
 
 
 
     /* Fonts Weights */
 
-    --karma-fontWeight-light: 300;
     --karma-fontWeight-regular: 400;
     --karma-fontWeight-medium: 500;
-    --karma-fontWeight-semibold: 600;
     --karma-fontWeight-bold: 700;
 
 

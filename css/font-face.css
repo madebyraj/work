@@ -1,9 +1,81 @@
-/* Figma Sans */
+/* Our Lexend */
 
 @font-face {
-    font-family: 'Figma Sans';
+    font-family: 'Our Lexend';
     font-style: normal;
-    font-weight: 1 1000;
+    font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/figma-sans.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Our Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Our-lexend/our-lexend-regular.woff") format("woff");
+}
+
+
+
+/* Denton */
+
+@font-face {
+    font-family: 'Denton';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Denton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Denton/Denton-Regular.woff") format("woff");
+}
+
+
+
+/* Overpass Mono */
+
+@font-face {
+    font-family: 'Overpass Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Overpass-Mono/OverpassMono-Bold.woff2") format("woff");
+}
+
+@font-face {
+    font-family: 'Overpass Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Overpass-Mono/OverpassMono-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Overpass Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Overpass-Mono/OverpassMono-Regular.woff2") format("woff");
 }
