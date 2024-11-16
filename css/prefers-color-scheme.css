@@ -1,6 +1,5 @@
 /* Linked CSS Files */
 
-@import url('./variables.css');
 @import url('./karma-semantics.css');
 
 
@@ -38,9 +37,9 @@
     --karma-text-tertiary: var(--karma-gray-500);
     --karma-text-quaternary: var(--karma-gray-600);
 
-    --karma-button-background: var(--karma-blue-500);
-    --karma-button-background-hover: var(--karma-blue-400);
-    --karma-button-background-active: var(--karma-blue-300);
+    --karma-button-background: rgba(10, 132, 255);
+    --karma-button-background-hover: rgba(71, 193, 255);
+    --karma-button-background-active: rgba(56, 178, 255);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -54,7 +53,7 @@
     --karma-button-secondary-color-hover: var(--karma-white-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-    --karma-link-color: var(--karma-blue-400);
+    --karma-link-color: rgba(20, 142, 255);
 
 }
 
@@ -93,9 +92,9 @@
     --karma-text-tertiary: var(--karma-gray-500);
     --karma-text-quaternary: var(--karma-gray-400);
 
-    --karma-button-background: var(--karma-blue-500);
-    --karma-button-background-hover: var(--karma-blue-600);
-    --karma-button-background-active: var(--karma-blue-700);
+    --karma-button-background: rgba(0, 122, 255);
+    --karma-button-background-hover: rgba(0, 69, 183);
+    --karma-button-background-active: rgba(0, 92, 215);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -109,6 +108,6 @@
     --karma-button-secondary-color-hover: var(--karma-black-900);
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-    --karma-link-color: var(--karma-blue-500);
+    --karma-link-color: rgba(0, 112, 245);
 
 }

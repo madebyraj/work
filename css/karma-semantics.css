@@ -84,17 +84,6 @@
     --karma-gray-800: rgba(21, 23, 25);
     --karma-gray-900: rgba(13, 15, 17);
 
-    --karma-blue-50: rgba(230, 244, 255);
-    --karma-blue-100: rgba(215, 237, 255);
-    --karma-blue-200: rgba(171, 219, 255);
-    --karma-blue-300: rgba(117, 191, 255);
-    --karma-blue-400: rgba(69, 163, 254);
-    --karma-blue-500: rgba(0, 116, 232);
-    --karma-blue-600: rgba(0, 95, 203);
-    --karma-blue-700: rgba(0, 75, 169);
-    --karma-blue-800: rgba(0, 60, 150);
-    --karma-blue-900: rgba(0, 41, 102);
-
 
 
 
@@ -130,9 +119,9 @@
     --karma-text-tertiary: var(--karma-gray-500);
     --karma-text-quaternary: var(--karma-gray-400);
 
-    --karma-button-background: var(--karma-blue-500);
-    --karma-button-background-hover: var(--karma-blue-600);
-    --karma-button-background-active: var(--karma-blue-700);
+    --karma-button-background: rgba(0, 122, 255);
+    --karma-button-background-hover: rgba(0, 69, 183);
+    --karma-button-background-active: rgba(0, 92, 215);
 
     --karma-button-color: var(--karma-white-900);
     --karma-button-color-hover: var(--karma-button-color);
@@ -148,7 +137,7 @@
     --karma-button-secondary-color-active: var(--karma-button-color-hover);
     --karma-button-secondary-disabled-opacity: 0.42;
 
-    --karma-link-color: var(--karma-blue-500);
+    --karma-link-color: rgba(0, 112, 245);
     --karma-link-disabled-opacity: 0.42;
 
 
@@ -163,14 +152,14 @@
         --karma-globalnav-background: var(--karma-black-600);
         --karma-globalnav-background-opened: var(--karma-black-600);
         --karma-globalnav-keyline-color: var(--karma-white-100);
-    
+
         --karma-globalnav-color: var(--karma-gray-300);
         --karma-globalnav-color-hover: var(--karma-white-900);
         --karma-globalnav-color-disabled: var(--karma-gray-600);
-    
+
         --karma-globalfooter-background: var(--karma-fill);
         --karma-globalfooter-keyline-color: var(--karma-white-100);
-    
+
         --karma-globalfooter-color: var(--karma-gray-300);
         --karma-globalfooter-color-hover: var(--karma-white-900);
         --karma-globalfooter-color-disabled: var(--karma-gray-700);
@@ -186,9 +175,9 @@
         --karma-text-tertiary: var(--karma-gray-500);
         --karma-text-quaternary: var(--karma-gray-600);
 
-        --karma-button-background: var(--karma-blue-500);
-        --karma-button-background-hover: var(--karma-blue-400);
-        --karma-button-background-active: var(--karma-blue-300);
+        --karma-button-background: rgba(10, 132, 255);
+        --karma-button-background-hover: rgba(71, 193, 255);
+        --karma-button-background-active: rgba(56, 178, 255);
 
         --karma-button-color: var(--karma-white-900);
         --karma-button-color-hover: var(--karma-button-color);
@@ -197,12 +186,12 @@
         --karma-button-secondary-background: var(--karma-neutral-700);
         --karma-button-secondary-background-hover: var(--karma-neutral-600);
         --karma-button-secondary-background-active: var(--karma-neutral-500);
-    
+
         --karma-button-secondary-color: var(--karma-gray-300);
         --karma-button-secondary-color-hover: var(--karma-white-900);
         --karma-button-secondary-color-active: var(--karma-button-color-hover);
 
-        --karma-link-color: var(--karma-blue-400);
+        --karma-link-color: rgba(20, 142, 255);
 
     }
 }
