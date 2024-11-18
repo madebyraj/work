@@ -73,10 +73,9 @@ main {
 }
 
 #head {
-  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-650);
   font-weight: var(--karma-fontWeight-bold);
-  /* letter-spacing: var(--karma-letterSpacing-tighter); */
+  letter-spacing: var(--karma-letterSpacing-tighter);
   line-height: var(--karma-lineHeight-650);
   margin-bottom: 16px;
   color: var(--karma-text);
@@ -163,11 +162,10 @@ main {
 }
 
 #problem-s h6 {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -192,11 +190,10 @@ main {
 }
 
 #sol-h {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -363,7 +360,6 @@ main {
 }
 
 #ap-head {
-  font-family: var(--karma-font-serif);
   font-size: var(--karma-fontSize-500);
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
@@ -386,11 +382,10 @@ main {
 }
 
 #re-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -442,11 +437,10 @@ main {
 }
 
 #q-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -465,11 +459,10 @@ main {
 }
 
 #in-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -505,11 +498,10 @@ main {
 }
 
 #de-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -545,11 +537,10 @@ main {
 }
 
 #pr-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -602,11 +593,10 @@ main {
 }
 
 #ev-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -649,11 +639,10 @@ main {
 }
 
 #lr-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -671,11 +660,10 @@ main {
 }
 
 #ns-head {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
+  font-size: var(--karma-fontSize-500);
+  line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   margin-bottom: 32px;
 }
@@ -699,11 +687,10 @@ main {
 }
 
 .finish-section-heading {
-  font-family: var(--karma-font-serif);
-  font-size: var(--karma-fontSize-650);
-  line-height: var(--karma-lineHeight-650);
+  font-size: var(--karma-fontSize-600);
+  line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--karma-text);
   text-align: center;
 }
