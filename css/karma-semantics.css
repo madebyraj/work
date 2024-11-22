@@ -93,8 +93,8 @@
 
 
     --karma-globalnav-height: 60px;
-    --karma-globalnav-background: var(--karma-white-600);
-    --karma-globalnav-background-opened: var(--karma-white-600);
+    --karma-globalnav-background: var(--karma-white-900);
+    --karma-globalnav-background-opened: var(--karma-white-900);
     --karma-globalnav-keyline-color: var(--karma-black-100);
 
     --karma-globalnav-color: var(--karma-gray-700);
@@ -149,8 +149,8 @@
 @media (prefers-color-scheme: dark) {
     :root {
 
-        --karma-globalnav-background: var(--karma-black-600);
-        --karma-globalnav-background-opened: var(--karma-black-600);
+        --karma-globalnav-background: var(--karma-black-900);
+        --karma-globalnav-background-opened: var(--karma-black-900);
         --karma-globalnav-keyline-color: var(--karma-white-100);
 
         --karma-globalnav-color: var(--karma-gray-300);
