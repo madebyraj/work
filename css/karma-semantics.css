@@ -17,6 +17,36 @@
 
 
 
+
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --border: rgb(255, 255, 255, 0.20);
+    --border-hover: rgb(255, 255, 255, 0.60);
+    --system-background: var(--black);
+    --primary: var(--white);
+    --secondary: rgb(255, 255, 255, 0.70);
+    --tertiary: rgb(255, 255, 255, 0.40);
+
+    --blue: rgba(51, 96, 252);
+    --green: rgba(6, 194, 112);
+    --green-secondary: rgba(94, 255, 185);
+    --citron: rgba(210, 255, 209);
+
+    --footer-background: rgba(13, 13, 13);
+    --navbar-icon-background: rgb(0, 0, 0, 0.70);
+    --card-background: linear-gradient(180deg, #000 0%, #0D0D0D 50%, #1A1A1A 100%);
+    --navbar-link-background-hover: linear-gradient(90deg, #000 0%, #0A0A0A 50%, #141414 100%);
+
+    --green-text-shadow: 0px 5px 20px rgba(94, 255, 185, 0.20), 0px -5px 15px rgba(94, 255, 185, 0.08), 0px 0px 30px rgba(255, 255, 255, 0.32);
+    --blue-text-shadow: 0px 5px 20px rgba(51, 96, 252, 0.20), 0px -5px 15px rgba(51, 96, 252, 0.08), 0px 0px 30px rgba(255, 255, 255, 0.32);
+    --citron-text-shadow: 0px 5px 20px rgba(210, 255, 209, 0.20), 0px -5px 15px rgba(210, 255, 209, 0.08), 0px 0px 30px rgba(255, 255, 255, 0.32);
+    --inner-card-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    
+    --backdrop-filter: saturate(180%) blur(20px);
+
+
+
+
     /* --Depth-- */
 
     --karma-tile-shadow: 0px 2px 12px rgba(0 0 0/0.08);
