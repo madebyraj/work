@@ -204,11 +204,21 @@ main {
   justify-content: center;
   text-decoration: none;
   transition: 200ms ease-out;
+  gap: 4px;
 }
 
-.back-to-home:hover {
+.back-to-home:hover .link-copy {
   cursor: var(--cursor-pointer), auto;
   text-decoration: underline var(--karma-link-color);
+}
+
+.arrow-left {
+  width: 32px;
+  height: 32px;
+}
+
+.arrow-left path {
+  fill: var(--karma-link-color);
 }
 
 
