@@ -83,7 +83,7 @@ main {
   font-size: var(--karma-fontSize-850);
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  letter-spacing: var(--karma-letterSpacing-condensed);
   color: var(--karma-text);
 }
 
@@ -91,7 +91,7 @@ main {
   font-size: var(--karma-fontSize-850);
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  letter-spacing: var(--karma-letterSpacing-condensed);
   color: var(--karma-text-tertiary);
 }
 
