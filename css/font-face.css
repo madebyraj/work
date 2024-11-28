@@ -1,25 +1,17 @@
 /* Gilroy */
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'GTA Art Deco';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Bold.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/gtaartdeco-medium.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-SemiBold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Gilroy';
+    font-family: 'GTA Art Deco';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Gilroy/Gilroy-Medium.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/gtaartdeco-regular.woff") format("woff");
 }
