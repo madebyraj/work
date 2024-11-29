@@ -1,17 +1,17 @@
-/* Gilroy */
+/* Inter */
 
 @font-face {
-    font-family: 'GTA Art Deco';
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 600 700;
+    font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/gtaartdeco-medium.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/InterVariable.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'GTA Art Deco';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/gtaartdeco-regular.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/InterVariable-Italic.woff2") format("woff2");
 }
