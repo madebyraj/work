@@ -5,13 +5,5 @@
     font-style: normal;
     font-weight: 1 1000;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/InterVariable.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 1 1000;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/InterVariable-Italic.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Inter-var.woff2") format("woff2");
 }
