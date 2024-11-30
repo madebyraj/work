@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  padding-top: var(--karma-globalnav-height);
+  padding-top: var(--globalnav-height);
   background-color: var(--karma-body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
@@ -165,7 +165,6 @@ main {
 
 .project:hover .project-title {
   text-decoration: underline;
-  color: var(--karma-link-color);
 }
 
 .project-information {
@@ -250,7 +249,6 @@ main {
 
 .article:hover .article-title {
   text-decoration: underline;
-  color: var(--karma-link-color);
 }
 
 .article-information {

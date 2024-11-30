@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  padding-top: var(--karma-globalnav-height);
+  padding-top: var(--globalnav-height);
   background-color: var(--karma-body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
@@ -80,13 +80,13 @@ main {
   font-size: inherit;
   line-height: inherit;
   font-weight: inherit;
-  color: var(--karma-link-color);
+  color: var(--color-link);
   transition: 200ms ease-out;
 }
 
 .link-to-prototype:hover {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-link-color);
+  text-decoration: underline var(--color-link);
 }
 
 .link-to-video {
@@ -95,13 +95,13 @@ main {
   font-size: inherit;
   line-height: inherit;
   font-weight: inherit;
-  color: var(--karma-link-color);
+  color: var(--color-link);
   transition: 200ms ease-out;
 }
 
 .link-to-video:hover {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-link-color);
+  text-decoration: underline var(--color-link);
 }
 
 .header-section-title-wrapper {
@@ -196,7 +196,7 @@ main {
 .back-to-home {
   text-decoration: none;
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-link-color);
+  color: var(--color-link);
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   display: flex;
@@ -209,7 +209,7 @@ main {
 
 .back-to-home:hover .link-copy {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--karma-link-color);
+  text-decoration: underline var(--color-link);
 }
 
 .arrow-left {
@@ -218,7 +218,7 @@ main {
 }
 
 .arrow-left path {
-  fill: var(--karma-link-color);
+  fill: var(--color-link);
 }
 
 

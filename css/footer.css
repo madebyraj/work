@@ -22,8 +22,7 @@
 
 .footer {
     margin: auto;
-    border-top: 1px solid var(--karma-globalfooter-keyline-color);
-    background-color: var(--karma-globalfooter-background);
+    background-color: var(--globalfooter-background);
     padding: 0 96px;
     overflow: hidden;
 }
@@ -56,12 +55,12 @@
 }
 
 .link-svg {
-    fill: var(--karma-globalfooter-color);
+    fill: var(--globalfooter-color);
 }
 
 .link-svg:hover {
     cursor: var(--cursor-pointer), auto;
-    fill: var(--karma-globalfooter-color-hover);
+    fill: var(--globalfooter-color-hover);
 }
 
 .design-and-code {
@@ -69,7 +68,7 @@
     line-height: var(--karma-lineHeight-200);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-wide);
-    color: var(--karma-globalfooter-color);
+    color: var(--globalfooter-color);
 }
 
 

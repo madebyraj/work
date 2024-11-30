@@ -1,9 +1,25 @@
 /* Inter */
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Averta Std';
     font-style: normal;
-    font-weight: 1 1000;
+    font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Inter-var.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/AvertaStd-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Averta Std';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/AvertaStd-Semibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Averta Std';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/AvertaStd-Regular.woff") format("woff");
 }
