@@ -151,6 +151,8 @@
 /* Theme Button */
 
 .theme-toggle {
+    width: 32px;
+    height: 32px;
     padding: 4px;
     background-color: var(--karma-button-secondary-background);
     margin-left: 32px;
@@ -176,8 +178,9 @@
 }
 
 .theme-toggle svg {
-    width: 24px;
-    height: 24px;
+    margin: auto;
+    width: 22px;
+    height: 22px;
     fill: var(--karma-button-secondary-color);
     transition: fill 0.3s ease-out;
 }

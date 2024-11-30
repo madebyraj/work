@@ -46,6 +46,7 @@ body {
 }
 
 main {
+  position: relative;
   padding: 0 96px;
   margin: auto;
   min-height: 100vh;
