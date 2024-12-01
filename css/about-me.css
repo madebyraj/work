@@ -42,7 +42,7 @@ html {
 
 body {
     padding-top: var(--globalnav-height);
-    background-color: var(--karma-body-background);
+    background-color: var(--body-background);
     cursor: var(--cursor-default), auto;
     animation: pageLoading 950ms;
 }
@@ -73,7 +73,7 @@ main {
     line-height: var(--karma-lineHeight-600);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-text);
+    color: var(--text);
 }
 
 .about-section-story-wrapper {
@@ -98,7 +98,7 @@ main {
 }
 
 .journey-copy {
-    color: var(--karma-text);
+    color: var(--text);
     font-size: var(--karma-fontSize-250);
     line-height: var(--karma-lineHeight-250);
     font-weight: var(--karma-fontWeight-regular);
@@ -126,7 +126,7 @@ main {
     line-height: var(--karma-lineHeight-600);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-text);
+    color: var(--text);
 }
 
 .cricket-section {
@@ -153,11 +153,11 @@ main {
     line-height: var(--karma-lineHeight-400);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-text);
+    color: var(--text);
 }
 
 .cricket-story-copy {
-    color: var(--karma-text);
+    color: var(--text);
     font-size: var(--karma-fontSize-250);
     line-height: var(--karma-lineHeight-250);
     font-weight: var(--karma-fontWeight-regular);
@@ -183,7 +183,7 @@ main {
     line-height: var(--karma-lineHeight-400);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-text);
+    color: var(--text);
 }
 
 .snaps {
@@ -200,7 +200,7 @@ main {
 }
 
 .snap-section-copy {
-    color: var(--karma-text);
+    color: var(--text);
     font-size: var(--karma-fontSize-250);
     line-height: var(--karma-lineHeight-250);
     font-weight: var(--karma-fontWeight-regular);
@@ -220,7 +220,7 @@ main {
     line-height: var(--karma-lineHeight-400);
     font-weight: var(--karma-fontWeight-medium);
     letter-spacing: var(--karma-letterSpacing-tight);
-    color: var(--karma-text);
+    color: var(--text);
 }
 
 .music-covers {
@@ -237,7 +237,7 @@ main {
 }
 
 .music-section-copy {
-    color: var(--karma-text);
+    color: var(--text);
     font-size: var(--karma-fontSize-250);
     line-height: var(--karma-lineHeight-250);
     font-weight: var(--karma-fontWeight-regular);

@@ -151,10 +151,9 @@
 /* Theme Button */
 
 .theme-toggle {
-    width: 32px;
-    height: 32px;
-    padding: 4px;
-    background-color: var(--karma-button-secondary-background);
+    width: 28px;
+    height: 28px;
+    background-color: var(--button-secondary-background);
     margin-left: 32px;
     border: none;
     border-radius: var(--karma-border-radius-full);
@@ -166,22 +165,22 @@
 }
 
 .theme-toggle:hover {
-    background-color: var(--karma-button-secondary-background-hover);
+    background-color: var(--button-secondary-background-hover);
 }
 
 .theme-toggle:hover svg {
-    fill: var(--karma-button-secondary-color-hover);
+    fill: var(--button-secondary-color-hover);
 }
 
 .theme-toggle:active {
-    background-color: var(--karma-button-secondary-background-active);
+    background-color: var(--button-secondary-background-active);
 }
 
 .theme-toggle svg {
     margin: auto;
-    width: 22px;
-    height: 22px;
-    fill: var(--karma-button-secondary-color);
+    width: 20px;
+    height: 20px;
+    fill: var(--button-secondary-color);
     transition: fill 0.3s ease-out;
 }
 

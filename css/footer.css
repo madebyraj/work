@@ -85,7 +85,6 @@
 
     .footer {
         margin: auto;
-        background-color: var(--karma-globalfooter-background);
         padding: 0 48px;
         overflow: hidden;
     }

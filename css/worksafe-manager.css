@@ -39,7 +39,7 @@ html {
 
 body {
   padding-top: var(--globalnav-height);
-  background-color: var(--karma-body-background);
+  background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
@@ -70,14 +70,14 @@ main {
   line-height: var(--karma-lineHeight-700);
   letter-spacing: var(--karma-letterSpacing-tight);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .project-overview {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text-secondary);
+  color: var(--text-secondary);
 }
 
 .project-information {
@@ -92,42 +92,42 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .role p {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
-  color: var(--karma-text-secondary);
+  color: var(--text-secondary);
 }
 
 .timeline h6 {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .timeline p {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
-  color: var(--karma-text-secondary);
+  color: var(--text-secondary);
 }
 
 .tools h6 {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .tools p {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
-  color: var(--karma-text-secondary);
+  color: var(--text-secondary);
 }
 
 .design-deck-section {
@@ -159,14 +159,14 @@ main {
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   text-align: center;
 }
 
 .back-to-home {
   text-decoration: none;
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--color-link);
+  color: var(--link-color);
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   display: flex;
@@ -179,7 +179,7 @@ main {
 
 .back-to-home:hover .link-copy {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--color-link);
+  text-decoration: underline var(--link-color);
 }
 
 .arrow-left {
@@ -188,7 +188,7 @@ main {
 }
 
 .arrow-left path {
-  fill: var(--color-link);
+  fill: var(--link-color);
 }
 
 

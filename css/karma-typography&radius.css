@@ -24,13 +24,13 @@
 
     /* Letter Spacings */
 
-    --karma-letterSpacing-condensed: -0.05em;
-    --karma-letterSpacing-tighter: -0.025em;
-    --karma-letterSpacing-tight: -0.0125em;
+    --karma-letterSpacing-condensed: -0.075em;
+    --karma-letterSpacing-tighter: -0.05em;
+    --karma-letterSpacing-tight: -0.025em;
     --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.0125em;
-    --karma-letterSpacing-wider: 0.025em;
-    --karma-letterSpacing-expanded: 0.05em;
+    --karma-letterSpacing-wide: 0.025em;
+    --karma-letterSpacing-wider: 0.05em;
+    --karma-letterSpacing-expanded: 0.075em;
 
 
 

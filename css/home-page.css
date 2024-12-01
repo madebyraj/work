@@ -40,7 +40,7 @@ html {
 
 body {
   padding-top: var(--globalnav-height);
-  background-color: var(--karma-body-background);
+  background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
@@ -85,7 +85,7 @@ main {
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-tighter);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .hero-headline-do {
@@ -93,7 +93,7 @@ main {
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
   letter-spacing: var(--karma-letterSpacing-tighter);
-  color: var(--karma-text-tertiary);
+  color: var(--text-tertiary);
 }
 
 .currently {
@@ -106,14 +106,14 @@ main {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-bold);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .currently-where {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text-tertiary);
+  color: var(--text-tertiary);
 }
 
 
@@ -139,7 +139,7 @@ main {
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 #project-container {
@@ -179,7 +179,7 @@ main {
   line-height: var(--karma-lineHeight-550);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   text-overflow: ellipsis;
 }
 
@@ -188,7 +188,7 @@ main {
   line-height: var(--karma-lineHeight-250);
   font-weight: var(--karma-fontWeight-regular);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text-secondary);
+  color: var(--text-secondary);
   text-overflow: ellipsis;
 }
 
@@ -221,7 +221,7 @@ main {
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 #writing-container {
@@ -263,7 +263,7 @@ main {
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   text-overflow: ellipsis;
 }
 
@@ -272,7 +272,7 @@ main {
   line-height: var(--karma-lineHeight-200);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text-tertiary);
+  color: var(--text-tertiary);
   text-overflow: ellipsis;
 }
 

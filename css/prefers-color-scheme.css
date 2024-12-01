@@ -25,33 +25,33 @@
     --globalfooter-color-hover: #1D1D1F;
     --globalfooter-color-disabled: #515154;
 
-    --karma-body-background: var(--karma-white-900);
+    --body-background: #FFFFFF;
 
-    --karma-fill: var(--karma-white-900);
-    --karma-fill-secondary: var(--karma-gray-100);
-    --karma-fill-tertiary: var(--karma-gray-200);
+    --fill: #FFFFFF;
+    --fill-secondary: #FBFBFD;
+    --fill-tertiary: #F5F5F7;
 
-    --karma-text: #000000;
-    --karma-text-secondary: rgba(60, 60, 67, 0.76);
-    --karma-text-tertiary: rgba(60, 60, 67, 0.56);
+    --text: #000000;
+    --text-secondary: rgba(60, 60, 67, 0.76);
+    --text-tertiary: rgba(60, 60, 67, 0.56);
 
-    --color-button-background: #0071E3;
-    --color-button-background-hover: #0077ED;
-    --color-button-background-active: #0071E3;
+    --button-background: #0071E3;
+    --button-background-hover: #0077ED;
+    --button-background-active: #0071E3;
 
-    --color-button-text: #FFFFFF;
-    --color-button-text-hover: var(--color-button-text);
-    --color-button-text-active: var(--color-button-text-hover);
+    --button-color: #FFFFFF;
+    --button-color-hover: var(--button-color);
+    --button-color-active: var(--button-color-hover);
 
-    --karma-button-secondary-background: var(--karma-gray-50);
-    --karma-button-secondary-background-hover: var(--karma-gray-100);
-    --karma-button-secondary-background-active: var(--karma-gray-200);
+    --button-secondary-background: #1D1D1F;
+    --button-secondary-background-hover: #272729;
+    --button-secondary-background-active: #18181A;
 
-    --karma-button-secondary-color: var(--karma-gray-700);
-    --karma-button-secondary-color-hover: var(--karma-black-900);
-    --karma-button-secondary-color-active: var(--karma-button-color-hover);
+    --button-secondary-color: #FFFFFF;
+    --button-secondary-color-hover: var(--button-secondary-color);
+    --button-secondary-color-active: var(--button-secondary-color-hover);
 
-    --color-link: #0066CC;
+    --link-color: #0066CC;
 
 }
 
@@ -75,38 +75,38 @@
     --globalnav-color-hover: #2997FF;
     --globalnav-color-disabled: #F5F5F7;
 
-    --globalfooter-background: #1D1D1F;
+    --globalfooter-background: #1C1C1E;
 
     --globalfooter-color: #A1A1A6;
     --globalfooter-color-hover: #F5F5F7;
     --globalfooter-color-disabled: #A1A1A6;
 
-    --karma-body-background: var(--karma-gray-900);
+    --body-background: #000000;
 
-    --karma-fill: var(--karma-black-900);
-    --karma-fill-secondary: var(--karma-gray-800);
-    --karma-fill-tertiary: var(--karma-gray-700);
+    --fill: #161617;
+    --fill-secondary: #1D1D1F;
+    --fill-tertiary: #333336;
 
-    --karma-text: #FFFFFF;
-    --karma-text-secondary: rgba(235, 235, 245, 0.7);
-    --karma-text-tertiary: rgba(235, 235, 245, 0.5);
+    --text: #FFFFFF;
+    --text-secondary: rgba(235, 235, 245, 0.7);
+    --text-tertiary: rgba(235, 235, 245, 0.5);
 
-    --color-button-background: #0071E3;
-    --color-button-background-hover: #0077ED;
-    --color-button-background-active: #0071E3;
+    --button-background: #0071E3;
+    --button-background-hover: #0077ED;
+    --button-background-active: #0071E3;
 
-    --color-button-text: #FFFFFF;
-    --color-button-text-hover: var(--color-button-text);
-    --color-button-text-active: var(--color-button-text-hover);
+    --button-color: #FFFFFF;
+    --button-color-hover: var(--button-color);
+    --button-color-active: var(--button-color-hover);
 
-    --karma-button-secondary-background: var(--karma-gray-700);
-    --karma-button-secondary-background-hover: var(--karma-gray-600);
-    --karma-button-secondary-background-active: var(--karma-gray-500);
+    --button-secondary-background: #F5F5F7;
+    --button-secondary-background-hover: #FFFFFF;
+    --button-secondary-background-active: #EDEDF2;
 
-    --karma-button-secondary-color: var(--karma-gray-300);
-    --karma-button-secondary-color-hover: var(--karma-white-900);
-    --karma-button-secondary-color-active: var(--karma-button-color-hover);
+    --button-secondary-color: #000000;
+    --button-secondary-color-hover: var(--button-secondary-color);
+    --button-secondary-color-active: var(--button-secondary-color-hover);
 
-    --color-link: #2997FF;
+    --link-color: #2997FF;
 
 }

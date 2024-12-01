@@ -41,7 +41,7 @@ html {
 
 body {
   padding-top: var(--globalnav-height);
-  background-color: var(--karma-body-background);
+  background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
 }
@@ -76,14 +76,14 @@ main {
   letter-spacing: var(--karma-letterSpacing-tighter);
   line-height: var(--karma-lineHeight-650);
   margin-bottom: 16px;
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .po {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -100,49 +100,49 @@ main {
   font-size: var(--karma-fontSize-300);
   line-height: var(--karma-lineHeight-300);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .r-r p {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .p-c h6 {
   font-size: var(--karma-fontSize-300);
   line-height: var(--karma-lineHeight-300);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .p-c p {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .tools h6 {
   font-size: var(--karma-fontSize-300);
   line-height: var(--karma-lineHeight-300);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .tools p {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .why-i {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   /* margin-bottom: 24px; */
 }
 
@@ -164,7 +164,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -172,7 +172,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
 }
 
 .design-goal {
@@ -192,7 +192,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -223,7 +223,7 @@ main {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -231,7 +231,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
@@ -262,7 +262,7 @@ main {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -270,7 +270,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
@@ -301,7 +301,7 @@ main {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -309,7 +309,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
@@ -340,7 +340,7 @@ main {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -348,7 +348,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
@@ -362,7 +362,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -384,7 +384,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -392,7 +392,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -400,7 +400,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -411,7 +411,7 @@ main {
 }
 
 .full-research {
-  color: var(--color-link);
+  color: var(--link-color);
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
@@ -426,7 +426,7 @@ main {
 
 .full-research:hover .link-copy{
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--color-link);
+  text-decoration: underline var(--link-color);
 }
 
 .questions {
@@ -439,7 +439,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -447,7 +447,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -461,7 +461,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -469,7 +469,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -500,7 +500,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -508,7 +508,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -539,7 +539,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -547,7 +547,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -558,7 +558,7 @@ main {
 }
 
 #pr-link {
-  color: var(--color-link);
+  color: var(--link-color);
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
@@ -574,7 +574,7 @@ main {
 
 #pr-link:hover .link-copy {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--color-link);
+  text-decoration: underline var(--link-color);
 }
 
 .arrow-top-right {
@@ -583,7 +583,7 @@ main {
 }
 
 .arrow-top-right path {
-  fill: var(--color-link);
+  fill: var(--link-color);
 }
 
 .proto-bg {
@@ -604,7 +604,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -612,12 +612,12 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
 .observe {
-  color: var(--karma-text);
+  color: var(--text);
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
@@ -650,7 +650,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -658,7 +658,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -671,7 +671,7 @@ main {
   line-height: var(--karma-lineHeight-500);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 32px;
 }
 
@@ -679,7 +679,7 @@ main {
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--karma-text);
+  color: var(--text);
   margin-bottom: 16px;
 }
 
@@ -698,14 +698,14 @@ main {
   line-height: var(--karma-lineHeight-600);
   font-weight: var(--karma-fontWeight-medium);
   letter-spacing: var(--karma-letterSpacing-tight);
-  color: var(--karma-text);
+  color: var(--text);
   text-align: center;
 }
 
 .back-to-home {
   text-decoration: none;
   font-weight: var(--karma-fontWeight-medium);
-  color: var(--color-link);
+  color: var(--link-color);
   font-size: var(--karma-fontSize-250);
   line-height: var(--karma-lineHeight-250);
   display: flex;
@@ -718,7 +718,7 @@ main {
 
 .back-to-home:hover .link-copy {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--color-link);
+  text-decoration: underline var(--link-color);
 }
 
 .arrow-left {
@@ -727,7 +727,7 @@ main {
 }
 
 .arrow-left path {
-  fill: var(--color-link);
+  fill: var(--link-color);
 }
 
 
