@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'GTA Art Deco';
     font-style: normal;
-    font-weight: 600 700;
+    font-weight: 500 700;
     font-display: swap;
     src: local('☺'), url("/assets/Fonts/GTAArtDeco-Medium.woff") format("woff");
 }

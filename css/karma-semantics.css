@@ -36,7 +36,7 @@
 
     /* Width */
 
-    --global-max-width: 1512px;
+    --global-max-width: 1400px;
     --content-max-width: 1024px;
 
 
@@ -47,10 +47,10 @@
 
 
 
-    --globalnav-height: 52px;
+    --globalnav-height: 56px;
     --globalnav-background: rgba(255, 255, 255, 0.72);
     --globalnav-background-opened: rgba(255, 255, 255, 0.9);
-    --globalnav-keyline-color: rgba(0, 0, 0, 0.16);
+    --globalnav-keyline-color: rgba(0, 0, 0, 0.12);
 
     --globalnav-color: #000000;
     --globalnav-color-hover: #0066CC;
@@ -64,7 +64,7 @@
 
     --body-background: #FFFFFF;
 
-    --separator: rgba(0, 0, 0, 0.16);
+    --separator: rgba(0, 0, 0, 0.12);
 
     --fill: #FFFFFF;
     --fill-secondary: #FBFBFD;
@@ -104,9 +104,9 @@
 @media (prefers-color-scheme: dark) {
     :root {
 
-        --globalnav-background: rgba(29, 29, 31, 0.72);
+        --globalnav-background: rgba(22, 22, 23, 0.72);
         --globalnav-background-opened: rgba(29, 29, 31, 0.9);
-        --globalnav-keyline-color: rgba(255, 255, 255, 0.24);
+        --globalnav-keyline-color: rgba(255, 255, 255, 0.16);
 
         --globalnav-color: #FFFFFF;
         --globalnav-color-hover: #2997FF;
@@ -118,9 +118,9 @@
         --globalfooter-color-hover: #F5F5F7;
         --globalfooter-color-disabled: #A1A1A6;
 
-        --body-background: #000000;
+        --body-background: #1C1C1E;
 
-        --separator: rgba(255, 255, 255, 0.24);
+        --separator: rgba(255, 255, 255, 0.16);
 
         --fill: #161617;
         --fill-secondary: #1D1D1F;

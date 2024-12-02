@@ -64,10 +64,8 @@
 }
 
 .design-and-code {
-    font-size: var(--karma-fontSize-200);
-    line-height: var(--karma-lineHeight-200);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font: var(--body2-m);
+    letter-spacing: var(--body2-letterspacing);
     color: var(--globalfooter-color);
 }
 
@@ -99,7 +97,7 @@
 
 /* Mobile */
 
-@media (max-width: 735px) {
+@media (max-width: 734px) {
 
     .footer {
         padding: 0 24px;
@@ -108,6 +106,10 @@
     .footer-container {
         padding: 40px 0px;
         flex-direction: column;
+    }
+
+    .design-and-code {
+        font: var(--body2-xxxs);
     }
 
 }

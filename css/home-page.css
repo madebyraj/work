@@ -76,14 +76,12 @@ main {
 .hero-headline {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-16);
+  gap: var(--spacing-24);
 }
 
 .hero-headline-intro {
-  font-size: var(--karma-fontSize-850);
-  line-height: var(--karma-lineHeight-850);
-  font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  font: var(--display-xl);
+  letter-spacing: var(--display-letterspacing);
   color: var(--text);
 }
 
@@ -95,16 +93,14 @@ main {
 }
 
 .tagline {
-  font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-regular);
+  font: var(--body1-xl);
+  letter-spacing: var(--body1-letterspacing);
   color: var(--text-secondary);
 }
 
 .currently {
-  font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-regular);
+  font: var(--body1-xl);
+  letter-spacing: var(--body1-letterspacing);
   color: var(--text-secondary);
 }
 
@@ -127,10 +123,8 @@ main {
 }
 
 .project-section-headline {
-  font-size: var(--karma-fontSize-600);
-  line-height: var(--karma-lineHeight-600);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  font: var(--title3-xl-emphasized);
+  letter-spacing: var(--title3-letterspacing);
   color: var(--text);
 }
 
@@ -167,19 +161,15 @@ main {
 }
 
 .project-title {
-  font-size: var(--karma-fontSize-550);
-  line-height: var(--karma-lineHeight-550);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  font: var(--title3-xl-emphasized);
+  letter-spacing: var(--title3-letterspacing);
   color: var(--text);
   text-overflow: ellipsis;
 }
 
 .project-description {
-  font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-250);
-  font-weight: var(--karma-fontWeight-regular);
-  letter-spacing: var(--karma-letterSpacing-wide);
+  font: var(--body2-xl);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text-secondary);
   text-overflow: ellipsis;
 }
@@ -210,10 +200,8 @@ main {
 }
 
 .writing-section-headline {
-  font-size: var(--karma-fontSize-600);
-  line-height: var(--karma-lineHeight-600);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  font: var(--title3-xl-emphasized);
+  letter-spacing: var(--title3-letterspacing);
   color: var(--text);
 }
 
@@ -252,20 +240,16 @@ main {
 }
 
 .article-title {
-  font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-tight);
+  font: var(--title4-xl-emphasized);
+  letter-spacing: var(--title4-letterspacing);
   color: var(--text);
   text-overflow: ellipsis;
 }
 
 .article-description {
-  font-size: var(--karma-fontSize-200);
-  line-height: var(--karma-lineHeight-200);
-  font-weight: var(--karma-fontWeight-medium);
-  letter-spacing: var(--karma-letterSpacing-wide);
-  color: var(--text-tertiary);
+  font: var(--body3-xl);
+  letter-spacing: var(--body3-letterspacing);
+  color: var(--text-secondary);
   text-overflow: ellipsis;
 }
 
@@ -279,7 +263,7 @@ main {
 }
 
 
-@media (max-width: 1400px) {}
+/* @media (max-width: 1400px) {} */
 
 @media (max-width: 1068px) {
 
@@ -287,23 +271,24 @@ main {
     padding: 0 48px;
   }
 
+  .hero-headline {
+    gap: var(--spacing-16);
+  }
+
   .hero-section-wrapper {
     padding: 96px 0 48px;
   }
 
   .hero-headline-intro {
-    font-size: var(--karma-fontSize-750);
-    line-height: var(--karma-lineHeight-750);
+    font: var(--display-m);
   }
 
   .tagline {
-    font-size: var(--karma-fontSize-350);
-    line-height: var(--karma-lineHeight-350);
+    font: var(--body1-m);
   }
 
   .currently {
-    font-size: var(--karma-fontSize-350);
-    line-height: var(--karma-lineHeight-350);
+    font: var(--body1-m);
   }
 
   /* Project Section */
@@ -315,8 +300,7 @@ main {
   }
 
   .project-section-headline {
-    font-size: var(--karma-fontSize-550);
-    line-height: var(--karma-lineHeight-550);
+    font: var(--title3-m-emphasized);
   }
 
   #project-container {
@@ -330,8 +314,11 @@ main {
   }
 
   .project-title {
-    font-size: var(--karma-fontSize-500);
-    line-height: var(--karma-lineHeight-500);
+    font: var(--title3-m-emphasized);
+  }
+
+  .project-description {
+    font: var(--body2-m);
   }
 
   /* Writing Section */
@@ -343,8 +330,7 @@ main {
   }
 
   .writing-section-headline {
-    font-size: var(--karma-fontSize-550);
-    line-height: var(--karma-lineHeight-550);
+    font: var(--title3-m-emphasized);
   }
 
   #writing-container {
@@ -358,13 +344,16 @@ main {
   }
 
   .article-title {
-    font-size: var(--karma-fontSize-350);
-    line-height: var(--karma-lineHeight-350);
+    font: var(--title4-m-emphasized);
+  }
+
+  .article-description {
+    font: var(--body3-m);
   }
 
 }
 
-@media (max-width: 735px) {
+@media (max-width: 734px) {
 
   main {
     padding: 0 24px;
@@ -379,18 +368,15 @@ main {
   }
 
   .hero-headline-intro {
-    font-size: var(--karma-fontSize-700);
-    line-height: var(--karma-lineHeight-700);
+    font: var(--display-xxxs);
   }
 
   .tagline {
-    font-size: var(--karma-fontSize-300);
-    line-height: var(--karma-lineHeight-300);
+    font: var(--body1-xxxs);
   }
 
   .currently {
-    font-size: var(--karma-fontSize-300);
-    line-height: var(--karma-lineHeight-300);
+    font: var(--body1-xxxs);
   }
 
   /* Project Section */
@@ -402,8 +388,7 @@ main {
   }
 
   .project-section-headline {
-    font-size: var(--karma-fontSize-500);
-    line-height: var(--karma-lineHeight-500);
+    font: var(--title3-xxxs-emphasized);
   }
 
   #project-container {
@@ -417,8 +402,11 @@ main {
   }
 
   .project-title {
-    font-size: var(--karma-fontSize-450);
-    line-height: var(--karma-lineHeight-450);
+    font: var(--title3-xxxs-emphasized);
+  }
+
+  .project-description {
+    font: var(--body2-xxxs);
   }
 
   /* Writing Section */
@@ -430,8 +418,7 @@ main {
   }
 
   .writing-section-headline {
-    font-size: var(--karma-fontSize-500);
-    line-height: var(--karma-lineHeight-500);
+    font: var(--title3-xxxs-emphasized);
   }
 
   #writing-container {
@@ -445,8 +432,11 @@ main {
   }
 
   .article-title {
-    font-size: var(--karma-fontSize-300);
-    line-height: var(--karma-lineHeight-300);
+    font: var(--title4-xxxs-emphasized);
+  }
+
+  .article-description {
+    font: var(--body3-xxxs);
   }
 
 

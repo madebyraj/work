@@ -60,26 +60,24 @@ main {
 .about-section {
     margin: auto;
     max-width: var(--content-max-width);
-    padding: 128px 0 64px;
+    padding: 96px 0 48px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    gap: 48px;
+    gap: var(--spacing-48);
 }
 
 .about-section-headline {
-    font-size: var(--karma-fontSize-600);
-    line-height: var(--karma-lineHeight-600);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
+    font: var(--title3-m-emphasized);
+    letter-spacing: var(--title3-letterspacing);
     color: var(--text);
 }
 
 .about-section-story-wrapper {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 64px;
+    gap: var(--spacing-48);
 }
 
 .me {
@@ -95,15 +93,13 @@ main {
     order: 1;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: var(--spacing-24);
 }
 
 .journey-copy {
-    color: var(--text);
-    font-size: var(--karma-fontSize-250);
-    line-height: var(--karma-lineHeight-250);
-    font-weight: var(--karma-fontWeight-regular);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font: var(--body2-m);
+    letter-spacing: var(--body2-letterspacing);
+    color: var(--text-secondary);
 }
 
 
@@ -112,28 +108,26 @@ main {
 
 .outside-of-work {
     margin: auto;
-    max-width: 1024px;
-    padding: 64px 0 128px;
+    max-width: var(--content-max-width);
+    padding: 48px 0 96px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    gap: 48px;
+    gap: var(--spacing-48);
 }
 
 .ow-section-headline {
-    max-width: 560px;
-    font-size: var(--karma-fontSize-600);
-    line-height: var(--karma-lineHeight-600);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
+    max-width: 480px;
+    font: var(--title3-m-emphasized);
+    letter-spacing: var(--title3-letterspacing);
     color: var(--text);
 }
 
 .cricket-section {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 64px;
+    gap: var(--spacing-48);
 }
 
 .me-cricket {
@@ -147,51 +141,45 @@ main {
 .cricket-story {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--spacing-16);
 }
 
 .cricket-story-heading {
-    font-size: var(--karma-fontSize-400);
-    line-height: var(--karma-lineHeight-400);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
+    font: var(--title4-m-emphasized);
+    letter-spacing: var(--title4-letterspacing);
     color: var(--text);
 }
 
 .cricket-story-copy {
-    color: var(--text);
-    font-size: var(--karma-fontSize-250);
-    line-height: var(--karma-lineHeight-250);
-    font-weight: var(--karma-fontWeight-regular);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font: var(--body2-m);
+    letter-spacing: var(--body2-letterspacing);
+    color: var(--text-secondary);
 }
 
 
 .snap-and-music-section {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 64px;
+    gap: var(--spacing-48);
 }
 
 .snap-section {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: var(--spacing-24);
     overflow: hidden;
 }
 
 .snap-section-heading {
-    font-size: var(--karma-fontSize-400);
-    line-height: var(--karma-lineHeight-400);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
+    font: var(--title4-m-emphasized);
+    letter-spacing: var(--title4-letterspacing);
     color: var(--text);
 }
 
 .snaps {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    gap: var(--spacing-16);
 }
 
 .snap {
@@ -203,32 +191,28 @@ main {
 }
 
 .snap-section-copy {
-    color: var(--text);
-    font-size: var(--karma-fontSize-250);
-    line-height: var(--karma-lineHeight-250);
-    font-weight: var(--karma-fontWeight-regular);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font: var(--body2-m);
+    letter-spacing: var(--body2-letterspacing);
+    color: var(--text-secondary);
 }
 
 .music-section {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: var(--spacing-24);
     overflow: hidden;
 }
 
 .music-section-heading {
-    font-size: var(--karma-fontSize-400);
-    line-height: var(--karma-lineHeight-400);
-    font-weight: var(--karma-fontWeight-medium);
-    letter-spacing: var(--karma-letterSpacing-tight);
+    font: var(--title4-m-emphasized);
+    letter-spacing: var(--title4-letterspacing);
     color: var(--text);
 }
 
 .music-covers {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    gap: var(--spacing-16);
 }
 
 .music-cover {
@@ -240,11 +224,9 @@ main {
 }
 
 .music-section-copy {
-    color: var(--text);
-    font-size: var(--karma-fontSize-250);
-    line-height: var(--karma-lineHeight-250);
-    font-weight: var(--karma-fontWeight-regular);
-    letter-spacing: var(--karma-letterSpacing-wide);
+    font: var(--body2-m);
+    letter-spacing: var(--body2-letterspacing);
+    color: var(--text-secondary);
 }
 
 
@@ -269,18 +251,13 @@ main {
 
     .about-section {
         padding: 96px 0 48px;
-        gap: 40px;
-    }
-
-    .about-section-headline {
-        font-size: var(--karma-fontSize-550);
-        line-height: var(--karma-lineHeight-550);
+        gap: var(--spacing-48);
     }
 
     .about-section-story-wrapper {
         display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 40px;
+        gap: var(--spacing-48);
     }
 
     .me {
@@ -296,46 +273,24 @@ main {
 
     .outside-of-work {
         padding: 48px 0 96px;
-        gap: 40px;
-    }
-
-    .ow-section-headline {
-        max-width: 512px;
-        font-size: var(--karma-fontSize-550);
-        line-height: var(--karma-lineHeight-550);
+        gap: var(--spacing-48);
     }
 
     .cricket-section {
-        gap: 40px;
+        gap: var(--spacing-48);
     }
-
-    .cricket-story-heading {
-        font-size: var(--karma-fontSize-350);
-        line-height: var(--karma-lineHeight-350);
-    }
-
 
     .snap-and-music-section {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 40px;
+        gap: var(--spacing-48);
     }
 
     .snap-section {
-        gap: 16px;
-    }
-
-    .snap-section-heading {
-        font-size: var(--karma-fontSize-350);
-        line-height: var(--karma-lineHeight-350);
+        gap: var(--spacing-16);
     }
 
     .music-section {
-        gap: 16px;
-    }
-
-    .music-section-heading {
-        font-size: var(--karma-fontSize-350);
-        line-height: var(--karma-lineHeight-350);
+        gap: var(--spacing-16);
     }
 
 }
@@ -344,7 +299,7 @@ main {
 
 /* Mobile */
 
-@media (max-width: 735px) {
+@media (max-width: 734px) {
 
     main {
         padding: 0 24px;
@@ -355,17 +310,16 @@ main {
 
     .about-section {
         padding: 80px 0 40px;
-        gap: 32px;
+        gap: var(--spacing-32);
     }
 
     .about-section-headline {
-        font-size: var(--karma-fontSize-500);
-        line-height: var(--karma-lineHeight-500);
+        font: var(--title3-xxxs-emphasized);
     }
 
     .about-section-story-wrapper {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 32px;
+        gap: var(--spacing-32);
     }
 
     .me {
@@ -376,36 +330,58 @@ main {
         order: 2;
     }
 
+    .journey-copy {
+        font: var(--body2-xxxs);
+    }
+
     /* Outside of work */
 
     .outside-of-work {
         padding: 40px 0 80px;
-        gap: 32px;
+        gap: var(--spacing-32);
     }
 
     .ow-section-headline {
         max-width: 464px;
-        font-size: var(--karma-fontSize-500);
-        line-height: var(--karma-lineHeight-500);
+        font: var(--title3-xxxs-emphasized);
     }
 
     .cricket-section {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 16px;
+        gap: var(--spacing-16);
     }
 
     .cricket-story {
-        gap: 8px;
+        gap: var(--spacing-8);
     }
 
     .cricket-story-heading {
-        font-size: var(--karma-fontSize-350);
-        line-height: var(--karma-lineHeight-350);
+        font: var(--title4-xxxs-emphasized);
+    }
+
+    .cricket-story-copy {
+        font: var(--body2-xxxs);
     }
 
     .snap-and-music-section {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 32px;
+        gap: var(--spacing-32);
+    }
+
+    .snap-section-heading {
+        font: var(--title4-xxxs-emphasized);
+    }
+
+    .snap-section-copy {
+        font: var(--body2-xxxs);
+    }
+
+    .music-section-heading {
+        font: var(--title4-xxxs-emphasized);
+    }
+
+    .music-section-copy {
+        font: var(--body2-xxxs);
     }
 
 }
