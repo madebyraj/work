@@ -54,7 +54,7 @@
     background: var(--globalnav-background);
     -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
     backdrop-filter: var(--globalnav-backdrop-filter);
-    padding: 14px 96px;
+    padding: 14px 80px;
     height: var(--globalnav-height);
     margin: auto;
     display: flex;
@@ -80,7 +80,7 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    max-width: var(--karma-global-max-width);
+    max-width: var(--global-max-width);
     margin-right: auto;
     margin-left: auto;
 
@@ -123,10 +123,9 @@
 
 .inner-right-side-container li a {
     text-decoration: none;
-    border-radius: var(--karma-border-radius-full);
     font-size: var(--karma-fontSize-150);
     line-height: var(--karma-lineHeight-150);
-    font-weight: var(--karma-fontWeight-medium);
+    font-weight: var(--karma-fontWeight-regular);
     letter-spacing: var(--karma-letterSpacing-wider);
     color: var(--globalnav-color);
     transition: 200ms ease-out;
@@ -156,7 +155,7 @@
     background-color: var(--button-secondary-background);
     margin-left: 32px;
     border: none;
-    border-radius: var(--karma-border-radius-full);
+    border-radius: var(--border-radius-full);
     cursor: var(--cursor-pointer), auto;
     display: flex;
     align-items: center;
@@ -316,7 +315,7 @@
         height: 2px;
         width: 100%;
         background: var(--globalnav-color);
-        border-radius: var(--karma-border-radius-full);
+        border-radius: var(--border-radius-full);
         transition-property: transform, top;
         transition-delay: 0ms, 150ms;
         transition-duration: 200ms;

@@ -59,7 +59,7 @@ main {
 
 .about-section {
     margin: auto;
-    max-width: 1024px;
+    max-width: var(--content-max-width);
     padding: 128px 0 64px;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,7 @@ main {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: var(--border-radius-8);
 }
 
 .journey {
@@ -140,6 +141,7 @@ main {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: var(--border-radius-8);
 }
 
 .cricket-story {
@@ -197,6 +199,7 @@ main {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: var(--border-radius-8);
 }
 
 .snap-section-copy {
@@ -206,7 +209,6 @@ main {
     font-weight: var(--karma-fontWeight-regular);
     letter-spacing: var(--karma-letterSpacing-wide);
 }
-
 
 .music-section {
     display: flex;
@@ -234,6 +236,7 @@ main {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: var(--border-radius-8);
 }
 
 .music-section-copy {

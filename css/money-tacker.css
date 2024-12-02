@@ -52,7 +52,7 @@ main {
 
 #cover-mt {
   margin-bottom: 32px;
-  border-radius: var(--border-radius-none);
+  border-radius: var(--border-radius-16);
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -61,7 +61,7 @@ main {
 }
 
 #main-container {
-  max-width: 1024px;
+  max-width: var(--content-max-width);
   margin: auto;
   width: 100%;
 }
@@ -147,7 +147,7 @@ main {
 }
 
 .line {
-  border: 1px solid var(--karma-system-black-200);
+  border: 1px solid var(--separator);
 }
 
 /* Main Case Study Section */
@@ -424,7 +424,7 @@ main {
   gap: 4px;
 }
 
-.full-research:hover .link-copy{
+.full-research:hover .link-copy {
   cursor: var(--cursor-pointer), auto;
   text-decoration: underline var(--link-color);
 }

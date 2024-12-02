@@ -8,7 +8,7 @@
 
     /* Font Faces */
 
-    --karma-font-sans: Averta Std, system-ui, Helvetica, Arial, sans-serif;
+    --karma-font-sans: GTAArtDeco, system-ui, Helvetica, Arial, sans-serif;
     --karma-font-serif: Denton, Times New Roman, serif;
     --karma-font-mono: Overpass Mono, Nitti, Menlo, Courier, monospace;
 
@@ -18,19 +18,19 @@
 
     --karma-fontWeight-regular: 400;
     --karma-fontWeight-medium: 600;
-    --karma-fontWeight-bold: 700;
+    --karma-fontWeight-bold: 600;
 
 
 
     /* Letter Spacings */
 
-    --karma-letterSpacing-condensed: -0.075em;
-    --karma-letterSpacing-tighter: -0.05em;
-    --karma-letterSpacing-tight: -0.025em;
+    --karma-letterSpacing-condensed: -0.05em;
+    --karma-letterSpacing-tighter: -0.025em;
+    --karma-letterSpacing-tight: -0.0125em;
     --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.025em;
-    --karma-letterSpacing-wider: 0.05em;
-    --karma-letterSpacing-expanded: 0.075em;
+    --karma-letterSpacing-wide: 0.0125em;
+    --karma-letterSpacing-wider: 0.025em;
+    --karma-letterSpacing-expanded: 0.05em;
 
 
 
@@ -69,20 +69,42 @@
 
     /* Border Radius */
 
-    --karma-border-radius-none: 0rem;
-    --karma-border-radius-2x1: 0.625rem;
-    --karma-border-radius-4x1: 0.25rem;
-    --karma-border-radius-6x1: 0.375rem;
-    --karma-border-radius-8x1: 0.5rem;
-    --karma-border-radius-10x1: 0.625rem;
-    --karma-border-radius-12x1: 0.75rem;
-    --karma-border-radius-16x1: 1rem;
-    --karma-border-radius-24x1: 1.5rem;
-    --karma-border-radius-32x1: 2rem;
-    --karma-border-radius-40x1: 2.5rem;
-    --karma-border-radius-48x1: 3rem;
-    --karma-border-radius-64x1: 4rem;
-    --karma-border-radius-full: 999rem;
+    --border-radius-full: 9999rem;
+    --border-radius-64: 64px;
+    --border-radius-48: 48px;
+    --border-radius-32: 32px;
+    --border-radius-24: 24px;
+    --border-radius-16: 16px;
+    --border-radius-12: 12px;
+    --border-radius-8: 8px;
+    --border-radius-6: 6px;
+    --border-radius-4: 4px;
+    --border-radius-2: 2px;
+    --border-radius-none: 0px;
+
+
+
+    /* Spacing */
+
+    --spacing-160: 160px;
+    --spacing-128: 128px;
+    --spacing-112: 112px;
+    --spacing-96: 96px;
+    --spacing-80: 80px;
+    --spacing-72: 72px;
+    --spacing-64: 64px;
+    --spacing-56: 56px;
+    --spacing-48: 48px;
+    --spacing-40: 40px;
+    --spacing-32: 32px;
+    --spacing-24: 24px;
+    --spacing-20: 20px;
+    --spacing-16: 16px;
+    --spacing-12: 12px;
+    --spacing-8: 8px;
+    --spacing-4: 4px;
+    --spacing-2: 2px;
+    --spacing-0: 0px;
 
 
 
@@ -116,89 +138,142 @@
 
 
 
-    --font-brand: Swear Display, Denton, serif;
-    --font-sans: Gilroy, system-ui, sans-serif;
-    --font-serif: Denton, Times New Roman, serif;
-    --font-mono: Overpass Mono, Nitti, Menlo, Courier, monospace;
+    --font-ui: GTA Art Deco, system-ui, sans-serif;
+
+    --fontSize-8: 8px;
+    --fontSize-10: 10px;
+    --fontSize-12: 12px;
+    --fontSize-14: 14px;
+    --fontSize-16: 16px;
+    --fontSize-18: 18px;
+    --fontSize-20: 20px;
+    --fontSize-22: 22px;
+    --fontSize-25: 25px;
+    --fontSize-28: 28px;
+    --fontSize-32: 32px;
+    --fontSize-36: 36px;
+    --fontSize-40: 40px;
+    --fontSize-45: 45px;
+    --fontSize-51: 51px;
+    --fontSize-57: 57px;
+    --fontSize-64: 64px;
+    --fontSize-72: 72px;
+    --fontSize-81: 81px;
+    --fontSize-91: 91px;
+    --fontSize-103: 103px;
 
     --fontWeight-regular: 400;
-    --fontWeight-medium: 500;
     --fontWeight-bold: 700;
 
-    --display-xxl: italic var(--fontWeight-bold) 96px/95% var(--font-brand);
-    --display-xl: italic var(--fontWeight-bold) 86px/95% var(--font-brand);
-    --display-m: italic var(--fontWeight-bold) 72px/100% var(--font-brand);
-    --display-xxxs: italic var(--fontWeight-bold) 56px/100% var(--font-brand);
+    --letterSpacing-tighter: -0.05em;
+    --letterSpacing-tight: -0.025em;
+    --letterSpacing-normal: 0;
+    --letterSpacing-wide: 0.025em;
+    --letterSpacing-wider: 0.05em;
 
-    --title1-xxl: var(--fontWeight-regular) 86px/100% var(--font-serif);
-    --title1-xl: var(--fontWeight-regular) 72px/100% var(--font-serif);
-    --title1-m: var(--fontWeight-regular) 64px/110% var(--font-serif);
-    --title1-xxxs: var(--fontWeight-regular) 44px/110% var(--font-serif);
+    --display-letterspacing: var(--letterSpacing-tighter);
+    --display-xxl: var(--fontWeight-bold) var(--fontSize-91)/95% var(--font-ui);
+    --display-xl: var(--fontWeight-bold) var(--fontSize-81)/95% var(--font-ui);
+    --display-m: var(--fontWeight-bold) var(--fontSize-72)/110% var(--font-ui);
+    --display-xxxs: var(--fontWeight-bold) var(--fontSize-56)/100% var(--font-ui);
 
-    --title2-xxl: var(--fontWeight-regular) 64px/110% var(--font-serif);
-    --title2-xl: var(--fontWeight-regular) 56px/110% var(--font-serif);
-    --title2-m: var(--fontWeight-regular) 44px/110% var(--font-serif);
-    --title2-xxxs: var(--fontWeight-regular) 36px/110% var(--font-serif);
+    --title1-letterspacing: var(--letterSpacing-tight);
+    --title1-xxl: var(--fontWeight-regular) var(--fontSize-81)/100% var(--font-ui);
+    --title1-xl: var(--fontWeight-regular) var(--fontSize-72)/100% var(--font-ui);
+    --title1-m: var(--fontWeight-regular) var(--fontSize-64)/110% var(--font-ui);
+    --title1-xxxs: var(--fontWeight-regular) var(--fontSize-45)/110% var(--font-ui);
 
-    --title3-xxl: var(--fontWeight-regular) 64px/110% var(--font-serif);
-    --title3-xxl-emphasized: var(--fontWeight-bold) 64px/110% var(--font-serif);
-    --title3-xl: var(--fontWeight-regular) 40px/110% var(--font-serif);
-    --title3-xl-emphasized: var(--fontWeight-bold) 40px/110% var(--font-serif);
-    --title3-m: var(--fontWeight-regular) 32px/110% var(--font-serif);
-    --title3-m-emphasized: var(--fontWeight-bold) 32px/110% var(--font-serif);
-    --title3-xxxs: var(--fontWeight-regular) 28px/110% var(--font-serif);
-    --title3-xxxs-emphasized: var(--fontWeight-bold) 28px/110% var(--font-serif);
+    --title2-letterspacing: var(--letterSpacing-tight);
+    --title2-xxl: var(--fontWeight-regular) var(--fontSize-64)/110% var(--font-ui);
+    --title2-xl: var(--fontWeight-regular) var(--fontSize-57)/110% var(--font-ui);
+    --title2-m: var(--fontWeight-regular) var(--fontSize-45)/110% var(--font-ui);
+    --title2-xxxs: var(--fontWeight-regular) var(--fontSize-36)/110% var(--font-ui);
 
-    --title4-xxl: var(--fontWeight-regular) 26px/135% var(--font-serif);
-    --title4-xl: var(--fontWeight-regular) 24px/135% var(--font-serif);
-    --title4-m: var(--fontWeight-regular) 24px/135% var(--font-serif);
-    --title4-xxxs: var(--fontWeight-regular) 22px/135% var(--font-serif);
+    --title3-letterspacing: var(--letterSpacing-tight);
+    --title3-xxl: var(--fontWeight-regular) var(--fontSize-64)/130% var(--font-ui);
+    --title3-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-64)/130% var(--font-ui);
+    --title3-xl: var(--fontWeight-regular) var(--fontSize-32)/130% var(--font-ui);
+    --title3-xl-emphasized: var(--fontWeight-bold) var(--fontSize-32)/130% var(--font-ui);
+    --title3-m: var(--fontWeight-regular) var(--fontSize-32)/130% var(--font-ui);
+    --title3-m-emphasized: var(--fontWeight-bold) var(--fontSize-32)/130% var(--font-ui);
+    --title3-xxxs: var(--fontWeight-regular) var(--fontSize-28)/130% var(--font-ui);
+    --title3-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-28)/130% var(--font-ui);
 
-    --title5-xxl: var(--fontWeight-regular) 20px/140% var(--font-serif);
-    --title5-xl: var(--fontWeight-regular) 18px/140% var(--font-serif);
-    --title5-m: var(--fontWeight-regular) 18px/140% var(--font-serif);
-    --title5-xxxs: var(--fontWeight-regular) 16px/145% var(--font-serif);
+    --title4-letterspacing: var(--letterSpacing-tight);
+    --title4-xxl: var(--fontWeight-regular) var(--fontSize-25)/135% var(--font-ui);
+    --title4-xl: var(--fontWeight-regular) var(--fontSize-25)/135% var(--font-ui);
+    --title4-m: var(--fontWeight-regular) var(--fontSize-25)/135% var(--font-ui);
+    --title4-xxxs: var(--fontWeight-regular) var(--fontSize-22)/135% var(--font-ui);
 
-    --body1-xxl: var(--fontWeight-regular) 26px/135% var(--font-sans);
-    --body1-xxl-emphasized: var(--fontWeight-bold) 26px/135% var(--font-sans);
-    --body1-xl: var(--fontWeight-regular) 24px/135% var(--font-sans);
-    --body1-xl-emphasized: var(--fontWeight-bold) 24px/135% var(--font-sans);
-    --body1-m: var(--fontWeight-regular) 24px/135% var(--font-sans);
-    --body1-m-emphasized: var(--fontWeight-bold) 24px/135% var(--font-sans);
-    --body1-xxxs: var(--fontWeight-regular) 22px/135% var(--font-sans);
-    --body1-xxxs-emphasized: var(--fontWeight-bold) 22px/135% var(--font-sans);
+    --title5-letterspacing: var(--letterSpacing-tight);
+    --title5-xxl: var(--fontWeight-regular) var(--fontSize-20)/140% var(--font-ui);
+    --title5-xl: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --title5-m: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --title5-xxxs: var(--fontWeight-regular) var(--fontSize-16)/145% var(--font-ui);
 
-    --body2-xxl: var(--fontWeight-regular) 20px/140% var(--font-sans);
-    --body2-xxl-emphasized: var(--fontWeight-bold) 20px/140% var(--font-sans);
-    --body2-xl: var(--fontWeight-regular) 18px/140% var(--font-sans);
-    --body2-xl-emphasized: var(--fontWeight-bold) 18px/140% var(--font-sans);
-    --body2-m: var(--fontWeight-regular) 18px/140% var(--font-sans);
-    --body2-m-emphasized: var(--fontWeight-bold) 18px/140% var(--font-sans);
-    --body2-xxxs: var(--fontWeight-regular) 18px/140% var(--font-sans);
-    --body2-xxxs-emphasized: var(--fontWeight-bold) 18px/140% var(--font-sans);
+    --body1-letterspacing: var(--letterSpacing-wide);
+    --body1-xxl: var(--fontWeight-regular) var(--fontSize-25)/135% var(--font-ui);
+    --body1-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-25)/135% var(--font-ui);
+    --body1-xl: var(--fontWeight-regular) var(--fontSize-25)/135% var(--font-ui);
+    --body1-xl-emphasized: var(--fontWeight-bold) var(--fontSize-25)/135% var(--font-ui);
+    --body1-m: var(--fontWeight-regular) var(--fontSize-25)/135% var(--font-ui);
+    --body1-m-emphasized: var(--fontWeight-bold) var(--fontSize-25)/135% var(--font-ui);
+    --body1-xxxs: var(--fontWeight-regular) var(--fontSize-22)/135% var(--font-ui);
+    --body1-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-22)/135% var(--font-ui);
 
-    --body3-xxl: var(--fontWeight-regular) 18px/145% var(--font-sans);
-    --body3-xxl-emphasized: var(--fontWeight-bold) 18px/145% var(--font-sans);
-    --body3-xl: var(--fontWeight-regular) 16px/145% var(--font-sans);
-    --body3-xl-emphasized: var(--fontWeight-bold) 16px/145% var(--font-sans);
-    --body3-m: var(--fontWeight-regular) 16px/145% var(--font-sans);
-    --body3-m-emphasized: var(--fontWeight-bold) 16px/145% var(--font-sans);
-    --body3-xxxs: var(--fontWeight-regular) 16px/145% var(--font-sans);
-    --body3-xxxs-emphasized: var(--fontWeight-bold) 16px/145% var(--font-sans);
+    --body2-letterspacing: var(--letterSpacing-wide);
+    --body2-xxl: var(--fontWeight-regular) var(--fontSize-20)/140% var(--font-ui);
+    --body2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20)/140% var(--font-ui);
+    --body2-xl: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --body2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18)/140% var(--font-ui);
+    --body2-m: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --body2-m-emphasized: var(--fontWeight-bold) var(--fontSize-18)/140% var(--font-ui);
+    --body2-xxxs: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --body2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18)/140% var(--font-ui);
 
-    --body4-xxl: var(--fontWeight-regular) 14px/145% var(--font-sans);
-    --body4-xxl-emphasized: var(--fontWeight-bold) 14px/145% var(--font-sans);
-    --body4-xl: var(--fontWeight-regular) 14px/145% var(--font-sans);
-    --body4-xl-emphasized: var(--fontWeight-bold) 14px/145% var(--font-sans);
-    --body4-m: var(--fontWeight-regular) 14px/145% var(--font-sans);
-    --body4-m-emphasized: var(--fontWeight-bold) 14px/145% var(--font-sans);
-    --body4-xxxs: var(--fontWeight-regular) 14px/145% var(--font-sans);
-    --body4-xxxs-emphasized: var(--fontWeight-bold) 14px/145% var(--font-sans);
+    --body3-letterspacing: var(--letterSpacing-wide);
+    --body3-xxl: var(--fontWeight-regular) var(--fontSize-18)/145% var(--font-ui);
+    --body3-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-18)/145% var(--font-ui);
+    --body3-xl: var(--fontWeight-regular) var(--fontSize-16)/145% var(--font-ui);
+    --body3-xl-emphasized: var(--fontWeight-bold) var(--fontSize-16)/145% var(--font-ui);
+    --body3-m: var(--fontWeight-regular) var(--fontSize-16)/145% var(--font-ui);
+    --body3-m-emphasized: var(--fontWeight-bold) var(--fontSize-16)/145% var(--font-ui);
+    --body3-xxxs: var(--fontWeight-regular) var(--fontSize-16)/145% var(--font-ui);
+    --body3-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16)/145% var(--font-ui);
 
-    --eyebrow-xxl: var(--fontWeight-bold) 18px/130% var(--font-sans);
-    --eyebrow-xl: var(--fontWeight-bold) 16px/130% var(--font-sans);
-    --eyebrow-m: var(--fontWeight-bold) 16px/130% var(--font-sans);
-    --eyebrow-xxxs: var(--fontWeight-bold) 16px/130% var(--font-sans);
+    --body4-letterspacing: var(--letterSpacing-wide);
+    --body4-xxl: var(--fontWeight-regular) var(--fontSize-14)/145% var(--font-ui);
+    --body4-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-14)/145% var(--font-ui);
+    --body4-xl: var(--fontWeight-regular) var(--fontSize-14)/145% var(--font-ui);
+    --body4-xl-emphasized: var(--fontWeight-bold) var(--fontSize-14)/145% var(--font-ui);
+    --body4-m: var(--fontWeight-regular) var(--fontSize-14)/145% var(--font-ui);
+    --body4-m-emphasized: var(--fontWeight-bold) var(--fontSize-14)/145% var(--font-ui);
+    --body4-xxxs: var(--fontWeight-regular) var(--fontSize-14)/145% var(--font-ui);
+    --body4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-14)/145% var(--font-ui);
+
+    --eyebrow-letterspacing: var(--letterSpacing-wide);
+    --eyebrow-xxl: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
+    --eyebrow-xl: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
+    --eyebrow-m: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
+    --eyebrow-xxxs: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
+
+    --badge-letterspacing: var(--letterSpacing-wide);
+    --badge-xxl: var(--fontWeight-regular) var(--fontSize-16)/100% var(--font-ui);
+    --badge-xl: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
+    --badge-m: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
+    --badge-xxxs: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
+
+    --button-letterspacing: var(--letterSpacing-wide);
+    --button-xxl: var(--fontWeight-regular) var(--fontSize-20)/140% var(--font-ui);
+    --button-xl: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --button-m: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+    --button-xxxs: var(--fontWeight-regular) var(--fontSize-18)/140% var(--font-ui);
+
+    --link-letterspacing: var(--letterSpacing-wide);
+    --link-xxl: var(--fontWeight-regular) var(--fontSize-20)/130% var(--font-ui);
+    --link-xl: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
+    --link-m: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
+    --link-xxxs: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
 
 
 

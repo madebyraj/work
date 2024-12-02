@@ -23,14 +23,14 @@
 .footer {
     margin: auto;
     background-color: var(--globalfooter-background);
-    padding: 0 96px;
+    padding: 0 80px;
     overflow: hidden;
 }
 
 .footer-container {
     padding: 40px 0px;
     margin: auto;
-    max-width: var(--karma-global-max-width);
+    max-width: var(--global-max-width);
     display: flex;
     justify-content: space-between;
     align-items: center;

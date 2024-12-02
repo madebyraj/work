@@ -20,12 +20,12 @@
 
     /* --Depth-- */
 
-    --karma-tile-shadow: 0px 2px 12px rgba(0 0 0/0.08);
+    --tile-shadow: 0px 2px 12px rgba(0 0 0/0.08);
 
-    --karma-depth-baseline: 0 0 0 0 transparent;
-    --karma-depth-raised: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 12px 0 rgba(0, 0, 0, 0.08);
-    --karma-depth-elevated: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 16px 0 rgba(0, 0, 0, 0.08);
-    --karma-depth-floating: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
+    --depth-baseline: 0 0 0 0 transparent;
+    --depth-raised: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+    --depth-elevated: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    --depth-floating: 0 2px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
 
 
 
@@ -36,54 +36,8 @@
 
     /* Width */
 
-    --karma-global-max-width: 1400px;
-
-
-    /* Karma Atomic */
-
-    --karma-white-50: rgba(255, 255, 255, 0.04);
-    --karma-white-100: rgba(255, 255, 255, 0.08);
-    --karma-white-200: rgba(255, 255, 255, 0.16);
-    --karma-white-300: rgba(255, 255, 255, 0.24);
-    --karma-white-400: rgba(255, 255, 255, 0.40);
-    --karma-white-500: rgba(255, 255, 255, 0.56);
-    --karma-white-600: rgba(255, 255, 255, 0.72);
-    --karma-white-700: rgba(255, 255, 255, 0.84);
-    --karma-white-800: rgba(255, 255, 255, 0.92);
-    --karma-white-900: rgba(255, 255, 255, 1);
-
-    --karma-black-50: rgba(0, 0, 0, 0.04);
-    --karma-black-100: rgba(0, 0, 0, 0.08);
-    --karma-black-200: rgba(0, 0, 0, 0.16);
-    --karma-black-300: rgba(0, 0, 0, 0.24);
-    --karma-black-400: rgba(0, 0, 0, 0.40);
-    --karma-black-500: rgba(0, 0, 0, 0.56);
-    --karma-black-600: rgba(0, 0, 0, 0.72);
-    --karma-black-700: rgba(0, 0, 0, 0.84);
-    --karma-black-800: rgba(0, 0, 0, 0.92);
-    --karma-black-900: rgba(0, 0, 0, 1);
-
-    --karma-neutral-50: rgba(249, 249, 249);
-    --karma-neutral-100: rgba(241, 241, 241);
-    --karma-neutral-200: rgba(233, 233, 233);
-    --karma-neutral-300: rgba(205, 205, 205);
-    --karma-neutral-400: rgba(165, 165, 165);
-    --karma-neutral-500: rgba(118, 118, 118);
-    --karma-neutral-600: rgba(74, 74, 74);
-    --karma-neutral-700: rgba(43, 43, 43);
-    --karma-neutral-800: rgba(25, 25, 25);
-    --karma-neutral-900: rgba(17, 17, 17);
-
-    --karma-gray-50: rgba(245, 247, 251);
-    --karma-gray-100: rgba(237, 239, 243);
-    --karma-gray-200: rgba(229, 231, 235);
-    --karma-gray-300: rgba(201, 203, 207);
-    --karma-gray-400: rgba(161, 163, 167);
-    --karma-gray-500: rgba(114, 116, 120);
-    --karma-gray-600: rgba(70, 72, 76);
-    --karma-gray-700: rgba(39, 41, 45);
-    --karma-gray-800: rgba(21, 23, 27);
-    --karma-gray-900: rgba(13, 15, 19);
+    --global-max-width: 1512px;
+    --content-max-width: 1024px;
 
 
 
@@ -110,6 +64,8 @@
 
     --body-background: #FFFFFF;
 
+    --separator: rgba(0, 0, 0, 0.16);
+
     --fill: #FFFFFF;
     --fill-secondary: #FBFBFD;
     --fill-tertiary: #F5F5F7;
@@ -118,9 +74,9 @@
     --text-secondary: rgba(60, 60, 67, 0.76);
     --text-tertiary: rgba(60, 60, 67, 0.56);
 
-    --button-background: #0071E3;
-    --button-background-hover: #0077ED;
-    --button-background-active: #0071E3;
+    --button-background: #2383E2;
+    --button-background-hover: #0077D4;
+    --button-background-active: #006BC7;
 
     --button-color: #FFFFFF;
     --button-color-hover: var(--button-color);
@@ -156,13 +112,15 @@
         --globalnav-color-hover: #2997FF;
         --globalnav-color-disabled: #F5F5F7;
 
-        --globalfooter-background: #1C1C1E;
+        --globalfooter-background: #161617;
 
         --globalfooter-color: #A1A1A6;
         --globalfooter-color-hover: #F5F5F7;
         --globalfooter-color-disabled: #A1A1A6;
 
         --body-background: #000000;
+
+        --separator: rgba(255, 255, 255, 0.24);
 
         --fill: #161617;
         --fill-secondary: #1D1D1F;
@@ -172,9 +130,9 @@
         --text-secondary: rgba(235, 235, 245, 0.7);
         --text-tertiary: rgba(235, 235, 245, 0.5);
 
-        --button-background: #0071E3;
-        --button-background-hover: #0077ED;
-        --button-background-active: #0071E3;
+        --button-background: #348DE4;
+        --button-background-hover: #0084EB;
+        --button-background-active: #0076DB;
 
         --button-color: #FFFFFF;
         --button-color-hover: var(--button-color);

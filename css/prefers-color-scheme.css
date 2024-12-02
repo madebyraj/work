@@ -16,7 +16,7 @@
     --globalnav-keyline-color: rgba(0, 0, 0, 0.16);
 
     --globalnav-color: #000000;
-    --globalnav-color-hover: #0066CC;
+    --globalnav-color-hover: #006BC7;
     --globalnav-color-disabled: #000000;
 
     --globalfooter-background: #F5F5F7;
@@ -27,6 +27,8 @@
 
     --body-background: #FFFFFF;
 
+    --separator: rgba(0, 0, 0, 0.16);
+
     --fill: #FFFFFF;
     --fill-secondary: #FBFBFD;
     --fill-tertiary: #F5F5F7;
@@ -35,9 +37,9 @@
     --text-secondary: rgba(60, 60, 67, 0.76);
     --text-tertiary: rgba(60, 60, 67, 0.56);
 
-    --button-background: #0071E3;
-    --button-background-hover: #0077ED;
-    --button-background-active: #0071E3;
+    --button-background: #2383E2;
+    --button-background-hover: #0077D4;
+    --button-background-active: #006BC7;
 
     --button-color: #FFFFFF;
     --button-color-hover: var(--button-color);
@@ -51,7 +53,7 @@
     --button-secondary-color-hover: var(--button-secondary-color);
     --button-secondary-color-active: var(--button-secondary-color-hover);
 
-    --link-color: #0066CC;
+    --link-color: #006BC7;
 
 }
 
@@ -72,16 +74,18 @@
     --globalnav-keyline-color: rgba(255, 255, 255, 0.24);
 
     --globalnav-color: #FFFFFF;
-    --globalnav-color-hover: #2997FF;
+    --globalnav-color-hover: #348DE4;
     --globalnav-color-disabled: #F5F5F7;
 
-    --globalfooter-background: #1C1C1E;
+    --globalfooter-background: #161617;
 
     --globalfooter-color: #A1A1A6;
     --globalfooter-color-hover: #F5F5F7;
     --globalfooter-color-disabled: #A1A1A6;
 
-    --body-background: #000000;
+    --body-background: #1C1C1E;
+
+    --separator: rgba(255, 255, 255, 0.24);
 
     --fill: #161617;
     --fill-secondary: #1D1D1F;
@@ -91,9 +95,9 @@
     --text-secondary: rgba(235, 235, 245, 0.7);
     --text-tertiary: rgba(235, 235, 245, 0.5);
 
-    --button-background: #0071E3;
-    --button-background-hover: #0077ED;
-    --button-background-active: #0071E3;
+    --button-background: #348DE4;
+    --button-background-hover: #0084EB;
+    --button-background-active: #0076DB;
 
     --button-color: #FFFFFF;
     --button-color-hover: var(--button-color);
@@ -107,6 +111,6 @@
     --button-secondary-color-hover: var(--button-secondary-color);
     --button-secondary-color-active: var(--button-secondary-color-hover);
 
-    --link-color: #2997FF;
+    --link-color: #348DE4;
 
 }

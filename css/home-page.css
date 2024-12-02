@@ -47,7 +47,7 @@ body {
 
 main {
   position: relative;
-  padding: 0 96px;
+  padding: 0 80px;
   margin: auto;
   min-height: 100vh;
 }
@@ -58,62 +58,54 @@ main {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 696px;
   width: 100%;
 }
 
 .hero-section-wrapper {
   margin: 0 auto;
-  max-width: var(--karma-global-max-width);
+  max-width: var(--global-max-width);
   width: 100%;
-  padding: 128px 0;
+  padding: 128px 0 64px;
 }
 
 .hero-introduction-section {
   display: flex;
   flex-direction: column;
-  gap: 80px;
 }
 
 .hero-headline {
   display: flex;
   flex-direction: column;
+  gap: var(--spacing-16);
 }
 
 .hero-headline-intro {
   font-size: var(--karma-fontSize-850);
   line-height: var(--karma-lineHeight-850);
   font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
+  letter-spacing: var(--karma-letterSpacing-tight);
   color: var(--text);
 }
 
-.hero-headline-do {
-  font-size: var(--karma-fontSize-850);
-  line-height: var(--karma-lineHeight-850);
-  font-weight: var(--karma-fontWeight-bold);
-  letter-spacing: var(--karma-letterSpacing-tighter);
-  color: var(--text-tertiary);
+.subheadline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  max-width: 800px;
+}
+
+.tagline {
+  font-size: var(--karma-fontSize-400);
+  line-height: var(--karma-lineHeight-400);
+  font-weight: var(--karma-fontWeight-regular);
+  color: var(--text-secondary);
 }
 
 .currently {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.currently-heading {
   font-size: var(--karma-fontSize-400);
   line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-bold);
-  color: var(--text);
-}
-
-.currently-where {
-  font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-medium);
-  color: var(--text-tertiary);
+  font-weight: var(--karma-fontWeight-regular);
+  color: var(--text-secondary);
 }
 
 
@@ -124,8 +116,8 @@ main {
 #project-section {
   overflow: hidden;
   margin: auto;
-  max-width: var(--karma-global-max-width);
-  padding: 128px 0px 64px;
+  max-width: var(--global-max-width);
+  padding: 64px 0px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -198,6 +190,7 @@ main {
   width: 100%;
   height: 100%;
   transition: transform 0.2s ease-out;
+  border-radius: var(--border-radius-8);
 }
 
 
@@ -207,7 +200,7 @@ main {
 
 #writing-section {
   margin: auto;
-  max-width: var(--karma-global-max-width);
+  max-width: var(--global-max-width);
   padding: 64px 0px 128px;
   display: flex;
   flex-direction: column;
@@ -282,6 +275,7 @@ main {
   width: 100%;
   height: fit-content;
   transition: transform 0.2s ease-out;
+  border-radius: var(--border-radius-8);
 }
 
 
@@ -293,17 +287,8 @@ main {
     padding: 0 48px;
   }
 
-  .hero-section {
-    height: 600px;
-    width: 100%;
-  }
-
   .hero-section-wrapper {
-    padding: 80px 0;
-  }
-
-  .hero-introduction-section {
-    gap: 64px;
+    padding: 96px 0 48px;
   }
 
   .hero-headline-intro {
@@ -311,21 +296,12 @@ main {
     line-height: var(--karma-lineHeight-750);
   }
 
-  .hero-headline-do {
-    font-size: var(--karma-fontSize-750);
-    line-height: var(--karma-lineHeight-750);
-  }
-
-  .currently {
-    gap: 4px;
-  }
-
-  .currently-heading {
+  .tagline {
     font-size: var(--karma-fontSize-350);
     line-height: var(--karma-lineHeight-350);
   }
 
-  .currently-where {
+  .currently {
     font-size: var(--karma-fontSize-350);
     line-height: var(--karma-lineHeight-350);
   }
@@ -334,7 +310,7 @@ main {
 
 
   #project-section {
-    padding: 96px 0px 48px;
+    padding: 48px 0px;
     gap: 40px;
   }
 
@@ -394,12 +370,8 @@ main {
     padding: 0 24px;
   }
 
-  .hero-section {
-    height: 512px;
-  }
-
   .hero-section-wrapper {
-    padding: 0;
+    padding: 80px 0 40px;
   }
 
   .hero-introduction-section {
@@ -411,21 +383,12 @@ main {
     line-height: var(--karma-lineHeight-700);
   }
 
-  .hero-headline-do {
-    font-size: var(--karma-fontSize-700);
-    line-height: var(--karma-lineHeight-700);
-  }
-
-  .currently {
-    gap: 4px;
-  }
-
-  .currently-heading {
+  .tagline {
     font-size: var(--karma-fontSize-300);
     line-height: var(--karma-lineHeight-300);
   }
 
-  .currently-where {
+  .currently {
     font-size: var(--karma-fontSize-300);
     line-height: var(--karma-lineHeight-300);
   }
@@ -434,7 +397,7 @@ main {
 
 
   #project-section {
-    padding: 80px 0px 40px;
+    padding: 40px 0px;
     gap: 32px;
   }
 

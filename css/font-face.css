@@ -1,25 +1,17 @@
 /* Inter */
 
 @font-face {
-    font-family: 'Averta Std';
+    font-family: 'GTA Art Deco';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/AvertaStd-Bold.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/GTAArtDeco-Medium.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Averta Std';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/AvertaStd-Semibold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Averta Std';
+    font-family: 'GTA Art Deco';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/AvertaStd-Regular.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/GTAArtDeco-Regular.woff") format("woff");
 }

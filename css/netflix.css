@@ -56,7 +56,7 @@ main {
   flex-direction: column;
   gap: 64px;
   padding: 128px 0px 64px;
-  max-width: 1024px;
+  max-width: var(--content-max-width);
 }
 
 .title {
@@ -162,7 +162,7 @@ main {
 
 .design-deck-section {
   padding: 64px 0px;
-  max-width: 1400px;
+  max-width: var(--content-max-width);
   margin: auto;
 }
 
@@ -174,7 +174,7 @@ main {
 }
 
 .finish-section {
-  max-width: 1024px;
+  max-width: var(--content-max-width);
   padding: 64px 0px 128px;
   margin: auto;
   display: flex;
