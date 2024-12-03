@@ -232,6 +232,61 @@ main {
   border-radius: var(--border-radius-8);
 }
 
+#pain-point-section {
+  padding: 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pain-point-section-heading {
+  font: var(--title3-m-emphasized);
+  letter-spacing: var(--title3-letterspacing);
+  color: var(--text);
+}
+
+.main-pain-point-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+}
+
+.employees-pain-point {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.employees-pain-point-heading {
+  font: var(--title4-m-emphasized);
+  letter-spacing: var(--title4-letterspacing);
+  color: var(--text);
+}
+
+.pain-point-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pain-point {
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
+  color: var(--text);
+}
+
+.management-pain-point {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.management-pain-point-heading {
+  font: var(--title4-m-emphasized);
+  letter-spacing: var(--title4-letterspacing);
+  color: var(--text);
+}
+
 #ideation-section {
   padding: 32px 0px;
   display: flex;
@@ -263,16 +318,7 @@ main {
   color: var(--text);
 }
 
-.low-fidelity-app-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
-}
-
-.low-fidelity-web-img {
+.sketches-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -663,6 +709,23 @@ main {
 
   .research-section-copy {
     font: var(--body2-xxxs);
+  }
+
+  .pain-point-section-heading {
+    font: var(--title3-xxxs-emphasized);
+  }
+
+  .main-pain-point-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .pain-point {
+    font: var(--body2-xxxs);
+  }
+
+  .management-pain-point-heading {
+    font: var(--title4-xxxs-emphasized);
   }
 
   .ideation-section-heading {
