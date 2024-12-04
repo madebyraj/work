@@ -43,6 +43,27 @@ body {
   background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
+  position: relative;
+}
+
+.body-background {
+  flex: none;
+  inset: 0;
+  opacity: .4;
+  overflow: visible;
+  position: absolute;
+  z-index: -1;
+}
+
+.body-background-tile {
+  position: absolute;
+  border-radius: inherit;
+  inset: 0px;
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 52px;
+  background-image: var(--body-background-tile);
+  border: 0px;
 }
 
 main {
@@ -162,8 +183,8 @@ main {
 
 .project-badge {
   width: max-content;
-  padding: 4px 10px;
-  font: var(--badge-xl-emphasized);
+  padding: 4px 6px;
+  font: var(--badge-xl);
   letter-spacing: var(--badge-letterspacing);
   background-color: var(--fill-tertiary);
   color: var(--text-tertiary);
@@ -329,7 +350,7 @@ main {
   }
 
   .project-badge {
-    font: var(--badge-m-emphasized);
+    font: var(--badge-m);
   }
 
   .project-description {
@@ -421,7 +442,7 @@ main {
   }
 
   .project-badge {
-    font: var(--badge-xxxs-emphasized);
+    font: var(--badge-xxxs);
   }
 
   .project-description {

@@ -27,6 +27,8 @@
 
     --body-background: #FFFFFF;
 
+    --body-background-tile: url(/assets/global/body-background-tile-light.png);
+
     --separator: #E8E8ED;
 
     --fill: #FFFFFF;
@@ -84,6 +86,8 @@
     --globalfooter-color-disabled: #A1A1A6;
 
     --body-background: #1C1C1E;
+
+    --body-background-tile: url(/assets/global/body-background-tile-light.png);
 
     --separator: #424245;
 

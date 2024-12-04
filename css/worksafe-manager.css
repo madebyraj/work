@@ -42,6 +42,27 @@ body {
   background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
+  position: relative;
+}
+
+.body-background {
+  flex: none;
+  inset: 0;
+  opacity: .4;
+  overflow: visible;
+  position: absolute;
+  z-index: -1;
+}
+
+.body-background-tile {
+  position: absolute;
+  border-radius: inherit;
+  inset: 0px;
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 52px;
+  background-image: var(--body-background-tile);
+  border: 0px;
 }
 
 main {
