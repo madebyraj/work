@@ -163,7 +163,7 @@
     --fontSize-103: 103px;
 
     --fontWeight-regular: 400;
-    --fontWeight-bold: 500;
+    --fontWeight-bold: 700;
 
     --letterSpacing-tighter: -0.05em;
     --letterSpacing-tight: -0.025em;
@@ -265,7 +265,7 @@
     --eyebrow-m: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
     --eyebrow-xxxs: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
 
-    --badge-letterspacing: var(--letterSpacing-wide);
+    --badge-letterspacing: var(--letterSpacing-wider);
     --badge-xxl: var(--fontWeight-regular) var(--fontSize-16)/100% var(--font-ui);
     --badge-xl: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
     --badge-m: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);

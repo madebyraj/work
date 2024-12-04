@@ -223,6 +223,38 @@ main {
   color: var(--text);
 }
 
+.link-one {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.full-research {
+  color: var(--link-color);
+  font: var(--link-m);
+  letter-spacing: var(--link-letterspacing);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 200ms ease-out;
+  gap: 4px;
+}
+
+.full-research:hover .link-copy {
+  cursor: var(--cursor-pointer), auto;
+  text-decoration: underline var(--link-color);
+}
+
+.arrow-top-right {
+  width: 32px;
+  height: 32px;
+}
+
+.arrow-top-right path {
+  fill: var(--link-color);
+}
+
 .research-img {
   width: 100%;
   height: 100%;

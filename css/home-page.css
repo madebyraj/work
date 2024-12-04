@@ -160,6 +160,17 @@ main {
   gap: 8px;
 }
 
+.project-badge {
+  width: max-content;
+  padding: 4px 10px;
+  font: var(--badge-xl-emphasized);
+  letter-spacing: var(--badge-letterspacing);
+  background-color: var(--fill-tertiary);
+  color: var(--text-tertiary);
+  border-radius: var(--border-radius-8);
+  border: 1px solid var(--separator);
+}
+
 .project-title {
   font: var(--title3-xl-emphasized);
   letter-spacing: var(--title3-letterspacing);

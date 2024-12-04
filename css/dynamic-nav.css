@@ -150,8 +150,8 @@
 /* Theme Button */
 
 .theme-toggle {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     background-color: var(--button-secondary-background);
     margin-left: 32px;
     border: none;
