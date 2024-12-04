@@ -328,6 +328,10 @@ main {
     font: var(--title3-m-emphasized);
   }
 
+  .project-badge {
+    font: var(--badge-m-emphasized);
+  }
+
   .project-description {
     font: var(--body2-m);
   }
@@ -414,6 +418,10 @@ main {
 
   .project-title {
     font: var(--title3-xxxs-emphasized);
+  }
+
+  .project-badge {
+    font: var(--badge-xxxs-emphasized);
   }
 
   .project-description {
