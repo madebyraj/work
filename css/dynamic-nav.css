@@ -123,10 +123,8 @@
 
 .inner-right-side-container li a {
     text-decoration: none;
-    font-size: var(--karma-fontSize-150);
-    line-height: var(--karma-lineHeight-150);
-    font-weight: var(--karma-fontWeight-regular);
-    letter-spacing: var(--karma-letterSpacing-wider);
+    font: var(--navbarlink-xl);
+    letter-spacing: var(--navbarlink-letterspacing);
     color: var(--globalnav-color);
     transition: 200ms ease-out;
     display: flex;
@@ -150,8 +148,8 @@
 /* Theme Button */
 
 .theme-toggle {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     background-color: var(--button-secondary-background);
     margin-left: 32px;
     border: none;
@@ -210,6 +208,10 @@
         padding: 14px 48px;
     }
 
+    .inner-right-side-container li a {
+        font: var(--navbarlink-m);
+    }
+
 }
 
 
@@ -241,9 +243,7 @@
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        font-size: var(--karma-fontSize-500);
-        line-height: var(--karma-lineHeight-500);
-        font-weight: var(--karma-fontWeight-bold);
+        font: var(--navbarlink-xxxs);
         transition: all 200ms ease-out;
     }
 

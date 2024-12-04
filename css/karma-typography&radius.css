@@ -283,6 +283,12 @@
     --link-m: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
     --link-xxxs: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
 
+    --navbarlink-letterspacing: var(--letterSpacing-wide);
+    --navbarlink-xxl: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
+    --navbarlink-xl: var(--fontWeight-regular) var(--fontSize-14)/130% var(--font-ui);
+    --navbarlink-m: var(--fontWeight-regular) var(--fontSize-14)/130% var(--font-ui);
+    --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-32)/130% var(--font-ui);
+
 
 
 
