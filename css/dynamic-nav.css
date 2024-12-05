@@ -173,6 +173,10 @@
     background-color: var(--button-secondary-background-active);
 }
 
+.theme-toggle:focus {
+    outline: 4px solid var(--focus-ring);
+}
+
 .theme-toggle svg {
     margin: auto;
     width: 20px;
