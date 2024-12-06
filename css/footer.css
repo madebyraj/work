@@ -64,7 +64,7 @@
 }
 
 .design-and-code {
-    font: var(--body2-m);
+    font: var(--body2-xl);
     letter-spacing: var(--body2-letterspacing);
     color: var(--globalfooter-color);
 }
@@ -89,6 +89,10 @@
 
     .footer-container {
         padding: 40px 0px;
+    }
+
+    .design-and-code {
+        font: var(--body2-m);
     }
 
 }

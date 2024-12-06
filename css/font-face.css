@@ -1,9 +1,17 @@
-/* Ginto */
+/* GTA Art Deco */
 
 @font-face {
-    font-family: 'Ginto';
+    font-family: 'GTA Art Deco';
     font-style: normal;
-    font-weight: 1 1000;
+    font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Ginto-Variable.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/GTAArtDeco-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'GTA Art Deco';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/GTAArtDeco-Regular.woff") format("woff");
 }
