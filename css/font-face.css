@@ -1,17 +1,49 @@
-/* GTA Art Deco */
+/* Basis Grotesque Arabic Pro */
 
 @font-face {
-    font-family: 'GTA Art Deco';
+    font-family: 'Basis Grotesque Arabic Pro';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/GTAArtDeco-Medium.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'GTA Art Deco';
+    font-family: 'Basis Grotesque Arabic Pro';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/GTAArtDeco-Regular.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+}
+
+
+
+/* Gooper */
+
+@font-face {
+    font-family: 'Gooper';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/Gooper-SemiBold.woff") format("woff");
+}
+
+
+
+/* Proxima Nova */
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/ProximaNova-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/ProximaNova-Regular.woff") format("woff");
 }
