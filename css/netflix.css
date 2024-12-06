@@ -81,26 +81,22 @@ main {
 }
 
 .title {
-  font-size: var(--karma-fontSize-700);
-  line-height: var(--karma-lineHeight-700);
-  letter-spacing: var(--karma-letterSpacing-tight);
-  font-weight: var(--karma-fontWeight-medium);
+  font: var(--title2-m-emphasized);
+  letter-spacing: var(--title2-letterspacing);
   color: var(--text);
 }
 
 .project-overview {
-  font-size: var(--karma-fontSize-400);
-  line-height: var(--karma-lineHeight-400);
-  font-weight: var(--karma-fontWeight-regular);
+  font: var(--body1-m);
+  letter-spacing: var(--body1-letterspacing);
   color: var(--text-secondary);
 }
 
 .link-to-prototype {
   width: fit-content;
   text-decoration: none;
-  font-size: inherit;
-  line-height: inherit;
-  font-weight: inherit;
+  font: inherit;
+  letter-spacing: inherit;
   color: var(--link-color);
   transition: 200ms ease-out;
 }
@@ -113,9 +109,8 @@ main {
 .link-to-video {
   width: fit-content;
   text-decoration: none;
-  font-size: inherit;
-  line-height: inherit;
-  font-weight: inherit;
+  font: inherit;
+  letter-spacing: inherit;
   color: var(--link-color);
   transition: 200ms ease-out;
 }
@@ -140,44 +135,41 @@ main {
 }
 
 .role h6 {
-  font-size: var(--karma-fontSize-300);
-  line-height: var(--karma-lineHeight-300);
-  font-weight: var(--karma-fontWeight-medium);
+  font: var(--body2-m-emphasized);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text);
   margin-bottom: 8px;
 }
 
 .role p {
-  font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-250);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text-secondary);
 }
 
 .timeline h6 {
-  font-size: var(--karma-fontSize-300);
-  line-height: var(--karma-lineHeight-300);
-  font-weight: var(--karma-fontWeight-medium);
+  font: var(--body2-m-emphasized);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text);
   margin-bottom: 8px;
 }
 
 .timeline p {
-  font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-250);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text-secondary);
 }
 
 .tools h6 {
-  font-size: var(--karma-fontSize-300);
-  line-height: var(--karma-lineHeight-300);
-  font-weight: var(--karma-fontWeight-medium);
+  font: var(--body2-m-emphasized);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text);
   margin-bottom: 8px;
 }
 
 .tools p {
-  font-size: var(--karma-fontSize-250);
-  line-height: var(--karma-lineHeight-250);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--text-secondary);
 }
 
@@ -283,18 +275,40 @@ main {
   }
 
   .title {
-    font-size: var(--karma-fontSize-600);
-    line-height: var(--karma-lineHeight-600);
+    font: var(--title2-xxxs-emphasized);
   }
 
   .project-overview {
-    font-size: var(--karma-fontSize-300);
-    line-height: var(--karma-lineHeight-300);
+    font: var(--body1-xxxs);
   }
 
   .project-information {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 24px;
+  }
+
+  .role h6 {
+    font: var(--body2-xxxs-emphasized);
+  }
+
+  .role p {
+    font: var(--body2-xxxs);
+  }
+
+  .timeline h6 {
+    font: var(--body2-xxxs-emphasized);
+  }
+
+  .timeline p {
+    font: var(--body2-xxxs);
+  }
+
+  .tools h6 {
+    font: var(--body2-xxxs-emphasized);
+  }
+
+  .tools p {
+    font: var(--body2-xxxs);
   }
 
   .design-deck-section {
