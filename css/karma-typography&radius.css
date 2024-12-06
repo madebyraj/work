@@ -4,69 +4,6 @@
 
 :root {
 
-
-
-    /* Font Faces */
-
-    --karma-font-sans: GTA Art Deco, system-ui, Helvetica, Arial, sans-serif;
-    --karma-font-serif: Denton, Times New Roman, serif;
-    --karma-font-mono: Overpass Mono, Nitti, Menlo, Courier, monospace;
-
-
-
-    /* Fonts Weights */
-
-    --karma-fontWeight-regular: 400;
-    --karma-fontWeight-medium: 500;
-    --karma-fontWeight-bold: 700;
-
-
-
-    /* Letter Spacings */
-
-    --karma-letterSpacing-condensed: -0.05em;
-    --karma-letterSpacing-tighter: -0.025em;
-    --karma-letterSpacing-tight: -0.0125em;
-    --karma-letterSpacing-normal: 0;
-    --karma-letterSpacing-wide: 0.0125em;
-    --karma-letterSpacing-wider: 0.025em;
-    --karma-letterSpacing-expanded: 0.05em;
-
-
-
-    /* Line Heights */
-
-    --karma-lineHeight-0: 14px;
-    --karma-lineHeight-50: 16px;
-    --karma-lineHeight-100: 18px;
-    --karma-lineHeight-150: 20px;
-    --karma-lineHeight-200: 24px;
-    --karma-lineHeight-250: 26px;
-    --karma-lineHeight-300: 28px;
-    --karma-lineHeight-350: 30px;
-    --karma-lineHeight-400: 34px;
-    --karma-lineHeight-450: 38px;
-    --karma-lineHeight-500: 40px;
-    --karma-lineHeight-550: 44px;
-    --karma-lineHeight-600: 50px;
-    --karma-lineHeight-650: 56px;
-    --karma-lineHeight-700: 58px;
-    --karma-lineHeight-750: 64px;
-    --karma-lineHeight-800: 72px;
-    --karma-lineHeight-850: 80px;
-    --karma-lineHeight-900: 86px;
-    --karma-lineHeight-950: 96px;
-    --karma-lineHeight-1000: 110px;
-
-    --karma-lineHeight-none: 1.067;
-    --karma-lineHeight-shorter: 1.125;
-    --karma-lineHeight-short: 1.25;
-    --karma-lineHeight-base: 1.333;
-    --karma-lineHeight-tall: 1.5;
-    --karma-lineHeight-taller: 1.618;
-
-
-
     /* Border Radius */
 
     --border-radius-full: 9999rem;
@@ -105,32 +42,6 @@
     --spacing-4: 4px;
     --spacing-2: 2px;
     --spacing-0: 0px;
-
-
-
-    /* Font Sizes */
-
-    --karma-fontSize-0: 12px;
-    --karma-fontSize-50: 12px;
-    --karma-fontSize-100: 12px;
-    --karma-fontSize-150: 14px;
-    --karma-fontSize-200: 16px;
-    --karma-fontSize-250: 18px;
-    --karma-fontSize-300: 20px;
-    --karma-fontSize-350: 22px;
-    --karma-fontSize-400: 25px;
-    --karma-fontSize-450: 28px;
-    --karma-fontSize-500: 32px;
-    --karma-fontSize-550: 36px;
-    --karma-fontSize-600: 40px;
-    --karma-fontSize-650: 45px;
-    --karma-fontSize-700: 51px;
-    --karma-fontSize-750: 57px;
-    --karma-fontSize-800: 64px;
-    --karma-fontSize-850: 72px;
-    --karma-fontSize-900: 81px;
-    --karma-fontSize-950: 91px;
-    --karma-fontSize-1000: 103px;
 
 
 
@@ -288,7 +199,6 @@
     --navbarlink-xl: var(--fontWeight-regular) var(--fontSize-14)/130% var(--font-ui);
     --navbarlink-m: var(--fontWeight-regular) var(--fontSize-14)/130% var(--font-ui);
     --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-32)/130% var(--font-ui);
-
 
 
 
