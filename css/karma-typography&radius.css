@@ -49,8 +49,8 @@
 
 
 
-    --font-ui: Untitled Sans, system-ui, sans-serif;
-    --font-title: Untitled Serif, Times New Roman, serif;
+    --font-ui: Basis Grotesque Arabic Pro, system-ui, sans-serif;
+    --font-title: Haffer, system-ui, sans-serif;
 
     --fontSize-8: 8px;
     --fontSize-10: 10px;
@@ -75,11 +75,10 @@
     --fontSize-103: 103px;
 
     --fontWeight-regular: 400;
-    --fontWeight-medium: 500;
     --fontWeight-bold: 700;
 
-    --letterSpacing-tighter: -0.05em;
-    --letterSpacing-tight: -0.025em;
+    --letterSpacing-tighter: -0.025em;
+    --letterSpacing-tight: -0.0125em;
     --letterSpacing-normal: 0;
     --letterSpacing-wide: 0.025em;
     --letterSpacing-wider: 0.05em;
@@ -179,10 +178,10 @@
     --eyebrow-xxxs: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-ui);
 
     --badge-letterspacing: var(--letterSpacing-wider);
-    --badge-xxl: var(--fontWeight-medium) var(--fontSize-16)/100% var(--font-ui);
-    --badge-xl: var(--fontWeight-medium) var(--fontSize-14)/100% var(--font-ui);
-    --badge-m: var(--fontWeight-medium) var(--fontSize-14)/100% var(--font-ui);
-    --badge-xxxs: var(--fontWeight-medium) var(--fontSize-14)/100% var(--font-ui);
+    --badge-xxl: var(--fontWeight-regular) var(--fontSize-16)/100% var(--font-ui);
+    --badge-xl: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
+    --badge-m: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
+    --badge-xxxs: var(--fontWeight-regular) var(--fontSize-14)/100% var(--font-ui);
 
     --button-letterspacing: var(--letterSpacing-wide);
     --button-xxl: var(--fontWeight-regular) var(--fontSize-20)/140% var(--font-ui);
@@ -197,10 +196,10 @@
     --link-xxxs: var(--fontWeight-regular) var(--fontSize-18)/130% var(--font-ui);
 
     --navbarlink-letterspacing: var(--letterSpacing-wide);
-    --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-16)/130% var(--font-ui);
-    --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-14)/130% var(--font-ui);
-    --navbarlink-m: var(--fontWeight-medium) var(--fontSize-14)/130% var(--font-ui);
-    --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-32)/130% var(--font-ui);
+    --navbarlink-xxl: var(--fontWeight-regular) var(--fontSize-16)/130% var(--font-title);
+    --navbarlink-xl: var(--fontWeight-regular) var(--fontSize-14)/130% var(--font-title);
+    --navbarlink-m: var(--fontWeight-regular) var(--fontSize-14)/130% var(--font-title);
+    --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-32)/130% var(--font-title);
 
 
 

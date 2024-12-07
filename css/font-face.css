@@ -1,45 +1,37 @@
-/* Untitled Sans */
+/* Basis Grotesque Arabic Pro */
 
 @font-face {
-    font-family: 'Untitled Sans';
+    font-family: 'Basis Grotesque Arabic Pro';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/untitled-sans-bold.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Untitled Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/untitled-sans-medium.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Untitled Sans';
+    font-family: 'Basis Grotesque Arabic Pro';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/untitled-sans-regular.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
 }
 
 
 
-/* Untitled Serif */
+/* Haffer */
 
 @font-face {
-    font-family: 'Untitled Serif';
+    font-family: 'Haffer';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/untitled-serif-medium.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Haffer-SemiBold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Untitled Serif';
+    font-family: 'Haffer';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/untitled-serif-regular.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/Haffer-Medium.woff") format("woff");
 }
