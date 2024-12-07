@@ -1,25 +1,45 @@
-/* Netflix Sans */
+/* Untitled Sans */
 
 @font-face {
-    font-family: 'Netflix Sans';
+    font-family: 'Untitled Sans';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/NetflixSans-Bd.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/untitled-sans-bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Netflix Sans';
+    font-family: 'Untitled Sans';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/NetflixSans-Md.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/untitled-sans-medium.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Netflix Sans';
+    font-family: 'Untitled Sans';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/NetflixSans-Rg.woff2") format("woff2");
+    src: local('☺'), url("/assets/Fonts/untitled-sans-regular.woff2") format("woff2");
+}
+
+
+
+/* Untitled Serif */
+
+@font-face {
+    font-family: 'Untitled Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/untitled-serif-medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('☺'), url("/assets/Fonts/untitled-serif-regular.woff2") format("woff2");
 }
