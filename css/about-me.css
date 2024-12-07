@@ -29,6 +29,22 @@
 
 /* About Page */
 
+::-webkit-scrollbar {
+    scrollbar-width: thin;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--separator);
+}
+
+@supports (scrollbar-color: var(--separator) transparent) {
+    * {
+        scrollbar-color: var(--separator) transparent;
+        scrollbar-width: thin;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;

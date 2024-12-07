@@ -25,7 +25,21 @@
 
 }
 
+::-webkit-scrollbar {
+  scrollbar-width: thin;
+  background: transparent;
+}
 
+::-webkit-scrollbar-thumb {
+  background: var(--separator);
+}
+
+@supports (scrollbar-color: var(--separator) transparent) {
+  * {
+    scrollbar-color: var(--separator) transparent;
+    scrollbar-width: thin;
+  }
+}
 
 * {
   margin: 0;
@@ -44,6 +58,7 @@ body {
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
   position: relative;
+
 }
 
 .body-background {
@@ -104,6 +119,7 @@ main {
   font: var(--display-xl);
   letter-spacing: var(--display-letterspacing);
   color: var(--text);
+  max-width: 800px;
 }
 
 .subheadline {

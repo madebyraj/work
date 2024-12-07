@@ -15,9 +15,9 @@
     --globalnav-background-opened: rgba(255, 255, 255, 0.9);
     --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
 
-    --globalnav-color: #000000;
+    --globalnav-color: #1D1D1F;
     --globalnav-color-hover: #2997FF;
-    --globalnav-color-disabled: #000000;
+    --globalnav-color-disabled: #1D1D1F;
 
     --globalfooter-background: #F5F5F7;
 
@@ -77,7 +77,7 @@
     --globalnav-background-opened: rgba(22, 22, 23, 0.9);
     --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
 
-    --globalnav-color: #FFFFFF;
+    --globalnav-color: #F5F5F7;
     --globalnav-color-hover: #0071E3;
     --globalnav-color-disabled: #F5F5F7;
 

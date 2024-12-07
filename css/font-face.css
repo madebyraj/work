@@ -1,25 +1,25 @@
-/* Basis Grotesque Arabic Pro */
+/* Graphik */
 
 @font-face {
-    font-family: 'Basis Grotesque Arabic Pro';
+    font-family: 'Graphik';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/NetflixSans-Bd.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Basis Grotesque Arabic Pro';
+    font-family: 'Graphik';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/NetflixSans-Md.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Basis Grotesque Arabic Pro';
+    font-family: 'Graphik';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+    src: local('☺'), url("/assets/Fonts/NetflixSans-Rg.woff2") format("woff2");
 }
