@@ -1,128 +1,109 @@
 /* Linked CSS Files */
 
-@import url('./karma-semantics.css');
-
-
-
-
-
-
+@import url("./karma-semantics.css");
 
 [data-theme="light"] {
+  --globalnav-background: rgba(255, 255, 255, 0.72);
+  --globalnav-background-opened: rgba(255, 255, 255, 0.9);
+  --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
 
+  --globalnav-color: #1d1d1f;
+  --globalnav-color-hover: #2997ff;
+  --globalnav-color-disabled: #1d1d1f;
 
-    --globalnav-background: rgba(255, 255, 255, 0.72);
-    --globalnav-background-opened: rgba(255, 255, 255, 0.9);
-    --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
+  --globalfooter-background: #f5f5f7;
 
-    --globalnav-color: #1D1D1F;
-    --globalnav-color-hover: #2997FF;
-    --globalnav-color-disabled: #1D1D1F;
+  --globalfooter-color: #515154;
+  --globalfooter-color-hover: #1d1d1f;
+  --globalfooter-color-disabled: #515154;
 
-    --globalfooter-background: #F5F5F7;
+  --body-background: #ffffff;
 
-    --globalfooter-color: #515154;
-    --globalfooter-color-hover: #1D1D1F;
-    --globalfooter-color-disabled: #515154;
+  --body-background-tile: url(/assets/global/body-background-tile-light.png);
 
-    --body-background: #FFFFFF;
+  --focus-ring: rgba(0, 125, 250, 0.6);
 
-    --body-background-tile: url(/assets/global/body-background-tile-light.png);
+  --separator: #e8e8ed;
 
-    --focus-ring: rgba(0, 125, 250, 0.6);
+  --separator-muted: rgba(0, 0, 0, 0.04);
 
-    --separator: #E8E8ED;
+  --fill: #ffffff;
+  --fill-secondary: #fbfbfd;
+  --fill-tertiary: #f5f5f7;
 
-    --separator-muted: rgba(0, 0, 0, 0.04);
+  --text: #000000;
+  --text-secondary: rgba(0, 0, 0, 0.76);
+  --text-tertiary: rgba(0, 0, 0, 0.56);
 
-    --fill: #FFFFFF;
-    --fill-secondary: #FBFBFD;
-    --fill-tertiary: #F5F5F7;
+  --button-background: #0071e3;
+  --button-background-hover: #0066cc;
+  --button-background-active: #00488f;
 
-    --text: #000000;
-    --text-secondary: rgba(0, 0, 0, 0.76);
-    --text-tertiary: rgba(0, 0, 0, 0.56);
+  --button-color: #ffffff;
+  --button-color-hover: var(--button-color);
+  --button-color-active: var(--button-color-hover);
 
-    --button-background: #0071E3;
-    --button-background-hover: #0066CC;
-    --button-background-active: #00488F;
+  --button-secondary-background: #f5f5f7;
+  --button-secondary-background-hover: #e8e8ed;
+  --button-secondary-background-active: #d2d2d7;
 
-    --button-color: #FFFFFF;
-    --button-color-hover: var(--button-color);
-    --button-color-active: var(--button-color-hover);
+  --button-secondary-color: #1d1d1f;
+  --button-secondary-color-hover: var(--button-secondary-color);
+  --button-secondary-color-active: var(--button-secondary-color-hover);
 
-    --button-secondary-background: #F5F5F7;
-    --button-secondary-background-hover: #E8E8ED;
-    --button-secondary-background-active: #D2D2D7;
-
-    --button-secondary-color: #1D1D1F;
-    --button-secondary-color-hover: var(--button-secondary-color);
-    --button-secondary-color-active: var(--button-secondary-color-hover);
-
-    --link-color: #0071E3;
-
+  --link-color: #0071e3;
 }
-
-
-
-
 
 /* ----------------------- */
 
-
-
-
-
 [data-theme="dark"] {
+  --globalnav-background: rgba(22, 22, 23, 0.72);
+  --globalnav-background-opened: rgba(22, 22, 23, 0.9);
+  --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
 
-    --globalnav-background: rgba(22, 22, 23, 0.72);
-    --globalnav-background-opened: rgba(22, 22, 23, 0.9);
-    --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
+  --globalnav-color: #f5f5f7;
+  --globalnav-color-hover: #0071e3;
+  --globalnav-color-disabled: #f5f5f7;
 
-    --globalnav-color: #F5F5F7;
-    --globalnav-color-hover: #0071E3;
-    --globalnav-color-disabled: #F5F5F7;
+  --globalfooter-background: #161617;
 
-    --globalfooter-background: #161617;
+  --globalfooter-color: #a1a1a6;
+  --globalfooter-color-hover: #f5f5f7;
+  --globalfooter-color-disabled: #a1a1a6;
 
-    --globalfooter-color: #A1A1A6;
-    --globalfooter-color-hover: #F5F5F7;
-    --globalfooter-color-disabled: #A1A1A6;
+  --body-background: #1c1c1e;
 
-    --body-background: #1C1C1E;
+  --body-background-tile: url(/assets/global/body-background-tile-dark.png);
 
-    --body-background-tile: url(/assets/global/body-background-tile-dark.png);
+  --focus-ring: rgba(0, 125, 250, 0.6);
 
-    --focus-ring: rgba(0, 125, 250, 0.6);
+  --separator: #424245;
 
-    --separator: #424245;
+  --separator-muted: rgba(255, 255, 255, 0.06);
 
-    --separator-muted: rgba(255, 255, 255, 0.06);
+  --fill: #161617;
+  --fill-secondary: #1d1d1f;
+  --fill-tertiary: #333336;
 
-    --fill: #161617;
-    --fill-secondary: #1D1D1F;
-    --fill-tertiary: #333336;
+  --text: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: rgba(255, 255, 255, 0.5);
 
-    --text: #FFFFFF;
-    --text-secondary: rgba(255, 255, 255, 0.7);
-    --text-tertiary: rgba(255, 255, 255, 0.5);
+  --button-background: #2997ff;
+  --button-background-hover: #70b8ff;
+  --button-background-active: #add6ff;
 
-    --button-background: #2997FF;
-    --button-background-hover: #70B8FF;
-    --button-background-active: #ADD6FF;
+  --button-color: #ffffff;
+  --button-color-hover: var(--button-color);
+  --button-color-active: var(--button-color-hover);
 
-    --button-color: #FFFFFF;
-    --button-color-hover: var(--button-color);
-    --button-color-active: var(--button-color-hover);
+  --button-secondary-background: #333336;
+  --button-secondary-background-hover: #424245;
+  --button-secondary-background-active: #6e6e73;
 
-    --button-secondary-background: #333336;
-    --button-secondary-background-hover: #424245;
-    --button-secondary-background-active: #6E6E73;
+  --button-secondary-color: #f5f5f7;
+  --button-secondary-color-hover: var(--button-secondary-color);
+  --button-secondary-color-active: var(--button-secondary-color-hover);
 
-    --button-secondary-color: #F5F5F7;
-    --button-secondary-color-hover: var(--button-secondary-color);
-    --button-secondary-color-active: var(--button-secondary-color-hover);
-
-    --link-color: #2997FF;
-
+  --link-color: #2997ff;
 }

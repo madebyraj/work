@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
-
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5W2JG6QL');</script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-5W2JG6QL");
+  </script>
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8" />
@@ -19,15 +25,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Raj Kumar - UX Designer</title>
   <link rel="stylesheet" href="./css/home-page.css" />
-  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/animation.css" />
   <link rel="stylesheet" href="./css/dynamic-nav.css" />
   <link rel="stylesheet" href="./css/footer.css" />
   <link rel="stylesheet" href="./css/prefers-color-scheme.css" />
 </head>
 
 <body>
-
-
   <div class="body-background">
     <div class="body-background-tile"></div>
   </div>
@@ -36,12 +40,10 @@
 
   <div class="nav-container">
     <nav class="main-nav">
-
-
       <ul class="desktop-nav">
         <li>
           <a href="index.html" id="link-logo" aria-label="This is the Logo"><img src="./assets/global/Logo.png"
-              alt="Logo" class="logo"></a>
+              alt="Logo" class="logo" /></a>
         </li>
         <div class="right-side-container">
           <div class="inner-right-side-container">
@@ -62,7 +64,7 @@
                 <path
                   d="M11.0318 3.02681C6.53179 3.51681 3.02179 7.33682 3.02179 11.9768C3.02179 16.9468 7.05179 20.9768 12.0218 20.9768C16.6518 20.9768 20.4718 17.4768 20.9718 12.9768C21.0618 12.1868 20.1918 11.5568 19.4318 12.0268C18.5918 12.5668 17.5918 12.8768 16.5218 12.8768C13.5418 12.8768 11.1218 10.4568 11.1218 7.47681C11.1218 6.41681 11.4318 5.41682 11.9618 4.58682C12.4118 3.91682 11.9218 2.95681 11.0318 3.02681Z" />
               </svg>
-              <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;">
+              <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none">
                 <path
                   d="M12 7C9.24 7 7 9.24 7 12C7 14.76 9.24 17 12 17C14.76 17 17 14.76 17 12C17 9.24 14.76 7 12 7ZM2 13H4C4.55 13 5 12.55 5 12C5 11.45 4.55 11 4 11H2C1.45 11 1 11.45 1 12C1 12.55 1.45 13 2 13ZM20 13H22C22.55 13 23 12.55 23 12C23 11.45 22.55 11 22 11H20C19.45 11 19 11.45 19 12C19 12.55 19.45 13 20 13ZM11 2V4C11 4.55 11.45 5 12 5C12.55 5 13 4.55 13 4V2C13 1.45 12.55 1 12 1C11.45 1 11 1.45 11 2ZM11 20V22C11 22.55 11.45 23 12 23C12.55 23 13 22.55 13 22V20C13 19.45 12.55 19 12 19C11.45 19 11 19.45 11 20ZM5.99 4.58C5.6 4.19 4.96 4.19 4.58 4.58C4.19 4.97 4.19 5.61 4.58 5.99L5.64 7.05C6.03 7.44 6.67 7.44 7.05 7.05C7.43 6.66 7.44 6.02 7.05 5.64L5.99 4.58ZM18.36 16.95C17.97 16.56 17.33 16.56 16.95 16.95C16.56 17.34 16.56 17.98 16.95 18.36L18.01 19.42C18.4 19.81 19.04 19.81 19.42 19.42C19.81 19.03 19.81 18.39 19.42 18.01L18.36 16.95ZM19.42 5.99C19.81 5.6 19.81 4.96 19.42 4.58C19.03 4.19 18.39 4.19 18.01 4.58L16.95 5.64C16.56 6.03 16.56 6.67 16.95 7.05C17.34 7.43 17.98 7.44 18.36 7.05L19.42 5.99ZM7.05 18.36C7.44 17.97 7.44 17.33 7.05 16.95C6.66 16.56 6.02 16.56 5.64 16.95L4.58 18.01C4.19 18.4 4.19 19.04 4.58 19.42C4.97 19.8 5.61 19.81 5.99 19.42L7.05 18.36Z" />
               </svg>
@@ -78,26 +80,15 @@
           </li>
         </div>
       </ul>
-
     </nav>
   </div>
 
-
-
   <main>
-
-
-
     <section class="hero-section">
-
       <div class="hero-section-wrapper">
-
         <div class="hero-introduction-section">
-
           <div class="hero-headline">
-            <h2 class="hero-headline-intro">
-              Hey, I’m Raj!
-            </h2>
+            <h2 class="hero-headline-intro">Hey, I’m Raj!</h2>
             <div class="subheadline">
               <div class="tagline">
                 A UX Designer who loves crafting inclusive products.
@@ -107,190 +98,133 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
-
-
-
-
-
     </section>
 
-
-
-
-
-
-
-
-
-
-
     <section id="project-section">
-
-
       <h3 class="project-section-headline">Selected work</h3>
 
-
       <div id="project-container">
-
-
         <a href="https://www.figma.com/community/file/1403398689455527801/morphix-design-system" target="_blank"
           aria-label="Click Here to see my Morphix design system" class="project">
-
           <img src="./assets/global/project-4c.png" alt="Project 4 cover photo" class="project-cover"
-            data-animate="tile">
+            data-animate="tile" />
 
           <div class="project-information">
-            <h5 class="project-title" data-animate="text">Morphix Design System</h5>
+            <h5 class="project-title" data-animate="text">
+              Morphix Design System
+            </h5>
             <p class="project-badge" data-animate="text">UI LIBRARY</p>
             <p class="project-description" data-animate="text">
-              This UI kit is designed to help you get started quickly and efficiently.
+              This UI kit is designed to help you get started quickly and
+              efficiently.
             </p>
           </div>
-
         </a>
 
-
         <a href="netflix.html" aria-label="Click Here to see my Netflix project" class="project">
-
           <img src="./assets/global/project-3c.png" alt="Project 3 cover photo" class="project-cover"
-            data-animate="tile">
+            data-animate="tile" />
 
           <div class="project-information">
             <h5 class="project-title" data-animate="text">Netflix</h5>
             <p class="project-badge" data-animate="text">UX RESEARCH</p>
             <p class="project-description" data-animate="text">
-              Enhanced the user experience for a leading streaming service, making it more enjoyable, which contributed
-              to business growth.
+              Enhanced the user experience for a leading streaming service,
+              making it more enjoyable, which contributed to business growth.
             </p>
           </div>
-
         </a>
-
-
 
         <a href="worksafe-manager.html" aria-label="Click Here to see my Worksafe manager project" class="project">
-
           <img src="./assets/global/project-2c.png" alt="Project 2 cover photo" class="project-cover"
-            data-animate="tile">
+            data-animate="tile" />
 
           <div class="project-information">
-            <h5 class="project-title" data-animate="text">Worksafe Manager</h5>
+            <h5 class="project-title" data-animate="text">
+              Worksafe Manager
+            </h5>
             <p class="project-badge" data-animate="text">MOBILE + WEB APP</p>
             <p class="project-description" data-animate="text">
-              Developed an employee management system to ensure a safe and efficient return to the office.
+              Developed an employee management system to ensure a safe and
+              efficient return to the office.
             </p>
           </div>
-
         </a>
 
-
-
         <a href="moneytracker.html" aria-label="Click Here to see my Money tracker project" class="project">
-
           <img src="./assets/global/project-1c.png" alt="Project 1 cover photo" class="project-cover"
-            data-animate="tile">
+            data-animate="tile" />
 
           <div class="project-information">
             <h5 class="project-title" data-animate="text">Money Tracker</h5>
             <p class="project-badge" data-animate="text">PROTOTYPING</p>
             <p class="project-description" data-animate="text">
-              It designed to simplify personal finance management by providing users with an intuitive platform to track
-              their financial health.
+              It designed to simplify personal finance management by providing
+              users with an intuitive platform to track their financial
+              health.
             </p>
           </div>
-
         </a>
-
-
-
       </div>
-
-
-
-
     </section>
 
-
-
     <section id="writing-section">
-
-
       <h3 class="writing-section-headline">Writing</h3>
 
-
       <div id="writing-container">
-
-
         <a href="https://medium.com/@rahulkumxrr/heuristic-evaluation-full-guide-536668e53e24"
           aria-label="Click Here to read this article." class="article" target="_blank">
-
-          <img src="./assets/writing/third-3.png" alt="Article 3 cover photo" class="article-cover" data-animate="tile">
+          <img src="./assets/writing/third-3.png" alt="Article 3 cover photo" class="article-cover"
+            data-animate="tile" />
 
           <div class="article-information">
-            <h5 class="article-title" data-animate="text">How to conduct a Heuristic Evaluation?</h5>
+            <h5 class="article-title" data-animate="text">
+              How to conduct a Heuristic Evaluation?
+            </h5>
             <p class="article-description" data-animate="text">
               February 27, 2024
             </p>
           </div>
-
         </a>
 
         <a href="https://medium.com/@rahulkumxrr/elevator-interface-solutions-for-a-10-000-floor-building-ea458aa6fc63"
           aria-label="Click Here to read this article." class="article" target="_blank">
-
           <img src="./assets/writing/second-2.png" alt="Article 2 cover photo" class="article-cover"
-            data-animate="tile">
+            data-animate="tile" />
 
           <div class="article-information">
-            <h5 class="article-title" data-animate="text">Elevator Interface Solutions for a 10,000-Floor Building
+            <h5 class="article-title" data-animate="text">
+              Elevator Interface Solutions for a 10,000-Floor Building
             </h5>
             <p class="article-description" data-animate="text">
               November 08, 2023
             </p>
           </div>
-
         </a>
 
         <a href="https://medium.com/@rahulkumxrr/understanding-design-principles-c5ab16284562"
           aria-label="Click Here to read this article." class="article" target="_blank">
-
-          <img src="./assets/writing/first-1.png" alt="Article 1 cover photo" class="article-cover" data-animate="tile">
+          <img src="./assets/writing/first-1.png" alt="Article 1 cover photo" class="article-cover"
+            data-animate="tile" />
 
           <div class="article-information">
-            <h5 class="article-title" data-animate="text">Understanding design principles</h5>
+            <h5 class="article-title" data-animate="text">
+              Understanding design principles
+            </h5>
             <p class="article-description" data-animate="text">
               October 23, 2023
             </p>
           </div>
-
         </a>
-
-
-
       </div>
-
-
-
     </section>
-
-
   </main>
 
-
-
-
   <footer class="footer">
-
-
     <div class="footer-container">
-
-      <div class="design-and-code">
-        Design and coded by me :)
-      </div>
+      <div class="design-and-code">Design and coded by me :)</div>
 
       <div class="social-links">
         <a href="https://www.instagram.com/rajkumar.png?igsh=MWlvbXRiZ2QzdTd2Zw==" target="_blank"
@@ -324,30 +258,20 @@
               d="M3 4C1.34375 4 0 5.34375 0 7C0 7.94375 0.44375 8.83125 1.2 9.4L14.8 19.6C15.5125 20.1313 16.4875 20.1313 17.2 19.6L30.8 9.4C31.5562 8.83125 32 7.94375 32 7C32 5.34375 30.6562 4 29 4H3ZM0 11V24C0 26.2062 1.79375 28 4 28H28C30.2062 28 32 26.2062 32 24V11L18.4 21.2C16.975 22.2688 15.025 22.2688 13.6 21.2L0 11Z" />
           </svg>
         </a>
-
       </div>
-
-
-
     </div>
   </footer>
-
-
-
 
   <!-- GASP Animations -->
 
   <script src="./gsap-member/minified/gsap.min.js"></script>
   <script src="./gsap-member/minified/ScrollTrigger.min.js"></script>
 
-
   <script src="./app/gsap-animation.js"></script>
-
 
   <!-- Hero Section Animation -->
 
   <script src="app/hero-headline-highlighted.js"></script>
-
 
   <!-- Navbar -->
 
@@ -355,26 +279,18 @@
 
   <script src="app/dynamic-nav.js"></script>
 
-
   <!-- Theme -->
 
   <script src="app/theme.js"></script>
-
 
   <!-- Cursor -->
 
   <script src="app/cursor.js"></script>
 
-
-
-
-
-
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W2JG6QL" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+      style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
 </body>
 
 </html>

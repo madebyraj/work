@@ -1,424 +1,375 @@
 /* Linked CSS Files */
 
-@import url('./variables.css');
-@import url('./karma-semantics.css');
-@import url('./karma-typography.css');
-
-
-
-
-
-
-
+@import url("./variables.css");
+@import url("./karma-semantics.css");
+@import url("./karma-typography.css");
 
 /*  Animations */
 
 @keyframes pageLoading {
+  from {
+    opacity: 0;
+  }
 
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-
+  to {
+    opacity: 1;
+  }
 }
-
-
 
 /* About Page */
 
 ::-webkit-scrollbar {
-    scrollbar-width: thin;
-    background: transparent;
+  scrollbar-width: thin;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--separator);
+  background: var(--separator);
 }
 
 @supports (scrollbar-color: var(--separator) transparent) {
-    * {
-        scrollbar-color: var(--separator) transparent;
-        scrollbar-width: thin;
-    }
+  * {
+    scrollbar-color: var(--separator) transparent;
+    scrollbar-width: thin;
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--karma-font-sans);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--karma-font-sans);
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    padding-top: var(--globalnav-height);
-    background-color: var(--body-background);
-    cursor: var(--cursor-default), auto;
-    animation: pageLoading 950ms;
-    position: relative;
-}
-
-.body-background {
-    flex: none;
-    inset: 0;
-    opacity: .4;
-    overflow: visible;
-    position: absolute;
-    z-index: -1;
-}
-
-.body-background-tile {
-    position: absolute;
-    border-radius: inherit;
-    inset: 0px;
-    background-repeat: repeat;
-    background-position: left top;
-    background-size: 52px;
-    background-image: var(--body-background-tile);
-    border: 0px;
+  padding-top: var(--globalnav-height);
+  background-color: var(--body-background);
+  cursor: var(--cursor-default), auto;
+  animation: pageLoading 950ms;
+  position: relative;
 }
 
 main {
-    padding: 0 96px;
-    margin: auto;
-    min-height: 100vh;
+  padding: 0 96px;
+  margin: auto;
+  min-height: 100vh;
 }
-
-
 
 /* About Section */
 
 .about-section {
-    margin: auto;
-    max-width: var(--content-max-width);
-    padding: 96px 0 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: var(--spacing-48);
+  margin: auto;
+  max-width: var(--content-max-width);
+  padding: 96px 0 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: var(--spacing-48);
 }
 
 .about-section-headline {
-    font: var(--title3-m-emphasized);
-    letter-spacing: var(--title3-letterspacing);
-    color: var(--text);
+  font: var(--title3-m-emphasized);
+  letter-spacing: var(--title3-letterspacing);
+  color: var(--text);
 }
 
 .about-section-story-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-48);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-48);
 }
 
 .me {
-    order: 2;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: var(--border-radius-8);
+  order: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius-8);
 }
 
 .journey {
-    order: 1;
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-24);
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
 }
 
 .journey-copy {
-    font: var(--body2-m);
-    letter-spacing: var(--body2-letterspacing);
-    color: var(--text-secondary);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
+  color: var(--text-secondary);
 }
-
-
 
 /* Outside of work */
 
 .outside-of-work {
-    margin: auto;
-    max-width: var(--content-max-width);
-    padding: 48px 0 96px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: var(--spacing-48);
+  margin: auto;
+  max-width: var(--content-max-width);
+  padding: 48px 0 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: var(--spacing-48);
 }
 
 .ow-section-headline {
-    max-width: 480px;
-    font: var(--title3-m-emphasized);
-    letter-spacing: var(--title3-letterspacing);
-    color: var(--text);
+  max-width: 480px;
+  font: var(--title3-m-emphasized);
+  letter-spacing: var(--title3-letterspacing);
+  color: var(--text);
 }
 
 .cricket-section {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-48);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-48);
 }
 
 .me-cricket {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: var(--border-radius-8);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius-8);
 }
 
 .cricket-story {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-16);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
 }
 
 .cricket-story-heading {
-    font: var(--title4-m-emphasized);
-    letter-spacing: var(--title4-letterspacing);
-    color: var(--text);
+  font: var(--title4-m-emphasized);
+  letter-spacing: var(--title4-letterspacing);
+  color: var(--text);
 }
 
 .cricket-story-copy {
-    font: var(--body2-m);
-    letter-spacing: var(--body2-letterspacing);
-    color: var(--text-secondary);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
+  color: var(--text-secondary);
 }
 
-
 .snap-and-music-section {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-48);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-48);
 }
 
 .snap-section {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-24);
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+  overflow: hidden;
 }
 
 .snap-section-heading {
-    font: var(--title4-m-emphasized);
-    letter-spacing: var(--title4-letterspacing);
-    color: var(--text);
+  font: var(--title4-m-emphasized);
+  letter-spacing: var(--title4-letterspacing);
+  color: var(--text);
 }
 
 .snaps {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--spacing-16);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--spacing-16);
 }
 
 .snap {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: var(--border-radius-8);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius-8);
 }
 
 .snap-section-copy {
-    font: var(--body2-m);
-    letter-spacing: var(--body2-letterspacing);
-    color: var(--text-secondary);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
+  color: var(--text-secondary);
 }
 
 .music-section {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-24);
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+  overflow: hidden;
 }
 
 .music-section-heading {
-    font: var(--title4-m-emphasized);
-    letter-spacing: var(--title4-letterspacing);
-    color: var(--text);
+  font: var(--title4-m-emphasized);
+  letter-spacing: var(--title4-letterspacing);
+  color: var(--text);
 }
 
 .music-covers {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--spacing-16);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--spacing-16);
 }
 
 .music-cover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: var(--border-radius-8);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius-8);
 }
 
 .music-section-copy {
-    font: var(--body2-m);
-    letter-spacing: var(--body2-letterspacing);
-    color: var(--text-secondary);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
+  color: var(--text-secondary);
 }
-
-
-
 
 /* Small Desktop */
 
-@media (max-width: 1400px) {}
-
-
+@media (max-width: 1400px) {
+}
 
 /* Tablet */
 
 @media (max-width: 1068px) {
+  main {
+    padding: 0 48px;
+  }
 
-    main {
-        padding: 0 48px;
-    }
+  /* About Section */
 
+  .about-section {
+    padding: 96px 0 48px;
+    gap: var(--spacing-48);
+  }
 
-    /* About Section */
+  .about-section-story-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: var(--spacing-48);
+  }
 
-    .about-section {
-        padding: 96px 0 48px;
-        gap: var(--spacing-48);
-    }
+  .me {
+    order: 1;
+  }
 
-    .about-section-story-wrapper {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: var(--spacing-48);
-    }
+  .journey {
+    order: 2;
+  }
 
-    .me {
-        order: 1;
-    }
+  /* Outside of work */
 
-    .journey {
-        order: 2;
-    }
+  .outside-of-work {
+    padding: 48px 0 96px;
+    gap: var(--spacing-48);
+  }
 
+  .cricket-section {
+    gap: var(--spacing-48);
+  }
 
-    /* Outside of work */
+  .snap-and-music-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--spacing-48);
+  }
 
-    .outside-of-work {
-        padding: 48px 0 96px;
-        gap: var(--spacing-48);
-    }
+  .snap-section {
+    gap: var(--spacing-16);
+  }
 
-    .cricket-section {
-        gap: var(--spacing-48);
-    }
-
-    .snap-and-music-section {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: var(--spacing-48);
-    }
-
-    .snap-section {
-        gap: var(--spacing-16);
-    }
-
-    .music-section {
-        gap: var(--spacing-16);
-    }
-
+  .music-section {
+    gap: var(--spacing-16);
+  }
 }
-
-
 
 /* Mobile */
 
 @media (max-width: 734px) {
+  main {
+    padding: 0 24px;
+  }
 
-    main {
-        padding: 0 24px;
-    }
+  /* About Section */
 
+  .about-section {
+    padding: 80px 0 40px;
+    gap: var(--spacing-32);
+  }
 
-    /* About Section */
+  .about-section-headline {
+    font: var(--title3-xxxs-emphasized);
+  }
 
-    .about-section {
-        padding: 80px 0 40px;
-        gap: var(--spacing-32);
-    }
+  .about-section-story-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: var(--spacing-32);
+  }
 
-    .about-section-headline {
-        font: var(--title3-xxxs-emphasized);
-    }
+  .me {
+    order: 1;
+  }
 
-    .about-section-story-wrapper {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: var(--spacing-32);
-    }
+  .journey {
+    order: 2;
+  }
 
-    .me {
-        order: 1;
-    }
+  .journey-copy {
+    font: var(--body2-xxxs);
+  }
 
-    .journey {
-        order: 2;
-    }
+  /* Outside of work */
 
-    .journey-copy {
-        font: var(--body2-xxxs);
-    }
+  .outside-of-work {
+    padding: 40px 0 80px;
+    gap: var(--spacing-32);
+  }
 
-    /* Outside of work */
+  .ow-section-headline {
+    max-width: 464px;
+    font: var(--title3-xxxs-emphasized);
+  }
 
-    .outside-of-work {
-        padding: 40px 0 80px;
-        gap: var(--spacing-32);
-    }
+  .cricket-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: var(--spacing-16);
+  }
 
-    .ow-section-headline {
-        max-width: 464px;
-        font: var(--title3-xxxs-emphasized);
-    }
+  .cricket-story {
+    gap: var(--spacing-8);
+  }
 
-    .cricket-section {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: var(--spacing-16);
-    }
+  .cricket-story-heading {
+    font: var(--title4-xxxs-emphasized);
+  }
 
-    .cricket-story {
-        gap: var(--spacing-8);
-    }
+  .cricket-story-copy {
+    font: var(--body2-xxxs);
+  }
 
-    .cricket-story-heading {
-        font: var(--title4-xxxs-emphasized);
-    }
+  .snap-and-music-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: var(--spacing-32);
+  }
 
-    .cricket-story-copy {
-        font: var(--body2-xxxs);
-    }
+  .snap-section-heading {
+    font: var(--title4-xxxs-emphasized);
+  }
 
-    .snap-and-music-section {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: var(--spacing-32);
-    }
+  .snap-section-copy {
+    font: var(--body2-xxxs);
+  }
 
-    .snap-section-heading {
-        font: var(--title4-xxxs-emphasized);
-    }
+  .music-section-heading {
+    font: var(--title4-xxxs-emphasized);
+  }
 
-    .snap-section-copy {
-        font: var(--body2-xxxs);
-    }
-
-    .music-section-heading {
-        font: var(--title4-xxxs-emphasized);
-    }
-
-    .music-section-copy {
-        font: var(--body2-xxxs);
-    }
-
+  .music-section-copy {
+    font: var(--body2-xxxs);
+  }
 }

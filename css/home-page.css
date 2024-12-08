@@ -1,20 +1,12 @@
 /* Linked CSS Files */
 
-@import url('./variables.css');
-@import url('./karma-semantics.css');
-@import url('./karma-typography&radius.css');
-
-
-
-
-
-
-
+@import url("./variables.css");
+@import url("./karma-semantics.css");
+@import url("./karma-typography&radius.css");
 
 /*  Animations */
 
 @keyframes pageLoading {
-
   from {
     opacity: 0;
   }
@@ -22,7 +14,6 @@
   to {
     opacity: 1;
   }
-
 }
 
 ::-webkit-scrollbar {
@@ -58,27 +49,6 @@ body {
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
   position: relative;
-
-}
-
-.body-background {
-  flex: none;
-  inset: 0;
-  opacity: .4;
-  overflow: visible;
-  position: absolute;
-  z-index: -1;
-}
-
-.body-background-tile {
-  position: absolute;
-  border-radius: inherit;
-  inset: 0px;
-  background-repeat: repeat;
-  background-position: left top;
-  background-size: 52px;
-  background-image: var(--body-background-tile);
-  border: 0px;
 }
 
 main {
@@ -141,10 +111,7 @@ main {
   color: var(--text-secondary);
 }
 
-
-
 /* Project Section */
-
 
 #project-section {
   overflow: hidden;
@@ -231,10 +198,7 @@ main {
   border-radius: var(--border-radius-8);
 }
 
-
-
 /* Writing Section */
-
 
 #writing-section {
   margin: auto;
@@ -310,11 +274,9 @@ main {
   border-radius: var(--border-radius-8);
 }
 
-
 /* @media (max-width: 1400px) {} */
 
 @media (max-width: 1068px) {
-
   main {
     padding: 0 48px;
   }
@@ -340,7 +302,6 @@ main {
   }
 
   /* Project Section */
-
 
   #project-section {
     padding: 48px 0px;
@@ -375,7 +336,6 @@ main {
 
   /* Writing Section */
 
-
   #writing-section {
     padding: 48px 0px 96px;
     gap: 40px;
@@ -402,11 +362,9 @@ main {
   .article-description {
     font: var(--body3-m);
   }
-
 }
 
 @media (max-width: 734px) {
-
   main {
     padding: 0 24px;
   }
@@ -432,7 +390,6 @@ main {
   }
 
   /* Project Section */
-
 
   #project-section {
     padding: 40px 0px;
@@ -467,7 +424,6 @@ main {
 
   /* Writing Section */
 
-
   #writing-section {
     padding: 40px 0px 80px;
     gap: 32px;
@@ -494,7 +450,4 @@ main {
   .article-description {
     font: var(--body3-xxxs);
   }
-
-
-
 }
