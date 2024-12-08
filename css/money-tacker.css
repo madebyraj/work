@@ -1,20 +1,12 @@
 /* Linked CSS Files */
 
-@import url('./variables.css');
-@import url('./karma-semantics.css');
-@import url('./karma-typography&radius.css');
-
-
-
-
-
-
-
+@import url("./variables.css");
+@import url("./karma-semantics.css");
+@import url("./karma-typography&radius.css");
 
 /*  Animations */
 
 @keyframes pageLoading {
-
   from {
     opacity: 0;
   }
@@ -22,7 +14,6 @@
   to {
     opacity: 1;
   }
-
 }
 
 ::-webkit-scrollbar {
@@ -64,7 +55,7 @@ body {
 .body-background {
   flex: none;
   inset: 0;
-  opacity: .4;
+  opacity: 0.4;
   overflow: visible;
   position: absolute;
   z-index: -1;
@@ -685,17 +676,12 @@ main {
   fill: var(--link-color);
 }
 
-
-
-
-@media (max-width: 1400px) {}
-
-
+@media (max-width: 1400px) {
+}
 
 /* Tablet */
 
 @media (max-width: 1068px) {
-
   #main-container {
     margin: auto;
     padding: 0px 48px;
@@ -713,15 +699,11 @@ main {
   .finish-section {
     padding: 48px 0 96px;
   }
-
 }
-
-
 
 /* Mobile */
 
 @media (max-width: 734px) {
-
   #main-container {
     margin: auto;
     padding: 0px 24px;
@@ -943,5 +925,4 @@ main {
   .back-to-home {
     font: var(--link-xxxs);
   }
-
 }

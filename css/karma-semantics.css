@@ -70,6 +70,8 @@
 
     --separator: #E8E8ED;
 
+    --separator-muted: rgba(0, 0, 0, 0.04);
+
     --fill: #FFFFFF;
     --fill-secondary: #FBFBFD;
     --fill-tertiary: #F5F5F7;
@@ -129,6 +131,8 @@
         --focus-ring: rgba(0, 125, 250, 0.6);
 
         --separator: #424245;
+
+        --separator-muted: rgba(255, 255, 255, 0.06);
 
         --fill: #161617;
         --fill-secondary: #1D1D1F;

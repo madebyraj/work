@@ -1,37 +1,37 @@
 /* Basis Grotesque Arabic Pro */
 
 @font-face {
-    font-family: 'Basis Grotesque Arabic Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Basis Grotesque Arabic Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
 }
-
-
 
 /* Haffer */
 
 @font-face {
-    font-family: 'Haffer';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Haffer-SemiBold.woff") format("woff");
+  font-family: "Haffer";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Haffer-SemiBold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Haffer';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('☺'), url("/assets/Fonts/Haffer-Medium.woff") format("woff");
+  font-family: "Haffer";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Haffer-Medium.woff") format("woff");
 }
