@@ -1,10 +1,32 @@
-/* Airbnb Cereal VF */
+/* SF Pro */
 
 @font-face {
-  font-family: "Airbnb Cereal VF";
+  font-family: "SF Pro";
   font-style: normal;
   font-weight: 1 1000;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/AirbnbCerealVF.woff") format("woff");
+    url("/assets/Fonts/SFPro.woff2") format("woff2");
+}
+
+
+
+/* Standard */
+
+@font-face {
+  font-family: "Standard";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/standard-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Standard";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/standard-book-webfont.woff") format("woff");
 }
