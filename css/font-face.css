@@ -1,19 +1,10 @@
-/* GT Walsheim Pro */
+/* Airbnb Cereal VF */
 
 @font-face {
-  font-family: "GT Walsheim Pro";
+  font-family: "Airbnb Cereal VF";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 1 1000;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/GTWalsheimPro-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "GT Walsheim Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"),
-    url("/assets/Fonts/GTWalsheimPro-Regular.woff") format("woff");
+    url("/assets/Fonts/AirbnbCerealVF.woff") format("woff");
 }
