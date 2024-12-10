@@ -1,19 +1,28 @@
-/* Standard */
+/* Averta Std */
 
 @font-face {
-  font-family: "Standard";
+  font-family: "Averta Std";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/standard-bold.woff") format("woff");
+    url("/assets/Fonts/AvertaStd-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Standard";
+  font-family: "Averta Std";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/AvertaStd-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta Std";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/standard-book.woff") format("woff");
+    url("/assets/Fonts/AvertaStd-Regular.woff") format("woff");
 }
