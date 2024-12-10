@@ -1,12 +1,21 @@
-/* SF Pro */
+/* GTA Art Deco */
 
 @font-face {
-  font-family: "SF Pro";
+  font-family: "GTA Art Deco";
   font-style: normal;
-  font-weight: 1 1000;
+  font-weight: 700;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/SFPro.woff2") format("woff2");
+    url("/assets/Fonts/GTAArtDeco-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GTA Art Deco";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/GTAArtDeco-Regular.woff") format("woff");
 }
 
 
