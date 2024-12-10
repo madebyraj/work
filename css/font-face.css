@@ -1,25 +1,3 @@
-/* GTA Art Deco */
-
-@font-face {
-  font-family: "GTA Art Deco";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"),
-    url("/assets/Fonts/GTAArtDeco-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "GTA Art Deco";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"),
-    url("/assets/Fonts/GTAArtDeco-Regular.woff") format("woff");
-}
-
-
-
 /* Standard */
 
 @font-face {
@@ -28,7 +6,7 @@
   font-weight: 700;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/standard-bold-webfont.woff") format("woff");
+    url("/assets/Fonts/standard-bold.woff") format("woff");
 }
 
 @font-face {
@@ -37,5 +15,5 @@
   font-weight: 400;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/standard-book-webfont.woff") format("woff");
+    url("/assets/Fonts/standard-book.woff") format("woff");
 }
