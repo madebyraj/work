@@ -1,28 +1,59 @@
-/* Averta Std */
+/* Cabinet Grotesk */
 
 @font-face {
-  font-family: "Averta Std";
+  font-family: "Cabinet Grotesk";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/AvertaStd-Bold.woff") format("woff");
+    url("/assets/Fonts/CabinetGrotesk-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Averta Std";
+  font-family: "Cabinet Grotesk";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/AvertaStd-Semibold.woff") format("woff");
+    url("/assets/Fonts/CabinetGrotesk-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Averta Std";
+  font-family: "Cabinet Grotesk";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/AvertaStd-Regular.woff") format("woff");
+    url("/assets/Fonts/CabinetGrotesk-Regular.woff") format("woff");
+}
+
+
+
+/* BasisGrotesqueArabicPro */
+
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
 }
