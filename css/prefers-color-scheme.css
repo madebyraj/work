@@ -19,8 +19,6 @@
 
   --body-background: #ffffff;
 
-  --body-background-tile: url(/assets/global/body-background-tile-light.png);
-
   --focus-ring: rgba(0, 125, 250, 0.6);
 
   --separator: #e8e8ed;
@@ -72,8 +70,6 @@
   --globalfooter-color-disabled: #a1a1a6;
 
   --body-background: #1c1c1e;
-
-  --body-background-tile: url(/assets/global/body-background-tile-dark.png);
 
   --focus-ring: rgba(0, 125, 250, 0.6);
 
