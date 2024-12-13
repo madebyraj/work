@@ -1,30 +1,12 @@
-/* Cabinet Grotesk */
+/* ABC Marfa */
 
 @font-face {
-  font-family: "Cabinet Grotesk";
+  font-family: "ABC Marfa";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 1 1000;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/CabinetGrotesk-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Cabinet Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local("☺"),
-    url("/assets/Fonts/CabinetGrotesk-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Cabinet Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"),
-    url("/assets/Fonts/CabinetGrotesk-Regular.woff") format("woff");
+    url("/assets/Fonts/ABCMarfa-Variable.woff2") format("woff2");
 }
 
 
