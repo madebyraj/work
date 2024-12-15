@@ -40,8 +40,8 @@
 
   /* ---------------------------- */
 
-  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-title: Haffer, var(--font-ui), system-ui, sans-serif;
+  --font-ui: Gilroy, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-title: Gilroy, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-8: 8px;
   --fontSize-10: 10px;
