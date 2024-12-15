@@ -1,12 +1,30 @@
-/* ABC Marfa */
+/* Haffer */
 
 @font-face {
-  font-family: "ABC Marfa";
+  font-family: "Haffer";
   font-style: normal;
-  font-weight: 1 1000;
+  font-weight: 700;
   font-display: swap;
   src: local("☺"),
-    url("/assets/Fonts/ABCMarfa-Variable.woff2") format("woff2");
+    url("/assets/Fonts/Haffer-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Haffer";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/Haffer-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Haffer";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"),
+    url("/assets/Fonts/Haffer-Regular.woff") format("woff");
 }
 
 
