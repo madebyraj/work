@@ -1,27 +1,27 @@
-/* Satoshi */
+/* General Sans */
 
 @font-face {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Satoshi-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/GeneralSans-Semibold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Satoshi-Medium.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/GeneralSans-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Satoshi-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/GeneralSans-Regular.woff") format("woff");
 }
 
 /* Basis Grotesque Arabic Pro */
