@@ -127,7 +127,6 @@
 .current {
   cursor: var(--cursor-not-allowed), auto !important;
   color: var(--globalnav-color-disabled) !important;
-  opacity: 0.5 !important;
 }
 
 /* Theme Button */
