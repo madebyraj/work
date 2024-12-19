@@ -41,7 +41,7 @@
   /* ---------------------------- */
 
   --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, system-ui, sans-serif;
-  --font-title: Reckless Neue, serif, var(--font-ui);
+  --font-title: var(--font-ui), system-ui, sans-serif;
 
   --fontSize-8: 8px;
   --fontSize-10: 10px;

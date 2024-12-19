@@ -26,29 +26,3 @@
   src: local("☺"),
     url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
 }
-
-/* Reckless Neue */
-
-@font-face {
-  font-family: "Reckless Neue";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/RecklessNeue-SemiBold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Reckless Neue";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/RecklessNeue-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Reckless Neue";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/RecklessNeue-Regular.woff") format("woff");
-}
