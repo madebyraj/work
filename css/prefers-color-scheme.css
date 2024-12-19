@@ -7,99 +7,99 @@
   --globalnav-background-opened: rgba(255, 255, 255, 0.9);
   --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
 
-  --globalnav-color: #1d1d1f;
-  --globalnav-color-hover: #2997ff;
-  --globalnav-color-disabled: #1d1d1f;
+  --globalnav-color: var(--gray-900);
+  --globalnav-color-hover: #005ee8;
+  --globalnav-color-disabled: var(--gray-900);
 
-  --globalfooter-background: #f5f5f7;
+  --globalfooter-background: var(--gray-100);
 
-  --globalfooter-color: #515154;
-  --globalfooter-color-hover: #1d1d1f;
-  --globalfooter-color-disabled: #515154;
+  --globalfooter-color: #515253;
+  --globalfooter-color-hover: var(--gray-900);
+  --globalfooter-color-disabled: #515253;
 
-  --body-background: #ffffff;
+  --body-background: var(--white);
 
   --focus-ring: rgba(0, 125, 250, 0.6);
 
-  --separator: #e8e8ed;
+  --separator: var(--gray-200);
 
   --separator-muted: rgba(0, 0, 0, 0.04);
 
-  --fill: #ffffff;
-  --fill-secondary: #fbfbfd;
-  --fill-tertiary: #f5f5f7;
+  --fill: var(--white);
+  --fill-secondary: var(--gray-100);
+  --fill-tertiary: var(--gray-200);
 
-  --text: #000000;
-  --text-secondary: rgba(0, 0, 0, 0.76);
-  --text-tertiary: rgba(0, 0, 0, 0.56);
+  --text: var(--black);
+  --text-secondary: var(--gray-800);
+  --text-tertiary: var(--gray-600);
 
-  --button-background: #0071e3;
-  --button-background-hover: #0066cc;
-  --button-background-active: #00488f;
+  --button-background: #006af9;
+  --button-background-hover: #005ee8;
+  --button-background-active: #003ba8;
 
-  --button-color: #ffffff;
+  --button-color: var(--white);
   --button-color-hover: var(--button-color);
   --button-color-active: var(--button-color-hover);
 
-  --button-secondary-background: #f5f5f7;
-  --button-secondary-background-hover: #e8e8ed;
-  --button-secondary-background-active: #d2d2d7;
+  --button-secondary-background: var(--gray-100);
+  --button-secondary-background-hover: var(--gray-200);
+  --button-secondary-background-active: var(--gray-300);
 
-  --button-secondary-color: #1d1d1f;
+  --button-secondary-color: var(--gray-900);
   --button-secondary-color-hover: var(--button-secondary-color);
   --button-secondary-color-active: var(--button-secondary-color-hover);
 
-  --link-color: #0071e3;
+  --link-color: #006af9;
 }
 
 /* ----------------------- */
 
 [data-theme="dark"] {
-  --globalnav-background: rgba(22, 22, 23, 0.72);
-  --globalnav-background-opened: rgba(22, 22, 23, 0.9);
+  --globalnav-background: rgba(22, 23, 24, 0.72);
+  --globalnav-background-opened: rgba(22, 23, 24, 0.9);
   --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
 
-  --globalnav-color: #f5f5f7;
-  --globalnav-color-hover: #0071e3;
-  --globalnav-color-disabled: #f5f5f7;
+  --globalnav-color: var(--gray-100);
+  --globalnav-color-hover: #66b5ff;
+  --globalnav-color-disabled: var(--gray-100);
 
-  --globalfooter-background: #161617;
+  --globalfooter-background: var(--black);
 
-  --globalfooter-color: #a1a1a6;
-  --globalfooter-color-hover: #f5f5f7;
-  --globalfooter-color-disabled: #a1a1a6;
+  --globalfooter-color: #a1a2a3;
+  --globalfooter-color-hover: var(--gray-100);
+  --globalfooter-color-disabled: #a1a2a3;
 
-  --body-background: #1c1c1e;
+  --body-background: var(--gray-900);
 
   --focus-ring: rgba(0, 125, 250, 0.6);
 
-  --separator: #424245;
+  --separator: var(--gray-700);
 
   --separator-muted: rgba(255, 255, 255, 0.06);
 
-  --fill: #161617;
-  --fill-secondary: #1d1d1f;
-  --fill-tertiary: #333336;
+  --fill: var(--black);
+  --fill-secondary: var(--gray-900);
+  --fill-tertiary: var(--gray-800);
 
-  --text: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --text-tertiary: rgba(255, 255, 255, 0.5);
+  --text: var(--white);
+  --text-secondary: var(--gray-300);
+  --text-tertiary: var(--gray-500);
 
-  --button-background: #2997ff;
-  --button-background-hover: #70b8ff;
-  --button-background-active: #add6ff;
+  --button-background: #2e93ff;
+  --button-background-hover: #66b5ff;
+  --button-background-active: #a3d6ff;
 
-  --button-color: #ffffff;
+  --button-color: var(--white);
   --button-color-hover: var(--button-color);
   --button-color-active: var(--button-color-hover);
 
-  --button-secondary-background: #333336;
-  --button-secondary-background-hover: #424245;
-  --button-secondary-background-active: #6e6e73;
+  --button-secondary-background: var(--gray-800);
+  --button-secondary-background-hover: var(--gray-700);
+  --button-secondary-background-active: var(--gray-600);
 
-  --button-secondary-color: #f5f5f7;
+  --button-secondary-color: var(--gray-100);
   --button-secondary-color-hover: var(--button-secondary-color);
   --button-secondary-color-active: var(--button-secondary-color-hover);
 
-  --link-color: #2997ff;
+  --link-color: #2e93ff;
 }
