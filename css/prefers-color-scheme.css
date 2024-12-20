@@ -13,9 +13,9 @@
 
   --globalfooter-background: var(--gray-100);
 
-  --globalfooter-color: #515253;
+  --globalfooter-color: var(--gray-600);
   --globalfooter-color-hover: var(--gray-900);
-  --globalfooter-color-disabled: #515253;
+  --globalfooter-color-disabled: var(--gray-600);
 
   --body-background: var(--white);
 
@@ -55,8 +55,8 @@
 /* ----------------------- */
 
 [data-theme="dark"] {
-  --globalnav-background: rgba(20, 21, 22, 0.72);
-  --globalnav-background-opened: rgba(20, 21, 22, 0.9);
+  --globalnav-background: rgba(22, 22, 26, 0.72);
+  --globalnav-background-opened: rgba(22, 22, 26, 0.9);
   --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
 
   --globalnav-color: var(--gray-100);
@@ -65,9 +65,9 @@
 
   --globalfooter-background: var(--black);
 
-  --globalfooter-color: #a1a2a3;
+  --globalfooter-color: var(--gray-400);
   --globalfooter-color-hover: var(--gray-100);
-  --globalfooter-color-disabled: #a1a2a3;
+  --globalfooter-color-disabled: var(--gray-400);
 
   --body-background: var(--gray-900);
 

@@ -1,25 +1,53 @@
-/* Averta Std */
+/* SF Pro Display */
 
 @font-face {
-  font-family: "Averta Std";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/AvertaStd-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/sf-pro-display_bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Averta Std";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/AvertaStd-Semibold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/sf-pro-display_semibold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Averta Std";
+  font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/AvertaStd-Regular.woff ") format("woff");
+  src: local("☺"), url("/assets/Fonts/sf-pro-display_regular.woff") format("woff");
+}
+
+
+
+/* SF Pro Text */
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/sf-pro-text_bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/sf-pro-text_semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/sf-pro-text_regular.woff2") format("woff2");
 }

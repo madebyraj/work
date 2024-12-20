@@ -16,15 +16,15 @@
   --gray-800: #333337;
   --gray-900: #1d1d21;
 
-  --blue-100: #cceeff;
-  --blue-200: #99d8ff;
-  --blue-300: #5cb8ff;
-  --blue-400: #1f96ff;
-  --blue-500: #0070e0;
-  --blue-600: #0063d4;
-  --blue-700: #004099;
-  --blue-800: #002466;
-  --blue-900: #001442;
+  --blue-100: #D7E8FF;
+  --blue-200: #B2D3FF;
+  --blue-300: #7BB4FF;
+  --blue-400: #3D93FF;
+  --blue-500: #0071E1;
+  --blue-600: #0065CC;
+  --blue-700: #004792;
+  --blue-800: #002D61;
+  --blue-900: #001D44;
 
   /* Cursors */
 
@@ -69,9 +69,9 @@
 
   --globalfooter-background: var(--gray-100);
 
-  --globalfooter-color: #515253;
+  --globalfooter-color: var(--gray-600);
   --globalfooter-color-hover: var(--gray-900);
-  --globalfooter-color-disabled: #515253;
+  --globalfooter-color-disabled: var(--gray-600);
 
   --body-background: var(--white);
 
@@ -110,8 +110,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --globalnav-background: rgba(20, 21, 22, 0.72);
-    --globalnav-background-opened: rgba(20, 21, 22, 0.9);
+    --globalnav-background: rgba(22, 22, 26, 0.72);
+    --globalnav-background-opened: rgba(22, 22, 26, 0.9);
     --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
 
     --globalnav-color: var(--gray-100);
@@ -120,9 +120,9 @@
 
     --globalfooter-background: var(--black);
 
-    --globalfooter-color: #a1a2a3;
+    --globalfooter-color: var(--gray-400);
     --globalfooter-color-hover: var(--gray-100);
-    --globalfooter-color-disabled: #a1a2a3;
+    --globalfooter-color-disabled: var(--gray-400);
 
     --body-background: var(--gray-900);
 
