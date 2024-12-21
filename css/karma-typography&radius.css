@@ -40,8 +40,8 @@
 
   /* ---------------------------- */
 
-  --font-ui: SF Pro Text, ui-sans-serif, system-ui, sans-serif;
-  --font-title: SF Pro Display, var(--font-ui), system-ui, sans-serif;
+  --font-ui: Graphik, ui-sans-serif, system-ui, sans-serif;
+  --font-title: Graphik, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-8: 8px;
   --fontSize-10: 10px;
@@ -69,11 +69,11 @@
   --fontWeight-medium: 500;
   --fontWeight-bold: 700;
 
-  --letterSpacing-tighter: -0.025em;
-  --letterSpacing-tight: -0.0125em;
+  --letterSpacing-tighter: -0.05em;
+  --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
-  --letterSpacing-wide: 0.0125em;
-  --letterSpacing-wider: 0.025em;
+  --letterSpacing-wide: 0.025em;
+  --letterSpacing-wider: 0.05em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-title);
