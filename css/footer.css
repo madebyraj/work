@@ -23,7 +23,7 @@
 .footer-container {
   padding: 40px 0px;
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,10 @@
   width: 36px;
   height: 36px;
   padding: 6px;
-  border-radius: var(--karma-border-radius-8x1);
+  border-radius: var(--border-radius-8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .link-svg {

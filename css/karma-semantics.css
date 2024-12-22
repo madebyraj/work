@@ -36,7 +36,7 @@
   --globalnav-wrapper-height: 100px;
 
   --globalnav-height: 60px;
-  --globalnav-background: rgba(255, 255, 255, 0.8);
+  --globalnav-background: rgba(255, 255, 255);
   --globalnav-background-opened: rgba(255, 255, 255);
   --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
 
@@ -95,7 +95,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --globalnav-background: rgba(22, 22, 23, 0.8);
+    --globalnav-background: rgba(22, 22, 23);
     --globalnav-background-opened: rgba(22, 22, 23);
     --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
 
@@ -145,7 +145,7 @@
     --button-tertiary-background-hover: #333336;
     --button-tertiary-background-active: #424245;
 
-    --button-tertiary-color: #1d1d1f;
+    --button-tertiary-color: #f5f5f7;
     --button-tertiary-color-hover: var(--button-tertiary-color);
     --button-tertiary-color-active: var(--button-tertiary-color-hover);
 
