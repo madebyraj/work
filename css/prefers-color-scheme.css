@@ -30,8 +30,8 @@
   --fill-tertiary: #f5f5f7;
 
   --text: #000000;
-  --text-secondary: rgba(60, 60, 67, 0.76);
-  --text-tertiary: rgba(60, 60, 67, 0.56);
+  --text-secondary: rgba(0, 0, 0, 0.76);
+  --text-tertiary: rgba(0, 0, 0, 0.56);
 
   --button-background: #0071e3;
   --button-background-hover: #0066cc;
@@ -90,8 +90,8 @@
   --fill-tertiary: #333336;
 
   --text: #ffffff;
-  --text-secondary: rgba(235, 235, 245, 0.7);
-  --text-tertiary: rgba(235, 235, 245, 0.5);
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: rgba(255, 255, 255, 0.5);
 
   --button-background: #2997ff;
   --button-background-hover: #70b8ff;

@@ -42,8 +42,8 @@
 
   /* ---------------------------- */
 
-  --font-ui: Graphik, ui-sans-serif, system-ui, sans-serif;
-  --font-title: Graphik, var(--font-ui), system-ui, sans-serif;
+  --font-ui: Proxima Nova, ui-sans-serif, system-ui, sans-serif;
+  --font-title: Proxima Nova, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-8: 8px;
   --fontSize-10: 10px;
@@ -68,7 +68,7 @@
   --fontSize-103: 103px;
 
   --fontWeight-regular: 400;
-  --fontWeight-medium: 500;
+  --fontWeight-medium: 600;
   --fontWeight-bold: 700;
 
   --letterSpacing-tighter: -0.05em;
