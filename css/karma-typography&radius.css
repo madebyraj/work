@@ -8,8 +8,10 @@
   --border-radius-48: 48px;
   --border-radius-32: 32px;
   --border-radius-24: 24px;
+  --border-radius-20: 20px;
   --border-radius-16: 16px;
   --border-radius-12: 12px;
+  --border-radius-10: 10px;
   --border-radius-8: 8px;
   --border-radius-6: 6px;
   --border-radius-4: 4px;
@@ -191,5 +193,5 @@
   --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
   --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-14) / 130% var(--font-ui);
   --navbarlink-m: var(--fontWeight-medium) var(--fontSize-14) / 130% var(--font-ui);
-  --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-32) / 130% var(--font-title);
+  --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-title);
 }

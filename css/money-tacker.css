@@ -45,7 +45,7 @@ html {
 }
 
 body {
-  padding-top: var(--globalnav-height);
+  padding-top: var(--globalnav-wrapper-height);
   background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
