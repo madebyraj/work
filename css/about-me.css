@@ -64,7 +64,7 @@ main {
 .about-section {
   margin: auto;
   max-width: var(--content-max-width);
-  padding: 96px 0 48px;
+  padding: 48px 0;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -245,7 +245,7 @@ main {
   /* About Section */
 
   .about-section {
-    padding: 96px 0 48px;
+    padding: 48px 0;
     gap: var(--spacing-48);
   }
 
@@ -298,7 +298,7 @@ main {
   /* About Section */
 
   .about-section {
-    padding: 80px 0 40px;
+    padding: 40px 0;
     gap: var(--spacing-32);
   }
 

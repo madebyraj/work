@@ -37,6 +37,11 @@
   --button-background-hover: #0066cc;
   --button-background-active: #00488f;
 
+  --button-shadow: 0px 4px 0px 0px #175bb3, 2px 2px 5.2px 0px #015cd080 inset;
+  --button-shadow-hover: 0px 6px 0px 0px #175bb3,
+    2px 2px 5.2px 0px #015cd080 inset;
+  --button-shadow-active: none;
+
   --button-color: #ffffff;
   --button-color-hover: var(--button-color);
   --button-color-active: var(--button-color-hover);
@@ -96,6 +101,11 @@
   --button-background: #2997ff;
   --button-background-hover: #70b8ff;
   --button-background-active: #add6ff;
+
+  --button-shadow: 0px 4px 0px 0px #175bb3, 2px 2px 5.2px 0px #015cd080 inset;
+  --button-shadow-hover: 0px 6px 0px 0px #175bb3,
+    2px 2px 5.2px 0px #015cd080 inset;
+  --button-shadow-active: none;
 
   --button-color: #ffffff;
   --button-color-hover: var(--button-color);

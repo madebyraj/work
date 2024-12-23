@@ -42,7 +42,7 @@
 
   /* ---------------------------- */
 
-  --font-ui: Proxima Nova, ui-sans-serif, system-ui, sans-serif;
+  --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: Proxima Nova, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-8: 8px;
@@ -74,8 +74,8 @@
   --letterSpacing-tighter: -0.05em;
   --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
-  --letterSpacing-wide: 0.025em;
-  --letterSpacing-wider: 0.05em;
+  --letterSpacing-wide: 0.0125em;
+  --letterSpacing-wider: 0.025em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-title);

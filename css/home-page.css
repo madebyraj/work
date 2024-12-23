@@ -71,7 +71,7 @@ main {
   margin: 0 auto;
   max-width: var(--global-max-width);
   width: 100%;
-  padding: 128px 0 64px;
+  padding: 64px 0;
 }
 
 .hero-introduction-section {
@@ -286,7 +286,7 @@ main {
   }
 
   .hero-section-wrapper {
-    padding: 96px 0 48px;
+    padding: 48px 0;
   }
 
   .hero-headline-intro {
@@ -370,7 +370,7 @@ main {
   }
 
   .hero-section-wrapper {
-    padding: 80px 0 40px;
+    padding: 40px 0;
   }
 
   .hero-introduction-section {
