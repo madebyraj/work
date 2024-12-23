@@ -89,7 +89,7 @@ main {
 
 .hero-section-wrapper {
   margin: 0 auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   width: 100%;
   padding: 64px 0;
 }
@@ -136,7 +136,7 @@ main {
 #project-section {
   overflow: hidden;
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   padding: 64px 0px;
   display: flex;
   flex-direction: column;
@@ -222,7 +222,7 @@ main {
 
 #writing-section {
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   padding: 64px 0px 128px;
   display: flex;
   flex-direction: column;

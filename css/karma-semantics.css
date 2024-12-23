@@ -28,6 +28,7 @@
 
   /* Width */
 
+  --global-max-width: 1400px;
   --content-max-width: 1024px;
 
   /* Semantics/Component Specific */
@@ -35,7 +36,7 @@
   --globalnav-wrapper-height: 104px;
 
   --globalnav-height: 64px;
-  --globalnav-max-width: 1072px;
+  --globalnav-max-width: var(--global-max-width);
   --globalnav-background: rgba(255, 255, 255);
   --globalnav-background-opened: rgba(255, 255, 255);
 

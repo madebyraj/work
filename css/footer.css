@@ -15,7 +15,7 @@
 
 .footer {
   margin: auto;
-  background-color: var(--globalfooter-background);
+  background: var(--globalfooter-background);
   padding: 0 80px;
   overflow: hidden;
 }
@@ -23,7 +23,7 @@
 .footer-container {
   padding: 40px 0px;
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@
 
 .social-links {
   margin-top: 16px;
-  height: 32px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,20 +43,31 @@
 .footer-link {
   width: 36px;
   height: 36px;
-  padding: 6px;
-  border-radius: var(--border-radius-8);
+  background: var(--button-secondary-background);
+  border-radius: var(--border-radius-10);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .15s cubic-bezier(0, 0, .6, 1);
+  box-shadow: var(--button-secondary-shadow);
+  border: 1px solid var(--button-secondary-border);
+}
+
+.footer-link:hover {
+  cursor: var(--cursor-pointer), auto;
+  transform: var(--button-transform-hover);
+  box-shadow: var(--button-secondary-shadow-hover);
+}
+
+.footer-link:active {
+  transform: var(--button-transform-active);
+  box-shadow: var(--button-secondary-shadow-active);
 }
 
 .link-svg {
-  fill: var(--globalfooter-color);
-}
-
-.link-svg:hover {
-  cursor: var(--cursor-pointer), auto;
-  fill: var(--globalfooter-color-hover);
+  fill: var(--button-secondary-color);
+  height: 22px;
+  width: 22px;
 }
 
 .design-and-code {

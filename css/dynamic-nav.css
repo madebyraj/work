@@ -47,7 +47,7 @@
   background: var(--globalnav-background);
   -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
   backdrop-filter: var(--globalnav-backdrop-filter);
-  padding: 10px 14px;
+  padding: 12px 14px;
   height: var(--globalnav-height);
   margin: auto;
   display: flex;
@@ -83,8 +83,8 @@
 
 #link-logo {
   text-decoration: none;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: var(--border-radius-10);
   background: var(--button-tertiary-background);
   transition: 100ms ease-out;
@@ -178,6 +178,10 @@
   box-shadow: var(--button-secondary-shadow-active);
 }
 
+.theme-toggle:focus {
+  outline: none;
+}
+
 .theme-toggle svg {
   margin: auto;
   width: 22px;
@@ -248,7 +252,7 @@
     right: 16px;
     left: 16px;
     align-items: start;
-    padding: 10px 12px;
+    padding: 12px;
     transition: 300ms cubic-bezier(0.4, 0, 0.6, 1) 20ms;
     justify-content: space-between;
   }
@@ -322,8 +326,8 @@
   }
 
   .menu-icon-container {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;

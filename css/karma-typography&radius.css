@@ -119,11 +119,15 @@
   --title4-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-title);
   --title4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-22) / 135% var(--font-title);
 
-  --title5-letterspacing: var(--letterSpacing-tight);
+  --title5-letterspacing: var(--letterSpacing-normal);
   --title5-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-title);
+  --title5-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-title);
   --title5-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-title);
+  --title5-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-title);
   --title5-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-title);
+  --title5-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-title);
   --title5-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-title);
+  --title5-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-title);
 
   --body1-letterspacing: var(--letterSpacing-wide);
   --body1-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-ui);
