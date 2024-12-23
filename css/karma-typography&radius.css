@@ -183,6 +183,12 @@
   --button-m: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
   --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
+  --smallbutton-letterspacing: var(--letterSpacing-wide);
+  --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+  --smallbutton-xl: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+  --smallbutton-m: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+  --smallbutton-xxxs: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+
   --link-letterspacing: var(--letterSpacing-wide);
   --link-xxl: var(--fontWeight-medium) var(--fontSize-20) / 130% var(--font-ui);
   --link-xl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);

@@ -149,48 +149,40 @@
 /* Theme Button */
 
 .theme-toggle-wrapper {
-  margin-left: 20px;
-  width: 36px;
-  height: 36px;
+  margin-left: 16px;
+  height: 40px;
   border-radius: var(--border-radius-10);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .theme-toggle {
   width: 36px;
   height: 36px;
-  background-color: var(--button-secondary-background);
-  border: none;
+  background: var(--button-secondary-background);
   border-radius: var(--border-radius-10);
-  cursor: var(--cursor-pointer), auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease-out;
+  transition: .15s cubic-bezier(0, 0, .6, 1);
+  box-shadow: var(--button-secondary-shadow);
+  border: 1px solid var(--button-secondary-border);
 }
 
 .theme-toggle:hover {
-  background-color: var(--button-secondary-background-hover);
-}
-
-.theme-toggle:hover svg {
-  fill: var(--button-secondary-color-hover);
+  cursor: var(--cursor-pointer), auto;
+  transform: var(--button-transform-hover);
+  box-shadow: var(--button-secondary-shadow-hover);
 }
 
 .theme-toggle:active {
-  background-color: var(--button-secondary-background-active);
-}
-
-.theme-toggle:focus {
-  outline: 4px solid var(--focus-ring);
+  transform: var(--button-transform-active);
+  box-shadow: var(--button-secondary-shadow-active);
 }
 
 .theme-toggle svg {
   margin: auto;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   fill: var(--button-secondary-color);
   transition: fill 0.3s ease-out;
 }
@@ -199,6 +191,7 @@
   margin-left: 24px;
   height: 40px;
   display: flex;
+  width: 100%;
 }
 
 .nav-cta {
@@ -206,8 +199,9 @@
   text-decoration: none;
   padding: 7px 12px;
   height: 36px;
-  font: var(--navbarlink-xl);
-  letter-spacing: var(--navbarlink-letterspacing);
+  text-align: center;
+  font: var(--smallbutton-xl);
+  letter-spacing: var(--smallbutton-letterspacing);
   color: var(--button-color);
   border-radius: var(--border-radius-10);
   display: flex;
@@ -215,17 +209,17 @@
   justify-content: center;
   transition: .15s cubic-bezier(0, 0, .6, 1);
   box-shadow: var(--button-shadow);
-  border: 1px solid rgb(0 90 206);
+  border: 1px solid var(--button-border);
 }
 
 .nav-cta:hover {
   cursor: var(--cursor-pointer), auto;
-  transform: translate(0, -0.125rem) rotate(0) skew(0) skewY(0) scaleX(1) scaleY(1);
+  transform: var(--button-transform-hover);
   box-shadow: var(--button-shadow-hover);
 }
 
 .nav-cta:active {
-  transform: translate(0, 0.25rem) rotate(0) skew(0) skewY(0) scaleX(1) scaleY(1);
+  transform: var(--button-transform-active);
   box-shadow: var(--button-shadow-active);
 }
 
