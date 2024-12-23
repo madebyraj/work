@@ -43,29 +43,81 @@
 .footer-link {
   width: 36px;
   height: 36px;
-  background: var(--button-secondary-background);
   border-radius: var(--border-radius-10);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .15s cubic-bezier(0, 0, .6, 1);
+  transition: 0.15s cubic-bezier(0, 0, 0.6, 1);
   box-shadow: var(--button-secondary-shadow);
-  border: 1px solid var(--button-secondary-border);
 }
 
 .footer-link:hover {
   cursor: var(--cursor-pointer), auto;
   transform: var(--button-transform-hover);
-  box-shadow: var(--button-secondary-shadow-hover);
 }
 
 .footer-link:active {
   transform: var(--button-transform-active);
-  box-shadow: var(--button-secondary-shadow-active);
+}
+
+#instagram-link {
+  background: #0095f6;
+  border: 1px solid #0074cc;
+  box-shadow: 0px 4px 0px 0px #0057a3, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#instagram-link:hover {
+  box-shadow: 0px 6px 0px 0px #0057a3, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#instagram-link:active {
+  box-shadow: none;
+}
+
+#twitter-link {
+  background: #1da1f2;
+  border: 1px solid #1a94da;
+  box-shadow: 0px 4px 0px 0px #136b9e, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#twitter-link:hover {
+  box-shadow: 0px 6px 0px 0px #136b9e, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#twitter-link:active {
+  box-shadow: none;
+}
+
+#linkedin-link {
+  background: #0088cc;
+  border: 1px solid #007ab8;
+  box-shadow: 0px 4px 0px 0px #005885, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#linkedin-link:hover {
+  box-shadow: 0px 6px 0px 0px #005885, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#linkedin-link:active {
+  box-shadow: none;
+}
+
+#mail-link {
+  background: #ea4335;
+  border: 1px solid #d93025;
+  box-shadow: 0px 4px 0px 0px #863123, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#mail-link:hover {
+  box-shadow: 0px 6px 0px 0px #863123, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+#mail-link:active {
+  box-shadow: none;
 }
 
 .link-svg {
-  fill: var(--button-secondary-color);
+  fill: var(--button-color);
   height: 22px;
   width: 22px;
 }
