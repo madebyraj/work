@@ -74,8 +74,8 @@
   --letterSpacing-tighter: -0.05em;
   --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
-  --letterSpacing-wide: 0.0125em;
-  --letterSpacing-wider: 0.025em;
+  --letterSpacing-wide: 0.025em;
+  --letterSpacing-wider: 0.05em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-title);

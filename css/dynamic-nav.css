@@ -53,10 +53,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: var(--global-max-width);
+  max-width: var(--globalnav-max-width);
   border-radius: var(--border-radius-20);
-  outline: 1px solid var(--globalnav-keyline-color);
-  box-shadow: var(--depth-baseline);
+  box-shadow: var(--globalnav-shadow);
 }
 
 /* .main-nav::after {

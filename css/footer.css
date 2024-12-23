@@ -23,7 +23,7 @@
 .footer-container {
   padding: 40px 0px;
   margin: auto;
-  max-width: var(--global-max-width);
+  max-width: var(--content-max-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
