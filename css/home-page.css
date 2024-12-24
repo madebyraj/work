@@ -54,7 +54,7 @@ body {
 .body-background {
   flex: none;
   inset: 0;
-  opacity: .4;
+  opacity: 0.4;
   overflow: visible;
   position: absolute;
   z-index: -1;
@@ -134,7 +134,7 @@ main {
 /* Project Section */
 
 #project-section {
-  overflow: hidden;
+  overflow: visible;
   margin: auto;
   max-width: var(--global-max-width);
   padding: 64px 0px;
@@ -165,17 +165,25 @@ main {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  overflow: hidden;
+  overflow: visible;
   gap: 24px;
   text-decoration: none;
+  transition: var(--tile-transition);
 }
 
 .project:hover {
   cursor: var(--cursor-pointer), auto;
 }
 
-.project:hover .project-title {
-  text-decoration: underline;
+.project:hover .project-cover {
+  cursor: var(--cursor-pointer), auto;
+  outline-offset: 0.125rem;
+  outline: var(--tile-outline-hover);
+  transition: var(--tile-transition);
+}
+
+.project:active .project-cover {
+  outline: var(--tile-outline-active);
 }
 
 .project-information {
@@ -210,12 +218,15 @@ main {
 }
 
 .project-cover {
+  background: var(--tile-background);
   object-fit: cover;
   object-position: center;
   width: 100%;
   height: 100%;
-  transition: transform 0.2s ease-out;
-  border-radius: var(--border-radius-8);
+  border-radius: var(--border-radius-16);
+  outline-offset: 1rem;
+  outline: var(--tile-outline);
+  transition: var(--tile-transition);
 }
 
 /* Writing Section */
@@ -252,7 +263,7 @@ main {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  overflow: hidden;
+  overflow: visible;
   gap: 24px;
   text-decoration: none;
 }
@@ -261,8 +272,15 @@ main {
   cursor: var(--cursor-pointer), auto;
 }
 
-.article:hover .article-title {
-  text-decoration: underline;
+.article:hover .article-cover {
+  cursor: var(--cursor-pointer), auto;
+  outline-offset: 0.125rem;
+  outline: var(--tile-outline-hover);
+  transition: var(--tile-transition);
+}
+
+.article:active .article-cover {
+  outline: var(--tile-outline-active);
 }
 
 .article-information {
@@ -290,8 +308,10 @@ main {
   object-position: center;
   width: 100%;
   height: fit-content;
-  transition: transform 0.2s ease-out;
-  border-radius: var(--border-radius-8);
+  border-radius: var(--border-radius-16);
+  outline-offset: 1rem;
+  outline: var(--tile-outline);
+  transition: var(--tile-transition);
 }
 
 /* @media (max-width: 1400px) {} */

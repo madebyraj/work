@@ -69,8 +69,13 @@
   --button-tertiary-color-active: var(--blue-light-700);
   --button-tertiary-color-disabled: var(--black-1000);
   --button-tertiary-outline: 0px solid transparent;
-  --button-tertiary-outline-hover: 4px solid var(--blue-light-400);
-  --button-tertiary-outline-active: 4px solid var(--blue-light-500);
+  --button-tertiary-outline-hover: solid var(--blue-light-500);
+  --button-tertiary-outline-active: solid var(--blue-light-600);
+
+  --tile-background: var(--fill);
+  --tile-outline: 0px solid transparent;
+  --tile-outline-hover: solid var(--blue-light-500);
+  --tile-outline-active: solid var(--blue-light-600);
 
   --link-color: #007be5;
 }
@@ -142,8 +147,13 @@
   --button-tertiary-color-active: var(--blue-dark-300);
   --button-tertiary-color-disabled: var(--white-1000);
   --button-tertiary-outline: 0px solid transparent;
-  --button-tertiary-outline-hover: 4px solid var(--blue-dark-700);
-  --button-tertiary-outline-active: 4px solid var(--blue-dark-600);
+  --button-tertiary-outline-hover: solid var(--blue-dark-600);
+  --button-tertiary-outline-active: solid var(--blue-dark-500);
+
+  --tile-background: var(--fill);
+  --tile-outline: 0px solid transparent;
+  --tile-outline-hover: solid var(--blue-dark-600);
+  --tile-outline-active: solid var(--blue-dark-500);
 
   --link-color: #0c8ce9;
 }

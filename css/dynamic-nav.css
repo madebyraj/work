@@ -114,8 +114,8 @@
 }
 
 .logo {
-  height: 24px;
-  width: 24px;
+  height: 28px;
+  width: 28px;
   object-fit: cover;
   object-position: center;
 }
@@ -165,7 +165,6 @@
 
 .nav-link:hover {
   cursor: var(--cursor-pointer), auto;
-  color: var(--button-tertiary-color-hover);
   background: var(--button-tertiary-background-hover);
   outline: var(--button-tertiary-outline-hover);
   outline-offset: 0;
@@ -302,8 +301,7 @@
 
 /* Small Desktop */
 
-@media (max-width: 1400px) {
-}
+@media (max-width: 1400px) {}
 
 /* Tablet */
 
@@ -352,7 +350,8 @@
   }
 
   .nav-container.active #link-logo,
-  .nav-container.active .nav-cta {
+  .nav-container.active .nav-cta,
+  .nav-container.active .theme-toggle-wrapper {
     display: none;
   }
 
@@ -414,7 +413,7 @@
   .menu-icon-container:active {
     cursor: var(--cursor-pointer), auto;
     background: var(--button-tertiary-background-active);
-    outline: var(--button-tertiary-outline-hover);
+    outline: var(--button-tertiary-outline-active);
     outline-offset: 0;
   }
 
@@ -428,13 +427,13 @@
 
   .menu-icon {
     position: relative;
-    width: 22px;
+    width: 24px;
   }
 
   .line-1,
   .line-2 {
     position: absolute;
-    height: 2px;
+    height: 4px;
     width: 100%;
     background: var(--globalnav-color);
     border-radius: var(--border-radius-full);
@@ -444,11 +443,11 @@
   }
 
   .line-1 {
-    top: -4px;
+    top: -5px;
   }
 
   .line-2 {
-    top: 4px;
+    top: 5px;
   }
 
   .nav-container.active .menu-icon-container .menu-icon .line-1 {
@@ -471,7 +470,7 @@
 
   @keyframes navbarLinks {
     0% {
-      transform: translateY(-8px);
+      transform: translateY(-10px);
       opacity: 0;
       visibility: hidden;
     }
@@ -487,7 +486,7 @@
     opacity: 0;
     visibility: hidden;
     width: 100%;
-    transform: translateY(-8px);
+    transform: translateY(-10px);
   }
 
   .nav-container.active .main-nav .inner-right-side-container li {
@@ -500,24 +499,15 @@
     transform: translateY(0px);
   }
 
-  .nav-container.active
-    .main-nav
-    .inner-right-side-container
-    li:nth-last-of-type(1) {
+  .nav-container.active .main-nav .inner-right-side-container li:nth-last-of-type(1) {
     animation-delay: 60ms;
   }
 
-  .nav-container.active
-    .main-nav
-    .inner-right-side-container
-    li:nth-last-of-type(2) {
+  .nav-container.active .main-nav .inner-right-side-container li:nth-last-of-type(2) {
     animation-delay: 30ms;
   }
 
-  .nav-container.active
-    .main-nav
-    .inner-right-side-container
-    li:nth-last-of-type(3) {
+  .nav-container.active .main-nav .inner-right-side-container li:nth-last-of-type(3) {
     animation-delay: 0ms;
   }
 }

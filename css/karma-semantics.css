@@ -27,6 +27,7 @@
   /* Transitions */
 
   --bounce-effect: 0.15s cubic-bezier(0, 0, 0.6, 1);
+  --outline-hover-effect: opacity .3s ease-out, outline-color .15s ease-out, outline-offset .15s ease-out, outline-width .15s ease-out, transform .15s ease-out;
 
   /* --Blur-- */
 
@@ -114,11 +115,17 @@
   --button-tertiary-color-active: var(--blue-light-700);
   --button-tertiary-color-disabled: var(--black-1000);
   --button-tertiary-outline: 0px solid transparent;
-  --button-tertiary-outline-hover: 4px solid var(--blue-light-400);
-  --button-tertiary-outline-active: 4px solid var(--blue-light-500);
+  --button-tertiary-outline-hover: solid var(--blue-light-500);
+  --button-tertiary-outline-active: solid var(--blue-light-600);
   --button-tertiary-outline-disabled: none;
   --button-tertiary-disabled: 0.5;
-  --button-tertiary-transition: opacity .3s ease-out, outline-color .15s ease-out, outline-offset .15s ease-out, outline-width .15s ease-out, transform .15s ease-out;
+  --button-tertiary-transition: var(--outline-hover-effect);
+
+  --tile-background: var(--fill);
+  --tile-outline: 0px solid transparent;
+  --tile-outline-hover: solid var(--blue-light-500);
+  --tile-outline-active: solid var(--blue-light-600);
+  --tile-transition: var(--outline-hover-effect);
 
   --link-color: #007be5;
 }
@@ -189,8 +196,13 @@
     --button-tertiary-color-active: var(--blue-dark-300);
     --button-tertiary-color-disabled: var(--white-1000);
     --button-tertiary-outline: 0px solid transparent;
-    --button-tertiary-outline-hover: 4px solid var(--blue-dark-700);
-    --button-tertiary-outline-active: 4px solid var(--blue-dark-600);
+    --button-tertiary-outline-hover: solid var(--blue-dark-600);
+    --button-tertiary-outline-active: solid var(--blue-dark-500);
+
+    --tile-background: var(--fill);
+    --tile-outline: 0px solid transparent;
+    --tile-outline-hover: solid var(--blue-dark-600);
+    --tile-outline-active: solid var(--blue-dark-500);
 
     --link-color: #0c8ce9;
   }
