@@ -1,6 +1,7 @@
 /* Linked CSS Files */
 
-@import url("./karma-semantics.css");
+@import url(/css/color-ramps.css);
+@import url("/css/karma-semantics.css");
 
 [data-theme="light"] {
   --globalnav-background: rgba(255, 255, 255);
@@ -37,37 +38,39 @@
   --text-secondary: rgba(0, 0, 0, 0.76);
   --text-tertiary: rgba(0, 0, 0, 0.56);
 
-  --button-background: #0d99ff;
-
-  --button-border: #007be5;
-
-  --button-shadow: 0px 4px 0px 0px #034ac1,
-    2px 2px 5px 0px rgba(7, 104, 207, 0.4) inset;
-  --button-shadow-hover: 0px 6px 0px 0px #034ac1,
-    2px 2px 5px 0px rgba(7, 104, 207, 0.4) inset;
+  --button-background: var(--blue-light-500);
+  --button-border: var(--blue-light-600);
+  --button-shadow: 0px 4px 0px 0px var(--blue-light-800),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-shadow-hover: 0px 6px 0px 0px var(--blue-light-800),
+    2px 2px 5px 0px var(--black-300) inset;
   --button-shadow-active: none;
+  --button-shadow-selected: 0px 2px 0px 0px var(--blue-light-800),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-color: var(--white-1000);
 
-  --button-color: #ffffff;
-
-  --button-secondary-background: #f5f5f5;
-
-  --button-secondary-border: #e6e6e6;
-
-  --button-secondary-shadow: 0px 4px 0px 0px #b3b3b3,
-    2px 2px 5px 0px rgba(0, 0, 0, 0.12) inset;
-  --button-secondary-shadow-hover: 0px 6px 0px 0px #b3b3b3,
-    2px 2px 5px 0px rgba(0, 0, 0, 0.12) inset;
+  --button-secondary-background: var(--gray-100);
+  --button-secondary-border: var(--gray-200);
+  --button-secondary-shadow: 0px 4px 0px 0px var(--gray-400),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-400),
+    2px 2px 5px 0px var(--black-300) inset;
   --button-secondary-shadow-active: none;
-
-  --button-secondary-color: #000000;
+  --button-secondary-shadow-selected: 0px 2px 0px 0px var(--gray-400),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-secondary-color: var(--black-1000);
 
   --button-tertiary-background: rgba(0, 0, 0, 0);
-  --button-tertiary-background-hover: #f5f5f7;
-  --button-tertiary-background-active: #e8e8ed;
-
-  --button-tertiary-color: #1d1d1f;
-  --button-tertiary-color-hover: var(--button-tertiary-color);
-  --button-tertiary-color-active: var(--button-tertiary-color-hover);
+  --button-tertiary-background-hover: var(--gray-100);
+  --button-tertiary-background-active: var(--blue-light-200);
+  --button-tertiary-background-disabled: rgba(0, 0, 0, 0);
+  --button-tertiary-color: var(--black-1000);
+  --button-tertiary-color-hover: var(--blue-light-600);
+  --button-tertiary-color-active: var(--blue-light-700);
+  --button-tertiary-color-disabled: var(--black-1000);
+  --button-tertiary-outline: 0px solid transparent;
+  --button-tertiary-outline-hover: 4px solid var(--blue-light-400);
+  --button-tertiary-outline-active: 4px solid var(--blue-light-500);
 
   --link-color: #007be5;
 }
@@ -109,37 +112,38 @@
   --text-secondary: rgba(255, 255, 255, 0.7);
   --text-tertiary: rgba(255, 255, 255, 0.5);
 
-  --button-background: #0c8ce9;
-
-  --button-border: #0a6dc2;
-
-  --button-shadow: 0px 4px 0px 0px #184591,
-    2px 2px 5px 0px rgba(16, 92, 173, 0.4) inset;
-  --button-shadow-hover: 0px 6px 0px 0px #184591,
-    2px 2px 5px 0px rgba(16, 92, 173, 0.4) inset;
+  --button-background: var(--blue-dark-500);
+  --button-border: var(--blue-dark-600);
+  --button-shadow: 0px 4px 0px 0px var(--blue-dark-800),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-shadow-hover: 0px 6px 0px 0px var(--blue-dark-800),
+    2px 2px 5px 0px var(--black-300) inset;
   --button-shadow-active: none;
+  --button-shadow-selected: 0px 2px 0px 0px var(--blue-dark-800),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-color: var(--white-1000);
 
-  --button-color: #ffffff;
-
-  --button-secondary-background: #2c2c2c;
-
-  --button-secondary-border: #383838;
-
-  --button-secondary-shadow: 0px 4px 0px 0px #444444,
-    2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
-  --button-secondary-shadow-hover: 0px 6px 0px 0px #444444,
-    2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  --button-secondary-background: var(--gray-800);
+  --button-secondary-border: var(--gray-700);
+  --button-secondary-shadow: 0px 4px 0px 0px var(--gray-600),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-600),
+    2px 2px 5px 0px var(--black-300) inset;
   --button-secondary-shadow-active: none;
-
-  --button-secondary-color: #ffffff;
+  --button-secondary-shadow-selected: 0px 2px 0px 0px var(--gray-600),
+    2px 2px 5px 0px var(--black-300) inset;
+  --button-secondary-color: var(--white-1000);
 
   --button-tertiary-background: rgba(0, 0, 0, 0);
-  --button-tertiary-background-hover: #333336;
-  --button-tertiary-background-active: #424245;
-
-  --button-tertiary-color: #f5f5f7;
-  --button-tertiary-color-hover: var(--button-tertiary-color);
-  --button-tertiary-color-active: var(--button-tertiary-color-hover);
+  --button-tertiary-background-hover: var(--gray-800);
+  --button-tertiary-background-active: var(--blue-dark-900);
+  --button-tertiary-color: var(--white-1000);
+  --button-tertiary-color-hover: var(--blue-dark-400);
+  --button-tertiary-color-active: var(--blue-dark-300);
+  --button-tertiary-color-disabled: var(--white-1000);
+  --button-tertiary-outline: 0px solid transparent;
+  --button-tertiary-outline-hover: 4px solid var(--blue-dark-700);
+  --button-tertiary-outline-active: 4px solid var(--blue-dark-600);
 
   --link-color: #0c8ce9;
 }

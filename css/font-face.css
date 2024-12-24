@@ -1,26 +1,38 @@
-/* Proxima Nova */
+/* Roc Grotesk */
 
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Roc Grotesk";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ProximaNova-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Roc-Grotesk-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Roc Grotesk";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ProximaNova-Semibold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Roc-Grotesk-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Roc Grotesk";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ProximaNova-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Roc-Grotesk-Regular.woff") format("woff");
+}
+
+
+
+/* Inter */
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Inter-var.woff2") format("woff2");
 }
 

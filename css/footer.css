@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.15s cubic-bezier(0, 0, 0.6, 1);
+  transition: var(--bounce-effect);
   box-shadow: var(--button-secondary-shadow);
 }
 
@@ -63,11 +63,11 @@
 #instagram-link {
   background: #0095f6;
   border: 1px solid #0074cc;
-  box-shadow: 0px 4px 0px 0px #0057a3, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 4px 0px 0px #0057a3, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #instagram-link:hover {
-  box-shadow: 0px 6px 0px 0px #0057a3, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 6px 0px 0px #0057a3, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #instagram-link:active {
@@ -77,11 +77,11 @@
 #twitter-link {
   background: #1da1f2;
   border: 1px solid #1a94da;
-  box-shadow: 0px 4px 0px 0px #136b9e, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 4px 0px 0px #136b9e, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #twitter-link:hover {
-  box-shadow: 0px 6px 0px 0px #136b9e, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 6px 0px 0px #136b9e, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #twitter-link:active {
@@ -91,11 +91,11 @@
 #linkedin-link {
   background: #0088cc;
   border: 1px solid #007ab8;
-  box-shadow: 0px 4px 0px 0px #005885, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 4px 0px 0px #005885, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #linkedin-link:hover {
-  box-shadow: 0px 6px 0px 0px #005885, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 6px 0px 0px #005885, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #linkedin-link:active {
@@ -105,11 +105,11 @@
 #mail-link {
   background: #ea4335;
   border: 1px solid #d93025;
-  box-shadow: 0px 4px 0px 0px #863123, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 4px 0px 0px #863123, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #mail-link:hover {
-  box-shadow: 0px 6px 0px 0px #863123, 2px 2px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  box-shadow: 0px 6px 0px 0px #863123, 2px 2px 5px 0px rgba(0, 0, 0, 0.20) inset;
 }
 
 #mail-link:active {
