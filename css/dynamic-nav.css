@@ -292,11 +292,12 @@
 
   .inner-right-side-container li a {
     width: 100%;
-    height: 56px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
     font: var(--navbarlink-xxxs);
+    border-radius: var(--border-radius-12);
   }
 
   .right-side-container {
@@ -326,7 +327,7 @@
     justify-content: start;
     top: 0;
     left: 0;
-    gap: 4px;
+    gap: 2px;
     width: 100%;
     padding: 16px 48px 0;
     height: 100vh;
