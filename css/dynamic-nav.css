@@ -443,11 +443,11 @@
   }
 
   .line-1 {
-    top: -5px;
+    top: -7px;
   }
 
   .line-2 {
-    top: 5px;
+    top: 4px;
   }
 
   .nav-container.active .menu-icon-container .menu-icon .line-1 {
@@ -470,7 +470,7 @@
 
   @keyframes navbarLinks {
     0% {
-      transform: translateY(-10px);
+      transform: translateY(-8px);
       opacity: 0;
       visibility: hidden;
     }
@@ -486,7 +486,7 @@
     opacity: 0;
     visibility: hidden;
     width: 100%;
-    transform: translateY(-10px);
+    transform: translateY(-8px);
   }
 
   .nav-container.active .main-nav .inner-right-side-container li {
