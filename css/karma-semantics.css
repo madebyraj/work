@@ -55,7 +55,7 @@
 
   --body-background: var(--white-1000);
 
-  --separator: #e8e8ed;
+  --separator: #e6e6e6;
 
   --separator-muted: rgba(0, 0, 0, 0.04);
 
@@ -75,34 +75,34 @@
   --button-background: var(--blue-light-500);
   --button-border: var(--blue-light-600);
   --button-shadow: 0px 4px 0px 0px var(--blue-light-800),
-    2px 2px 5px 0px var(--black-300) inset;
+    2px 2px 5px 0px var(--black-200) inset;
   --button-shadow-hover: 0px 6px 0px 0px var(--blue-light-800),
-    2px 2px 5px 0px var(--black-300) inset;
+    2px 2px 5px 0px var(--black-200) inset;
   --button-shadow-active: none;
   --button-shadow-disabled: 0px 2px 0px 0px var(--blue-light-800),
-    2px 2px 5px 0px var(--black-300) inset;
+    2px 2px 5px 0px var(--black-200) inset;
   --button-color: var(--white-1000);
 
   --button-brand-background: var(--brand-light-500);
   --button-brand-border: var(--brand-light-600);
   --button-brand-shadow: 0px 4px 0px 0px var(--brand-light-800),
-    2px 2px 5px 0px var(--black-300) inset;
+    2px 2px 5px 0px var(--black-200) inset;
   --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-light-800),
-    2px 2px 5px 0px var(--black-300) inset;
+    2px 2px 5px 0px var(--black-200) inset;
   --button-brand-shadow-active: none;
   --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-light-800),
-    2px 2px 5px 0px var(--black-300) inset;
+    2px 2px 5px 0px var(--black-200) inset;
   --button-brand-color: var(--white-1000);
 
-  --button-secondary-background: var(--gray-100);
-  --button-secondary-border: var(--gray-200);
-  --button-secondary-shadow: 0px 4px 0px 0px var(--gray-400),
-    2px 2px 5px 0px var(--black-300) inset;
-  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-400),
-    2px 2px 5px 0px var(--black-300) inset;
+  --button-secondary-background: var(--pale-blue-100);
+  --button-secondary-border: var(--pale-blue-200);
+  --button-secondary-shadow: 0px 4px 0px 0px var(--pale-blue-400),
+    2px 2px 5px 0px var(--black-200) inset;
+  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--pale-blue-400),
+    2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-shadow-active: none;
-  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--gray-400),
-    2px 2px 5px 0px var(--black-300) inset;
+  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--pale-blue-400),
+    2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-color: var(--black-1000);
 
   --button-tertiary-background: rgba(0, 0, 0, 0);
@@ -126,7 +126,7 @@
   --tile-outline-active: 4px solid var(--blue-light-600);
   --tile-transition: var(--outline-hover-effect);
 
-  --link-color: #007be5;
+  --link-color: var(--blue-light-700);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -141,9 +141,7 @@
 
     --body-background: var(--gray-900);
 
-    --focus-ring: rgba(56, 146, 255, 0.6);
-
-    --separator: #424245;
+    --separator: #444;
 
     --separator-muted: rgba(255, 255, 255, 0.06);
 
@@ -158,34 +156,34 @@
     --button-background: var(--blue-dark-500);
     --button-border: var(--blue-dark-600);
     --button-shadow: 0px 4px 0px 0px var(--blue-dark-800),
-      2px 2px 5px 0px var(--black-300) inset;
+      2px 2px 5px 0px var(--black-200) inset;
     --button-shadow-hover: 0px 6px 0px 0px var(--blue-dark-800),
-      2px 2px 5px 0px var(--black-300) inset;
+      2px 2px 5px 0px var(--black-200) inset;
     --button-shadow-active: none;
     --button-shadow-disabled: 0px 2px 0px 0px var(--blue-dark-800),
-      2px 2px 5px 0px var(--black-300) inset;
+      2px 2px 5px 0px var(--black-200) inset;
     --button-color: var(--white-1000);
 
     --button-brand-background: var(--brand-dark-500);
     --button-brand-border: var(--brand-dark-600);
     --button-brand-shadow: 0px 4px 0px 0px var(--brand-dark-800),
-      2px 2px 5px 0px var(--black-300) inset;
+      2px 2px 5px 0px var(--black-200) inset;
     --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-dark-800),
-      2px 2px 5px 0px var(--black-300) inset;
+      2px 2px 5px 0px var(--black-200) inset;
     --button-brand-shadow-active: none;
     --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-dark-800),
-      2px 2px 5px 0px var(--black-300) inset;
+      2px 2px 5px 0px var(--black-200) inset;
     --button-brand-color: var(--white-1000);
 
-    --button-secondary-background: var(--gray-800);
-    --button-secondary-border: var(--gray-700);
-    --button-secondary-shadow: 0px 4px 0px 0px var(--gray-600),
-      2px 2px 5px 0px var(--black-300) inset;
-    --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-600),
-      2px 2px 5px 0px var(--black-300) inset;
+    --button-secondary-background: var(--pale-blue-900);
+    --button-secondary-border: var(--pale-blue-800);
+    --button-secondary-shadow: 0px 4px 0px 0px var(--pale-blue-700),
+      2px 2px 5px 0px var(--black-200) inset;
+    --button-secondary-shadow-hover: 0px 6px 0px 0px var(--pale-blue-700),
+      2px 2px 5px 0px var(--black-200) inset;
     --button-secondary-shadow-active: none;
-    --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--gray-600),
-      2px 2px 5px 0px var(--black-300) inset;
+    --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--pale-blue-700),
+      2px 2px 5px 0px var(--black-200) inset;
     --button-secondary-color: var(--white-1000);
 
     --button-tertiary-background: rgba(0, 0, 0, 0);
@@ -204,6 +202,6 @@
     --tile-outline-hover: 4px solid var(--blue-dark-600);
     --tile-outline-active: 4px solid var(--blue-dark-500);
 
-    --link-color: #0c8ce9;
+    --link-color: var(--blue-dark-500);
   }
 }

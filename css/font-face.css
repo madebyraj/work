@@ -1,81 +1,25 @@
-/* Roc Grotesk */
+/* Gilroy */
 
 @font-face {
-  font-family: "Roc Grotesk";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Roc-Grotesk-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roc Grotesk";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Roc-Grotesk-Medium.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Gilroy-SemiBold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roc Grotesk";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Roc-Grotesk-Regular.woff") format("woff");
-}
-
-
-
-/* Our Lexend */
-
-@font-face {
-  font-family: "Our Lexend";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/our-lexend-bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Our Lexend";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/our-lexend-medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Our Lexend";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/our-lexend-regular.woff") format("woff");
-}
-
-
-
-/* Basis Grotesque Arabic Pro */
-
-@font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Medium.woff") format("woff");
 }
