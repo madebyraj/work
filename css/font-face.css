@@ -26,21 +26,56 @@
 
 
 
-/* Inter */
+/* Our Lexend */
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Our Lexend";
   font-style: normal;
-  font-weight: 1 1000;
+  font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Inter-var.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/our-lexend-bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 1 1000;
+  font-family: "Our Lexend";
+  font-style: normal;
+  font-weight: 600;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Inter-italic-var.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/our-lexend-medium.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Our Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/our-lexend-regular.woff") format("woff");
+}
+
+
+
+/* Basis Grotesque Arabic Pro */
+
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+}

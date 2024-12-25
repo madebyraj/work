@@ -38,16 +38,16 @@
 
     /* Light */
 
-    --brand-light-100: var(--violet-light-100);
-    --brand-light-200: var(--violet-light-200);
-    --brand-light-300: var(--violet-light-300);
-    --brand-light-400: var(--violet-light-400);
-    --brand-light-500: var(--violet-light-500);
-    --brand-light-600: var(--violet-light-600);
-    --brand-light-700: var(--violet-light-700);
-    --brand-light-800: var(--violet-light-800);
-    --brand-light-900: var(--violet-light-900);
-    --brand-light-1000: var(--violet-light-1000);
+    --brand-light-100: var(--persimmon-light-100);
+    --brand-light-200: var(--persimmon-light-200);
+    --brand-light-300: var(--persimmon-light-300);
+    --brand-light-400: var(--persimmon-light-400);
+    --brand-light-500: var(--persimmon-light-500);
+    --brand-light-600: var(--persimmon-light-600);
+    --brand-light-700: var(--persimmon-light-700);
+    --brand-light-800: var(--persimmon-light-800);
+    --brand-light-900: var(--persimmon-light-900);
+    --brand-light-1000: var(--persimmon-light-1000);
 
     --blue-light-100: #f2f9ff;
     --blue-light-200: #e5f4ff;
@@ -71,20 +71,31 @@
     --violet-light-900: #2F15AC;
     --violet-light-1000: #1D1254;
 
+    --persimmon-light-100: #FFF2EB;
+    --persimmon-light-200: #FFDFCC;
+    --persimmon-light-300: #FFBB9E;
+    --persimmon-light-400: #FFA27A;
+    --persimmon-light-500: #FF5C16;
+    --persimmon-light-600: #E24C0C;
+    --persimmon-light-700: #C53E0D;
+    --persimmon-light-800: #AA370D;
+    --persimmon-light-900: #842D0B;
+    --persimmon-light-1000: #611D0A;
+
     /* ---------------------- */
 
     /* Dark */
 
-    --brand-dark-100: var(--violet-dark-100);
-    --brand-dark-200: var(--violet-dark-200);
-    --brand-dark-300: var(--violet-dark-300);
-    --brand-dark-400: var(--violet-dark-400);
-    --brand-dark-500: var(--violet-dark-500);
-    --brand-dark-600: var(--violet-dark-600);
-    --brand-dark-700: var(--violet-dark-700);
-    --brand-dark-800: var(--violet-dark-800);
-    --brand-dark-900: var(--violet-dark-900);
-    --brand-dark-1000: var(--violet-dark-1000);
+    --brand-dark-100: var(--persimmon-dark-100);
+    --brand-dark-200: var(--persimmon-dark-200);
+    --brand-dark-300: var(--persimmon-dark-300);
+    --brand-dark-400: var(--persimmon-dark-400);
+    --brand-dark-500: var(--persimmon-dark-500);
+    --brand-dark-600: var(--persimmon-dark-600);
+    --brand-dark-700: var(--persimmon-dark-700);
+    --brand-dark-800: var(--persimmon-dark-800);
+    --brand-dark-900: var(--persimmon-dark-900);
+    --brand-dark-1000: var(--persimmon-dark-1000);
 
     --blue-dark-100: #e2f1fd;
     --blue-dark-200: #cfe9fc;
@@ -107,4 +118,15 @@
     --violet-dark-800: #3927BE;
     --violet-dark-900: #302579;
     --violet-dark-1000: #1D1835;
+
+    --persimmon-dark-100: #FFE8DB;
+    --persimmon-dark-200: #FED2B8;
+    --persimmon-dark-300: #FFB494;
+    --persimmon-dark-400: #FFA27A;
+    --persimmon-dark-500: #F65009;
+    --persimmon-dark-600: #DB4606;
+    --persimmon-dark-700: #B93F13;
+    --persimmon-dark-800: #8E3210;
+    --persimmon-dark-900: #59220D;
+    --persimmon-dark-1000: #43160A;
 }

@@ -192,8 +192,8 @@
     --button-tertiary-background-hover: var(--blue-dark-900);
     --button-tertiary-background-active: var(--blue-dark-1000);
     --button-tertiary-color: var(--white-1000);
-    --button-tertiary-color-hover: var(--blue-dark-400);
-    --button-tertiary-color-active: var(--blue-dark-300);
+    --button-tertiary-color-hover: var(--blue-dark-300);
+    --button-tertiary-color-active: var(--blue-dark-200);
     --button-tertiary-color-disabled: var(--white-1000);
     --button-tertiary-outline: 0px solid transparent;
     --button-tertiary-outline-hover: 4px solid var(--blue-dark-600);

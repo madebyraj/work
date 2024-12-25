@@ -229,34 +229,47 @@ main {
 
 .link-one {
   display: flex;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 }
 
 .full-research {
-  color: var(--link-color);
-  font: var(--link-m);
-  letter-spacing: var(--link-letterspacing);
+  background: var(--button-secondary-background);
+  height: 46px;
+  padding: 7px 16px;
+  color: var(--button-secondary-color);
+  font: var(--mediumbutton-m);
+  letter-spacing: var(--mediumbutton-letterspacing);
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 200ms ease-out;
-  gap: 4px;
+  gap: 8px;
+  border-radius: var(--border-radius-12);
+  transition: var(--bounce-effect);
+  box-shadow: var(--button-secondary-shadow);
+  border: 1px solid var(--button-secondary-border);
 }
 
-.full-research:hover .link-copy {
+.full-research:hover {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--link-color);
+  transform: var(--button-transform-hover);
+  box-shadow: var(--button-secondary-shadow-hover);
+}
+
+.full-research:active {
+  cursor: var(--cursor-pointer), auto;
+  transform: var(--button-transform-active);
+  box-shadow: var(--button-secondary-shadow-active);
 }
 
 .arrow-top-right {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .arrow-top-right path {
-  fill: var(--link-color);
+  fill: var(--button-secondary-color);
 }
 
 .research-img {
@@ -744,6 +757,10 @@ main {
 
   .research-section-copy {
     font: var(--body2-xxxs);
+  }
+
+  .full-research {
+    font: var(--mediumbutton-xxxs);
   }
 
   .pain-point-section-heading {
