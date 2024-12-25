@@ -186,13 +186,19 @@
   --button-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
 
-  --mediumbutton-letterspacing: var(--letterSpacing-tight);
+  --largebutton-letterspacing: var(--letterSpacing-normal);
+  --largebutton-xxl: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
+  --largebutton-xl: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
+  --largebutton-m: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
+  --largebutton-xxxs: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
+
+  --mediumbutton-letterspacing: var(--letterSpacing-normal);
   --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
 
-  --smallbutton-letterspacing: var(--letterSpacing-tight);
+  --smallbutton-letterspacing: var(--letterSpacing-normal);
   --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
   --smallbutton-xl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
   --smallbutton-m: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
@@ -204,7 +210,7 @@
   --link-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --link-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
 
-  --navbarlink-letterspacing: var(--letterSpacing-tight);
+  --navbarlink-letterspacing: var(--letterSpacing-normal);
   --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
   --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
   --navbarlink-m: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);

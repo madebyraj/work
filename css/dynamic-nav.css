@@ -334,22 +334,26 @@
 
   .nav-link {
     width: 100%;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--border-radius-12);
+    height: 52px;
+    padding: 9px 22px;
+    border-radius: var(--border-radius-16);
+    gap: 8px;
   }
 
   .nav-link-copy {
-    font: var(--navbarlink-xxxs);
+    font: var(--largebutton-xxxs);
+    letter-spacing: var(--largebutton-letterspacing);
+  }
+
+  .nav-link-icon {
+    width: 28px;
+    height: 28px;
   }
 
   .right-side-container {
     gap: 12px;
   }
 
-  .nav-container.active #link-logo,
   .nav-container.active .nav-cta,
   .nav-container.active .theme-toggle-wrapper {
     display: none;
@@ -436,7 +440,7 @@
     position: absolute;
     height: 4px;
     width: 100%;
-    background: var(--globalnav-color);
+    background: var(--button-tertiary-color);
     border-radius: var(--border-radius-full);
     transition-property: transform, top;
     transition-delay: 0ms, 150ms;
