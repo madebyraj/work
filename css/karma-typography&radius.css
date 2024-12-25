@@ -75,12 +75,12 @@
   --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
   --letterSpacing-wide: 0.025em;
-  --letterSpacing-wider: 0.05em;
+  --letterSpacing-wider: 0.075em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-title);
   --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-title);
-  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 110% var(--font-title);
+  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-title);
   --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-title);
 
   --title1-letterspacing: var(--letterSpacing-tight);
@@ -169,7 +169,7 @@
   --body4-xxxs: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-content);
   --body4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-content);
 
-  --eyebrow-letterspacing: 4px;
+  --eyebrow-letterspacing: var(--letterSpacing-wider);
   --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-ui);
   --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-16) / 130% var(--font-ui);
   --eyebrow-m: var(--fontWeight-bold) var(--fontSize-16) / 130% var(--font-ui);

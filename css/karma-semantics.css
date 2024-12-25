@@ -38,12 +38,25 @@
   --global-max-width: 1400px;
   --content-max-width: 1024px;
 
+  /* Brand */
+
+  --brand-blue: #5551FF;
+  --brand-sky: #699BF7;
+  --brand-lightpurple: #C7B9FF;
+  --brand-tomato: #F24E1E;
+  --brand-lightred: #FF8577;
+  --brand-lemon: #FFC700;
+  --brand-green: #0FA958;
+  --brand-purple: #A259FF;
+
   /* Semantics/Component Specific */
 
   --globalnav-wrapper-height: 104px;
 
   --globalnav-height: 64px;
   --globalnav-max-width: 1448px;
+
+  --globalnav-wrapper-background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
 
   --globalnav-background: var(--white-1000);
   --globalnav-background-opened: var(--white-1000);
@@ -126,11 +139,18 @@
   --tile-outline-active: 4px solid var(--blue-light-600);
   --tile-transition: var(--outline-hover-effect);
 
+  --success-background: var(--green-light-200);
+  --success-color: var(--green-light-600);
+  --success-border: var(--green-light-600);
+
   --link-color: var(--blue-light-700);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+
+    --globalnav-wrapper-background: linear-gradient(180deg, #1E1E1E 0%, rgba(30, 30, 30, 0.00) 100%);
+
     --globalnav-background: var(--black-1000);
     --globalnav-background-opened: var(--black-1000);
 
@@ -201,6 +221,10 @@
     --tile-outline: 0px solid transparent;
     --tile-outline-hover: 4px solid var(--blue-dark-600);
     --tile-outline-active: 4px solid var(--blue-dark-500);
+
+    --success-background: var(--green-dark-800);
+    --success-color: var(--green-dark-400);
+    --success-border: var(--green-dark-400);
 
     --link-color: var(--blue-dark-500);
   }

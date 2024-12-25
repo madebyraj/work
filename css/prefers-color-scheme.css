@@ -4,6 +4,9 @@
 @import url("/css/karma-semantics.css");
 
 [data-theme="light"] {
+
+  --globalnav-wrapper-background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+
   --globalnav-background: var(--white-1000);
   --globalnav-background-opened: var(--white-1000);
 
@@ -76,12 +79,19 @@
   --tile-outline-hover: 4px solid var(--blue-light-500);
   --tile-outline-active: 4px solid var(--blue-light-600);
 
+  --success-background: var(--green-light-200);
+  --success-color: var(--green-light-600);
+  --success-border: var(--green-light-600);
+
   --link-color: var(--blue-light-700);
 }
 
 /* ----------------------- */
 
 [data-theme="dark"] {
+
+  --globalnav-wrapper-background: linear-gradient(180deg, #1E1E1E 0%, rgba(30, 30, 30, 0.00) 100%);
+
   --globalnav-background: var(--black-1000);
   --globalnav-background-opened: var(--black-1000);
 
@@ -152,6 +162,10 @@
   --tile-outline: 0px solid transparent;
   --tile-outline-hover: 4px solid var(--blue-dark-600);
   --tile-outline-active: 4px solid var(--blue-dark-500);
+
+  --success-background: var(--green-dark-800);
+  --success-color: var(--green-dark-400);
+  --success-border: var(--green-dark-400);
 
   --link-color: var(--blue-dark-500);
 }

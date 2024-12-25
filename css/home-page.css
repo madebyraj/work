@@ -1,8 +1,7 @@
 /* Linked CSS Files */
 
-@import url("./variables.css");
-@import url("./karma-semantics.css");
-@import url("./karma-typography&radius.css");
+@import url("/karma-semantics.css");
+@import url("/karma-typography&radius.css");
 
 /*  Animations */
 
@@ -55,57 +54,95 @@ main {
   min-height: 100vh;
 }
 
-.hero-section {
+.hero-section-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: visible;
   width: 100%;
 }
 
-.hero-section-wrapper {
+.hero-section {
   margin: 0 auto;
   max-width: var(--global-max-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
   width: 100%;
   padding: 64px 0;
 }
 
-.hero-introduction-section {
+.currently {
+  text-align: center;
+  background: var(--success-background);
+  padding: 10px 12px;
+  border-radius: var(--border-radius-12);
+  width: max-content;
+  border: 1px solid var(--success-border);
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.currently-copy {
+  font: var(--badge-xl);
+  letter-spacing: var(--badge-letterspacing);
+  color: var(--success-color);
+}
+
+.dot-wrapper {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.static-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--success-color);
+  border-radius: var(--border-radius-full);
+  z-index: 1;
+}
+
+.animated-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background: var(--success-color);
+  border-radius: var(--border-radius-full);
+  opacity: 0.25;
+  animation: dotAnimation 2000ms linear infinite;
+}
+
+@keyframes dotAnimation {
+  from {
+    opacity: 0.125;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 0.25;
+    transform: scale(1.25);
+  }
 }
 
 .hero-headline {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-24);
-}
-
-.hero-headline-intro {
+  text-align: center;
   font: var(--display-xl);
   letter-spacing: var(--display-letterspacing);
   color: var(--text);
-  max-width: 800px;
-}
-
-.subheadline {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-4);
-  max-width: 800px;
-}
-
-.tagline {
-  font: var(--body1-xl);
-  letter-spacing: var(--body1-letterspacing);
-  color: var(--text-secondary);
-}
-
-.currently {
-  font: var(--body1-xl);
-  letter-spacing: var(--body1-letterspacing);
-  color: var(--text-secondary);
+  max-width: 640px;
 }
 
 /* Project Section */
@@ -298,24 +335,16 @@ main {
     padding: 0 48px;
   }
 
-  .hero-headline {
-    gap: var(--spacing-16);
-  }
-
-  .hero-section-wrapper {
+  .hero-section {
     padding: 48px 0;
   }
 
-  .hero-headline-intro {
+  .currently-copy {
+    font: var(--badge-m);
+  }
+
+  .hero-headline {
     font: var(--display-m);
-  }
-
-  .tagline {
-    font: var(--body1-m);
-  }
-
-  .currently {
-    font: var(--body1-m);
   }
 
   /* Project Section */
@@ -386,24 +415,17 @@ main {
     padding: 0 24px;
   }
 
-  .hero-section-wrapper {
+  .hero-section {
     padding: 40px 0;
   }
 
-  .hero-introduction-section {
-    gap: 64px;
+  .currently-copy {
+    font: var(--badge-xxxs);
   }
 
-  .hero-headline-intro {
+  .hero-headline {
     font: var(--display-xxxs);
-  }
-
-  .tagline {
-    font: var(--body1-xxxs);
-  }
-
-  .currently {
-    font: var(--body1-xxxs);
+    max-width: 512px;
   }
 
   /* Project Section */
