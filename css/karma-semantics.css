@@ -31,7 +31,7 @@
 
   /* --Blur-- */
 
-  --globalnav-backdrop-filter: saturate(180%) blur(20px);
+  --globalnav-backdrop-filter: saturate(180%) blur(40px);
 
   /* Width */
 
@@ -45,44 +45,32 @@
   --globalnav-height: 64px;
   --globalnav-max-width: 1448px;
 
-  --globalnav-background: rgba(255, 255, 255);
-  --globalnav-background-opened: rgba(255, 255, 255);
+  --globalnav-background: var(--white-1000);
+  --globalnav-background-opened: var(--white-1000);
 
   --globalnav-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08),
     1px 1px 0px 0px #e6e6e6 inset, 1px 1px 0px 0px #f5f5f5;
 
-  --globalnav-color: #1d1d1f;
-  --globalnav-color-hover: #0768cf;
-  --globalnav-color-disabled: #86868b;
+  --globalfooter-background: var(--fill-secondary);
 
-  --globalfooter-background: #f5f5f7;
-
-  --globalfooter-color: #515154;
-  --globalfooter-color-hover: #1d1d1f;
-  --globalfooter-color-disabled: #515154;
-
-  --body-background: #ffffff;
-
-  --body-background-tile: url(/assets/global/body-background-tile-light.png);
-
-  --focus-ring: rgba(0, 108, 242, 0.6);
+  --body-background: var(--white-1000);
 
   --separator: #e8e8ed;
 
   --separator-muted: rgba(0, 0, 0, 0.04);
 
-  --fill: #ffffff;
-  --fill-secondary: #f5f5f5;
-  --fill-tertiary: #e6e6e6;
+  --fill: var(--white-1000);
+  --fill-secondary: var(--gray-100);
+  --fill-tertiary: var(--gray-200);
 
-  --text: #000000;
-  --text-secondary: rgba(0, 0, 0, 0.76);
-  --text-tertiary: rgba(0, 0, 0, 0.56);
+  --text: var(--black-1000);
+  --text-secondary: var(--gray-600);
+  --text-tertiary: var(--gray-500);
 
   --button-transform: translate(0);
   --button-transform-hover: translate(0, -0.125rem);
   --button-transform-active: translate(0, 0.25rem);
-  --button-transform-selected: translate(0, 0.125rem);
+  --button-transform-disabled: translate(0, 0.125rem);
 
   --button-background: var(--blue-light-500);
   --button-border: var(--blue-light-600);
@@ -91,7 +79,7 @@
   --button-shadow-hover: 0px 6px 0px 0px var(--blue-light-800),
     2px 2px 5px 0px var(--black-300) inset;
   --button-shadow-active: none;
-  --button-shadow-selected: 0px 2px 0px 0px var(--blue-light-800),
+  --button-shadow-disabled: 0px 2px 0px 0px var(--blue-light-800),
     2px 2px 5px 0px var(--black-300) inset;
   --button-color: var(--white-1000);
 
@@ -102,12 +90,12 @@
   --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-400),
     2px 2px 5px 0px var(--black-300) inset;
   --button-secondary-shadow-active: none;
-  --button-secondary-shadow-selected: 0px 2px 0px 0px var(--gray-400),
+  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--gray-400),
     2px 2px 5px 0px var(--black-300) inset;
   --button-secondary-color: var(--black-1000);
 
   --button-tertiary-background: rgba(0, 0, 0, 0);
-  --button-tertiary-background-hover: var(--gray-100);
+  --button-tertiary-background-hover: var(--blue-light-100);
   --button-tertiary-background-active: var(--blue-light-200);
   --button-tertiary-background-disabled: rgba(0, 0, 0, 0);
   --button-tertiary-color: var(--black-1000);
@@ -132,25 +120,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --globalnav-background: #111;
-    --globalnav-background-opened: #111;
+    --globalnav-background: var(--black-1000);
+    --globalnav-background-opened: var(--black-1000);
 
     --globalnav-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16),
       1px 1px 0px 0px #444 inset, 1px 1px 0px 0px #2c2c2c;
 
-    --globalnav-color: #fff;
-    --globalnav-color-hover: #0c8ce9;
-    --globalnav-color-disabled: #757575;
+    --globalfooter-background: var(--fill);
 
-    --globalfooter-background: #111;
-
-    --globalfooter-color: #a1a1a6;
-    --globalfooter-color-hover: #f5f5f7;
-    --globalfooter-color-disabled: #a1a1a6;
-
-    --body-background: #1e1e1e;
-
-    --body-background-tile: url(/assets/global/body-background-tile-dark.png);
+    --body-background: var(--gray-900);
 
     --focus-ring: rgba(56, 146, 255, 0.6);
 
@@ -158,13 +136,13 @@
 
     --separator-muted: rgba(255, 255, 255, 0.06);
 
-    --fill: #111;
-    --fill-secondary: #1e1e1e;
-    --fill-tertiary: #2c2c2c;
+    --fill: var(--gray-1000);
+    --fill-secondary: var(--gray-900);
+    --fill-tertiary: var(--gray-800);
 
-    --text: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.7);
-    --text-tertiary: rgba(255, 255, 255, 0.5);
+    --text: var(--white-1000);
+    --text-secondary: var(--gray-300);
+    --text-tertiary: var(--gray-500);
 
     --button-background: var(--blue-dark-500);
     --button-border: var(--blue-dark-600);
@@ -173,9 +151,20 @@
     --button-shadow-hover: 0px 6px 0px 0px var(--blue-dark-800),
       2px 2px 5px 0px var(--black-300) inset;
     --button-shadow-active: none;
-    --button-shadow-selected: 0px 2px 0px 0px var(--blue-dark-800),
+    --button-shadow-disabled: 0px 2px 0px 0px var(--blue-dark-800),
       2px 2px 5px 0px var(--black-300) inset;
     --button-color: var(--white-1000);
+
+    --button-brand-background: var(--brand-dark-500);
+    --button-brand-border: var(--brand-dark-600);
+    --button-brand-shadow: 0px 4px 0px 0px var(--brand-dark-900),
+      2px 2px 5px 0px var(--black-300) inset;
+    --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-dark-900),
+      2px 2px 5px 0px var(--black-300) inset;
+    --button-brand-shadow-active: none;
+    --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-dark-900),
+      2px 2px 5px 0px var(--black-300) inset;
+    --button-brand-color: var(--white-1000);
 
     --button-secondary-background: var(--gray-800);
     --button-secondary-border: var(--gray-700);
@@ -184,13 +173,13 @@
     --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-600),
       2px 2px 5px 0px var(--black-300) inset;
     --button-secondary-shadow-active: none;
-    --button-secondary-shadow-selected: 0px 2px 0px 0px var(--gray-600),
+    --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--gray-600),
       2px 2px 5px 0px var(--black-300) inset;
     --button-secondary-color: var(--white-1000);
 
     --button-tertiary-background: rgba(0, 0, 0, 0);
-    --button-tertiary-background-hover: var(--gray-800);
-    --button-tertiary-background-active: var(--blue-dark-900);
+    --button-tertiary-background-hover: var(--blue-dark-900);
+    --button-tertiary-background-active: var(--blue-dark-1000);
     --button-tertiary-color: var(--white-1000);
     --button-tertiary-color-hover: var(--blue-dark-400);
     --button-tertiary-color-active: var(--blue-dark-300);

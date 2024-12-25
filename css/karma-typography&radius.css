@@ -42,10 +42,9 @@
 
   /* ---------------------------- */
 
-  --font-ui: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: Roc Grotesk, var(--font-ui), system-ui, sans-serif;
 
-  --fontSize-8: 8px;
   --fontSize-10: 10px;
   --fontSize-12: 12px;
   --fontSize-14: 14px;
@@ -74,8 +73,8 @@
   --letterSpacing-tighter: -0.025em;
   --letterSpacing-tight: -0.0125em;
   --letterSpacing-normal: 0;
-  --letterSpacing-wide: 0.0125em;
-  --letterSpacing-wider: 0.025em;
+  --letterSpacing-wide: 0.025em;
+  --letterSpacing-wider: 0.05em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-title);
@@ -186,6 +185,12 @@
   --button-xl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --button-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
   --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
+
+  --mediumbutton-letterspacing: var(--letterSpacing-tight);
+  --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
+  --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
+  --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
+  --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
 
   --smallbutton-letterspacing: var(--letterSpacing-tight);
   --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);

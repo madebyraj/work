@@ -94,7 +94,7 @@
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius-8);
-  outline-offset: 0.5rem;
+  outline-offset: 0.75rem;
   outline: var(--button-tertiary-outline);
   transition: var(--button-tertiary-transition);
 }
@@ -143,7 +143,7 @@
   justify-content: center;
   gap: 4px;
   border-radius: var(--border-radius-8);
-  outline-offset: 0.5rem;
+  outline-offset: 0.75rem;
   outline: var(--button-tertiary-outline);
   transition: var(--button-tertiary-transition);
 }
@@ -238,8 +238,8 @@
 
 .theme-toggle svg {
   margin: auto;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   fill: var(--button-secondary-color);
   transition: fill 0.3s ease-out;
 }
@@ -252,7 +252,7 @@
 }
 
 .nav-cta {
-  background: var(--button-background);
+  background: var(--button-brand-background);
   text-decoration: none;
   padding: 5px 10px;
   height: 36px;
@@ -263,8 +263,8 @@
   justify-content: center;
   gap: 4px;
   transition: var(--bounce-effect);
-  box-shadow: var(--button-shadow);
-  border: 1px solid var(--button-border);
+  box-shadow: var(--button-brand-shadow);
+  border: 1px solid var(--button-brand-border);
 }
 
 .nav-cta-icon {
@@ -273,24 +273,24 @@
 }
 
 .nav-cta-icon path {
-  fill: var(--button-color);
+  fill: var(--button-brand-color);
 }
 
 .nav-cta-copy {
   font: var(--smallbutton-xl);
   letter-spacing: var(--smallbutton-letterspacing);
-  color: var(--button-color);
+  color: var(--button-brand-color);
 }
 
 .nav-cta:hover {
   cursor: var(--cursor-pointer), auto;
   transform: var(--button-transform-hover);
-  box-shadow: var(--button-shadow-hover);
+  box-shadow: var(--button-brand-shadow-hover);
 }
 
 .nav-cta:active {
   transform: var(--button-transform-active);
-  box-shadow: var(--button-shadow-active);
+  box-shadow: var(--button-brand-shadow-active);
 }
 
 /* Hidden Items */
@@ -405,7 +405,7 @@
     align-items: center;
     justify-content: center;
     border-radius: var(--border-radius-8);
-    outline-offset: 0.5rem;
+    outline-offset: 0.75rem;
     outline: var(--button-tertiary-outline);
     transition: var(--button-tertiary-transition);
   }
@@ -428,6 +428,7 @@
   .menu-icon {
     position: relative;
     width: 24px;
+    height: 36px;
   }
 
   .line-1,
@@ -443,15 +444,15 @@
   }
 
   .line-1 {
-    top: -7px;
+    top: 30%;
   }
 
   .line-2 {
-    top: 4px;
+    top: 60%;
   }
 
   .nav-container.active .menu-icon-container .menu-icon .line-1 {
-    top: 0;
+    top: 16px;
     transform: rotateZ(45deg);
     transition-property: top, transform;
     transition-delay: 0ms, 150ms;
@@ -459,7 +460,7 @@
   }
 
   .nav-container.active .menu-icon-container .menu-icon .line-2 {
-    top: 0;
+    top: 16px;
     transform: rotateZ(-45deg);
     transition-property: top, transform;
     transition-delay: 0ms, 150ms;

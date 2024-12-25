@@ -17,18 +17,16 @@
 }
 
 ::-webkit-scrollbar {
-  scrollbar-width: thin;
   background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--separator);
+  background: #889296;
 }
 
-@supports (scrollbar-color: var(--separator) transparent) {
+@supports (scrollbar-color: #889296 transparent) {
   * {
-    scrollbar-color: var(--separator) transparent;
-    scrollbar-width: thin;
+    scrollbar-color: #889296 transparent;
   }
 }
 
@@ -49,26 +47,6 @@ body {
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
   position: relative;
-}
-
-.body-background {
-  flex: none;
-  inset: 0;
-  opacity: .4;
-  overflow: visible;
-  position: absolute;
-  z-index: -1;
-}
-
-.body-background-tile {
-  position: absolute;
-  border-radius: inherit;
-  inset: 0px;
-  background-repeat: repeat;
-  background-position: left top;
-  background-size: 52px;
-  background-image: var(--body-background-tile);
-  border: 0px;
 }
 
 main {
@@ -818,30 +796,41 @@ main {
 }
 
 .back-to-home {
+  background: var(--button-secondary-background);
+  height: 46px;
+  padding: 7px 16px;
   text-decoration: none;
-  color: var(--link-color);
-  font: var(--link-m);
-  letter-spacing: var(--link-letterspacing);
+  color: var(--button-secondary-color);
+  font: var(--mediumbutton-m);
+  letter-spacing: var(--mediumbutton-letterspacing);
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  transition: 200ms ease-out;
-  gap: 4px;
+  gap: 8px;
+  border-radius: var(--border-radius-12);
+  transition: var(--bounce-effect);
+  box-shadow: var(--button-secondary-shadow);
+  border: 1px solid var(--button-secondary-border);
 }
 
-.back-to-home:hover .link-copy {
+.back-to-home:hover {
   cursor: var(--cursor-pointer), auto;
-  text-decoration: underline var(--link-color);
+  transform: var(--button-transform-hover);
+  box-shadow: var(--button-secondary-shadow-hover);
+}
+
+.back-to-home:active {
+  transform: var(--button-transform-active);
+  box-shadow: var(--button-secondary-shadow-active);
 }
 
 .arrow-left {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .arrow-left path {
-  fill: var(--link-color);
+  fill: var(--button-secondary-color);
 }
 
 /* Small desktop */
@@ -1175,6 +1164,6 @@ main {
   }
 
   .back-to-home {
-    font: var(--link-xxxs);
+    font: var(--mediumbutton-xxxs);
   }
 }

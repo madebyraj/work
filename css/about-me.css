@@ -19,18 +19,16 @@
 /* About Page */
 
 ::-webkit-scrollbar {
-  scrollbar-width: thin;
   background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--separator);
+  background: #889296;
 }
 
-@supports (scrollbar-color: var(--separator) transparent) {
+@supports (scrollbar-color: #889296 transparent) {
   * {
-    scrollbar-color: var(--separator) transparent;
-    scrollbar-width: thin;
+    scrollbar-color: #889296 transparent;
   }
 }
 
@@ -51,26 +49,6 @@ body {
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
   position: relative;
-}
-
-.body-background {
-  flex: none;
-  inset: 0;
-  opacity: .4;
-  overflow: visible;
-  position: absolute;
-  z-index: -1;
-}
-
-.body-background-tile {
-  position: absolute;
-  border-radius: inherit;
-  inset: 0px;
-  background-repeat: repeat;
-  background-position: left top;
-  background-size: 52px;
-  background-image: var(--body-background-tile);
-  border: 0px;
 }
 
 main {
@@ -252,8 +230,7 @@ main {
 
 /* Small Desktop */
 
-@media (max-width: 1400px) {
-}
+@media (max-width: 1400px) {}
 
 /* Tablet */
 

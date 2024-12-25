@@ -38,6 +38,17 @@
 
     /* Light */
 
+    --brand-light-100: var(--violet-light-100);
+    --brand-light-200: var(--violet-light-200);
+    --brand-light-300: var(--violet-light-300);
+    --brand-light-400: var(--violet-light-400);
+    --brand-light-500: var(--violet-light-500);
+    --brand-light-600: var(--violet-light-600);
+    --brand-light-700: var(--violet-light-700);
+    --brand-light-800: var(--violet-light-800);
+    --brand-light-900: var(--violet-light-900);
+    --brand-light-1000: var(--violet-light-1000);
+
     --blue-light-100: #f2f9ff;
     --blue-light-200: #e5f4ff;
     --blue-light-300: #bde3ff;
@@ -49,9 +60,31 @@
     --blue-light-900: #093077;
     --blue-light-1000: #0d193f;
 
+    --violet-light-100: #F5F5FF;
+    --violet-light-200: #EBEBFF;
+    --violet-light-300: #D3D1FF;
+    --violet-light-400: #B4B2FF;
+    --violet-light-500: #4D49FC;
+    --violet-light-600: #443DEB;
+    --violet-light-700: #3D32E2;
+    --violet-light-800: #3620DF;
+    --violet-light-900: #2F15AC;
+    --violet-light-1000: #1D1254;
+
     /* ---------------------- */
 
     /* Dark */
+
+    --brand-dark-100: var(--violet-dark-100);
+    --brand-dark-200: var(--violet-dark-200);
+    --brand-dark-300: var(--violet-dark-300);
+    --brand-dark-400: var(--violet-dark-400);
+    --brand-dark-500: var(--violet-dark-500);
+    --brand-dark-600: var(--violet-dark-600);
+    --brand-dark-700: var(--violet-dark-700);
+    --brand-dark-800: var(--violet-dark-800);
+    --brand-dark-900: var(--violet-dark-900);
+    --brand-dark-1000: var(--violet-dark-1000);
 
     --blue-dark-100: #e2f1fd;
     --blue-dark-200: #cfe9fc;
@@ -63,4 +96,15 @@
     --blue-dark-800: #184591;
     --blue-dark-900: #1b335f;
     --blue-dark-1000: #161e36;
+
+    --violet-dark-100: #F5F5FF;
+    --violet-dark-200: #E6E5FF;
+    --violet-dark-300: #CECCFF;
+    --violet-dark-400: #B9B8FF;
+    --violet-dark-500: #3D38F5;
+    --violet-dark-600: #3B34D5;
+    --violet-dark-700: #372CC9;
+    --violet-dark-800: #3927BE;
+    --violet-dark-900: #302579;
+    --violet-dark-1000: #1D1835;
 }
