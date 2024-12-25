@@ -42,7 +42,7 @@
 
   /* ---------------------------- */
 
-  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-ui: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: Roc Grotesk, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-10: 10px;
@@ -181,28 +181,28 @@
   --badge-xxxs: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
 
   --button-letterspacing: var(--letterSpacing-wide);
-  --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 130% var(--font-ui);
-  --button-xl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
-  --button-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
-  --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
+  --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
+  --button-xl: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
+  --button-m: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
+  --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
   --largebutton-letterspacing: var(--letterSpacing-normal);
-  --largebutton-xxl: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
-  --largebutton-xl: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
-  --largebutton-m: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
-  --largebutton-xxxs: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
+  --largebutton-xxl: var(--fontWeight-bold) var(--fontSize-25) / 140% var(--font-ui);
+  --largebutton-xl: var(--fontWeight-bold) var(--fontSize-25) / 140% var(--font-ui);
+  --largebutton-m: var(--fontWeight-bold) var(--fontSize-25) / 140% var(--font-ui);
+  --largebutton-xxxs: var(--fontWeight-bold) var(--fontSize-25) / 140% var(--font-ui);
 
   --mediumbutton-letterspacing: var(--letterSpacing-normal);
-  --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
-  --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
-  --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
-  --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
+  --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
+  --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
+  --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
+  --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
   --smallbutton-letterspacing: var(--letterSpacing-normal);
-  --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
-  --smallbutton-xl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
-  --smallbutton-m: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
-  --smallbutton-xxxs: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
+  --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --smallbutton-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --smallbutton-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --smallbutton-xxxs: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
 
   --link-letterspacing: var(--letterSpacing-wide);
   --link-xxl: var(--fontWeight-medium) var(--fontSize-20) / 130% var(--font-ui);
@@ -211,8 +211,8 @@
   --link-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 130% var(--font-ui);
 
   --navbarlink-letterspacing: var(--letterSpacing-normal);
-  --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
-  --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
-  --navbarlink-m: var(--fontWeight-medium) var(--fontSize-16) / 130% var(--font-ui);
-  --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-25) / 130% var(--font-ui);
+  --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --navbarlink-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-25) / 140% var(--font-ui);
 }

@@ -26,29 +26,21 @@
 
 
 
-/* Basis Grotesque Arabic Pro */
+/* Inter */
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 1 1000;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Inter-var.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 1 1000;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Inter-italic-var.woff2") format("woff2");
 }
 

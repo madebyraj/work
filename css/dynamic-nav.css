@@ -149,8 +149,8 @@
 }
 
 .nav-link-copy {
-  font: var(--navbarlink-xl);
-  letter-spacing: var(--navbarlink-letterspacing);
+  font: var(--smallbutton-xl);
+  letter-spacing: var(--smallbutton-letterspacing);
   color: var(--button-tertiary-color);
 }
 
@@ -310,6 +310,14 @@
     right: 32px;
     left: 32px;
   }
+
+  .nav-link-copy {
+    font: var(--smallbutton-xl);
+  }
+
+  .nav-cta-copy {
+    font: var(--smallbutton-m);
+  }
 }
 
 /* Mobile */
@@ -385,6 +393,10 @@
 
   .nav-cta-wrapper {
     margin-left: 0;
+  }
+
+  .nav-cta-copy {
+    font: var(--smallbutton-xxxs);
   }
 
   .theme-toggle-wrapper {
