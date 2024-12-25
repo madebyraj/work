@@ -27,7 +27,9 @@
   /* Transitions */
 
   --bounce-effect: 0.15s cubic-bezier(0, 0, 0.6, 1);
-  --outline-hover-effect: opacity .3s ease-out, outline-color .15s ease-out, outline-offset .15s ease-out, outline-width .15s ease-out, transform .15s ease-out;
+  --outline-hover-effect: opacity 0.3s ease-out, outline-color 0.15s ease-out,
+    outline-offset 0.15s ease-out, outline-width 0.15s ease-out,
+    transform 0.15s ease-out;
 
   /* --Blur-- */
 
@@ -40,14 +42,14 @@
 
   /* Brand */
 
-  --brand-blue: #5551FF;
-  --brand-sky: #699BF7;
-  --brand-lightpurple: #C7B9FF;
-  --brand-tomato: #F24E1E;
-  --brand-lightred: #FF8577;
-  --brand-lemon: #FFC700;
-  --brand-green: #0FA958;
-  --brand-purple: #A259FF;
+  --brand-blue: #5551ff;
+  --brand-sky: #699bf7;
+  --brand-lightpurple: #c7b9ff;
+  --brand-tomato: #f24e1e;
+  --brand-lightred: #ff8577;
+  --brand-lemon: #ffc700;
+  --brand-green: #0fa958;
+  --brand-purple: #a259ff;
 
   /* Semantics/Component Specific */
 
@@ -56,7 +58,14 @@
   --globalnav-height: 64px;
   --globalnav-max-width: 1448px;
 
-  --globalnav-wrapper-background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+  --globalnav-wrapper-background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0.75) 25%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.25) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
 
   --globalnav-background: var(--white-1000);
   --globalnav-background-opened: var(--white-1000);
@@ -148,8 +157,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-
-    --globalnav-wrapper-background: linear-gradient(180deg, #1E1E1E 0%, rgba(30, 30, 30, 0.00) 100%);
+    --globalnav-wrapper-background: linear-gradient(
+      180deg,
+      #1e1e1e 0%,
+      rgba(30, 30, 30, 0.75) 25%,
+      rgba(30, 30, 30, 0.5) 50%,
+      rgba(30, 30, 30, 0.25) 75%,
+      rgba(30, 30, 30, 0) 100%
+    );
 
     --globalnav-background: var(--black-1000);
     --globalnav-background-opened: var(--black-1000);

@@ -4,8 +4,14 @@
 @import url("/css/karma-semantics.css");
 
 [data-theme="light"] {
-
-  --globalnav-wrapper-background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+  --globalnav-wrapper-background: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0.75) 25%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.25) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
 
   --globalnav-background: var(--white-1000);
   --globalnav-background-opened: var(--white-1000);
@@ -89,8 +95,14 @@
 /* ----------------------- */
 
 [data-theme="dark"] {
-
-  --globalnav-wrapper-background: linear-gradient(180deg, #1E1E1E 0%, rgba(30, 30, 30, 0.00) 100%);
+  --globalnav-wrapper-background: linear-gradient(
+    180deg,
+    #1e1e1e 0%,
+    rgba(30, 30, 30, 0.75) 25%,
+    rgba(30, 30, 30, 0.5) 50%,
+    rgba(30, 30, 30, 0.25) 75%,
+    rgba(30, 30, 30, 0) 100%
+  );
 
   --globalnav-background: var(--black-1000);
   --globalnav-background-opened: var(--black-1000);
