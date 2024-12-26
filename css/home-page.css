@@ -40,7 +40,6 @@ html {
 }
 
 body {
-  padding-top: var(--globalnav-wrapper-height);
   background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 950ms;
@@ -55,12 +54,39 @@ main {
 }
 
 .hero-section-wrapper {
+  position: relative;
+  padding-top: var(--globalnav-wrapper-height);
+  padding-right: 80px;
+  padding-left: 80px;
+  background: var(--hero-section-background);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: visible;
+  overflow: hidden;
   width: 100%;
+  border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
+  height: 600px;
+}
+
+.hero-section-background {
+  flex: none;
+  inset: 0;
+  opacity: 0.4;
+  overflow: visible;
+  position: absolute;
+  z-index: 0;
+}
+
+.hero-section-background-tile {
+  position: absolute;
+  border-radius: inherit;
+  inset: 0px;
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 64px;
+  background-image: url(/assets/global/hero-section-bg-tile.png);
+  border: 0px;
 }
 
 .hero-section {
@@ -72,7 +98,8 @@ main {
   justify-content: center;
   gap: 32px;
   width: 100%;
-  padding: 64px 0;
+  padding: 64px 0 128px;
+  z-index: 1;
 }
 
 .currently {
@@ -141,8 +168,8 @@ main {
   text-align: center;
   font: var(--display-xl);
   letter-spacing: var(--display-letterspacing);
-  color: var(--text);
-  max-width: 640px;
+  color: var(--white-1000);
+  max-width: 800px;
 }
 
 /* Project Section */
@@ -151,7 +178,7 @@ main {
   overflow: visible;
   margin: auto;
   max-width: var(--global-max-width);
-  padding: 64px 0px;
+  padding: 128px 0px 64px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -335,8 +362,13 @@ main {
     padding: 0 48px;
   }
 
+  .hero-section-wrapper {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+
   .hero-section {
-    padding: 48px 0;
+    padding: 48px 0 96px;
   }
 
   .currently-copy {
@@ -350,7 +382,7 @@ main {
   /* Project Section */
 
   #project-section {
-    padding: 48px 0px;
+    padding: 96px 0px 48px;
     gap: 40px;
   }
 
@@ -415,8 +447,13 @@ main {
     padding: 0 24px;
   }
 
+  .hero-section-wrapper {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
   .hero-section {
-    padding: 40px 0;
+    padding: 40px 0 80px;
   }
 
   .currently-copy {
@@ -431,7 +468,7 @@ main {
   /* Project Section */
 
   #project-section {
-    padding: 40px 0px;
+    padding: 80px 0px 40px;
     gap: 32px;
   }
 

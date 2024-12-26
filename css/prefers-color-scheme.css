@@ -23,6 +23,10 @@
 
   --body-background: var(--white-1000);
 
+  --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
+
+  --hero-section-background: linear-gradient(180deg, var(--violet-light-900) 0%, var(--violet-light-700) 50%, var(--violet-light-500) 100%);
+
   --separator: #e6e6e6;
 
   --separator-muted: rgba(0, 0, 0, 0.04);
@@ -113,6 +117,10 @@
   --globalfooter-background: var(--fill);
 
   --body-background: var(--gray-900);
+
+  --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
+
+  --hero-section-background: linear-gradient(180deg, var(--violet-dark-900) 0%, var(--violet-dark-700) 50%, var(--violet-dark-500) 100%);
 
   --separator: #444;
 

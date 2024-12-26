@@ -23,3 +23,31 @@
   font-display: swap;
   src: local("☺"), url("/assets/Fonts/Gilroy-Medium.woff") format("woff");
 }
+
+
+
+/* Proxima Nova */
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/ProximaNova-Extrabld.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/ProximaNova-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/ProximaNova-Semibold.woff") format("woff");
+}

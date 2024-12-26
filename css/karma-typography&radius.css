@@ -45,6 +45,7 @@
   --font-ui: Gilroy, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: Gilroy, var(--font-ui), system-ui, sans-serif;
   --font-content: Gilroy, var(--font-title), ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-display: Proxima Nova, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -78,10 +79,10 @@
   --letterSpacing-wider: 0.075em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
-  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-title);
-  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-title);
-  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-title);
-  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-title);
+  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
+  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-display);
+  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-display);
+  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-display);
 
   --title1-letterspacing: var(--letterSpacing-tight);
   --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-title);

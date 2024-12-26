@@ -26,7 +26,7 @@
 }
 
 .nav-container {
-  background: var(--globalnav-wrapper-background);
+  /* background: var(--globalnav-wrapper-background); */
   height: var(--globalnav-wrapper-height);
   z-index: 999;
   position: fixed;
