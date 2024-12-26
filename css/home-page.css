@@ -67,9 +67,9 @@ main {
   width: 100%;
   border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
   height: 600px;
-  animation: heroHeight 1500ms;
+  animation: heroHeight 1250ms;
   animation-timing-function: var(--bounce-effect);
-  animation-delay: 250ms;
+  animation-delay: 500ms;
 }
 
 @keyframes heroHeight {
