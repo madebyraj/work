@@ -79,7 +79,7 @@
 
   --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
 
-  --hero-section-background: linear-gradient(180deg, var(--violet-light-900) 0%, var(--violet-light-700) 50%, var(--violet-light-500) 100%);
+  --hero-section-background: linear-gradient(180deg, var(--violet-light-900) 0%, var(--violet-light-700) 50%, var(--blue-light-500) 100%);
 
   --separator: #e6e6e6;
 
@@ -182,7 +182,7 @@
 
     --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
 
-    --hero-section-background: linear-gradient(180deg, var(--violet-dark-900) 0%, var(--violet-dark-700) 50%, var(--violet-dark-500) 100%);
+    --hero-section-background: linear-gradient(180deg, var(--violet-dark-900) 0%, var(--violet-dark-700) 50%, var(--blue-dark-500) 100%);
 
     --separator: #444;
 

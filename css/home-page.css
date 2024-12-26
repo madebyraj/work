@@ -57,6 +57,8 @@ main {
 .hero-section-double-wrapper {
   width: 100%;
   height: 600px;
+  overflow: visible;
+  border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
 }
 
 .hero-section-wrapper {
@@ -73,16 +75,20 @@ main {
   width: 100%;
   border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
   height: 600px;
-  animation: heroHeight 1500ms;
-  animation-timing-function: var(--bounce-effect);
+  animation: heroHeight 1250ms;
+  animation-timing-function: ease-out;
 }
 
 @keyframes heroHeight {
-  from {
+  0% {
     height: 0px;
   }
 
-  to {
+  25% {
+    height: 200px;
+  }
+
+  100% {
     height: 600px;
   }
 }
@@ -102,7 +108,7 @@ main {
   inset: 0px;
   background-repeat: repeat;
   background-position: left top;
-  background-size: 64px;
+  background-size: 56px;
   background-image: url(/assets/global/hero-section-bg-tile.png);
   border: 0px;
 }
@@ -170,6 +176,8 @@ main {
   animation: dotAnimation 2000ms linear infinite;
 }
 
+
+
 @keyframes dotAnimation {
   from {
     opacity: 0.125;
@@ -184,10 +192,25 @@ main {
 
 .hero-headline {
   text-align: center;
+  vertical-align: middle;
   font: var(--display-xl);
   letter-spacing: var(--display-letterspacing);
   color: var(--white-1000);
-  max-width: 800px;
+  max-width: 880px;
+}
+
+.mac-sticker {
+  height: 81px;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: var(--depth-baseline);
+}
+
+.figma-logo-sticker {
+  height: 81px;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: var(--depth-baseline);
 }
 
 /* Project Section */
@@ -263,8 +286,8 @@ main {
 }
 
 .project-title {
-  font: var(--title3-xl-emphasized);
-  letter-spacing: var(--title3-letterspacing);
+  font: var(--title4-xl-emphasized);
+  letter-spacing: var(--title4-letterspacing);
   color: var(--text);
   text-overflow: ellipsis;
 }
@@ -397,6 +420,14 @@ main {
     font: var(--display-m);
   }
 
+  .mac-sticker {
+    height: 72px;
+  }
+
+  .figma-logo-sticker {
+    height: 72px;
+  }
+
   /* Project Section */
 
   #project-section {
@@ -419,7 +450,7 @@ main {
   }
 
   .project-title {
-    font: var(--title3-m-emphasized);
+    font: var(--title4-m-emphasized);
   }
 
   .project-badge {
@@ -483,6 +514,14 @@ main {
     max-width: 512px;
   }
 
+  .mac-sticker {
+    height: 57px;
+  }
+
+  .figma-logo-sticker {
+    height: 57px;
+  }
+
   /* Project Section */
 
   #project-section {
@@ -505,7 +544,7 @@ main {
   }
 
   .project-title {
-    font: var(--title3-xxxs-emphasized);
+    font: var(--title4-xxxs-emphasized);
   }
 
   .project-badge {
