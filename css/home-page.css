@@ -191,12 +191,21 @@ main {
 }
 
 .hero-headline {
+  width: 100%;
+  max-width: 880px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 16px;
+  flex-wrap: wrap;
+}
+
+.hero-headline-copy {
   text-align: center;
-  vertical-align: middle;
   font: var(--display-xl);
   letter-spacing: var(--display-letterspacing);
   color: var(--white-1000);
-  max-width: 880px;
 }
 
 .mac-sticker {
@@ -207,6 +216,13 @@ main {
 }
 
 .figma-logo-sticker {
+  height: 81px;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: var(--depth-baseline);
+}
+
+.heart-sticker {
   height: 81px;
   object-fit: contain;
   object-position: center;
@@ -417,6 +433,10 @@ main {
   }
 
   .hero-headline {
+    max-width: 840px;
+  }
+
+  .hero-headline-copy {
     font: var(--display-m);
   }
 
@@ -425,6 +445,10 @@ main {
   }
 
   .figma-logo-sticker {
+    height: 72px;
+  }
+
+  .heart-sticker {
     height: 72px;
   }
 
@@ -510,8 +534,11 @@ main {
   }
 
   .hero-headline {
-    font: var(--display-xxxs);
     max-width: 512px;
+  }
+
+  .hero-headline-copy {
+    font: var(--display-xxxs);
   }
 
   .mac-sticker {
@@ -519,6 +546,10 @@ main {
   }
 
   .figma-logo-sticker {
+    height: 57px;
+  }
+
+  .heart-sticker {
     height: 57px;
   }
 
