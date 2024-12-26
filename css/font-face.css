@@ -3,6 +3,14 @@
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Gilroy-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: local("☺"), url("/assets/Fonts/Gilroy-Bold.woff") format("woff");

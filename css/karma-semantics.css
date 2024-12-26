@@ -58,14 +58,12 @@
   --globalnav-height: 64px;
   --globalnav-max-width: 1448px;
 
-  --globalnav-wrapper-background: linear-gradient(
-    180deg,
-    #fff 0%,
-    rgba(255, 255, 255, 0.75) 25%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 255, 255, 0.25) 75%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  --globalnav-wrapper-background: linear-gradient(180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0.75) 25%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0.25) 75%,
+      rgba(255, 255, 255, 0) 100%);
 
   --globalnav-background: var(--white-1000);
   --globalnav-background-opened: var(--white-1000);
@@ -79,7 +77,10 @@
 
   --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
 
-  --hero-section-background: linear-gradient(180deg, var(--violet-light-900) 0%, var(--violet-light-700) 50%, var(--blue-light-500) 100%);
+  --hero-section-background: linear-gradient(180deg, #230C70 0%, #4B1CAA 33%, #6B2AC2 100%);
+  --hero-section-color: #A66CF4;
+  --hero-section-badge-background: linear-gradient(45deg, #6F55CB 0%, #6F55CB 25%, #8C6CF4 50%, #6F55CB 75%, #6F55CB 100%);
+  --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset, 0.5px 0.5px 0px 0px var(--white-400);
 
   --separator: #e6e6e6;
 
@@ -161,17 +162,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --globalnav-wrapper-background: linear-gradient(
-      180deg,
-      #1e1e1e 0%,
-      rgba(30, 30, 30, 0.75) 25%,
-      rgba(30, 30, 30, 0.5) 50%,
-      rgba(30, 30, 30, 0.25) 75%,
-      rgba(30, 30, 30, 0) 100%
-    );
+    --globalnav-wrapper-background: linear-gradient(180deg,
+        #1e1e1e 0%,
+        rgba(30, 30, 30, 0.75) 25%,
+        rgba(30, 30, 30, 0.5) 50%,
+        rgba(30, 30, 30, 0.25) 75%,
+        rgba(30, 30, 30, 0) 100%);
 
-    --globalnav-background: var(--black-1000);
-    --globalnav-background-opened: var(--black-1000);
+    --globalnav-background: var(--gray-1000);
+    --globalnav-background-opened: var(--gray-1000);
 
     --globalnav-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16),
       1px 1px 0px 0px #444 inset, 1px 1px 0px 0px #2c2c2c;
@@ -180,9 +179,10 @@
 
     --body-background: var(--gray-900);
 
-    --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
-
-    --hero-section-background: linear-gradient(180deg, var(--violet-dark-900) 0%, var(--violet-dark-700) 50%, var(--blue-dark-500) 100%);
+    --hero-section-background: linear-gradient(180deg, #230C70 0%, #4B1CAA 33%, #6B2AC2 100%);
+    --hero-section-color: #A66CF4;
+    --hero-section-badge-background: linear-gradient(45deg, #6F55CB 0%, #6F55CB 25%, #8C6CF4 50%, #6F55CB 75%, #6F55CB 100%);
+    --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset, 0.5px 0.5px 0px 0px var(--white-400);
 
     --separator: #444;
 

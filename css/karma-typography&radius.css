@@ -45,7 +45,7 @@
   --font-ui: Gilroy, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: Gilroy, var(--font-ui), system-ui, sans-serif;
   --font-content: Gilroy, var(--font-title), ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-display: Proxima Nova, var(--font-ui), system-ui, sans-serif;
+  --font-display: Gilroy, var(--font-ui), system-ui, sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -68,9 +68,10 @@
   --fontSize-91: 91px;
   --fontSize-103: 103px;
 
-  --fontWeight-regular: 500;
+  --fontWeight-regular: 400;
   --fontWeight-medium: 600;
   --fontWeight-bold: 700;
+  --fontWeight-extrabold: 800;
 
   --letterSpacing-tighter: -0.025em;
   --letterSpacing-tight: -0.0125em;
@@ -78,15 +79,15 @@
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;
 
-  --letterSpacing-display: -0.05em;
+  --letterSpacing-display: -0.025em;
   --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.25em;
 
   --display-letterspacing: var(--letterSpacing-display);
-  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
-  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-display);
-  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-display);
-  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-display);
+  --display-xxl: var(--fontWeight-extrabold) var(--fontSize-91) / 95% var(--font-display);
+  --display-xl: var(--fontWeight-extrabold) var(--fontSize-81) / 95% var(--font-display);
+  --display-m: var(--fontWeight-extrabold) var(--fontSize-72) / 100% var(--font-display);
+  --display-xxxs: var(--fontWeight-extrabold) var(--fontSize-57) / 100% var(--font-display);
 
   --title1-letterspacing: var(--letterSpacing-tight);
   --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-title);

@@ -75,8 +75,8 @@ main {
   width: 100%;
   border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
   height: 600px;
-  animation: heroHeight 1250ms;
-  animation-timing-function: ease-out;
+  animation: heroHeight 1500ms;
+  animation-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
 @keyframes heroHeight {
@@ -93,7 +93,7 @@ main {
   }
 }
 
-.hero-section-background {
+/* .hero-section-background {
   flex: none;
   inset: 0;
   opacity: 0.4;
@@ -111,7 +111,7 @@ main {
   background-size: 56px;
   background-image: url(/assets/global/hero-section-bg-tile.png);
   border: 0px;
-}
+} */
 
 .hero-section {
   margin: 0 auto;
@@ -128,65 +128,29 @@ main {
 
 .currently {
   text-align: center;
-  background: var(--success-background);
+  background: var(--hero-section-badge-background);
   padding: 10px 12px;
   border-radius: var(--border-radius-12);
+  font: var(--badge-xl);
+  letter-spacing: var(--badge-letterspacing);
+  color: var(--white-800);
   width: max-content;
-  border: 1px solid var(--success-border);
+  box-shadow: var(--hero-section-badge-shadow);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+  background-size: 300% 100%;
+  animation: shimmer 5s linear infinite;
 }
 
-.currently-copy {
-  font: var(--badge-xl);
-  letter-spacing: var(--badge-letterspacing);
-  color: var(--success-color);
-}
-
-.dot-wrapper {
-  width: 16px;
-  height: 16px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.static-dot {
-  width: 8px;
-  height: 8px;
-  background: var(--success-color);
-  border-radius: var(--border-radius-full);
-  z-index: 1;
-}
-
-.animated-dot {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 16px;
-  width: 16px;
-  background: var(--success-color);
-  border-radius: var(--border-radius-full);
-  opacity: 0.25;
-  animation: dotAnimation 2000ms linear infinite;
-}
-
-
-
-@keyframes dotAnimation {
+@keyframes shimmer {
   from {
-    opacity: 0.125;
-    transform: scale(0.5);
+    background-position: 300% 0;
   }
 
   to {
-    opacity: 0.25;
-    transform: scale(1.25);
+    background-position: calc(300% * -1) 0;
   }
 }
 
@@ -205,28 +169,25 @@ main {
   text-align: center;
   font: var(--display-xl);
   letter-spacing: var(--display-letterspacing);
-  color: var(--white-1000);
+  color: var(--hero-section-color);
 }
 
 .mac-sticker {
   height: 81px;
   object-fit: contain;
   object-position: center;
-  box-shadow: var(--depth-baseline);
 }
 
 .figma-logo-sticker {
   height: 81px;
   object-fit: contain;
   object-position: center;
-  box-shadow: var(--depth-baseline);
 }
 
 .heart-sticker {
   height: 81px;
   object-fit: contain;
   object-position: center;
-  box-shadow: var(--depth-baseline);
 }
 
 /* Project Section */
