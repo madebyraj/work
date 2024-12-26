@@ -67,6 +67,19 @@ main {
   width: 100%;
   border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
   height: 600px;
+  animation: heroHeight 1500ms;
+  animation-timing-function: var(--bounce-effect);
+  animation-delay: 250ms;
+}
+
+@keyframes heroHeight {
+  from {
+    height: 0px;
+  }
+
+  to {
+    height: 600px;
+  }
 }
 
 .hero-section-background {
