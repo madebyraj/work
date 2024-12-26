@@ -69,7 +69,6 @@ main {
   height: 600px;
   animation: heroHeight 1250ms;
   animation-timing-function: var(--bounce-effect);
-  animation-delay: 500ms;
 }
 
 @keyframes heroHeight {
