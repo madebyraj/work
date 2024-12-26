@@ -45,7 +45,8 @@ body {
   padding-top: var(--globalnav-wrapper-height);
   background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
-  animation: pageLoading 950ms;
+  animation: pageLoading 1000ms;
+  animation-timing-function: var(--bounce-effect);
   position: relative;
 }
 

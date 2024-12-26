@@ -42,7 +42,8 @@ html {
 body {
   background-color: var(--body-background);
   cursor: var(--cursor-default), auto;
-  animation: pageLoading 950ms;
+  animation: pageLoading 1000ms;
+  animation-timing-function: var(--bounce-effect);
   position: relative;
 }
 
@@ -51,6 +52,11 @@ main {
   padding: 0 80px;
   margin: auto;
   min-height: 100vh;
+}
+
+.hero-section-double-wrapper {
+  width: 100%;
+  height: 600px;
 }
 
 .hero-section-wrapper {
@@ -67,7 +73,7 @@ main {
   width: 100%;
   border-radius: 0 0 var(--border-radius-32) var(--border-radius-32);
   height: 600px;
-  animation: heroHeight 1250ms;
+  animation: heroHeight 1500ms;
   animation-timing-function: var(--bounce-effect);
 }
 
