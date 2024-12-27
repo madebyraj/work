@@ -82,7 +82,7 @@
   --hero-section-badge-background: linear-gradient(45deg, #6F55CB 0%, #6F55CB 25%, #8C6CF4 50%, #6F55CB 75%, #6F55CB 100%);
   --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset, 0.5px 0.5px 0px 0px var(--white-400);
 
-  --separator: #e6e6e6;
+  --separator: var(--gray-200);
 
   --separator-muted: rgba(0, 0, 0, 0.04);
 
@@ -184,7 +184,7 @@
     --hero-section-badge-background: linear-gradient(45deg, #6F55CB 0%, #6F55CB 25%, #8C6CF4 50%, #6F55CB 75%, #6F55CB 100%);
     --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset, 0.5px 0.5px 0px 0px var(--white-400);
 
-    --separator: #444;
+    --separator: var(--gray-600);
 
     --separator-muted: rgba(255, 255, 255, 0.06);
 
