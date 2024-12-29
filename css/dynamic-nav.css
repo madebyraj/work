@@ -333,7 +333,11 @@
   }
 
   .nav-container.active .main-nav {
-    height: calc(100vh - 40px);
+    border-radius: var(--border-radius-none);
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
     animation: globalNavbaropen;
     transition: 300ms cubic-bezier(0.4, 0, 0.6, 1) 10ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
@@ -388,7 +392,7 @@
     gap: 4px;
     width: 100%;
     padding: 8px 40px 0;
-    height: calc(100vh - 40px);
+    height: 100vh;
   }
 
   .nav-cta-wrapper {
@@ -409,7 +413,7 @@
     }
 
     100% {
-      height: calc(100vh - 40px);
+      height: 100vh;
     }
   }
 
