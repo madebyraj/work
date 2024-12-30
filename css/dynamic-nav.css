@@ -333,6 +333,7 @@
   }
 
   .nav-container.active .main-nav {
+    box-shadow: none;
     border-radius: var(--border-radius-none);
     top: 0;
     right: 0;
