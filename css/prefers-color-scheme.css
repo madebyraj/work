@@ -55,57 +55,57 @@
   --text-secondary: var(--gray-600);
   --text-tertiary: var(--gray-500);
 
-  --button-background: var(--green-500);
-  --button-border: var(--green-600);
-  --button-shadow: 0px 4px 0px 0px var(--green-800),
+  --button-background: var(--green-light-500);
+  --button-border: var(--green-light-600);
+  --button-shadow: 0px 4px 0px 0px var(--green-light-800),
     2px 2px 5px 0px var(--black-200) inset;
-  --button-shadow-hover: 0px 6px 0px 0px var(--green-800),
+  --button-shadow-hover: 0px 6px 0px 0px var(--green-light-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-shadow-active: none;
-  --button-shadow-disabled: 0px 2px 0px 0px var(--green-800),
+  --button-shadow-disabled: 0px 2px 0px 0px var(--green-light-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-color: var(--white-1000);
 
-  --button-brand-background: var(--brand-500);
-  --button-brand-border: var(--brand-600);
-  --button-brand-shadow: 0px 4px 0px 0px var(--brand-800),
+  --button-brand-background: var(--brand-light-500);
+  --button-brand-border: var(--brand-light-600);
+  --button-brand-shadow: 0px 4px 0px 0px var(--brand-light-800),
     2px 2px 5px 0px var(--black-200) inset;
-  --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-800),
+  --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-light-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-brand-shadow-active: none;
-  --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-800),
+  --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-light-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-brand-color: var(--white-1000);
 
-  --button-secondary-background: var(--gray-100);
-  --button-secondary-border: var(--gray-200);
-  --button-secondary-shadow: 0px 4px 0px 0px var(--gray-400),
+  --button-secondary-background: var(--pale-blue-100);
+  --button-secondary-border: var(--pale-blue-200);
+  --button-secondary-shadow: 0px 4px 0px 0px var(--pale-blue-400),
     2px 2px 5px 0px var(--black-200) inset;
-  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-400),
+  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--pale-blue-400),
     2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-shadow-active: none;
-  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--gray-400),
+  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--pale-blue-400),
     2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-color: var(--black-1000);
 
   --button-tertiary-background: rgba(0, 0, 0, 0);
-  --button-tertiary-background-hover: var(--blue-100);
-  --button-tertiary-background-active: var(--blue-200);
+  --button-tertiary-background-hover: var(--blue-light-100);
+  --button-tertiary-background-active: var(--blue-light-200);
   --button-tertiary-background-disabled: rgba(0, 0, 0, 0);
   --button-tertiary-color: var(--black-1000);
-  --button-tertiary-color-hover: var(--blue-600);
-  --button-tertiary-color-active: var(--blue-700);
+  --button-tertiary-color-hover: var(--blue-light-600);
+  --button-tertiary-color-active: var(--blue-light-700);
   --button-tertiary-color-disabled: var(--black-1000);
   --button-tertiary-outline: 0px solid transparent;
-  --button-tertiary-outline-hover: 4px solid var(--blue-500);
-  --button-tertiary-outline-active: 4px solid var(--blue-600);
+  --button-tertiary-outline-hover: 4px solid var(--blue-light-500);
+  --button-tertiary-outline-active: 4px solid var(--blue-light-600);
 
   --tile-background: var(--fill);
   --tile-outline: 0px solid transparent;
-  --tile-outline-hover: 4px solid var(--blue-500);
-  --tile-outline-active: 4px solid var(--blue-600);
+  --tile-outline-hover: 4px solid var(--blue-light-500);
+  --tile-outline-active: 4px solid var(--blue-light-600);
 
-  --link-color: var(--blue-700);
+  --link-color: var(--blue-light-700);
 }
 
 /* ----------------------- */
@@ -129,8 +129,6 @@
   --globalfooter-background: var(--fill);
 
   --body-background: var(--gray-900);
-
-  --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
 
   --hero-section-background: linear-gradient(
     180deg,
@@ -162,54 +160,54 @@
   --text-secondary: var(--gray-300);
   --text-tertiary: var(--gray-500);
 
-  --button-background: var(--green-500);
-  --button-border: var(--green-600);
-  --button-shadow: 0px 4px 0px 0px var(--green-800),
+  --button-background: var(--green-dark-500);
+  --button-border: var(--green-dark-600);
+  --button-shadow: 0px 4px 0px 0px var(--green-dark-800),
     2px 2px 5px 0px var(--black-200) inset;
-  --button-shadow-hover: 0px 6px 0px 0px var(--green-800),
+  --button-shadow-hover: 0px 6px 0px 0px var(--green-dark-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-shadow-active: none;
-  --button-shadow-disabled: 0px 2px 0px 0px var(--green-800),
+  --button-shadow-disabled: 0px 2px 0px 0px var(--green-dark-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-color: var(--white-1000);
 
-  --button-brand-background: var(--brand-500);
-  --button-brand-border: var(--brand-600);
-  --button-brand-shadow: 0px 4px 0px 0px var(--brand-800),
+  --button-brand-background: var(--brand-dark-500);
+  --button-brand-border: var(--brand-dark-600);
+  --button-brand-shadow: 0px 4px 0px 0px var(--brand-dark-800),
     2px 2px 5px 0px var(--black-200) inset;
-  --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-800),
+  --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-dark-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-brand-shadow-active: none;
-  --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-800),
+  --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-dark-800),
     2px 2px 5px 0px var(--black-200) inset;
   --button-brand-color: var(--white-1000);
 
-  --button-secondary-background: var(--gray-800);
-  --button-secondary-border: var(--gray-700);
-  --button-secondary-shadow: 0px 4px 0px 0px var(--gray-600),
+  --button-secondary-background: var(--pale-blue-900);
+  --button-secondary-border: var(--pale-blue-800);
+  --button-secondary-shadow: 0px 4px 0px 0px var(--pale-blue-700),
     2px 2px 5px 0px var(--black-200) inset;
-  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--gray-600),
+  --button-secondary-shadow-hover: 0px 6px 0px 0px var(--pale-blue-700),
     2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-shadow-active: none;
-  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--gray-600),
+  --button-secondary-shadow-disabled: 0px 2px 0px 0px var(--pale-blue-700),
     2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-color: var(--white-1000);
 
   --button-tertiary-background: rgba(0, 0, 0, 0);
-  --button-tertiary-background-hover: var(--blue-900);
-  --button-tertiary-background-active: var(--blue-1000);
+  --button-tertiary-background-hover: var(--blue-dark-900);
+  --button-tertiary-background-active: var(--blue-dark-1000);
   --button-tertiary-color: var(--white-1000);
-  --button-tertiary-color-hover: var(--blue-300);
-  --button-tertiary-color-active: var(--blue-200);
+  --button-tertiary-color-hover: var(--blue-dark-300);
+  --button-tertiary-color-active: var(--blue-dark-200);
   --button-tertiary-color-disabled: var(--white-1000);
   --button-tertiary-outline: 0px solid transparent;
-  --button-tertiary-outline-hover: 4px solid var(--blue-600);
-  --button-tertiary-outline-active: 4px solid var(--blue-500);
+  --button-tertiary-outline-hover: 4px solid var(--blue-dark-600);
+  --button-tertiary-outline-active: 4px solid var(--blue-dark-500);
 
   --tile-background: var(--fill);
   --tile-outline: 0px solid transparent;
-  --tile-outline-hover: 4px solid var(--blue-600);
-  --tile-outline-active: 4px solid var(--blue-500);
+  --tile-outline-hover: 4px solid var(--blue-dark-600);
+  --tile-outline-active: 4px solid var(--blue-dark-500);
 
-  --link-color: var(--blue-500);
+  --link-color: var(--blue-dark-500);
 }
