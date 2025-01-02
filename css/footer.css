@@ -47,73 +47,66 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: var(--bounce-effect);
-  box-shadow: var(--button-secondary-shadow);
+  outline-offset: 0.75rem;
+  outline: var(--button-outline);
+  transition: var(--button-transition);
 }
 
 .footer-link:hover {
   cursor: var(--cursor-pointer), auto;
-  transform: var(--button-transform-hover);
+  outline-offset: 0;
 }
 
 .footer-link:active {
-  transform: var(--button-transform-active);
+  transform: var(--button-scale-active);
 }
 
 #instagram-link {
   background: #0095f6;
-  border: 1px solid #0074cc;
-  box-shadow: 0px 4px 0px 0px #0057a3, 2px 2px 5px 0px var(--black-200) inset;
 }
 
 #instagram-link:hover {
-  box-shadow: 0px 6px 0px 0px #0057a3, 2px 2px 5px 0px var(--black-200) inset;
+  outline: 4px solid rgba(0, 149, 246, 0.5);
 }
 
 #instagram-link:active {
-  box-shadow: none;
+  outline: 4px solid rgba(0, 149, 246, 0.5);
 }
 
 #twitter-link {
   background: #1da1f2;
-  border: 1px solid #1a94da;
-  box-shadow: 0px 4px 0px 0px #136b9e, 2px 2px 5px 0px var(--black-200) inset;
 }
 
 #twitter-link:hover {
-  box-shadow: 0px 6px 0px 0px #136b9e, 2px 2px 5px 0px var(--black-200) inset;
+  outline: 4px solid rgba(29, 161, 242, 0.5);
 }
 
 #twitter-link:active {
-  box-shadow: none;
+  outline: 4px solid rgba(29, 161, 242, 0.5);
 }
 
 #linkedin-link {
   background: #0088cc;
-  border: 1px solid #007ab8;
-  box-shadow: 0px 4px 0px 0px #005885, 2px 2px 5px 0px var(--black-200) inset;
 }
 
 #linkedin-link:hover {
-  box-shadow: 0px 6px 0px 0px #005885, 2px 2px 5px 0px var(--black-200) inset;
+  outline: 4px solid rgba(0, 136, 204, 0.5);
 }
 
 #linkedin-link:active {
-  box-shadow: none;
+  outline: 4px solid rgba(0, 136, 204, 0.5);
 }
 
 #mail-link {
   background: #ea4335;
-  border: 1px solid #d93025;
-  box-shadow: 0px 4px 0px 0px #863123, 2px 2px 5px 0px var(--black-200) inset;
 }
 
 #mail-link:hover {
-  box-shadow: 0px 6px 0px 0px #863123, 2px 2px 5px 0px var(--black-200) inset;
+  outline: 4px solid rgba(234, 67, 53, 0.5);
 }
 
 #mail-link:active {
-  box-shadow: none;
+  outline: 4px solid rgba(234, 67, 53, 0.5);
 }
 
 .link-svg {
@@ -130,8 +123,7 @@
 
 /* Small Desktop */
 
-@media (max-width: 1400px) {
-}
+@media (max-width: 1400px) {}
 
 /* Tablet */
 

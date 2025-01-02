@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  background-color: var(--body-background);
+  background-color: var(--background-primary);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
@@ -230,7 +230,7 @@ main {
 .project-section-headline {
   font: var(--eyebrow-xl);
   letter-spacing: var(--eyebrow-letterspacing);
-  color: var(--text-tertiary);
+  color: var(--text-medium-emphasis);
 }
 
 #project-container {
@@ -278,8 +278,8 @@ main {
   padding: 4px 6px;
   font: var(--badge-xl);
   letter-spacing: var(--badge-letterspacing);
-  background-color: var(--fill-tertiary);
-  color: var(--text-tertiary);
+  background-color: var(--background-tertiary);
+  color: var(--text-low-emphasis);
   border-radius: var(--border-radius-8);
   border: 1px solid var(--separator);
 }
@@ -287,14 +287,14 @@ main {
 .project-title {
   font: var(--title4-xl-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   text-overflow: ellipsis;
 }
 
 .project-description {
   font: var(--body2-xl);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-high-emphasis);
   text-overflow: ellipsis;
 }
 
@@ -326,7 +326,7 @@ main {
 .writing-section-headline {
   font: var(--eyebrow-xl);
   letter-spacing: var(--eyebrow-letterspacing);
-  color: var(--text-tertiary);
+  color: var(--text-medium-emphasis);
 }
 
 #writing-container {
@@ -373,14 +373,14 @@ main {
 .article-title {
   font: var(--title4-xl-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   text-overflow: ellipsis;
 }
 
 .article-description {
   font: var(--body3-xl);
   letter-spacing: var(--body3-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-medium-emphasis);
   text-overflow: ellipsis;
 }
 

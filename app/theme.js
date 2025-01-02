@@ -1,6 +1,4 @@
-const themeToggle = document.querySelector(".theme-toggle");
-const sunIcon = document.querySelector(".sun-icon");
-const moonIcon = document.querySelector(".moon-icon");
+const themeSwitch = document.querySelector(".theme-switch");
 const STORAGE_KEY = "theme-preference";
 
 // Function to set theme and update localStorage
@@ -8,19 +6,14 @@ function setTheme(isDark) {
   const theme = isDark ? "dark" : "light";
   document.documentElement.setAttribute("data-theme", theme);
   localStorage.setItem(STORAGE_KEY, theme);
-  sunIcon.style.display = isDark ? "none" : "block";
-  moonIcon.style.display = isDark ? "block" : "none";
 }
 
 // Function to get initial theme
 function getInitialTheme() {
-  // Check localStorage first
   const savedTheme = localStorage.getItem(STORAGE_KEY);
   if (savedTheme) {
     return savedTheme === "dark";
   }
-
-  // Fall back to system preference if no saved theme
   return window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
 
@@ -28,7 +21,7 @@ function getInitialTheme() {
 setTheme(getInitialTheme());
 
 // Toggle theme on button click
-themeToggle.addEventListener("click", () => {
+themeSwitch.addEventListener("click", () => {
   const currentTheme = document.documentElement.getAttribute("data-theme");
   setTheme(currentTheme === "light");
 });
@@ -37,7 +30,6 @@ themeToggle.addEventListener("click", () => {
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", (e) => {
-    // Only update theme if there's no saved preference
     if (!localStorage.getItem(STORAGE_KEY)) {
       setTheme(e.matches);
     }

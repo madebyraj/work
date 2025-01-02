@@ -15,7 +15,6 @@
   /* --Depth-- */
 
   --tile-shadow: 0px 2px 12px rgba(0 0 0/0.08);
-
   --depth-baseline: 0 0 4px 0 rgba(0, 0, 0, 0.08);
   --depth-raised: 0 2px 4px 0 rgba(0, 0, 0, 0.12),
     0 2px 12px 0 rgba(0, 0, 0, 0.08);
@@ -26,7 +25,7 @@
 
   /* Transitions */
 
-  --bounce-effect: 0.15s cubic-bezier(0, 0, 0.6, 1);
+  --bounce-effect: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   --outline-hover-effect: opacity 0.3s ease-out, outline-color 0.15s ease-out,
     outline-offset 0.15s ease-out, outline-width 0.15s ease-out,
     transform 0.15s ease-out;
@@ -42,53 +41,48 @@
 
   /* Semantics/Component Specific */
 
-  --globalnav-wrapper-height: 104px;
+  --globalnav-wrapper-height: 100px;
 
-  --globalnav-height: 64px;
+  --globalnav-height: 60px;
   --globalnav-max-width: 1448px;
-
-  --globalnav-wrapper-background: linear-gradient(
-    180deg,
-    #fff 0%,
-    rgba(255, 255, 255, 0.75) 25%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 255, 255, 0.25) 75%,
-    rgba(255, 255, 255, 0) 100%
-  );
 
   --globalnav-background: var(--white-1000);
   --globalnav-background-opened: var(--white-1000);
 
-  --globalnav-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08),
-    1px 1px 0px 0px #e6e6e6 inset, 1px 1px 0px 0px #f5f5f5;
+  --globalnav-shadow: 0px 2px 4px 0px var(--slate-alpha-15),
+    1px 1px 0px 0px inset, 1px 1px 0px 0px #f5f5f5;
 
-  --globalfooter-background: var(--fill-secondary);
+  --globalfooter-background: var(--slate-5);
 
   --body-background: var(--white-1000);
 
   --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
 
-  --hero-section-background: linear-gradient(
-    180deg,
-    #230c70 0%,
-    #4b1caa 33%,
-    #6b2ac2 100%
-  );
+  --hero-section-background: linear-gradient(180deg,
+      #230c70 0%,
+      #4b1caa 33%,
+      #6b2ac2 100%);
   --hero-section-color: #a66cf4;
-  --hero-section-badge-background: linear-gradient(
-    45deg,
-    #6f55cb 0%,
-    #6f55cb 25%,
-    #8c6cf4 50%,
-    #6f55cb 75%,
-    #6f55cb 100%
-  );
+  --hero-section-badge-background: linear-gradient(45deg,
+      #6f55cb 0%,
+      #6f55cb 25%,
+      #8c6cf4 50%,
+      #6f55cb 75%,
+      #6f55cb 100%);
   --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset,
     0.5px 0.5px 0px 0px var(--white-400);
 
-  --separator: var(--gray-200);
+  --separator: var(--slate-15);
+  --separator-muted: var(--slate-5);
 
-  --separator-muted: rgba(0, 0, 0, 0.04);
+  --background-primary: var(--slate-0);
+  --background-secondary: var(--slate-5);
+  --background-tertiary: var(--slate-15);
+
+  --text-highest-emphasis: var(--slate-alpha-92);
+  --text-high-emphasis: var(--slate-alpha-75);
+  --text-medium-emphasis: var(--slate-alpha-60);
+  --text-low-emphasis: var(--slate-alpha-45);
 
   --fill: var(--white-1000);
   --fill-secondary: var(--gray-100);
@@ -103,27 +97,15 @@
   --button-transform-active: translate(0, 0.25rem);
   --button-transform-disabled: translate(0, 0.125rem);
 
-  --button-background: var(--green-light-500);
-  --button-border: var(--green-light-600);
-  --button-shadow: 0px 4px 0px 0px var(--green-light-800),
-    2px 2px 5px 0px var(--black-200) inset;
-  --button-shadow-hover: 0px 6px 0px 0px var(--green-light-800),
-    2px 2px 5px 0px var(--black-200) inset;
-  --button-shadow-active: none;
-  --button-shadow-disabled: 0px 2px 0px 0px var(--green-light-800),
-    2px 2px 5px 0px var(--black-200) inset;
-  --button-color: var(--white-1000);
-
-  --button-brand-background: var(--brand-light-500);
-  --button-brand-border: var(--brand-light-600);
-  --button-brand-shadow: 0px 4px 0px 0px var(--brand-light-800),
-    2px 2px 5px 0px var(--black-200) inset;
-  --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-light-800),
-    2px 2px 5px 0px var(--black-200) inset;
-  --button-brand-shadow-active: none;
-  --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-light-800),
-    2px 2px 5px 0px var(--black-200) inset;
-  --button-brand-color: var(--white-1000);
+  --button-background: var(--green-1);
+  --button-outline: 0px solid var(--slate-alpha-0);
+  --button-outline-hover: 4px solid rgba(29, 165, 116, 0.5);
+  --button-outline-active: 4px solid rgba(29, 165, 116, 0.5);
+  --button-outline-disabled: none;
+  --button-scale-active: scale(0.95, 0.95);
+  --button-color: var(--chalk-alpha-92);
+  --button-disabled: 0.5;
+  --button-transition: var(--outline-hover-effect);
 
   --button-secondary-background: var(--pale-blue-100);
   --button-secondary-border: var(--pale-blue-200);
@@ -136,72 +118,79 @@
     2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-color: var(--black-1000);
 
-  --button-tertiary-background: rgba(0, 0, 0, 0);
-  --button-tertiary-background-hover: var(--blue-light-100);
-  --button-tertiary-background-active: var(--blue-light-200);
-  --button-tertiary-background-disabled: rgba(0, 0, 0, 0);
-  --button-tertiary-color: var(--black-1000);
-  --button-tertiary-color-hover: var(--blue-light-600);
-  --button-tertiary-color-active: var(--blue-light-700);
-  --button-tertiary-color-disabled: var(--black-1000);
-  --button-tertiary-outline: 0px solid transparent;
-  --button-tertiary-outline-hover: 4px solid var(--blue-light-500);
-  --button-tertiary-outline-active: 4px solid var(--blue-light-600);
+  --button-tertiary-background: var(--slate-5);
+  --button-tertiary-outline: 0px solid var(--slate-alpha-0);
+  --button-tertiary-outline-hover: 4px solid var(--slate-15);
+  --button-tertiary-outline-active: 4px solid var(--slate-15);
   --button-tertiary-outline-disabled: none;
+  --button-tertiary-scale-active: scale(0.95, 0.95);
+  --button-tertiary-color: var(--slate-alpha-92);
   --button-tertiary-disabled: 0.5;
   --button-tertiary-transition: var(--outline-hover-effect);
 
-  --tile-background: var(--fill);
-  --tile-outline: 0px solid transparent;
-  --tile-outline-hover: 4px solid var(--blue-light-500);
-  --tile-outline-active: 4px solid var(--blue-light-600);
+  --tile-background: var(--background-primary);
+  --tile-outline: 0px solid var(--slate-alpha-0);
+  --tile-outline-hover: 4px solid var(--violet-1);
+  --tile-outline-active: 4px solid var(--violet-1);
   --tile-transition: var(--outline-hover-effect);
 
-  --link-color: var(--blue-light-700);
+  --switch-background: var(--slate-5);
+  --switch-handle-background: var(--slate-100);
+  --switch-handle-color: var(--chalk-alpha-92);
+  --switch-handle-shadow: var(--depth-baseline);
+  --switch-position: translateX(0);
+
+  --link-color: var(--orange-1);
+  --link-color-hover: var(--orange-1);
+  --link-color-active: var(--orange-1);
+  --link-border: 2px dashed var(--orange-1);
+  --link-disabled: 0.5;
+
+  --link-secondary-color: var(--slate-alpha-92);
+  --link-secondary-color-hover: var(--orange-1);
+  --link-secondary-color-active: var(--orange-1);
+  --link-secondary-border: 2px dashed var(--orange-1);
+  --link-secondary-disabled: 0.5;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --globalnav-wrapper-background: linear-gradient(
-      180deg,
-      #1e1e1e 0%,
-      rgba(30, 30, 30, 0.75) 25%,
-      rgba(30, 30, 30, 0.5) 50%,
-      rgba(30, 30, 30, 0.25) 75%,
-      rgba(30, 30, 30, 0) 100%
-    );
 
-    --globalnav-background: var(--gray-1000);
-    --globalnav-background-opened: var(--gray-1000);
+    --globalnav-background: var(--chalk-0);
+    --globalnav-background-opened: var(--chalk-0);
 
-    --globalnav-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16),
+    --globalnav-shadow: 0px 2px 4px 0px var(--slate-alpha-15),
       1px 1px 0px 0px #444 inset, 1px 1px 0px 0px #2c2c2c;
 
-    --globalfooter-background: var(--fill);
+    --globalfooter-background: var(--chalk-5);
 
     --body-background: var(--gray-900);
 
-    --hero-section-background: linear-gradient(
-      180deg,
-      #230c70 0%,
-      #4b1caa 33%,
-      #6b2ac2 100%
-    );
+    --hero-section-background: linear-gradient(180deg,
+        #230c70 0%,
+        #4b1caa 33%,
+        #6b2ac2 100%);
     --hero-section-color: #a66cf4;
-    --hero-section-badge-background: linear-gradient(
-      45deg,
-      #6f55cb 0%,
-      #6f55cb 25%,
-      #8c6cf4 50%,
-      #6f55cb 75%,
-      #6f55cb 100%
-    );
+    --hero-section-badge-background: linear-gradient(45deg,
+        #6f55cb 0%,
+        #6f55cb 25%,
+        #8c6cf4 50%,
+        #6f55cb 75%,
+        #6f55cb 100%);
     --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset,
       0.5px 0.5px 0px 0px var(--white-400);
 
-    --separator: var(--gray-600);
+    --separator: var(--chalk-15);
+    --separator-muted: var(--chalk-5);
 
-    --separator-muted: rgba(255, 255, 255, 0.06);
+    --background-primary: var(--chalk-0);
+    --background-secondary: var(--chalk-5);
+    --background-tertiary: var(--chalk-15);
+
+    --text-highest-emphasis: var(--chalk-alpha-92);
+    --text-high-emphasis: var(--chalk-alpha-75);
+    --text-medium-emphasis: var(--chalk-alpha-60);
+    --text-low-emphasis: var(--chalk-alpha-45);
 
     --fill: var(--gray-1000);
     --fill-secondary: var(--gray-900);
@@ -211,27 +200,12 @@
     --text-secondary: var(--gray-300);
     --text-tertiary: var(--gray-500);
 
-    --button-background: var(--green-dark-500);
-    --button-border: var(--green-dark-600);
-    --button-shadow: 0px 4px 0px 0px var(--green-dark-800),
-      2px 2px 5px 0px var(--black-200) inset;
-    --button-shadow-hover: 0px 6px 0px 0px var(--green-dark-800),
-      2px 2px 5px 0px var(--black-200) inset;
-    --button-shadow-active: none;
-    --button-shadow-disabled: 0px 2px 0px 0px var(--green-dark-800),
-      2px 2px 5px 0px var(--black-200) inset;
-    --button-color: var(--white-1000);
-
-    --button-brand-background: var(--brand-dark-500);
-    --button-brand-border: var(--brand-dark-600);
-    --button-brand-shadow: 0px 4px 0px 0px var(--brand-dark-800),
-      2px 2px 5px 0px var(--black-200) inset;
-    --button-brand-shadow-hover: 0px 6px 0px 0px var(--brand-dark-800),
-      2px 2px 5px 0px var(--black-200) inset;
-    --button-brand-shadow-active: none;
-    --button-brand-shadow-disabled: 0px 2px 0px 0px var(--brand-dark-800),
-      2px 2px 5px 0px var(--black-200) inset;
-    --button-brand-color: var(--white-1000);
+    --button-background: var(--green-1);
+    --button-outline: 0px solid var(--slate-alpha-0);
+    --button-outline-hover: 4px solid rgba(29, 165, 116, 0.5);
+    --button-outline-active: 4px solid rgba(29, 165, 116, 0.5);
+    --button-outline-disabled: none;
+    --button-color: var(--chalk-alpha-92);
 
     --button-secondary-background: var(--pale-blue-900);
     --button-secondary-border: var(--pale-blue-800);
@@ -244,22 +218,32 @@
       2px 2px 5px 0px var(--black-200) inset;
     --button-secondary-color: var(--white-1000);
 
-    --button-tertiary-background: rgba(0, 0, 0, 0);
-    --button-tertiary-background-hover: var(--blue-dark-900);
-    --button-tertiary-background-active: var(--blue-dark-1000);
-    --button-tertiary-color: var(--white-1000);
-    --button-tertiary-color-hover: var(--blue-dark-300);
-    --button-tertiary-color-active: var(--blue-dark-200);
-    --button-tertiary-color-disabled: var(--white-1000);
-    --button-tertiary-outline: 0px solid transparent;
-    --button-tertiary-outline-hover: 4px solid var(--blue-dark-600);
-    --button-tertiary-outline-active: 4px solid var(--blue-dark-500);
+    --button-tertiary-background: var(--chalk-5);
+    --button-tertiary-outline: 0px solid var(--chalk-alpha-0);
+    --button-tertiary-outline-hover: 4px solid var(--chalk-15);
+    --button-tertiary-outline-active: 4px solid var(--chalk-15);
+    --button-tertiary-outline-disabled: none;
+    --button-tertiary-color: var(--chalk-alpha-92);
 
-    --tile-background: var(--fill);
+    --tile-background: var(--background-primary);
     --tile-outline: 0px solid transparent;
-    --tile-outline-hover: 4px solid var(--blue-dark-600);
-    --tile-outline-active: 4px solid var(--blue-dark-500);
+    --tile-outline-hover: 4px solid var(--violet-1);
+    --tile-outline-active: 4px solid var(--violet-1);
 
-    --link-color: var(--blue-dark-500);
+    --switch-background: var(--violet-1);
+    --switch-handle-background: var(--slate-100);
+    --switch-handle-color: var(--chalk-alpha-92);
+    --switch-handle-shadow: var(--depth-baseline);
+    --switch-position: translateX(20px);
+
+    --link-color: var(--orange-1);
+    --link-color-hover: var(--orange-1);
+    --link-color-active: var(--orange-1);
+    --link-border: 2px dashed var(--orange-1);
+
+    --link-secondary-color: var(--chalk-alpha-92);
+    --link-secondary-color-hover: var(--orange-1);
+    --link-secondary-color-active: var(--orange-1);
+    --link-secondary-border: 2px dashed var(--orange-1);
   }
 }

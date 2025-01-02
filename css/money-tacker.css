@@ -379,7 +379,6 @@ main {
 }
 
 .full-research:active {
-  cursor: var(--cursor-pointer), auto;
   transform: var(--button-transform-active);
   box-shadow: var(--button-secondary-shadow-active);
 }

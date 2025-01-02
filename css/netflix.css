@@ -815,7 +815,7 @@ main {
 }
 
 .back-to-home:hover {
-  cursor: var(--cursor-pointer), auto;
+  cursor: var(--cursor-pointer), pointer, auto;
   transform: var(--button-transform-hover);
   box-shadow: var(--button-secondary-shadow-hover);
 }

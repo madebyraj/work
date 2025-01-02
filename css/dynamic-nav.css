@@ -47,7 +47,7 @@
   background: var(--globalnav-background);
   -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
   backdrop-filter: var(--globalnav-backdrop-filter);
-  padding: 12px 14px;
+  padding: 12px;
   height: var(--globalnav-height);
   margin: auto;
   display: flex;
@@ -102,14 +102,12 @@
 #link-logo:hover {
   cursor: var(--cursor-pointer), auto;
   color: var(--button-tertiary-color-hover);
-  background: var(--button-tertiary-background-hover);
   outline: var(--button-tertiary-outline-hover);
   outline-offset: 0;
 }
 
 #link-logo:active {
   color: var(--button-tertiary-color-active);
-  background: var(--button-tertiary-background-active);
   outline: var(--button-tertiary-outline-active);
 }
 
@@ -130,28 +128,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 24px;
 }
 
 .nav-link {
-  background: var(--button-tertiary-background);
-  padding: 5px 10px;
-  height: 36px;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
-  border-radius: var(--border-radius-8);
-  outline-offset: 0.75rem;
-  outline: var(--button-tertiary-outline);
-  transition: var(--button-tertiary-transition);
 }
 
 .nav-link-copy {
-  font: var(--smallbutton-xl);
-  letter-spacing: var(--smallbutton-letterspacing);
-  color: var(--button-tertiary-color);
+  font: var(--navbarlink-xl);
+  letter-spacing: var(--navbarlink-letterspacing);
+  color: var(--link-secondary-color);
 }
 
 .nav-link-icon {
@@ -160,99 +151,96 @@
 }
 
 .nav-link-icon path {
-  fill: var(--button-tertiary-color);
+  fill: var(--link-secondary-color);
 }
 
 .nav-link:hover {
   cursor: var(--cursor-pointer), auto;
-  background: var(--button-tertiary-background-hover);
-  outline: var(--button-tertiary-outline-hover);
-  outline-offset: 0;
 }
 
 .nav-link:hover .nav-link-copy {
-  color: var(--button-tertiary-color-hover);
+  color: var(--link-secondary-color-hover);
 }
 
 .nav-link:hover .nav-link-icon path {
-  fill: var(--button-tertiary-color-hover);
-}
-
-.nav-link:active {
-  color: var(--button-tertiary-color-active);
-  background: var(--button-tertiary-background-active);
-  outline: var(--button-tertiary-outline-active);
-  outline-offset: 0;
+  fill: var(--link-secondary-color-hover);
 }
 
 .current {
   cursor: var(--cursor-not-allowed), auto !important;
-  opacity: var(--button-tertiary-disabled) !important;
-  background: var(--button-tertiary-background-disabled) !important;
-  outline: var(--button-tertiary-outline-disabled) !important;
+  opacity: var(--link-secondary-disabled) !important;
 }
 
 .current .nav-link-copy {
-  color: var(--button-tertiary-color-disabled) !important;
+  color: var(--link-secondary-color) !important;
 }
 
 .current .nav-link-icon path {
-  fill: var(--button-tertiary-color-disabled) !important;
+  fill: var(--link-secondary-color) !important;
 }
-
-/* Theme Button */
 
 .theme-toggle-wrapper {
-  margin-left: 16px;
-  height: 40px;
   display: flex;
+  align-items: center;
 }
 
-.theme-toggle {
-  width: 36px;
+.theme-switch {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: var(--cursor-pointer), auto;
+}
+
+.switch {
+  position: relative;
+  width: 56px;
   height: 36px;
-  background: var(--button-secondary-background);
+  background: var(--switch-background);
+  border-radius: var(--border-radius-12);
+  transition: 0.3s ease-out;
+  padding: 4px;
+}
+
+.switch-handle {
+  width: 28px;
+  height: 28px;
+  background: var(--switch-handle-background);
   border-radius: var(--border-radius-8);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--bounce-effect);
-  box-shadow: var(--button-secondary-shadow);
-  border: 1px solid var(--button-secondary-border);
+  box-shadow: var(--switch-shadow);
+  transform: var(--switch-position);
 }
 
-.theme-toggle:hover {
-  cursor: var(--cursor-pointer), auto;
-  transform: var(--button-transform-hover);
-  box-shadow: var(--button-secondary-shadow-hover);
+.moon-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--switch-handle-color);
 }
 
-.theme-toggle:active {
-  transform: var(--button-transform-active);
-  box-shadow: var(--button-secondary-shadow-active);
-}
-
-.theme-toggle:focus {
+.theme-switch:focus {
   outline: none;
 }
 
-.theme-toggle svg {
-  margin: auto;
-  width: 24px;
-  height: 24px;
-  fill: var(--button-secondary-color);
-  transition: fill 0.3s ease-out;
+.nav-separator {
+  margin: 0 12px 0 12px;
+  width: 2px;
+  height: 36px;
+  background: var(--separator);
+  transition: 0.3s ease-out;
 }
 
 .nav-cta-wrapper {
-  margin-left: 16px;
-  height: 40px;
+  margin-left: 20px;
   display: flex;
+  align-items: center;
   width: 100%;
 }
 
 .nav-cta {
-  background: var(--button-brand-background);
+  background: var(--button-background);
   text-decoration: none;
   padding: 5px 10px;
   height: 36px;
@@ -262,9 +250,9 @@
   align-items: center;
   justify-content: center;
   gap: 4px;
-  transition: var(--bounce-effect);
-  box-shadow: var(--button-brand-shadow);
-  border: 1px solid var(--button-brand-border);
+  outline-offset: 0.75rem;
+  outline: var(--button-outline);
+  transition: var(--button-transition);
 }
 
 .nav-cta-icon {
@@ -273,24 +261,23 @@
 }
 
 .nav-cta-icon path {
-  fill: var(--button-brand-color);
+  fill: var(--button-color);
 }
 
 .nav-cta-copy {
   font: var(--smallbutton-xl);
   letter-spacing: var(--smallbutton-letterspacing);
-  color: var(--button-brand-color);
+  color: var(--button-color);
 }
 
 .nav-cta:hover {
   cursor: var(--cursor-pointer), auto;
-  transform: var(--button-transform-hover);
-  box-shadow: var(--button-brand-shadow-hover);
+  outline: var(--button-outline-hover);
+  outline-offset: 0;
 }
 
 .nav-cta:active {
-  transform: var(--button-transform-active);
-  box-shadow: var(--button-brand-shadow-active);
+  transform: var(--button-scale-active);
 }
 
 /* Hidden Items */
@@ -347,20 +334,17 @@
 
   .nav-link {
     width: 100%;
-    height: 52px;
-    padding: 9px 22px;
-    border-radius: var(--border-radius-16);
     gap: 8px;
   }
 
   .nav-link-copy {
-    font: var(--largebutton-xxxs);
-    letter-spacing: var(--largebutton-letterspacing);
+    font: var(--navbarlink-xxxs);
+    letter-spacing: var(--navbarlink-letterspacing);
   }
 
   .nav-link-icon {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
   }
 
   .right-side-container {
@@ -368,7 +352,8 @@
   }
 
   .nav-container.active .nav-cta,
-  .nav-container.active .theme-toggle-wrapper {
+  .nav-container.active .theme-toggle-wrapper,
+  .nav-container.active .nav-separator {
     display: none;
   }
 
@@ -390,9 +375,9 @@
     justify-content: start;
     top: 0;
     left: 0;
-    gap: 4px;
+    gap: 12px;
     width: 100%;
-    padding: 8px 40px 0;
+    padding: 12px 40px 0;
     height: 100vh;
   }
 
@@ -402,6 +387,10 @@
 
   .nav-cta-copy {
     font: var(--smallbutton-xxxs);
+  }
+
+  .nav-separator {
+    margin: 0;
   }
 
   .theme-toggle-wrapper {
@@ -419,31 +408,11 @@
   }
 
   .menu-icon-container {
-    background: var(--button-tertiary-background);
     width: 36px;
     height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--border-radius-8);
-    outline-offset: 0.75rem;
-    outline: var(--button-tertiary-outline);
-    transition: var(--button-tertiary-transition);
-  }
-
-  .menu-icon-container:active {
-    cursor: var(--cursor-pointer), auto;
-    background: var(--button-tertiary-background-active);
-    outline: var(--button-tertiary-outline-active);
-    outline-offset: 0;
-  }
-
-  .menu-icon-container:active .line-1 {
-    background: var(--button-tertiary-color-active);
-  }
-
-  .menu-icon-container:active .line-2 {
-    background: var(--button-tertiary-color-active);
   }
 
   .menu-icon {
@@ -457,7 +426,7 @@
     position: absolute;
     height: 4px;
     width: 100%;
-    background: var(--button-tertiary-color);
+    background: var(--text-highest-emphasis);
     border-radius: var(--border-radius-full);
     transition-property: transform, top;
     transition-delay: 0ms, 150ms;
