@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  background-color: var(--background-primary);
+  background: var(--background-primary);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
@@ -278,7 +278,7 @@ main {
   padding: 4px 6px;
   font: var(--badge-xl);
   letter-spacing: var(--badge-letterspacing);
-  background-color: var(--background-tertiary);
+  background-color: var(--background-secondary);
   color: var(--text-low-emphasis);
   border-radius: var(--border-radius-8);
   border: 1px solid var(--separator);

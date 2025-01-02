@@ -101,6 +101,7 @@
 
 #link-logo:hover {
   cursor: var(--cursor-pointer), auto;
+  background: var(--button-tertiary-background-hover);
   color: var(--button-tertiary-color-hover);
   outline: var(--button-tertiary-outline-hover);
   outline-offset: 0;
@@ -314,7 +315,6 @@
     right: 16px;
     left: 16px;
     align-items: start;
-    padding: 12px;
     transition: 300ms cubic-bezier(0.4, 0, 0.6, 1) 20ms;
     justify-content: space-between;
   }
@@ -343,8 +343,8 @@
   }
 
   .nav-link-icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
 
   .right-side-container {
@@ -375,9 +375,9 @@
     justify-content: start;
     top: 0;
     left: 0;
-    gap: 12px;
+    gap: 16px;
     width: 100%;
-    padding: 12px 40px 0;
+    padding: 16px 40px 0;
     height: 100vh;
   }
 
@@ -413,6 +413,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: var(--button-tertiary-background);
+    border-radius: var(--border-radius-8);
+    outline-offset: 0.75rem;
+    outline: var(--button-tertiary-outline);
+    transition: var(--button-tertiary-transition);
+  }
+
+  .menu-icon-container:active {
+    background: var(--button-tertiary-background-hover);
+    color: var(--button-tertiary-color-hover);
+    outline: var(--button-tertiary-outline-hover);
+    outline-offset: 0;
   }
 
   .menu-icon {

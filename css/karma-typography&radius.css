@@ -44,8 +44,8 @@
 
   --font-ui: Gilroy, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: Gilroy, var(--font-ui), system-ui, sans-serif;
-  --font-content: Gilroy, var(--font-title), ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-display: Gilroy, var(--font-ui), system-ui, sans-serif;
+  --font-content: Gilroy, var(--font-ui), ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-display: Gilroy, var(--font-title), system-ui, sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -71,7 +71,7 @@
   --fontWeight-regular: 400;
   --fontWeight-medium: 600;
   --fontWeight-bold: 700;
-  --fontWeight-extrabold: 800;
+  --fontWeight-extrabold: 900;
 
   --letterSpacing-tighter: -0.025em;
   --letterSpacing-tight: -0.0125em;
@@ -79,13 +79,13 @@
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;
 
-  --letterSpacing-display: -0.025em;
+  --letterSpacing-display: var(--letterSpacing-tighter);
   --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.25em;
 
   --display-letterspacing: var(--letterSpacing-display);
-  --display-xxl: var(--fontWeight-extrabold) var(--fontSize-91) / 95% var(--font-display);
-  --display-xl: var(--fontWeight-extrabold) var(--fontSize-81) / 95% var(--font-display);
+  --display-xxl: var(--fontWeight-extrabold) var(--fontSize-91) / 100% var(--font-display);
+  --display-xl: var(--fontWeight-extrabold) var(--fontSize-81) / 100% var(--font-display);
   --display-m: var(--fontWeight-extrabold) var(--fontSize-72) / 100% var(--font-display);
   --display-xxxs: var(--fontWeight-extrabold) var(--fontSize-57) / 100% var(--font-display);
 
@@ -221,5 +221,5 @@
   --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
   --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
   --navbarlink-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
-  --navbarlink-xxxs: var(--fontWeight-medium) var(--fontSize-32) / 140% var(--font-ui);
+  --navbarlink-xxxs: var(--fontWeight-medium) var(--fontSize-25) / 140% var(--font-ui);
 }

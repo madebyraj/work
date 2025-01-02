@@ -118,7 +118,7 @@
 .design-and-code {
   font: var(--body2-xl);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-medium-emphasis);
 }
 
 /* Small Desktop */

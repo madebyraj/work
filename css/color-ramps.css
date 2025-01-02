@@ -129,32 +129,32 @@
   --violet-2: #f3f0ff;
   --violet-3: #221835;
 
-  --slate-100: #03050b;
-  --slate-75: #414349;
-  --slate-60: #66686e;
-  --slate-45: #8c8e94;
-  --slate-30: #b1b3b9;
-  --slate-15: #d6d8de;
-  --slate-5: #eef0f6;
+  --slate-100: #030308;
+  --slate-75: #414146;
+  --slate-60: #67676c;
+  --slate-45: #8c8c91;
+  --slate-30: #b2b2b7;
+  --slate-15: #d7d7dc;
+  --slate-5: #f0f0f5;
   --slate-0: #ffffff;
 
-  --slate-alpha-92: rgba(3, 5, 11, 0.92);
-  --slate-alpha-75: rgba(3, 5, 11, 0.75);
-  --slate-alpha-60: rgba(3, 5, 11, 0.6);
-  --slate-alpha-45: rgba(3, 5, 11, 0.45);
-  --slate-alpha-30: rgba(3, 5, 11, 0.3);
-  --slate-alpha-15: rgba(3, 5, 11, 0.15);
-  --slate-alpha-5: rgba(3, 5, 11, 0.05);
-  --slate-alpha-0: rgba(3, 5, 11, 0);
+  --slate-alpha-92: rgba(3, 3, 8, 0.92);
+  --slate-alpha-75: rgba(3, 3, 8, 0.75);
+  --slate-alpha-60: rgba(3, 3, 8, 0.6);
+  --slate-alpha-45: rgba(3, 3, 8, 0.45);
+  --slate-alpha-30: rgba(3, 3, 8, 0.3);
+  --slate-alpha-15: rgba(3, 3, 8, 0.15);
+  --slate-alpha-5: rgba(3, 3, 8, 0.05);
+  --slate-alpha-0: rgba(3, 3, 8, 0);
 
   --chalk-100: #ffffff;
-  --chalk-75: #bfc1c7;
-  --chalk-60: #9a9ca2;
-  --chalk-45: #74767c;
-  --chalk-30: #4f5157;
-  --chalk-15: #2a2c32;
-  --chalk-5: #12141a;
-  --chalk-0: #03050b;
+  --chalk-75: #c1c1c6;
+  --chalk-60: #9b9ba0;
+  --chalk-45: #75757a;
+  --chalk-30: #505055;
+  --chalk-15: #2b2b30;
+  --chalk-5: #131318;
+  --chalk-0: #030308;
 
   --chalk-alpha-92: rgba(255, 255, 255, 0.92);
   --chalk-alpha-75: rgba(255, 255, 255, 0.75);

@@ -118,7 +118,8 @@
     2px 2px 5px 0px var(--black-200) inset;
   --button-secondary-color: var(--black-1000);
 
-  --button-tertiary-background: var(--slate-5);
+  --button-tertiary-background: var(--slate-alpha-0);
+  --button-tertiary-background-hover: var(--slate-5);
   --button-tertiary-outline: 0px solid var(--slate-alpha-0);
   --button-tertiary-outline-hover: 4px solid var(--slate-15);
   --button-tertiary-outline-active: 4px solid var(--slate-15);
@@ -130,8 +131,8 @@
 
   --tile-background: var(--background-primary);
   --tile-outline: 0px solid var(--slate-alpha-0);
-  --tile-outline-hover: 4px solid var(--violet-1);
-  --tile-outline-active: 4px solid var(--violet-1);
+  --tile-outline-hover: 4px solid rgba(105, 61, 253, 0.5);
+  --tile-outline-active: 4px solid rgba(105, 61, 253, 0.5);
   --tile-transition: var(--outline-hover-effect);
 
   --switch-background: var(--slate-5);
@@ -218,7 +219,8 @@
       2px 2px 5px 0px var(--black-200) inset;
     --button-secondary-color: var(--white-1000);
 
-    --button-tertiary-background: var(--chalk-5);
+    --button-tertiary-background: var(--slate-alpha-0);
+    --button-tertiary-background-hover: var(--chalk-5);
     --button-tertiary-outline: 0px solid var(--chalk-alpha-0);
     --button-tertiary-outline-hover: 4px solid var(--chalk-15);
     --button-tertiary-outline-active: 4px solid var(--chalk-15);
@@ -227,8 +229,8 @@
 
     --tile-background: var(--background-primary);
     --tile-outline: 0px solid transparent;
-    --tile-outline-hover: 4px solid var(--violet-1);
-    --tile-outline-active: 4px solid var(--violet-1);
+    --tile-outline-hover: 4px solid rgba(105, 61, 253, 0.5);
+    --tile-outline-active: 4px solid rgba(105, 61, 253, 0.5);
 
     --switch-background: var(--violet-1);
     --switch-handle-background: var(--slate-100);

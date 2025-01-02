@@ -44,7 +44,7 @@ html {
 
 body {
   padding-top: var(--globalnav-wrapper-height);
-  background-color: var(--body-background);
+  background: var(--background-primary);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
@@ -56,7 +56,7 @@ main {
 }
 
 .project-cover-wrapper {
-  background-color: var(--fill-tertiary);
+  background-color: var(--background-tertiary);
   width: 100%;
   max-height: 512px;
   overflow: hidden;
@@ -101,13 +101,13 @@ main {
 .title {
   font: var(--title2-m-emphasized);
   letter-spacing: var(--title2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .project-overview {
   font: var(--body1-m);
   letter-spacing: var(--body1-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-medium-emphasis);
 }
 
 .project-information {
@@ -121,40 +121,40 @@ main {
 .role h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
 .role p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-medium-emphasis);
 }
 
 .timeline h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
 .timeline p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-medium-emphasis);
 }
 
 .tools h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
 .tools p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text-medium-emphasis);
 }
 
 .line {
@@ -173,13 +173,13 @@ main {
 .problem-statement-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .problem-statement-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 #solution-section {
@@ -192,7 +192,7 @@ main {
 .solution-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .solution {
@@ -221,14 +221,14 @@ main {
 #solution-info1 h6 {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 16px;
 }
 
 #solution-info1 p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
@@ -244,14 +244,14 @@ main {
 #solution-info2 h6 {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 16px;
 }
 
 #solution-info2 p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
@@ -267,14 +267,14 @@ main {
 #solution-info3 h6 {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 16px;
 }
 
 #solution-info3 p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
@@ -290,14 +290,14 @@ main {
 #solution-info4 h6 {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 16px;
 }
 
 #solution-info4 p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
 
@@ -311,7 +311,7 @@ main {
 #my-approach-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .my-approach-img {
@@ -333,7 +333,7 @@ main {
 #research-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .research-section-copy-wrapper {
@@ -345,42 +345,33 @@ main {
 .research-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .link-one {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 .full-research {
-  background: var(--button-secondary-background);
-  height: 46px;
-  padding: 7px 16px;
-  color: var(--button-secondary-color);
-  font: var(--mediumbutton-m);
-  letter-spacing: var(--mediumbutton-letterspacing);
+  color: var(--link-color);
+  font: var(--link-m);
+  letter-spacing: var(--link-letterspacing);
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   gap: 8px;
-  border-radius: var(--border-radius-12);
-  transition: var(--bounce-effect);
-  box-shadow: var(--button-secondary-shadow);
-  border: 1px solid var(--button-secondary-border);
 }
 
 .full-research:hover {
   cursor: var(--cursor-pointer), auto;
-  transform: var(--button-transform-hover);
-  box-shadow: var(--button-secondary-shadow-hover);
 }
 
-.full-research:active {
-  transform: var(--button-transform-active);
-  box-shadow: var(--button-secondary-shadow-active);
+.full-research:hover .link-copy {
+  text-decoration: var(--link-border);
 }
 
 #question-section {
@@ -393,7 +384,7 @@ main {
 #question-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .question-wrapper {
@@ -405,7 +396,7 @@ main {
 .question {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 #insight-section {
@@ -418,13 +409,13 @@ main {
 #insight-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .insight-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .insight-img {
@@ -455,13 +446,13 @@ main {
 #design-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .design-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .wireframe-img {
@@ -492,7 +483,7 @@ main {
 #prototype-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .prototype-section-copy-wrapper {
@@ -504,42 +495,32 @@ main {
 .prototype-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .link-two {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 #pr-link {
-  background: var(--button-secondary-background);
-  height: 46px;
-  padding: 7px 16px;
-  color: var(--button-secondary-color);
-  font: var(--mediumbutton-m);
-  letter-spacing: var(--mediumbutton-letterspacing);
+  color: var(--link-color);
+  font: var(--link-m);
+  letter-spacing: var(--link-letterspacing);
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   gap: 8px;
-  border-radius: var(--border-radius-12);
-  transition: var(--bounce-effect);
-  box-shadow: var(--button-secondary-shadow);
-  border: 1px solid var(--button-secondary-border);
 }
 
 #pr-link:hover {
   cursor: var(--cursor-pointer), auto;
-  transform: var(--button-transform-hover);
-  box-shadow: var(--button-secondary-shadow-hover);
 }
 
-#pr-link:active {
-  transform: var(--button-transform-active);
-  box-shadow: var(--button-secondary-shadow-active);
+#pr-link:hover .link-copy {
+  text-decoration: var(--link-border);
 }
 
 .arrow-top-right {
@@ -548,7 +529,7 @@ main {
 }
 
 .arrow-top-right path {
-  fill: var(--button-tertiary-color);
+  fill: var(--link-color);
 }
 
 .prototype-img {
@@ -570,13 +551,13 @@ main {
 #evaluation-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .evaluation-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .usability-testing-img {
@@ -607,13 +588,13 @@ main {
 #my-learning-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .my-learning-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 #next-step-section {
@@ -626,13 +607,13 @@ main {
 #next-step-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .next-step-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
 }
 
 .finish-section {
@@ -648,37 +629,27 @@ main {
 .finish-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text);
+  color: var(--text-highest-emphasis);
   text-align: center;
 }
 
 .back-to-home {
-  background: var(--button-secondary-background);
-  height: 46px;
-  padding: 7px 16px;
-  text-decoration: none;
-  color: var(--button-secondary-color);
-  font: var(--mediumbutton-m);
-  letter-spacing: var(--mediumbutton-letterspacing);
+  color: var(--link-color);
+  font: var(--link-m);
+  letter-spacing: var(--link-letterspacing);
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   gap: 8px;
-  border-radius: var(--border-radius-12);
-  transition: var(--bounce-effect);
-  box-shadow: var(--button-secondary-shadow);
-  border: 1px solid var(--button-secondary-border);
 }
 
 .back-to-home:hover {
   cursor: var(--cursor-pointer), auto;
-  transform: var(--button-transform-hover);
-  box-shadow: var(--button-secondary-shadow-hover);
 }
 
-.back-to-home:active {
-  transform: var(--button-transform-active);
-  box-shadow: var(--button-secondary-shadow-active);
+.back-to-home:hover .link-copy {
+  text-decoration: var(--link-border);
 }
 
 .arrow-left {
@@ -687,7 +658,7 @@ main {
 }
 
 .arrow-left path {
-  fill: var(--button-secondary-color);
+  fill: var(--link-color);
 }
 
 @media (max-width: 1400px) {}
@@ -864,7 +835,7 @@ main {
   }
 
   .full-research {
-    font: var(--mediumbutton-xxxs);
+    font: var(--link-xxxs);
   }
 
   #question-section-heading {
@@ -900,7 +871,7 @@ main {
   }
 
   #pr-link {
-    font: var(--mediumbutton-xxxs);
+    font: var(--link-xxxs);
   }
 
   #evaluation-section-heading {
@@ -936,6 +907,6 @@ main {
   }
 
   .back-to-home {
-    font: var(--mediumbutton-xxxs);
+    font: var(--link-xxxs);
   }
 }
