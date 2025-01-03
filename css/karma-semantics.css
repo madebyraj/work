@@ -144,13 +144,13 @@
   --link-color: var(--orange-1);
   --link-color-hover: var(--orange-1);
   --link-color-active: var(--orange-1);
-  --link-border: 2px dashed var(--orange-1);
+  --link-border: 2px underline dashed var(--orange-1);
   --link-disabled: 0.5;
 
   --link-secondary-color: var(--slate-alpha-92);
   --link-secondary-color-hover: var(--orange-1);
   --link-secondary-color-active: var(--orange-1);
-  --link-secondary-border: 2px dashed var(--orange-1);
+  --link-secondary-border: 2px underline dashed var(--orange-1);
   --link-secondary-disabled: 0.5;
 }
 
@@ -241,11 +241,11 @@
     --link-color: var(--orange-1);
     --link-color-hover: var(--orange-1);
     --link-color-active: var(--orange-1);
-    --link-border: 2px dashed var(--orange-1);
+    --link-border: 2px underline dashed var(--orange-1);
 
     --link-secondary-color: var(--chalk-alpha-92);
     --link-secondary-color-hover: var(--orange-1);
     --link-secondary-color-active: var(--orange-1);
-    --link-secondary-border: 2px dashed var(--orange-1);
+    --link-secondary-border: 2px underline dashed var(--orange-1);
   }
 }
