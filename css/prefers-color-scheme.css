@@ -4,18 +4,13 @@
 @import url("/css/karma-semantics.css");
 
 [data-theme="light"] {
-
-  --globalnav-background: var(--white-1000);
-  --globalnav-background-opened: var(--white-1000);
+  --globalnav-background: var(--chalk-100);
+  --globalnav-background-opened: var(--chalk-100);
 
   --globalnav-shadow: 0px 2px 4px 0px var(--slate-alpha-15),
-    1px 1px 0px 0px #e6e6e6 inset, 1px 1px 0px 0px #f5f5f5;
+    1px 1px 0px 0px var(--slate-15) inset, 1px 1px 0px 0px var(--slate-5);
 
   --globalfooter-background: var(--slate-5);
-
-  --body-background: var(--white-1000);
-
-  --hero-section-background-tile: url(/assets/global/hero-section-bg-tile.png);
 
   --hero-section-background: linear-gradient(180deg,
       #230c70 0%,
@@ -28,8 +23,8 @@
       #8c6cf4 50%,
       #6f55cb 75%,
       #6f55cb 100%);
-  --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset,
-    0.5px 0.5px 0px 0px var(--white-400);
+  --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--chalk-alpha-75) inset,
+    0.5px 0.5px 0px 0px var(--chalk-alpha-45);
 
   --separator: var(--slate-15);
   --separator-muted: var(--slate-5);
@@ -101,16 +96,13 @@
 /* ----------------------- */
 
 [data-theme="dark"] {
-
   --globalnav-background: var(--chalk-0);
   --globalnav-background-opened: var(--chalk-0);
 
   --globalnav-shadow: 0px 2px 4px 0px var(--slate-alpha-15),
-    1px 1px 0px 0px #444 inset, 1px 1px 0px 0px #2c2c2c;
+    1px 1px 0px 0px var(--chalk-15) inset, 1px 1px 0px 0px var(--chalk-5);
 
   --globalfooter-background: var(--chalk-5);
-
-  --body-background: var(--gray-900);
 
   --hero-section-background: linear-gradient(180deg,
       #230c70 0%,
@@ -123,8 +115,8 @@
       #8c6cf4 50%,
       #6f55cb 75%,
       #6f55cb 100%);
-  --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--white-600) inset,
-    0.5px 0.5px 0px 0px var(--white-400);
+  --hero-section-badge-shadow: 0.5px 0.5px 0px 0px var(--chalk-alpha-75) inset,
+    0.5px 0.5px 0px 0px var(--chalk-alpha-45);
 
   --separator: var(--chalk-15);
   --separator-muted: var(--chalk-5);

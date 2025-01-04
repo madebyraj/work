@@ -129,7 +129,7 @@ main {
   border-radius: var(--border-radius-12);
   font: var(--badge-xl);
   letter-spacing: var(--badge-letterspacing);
-  color: var(--white-800);
+  color: var(--chalk-alpha-92);
   width: max-content;
   box-shadow: var(--hero-section-badge-shadow);
   display: flex;
