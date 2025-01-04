@@ -36,20 +36,11 @@
 
   --background-primary: var(--slate-0);
   --background-secondary: var(--slate-5);
-  --background-tertiary: var(--slate-15);
 
   --text-highest-emphasis: var(--slate-alpha-92);
   --text-high-emphasis: var(--slate-alpha-75);
   --text-medium-emphasis: var(--slate-alpha-60);
   --text-low-emphasis: var(--slate-alpha-45);
-
-  --fill: var(--white-1000);
-  --fill-secondary: var(--gray-100);
-  --fill-tertiary: var(--gray-200);
-
-  --text: var(--black-1000);
-  --text-secondary: var(--gray-600);
-  --text-tertiary: var(--gray-500);
 
   --button-background: var(--green-1);
   --button-outline: 0px solid var(--slate-alpha-0);
@@ -140,20 +131,11 @@
 
   --background-primary: var(--chalk-0);
   --background-secondary: var(--chalk-5);
-  --background-tertiary: var(--chalk-15);
 
   --text-highest-emphasis: var(--chalk-alpha-92);
   --text-high-emphasis: var(--chalk-alpha-75);
   --text-medium-emphasis: var(--chalk-alpha-60);
   --text-low-emphasis: var(--chalk-alpha-45);
-
-  --fill: var(--gray-1000);
-  --fill-secondary: var(--gray-900);
-  --fill-tertiary: var(--gray-800);
-
-  --text: var(--white-1000);
-  --text-secondary: var(--gray-300);
-  --text-tertiary: var(--gray-500);
 
   --button-background: var(--green-1);
   --button-outline: 0px solid var(--slate-alpha-0);

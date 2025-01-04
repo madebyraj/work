@@ -89,21 +89,6 @@ main {
   }
 }
 
-.hero-bottom-ribbon {
-  background: #591CAA;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font: var(--badge-xl);
-  letter-spacing: var(--badge-letterspacing);
-  color: var(--white-500);
-}
-
 /* .hero-section-background {
   flex: none;
   inset: 0;
@@ -174,18 +159,7 @@ main {
   align-content: center;
   gap: 0px 16px;
   flex-wrap: wrap;
-  /* animation: heroHeadline 3s ease-out; */
 }
-
-/* @keyframes heroHeadline {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-} */
 
 .hero-headline-copy {
   text-align: center;

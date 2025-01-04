@@ -34,7 +34,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--karma-font-sans);
 }
 
 html {
@@ -55,7 +54,7 @@ main {
 }
 
 .project-cover-wrapper {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-secondary);
   width: 100%;
   max-height: 512px;
   overflow: hidden;
@@ -183,8 +182,8 @@ main {
 }
 
 .problem-statement-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -236,8 +235,8 @@ main {
 }
 
 .desk-research-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -263,8 +262,8 @@ main {
 }
 
 .user-research-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -346,8 +345,8 @@ main {
 }
 
 .journey-map-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -379,8 +378,8 @@ main {
 }
 
 .pain-point {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -416,8 +415,8 @@ main {
 }
 
 .hmw {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -447,8 +446,8 @@ main {
 }
 
 .user-flow-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -474,8 +473,8 @@ main {
 }
 
 .low-fidelity-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -532,8 +531,8 @@ main {
 }
 
 #solution-info1 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -555,8 +554,8 @@ main {
 }
 
 #solution-info2 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -578,8 +577,8 @@ main {
 }
 
 #solution-info3 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -601,8 +600,8 @@ main {
 }
 
 #solution-info4 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -621,8 +620,8 @@ main {
 }
 
 .prototype-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -661,8 +660,8 @@ main {
 }
 
 .usability-test-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -694,8 +693,8 @@ main {
 }
 
 .test-result {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -721,8 +720,8 @@ main {
 }
 
 .final-design-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -749,8 +748,8 @@ main {
 }
 
 .next-step-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -774,8 +773,8 @@ main {
 }
 
 .key-takeaways-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -919,7 +918,7 @@ main {
   }
 
   .problem-statement-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .process-section-heading {
@@ -935,7 +934,7 @@ main {
   }
 
   .desk-research-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .user-research-section-heading {
@@ -943,7 +942,7 @@ main {
   }
 
   .user-research-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .user-research-question-section-heading {
@@ -971,7 +970,7 @@ main {
   }
 
   .journey-map-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #pain-point-section-heading {
@@ -979,7 +978,7 @@ main {
   }
 
   .pain-point {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .ideate-section-heading {
@@ -991,7 +990,7 @@ main {
   }
 
   .hmw {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .design-section-heading {
@@ -1003,7 +1002,7 @@ main {
   }
 
   .user-flow-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .low-fidelity-section-heading {
@@ -1011,7 +1010,7 @@ main {
   }
 
   .low-fidelity-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .solution-section-heading {
@@ -1043,7 +1042,7 @@ main {
   }
 
   #solution-info1 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #solution-v2 {
@@ -1059,7 +1058,7 @@ main {
   }
 
   #solution-info2 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #solution-v3 {
@@ -1075,7 +1074,7 @@ main {
   }
 
   #solution-info3 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #solution-v4 {
@@ -1091,7 +1090,7 @@ main {
   }
 
   #solution-info4 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .prototype-section-heading {
@@ -1099,7 +1098,7 @@ main {
   }
 
   .prototype-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .test-section-heading {
@@ -1111,7 +1110,7 @@ main {
   }
 
   .usability-test-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #test-result-section-heading {
@@ -1119,7 +1118,7 @@ main {
   }
 
   .test-result {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .final-design-section-heading {
@@ -1127,7 +1126,7 @@ main {
   }
 
   .final-design-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .next-step-section-heading {
@@ -1135,7 +1134,7 @@ main {
   }
 
   .next-step-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .key-takeaways-section-heading {
@@ -1143,7 +1142,7 @@ main {
   }
 
   .key-takeaways-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .finish-section {

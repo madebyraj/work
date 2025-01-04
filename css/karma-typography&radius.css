@@ -42,10 +42,10 @@
 
   /* ---------------------------- */
 
-  --font-ui: Gilroy, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-title: Gilroy, var(--font-ui), system-ui, sans-serif;
-  --font-content: Gilroy, var(--font-ui), ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-display: Gilroy, var(--font-title), system-ui, sans-serif;
+  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-title: Basis Grotesque Arabic Pro, var(--font-ui), system-ui, sans-serif;
+  --font-content: Source Serif Pro, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: var(--font-title), system-ui, sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -73,13 +73,14 @@
   --fontWeight-bold: 700;
   --fontWeight-extrabold: 900;
 
-  --letterSpacing-tighter: -0.025em;
-  --letterSpacing-tight: -0.0125em;
+  --letterSpacing-tighter: -0.05em;
+  --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;
 
-  --letterSpacing-display: var(--letterSpacing-tighter);
+  --letterSpacing-display: -0.05em;
+  --letterSpacing-content: 0.0125em;
   --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.25em;
 
@@ -136,44 +137,54 @@
   --title5-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-title);
 
   --body1-letterspacing: var(--letterSpacing-wide);
-  --body1-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-content);
-  --body1-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-content);
-  --body1-xl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-content);
-  --body1-xl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-content);
-  --body1-m: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-content);
-  --body1-m-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-content);
-  --body1-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-content);
-  --body1-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-22) / 135% var(--font-content);
+  --body1-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-ui);
+  --body1-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-ui);
+  --body1-xl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-ui);
+  --body1-xl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-ui);
+  --body1-m: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-ui);
+  --body1-m-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-ui);
+  --body1-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-ui);
+  --body1-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-22) / 135% var(--font-ui);
 
   --body2-letterspacing: var(--letterSpacing-wide);
-  --body2-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
-  --body2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
-  --body2-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --body2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
-  --body2-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --body2-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
-  --body2-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --body2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
+  --body2-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-ui);
+  --body2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-ui);
+  --body2-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-ui);
+  --body2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-ui);
+  --body2-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-ui);
+  --body2-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-ui);
+  --body2-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-ui);
+  --body2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-ui);
 
   --body3-letterspacing: var(--letterSpacing-wide);
-  --body3-xxl: var(--fontWeight-regular) var(--fontSize-18) / 145% var(--font-content);
-  --body3-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 145% var(--font-content);
-  --body3-xl: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-content);
-  --body3-xl-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-content);
-  --body3-m: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-content);
-  --body3-m-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-content);
-  --body3-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-content);
-  --body3-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-content);
+  --body3-xxl: var(--fontWeight-regular) var(--fontSize-18) / 145% var(--font-ui);
+  --body3-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 145% var(--font-ui);
+  --body3-xl: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-ui);
+  --body3-xl-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-ui);
+  --body3-m: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-ui);
+  --body3-m-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-ui);
+  --body3-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-ui);
+  --body3-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-ui);
 
   --body4-letterspacing: var(--letterSpacing-wide);
-  --body4-xxl: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-content);
-  --body4-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-content);
-  --body4-xl: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-content);
-  --body4-xl-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-content);
-  --body4-m: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-content);
-  --body4-m-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-content);
-  --body4-xxxs: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-content);
-  --body4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-content);
+  --body4-xxl: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-xl: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-xl-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-m: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-m-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-xxxs: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-ui);
+  --body4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-ui);
+
+  --content-letterspacing: var(--letterSpacing-content);
+  --content-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
+  --content-xl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-xl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
+  --content-m: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-m-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
+  --content-xxxs: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
 
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
   --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-ui);

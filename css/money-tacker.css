@@ -34,8 +34,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--karma-font-sans);
-  line-height: var(--karma-lineHeight-short);
 }
 
 html {
@@ -56,7 +54,7 @@ main {
 }
 
 .project-cover-wrapper {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-secondary);
   width: 100%;
   max-height: 512px;
   overflow: hidden;
@@ -177,8 +175,8 @@ main {
 }
 
 .problem-statement-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -226,8 +224,8 @@ main {
 }
 
 #solution-info1 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -249,8 +247,8 @@ main {
 }
 
 #solution-info2 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -272,8 +270,8 @@ main {
 }
 
 #solution-info3 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -295,8 +293,8 @@ main {
 }
 
 #solution-info4 p {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
   margin-bottom: 8px;
 }
@@ -343,8 +341,8 @@ main {
 }
 
 .research-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -394,8 +392,8 @@ main {
 }
 
 .question {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -413,8 +411,8 @@ main {
 }
 
 .insight-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -450,8 +448,8 @@ main {
 }
 
 .design-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -493,8 +491,8 @@ main {
 }
 
 .prototype-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -555,8 +553,8 @@ main {
 }
 
 .evaluation-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -592,8 +590,8 @@ main {
 }
 
 .my-learning-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -611,8 +609,8 @@ main {
 }
 
 .next-step-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -739,7 +737,7 @@ main {
   }
 
   .problem-statement-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .solution-section-heading {
@@ -771,7 +769,7 @@ main {
   }
 
   #solution-info1 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #solution-v2 {
@@ -787,7 +785,7 @@ main {
   }
 
   #solution-info2 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #solution-v3 {
@@ -803,7 +801,7 @@ main {
   }
 
   #solution-info3 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #solution-v4 {
@@ -819,7 +817,7 @@ main {
   }
 
   #solution-info4 p {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #my-approach-section-heading {
@@ -831,7 +829,7 @@ main {
   }
 
   .research-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .full-research {
@@ -843,7 +841,7 @@ main {
   }
 
   .question {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #insight-section-heading {
@@ -851,7 +849,7 @@ main {
   }
 
   .insight-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #design-section-heading {
@@ -859,7 +857,7 @@ main {
   }
 
   .design-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #prototype-section-heading {
@@ -867,7 +865,7 @@ main {
   }
 
   .prototype-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #pr-link {
@@ -879,7 +877,7 @@ main {
   }
 
   .evaluation-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #my-learning-section-heading {
@@ -887,7 +885,7 @@ main {
   }
 
   .my-learning-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   #next-step-section-heading {
@@ -895,7 +893,7 @@ main {
   }
 
   .next-step-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .finish-section {

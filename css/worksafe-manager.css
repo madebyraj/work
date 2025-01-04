@@ -34,7 +34,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--karma-font-sans);
 }
 
 html {
@@ -55,7 +54,7 @@ main {
 }
 
 .project-cover-wrapper {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-secondary);
   width: 100%;
   max-height: 512px;
   overflow: hidden;
@@ -182,8 +181,8 @@ main {
 }
 
 .problem-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -223,8 +222,8 @@ main {
 }
 
 .research-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -309,8 +308,8 @@ main {
 }
 
 .pain-point {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -352,8 +351,8 @@ main {
 }
 
 .hmw-question {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -380,8 +379,8 @@ main {
 }
 
 .task-flow-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -417,8 +416,8 @@ main {
 }
 
 .solution-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -455,8 +454,8 @@ main {
 }
 
 .solution-employees-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -494,8 +493,8 @@ main {
 }
 
 .solution-management-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -520,8 +519,8 @@ main {
 }
 
 .map-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -568,8 +567,8 @@ main {
 }
 
 .key-takeaways-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -587,8 +586,8 @@ main {
 }
 
 .next-step-section-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
+  font: var(--content-m);
+  letter-spacing: var(--content-letterspacing);
   color: var(--text-highest-emphasis);
 }
 
@@ -724,7 +723,7 @@ main {
   }
 
   .problem-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .process-section-heading {
@@ -736,7 +735,7 @@ main {
   }
 
   .research-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .full-research {
@@ -753,7 +752,7 @@ main {
   }
 
   .pain-point {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .management-pain-point-heading {
@@ -769,7 +768,7 @@ main {
   }
 
   .hmw-question {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .task-flow-section-heading {
@@ -777,7 +776,7 @@ main {
   }
 
   .task-flow-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .solution-section-heading {
@@ -785,7 +784,7 @@ main {
   }
 
   .solution-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .solution-employees {
@@ -798,7 +797,7 @@ main {
   }
 
   .solution-employees-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .solution-management-heading {
@@ -806,7 +805,7 @@ main {
   }
 
   .solution-management-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .map-section-heading {
@@ -814,7 +813,7 @@ main {
   }
 
   .map-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .key-takeaways-section-heading {
@@ -822,7 +821,7 @@ main {
   }
 
   .key-takeaways-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .next-step-section-heading {
@@ -830,7 +829,7 @@ main {
   }
 
   .next-step-section-copy {
-    font: var(--body2-xxxs);
+    font: var(--content-xxxs);
   }
 
   .finish-section {
