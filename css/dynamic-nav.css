@@ -182,6 +182,7 @@
 .theme-toggle-wrapper {
   display: flex;
   align-items: center;
+  margin-left: 24px;
 }
 
 .theme-switch {
@@ -222,62 +223,6 @@
 
 .theme-switch:focus {
   outline: none;
-}
-
-.nav-separator {
-  margin: 0 12px 0 12px;
-  width: 2px;
-  height: 36px;
-  background: var(--separator);
-  transition: 0.3s ease-out;
-}
-
-.nav-cta-wrapper {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.nav-cta {
-  background: var(--button-background);
-  text-decoration: none;
-  padding: 5px 10px;
-  height: 36px;
-  text-align: center;
-  border-radius: var(--border-radius-8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  outline-offset: 0.75rem;
-  outline: var(--button-outline);
-  transition: var(--button-transition);
-}
-
-.nav-cta-icon {
-  width: 24px;
-  height: 24px;
-}
-
-.nav-cta-icon path {
-  fill: var(--button-color);
-}
-
-.nav-cta-copy {
-  font: var(--smallbutton-xl);
-  letter-spacing: var(--smallbutton-letterspacing);
-  color: var(--button-color);
-}
-
-.nav-cta:hover {
-  cursor: var(--cursor-pointer), auto;
-  outline: var(--button-outline-hover);
-  outline-offset: 0;
-}
-
-.nav-cta:active {
-  transform: var(--button-scale-active);
 }
 
 /* Hidden Items */
