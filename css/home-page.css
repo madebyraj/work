@@ -152,7 +152,7 @@ main {
 
 .hero-headline {
   width: 100%;
-  max-width: 880px;
+  max-width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -394,7 +394,7 @@ main {
   }
 
   .hero-headline {
-    max-width: 840px;
+    max-width: 760px;
   }
 
   .hero-headline-copy {
@@ -499,7 +499,7 @@ main {
   }
 
   .hero-headline {
-    max-width: 512px;
+    max-width: 320px;
   }
 
   .hero-headline-copy {
@@ -507,15 +507,15 @@ main {
   }
 
   .mac-sticker {
-    height: 57px;
+    height: 64px;
   }
 
   .figma-logo-sticker {
-    height: 57px;
+    height: 64px;
   }
 
   .heart-sticker {
-    height: 57px;
+    height: 64px;
   }
 
   /* Project Section */

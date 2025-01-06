@@ -59,3 +59,31 @@
   font-display: swap;
   src: local("☺"), url("/assets/Fonts/source-serif-pro-400-normal.woff") format("woff");
 }
+
+
+
+/* Blatant */
+
+@font-face {
+  font-family: "Blatant";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/blatant-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Blatant";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/blatant-400.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Blatant";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/blatant-400.woff") format("woff");
+}
