@@ -45,7 +45,8 @@
   --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: var(--font-ui), system-ui, sans-serif;
   --font-content: Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-display: var(--font-title), system-ui, sans-serif;
+  --font-display: var(--font-special), system-ui, sans-serif;
+  --font-special: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -71,7 +72,6 @@
   --fontWeight-regular: 400;
   --fontWeight-medium: 600;
   --fontWeight-bold: 700;
-  --fontWeight-extrabold: 900;
 
   --letterSpacing-tighter: -0.05em;
   --letterSpacing-tight: -0.025em;
@@ -79,16 +79,16 @@
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;
 
-  --letterSpacing-display: -0.05em;
+  --letterSpacing-display: -0.075em;
   --letterSpacing-content: 0.025em;
-  --letterSpacing-badge: 0.125em;
+  --letterSpacing-badge: 0.05em;
   --letterSpacing-eyebrow: 0.25em;
 
   --display-letterspacing: var(--letterSpacing-display);
-  --display-xxl: var(--fontWeight-extrabold) var(--fontSize-103) / 95% var(--font-display);
-  --display-xl: var(--fontWeight-extrabold) var(--fontSize-91) / 95% var(--font-display);
-  --display-m: var(--fontWeight-extrabold) var(--fontSize-81) / 100% var(--font-display);
-  --display-xxxs: var(--fontWeight-extrabold) var(--fontSize-64) / 100% var(--font-display);
+  --display-xxl: var(--fontWeight-bold) var(--fontSize-103) / 95% var(--font-display);
+  --display-xl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
+  --display-m: var(--fontWeight-bold) var(--fontSize-81) / 100% var(--font-display);
+  --display-xxxs: var(--fontWeight-bold) var(--fontSize-64) / 100% var(--font-display);
 
   --title1-letterspacing: var(--letterSpacing-tight);
   --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-title);
@@ -187,16 +187,16 @@
   --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
 
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
-  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-ui);
-  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-ui);
-  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-ui);
-  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-ui);
+  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-special);
+  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-special);
+  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-special);
+  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-special);
 
   --badge-letterspacing: var(--letterSpacing-badge);
-  --badge-xxl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-ui);
-  --badge-xl: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
-  --badge-m: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
-  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
+  --badge-xxl: var(--fontWeight-bold) var(--fontSize-18) / 100% var(--font-special);
+  --badge-xl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-special);
+  --badge-m: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-special);
+  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-special);
 
   --button-letterspacing: var(--letterSpacing-wide);
   --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
