@@ -45,8 +45,8 @@
   --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: var(--font-ui), system-ui, sans-serif;
   --font-content: Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-display: var(--font-special), system-ui, sans-serif;
-  --font-special: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-display: var(--font-mono), system-ui, sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -187,16 +187,16 @@
   --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
 
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
-  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-special);
-  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-special);
-  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-special);
-  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-special);
+  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-mono);
+  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-mono);
+  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-mono);
+  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-mono);
 
   --badge-letterspacing: var(--letterSpacing-badge);
-  --badge-xxl: var(--fontWeight-bold) var(--fontSize-18) / 100% var(--font-special);
-  --badge-xl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-special);
-  --badge-m: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-special);
-  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-special);
+  --badge-xxl: var(--fontWeight-bold) var(--fontSize-18) / 100% var(--font-mono);
+  --badge-xl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-mono);
+  --badge-m: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-mono);
+  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-mono);
 
   --button-letterspacing: var(--letterSpacing-wide);
   --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
@@ -233,4 +233,10 @@
   --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
   --navbarlink-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
   --navbarlink-xxxs: var(--fontWeight-medium) var(--fontSize-25) / 140% var(--font-ui);
+
+  --logo-letterspacing: var(--letterSpacing-tighter);
+  --logo-xxl: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-mono);
+  --logo-xl: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-mono);
+  --logo-m: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-mono);
+  --logo-xxxs: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-mono);
 }
