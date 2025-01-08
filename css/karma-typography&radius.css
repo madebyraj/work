@@ -42,10 +42,10 @@
 
   /* ---------------------------- */
 
-  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-title: Basis Grotesque Arabic Pro, var(--font-ui), system-ui, sans-serif;
-  --font-content: Source Serif Pro, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-display: Blatant, var(--font-title), system-ui, sans-serif;
+  --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-title: var(--font-ui), system-ui, sans-serif;
+  --font-content: Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: var(--font-title), system-ui, sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -79,8 +79,8 @@
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;
 
-  --letterSpacing-display: -0.025em;
-  --letterSpacing-content: 0.0125em;
+  --letterSpacing-display: -0.05em;
+  --letterSpacing-content: 0.025em;
   --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.25em;
 
