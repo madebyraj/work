@@ -1,35 +1,23 @@
-/* Basis Grotesque Arabic Pro */
+/* Airbnb Cereal VF */
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
+  font-family: "Airbnb Cereal VF";
   font-style: normal;
-  font-weight: 900;
+  font-weight: 1 1000;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/basis-grotesque-arabic-pro-900.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/AirbnbCerealVF.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/basis-grotesque-arabic-pro-700.woff") format("woff");
-}
+
+
+/* PP Editorial New */
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
+  font-family: "PP Editorial New";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 1 1000;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/basis-grotesque-arabic-pro-500.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Basis Grotesque Arabic Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/basis-grotesque-arabic-pro-400.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/PPEditorialNew-Regular.woff") format("woff");
 }
 
 
@@ -47,43 +35,7 @@
 @font-face {
   font-family: "Source Serif Pro";
   font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-400-normal.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local("☺"), url("/assets/Fonts/source-serif-pro-400-normal.woff") format("woff");
-}
-
-
-
-/* Blatant */
-
-@font-face {
-  font-family: "Blatant";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/blatant-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Blatant";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/blatant-400.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Blatant";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/blatant-400.woff") format("woff");
 }

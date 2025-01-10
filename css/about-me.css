@@ -49,6 +49,7 @@ body {
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
+  padding-top: var(--globalnav-height);
 }
 
 main {
@@ -61,8 +62,8 @@ main {
 
 .about-section {
   margin: auto;
-  max-width: var(--content-max-width);
-  padding: 48px 0;
+  max-width: var(--global-max-width);
+  padding: 96px 0 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +109,7 @@ main {
 
 .outside-of-work {
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   padding: 48px 0 96px;
   display: flex;
   flex-direction: column;
@@ -242,7 +243,7 @@ main {
   /* About Section */
 
   .about-section {
-    padding: 48px 0;
+    padding: 96px 0 48px;
     gap: var(--spacing-48);
   }
 
@@ -295,7 +296,7 @@ main {
   /* About Section */
 
   .about-section {
-    padding: 40px 0;
+    padding: 80px 0 40px;
     gap: var(--spacing-32);
   }
 

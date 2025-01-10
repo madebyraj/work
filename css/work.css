@@ -1,0 +1,193 @@
+/* Linked CSS Files */
+
+@import url("/karma-semantics.css");
+@import url("/karma-typography&radius.css");
+
+/*  Animations */
+
+@keyframes pageLoading {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #889296;
+}
+
+@supports (scrollbar-color: #889296 transparent) {
+    * {
+        scrollbar-color: #889296 transparent;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background-grouped);
+    cursor: var(--cursor-default), auto;
+    animation: pageLoading 1000ms;
+    animation-timing-function: var(--bounce-effect);
+    position: relative;
+    padding-top: var(--globalnav-height);
+}
+
+main {
+    position: relative;
+    margin: auto;
+    min-height: 100vh;
+}
+
+
+/* Project Section */
+
+#project-section {
+    overflow: visible;
+    margin: auto;
+    padding: 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+#project-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.project-wrapper {
+    width: 100%;
+    background: var(--fill);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    transition: var(--tile-transition);
+    max-width: var(--global-max-width);
+}
+
+.project:hover {
+    cursor: var(--cursor-pointer), auto;
+}
+
+.project-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px;
+    width: 100%;
+    height: 100%;
+}
+
+.project-badge {
+    font: var(--badge-m);
+    letter-spacing: var(--badge-letterspacing);
+    color: var(--text-tertiary);
+    text-align: center;
+}
+
+.project-title {
+    font: var(--title2-m);
+    letter-spacing: var(--title2-letterspacing);
+    color: var(--text);
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.project-cover {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1068px) {}
+
+@media (max-width: 734px) {
+
+    /* Project Section */
+
+    #project-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .project {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .project-information {
+        padding: 48px 48px 0;
+    }
+
+    .project-title {
+        font: var(--title2-xxxs);
+    }
+
+    .project-badge {
+        font: var(--badge-xxxs);
+    }
+
+    /* Writing Section */
+
+    #writing-section {
+        padding: 40px 0px 80px;
+        gap: 32px;
+    }
+
+    .writing-section-headline {
+        font: var(--eyebrow-xxxs);
+    }
+
+    #writing-container {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 32px;
+    }
+
+    .article {
+        gap: 16px;
+    }
+
+    .article-title {
+        font: var(--title4-xxxs-emphasized);
+    }
+
+    .article-description {
+        font: var(--body3-xxxs);
+    }
+}

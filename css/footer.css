@@ -24,100 +24,48 @@
   margin: auto;
   max-width: var(--global-max-width);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  gap: 8px;
+  gap: 32px;
+  border-top: 1px solid var(--globalfooter-keyline-color);
 }
 
 .social-links {
-  margin-top: 16px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 
 .footer-link {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--border-radius-8);
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-  outline-offset: 0.75rem;
-  outline: var(--button-outline);
-  transition: var(--button-transition);
 }
 
 .footer-link:hover {
   cursor: var(--cursor-pointer), auto;
-  outline-offset: 0;
 }
 
-.footer-link:active {
-  transform: var(--button-scale-active);
-}
-
-#instagram-link {
-  background: #0095f6;
-}
-
-#instagram-link:hover {
-  outline: 4px solid rgba(0, 149, 246, 0.5);
-}
-
-#instagram-link:active {
-  outline: 4px solid rgba(0, 149, 246, 0.5);
-}
-
-#twitter-link {
-  background: #1da1f2;
-}
-
-#twitter-link:hover {
-  outline: 4px solid rgba(29, 161, 242, 0.5);
-}
-
-#twitter-link:active {
-  outline: 4px solid rgba(29, 161, 242, 0.5);
-}
-
-#linkedin-link {
-  background: #0088cc;
-}
-
-#linkedin-link:hover {
-  outline: 4px solid rgba(0, 136, 204, 0.5);
-}
-
-#linkedin-link:active {
-  outline: 4px solid rgba(0, 136, 204, 0.5);
-}
-
-#mail-link {
-  background: #ea4335;
-}
-
-#mail-link:hover {
-  outline: 4px solid rgba(234, 67, 53, 0.5);
-}
-
-#mail-link:active {
-  outline: 4px solid rgba(234, 67, 53, 0.5);
+.footer-link:hover .link-svg{
+  fill: var(--globalfooter-color-hover);
 }
 
 .link-svg {
-  fill: var(--button-color);
-  height: 22px;
-  width: 22px;
+  fill: var(--globalfooter-color);
+  height: 28px;
+  width: 28px;
 }
 
 .design-and-code {
-  font: var(--body2-xl);
-  letter-spacing: var(--body2-letterspacing);
-  color: var(--text-medium-emphasis);
+  font: var(--body3-m-emphasized);
+  letter-spacing: var(--body3-letterspacing);
+  color: var(--globalfooter-color);
 }
 
 /* Small Desktop */
@@ -137,9 +85,6 @@
     padding: 40px 0px;
   }
 
-  .design-and-code {
-    font: var(--body2-m);
-  }
 }
 
 /* Mobile */
@@ -151,10 +96,9 @@
 
   .footer-container {
     padding: 40px 0px;
-    flex-direction: column;
   }
 
   .design-and-code {
-    font: var(--body2-xxxs);
+    font: var(--body3-xxxs-emphasized);
   }
 }

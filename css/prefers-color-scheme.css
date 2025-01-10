@@ -4,13 +4,18 @@
 @import url("/css/karma-semantics.css");
 
 [data-theme="light"] {
-  --globalnav-background: var(--chalk-100);
-  --globalnav-background-opened: var(--chalk-100);
+  --globalnav-background: rgba(255, 255, 255, 0.72);
+  --globalnav-background-opened: rgba(255, 255, 255);
+  --globalnav-keyline-color: rgba(0, 0, 0, .08);
+  --globalnav-color: rgba(0, 0, 0, .96);
+  --globalnav-color-hover: rgba(4, 104, 220);
+  --globalnav-color-disabled: rgba(0, 0, 0, .36);
 
-  --globalnav-shadow: 0px 2px 4px 0px var(--slate-alpha-15),
-    1px 1px 0px 0px var(--slate-15) inset, 1px 1px 0px 0px var(--slate-5);
-
-  --globalfooter-background: var(--slate-5);
+  --globalfooter-background: rgb(255, 255, 255);
+  --globalfooter-keyline-color: rgba(0, 0, 0, .08);
+  --globalfooter-color: rgba(0, 0, 0, .56);
+  --globalfooter-color-hover: rgba(0, 0, 0, .96);
+  --globalfooter-color-disabled: rgba(0, 0, 0, .36);
 
   --hero-section-background: linear-gradient(180deg,
       #230c70 0%,
@@ -31,6 +36,18 @@
 
   --background-primary: var(--slate-0);
   --background-secondary: var(--slate-5);
+
+  --background: rgb(255, 255, 255);
+  --background-grouped: rgb(244, 244, 242);
+
+  --fill: rgb(255, 255, 255);
+  --fill-secondary: rgb(250, 250, 248);
+  --fill-tertiary: rgb(244, 244, 242);
+
+  --text: rgba(0, 0, 0, 0.96);
+  --text-secondary: rgba(0, 0, 0, 0.76);
+  --text-tertiary: rgba(0, 0, 0, 0.56);
+  --text-quaternary: rgba(0, 0, 0, 0.36);
 
   --text-highest-emphasis: var(--slate-alpha-92);
   --text-high-emphasis: var(--slate-alpha-75);

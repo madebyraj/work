@@ -41,12 +41,12 @@ html {
 }
 
 body {
-  padding-top: var(--globalnav-wrapper-height);
   background: var(--background-primary);
   cursor: var(--cursor-default), auto;
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
+  padding-top: var(--globalnav-height);
 }
 
 main {
