@@ -120,7 +120,7 @@ main {
 }
 
 .project-title {
-    font: var(--title2-m);
+    font: var(--title2-m-emphasized);
     letter-spacing: var(--title2-letterspacing);
     color: var(--text);
     text-overflow: ellipsis;
@@ -155,39 +155,10 @@ main {
     }
 
     .project-title {
-        font: var(--title2-xxxs);
+        font: var(--title2-xxxs-emphasized);
     }
 
     .project-badge {
         font: var(--badge-xxxs);
-    }
-
-    /* Writing Section */
-
-    #writing-section {
-        padding: 40px 0px 80px;
-        gap: 32px;
-    }
-
-    .writing-section-headline {
-        font: var(--eyebrow-xxxs);
-    }
-
-    #writing-container {
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 32px;
-    }
-
-    .article {
-        gap: 16px;
-    }
-
-    .article-title {
-        font: var(--title4-xxxs-emphasized);
-    }
-
-    .article-description {
-        font: var(--body3-xxxs);
     }
 }

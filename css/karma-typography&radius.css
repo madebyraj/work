@@ -42,8 +42,8 @@
 
   /* ---------------------------- */
 
-  --font-ui: Airbnb Cereal VF, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-title: PP Editorial New, var(--font-ui), system-ui, sans-serif;
+  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-title: var(--font-ui), system-ui, sans-serif;
   --font-content: Source Serif Pro, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-display: var(--font-mono), system-ui, sans-serif;
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -73,8 +73,8 @@
   --fontWeight-medium: 500;
   --fontWeight-bold: 700;
 
-  --letterSpacing-tighter: -0.025em;
-  --letterSpacing-tight: -0.0125em;
+  --letterSpacing-tighter: -0.05em;
+  --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;

@@ -1,23 +1,27 @@
-/* Airbnb Cereal VF */
+/* Basis Grotesque Arabic Pro */
 
 @font-face {
-  font-family: "Airbnb Cereal VF";
+  font-family: "Basis Grotesque Arabic Pro";
   font-style: normal;
-  font-weight: 1 1000;
+  font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/AirbnbCerealVF.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
 }
 
-
-
-/* PP Editorial New */
+@font-face {
+  font-family: "Basis Grotesque Arabic Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
+}
 
 @font-face {
-  font-family: "PP Editorial New";
+  font-family: "Basis Grotesque Arabic Pro";
   font-style: normal;
-  font-weight: 1 1000;
+  font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/PPEditorialNew-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
 }
 
 

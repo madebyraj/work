@@ -76,7 +76,8 @@ body {
 main {
   padding: 60px 0 40px;
   margin: auto;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -97,10 +98,13 @@ main {
 .hello-word {
   height: 96px;
   width: 100%;
+  overflow: visible;
 }
 
-.hello-word path {
-  fill: rgba(255, 255, 255, 0.80);
+.hello-path {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.80);
+  stroke-width: 2;
 }
 
 .availability-badge {
@@ -113,8 +117,8 @@ main {
       rgba(255, 255, 255, 0.30) 50%,
       rgba(255, 255, 255, 0.10) 75%,
       rgba(255, 255, 255, 0.10) 100%);
-  padding: 9px 11px;
-  border-radius: var(--border-radius-8);
+  padding: 8px 12px;
+  border-radius: var(--border-radius-full);
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
   color: rgba(255, 255, 255, 0.80);
@@ -211,8 +215,8 @@ main {
 }
 
 .footer-link {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,13 +236,11 @@ main {
 
 .link-svg path {
   fill: rgba(255, 255, 255, 0.60);
-  height: 28px;
-  width: 28px;
 }
 
 .design-and-code {
-  font: var(--body3-m-emphasized);
-  letter-spacing: var(--body3-letterspacing);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
   color: rgba(255, 255, 255, 0.60);
 }
 
@@ -247,10 +249,6 @@ main {
 @media (max-width: 1068px) {}
 
 @media (max-width: 734px) {
-
-  .hello-word {
-    height: 80px;
-  }
 
   .availability-badge {
     font: var(--badge-xxxs);
@@ -265,7 +263,7 @@ main {
   }
 
   .design-and-code {
-    font: var(--body3-xxxs-emphasized);
+    font: var(--body2-xxxs);
   }
 
 }

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         delay: index * 0.3, // Delay each element based on its index
         scrollTrigger: {
           trigger: element,
-          start: "top 95%", // Start animation when the top of element is 85% from the top of the viewport
+          start: "top 97%", // Start animation when the top of element is 85% from the top of the viewport
           end: "top 80%", // End animation when the top of element is 20% from the top of the viewport
           scrub: 1, // Smoothly scrub the animation as you scroll
         },
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           delay: index * 0.3, // Delay each element based on its index
           scrollTrigger: {
             trigger: element,
-            start: "top 95%", // Start animation when the top of element is 85% from the top of the viewport
+            start: "top 97%", // Start animation when the top of element is 85% from the top of the viewport
             end: "top 80%", // End animation when the top of element is 20% from the top of the viewport
             scrub: 1, // Smoothly scrub the animation as you scroll
           },
@@ -187,4 +187,41 @@ document.addEventListener("DOMContentLoaded", (event) => {
   window.addEventListener("resize", () => {
     showSlide(currentSlide, false);
   });
+});
+
+// Wait for DOM to load
+document.addEventListener("DOMContentLoaded", function () {
+  const path = document.querySelector(".hello-path");
+
+  // Get the total length of the path
+  const pathLength = path.getTotalLength();
+
+  // Set initial state
+  gsap.set(path, {
+    strokeDasharray: pathLength,
+    strokeDashoffset: pathLength,
+  });
+
+  // Create timeline for animation
+  const tl = gsap.timeline();
+
+  // Drawing animation
+  tl.to(path, {
+    duration: 2.5,
+    strokeDashoffset: 0,
+    ease: "power2.inOut",
+  })
+    // Fill animation
+    .to(path, {
+      duration: 1,
+      fill: "rgba(255, 255, 255, 0.60)",
+      strokeWidth: 0,
+      ease: "power2.inOut",
+    })
+    // Optional: Add bounce effect
+    .from(path, {
+      duration: 0.5,
+      transformOrigin: "center center",
+      ease: "elastic.out(1, 0.3)",
+    });
 });

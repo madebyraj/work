@@ -41,8 +41,8 @@
 }
 
 .footer-link {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,13 +58,11 @@
 
 .link-svg {
   fill: var(--globalfooter-color);
-  height: 28px;
-  width: 28px;
 }
 
 .design-and-code {
-  font: var(--body3-m-emphasized);
-  letter-spacing: var(--body3-letterspacing);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
   color: var(--globalfooter-color);
 }
 
@@ -99,6 +97,6 @@
   }
 
   .design-and-code {
-    font: var(--body3-xxxs-emphasized);
+    font: var(--body2-xxxs);
   }
 }
