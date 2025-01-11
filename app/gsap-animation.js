@@ -207,14 +207,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Drawing animation
   tl.to(path, {
-    duration: 2.5,
+    duration: 4,
     strokeDashoffset: 0,
     ease: "power2.inOut",
   })
     // Fill animation
     .to(path, {
       duration: 1,
-      fill: "rgba(255, 255, 255, 0.60)",
+      fill: "rgba(255, 255, 255, 0.70)",
       strokeWidth: 0,
       ease: "power2.inOut",
     })

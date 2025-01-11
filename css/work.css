@@ -97,6 +97,22 @@ main {
     max-width: var(--global-max-width);
 }
 
+#project-1 .project-information {
+    order: 2;
+}
+
+#project-3 .project-information {
+    order: 2;
+}
+
+#project-1 .project-cover {
+    order: 1;
+}
+
+#project-3 .project-cover {
+    order: 1;
+}
+
 .project:hover {
     cursor: var(--cursor-pointer), auto;
 }
@@ -148,6 +164,22 @@ main {
 
     .project {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    #project-1 .project-information {
+        order: 1;
+    }
+    
+    #project-3 .project-information {
+        order: 1;
+    }
+
+    #project-1 .project-cover {
+        order: 2;
+    }
+    
+    #project-3 .project-cover {
+        order: 2;
     }
 
     .project-information {

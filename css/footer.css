@@ -52,7 +52,7 @@
   cursor: var(--cursor-pointer), auto;
 }
 
-.footer-link:hover .link-svg{
+.footer-link:hover .link-svg {
   fill: var(--globalfooter-color-hover);
 }
 

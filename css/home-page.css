@@ -45,7 +45,6 @@ body {
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
-  min-height: 100vh;
 }
 
 .body-background {
@@ -58,7 +57,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/assets/global/home-background.png);
+  background-image: url(/assets/global/home-background.webp);
 }
 
 .body-background-blur-overlay {
@@ -78,6 +77,7 @@ main {
   margin: auto;
   height: 100vh;
   height: 100dvh;
+  height: 100svh;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ main {
 
 .hello-path {
   fill: none;
-  stroke: rgba(255, 255, 255, 0.80);
+  stroke: rgba(255, 255, 255, 0.9);
   stroke-width: 2;
 }
 
@@ -121,7 +121,7 @@ main {
   border-radius: var(--border-radius-full);
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.9);
   width: max-content;
   display: flex;
   align-items: center;
@@ -171,7 +171,7 @@ main {
 }
 
 .link-to-page:hover .link-copy {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 
@@ -185,7 +185,7 @@ main {
 .link-copy {
   font: var(--smallbutton-m);
   letter-spacing: var(--smallbutton-letterspacing);
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Footer */
@@ -231,17 +231,17 @@ main {
 }
 
 .footer-link:hover .link-svg path {
-  fill: rgba(255, 255, 255, 0.80);
+  fill: rgba(255, 255, 255, 0.9);
 }
 
 .link-svg path {
-  fill: rgba(255, 255, 255, 0.60);
+  fill: rgba(255, 255, 255, 0.7);
 }
 
 .design-and-code {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* @media (max-width: 1400px) {} */

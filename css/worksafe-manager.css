@@ -99,13 +99,13 @@ main {
 .title {
   font: var(--title2-m-emphasized);
   letter-spacing: var(--title2-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .project-overview {
   font: var(--body1-m);
   letter-spacing: var(--body1-letterspacing);
-  color: var(--text-medium-emphasis);
+  color: var(--text-secondary);
 }
 
 .project-information {
@@ -119,40 +119,40 @@ main {
 .role h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .role p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-medium-emphasis);
+  color: var(--text-secondary);
 }
 
 .timeline h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .timeline p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-medium-emphasis);
+  color: var(--text-secondary);
 }
 
 .tools h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
   margin-bottom: 8px;
 }
 
 .tools p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-medium-emphasis);
+  color: var(--text-secondary);
 }
 
 .line {
@@ -171,7 +171,7 @@ main {
 .problem-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .problem-section-copy-wrapper {
@@ -183,7 +183,7 @@ main {
 .problem-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 #process-section {
@@ -196,7 +196,7 @@ main {
 .process-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .process-img {
@@ -218,13 +218,13 @@ main {
 .research-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .research-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .link-one {
@@ -280,7 +280,7 @@ main {
 .pain-point-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .main-pain-point-section {
@@ -298,7 +298,7 @@ main {
 .employees-pain-point-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .pain-point-wrapper {
@@ -310,7 +310,7 @@ main {
 .pain-point {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .management-pain-point {
@@ -322,7 +322,7 @@ main {
 .management-pain-point-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 #ideation-section {
@@ -335,13 +335,13 @@ main {
 .ideation-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .hmw-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .hmw-question-wrapper {
@@ -353,7 +353,7 @@ main {
 .hmw-question {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .sketches-img {
@@ -375,13 +375,13 @@ main {
 .task-flow-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .task-flow-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .employees-task-img {
@@ -412,13 +412,13 @@ main {
 .solution-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .solution-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 #main-solution-wrapper {
@@ -444,7 +444,7 @@ main {
 .solution-employees-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .solution-employees-copy-wrapper {
@@ -456,7 +456,7 @@ main {
 .solution-employees-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .solution-v-app {
@@ -483,7 +483,7 @@ main {
 .solution-management-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .solution-management-copy-wrapper {
@@ -495,7 +495,7 @@ main {
 .solution-management-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .solution-v-web {
@@ -515,13 +515,13 @@ main {
 .map-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .map-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .main-map {
@@ -557,7 +557,7 @@ main {
 .key-takeaways-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .key-takeaways-section-copy-wrapper {
@@ -569,7 +569,7 @@ main {
 .key-takeaways-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 #next-step-section {
@@ -582,13 +582,13 @@ main {
 .next-step-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .next-step-section-copy {
   font: var(--content-m);
   letter-spacing: var(--content-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .finish-section {
@@ -604,7 +604,7 @@ main {
 .finish-section-heading {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
   text-align: center;
 }
 

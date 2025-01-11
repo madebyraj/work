@@ -42,7 +42,7 @@
   /* Semantics/Component Specific */
 
   --globalnav-wrapper-height: 100px;
-  --globalnav-height: 56px;
+  --globalnav-height: 52px;
   --globalnav-max-width: 1448px;
   --globalnav-background: rgba(255, 255, 255, 0.72);
   --globalnav-background-opened: rgba(255, 255, 255);

@@ -46,7 +46,7 @@
   --font-title: var(--font-ui), system-ui, sans-serif;
   --font-content: Source Serif Pro, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-display: var(--font-mono), system-ui, sans-serif;
-  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: Basis Grotesque Arabic Pro, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -81,14 +81,14 @@
 
   --letterSpacing-display: -0.075em;
   --letterSpacing-content: 0.025em;
-  --letterSpacing-badge: 0.05em;
+  --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.25em;
 
   --display-letterspacing: var(--letterSpacing-display);
-  --display-xxl: var(--fontWeight-bold) var(--fontSize-103) / 95% var(--font-display);
-  --display-xl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
-  --display-m: var(--fontWeight-bold) var(--fontSize-81) / 100% var(--font-display);
-  --display-xxxs: var(--fontWeight-bold) var(--fontSize-64) / 100% var(--font-display);
+  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
+  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-display);
+  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-display);
+  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-display);
 
   --title1-letterspacing: var(--letterSpacing-tight);
   --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-title);
