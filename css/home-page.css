@@ -162,7 +162,7 @@ main {
 }
 
 .link-to-page:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
 }
 
 .link-to-page:focus {

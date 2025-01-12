@@ -84,7 +84,7 @@
 }
 
 #link-logo:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
 }
 
 #link-logo:hover .logo-copy {
@@ -125,7 +125,7 @@
 }
 
 .nav-link:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
   color: var(--globalnav-color-hover);
 }
 
@@ -134,12 +134,8 @@
 }
 
 .current {
-  cursor: default, auto !important;
+  cursor: not-allowed !important;
   color: var(--globalnav-color-disabled) !important;
-}
-
-.current:hover {
-  cursor: default, auto !important;
 }
 
 .nav-cta {

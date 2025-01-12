@@ -49,7 +49,7 @@
 }
 
 .footer-link:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
 }
 
 .footer-link:hover .link-svg {

@@ -244,7 +244,7 @@ main {
 }
 
 .full-research:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
 }
 
 .full-research:hover .link-copy {
@@ -619,7 +619,7 @@ main {
 }
 
 .back-to-home:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
 }
 
 .back-to-home:hover .link-copy {

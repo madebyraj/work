@@ -113,7 +113,7 @@ main {
 }
 
 .project:hover {
-    cursor: pointer, auto;
+    cursor: pointer;
 }
 
 .project-information {

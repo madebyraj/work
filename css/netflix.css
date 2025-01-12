@@ -806,7 +806,7 @@ main {
 }
 
 .back-to-home:hover {
-  cursor: pointer, auto;
+  cursor: pointer;
 }
 
 .back-to-home:hover .link-copy {
