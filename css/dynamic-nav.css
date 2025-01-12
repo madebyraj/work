@@ -84,7 +84,7 @@
 }
 
 #link-logo:hover {
-  cursor: var(--cursor-pointer), auto;
+  cursor: pointer, auto;
 }
 
 #link-logo:hover .logo-copy {
@@ -119,13 +119,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font: var(--navbarlink-xl);
+  font: var(--navbarlink-m);
   letter-spacing: var(--navbarlink-letterspacing);
   color: var(--globalnav-color);
 }
 
 .nav-link:hover {
-  cursor: var(--cursor-pointer), auto;
+  cursor: pointer, auto;
   color: var(--globalnav-color-hover);
 }
 
@@ -134,8 +134,34 @@
 }
 
 .current {
-  cursor: var(--cursor-not-allowed), auto !important;
+  cursor: default, auto !important;
   color: var(--globalnav-color-disabled) !important;
+}
+
+.current:hover {
+  cursor: default, auto !important;
+}
+
+.nav-cta {
+  margin-left: 28px;
+  text-decoration: none;
+  background: var(--button-background);
+  padding: 4px 10px;
+  font: var(--navbarlink-m);
+  letter-spacing: var(--navbarlink-letterspacing);
+  color: var(--button-color);
+  border-radius: var(--border-radius-full);
+  transition: var(--bounce-effect);
+}
+
+.nav-cta:hover {
+  cursor: pointer;
+  background: var(--button-background-hover);
+}
+
+.nav-cta:active {
+  cursor: pointer;
+  background: var(--button-background-active);
 }
 
 /* Hidden Items */
@@ -167,7 +193,7 @@
   .main-nav {
     padding: 0 0 0 16px;
     align-items: start;
-    transition: 300ms cubic-bezier(0.4, 0, 0.6, 1) 20ms;
+    transition: 200ms cubic-bezier(.4, 0, .6, 1) 80ms;
     justify-content: space-between;
   }
 
@@ -178,20 +204,23 @@
     left: 0;
     height: 100vh;
     animation: globalNavbaropen;
-    transition: 300ms cubic-bezier(0.4, 0, 0.6, 1) 10ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+    transition: background 400ms cubic-bezier(.4, 0, .6, 1) 80ms;
     background: var(--globalnav-background-opened);
   }
 
   .nav-link {
     font: var(--navbarlink-xxxs);
     justify-content: start;
-    padding: 8px 0;
+    padding: 4px 0;
     min-width: 100%;
   }
 
+  .nav-cta {
+    margin-left: 0;
+  }
+
   .right-side-container {
-    gap: 12px;
+    gap: 0;
   }
 
   .nav-container.active .nav-cta,
@@ -217,7 +246,7 @@
     justify-content: start;
     top: 0;
     left: 0;
-    gap: 0;
+    gap: 4px;
     width: 100%;
     padding: 0 40px 0;
     height: 100vh;
@@ -243,7 +272,7 @@
 
   .menu-icon {
     position: relative;
-    width: 22px;
+    width: 20px;
     height: var(--globalnav-height);
   }
 
@@ -300,9 +329,9 @@
   }
 
   .nav-container.active .main-nav .inner-right-side-container li {
-    transition: opacity 0.5s cubic-bezier(0.4, 0, 0.6, 1);
+    transition: color .32s cubic-bezier(.4, 0, .6, 1);
     animation: navbarLinks;
-    animation-duration: 0.5s;
+    animation-duration: .32s;
     animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
     opacity: 1;
     visibility: visible;

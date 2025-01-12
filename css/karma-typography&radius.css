@@ -232,7 +232,7 @@
   --navbarlink-xxl: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
   --navbarlink-xl: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
   --navbarlink-m: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
-  --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-32) / 140% var(--font-ui);
+  --navbarlink-xxxs: var(--fontWeight-bold) var(--fontSize-28) / 140% var(--font-ui);
 
   --logo-letterspacing: var(--letterSpacing-normal);
   --logo-xxl: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-ui);

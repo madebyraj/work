@@ -44,8 +44,7 @@ html {
 
 body {
   padding-top: var(--globalnav-wrapper-height);
-  background: var(--background-primary);
-  cursor: var(--cursor-default), auto;
+  background: var(--background);
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
@@ -74,7 +73,7 @@ main {
 .about-section-headline {
   font: var(--eyebrow-m);
   letter-spacing: var(--eyebrow-letterspacing);
-  color: var(--text-medium-emphasis);
+  color: var(--text-tertiary);
 }
 
 .about-section-story-wrapper {
@@ -102,7 +101,7 @@ main {
 .journey-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-high-emphasis);
+  color: var(--text);
 }
 
 /* Outside of work */
@@ -121,7 +120,7 @@ main {
 .ow-section-headline {
   font: var(--eyebrow-m);
   letter-spacing: var(--eyebrow-letterspacing);
-  color: var(--text-medium-emphasis);
+  color: var(--text-tertiary);
 }
 
 .cricket-section {
@@ -147,13 +146,13 @@ main {
 .cricket-story-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .cricket-story-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-high-emphasis);
+  color: var(--text-secondary);
 }
 
 .snap-and-music-section {
@@ -172,7 +171,7 @@ main {
 .snap-section-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .snaps {
@@ -192,7 +191,7 @@ main {
 .snap-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-high-emphasis);
+  color: var(--text-secondary);
 }
 
 .music-section {
@@ -205,7 +204,7 @@ main {
 .music-section-heading {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: var(--text-highest-emphasis);
+  color: var(--text);
 }
 
 .music-covers {
@@ -225,7 +224,7 @@ main {
 .music-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-high-emphasis);
+  color: var(--text-secondary);
 }
 
 /* Small Desktop */
