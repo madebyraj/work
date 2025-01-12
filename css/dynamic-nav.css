@@ -146,9 +146,9 @@
   margin-left: 28px;
   text-decoration: none;
   background: var(--button-background);
-  padding: 4px 10px;
-  font: var(--navbarlink-m);
-  letter-spacing: var(--navbarlink-letterspacing);
+  padding: 5px 10px;
+  font: var(--smallbutton-m);
+  letter-spacing: var(--smallbutton-letterspacing);
   color: var(--button-color);
   border-radius: var(--border-radius-full);
   transition: var(--bounce-effect);
@@ -217,6 +217,7 @@
 
   .nav-cta {
     margin-left: 0;
+    font: var(--smallbutton-xxxs);
   }
 
   .right-side-container {

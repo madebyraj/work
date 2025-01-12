@@ -17,9 +17,6 @@
   /* Transitions */
 
   --bounce-effect: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  --outline-hover-effect: opacity 0.3s ease-out, outline-color 0.15s ease-out,
-    outline-offset 0.15s ease-out, outline-width 0.15s ease-out,
-    transform 0.15s ease-out;
 
   /* --Blur-- */
 
@@ -34,7 +31,7 @@
 
   --globalnav-wrapper-height: 100px;
   --globalnav-height: 52px;
-  --globalnav-max-width: 1448px;
+  --globalnav-max-width: var(--global-max-width);
   --globalnav-background: rgba(255, 255, 255, 0.72);
   --globalnav-background-opened: rgba(255, 255, 255);
   --globalnav-keyline-color: rgba(0, 0, 0, 0.08);

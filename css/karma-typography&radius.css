@@ -42,11 +42,11 @@
 
   /* ---------------------------- */
 
-  --font-ui: Basis Grotesque Arabic Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-ui: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-title: var(--font-ui), system-ui, sans-serif;
   --font-content: Source Serif Pro, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-display: var(--font-mono), system-ui, sans-serif;
-  --font-mono: Basis Grotesque Arabic Pro, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -81,8 +81,8 @@
 
   --letterSpacing-display: -0.075em;
   --letterSpacing-content: 0.025em;
-  --letterSpacing-badge: 0.125em;
-  --letterSpacing-eyebrow: 0.25em;
+  --letterSpacing-badge: 0.05em;
+  --letterSpacing-eyebrow: 0.125em;
 
   --display-letterspacing: var(--letterSpacing-display);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
@@ -205,22 +205,22 @@
   --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
   --largebutton-letterspacing: var(--letterSpacing-normal);
-  --largebutton-xxl: var(--fontWeight-medium) var(--fontSize-25) / 140% var(--font-ui);
-  --largebutton-xl: var(--fontWeight-medium) var(--fontSize-25) / 140% var(--font-ui);
-  --largebutton-m: var(--fontWeight-medium) var(--fontSize-25) / 140% var(--font-ui);
-  --largebutton-xxxs: var(--fontWeight-medium) var(--fontSize-25) / 140% var(--font-ui);
+  --largebutton-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-xl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-m: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-xxxs: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
 
   --mediumbutton-letterspacing: var(--letterSpacing-normal);
-  --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
-  --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
-  --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
-  --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
+  --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
 
-  --smallbutton-letterspacing: var(--letterSpacing-normal);
-  --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
-  --smallbutton-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
-  --smallbutton-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
-  --smallbutton-xxxs: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --smallbutton-letterspacing: var(--letterSpacing-wide);
+  --smallbutton-xxl: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+  --smallbutton-xl: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+  --smallbutton-m: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
+  --smallbutton-xxxs: var(--fontWeight-medium) var(--fontSize-14) / 140% var(--font-ui);
 
   --link-letterspacing: var(--letterSpacing-wide);
   --link-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);

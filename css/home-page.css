@@ -182,8 +182,8 @@ main {
 }
 
 .link-copy {
-  font: var(--smallbutton-m);
-  letter-spacing: var(--smallbutton-letterspacing);
+  font: var(--mediumbutton-m);
+  letter-spacing: var(--mediumbutton-letterspacing);
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -258,7 +258,7 @@ main {
   }
 
   .link-copy {
-    font: var(--smallbutton-xxxs);
+    font: var(--mediumbutton-xxxs);
   }
 
   .design-and-code {
