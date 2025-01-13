@@ -62,7 +62,7 @@
 
   --button-background: rgb(12, 126, 253);
   --button-background-hover: rgb(4, 104, 220);
-  --button-background-active: rgb(10, 96, 194);
+  --button-background-active: rgb(10, 91, 184);
   --button-color: rgb(255, 255, 255);
   --button-color-hover: var(--button-color);
   --button-color-active: var(--button-color-hover);
