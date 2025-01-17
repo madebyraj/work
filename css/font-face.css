@@ -26,21 +26,56 @@
 
 
 
-
-/* Source Serif Pro */
+/* Denton */
 
 @font-face {
-  font-family: "Source Serif Pro";
+  font-family: "Denton";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-700-normal.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Denton-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Source Serif Pro";
+  font-family: "Denton";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Denton-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Denton";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-400-normal.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Denton-Regular.woff") format("woff");
+}
+
+
+
+/* Denton Text */
+
+@font-face {
+  font-family: "Denton Text";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/DentonText-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Denton Text";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/DentonText-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Denton Text";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/DentonText-Regular.woff") format("woff");
 }

@@ -32,40 +32,40 @@
   --globalnav-wrapper-height: 100px;
   --globalnav-height: 52px;
   --globalnav-max-width: var(--global-max-width);
-  --globalnav-background: rgba(255, 255, 255, 0.72);
-  --globalnav-background-opened: rgba(255, 255, 255);
-  --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
-  --globalnav-color: rgba(0, 0, 0, 0.96);
-  --globalnav-color-hover: rgba(4, 104, 220);
-  --globalnav-color-disabled: rgba(0, 0, 0, 0.36);
+  --globalnav-background: rgba(22, 22, 23, 0.80);
+  --globalnav-background-opened: rgba(22, 22, 23);
+  --globalnav-keyline-color: rgba(255, 255, 255, 0.08);
+  --globalnav-color: rgba(255, 255, 255, 0.90);
+  --globalnav-color-hover: rgb(47, 141, 249);
+  --globalnav-color-disabled: rgba(255, 255, 255, 0.30);
 
-  --globalfooter-background: rgb(255, 255, 255);
-  --globalfooter-keyline-color: rgba(0, 0, 0, 0.08);
-  --globalfooter-color: rgba(0, 0, 0, 0.56);
-  --globalfooter-color-hover: rgba(0, 0, 0, 0.96);
-  --globalfooter-color-disabled: rgba(0, 0, 0, 0.36);
+  --globalfooter-background: rgb(22, 22, 23);
+  --globalfooter-keyline-color: rgba(255, 255, 255, 0.08);
+  --globalfooter-color: rgba(255, 255, 255, 0.50);
+  --globalfooter-color-hover: rgba(255, 255, 255, 0.90);
+  --globalfooter-color-disabled: rgba(255, 255, 255, 0.30);
 
-  --separator: rgb(0, 0, 0, 0.08);
-  --separator-muted: rgb(0, 0, 0, 0.04);
+  --separator: rgb(255, 255, 255, 0.08);
+  --separator-muted: rgb(255, 255, 255, 0.04);
 
-  --background: rgb(255, 255, 255);
-  --background-grouped: rgb(244, 244, 242);
+  --background: rgb(28, 28, 30);
+  --background-grouped: rgb(0, 0, 0);
 
-  --fill: rgb(255, 255, 255);
-  --fill-secondary: rgb(250, 250, 248);
-  --fill-tertiary: rgb(244, 244, 242);
+  --fill: rgb(22, 22, 23);
+  --fill-secondary: rgb(29, 29, 31);
+  --fill-tertiary: rgb(51, 51, 54);
 
-  --text: rgba(0, 0, 0, 0.96);
-  --text-secondary: rgba(0, 0, 0, 0.76);
-  --text-tertiary: rgba(0, 0, 0, 0.56);
-  --text-quaternary: rgba(0, 0, 0, 0.36);
+  --text: rgba(255, 255, 255);
+  --text-secondary: rgba(235, 235, 245, 0.70);
+  --text-tertiary: rgba(235, 235, 245, 0.50);
+  --text-quaternary: rgba(235, 235, 245, 0.30);
 
   --button-background: rgb(12, 126, 253);
-  --button-background-hover: rgb(4, 104, 220);
-  --button-background-active: rgb(10, 91, 184);
+  --button-background-hover: rgb(47, 141, 249);
+  --button-background-active: rgb(77, 153, 239);
   --button-color: rgb(255, 255, 255);
   --button-color-hover: var(--button-color);
   --button-color-active: var(--button-color-hover);
 
-  --link-color: rgb(4, 104, 220);
+  --link-color: rgb(47, 141, 249);
 }
