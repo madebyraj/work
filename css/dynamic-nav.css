@@ -142,7 +142,7 @@
   margin-left: 28px;
   text-decoration: none;
   background: var(--button-background);
-  padding: 5px 10px;
+  padding: 6px 10px;
   font: var(--smallbutton-m);
   letter-spacing: var(--smallbutton-letterspacing);
   color: var(--button-color);

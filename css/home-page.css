@@ -60,7 +60,7 @@ body {
 }
 
 .body-background-blur-overlay {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.30);
   position: absolute;
   top: 0;
   right: 0;
@@ -101,7 +101,7 @@ main {
 }
 
 .hello-word path {
-  stroke: rgb(255, 255, 255);
+  stroke: rgb(236, 240, 244);
 }
 
 .availability-badge {
@@ -109,16 +109,16 @@ main {
   backdrop-filter: var(--globalnav-backdrop-filter);
   text-align: center;
   background: linear-gradient(45deg,
-      rgba(255, 255, 255, 0.10) 0%,
-      rgba(255, 255, 255, 0.10) 25%,
-      rgba(255, 255, 255, 0.30) 50%,
-      rgba(255, 255, 255, 0.10) 75%,
-      rgba(255, 255, 255, 0.10) 100%);
+      rgba(236, 240, 244, 0.10) 0%,
+      rgba(236, 240, 244, 0.10) 25%,
+      rgba(236, 240, 244, 0.20) 50%,
+      rgba(236, 240, 244, 0.10) 75%,
+      rgba(236, 240, 244, 0.10) 100%);
   padding: 8px 12px;
   border-radius: var(--border-radius-full);
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(236, 240, 244, 0.9);
   width: max-content;
   display: flex;
   align-items: center;
@@ -168,7 +168,7 @@ main {
 }
 
 .link-to-page:hover .link-copy {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(236, 240, 244, 0.9);
 }
 
 
@@ -182,7 +182,7 @@ main {
 .link-copy {
   font: var(--mediumbutton-m);
   letter-spacing: var(--mediumbutton-letterspacing);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(236, 240, 244, 0.7);
 }
 
 /* Footer */
@@ -228,17 +228,17 @@ main {
 }
 
 .footer-link:hover .link-svg path {
-  fill: rgba(255, 255, 255, 0.9);
+  fill: rgba(236, 240, 244, 0.9);
 }
 
 .link-svg path {
-  fill: rgba(255, 255, 255, 0.7);
+  fill: rgba(236, 240, 244, 0.7);
 }
 
 .design-and-code {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(236, 240, 244, 0.7);
 }
 
 /* @media (max-width: 1400px) {} */
