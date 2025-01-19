@@ -30,7 +30,7 @@
   /* Semantics/Component Specific */
 
   --globalnav-wrapper-height: 100px;
-  --globalnav-height: 56px;
+  --globalnav-height: 52px;
   --globalnav-max-width: var(--global-max-width);
   --globalnav-background: rgba(14, 16, 18, 0.80);
   --globalnav-background-opened: rgba(14, 16, 18);
