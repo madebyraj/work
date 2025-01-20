@@ -1,27 +1,35 @@
-/* Basis Grotesque Arabic Pro */
+/* Graphik */
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Graphik-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Graphik-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Graphik-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Basis Grotesque Arabic Pro";
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Graphik-Regular.woff2") format("woff2");
 }
 
 
@@ -32,6 +40,14 @@
   font-family: "Source Serif Pro";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/source-serif-pro-700-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
   font-display: swap;
   src: local("☺"), url("/assets/Fonts/source-serif-pro-700-normal.woff") format("woff");
 }
