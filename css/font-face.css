@@ -1,27 +1,27 @@
-/* Circular Std */
+/* Basis Grotesque Arabic Pro */
 
 @font-face {
-  font-family: "Circular Std";
+  font-family: "Basis Grotesque Arabic Pro";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/CircularStd-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Circular Std";
+  font-family: "Basis Grotesque Arabic Pro";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/CircularStd-Medium.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Circular Std";
+  font-family: "Basis Grotesque Arabic Pro";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/CircularStd-Book.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/BasisGrotesqueArabicPro-Regular.woff") format("woff");
 }
 
 
