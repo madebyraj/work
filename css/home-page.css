@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  background: var(--background-primary);
+  background: var(--background);
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
