@@ -1,69 +1,25 @@
-/* Graphik */
+/* Google Sans */
 
 @font-face {
-  font-family: "Graphik";
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Bold.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/GoogleSans-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Graphik";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Semibold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Graphik";
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Medium.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/GoogleSans-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Graphik";
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Regular.woff2") format("woff2");
-}
-
-
-
-/* Source Serif Pro */
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-700-normal.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-700-normal.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-400-normal.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/source-serif-pro-400-normal.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/GoogleSans-Regular.woff") format("woff");
 }

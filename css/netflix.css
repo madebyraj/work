@@ -131,14 +131,14 @@ main {
   color: var(--text-secondary);
 }
 
-.timeline h6 {
+.duration h6 {
   font: var(--body2-m-emphasized);
   letter-spacing: var(--body2-letterspacing);
   color: var(--text);
   margin-bottom: 8px;
 }
 
-.timeline p {
+.duration p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
   color: var(--text-secondary);
@@ -896,11 +896,11 @@ main {
     font: var(--body2-xxxs);
   }
 
-  .timeline h6 {
+  .duration h6 {
     font: var(--body2-xxxs-emphasized);
   }
 
-  .timeline p {
+  .duration p {
     font: var(--body2-xxxs);
   }
 
