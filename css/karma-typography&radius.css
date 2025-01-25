@@ -42,12 +42,12 @@
 
   /* ---------------------------- */
 
-  --font-ui: Google Sans, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-ui: Proxima Nova, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-display: var(--font-ui), system-ui, sans-serif;
-  --font-title: Google Sans, var(--font-ui), system-ui, sans-serif;
-  --font-body: Google Sans, var(--font-ui), system-ui, sans-serif;
+  --font-title: Proxima Nova, var(--font-ui), system-ui, sans-serif;
+  --font-body: Proxima Nova, var(--font-ui), system-ui, sans-serif;
   --font-content: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-mono: Google Sans, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-mono: Proxima Nova, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -74,13 +74,13 @@
   --fontWeight-medium: 500;
   --fontWeight-bold: 700;
 
-  --letterSpacing-tighter: -0.005em;
+  --letterSpacing-tighter: -0.05em;
   --letterSpacing-tight: -0.025em;
   --letterSpacing-normal: 0;
   --letterSpacing-wide: 0.025em;
   --letterSpacing-wider: 0.05em;
 
-  --letterSpacing-display: -0.075em;
+  --letterSpacing-display: -0.05em;
   --letterSpacing-title: -0.025em;
   --letterSpacing-body: 0.025em;
   --letterSpacing-content: 0.025em;
