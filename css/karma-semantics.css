@@ -36,7 +36,7 @@
   --globalnav-background-opened: rgba(255, 255, 255);
   --globalnav-keyline-color: rgba(0, 0, 0, 0.08);
   --globalnav-color: rgba(0, 0, 0, 0.96);
-  --globalnav-color-hover: rgb(22, 107, 216);
+  --globalnav-color-hover: rgb(0, 102, 204);
   --globalnav-color-disabled: rgba(0, 0, 0, 0.36);
 
   --globalfooter-background: rgb(255, 255, 255);
@@ -60,12 +60,12 @@
   --text-tertiary: rgba(0, 0, 0, 0.56);
   --text-quaternary: rgba(0, 0, 0, 0.36);
 
-  --button-background: rgb(49, 140, 247);
-  --button-background-hover: rgb(22, 107, 216);
-  --button-background-active: rgb(13, 77, 170);
+  --button-background: rgb(0, 113, 227);
+  --button-background-hover: rgb(0, 102, 204);
+  --button-background-active: rgb(0, 72, 143);
   --button-color: rgb(255, 255, 255);
   --button-color-hover: var(--button-color);
   --button-color-active: var(--button-color-hover);
 
-  --link-color: rgb(22, 107, 216);
+  --link-color: rgb(0, 102, 204);
 }

@@ -1,25 +1,51 @@
-/* Proxima Nova */
+/* Gilroy */
 
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ProximaNova-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ProximaNova-Semibold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Gilroy-SemiBold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ProximaNova-Regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Medium.woff") format("woff");
+}
+
+/* Denton */
+
+@font-face {
+  font-family: "Denton";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Denton-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Denton";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Denton-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Denton";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Denton-Regular.woff") format("woff");
 }
