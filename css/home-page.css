@@ -101,7 +101,7 @@ main {
 }
 
 .hello-word path {
-  stroke: rgb(236, 240, 244);
+  stroke: rgba(245, 245, 247);
 }
 
 .availability-badge {
@@ -118,7 +118,7 @@ main {
   border-radius: var(--border-radius-full);
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: rgba(236, 240, 244, 0.9);
+  color: rgba(245, 245, 247);
   width: max-content;
   display: flex;
   align-items: center;
@@ -168,7 +168,7 @@ main {
 }
 
 .link-to-page:hover .link-copy {
-  color: rgba(236, 240, 244, 0.9);
+  color: rgba(245, 245, 247);
 }
 
 
@@ -182,7 +182,7 @@ main {
 .link-copy {
   font: var(--mediumbutton-m);
   letter-spacing: var(--mediumbutton-letterspacing);
-  color: rgba(236, 240, 244, 0.7);
+  color: rgba(134, 134, 139);
 }
 
 /* Footer */
@@ -228,17 +228,17 @@ main {
 }
 
 .footer-link:hover .link-svg path {
-  fill: rgba(236, 240, 244, 0.9);
+  fill: rgba(245, 245, 247);
 }
 
 .link-svg path {
-  fill: rgba(236, 240, 244, 0.7);
+  fill: rgba(134, 134, 139);
 }
 
 .design-and-code {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: rgba(236, 240, 244, 0.7);
+  color: rgba(134, 134, 139);
 }
 
 /* @media (max-width: 1400px) {} */
