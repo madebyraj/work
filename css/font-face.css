@@ -1,27 +1,27 @@
-/* Graphik */
+/* Gilroy */
 
 @font-face {
-  font-family: "Graphik";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Semibold.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Graphik";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Medium.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/Gilroy-SemiBold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Graphik";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Regular.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Medium.woff") format("woff");
 }
 
 /* Denton */
