@@ -1,7 +1,7 @@
 /* Linked CSS Files */
 
-@import url("/karma-semantics.css");
-@import url("/karma-typography&radius.css");
+@import url("./karma-semantics.css");
+@import url("./karma-typography&radius.css");
 
 /*  Animations */
 

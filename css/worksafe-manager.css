@@ -1,6 +1,5 @@
 /* Linked CSS Files */
 
-@import url("./variables.css");
 @import url("./karma-semantics.css");
 @import url("./karma-typography&radius.css");
 

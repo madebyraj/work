@@ -29,11 +29,6 @@
 
   /* Semantics/Component Specific */
 
-  --globalfooter-background: rgb(245, 245, 247);
-  --globalfooter-color: rgba(110, 110, 115);
-  --globalfooter-color-hover: rgba(29, 29, 31);
-  --globalfooter-color-disabled: rgba(134, 134, 139);
-
   --separator: rgb(134, 134, 139);
   --separator-muted: rgb(232, 232, 237);
 
@@ -62,11 +57,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-
-    --globalfooter-background: rgb(29, 29, 31);
-    --globalfooter-color: rgba(134, 134, 139);
-    --globalfooter-color-hover: rgba(245, 245, 247);
-    --globalfooter-color-disabled: rgba(110, 110, 115);
 
     --separator: rgb(110, 110, 115);
     --separator-muted: rgb(66, 66, 69);
