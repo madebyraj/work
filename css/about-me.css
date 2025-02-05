@@ -65,15 +65,15 @@ main {
   padding: 96px 0 48px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: var(--spacing-48);
 }
 
 .about-section-headline {
-  font: var(--eyebrow-m);
-  letter-spacing: var(--eyebrow-letterspacing);
-  color: var(--text-tertiary);
+  font: var(--title2-m-emphasized);
+  letter-spacing: var(--title2-letterspacing);
+  color: var(--text);
 }
 
 .about-section-story-wrapper {
@@ -101,7 +101,7 @@ main {
 .journey-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text);
 }
 
 /* Outside of work */
@@ -112,15 +112,15 @@ main {
   padding: 48px 0 96px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: var(--spacing-48);
 }
 
 .ow-section-headline {
-  font: var(--eyebrow-m);
-  letter-spacing: var(--eyebrow-letterspacing);
-  color: var(--text-tertiary);
+  font: var(--title2-m-emphasized);
+  letter-spacing: var(--title2-letterspacing);
+  color: var(--text);
 }
 
 .cricket-section {
@@ -152,7 +152,7 @@ main {
 .cricket-story-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text);
 }
 
 .snap-and-music-section {
@@ -191,7 +191,7 @@ main {
 .snap-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text);
 }
 
 .music-section {
@@ -224,7 +224,7 @@ main {
 .music-section-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--text);
 }
 
 /* Small Desktop */
@@ -300,7 +300,7 @@ main {
   }
 
   .about-section-headline {
-    font: var(--eyebrow-xxxs);
+    font: var(--title2-xxxs-emphasized);
   }
 
   .about-section-story-wrapper {
@@ -328,7 +328,7 @@ main {
   }
 
   .ow-section-headline {
-    font: var(--eyebrow-xxxs);
+    font: var(--title2-xxxs-emphasized);
   }
 
   .cricket-section {
