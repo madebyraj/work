@@ -2,9 +2,16 @@
 
 const localNavMenuCta = document.querySelector("nav .localnav-menucta");
 const localNav = document.querySelector(".localnav");
+const localNavCurtain = document.querySelector(".localnav-curtain");
 
 localNavMenuCta.addEventListener("click", () => {
   localNav.classList.toggle("active");
+  localNavCurtain.classList.toggle("active");
+});
+
+localNavCurtain.addEventListener("click", () => {
+  localNav.classList.remove("active");
+  localNavCurtain.classList.remove("active");
 });
 
 // Link Active State

@@ -15,20 +15,6 @@
     }
 }
 
-::-webkit-scrollbar {
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #889296;
-}
-
-@supports (scrollbar-color: #889296 transparent) {
-    * {
-        scrollbar-color: #889296 transparent;
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
