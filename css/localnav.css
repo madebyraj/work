@@ -1,22 +1,23 @@
 :root {
-  --globalnav-height: 52px;
-  --globalnav-max-width: var(--global-max-width);
-  --globalnav-background: rgba(255, 255, 255, 0.72);
-  --globalnav-background-opened: rgba(255, 255, 255, 0.9);
-  --globalnav-keyline-color: rgba(0, 0, 0, 0.16);
-  --globalglobalnav-menu-link-keyline-color: rgba(0, 0, 0, 0.181818);
-  --globalnav-color: rgba(0, 0, 0);
-  --globalnav-color-hover: rgb(0, 113, 227);
+  --localnav-backdrop-filter: saturate(180%) blur(20px);
+  --localnav-height: 52px;
+  --localnav-max-width: var(--global-max-width);
+  --localnav-background: rgba(255, 255, 255, 0.72);
+  --localnav-background-opened: rgba(255, 255, 255, 0.9);
+  --localnav-keyline-color: rgba(0, 0, 0, 0.16);
+  --localnav-menu-link-keyline-color: rgba(0, 0, 0, 0.181818);
+  --localnav-color: rgba(0, 0, 0);
+  --localnav-color-hover: rgb(0, 113, 227);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --globalnav-background: rgba(22, 22, 23, 0.72);
-    --globalnav-background-opened: rgba(22, 22, 23, 0.9);
-    --globalnav-keyline-color: rgba(255, 255, 255, 0.16);
-    --globalglobalnav-menu-link-keyline-color: rgba(255, 255, 255, 0.26087);
-    --globalnav-color: rgba(255, 255, 255);
-    --globalnav-color-hover: rgb(41, 151, 255);
+    --localnav-background: rgba(22, 22, 23, 0.72);
+    --localnav-background-opened: rgba(22, 22, 23, 0.9);
+    --localnav-keyline-color: rgba(255, 255, 255, 0.16);
+    --localnav-menu-link-keyline-color: rgba(255, 255, 255, 0.26087);
+    --localnav-color: rgba(255, 255, 255);
+    --localnav-color-hover: rgb(41, 151, 255);
   }
 }
 
@@ -46,8 +47,8 @@
   box-sizing: border-box;
 }
 
-.globalnav {
-  height: var(--globalnav-height);
+.localnav {
+  height: var(--localnav-height);
   z-index: 999;
   position: fixed;
   top: 0;
@@ -58,16 +59,16 @@
   justify-content: center;
 }
 
-.globalnav-background {
+.localnav-background {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 9999;
-  background-color: var(--globalnav-background);
-  -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
-  backdrop-filter: var(--globalnav-backdrop-filter);
-  height: var(--globalnav-height);
+  background-color: var(--localnav-background);
+  -webkit-backdrop-filter: var(--localnav-backdrop-filter);
+  backdrop-filter: var(--localnav-backdrop-filter);
+  height: var(--localnav-height);
   margin: auto;
   display: flex;
   align-items: center;
@@ -78,19 +79,19 @@
   transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
 }
 
-.globalnav-background::after {
+.localnav-background::after {
   height: 1px;
   display: block;
   width: 100%;
   z-index: 999;
-  background-color: var(--globalnav-keyline-color);
+  background-color: var(--localnav-keyline-color);
   position: absolute;
   content: "";
   top: 100%;
   left: 0;
 }
 
-.globalnav-content {
+.localnav-content {
   width: 100%;
   display: flex;
   align-items: center;
@@ -101,102 +102,117 @@
   margin-left: auto;
 }
 
-.globalnav-title {
+.localnav-title {
   text-decoration: none;
-  height: var(--globalnav-height);
   display: flex;
   align-items: center;
   justify-content: center;
-  font: var(--logo-m);
-  letter-spacing: var(--logo-letterspacing);
-  color: var(--globalnav-color);
+  font-size: 21px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--localnav-color);
   transition: color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
   opacity: .88;
+  white-space: nowrap;
+
 }
 
-.globalnav-title:hover {
+.localnav-title:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
-.globalnav-title:focus {
+.localnav-title:focus {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
 
-.globalnav-menu {
+.localnav-menu {
   display: flex;
   align-items: center;
   justify-content: end;
   gap: 24px;
 }
 
-.globalnav-menu-items {
+.localnav-menu-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
 }
 
-.globalnav-menu-link {
+.localnav-menu-link {
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  font: var(--navbarlink-m);
-  letter-spacing: var(--navbarlink-letterspacing);
-  color: var(--globalnav-color);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--localnav-color);
   opacity: .88;
 }
 
-.globalnav-menu-link:hover {
+.localnav-menu-link:hover {
   cursor: pointer;
-  color: var(--globalnav-color-hover);
+  color: var(--localnav-color-hover);
   opacity: 1;
 }
 
-.globalnav-menu-link:focus {
+.localnav-menu-link:focus {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
 
 .current {
   cursor: not-allowed !important;
-  color: var(--globalnav-color) !important;
+  color: var(--localnav-color) !important;
   opacity: .56 !important;
 }
 
-.globalnav-actions {
+.localnav-actions {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.globalnav-button {
+.localnav-button {
   display: inline-block;
   text-decoration: none;
   background: var(--button-background);
   padding: 4px 11px;
   min-height: 24px;
-  font: var(--smallbutton-m);
-  letter-spacing: var(--smallbutton-letterspacing);
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--button-color);
   border-radius: var(--border-radius-full);
-  transition: var(--bounce-effect);
+  white-space: nowrap;
 }
 
-.globalnav-button:hover {
+.localnav-button:hover {
   cursor: pointer;
   background: var(--button-background-hover);
 }
 
-.globalnav-button:active {
-  cursor: pointer;
+.localnav-button:active {
   background: var(--button-background-active);
+}
+
+.localnav-button:focus {
+  box-shadow: rgba(0, 125, 250, 0.6) 0px 0px 0px 4px;
+  outline: none;
 }
 
 /* Hidden Items */
 
-.globalnav-menucta {
+.localnav-menucta {
   display: none;
 }
 
@@ -207,60 +223,42 @@
 /* Tablet */
 
 @media (max-width: 1068px) {
-
-  .globalnav-background {
-    padding: 0 48px;
-  }
-
-  .globalnav-menu-link-copy {
-    font: var(--navbarlink-m);
+  .localnav-background {
+    padding: 0 22px;
   }
 }
 
 /* Mobile */
 
-@media (max-width: 734px) {
-  .globalnav-background {
+@media (max-width: 767px) {
+  .localnav-background {
     padding: 0 16px;
     align-items: start;
     transition: height 0.5s cubic-bezier(0.28, 0.11, 0.32, 1) 0.4s, visibility 0s linear 1s;
     justify-content: space-between;
   }
 
-  .globalnav.active .globalnav-background {
+  .localnav.active .localnav-background {
     box-shadow: none;
     top: 0;
     right: 0;
     left: 0;
-    height: calc(var(--globalnav-height) + 44px * 3 + 28px);
+    height: calc(var(--localnav-height) + 44px * 3 + 28px);
     transition: height 0.5s cubic-bezier(0.28, 0.11, 0.32, 1) 0.4s, visibility 0s linear 1s;
-    background-color: var(--globalnav-background-opened);
+    background-color: var(--localnav-background-opened);
     transition-delay: 0.2s, 0s;
   }
 
-  .globalnav-button {
-    margin-left: 0;
-    font: var(--smallbutton-xxxs);
-  }
-
-  .globalnav-menu {
+  .localnav-menu {
     gap: 0;
   }
 
-  .globalnav-menucta {
-    width: var(--globalnav-height);
-    height: var(--globalnav-height);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .globalnav-menu-item {
+  .localnav-menu-item {
     width: 100%;
   }
 
-  .globalnav .globalnav-menu-items {
-    margin-top: var(--globalnav-height);
+  .localnav .localnav-menu-items {
+    margin-top: var(--localnav-height);
     flex-direction: column;
     align-items: start;
     position: fixed;
@@ -275,7 +273,7 @@
     transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1) 0.5s, opacity 0.7s cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
   }
 
-  .globalnav.active .globalnav-menu-items {
+  .localnav.active .localnav-menu-items {
     display: flex;
     justify-content: start;
     top: 0;
@@ -290,20 +288,24 @@
     transition-delay: 0.2s, 0.4s;
   }
 
-  .globalnav .globalnav-menu-link {
-    font: var(--navbarlink-xxxs);
+  .localnav .localnav-menu-link {
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     justify-content: start;
     padding: 4px 0;
     min-width: 100%;
     height: 44px;
-    border-top: 1px solid var(--globalglobalnav-menu-link-keyline-color);
+    border-top: 1px solid var(--localnav-menu-link-keyline-color);
     opacity: 0;
     transform: translate3d(0, -25px, 0);
     transition: 0.5s ease;
     transition-property: transform, opacity;
   }
 
-  .globalnav .globalnav-menu-link {
+  .localnav .localnav-menu-link {
     width: 100%;
     opacity: 0;
     transform: translate3d(0, -25px, 0);
@@ -311,87 +313,95 @@
     transition-property: transform, opacity;
   }
 
-  .globalnav.active .globalnav-menu-link {
+  .localnav.active .localnav-menu-link {
     width: 100%;
     opacity: .88;
     transform: translate3d(0, 0, 0)
   }
 
-  .globalnav-menu-item:nth-child(1) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(1) .localnav-menu-link {
     border-top: none;
     transition-delay: 0.07s
   }
 
-  .globalnav-menu-item:nth-child(2) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(2) .localnav-menu-link {
     transition-delay: 0.14s
   }
 
-  .globalnav-menu-item:nth-child(3) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(3) .localnav-menu-link {
     transition-delay: 0.21s
   }
 
-  .globalnav-menu-item:nth-child(4) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(4) .localnav-menu-link {
 
     transition-delay: 0.28s
   }
 
-  .globalnav-menu-item:nth-child(5) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(5) .localnav-menu-link {
     transition-delay: 0.35s
   }
 
-  .globalnav-menu-item:nth-child(6) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(6) .localnav-menu-link {
     transition-delay: 0.42s
   }
 
-  .globalnav-menu-item:nth-child(7) .globalnav-menu-link {
+  .localnav-menu-item:nth-child(7) .localnav-menu-link {
     transition-delay: 0.49s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(1) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(1) .localnav-menu-link {
     transition-delay: 0.56s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(2) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(2) .localnav-menu-link {
     transition-delay: 0.49s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(3) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(3) .localnav-menu-link {
     transition-delay: 0.42s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(4) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(4) .localnav-menu-link {
     transition-delay: 0.35s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(5) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(5) .localnav-menu-link {
     transition-delay: 0.28s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(6) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(6) .localnav-menu-link {
     transition-delay: 0.21s
   }
 
-  .globalnav.active .globalnav-menu-item:nth-child(7) .globalnav-menu-link {
+  .localnav.active .localnav-menu-item:nth-child(7) .localnav-menu-link {
     transition-delay: 0.14s
   }
 
-  .globalnav.active .globalnav-background .globalnav-menu-items li:nth-last-of-type(1) {
+  .localnav.active .localnav-background .localnav-menu-items li:nth-last-of-type(1) {
     animation-delay: 90ms;
   }
 
-  .globalnav.active .globalnav-background .globalnav-menu-items li:nth-last-of-type(2) {
+  .localnav.active .localnav-background .localnav-menu-items li:nth-last-of-type(2) {
     animation-delay: 60ms;
   }
 
-  .globalnav.active .globalnav-background .globalnav-menu-items li:nth-last-of-type(3) {
+  .localnav.active .localnav-background .localnav-menu-items li:nth-last-of-type(3) {
     animation-delay: 30ms;
   }
 
-  .globalnav.active .globalnav-background .globalnav-menu-items li:nth-last-of-type(3) {
+  .localnav.active .localnav-background .localnav-menu-items li:nth-last-of-type(3) {
     animation-delay: 0ms;
   }
 
-  .globalnav-menucta-chevron {
+  .localnav-menucta {
+    width: var(--localnav-height);
+    height: var(--localnav-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .localnav-menucta-chevron {
     display: block;
     position: relative;
     width: 100%;
@@ -402,12 +412,13 @@
     opacity: 0.8;
   }
 
-  .globalnav-menucta-chevron::before,
-  .globalnav-menucta-chevron::after {
+  .localnav-menucta-chevron::before,
+  .localnav-menucta-chevron::after {
     content: "";
     display: block;
     position: absolute;
     top: 55%;
+    bottom: 55%;
     width: 12px;
     height: 1px;
     z-index: 1;
@@ -415,45 +426,45 @@
   }
 
 
-  .globalnav-menucta-chevron::before {
+  .localnav-menucta-chevron::before {
     right: 50%;
     border-radius: .5px 0 0 .5px;
   }
 
-  .globalnav-menucta-chevron::after {
+  .localnav-menucta-chevron::after {
     left: 50%;
     border-radius: 0 .5px .5px 0;
   }
 
-  .globalnav-menucta-chevron::before,
-  .globalnav-menucta-chevron::after {
-    background: var(--globalnav-color);
+  .localnav-menucta-chevron::before,
+  .localnav-menucta-chevron::after {
+    background: var(--localnav-color);
   }
 
-  .globalnav-menucta-chevron::before {
+  .localnav-menucta-chevron::before {
     transform-origin: 100% 100%;
     transform: rotate(40deg) scaleY(1.1)
   }
 
-  .globalnav-menucta-chevron::after {
+  .localnav-menucta-chevron::after {
     transform-origin: 0% 100%;
     transform: rotate(-40deg) scaleY(1.1)
   }
 
-  .globalnav-menucta-chevron:hover {
+  .localnav-menucta-chevron:hover {
     opacity: 1
   }
 
-  .globalnav.active .globalnav-menucta-chevron {
+  .localnav.active .localnav-menucta-chevron {
     transform: translateY(-8px)
   }
 
-  .globalnav.active .globalnav-menucta-chevron::before {
+  .localnav.active .localnav-menucta-chevron::before {
     transform-origin: 100% 0%;
     transform: rotate(-40deg) scaleY(1.1)
   }
 
-  .globalnav.active .globalnav-menucta-chevron::after {
+  .localnav.active .localnav-menucta-chevron::after {
     transform-origin: 0% 0%;
     transform: rotate(40deg) scaleY(1.1)
   }

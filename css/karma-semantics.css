@@ -20,7 +20,7 @@
 
   /* --Blur-- */
 
-  --globalnav-backdrop-filter: saturate(180%) blur(20px);
+  --localnav-backdrop-filter: saturate(180%) blur(20px);
 
   /* Width */
 
