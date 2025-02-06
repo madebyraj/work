@@ -3,7 +3,7 @@
   --localnav-height: 52px;
   --localnav-max-width: var(--global-max-width);
   --localnav-background: rgba(255, 255, 255, 0.72);
-  --localnav-background-opened: rgba(255, 255, 255);
+  --localnav-background-opened: rgb(250, 250, 252);
   --localnav-keyline-color: rgba(0, 0, 0, 0.16);
   --localnav-color: rgba(0, 0, 0);
   --localnav-opacity: 0.8;
@@ -165,7 +165,7 @@
   border-radius: var(--border-radius-full);
   background-color: var(--localnav-color);
   inset-inline-start: 0;
-  bottom: -15px;
+  bottom: -17px;
   will-change: bottom;
   opacity: 0.8;
   transition: bottom .24s cubic-bezier(0.28, 0.11, 0.32, 1);
