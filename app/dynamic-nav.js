@@ -1,10 +1,10 @@
 // Mobile Version
 
-const menuIconContainer = document.querySelector("nav .menu-icon-container");
-const navContainer = document.querySelector(".nav-container");
+const globalNavMenuCta = document.querySelector("nav .globalnav-menucta");
+const globalNav = document.querySelector(".globalnav");
 
-menuIconContainer.addEventListener("click", () => {
-  navContainer.classList.toggle("active");
+globalNavMenuCta.addEventListener("click", () => {
+  globalNav.classList.toggle("active");
 });
 
 // Link Active State

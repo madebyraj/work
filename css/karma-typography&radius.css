@@ -48,7 +48,7 @@
   --font-display: SF Pro Display, var(--typography-fallback), sans-serif;
   --font-title: SF Pro Display, var(--typography-fallback), sans-serif;
   --font-body: SF Pro Text, var(--typography-fallback), sans-serif;
-  --font-content: var(--typography-fallback), sans-serif;
+  --font-content: SF Pro Text, var(--typography-fallback), sans-serif;
   --font-mono: SF Pro Text, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
