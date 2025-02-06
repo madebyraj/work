@@ -1,37 +1,53 @@
-/* SF Pro Display */
+/* Denton */
 
 @font-face {
-  font-family: "SF Pro Display";
+  font-family: "Denton";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/sf-pro-display_semibold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Denton-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "SF Pro Display";
+  font-family: "Denton";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Denton-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Denton";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/sf-pro-display_regular.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Denton-Regular.woff") format("woff");
 }
 
 
 
-/* SF Pro Text */
+/* Gilroy */
 
 @font-face {
-  font-family: "SF Pro Text";
+  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/sf-pro-text_semibold.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "SF Pro Text";
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/Fonts/Gilroy-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/sf-pro-text_regular.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/Gilroy-Medium.woff") format("woff");
 }

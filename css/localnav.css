@@ -1,6 +1,6 @@
 :root {
   --localnav-backdrop-filter: saturate(180%) blur(20px);
-  --localnav-height: 48px;
+  --localnav-height: 52px;
   --localnav-max-width: var(--global-max-width);
   --localnav-background: rgba(255, 255, 255, 0.72);
   --localnav-background-opened: rgba(255, 255, 255);
@@ -118,14 +118,14 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 24px;
+  gap: 28px;
 }
 
 .localnav-menu-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 28px;
 }
 
 .localnav-menu-link {
@@ -162,10 +162,10 @@
   position: absolute;
   height: 1px;
   width: 100%;
-  border-radius: 1px;
+  border-radius: var(--border-radius-full);
   background-color: var(--localnav-color);
   inset-inline-start: 0;
-  bottom: -19px;
+  bottom: -15px;
   will-change: bottom;
   opacity: 0.8;
   transition: bottom .24s cubic-bezier(0.28, 0.11, 0.32, 1);
@@ -183,8 +183,8 @@
   align-items: center;
   text-decoration: none;
   background: var(--button-background);
-  padding: 4px 11px;
-  min-height: 24px;
+  padding: 5px 11px;
+  min-height: 28px;
   font: var(--smallbutton-m);
   letter-spacing: var(--smallbutton-letterspacing);
   color: var(--button-color);
@@ -308,7 +308,7 @@
   .current::after {
     bottom: auto;
     inset-inline-start: -16px;
-    height: 12px;
+    height: 14px;
     width: 1.2px;
     border-radius: 1.2px;
     will-change: unset;
@@ -428,7 +428,6 @@
     display: block;
     position: absolute;
     top: 55%;
-    bottom: 55%;
     width: 11px;
     height: 1px;
     z-index: 1;
@@ -453,12 +452,12 @@
 
   .localnav-menucta-chevron::before {
     transform-origin: 100% 100%;
-    transform: rotate(40deg) scaleY(1.1)
+    transform: rotate(44deg) scaleY(1.1)
   }
 
   .localnav-menucta-chevron::after {
     transform-origin: 0% 100%;
-    transform: rotate(-40deg) scaleY(1.1)
+    transform: rotate(-44deg) scaleY(1.1)
   }
 
   .localnav-menucta-chevron:hover {
@@ -471,12 +470,12 @@
 
   .localnav.active .localnav-menucta-chevron::before {
     transform-origin: 100% 0%;
-    transform: rotate(-40deg) scaleY(1.1)
+    transform: rotate(-44deg) scaleY(1.1)
   }
 
   .localnav.active .localnav-menucta-chevron::after {
     transform-origin: 0% 0%;
-    transform: rotate(40deg) scaleY(1.1)
+    transform: rotate(44deg) scaleY(1.1)
   }
 
   .localnav-curtain {
