@@ -1,8 +1,17 @@
 :root {
-  --globalfooter-background: rgb(245, 245, 247);
-  --globalfooter-color: rgba(110, 110, 115);
-  --globalfooter-color-hover: rgba(29, 29, 31);
-  --globalfooter-color-disabled: rgba(134, 134, 139);
+  --globalfooter-background: rgb(244, 244, 246);
+  --globalfooter-color: rgba(110, 110, 118);
+  --globalfooter-color-hover: rgba(30, 30, 34);
+  --globalfooter-color-disabled: rgba(134, 134, 142);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --globalfooter-background: rgb(30, 30, 34);
+    --globalfooter-color: rgba(134, 134, 142);
+    --globalfooter-color-hover: rgba(244, 244, 246);
+    --globalfooter-color-disabled: rgba(110, 110, 118);
+  }
 }
 
 /* Linked CSS Files */

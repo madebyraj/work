@@ -143,7 +143,7 @@ main {
 }
 
 .line {
-  border: 1px solid var(--separator);
+  border: 1px solid var(--separator-muted);
 }
 
 .line-muted {

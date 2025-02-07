@@ -42,14 +42,14 @@
 
   /* ---------------------------- */
 
-  --typography-fallback: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --typography-fallback-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --typography-fallback-serif: Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
 
-  --font-ui: Gilroy, var(--typography-fallback), sans-serif;
-  --font-display: Denton, var(--typography-fallback), sans-serif;
-  --font-title: Denton, var(--typography-fallback), sans-serif;
-  --font-body: Gilroy, var(--typography-fallback), sans-serif;
-  --font-content: var(--typography-fallback), sans-serif;
-  --font-mono: Gilroy, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-ui: Gilroy, var(--typography-fallback-sans), sans-serif;
+  --font-display: Denton, var(--typography-fallback-serif), serif;
+  --font-title: Denton, var(--typography-fallback-serif), serif;
+  --font-body: Gilroy, var(--typography-fallback-sans), sans-serif;
+  --font-content: var(--typography-fallback-sans), sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -79,8 +79,8 @@
   --letterSpacing-tighter: -0.025em;
   --letterSpacing-tight: -0.0125em;
   --letterSpacing-normal: 0;
-  --letterSpacing-wide: 0.025em;
-  --letterSpacing-wider: 0.05em;
+  --letterSpacing-wide: 0.0125em;
+  --letterSpacing-wider: 0.025em;
 
   --letterSpacing-display: -0.025em;
   --letterSpacing-title: -0.0125em;
@@ -192,16 +192,16 @@
   --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
 
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
-  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-mono);
-  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-mono);
-  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-mono);
-  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-mono);
+  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-ui);
+  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-ui);
+  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-ui);
+  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-ui);
 
   --badge-letterspacing: var(--letterSpacing-badge);
-  --badge-xxl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-mono);
-  --badge-xl: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-mono);
-  --badge-m: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-mono);
-  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-mono);
+  --badge-xxl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-ui);
+  --badge-xl: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
+  --badge-m: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
+  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
 
   --button-letterspacing: var(--letterSpacing-wide);
   --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
@@ -239,7 +239,7 @@
   --navbarlink-m: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
   --navbarlink-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 140% var(--font-ui);
 
-  --logo-letterspacing: var(--letterSpacing-normal);
+  --logo-letterspacing: var(--letterSpacing-wide);
   --logo-xxl: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-title);
   --logo-xl: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-title);
   --logo-m: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-title);
