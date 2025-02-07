@@ -86,7 +86,7 @@
   --letterSpacing-title: -0.0125em;
   --letterSpacing-body: 0.025em;
   --letterSpacing-content: 0.025em;
-  --letterSpacing-badge: 0.0125em;
+  --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.125em;
 
   --display-letterspacing: var(--letterSpacing-display);
@@ -221,7 +221,7 @@
   --mediumbutton-m: var(--fontWeight-bold) var(--fontSize-16) / 140% var(--font-ui);
   --mediumbutton-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 140% var(--font-ui);
 
-  --smallbutton-letterspacing: var(--letterSpacing-wide);
+  --smallbutton-letterspacing: var(--letterSpacing-wider);
   --smallbutton-xxl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
   --smallbutton-xl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
   --smallbutton-m: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
@@ -233,7 +233,7 @@
   --link-m: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
   --link-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
-  --navbarlink-letterspacing: var(--letterSpacing-wide);
+  --navbarlink-letterspacing: var(--letterSpacing-wider);
   --navbarlink-xxl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
   --navbarlink-xl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
   --navbarlink-m: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
