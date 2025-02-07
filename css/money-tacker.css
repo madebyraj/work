@@ -353,7 +353,7 @@ main {
 }
 
 .full-research:hover .link-copy {
-  text-decoration: underline dashed var(--link-color);
+  text-decoration: solid dashed var(--link-color);
 }
 
 #question-section {
@@ -502,7 +502,7 @@ main {
 }
 
 #pr-link:hover .link-copy {
-  text-decoration: underline dashed var(--link-color);
+  text-decoration: solid dashed var(--link-color);
 }
 
 .arrow-top-right {
@@ -631,7 +631,7 @@ main {
 }
 
 .back-to-home:hover .link-copy {
-  text-decoration: underline dashed var(--link-color);
+  text-decoration: solid dashed var(--link-color);
 }
 
 .arrow-left {
