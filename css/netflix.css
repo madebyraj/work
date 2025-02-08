@@ -30,7 +30,6 @@ body {
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
-  padding-top: var(--localnav-height);
 }
 
 main {
@@ -795,7 +794,7 @@ main {
 }
 
 .back-to-home:hover .link-copy {
-  text-decoration: solid dashed var(--link-color);
+  text-decoration: underline solid var(--link-color);
 }
 
 .arrow-left {
