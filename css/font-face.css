@@ -26,28 +26,28 @@
 
 
 
-/* Gilroy */
+/* Graphik */
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Gilroy-Bold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Graphik-Semibold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Gilroy-SemiBold.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Graphik-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Gilroy-Medium.woff") format("woff");
+  src: local("☺"), url("/assets/Fonts/Graphik-Regular.woff2") format("woff2");
 }

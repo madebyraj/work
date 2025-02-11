@@ -42,7 +42,7 @@
 
   --link-color: rgb(0, 102, 204);
 }
-
+/* 
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -71,4 +71,4 @@
     --link-color: rgb(40, 150, 254);
 
   }
-}
+} */
