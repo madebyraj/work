@@ -1,5 +1,5 @@
 :root {
-  --globalfooter-background: #161618;
+  --globalfooter-background: #000;
   --globalfooter-color: #86868E;
   --globalfooter-color-hover: #F4F4F6;
   --globalfooter-color-disabled: #6E6E76;
@@ -38,7 +38,6 @@
 }
 
 .social-links {
-  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,8 +45,8 @@
 }
 
 .footer-link {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -233,11 +233,11 @@
   --link-m: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
   --link-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
-  --navbarlink-letterspacing: var(--letterSpacing-wider);
-  --navbarlink-xxl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
-  --navbarlink-xl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
-  --navbarlink-m: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
-  --navbarlink-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 140% var(--font-ui);
+  --globalnav-link-letterspacing: var(--letterSpacing-wider);
+  --globalnav-link-xxl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
+  --globalnav-link-xl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
+  --globalnav-link-m: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
+  --globalnav-link-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 140% var(--font-ui);
 
   --logo-letterspacing: var(--letterSpacing-wide);
   --logo-xxl: var(--fontWeight-bold) var(--fontSize-20) / 120% var(--font-title);

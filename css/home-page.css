@@ -30,6 +30,7 @@ body {
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
+  padding-top: var(--globalnav-height);
 }
 
 main {
