@@ -98,7 +98,7 @@ main {
 }
 
 .journey-section-content {
-  max-width: var(--global-max-width);
+  max-width: var(--content-max-width);
   margin: auto;
   padding: 96px 24px;
   display: flex;
@@ -130,7 +130,7 @@ main {
   border-radius: 50%;
   background: #e8e8ea;
   box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
-  transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  transition: transform 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
 .journey {
@@ -140,8 +140,8 @@ main {
 }
 
 .journey-copy {
-  font: var(--body3-m);
-  letter-spacing: var(--body3-letterspacing);
+  font: var(--body2-m);
+  letter-spacing: var(--body2-letterspacing);
   color: #f4f4f6;
 }
 
@@ -164,65 +164,60 @@ main {
 #project-section {
   overflow: visible;
   margin: auto;
-  padding: 16px 0;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 16px;
   width: 100%;
+  max-width: var(--global-max-width);
 }
 
 #project-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: center;
   justify-content: center;
-  gap: 16px;
-}
-
-.project-wrapper {
-  width: 100%;
-  background: var(--fill);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+  gap: 24px;
 }
 
 .project {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: var(--fill);
+  width: 100%;
+  height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
   overflow: visible;
   transition: var(--tile-transition);
   max-width: var(--global-max-width);
-}
-
-#project-1 .project-information {
-  order: 2;
-}
-
-#project-3 .project-information {
-  order: 2;
-}
-
-#project-1 .project-cover {
-  order: 1;
-}
-
-#project-3 .project-cover {
-  order: 1;
+  position: relative;
+  transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
 .project:hover {
   cursor: pointer;
 }
 
+.project:hover .project-overlay {
+  visibility: visible;
+  transition: visibility 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+
 .project:focus {
   outline: none;
+}
+
+.project-overlay {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .project-information {
@@ -231,7 +226,6 @@ main {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  padding: 48px;
   width: 100%;
   height: 100%;
 }
@@ -239,14 +233,14 @@ main {
 .project-badge {
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: var(--text-tertiary);
+  color: #6e6e76;
   text-align: center;
 }
 
 .project-title {
-  font: var(--title2-m-emphasized);
-  letter-spacing: var(--title2-letterspacing);
-  color: var(--text);
+  font: var(--title3-m-emphasized);
+  letter-spacing: var(--title3-letterspacing);
+  color: #f4f4f6;
   text-overflow: ellipsis;
   text-align: center;
 }
@@ -276,9 +270,13 @@ main {
     padding: 96px 48px;
   }
 
+  #project-section {
+    padding: 24px 48px;
+  }
+
 }
 
-@media (max-width: 734px) {
+@media (max-width: 767px) {
 
   .hero-section {
     max-width: var(--global-max-width);
@@ -328,41 +326,25 @@ main {
   }
 
   .journey-copy {
-    font: var(--body3-xxxs);
+    font: var(--body2-xxxs);
   }
 
   /* Project Section */
+
+  #project-section {
+    padding: 24px 0;
+  }
 
   #project-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .project {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  #project-1 .project-information {
-    order: 1;
-  }
-
-  #project-3 .project-information {
-    order: 1;
-  }
-
-  #project-1 .project-cover {
-    order: 2;
-  }
-
-  #project-3 .project-cover {
-    order: 2;
-  }
-
   .project-information {
-    padding: 48px 48px 0;
+    padding: 48px;
   }
 
   .project-title {
-    font: var(--title2-xxxs-emphasized);
+    font: var(--title3-xxxs-emphasized);
   }
 
   .project-badge {

@@ -49,7 +49,7 @@ main {
 
 #project-cover {
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -57,7 +57,7 @@ main {
 }
 
 #main-container {
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   margin: auto;
   width: 100%;
 }
@@ -71,7 +71,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
 }
 
 .header-section-title-wrapper {

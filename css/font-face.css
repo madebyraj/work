@@ -1,53 +1,9 @@
-/* Denton */
+/* Type VF */
 
 @font-face {
-  font-family: "Denton";
+  font-family: "Type VF";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 1 1000;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Denton-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Denton";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Denton-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Denton";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Denton-Regular.woff") format("woff");
-}
-
-
-
-/* Graphik */
-
-@font-face {
-  font-family: "Graphik";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Semibold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Graphik";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Graphik";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/Graphik-Regular.woff2") format("woff2");
+  src: local("☺"), url("/assets/Fonts/TypeVF.woff2") format("woff2");
 }

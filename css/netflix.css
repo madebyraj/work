@@ -50,7 +50,7 @@ main {
 #project-cover {
   aspect-ratio: 4/3;
   margin: auto;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   width: 100%;
   height: 512px;
   object-fit: cover;
@@ -60,7 +60,7 @@ main {
 }
 
 #main-container {
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
   margin: auto;
   width: 100%;
 }
@@ -74,7 +74,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  max-width: var(--content-max-width);
+  max-width: var(--global-max-width);
 }
 
 .header-section-title-wrapper {
