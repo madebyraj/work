@@ -46,10 +46,10 @@
   --typography-fallback-serif: Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
 
   --font-ui: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-display: Type VF, var(--typography-fallback-serif), serif;
-  --font-title: Type VF, var(--typography-fallback-serif), serif;
+  --font-display: Type VF, var(--typography-fallback-sans), serif;
+  --font-title: Type VF, var(--typography-fallback-sans), serif;
   --font-body: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-content: var(--typography-fallback-sans), sans-serif;
+  --font-content: Type VF, var(--typography-fallback-sans), sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;

@@ -1,8 +1,9 @@
 :root {
-  --globalfooter-background: #000;
-  --globalfooter-color: #86868E;
-  --globalfooter-color-hover: #F4F4F6;
-  --globalfooter-color-disabled: #6E6E76;
+  --globalfooter-background: #fff;
+  --globalfooter-keyline-color: rgba(0, 0, 0, 0.16);
+  --globalfooter-color: #6E6E76;
+  --globalfooter-color-hover: #1e1e22;
+  --globalfooter-color-disabled: #86868E;
 }
 
 /* Linked CSS Files */
@@ -23,6 +24,7 @@
   background: var(--globalfooter-background);
   padding: 0 80px;
   overflow: hidden;
+  border-top: 1px solid var(--globalfooter-keyline-color);
 }
 
 .footer-container {
@@ -35,33 +37,6 @@
   align-items: center;
   width: 100%;
   gap: 32px;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-}
-
-.footer-link {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-link:hover {
-  cursor: pointer;
-}
-
-.footer-link:hover .link-svg {
-  fill: var(--globalfooter-color-hover);
-}
-
-.link-svg {
-  fill: var(--globalfooter-color);
 }
 
 .design-and-code {
