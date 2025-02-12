@@ -1,3 +1,5 @@
+// Menu Icon
+
 const globalNavMenuIcon = document.querySelector("nav .gn-menuicon");
 const globalNav = document.querySelector(".globalnav");
 
@@ -7,7 +9,7 @@ globalNavMenuIcon.addEventListener("click", () => {
 
 // Link Active State
 
-const globalNavLinks = document.querySelectorAll(".gn-link");
+const globalNavLinks = document.querySelectorAll(".gn-item-menu a");
 const windowPathname = window.location.pathname;
 
 globalNavLinks.forEach((globalNavLink) => {

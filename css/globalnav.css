@@ -105,6 +105,7 @@
     height: var(--globalnav-height);
     position: relative;
     z-index: 1;
+    padding: 0 8px;
     display: flex;
     align-items: center;
     background: no-repeat;
@@ -127,10 +128,14 @@
     outline: none;
 }
 
-/* .current {
+.gn-link-logo svg {
+    height: 28px;
+}
+
+.current {
     cursor: not-allowed !important;
     opacity: 0.56 !important;
-} */
+}
 
 
 
@@ -154,6 +159,8 @@
 
     .globalnav.active .gn-background {
         height: 100vh;
+        height: 100dvh;
+        height: 100svh;
         background: var(--globalnav-background-opened);
         -webkit-transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
         transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1)
@@ -308,7 +315,7 @@
         transition: opacity 0.229s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s, transform 0.422s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s, -webkit-transform 0.422s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s
     }
 
-    .gn-item-menu:nth-childW(8)::before {
+    .gn-item-menu:nth-child(8)::before {
         content: '';
         display: block;
         width: 100%;
@@ -372,13 +379,18 @@
         transition: opacity 0.3724s cubic-bezier(0.32, 0.08, 0.24, 1) 0.15s, transform 0.4879s cubic-bezier(0.32, 0.08, 0.24, 1) 0.14s, -webkit-transform 0.4879s cubic-bezier(0.32, 0.08, 0.24, 1) 0.14s
     }
 
-    .gn-item-menu.gn-home {
+    .gn-list .gn-logo {
         display: none;
         visibility: hidden;
     }
 
+    .gn-link-logo svg {
+        height: 28px;
+    }
+
     .gn-link {
         font: var(--globalnav-link-xxxs);
+        padding: 0;
     }
 
     .gn-menuicon {
