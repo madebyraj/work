@@ -146,7 +146,7 @@ main {
 }
 
 .journey-section.active .switch {
-  background: #06c;
+  background: rgb(0, 104, 208);
 }
 
 .journey-section.active .knob {
@@ -200,10 +200,18 @@ main {
   transition: var(--tile-transition);
   max-width: var(--global-max-width);
   position: relative;
+  transition: 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
 .project:hover {
   cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+
+.project:active {
+  transform: scale(0.92);
+  transition: transform 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
 .project:hover .project-overlay {

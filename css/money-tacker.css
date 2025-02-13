@@ -669,7 +669,7 @@ main {
 
 /* Mobile */
 
-@media (max-width: 734px) {
+@media (max-width: 767px) {
   #main-container {
     margin: auto;
     padding: 0px 24px;
