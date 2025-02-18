@@ -190,7 +190,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #understand-section {
@@ -230,7 +229,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .user-research-section {
@@ -340,7 +338,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #pain-point-section {
@@ -441,7 +438,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .low-fidelity-section {
@@ -468,7 +464,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #solution-section {
@@ -615,7 +610,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #test-section {
@@ -655,7 +649,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #test-result-section {
@@ -688,7 +681,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .final-design-section {
@@ -715,7 +707,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #next-step-section {

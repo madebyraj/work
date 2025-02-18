@@ -189,7 +189,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #research-section {
@@ -251,7 +250,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #pain-point-section {
@@ -346,7 +344,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #task-flow-section {
@@ -374,7 +371,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .management-task-img {
@@ -383,7 +379,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #solution-section {
@@ -528,7 +523,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #key-takeaways-section {

@@ -302,7 +302,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #research-section {
@@ -406,7 +405,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .other-methods-img {
@@ -415,7 +413,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #design-section {
@@ -443,7 +440,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .low-fidelity-img {
@@ -452,7 +448,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #prototype-section {
@@ -520,7 +515,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #evaluation-section {
@@ -548,7 +542,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 .usability-testing-results-img {
@@ -557,7 +550,6 @@ main {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease-out;
-  border-radius: var(--border-radius-8);
 }
 
 #my-learning-section {
