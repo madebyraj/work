@@ -44,10 +44,11 @@
 
   --typography-fallback-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --typography-fallback-serif: Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+  --typography-fallback-mono: monospace;
 
   --font-ui: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-display: Type VF, var(--typography-fallback-sans), serif;
-  --font-title: Type VF, var(--typography-fallback-sans), serif;
+  --font-display: Apercu Pro, var(--typography-fallback-sans), sans-serif;
+  --font-title: Apercu Pro, var(--typography-fallback-sans), sans-serif;
   --font-body: Type VF, var(--typography-fallback-sans), sans-serif;
   --font-content: Type VF, var(--typography-fallback-sans), sans-serif;
 
@@ -83,7 +84,7 @@
   --letterSpacing-wider: 0.025em;
 
   --letterSpacing-display: -0.025em;
-  --letterSpacing-title: -0.0125em;
+  --letterSpacing-title: -0.025em;
   --letterSpacing-body: 0.0125em;
   --letterSpacing-content: 0.025em;
   --letterSpacing-badge: 0.125em;
