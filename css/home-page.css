@@ -119,18 +119,25 @@ main {
   width: 64px;
   height: 36px;
   border-radius: 100rem;
-  padding: 4px;
+  padding: 8px;
   transition: 0.25s linear;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.switch:hover {
+  background: #424248;
 }
 
 .knob {
-  height: 28px;
-  width: 28px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   background: #e8e8ea;
   box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .journey {
@@ -146,10 +153,13 @@ main {
 }
 
 .journey-section.active .switch {
-  background: rgb(0, 104, 208);
+  background: #FF5714;
+  padding: 4px;
 }
 
 .journey-section.active .knob {
+  height: 28px;
+  width: 28px;
   transform: translateX(28px);
 }
 

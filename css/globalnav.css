@@ -154,14 +154,14 @@
     .gn-background {
         overflow-y: hidden;
         -webkit-transition: background 0.44s 0.2s cubic-bezier(0.52, 0.16, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
-        transition: background 0.44s 0.2s cubic-bezier(0.52, 0.16, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1)
+        transition: background 0.44s 0.2s cubic-bezier(0.52, 0.16, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
     }
 
     .globalnav.active .gn-background {
         height: 100vh;
         background: var(--globalnav-background-opened);
         -webkit-transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
-        transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1)
+        transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
     }
 
     .gn-content {

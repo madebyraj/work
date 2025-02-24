@@ -7,31 +7,3 @@
   font-display: swap;
   src: local("☺"), url("/assets/Fonts/TypeVF.woff2") format("woff2");
 }
-
-
-
-/* Apercu Pro */
-
-@font-face {
-  font-family: "Apercu Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ApercuBold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Apercu Pro";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ApercuMedium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Apercu Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("☺"), url("/assets/Fonts/ApercuRegular.woff2") format("woff2");
-}

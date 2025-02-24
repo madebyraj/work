@@ -47,8 +47,8 @@
   --typography-fallback-mono: monospace;
 
   --font-ui: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-display: Apercu Pro, var(--typography-fallback-sans), sans-serif;
-  --font-title: Apercu Pro, var(--typography-fallback-sans), sans-serif;
+  --font-display: Type VF, var(--typography-fallback-sans), sans-serif;
+  --font-title: Type VF, var(--typography-fallback-sans), sans-serif;
   --font-body: Type VF, var(--typography-fallback-sans), sans-serif;
   --font-content: Type VF, var(--typography-fallback-sans), sans-serif;
 
