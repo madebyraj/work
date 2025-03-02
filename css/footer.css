@@ -1,9 +1,7 @@
 :root {
-  --globalfooter-background: #fff;
-  --globalfooter-keyline-color: rgba(0, 0, 0, 0.16);
-  --globalfooter-color: #6E6E76;
-  --globalfooter-color-hover: #1e1e22;
-  --globalfooter-color-disabled: #86868E;
+  --globalfooter-background: var(--systemWhite);
+  --globalfooter-keyline-color: var(--systemQuaternary);
+  --globalfooter-color: var(--systemTertiary);
 }
 
 /* Linked CSS Files */
@@ -20,6 +18,8 @@
 }
 
 .footer {
+  position: relative;
+  z-index: 1;
   margin: auto;
   background: var(--globalfooter-background);
   padding: 0 80px;

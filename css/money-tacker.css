@@ -38,7 +38,7 @@ main {
 }
 
 .project-cover-wrapper {
-  background-color: var(--fill-secondary);
+  background-color: var(--fillSecondary);
   width: 100%;
   max-height: 512px;
   overflow: hidden;

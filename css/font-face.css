@@ -5,5 +5,61 @@
   font-style: normal;
   font-weight: 1 1000;
   font-display: swap;
-  src: local("☺"), url("/assets/Fonts/TypeVF.woff2") format("woff2");
+  src: local("☺"), url("/assets/fonts/TypeVF.woff2") format("woff2");
+}
+
+
+
+/* Sohne */
+
+@font-face {
+  font-family: "Sohne";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/sohne-700-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sohne";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/sohne-500-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sohne";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/sohne-400-normal.woff") format("woff");
+}
+
+
+
+/* Source Serif Pro */
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/source-serif-pro-700-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/source-serif-pro-400-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/source-serif-pro-400-normal.woff") format("woff");
 }

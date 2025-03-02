@@ -1,5 +1,50 @@
 :root {
-  /* ----Global---- */
+
+  --black: black;
+  --white: white;
+  --gray100: rgba(249, 249, 249, 1);
+  --gray200: rgba(242, 242, 242, 1);
+  --gray300: rgba(229, 229, 229, 1);
+  --gray400: rgba(210, 210, 210, 1);
+  --gray500: rgba(179, 179, 179, 1);
+  --gray600: rgba(107, 107, 107, 1);
+  --gray700: rgba(63, 63, 63, 1);
+  --gray800: rgba(36, 36, 36, 1);
+  --gray900: rgba(18, 18, 18, 1);
+
+  --systemWhite: white;
+  --systemBlack: black;
+
+  --systemGray: rgba(128, 128, 128, 1);
+  --systemGray-onDark: rgba(128, 128, 128, 1);
+  --systemGray2: rgba(196, 196, 196, 1);
+  --systemGray2-onDark: rgba(61, 61, 61, 1);
+  --systemGray3: rgba(214, 214, 214, 1);
+  --systemGray3-onDark: rgba(45, 45, 45, 1);
+  --systemGray4: rgba(229, 229, 229, 1);
+  --systemGray4-onDark: rgba(35, 35, 35, 1);
+  --systemGray5: rgba(242, 242, 242, 1);
+  --systemGray5-onDark: rgba(22, 22, 22, 1);
+  --systemGray6: rgba(250, 250, 250, 1);
+  --systemGray6-onDark: rgba(15, 15, 15, 1);
+
+  --systemPrimary: rgba(35, 35, 35, 1);
+  --systemPrimary-onDark: rgba(242, 242, 242, 1);
+  --systemSecondary: rgba(65, 65, 65, 1);
+  --systemSecondary-onDark: rgba(196, 196, 196, 1);
+  --systemTertiary: rgba(128, 128, 128, 1);
+  --systemTertiary-onDark: rgba(128, 128, 128, 1);
+  --systemQuaternary: rgba(214, 214, 214, 1);
+  --systemQuaternary-onDark: rgba(45, 45, 45, 1);
+  --systemQuinary: rgba(242, 242, 242, 1);
+  --systemQuinary-onDark: rgba(22, 22, 22, 1);
+
+  --fillBlue: rgba(33, 114, 227, 1);
+  --fillBlueSecondary: rgba(223, 233, 247, 1);
+  --fillBlueSecondary-onDark: rgba(13, 22, 33, 1);
+  --figureBlue: rgba(29, 99, 196, 1);
+  --figureBlue-onDark: rgba(68, 142, 244, 1);
+
 
   /* --Depth-- */
 
@@ -19,26 +64,29 @@
 
   /* Semantics/Component Specific */
 
-  --separator: rgb(134, 134, 142);
-  --separator-muted: rgb(232, 232, 234);
+  --separator: var(--systemQuaternary);
+  --separator-inverse: var(--systemQuaternary-onDark);
+  --separator-muted: var(--systemQuinary);
+  --separator-muted-inverse: var(--systemQuinary-onDark);
 
-  --background: white;
-  --background-grouped: rgb(244, 244, 246);
+  --background: var(--white);
+  --background-inverse: var(--black);
 
-  --fill: white;
-  --fill-secondary: rgb(250, 250, 252);
-  --fill-tertiary: rgb(244, 244, 246);
+  --fill: var(--white);
+  --fill-inverse: var(--gray900);
+  --fillSecondary: var(--gray100);
+  --fillSecondary-inverse: var(--gray800);
+  --fillTertiary: var(--gray200);
+  --fillTertiary-inverse: var(--gray700);
 
-  --text: rgba(30, 30, 34);
-  --text-secondary: rgba(110, 110, 118);
-  --text-tertiary: rgba(134, 134, 142);
+  --text: var(--gray900);
+  --text-inverse: var(--gray100);
+  --text-secondary: var(--gray800);
+  --text-secondary-inverse: var(--gray200);
+  --text-tertiary: var(--gray600);
+  --text-tertiary-inverse: var(--gray400);
+  --textQuaternary: var(--gray400);
+  --textQuaternary-inverse: var(--gray600);
 
-  --button-background: rgb(0, 104, 208);
-  --button-background-hover: rgb(0, 96, 200);
-  --button-background-active: rgb(0, 80, 184);
-  --button-color: white;
-  --button-color-hover: var(--button-color);
-  --button-color-active: var(--button-color-hover);
-
-  --link-color: rgb(0, 104, 208);
+  --link-color: var(--figureBlue);
 }

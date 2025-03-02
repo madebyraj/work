@@ -1,11 +1,11 @@
 :root {
     --globalnav-backdrop-filter: saturate(180%) blur(20px);
-    --globalnav-height: 48px;
+    --globalnav-height: 52px;
     --globalnav-max-width: 1024px;
-    --globalnav-background: rgba(0, 0, 0, 0.8);
-    --globalnav-background-opened: rgb(0, 0, 0);
+    --globalnav-background: var(--gray900);
+    --globalnav-background-opened: var(--systemBlack);
     --globalnav-keyline-color: rgba(255, 255, 255, 0.24);
-    --globalnav-color: white;
+    --globalnav-color: var(--systemWhite);
     --globalnav-opacity: 0.8;
     --globalnav-opacity-hover: 1;
 }

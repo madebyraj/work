@@ -46,11 +46,12 @@
   --typography-fallback-serif: Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
   --typography-fallback-mono: monospace;
 
-  --font-ui: Type VF, var(--typography-fallback-sans), sans-serif;
+  --font-ui: Sohne, var(--typography-fallback-sans), sans-serif;
   --font-display: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-title: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-body: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-content: Type VF, var(--typography-fallback-sans), sans-serif;
+  --font-title: Sohne, var(--typography-fallback-sans), sans-serif;
+  --font-body: Sohne, var(--typography-fallback-sans), sans-serif;
+  --font-content: Source Serif Pro, var(--typography-fallback-sans), sans-serif;
+  --font-special: var(--typography-fallback-mono), monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -84,8 +85,8 @@
   --letterSpacing-wider: 0.025em;
 
   --letterSpacing-display: -0.025em;
-  --letterSpacing-title: -0.025em;
-  --letterSpacing-body: 0.0125em;
+  --letterSpacing-title: -0.0125em;
+  --letterSpacing-body: 0.025em;
   --letterSpacing-content: 0.025em;
   --letterSpacing-badge: 0.125em;
   --letterSpacing-eyebrow: 0.125em;
@@ -183,14 +184,14 @@
   --body4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-body);
 
   --content-letterspacing: var(--letterSpacing-content);
-  --content-xxl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
-  --content-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
-  --content-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
-  --content-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
+  --content-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
+  --content-xl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-xl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
+  --content-m: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-m-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
+  --content-xxxs: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-content);
+  --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-content);
 
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
   --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-ui);

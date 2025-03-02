@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  background: #f4f4f6;
+  background: var(--background);
   animation: pageLoading 1000ms;
   animation-timing-function: var(--bounce-effect);
   position: relative;
@@ -40,7 +40,7 @@ main {
 }
 
 .hero-section-background {
-  background: #f4f4f6;
+  background: var(--fillTertiary);
 }
 
 .hero-section {
@@ -76,13 +76,13 @@ main {
 .hero-section-card-header {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: #1e1e22;
+  color: var(--text);
 }
 
 .hero-section-card-copy {
   font: var(--body3-m);
   letter-spacing: var(--body3-letterspacing);
-  color: #6e6e76;
+  color: var(--text-secondary);
 }
 
 .me {
@@ -94,7 +94,7 @@ main {
 }
 
 .journey-section-background {
-  background: black;
+  background: var(--fill-inverse);
 }
 
 .journey-section-content {
@@ -111,11 +111,11 @@ main {
 .journey-section-header {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: #f4f4f6;
+  color: var(--text-inverse);
 }
 
 .switch {
-  background: #34343a;
+  background: var(--gray600);
   width: 64px;
   height: 36px;
   border-radius: 100rem;
@@ -128,14 +128,14 @@ main {
 }
 
 .switch:hover {
-  background: #424248;
+  background: var(--gray700);
 }
 
 .knob {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background: #e8e8ea;
+  background: var(--gray100);
   box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -149,12 +149,16 @@ main {
 .journey-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: #f4f4f6;
+  color: var(--text-inverse);
 }
 
 .journey-section.active .switch {
-  background: #FF5714;
+  background: #1A8917;
   padding: 4px;
+}
+
+.journey-section.active .switch:hover {
+  background: #156D12;
 }
 
 .journey-section.active .knob {
@@ -165,11 +169,15 @@ main {
 
 .journey-section.active .disabled-journey-copy {
   text-decoration: line-through;
-  color: #6e6e76;
+  color: var(--textQuaternary-inverse);
 }
 
 
 /* Project Section */
+
+.project-section-background {
+  background: var(--fillTertiary);
+}
 
 #project-section {
   overflow: visible;
@@ -188,7 +196,7 @@ main {
   text-align: center;
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: #1e1e22;
+  color: var(--text);
 }
 
 #project-container {
@@ -272,14 +280,14 @@ main {
 .project-badge {
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: #6e6e76;
+  color: var(--text-secondary-inverse);
   text-align: center;
 }
 
 .project-title {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: #f4f4f6;
+  color: var(--text-inverse);
   text-overflow: ellipsis;
   text-align: center;
 }
@@ -296,7 +304,6 @@ main {
 @media (max-width: 1068px) {
 
   .hero-section {
-    max-width: var(--global-max-width);
     margin: auto;
     padding: 96px 48px;
   }
@@ -318,7 +325,6 @@ main {
 @media (max-width: 767px) {
 
   .hero-section {
-    max-width: var(--global-max-width);
     margin: auto;
     padding: 80px 24px;
   }

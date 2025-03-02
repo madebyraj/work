@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    background: var(--background-grouped);
+    background: var(--background);
     animation: pageLoading 1000ms;
     animation-timing-function: var(--bounce-effect);
     position: relative;
@@ -40,6 +40,7 @@ main {
   }
 
 .snaps-wrapper {
+    background: var(--fillSecondary);
     width: 100%;
     display: flex;
     flex-direction: column;
