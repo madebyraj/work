@@ -115,7 +115,7 @@ main {
 }
 
 .switch {
-  background: var(--fillTertiary-inverse);
+  background: var(--switchBackgroundOFF);
   width: 64px;
   height: 36px;
   border-radius: 100rem;
@@ -128,7 +128,7 @@ main {
 }
 
 .switch:hover {
-  background: var(--gray700);
+  background: var(--switchBackgroundOFF-hover);
 }
 
 .knob {
@@ -136,7 +136,7 @@ main {
   width: 20px;
   border-radius: 50%;
   background: var(--gray100);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
+  box-shadow: var(--switchKnobShadow);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -153,12 +153,12 @@ main {
 }
 
 .journey-section.active .switch {
-  background: var(--fillBlue);
+  background: var(--switchBackgroundON);
   padding: 4px;
 }
 
 .journey-section.active .switch:hover {
-  background: var(--figureBlue-inverse);
+  background: var(--switchBackgroundON-hover);
 }
 
 .journey-section.active .knob {
