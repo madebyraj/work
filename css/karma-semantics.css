@@ -2,48 +2,26 @@
 
   --black: black;
   --white: white;
-  --gray100: rgba(249, 249, 249, 1);
-  --gray200: rgba(242, 242, 242, 1);
-  --gray300: rgba(229, 229, 229, 1);
-  --gray400: rgba(210, 210, 210, 1);
-  --gray500: rgba(179, 179, 179, 1);
-  --gray600: rgba(107, 107, 107, 1);
-  --gray700: rgba(63, 63, 63, 1);
-  --gray800: rgba(36, 36, 36, 1);
-  --gray900: rgba(18, 18, 18, 1);
 
-  --systemWhite: white;
-  --systemBlack: black;
+  --gray100: rgba(252, 252, 250, 1);
+  --gray200: rgba(246, 246, 244, 1);
+  --gray300: rgba(223, 223, 219, 1);
+  --gray400: rgba(163, 163, 157, 1);
+  --gray500: rgba(120, 120, 112, 1);
+  --gray600: rgba(97, 97, 91, 1);
+  --gray700: rgba(73, 73, 67, 1);
+  --gray800: rgba(49, 49, 45, 1);
+  --gray900: rgba(25, 25, 23, 1);
 
-  --systemGray: rgba(128, 128, 128, 1);
-  --systemGray-onDark: rgba(128, 128, 128, 1);
-  --systemGray2: rgba(196, 196, 196, 1);
-  --systemGray2-onDark: rgba(61, 61, 61, 1);
-  --systemGray3: rgba(214, 214, 214, 1);
-  --systemGray3-onDark: rgba(45, 45, 45, 1);
-  --systemGray4: rgba(229, 229, 229, 1);
-  --systemGray4-onDark: rgba(35, 35, 35, 1);
-  --systemGray5: rgba(242, 242, 242, 1);
-  --systemGray5-onDark: rgba(22, 22, 22, 1);
-  --systemGray6: rgba(250, 250, 250, 1);
-  --systemGray6-onDark: rgba(15, 15, 15, 1);
-
-  --systemPrimary: rgba(35, 35, 35, 1);
-  --systemPrimary-onDark: rgba(242, 242, 242, 1);
-  --systemSecondary: rgba(65, 65, 65, 1);
-  --systemSecondary-onDark: rgba(196, 196, 196, 1);
-  --systemTertiary: rgba(128, 128, 128, 1);
-  --systemTertiary-onDark: rgba(128, 128, 128, 1);
-  --systemQuaternary: rgba(214, 214, 214, 1);
-  --systemQuaternary-onDark: rgba(45, 45, 45, 1);
-  --systemQuinary: rgba(242, 242, 242, 1);
-  --systemQuinary-onDark: rgba(22, 22, 22, 1);
-
-  --fillBlue: rgba(33, 114, 227, 1);
-  --fillBlueSecondary: rgba(223, 233, 247, 1);
-  --fillBlueSecondary-onDark: rgba(13, 22, 33, 1);
-  --figureBlue: rgba(29, 99, 196, 1);
-  --figureBlue-onDark: rgba(68, 142, 244, 1);
+  --blue100: rgba(242, 249, 255, 1);
+  --blue200: rgba(202, 228, 250, 1);
+  --blue300: rgba(163, 208, 247, 1);
+  --blue400: rgba(98, 174, 240, 1);
+  --blue500: rgba(9, 127, 232, 1);
+  --blue600: rgba(0, 117, 222, 1);
+  --blue700: rgba(0, 91, 171, 1);
+  --blue800: rgba(0, 57, 107, 1);
+  --blue900: rgba(0, 42, 79, 1);
 
 
   /* --Depth-- */
@@ -64,29 +42,36 @@
 
   /* Semantics/Component Specific */
 
-  --separator: var(--systemQuaternary);
-  --separator-inverse: var(--systemQuaternary-onDark);
-  --separator-muted: var(--systemQuinary);
-  --separator-muted-inverse: var(--systemQuinary-onDark);
+  --separator: var(--gray400);
+  --separator-inverse: var(--gray700);
+  --separatorMuted: var(--gray300);
+  --separatorMuted-inverse: var(--gray800);
 
   --background: var(--white);
   --background-inverse: var(--black);
 
   --fill: var(--white);
-  --fill-inverse: var(--gray900);
+  --fill-inverse: var(--black);
   --fillSecondary: var(--gray100);
-  --fillSecondary-inverse: var(--gray800);
+  --fillSecondary-inverse: var(--gray900);
   --fillTertiary: var(--gray200);
-  --fillTertiary-inverse: var(--gray700);
+  --fillTertiary-inverse: var(--gray800);
+
+  --fillBlue: var(--blue500);
+  --fillBlueSecondary: var(--blue100);
+  --fillBlueSecondary-inverse: var(--blue900);
+  --figureBlue: var(--blue600);
+  --figureBlue-inverse: var(--blue400);
 
   --text: var(--gray900);
   --text-inverse: var(--gray100);
-  --text-secondary: var(--gray800);
-  --text-secondary-inverse: var(--gray200);
-  --text-tertiary: var(--gray600);
-  --text-tertiary-inverse: var(--gray400);
-  --textQuaternary: var(--gray400);
-  --textQuaternary-inverse: var(--gray600);
+  --text-secondary: var(--gray600);
+  --text-secondary-inverse: var(--gray500);
+  --text-tertiary: var(--gray300);
+  --text-tertiary-inverse: var(--gray700);
+
+  /* Components */
 
   --link-color: var(--figureBlue);
+
 }

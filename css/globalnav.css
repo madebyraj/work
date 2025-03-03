@@ -3,9 +3,9 @@
     --globalnav-height: 52px;
     --globalnav-max-width: 1024px;
     --globalnav-background: var(--gray900);
-    --globalnav-background-opened: var(--systemBlack);
+    --globalnav-background-opened: var(--black);
     --globalnav-keyline-color: rgba(255, 255, 255, 0.24);
-    --globalnav-color: var(--systemWhite);
+    --globalnav-color: var(--white);
     --globalnav-opacity: 0.8;
     --globalnav-opacity-hover: 1;
 }

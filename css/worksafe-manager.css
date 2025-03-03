@@ -140,7 +140,7 @@ main {
 }
 
 .line {
-  border: 1px solid var(--separator-muted);
+  border: 1px solid var(--separatorMuted);
 }
 
 /* Main Case Study Section */

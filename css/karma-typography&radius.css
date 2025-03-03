@@ -46,12 +46,11 @@
   --typography-fallback-serif: Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
   --typography-fallback-mono: monospace;
 
-  --font-ui: Sohne, var(--typography-fallback-sans), sans-serif;
+  --font-ui: Type VF, var(--typography-fallback-sans), sans-serif;
   --font-display: Type VF, var(--typography-fallback-sans), sans-serif;
-  --font-title: Sohne, var(--typography-fallback-sans), sans-serif;
-  --font-body: Sohne, var(--typography-fallback-sans), sans-serif;
-  --font-content: Source Serif Pro, var(--typography-fallback-sans), sans-serif;
-  --font-special: var(--typography-fallback-mono), monospace;
+  --font-title: Type VF, var(--typography-fallback-sans), sans-serif;
+  --font-body: Type VF, var(--typography-fallback-sans), sans-serif;
+  --font-content: Type VF, var(--typography-fallback-sans), sans-serif;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;

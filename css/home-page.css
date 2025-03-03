@@ -115,7 +115,7 @@ main {
 }
 
 .switch {
-  background: var(--gray600);
+  background: var(--fillTertiary-inverse);
   width: 64px;
   height: 36px;
   border-radius: 100rem;
@@ -153,12 +153,12 @@ main {
 }
 
 .journey-section.active .switch {
-  background: #1A8917;
+  background: var(--fillBlue);
   padding: 4px;
 }
 
 .journey-section.active .switch:hover {
-  background: #156D12;
+  background: var(--figureBlue-inverse);
 }
 
 .journey-section.active .knob {
@@ -169,7 +169,7 @@ main {
 
 .journey-section.active .disabled-journey-copy {
   text-decoration: line-through;
-  color: var(--textQuaternary-inverse);
+  color: var(--text-tertiary-inverse);
 }
 
 
