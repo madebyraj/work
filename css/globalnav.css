@@ -2,8 +2,8 @@
     --globalnav-backdrop-filter: saturate(180%) blur(20px);
     --globalnav-height: 52px;
     --globalnav-max-width: 1024px;
-    --globalnav-background: var(--gray900);
-    --globalnav-background-opened: var(--black);
+    --globalnav-background: var(--alphaBlack700);
+    --globalnav-background-opened: var(--alphaBlack900);
     --globalnav-keyline-color: rgba(255, 255, 255, 0.24);
     --globalnav-color: var(--white);
     --globalnav-opacity: 0.8;

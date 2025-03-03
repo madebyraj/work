@@ -1,7 +1,7 @@
 :root {
   --globalfooter-background: var(--white);
   --globalfooter-keyline-color: var(--separatorMuted);
-  --globalfooter-color: var(--text-tertiary);
+  --globalfooter-color: var(--textTertiary);
 }
 
 /* Linked CSS Files */

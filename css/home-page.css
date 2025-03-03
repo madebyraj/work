@@ -82,7 +82,7 @@ main {
 .hero-section-card-copy {
   font: var(--body3-m);
   letter-spacing: var(--body3-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 .me {
@@ -169,7 +169,7 @@ main {
 
 .journey-section.active .disabled-journey-copy {
   text-decoration: line-through;
-  color: var(--text-tertiary-inverse);
+  color: var(--textTertiary-inverse);
 }
 
 
@@ -280,7 +280,7 @@ main {
 .project-badge {
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: var(--text-secondary-inverse);
+  color: var(--textSecondary-inverse);
   text-align: center;
 }
 

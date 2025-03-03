@@ -92,7 +92,7 @@ main {
 .project-overview {
   font: var(--body1-m);
   letter-spacing: var(--body1-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 .project-information {
@@ -113,7 +113,7 @@ main {
 .role p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 .duration h6 {
@@ -126,7 +126,7 @@ main {
 .duration p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 .tools h6 {
@@ -139,7 +139,7 @@ main {
 .tools p {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 .line {
@@ -272,7 +272,7 @@ main {
 .user-research-question {
   font: var(--body3-m);
   letter-spacing: var(--body3-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 .user-research-observation-section {
@@ -298,7 +298,7 @@ main {
 .user-research-observation {
   font: var(--body3-m);
   letter-spacing: var(--body3-letterspacing);
-  color: var(--text-secondary);
+  color: var(--textSecondary);
 }
 
 #define-section {
