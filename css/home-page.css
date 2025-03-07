@@ -70,6 +70,7 @@ main {
   margin-top: 10%;
   margin-left: 10%;
   background: var(--fill);
+  box-shadow: var(--depth-raised);
   gap: 16px;
 }
 

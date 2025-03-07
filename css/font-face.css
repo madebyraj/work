@@ -2,8 +2,9 @@
 
 @font-face {
   font-family: "Type VF";
+  font-weight: 100 900;
   font-style: normal;
-  font-weight: 1 1000;
-  font-display: swap;
-  src: local("☺"), url("/assets/fonts/TypeVF.woff2") format("woff2");
+  src: url("/assets/fonts/TypeVF.woff2") format("woff2 supports variations"),
+    url("/assets/fonts/TypeVF.woff2") format("woff2-variations");
+  font-display: auto;
 }

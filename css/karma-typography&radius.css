@@ -1,4 +1,4 @@
-@import url(/css/font-face.css);
+@import url(./font-face.css);
 
 :root {
   /* Border Radius */
@@ -74,7 +74,7 @@
   --fontSize-103: 103px;
 
   --fontWeight-regular: 400;
-  --fontWeight-medium: 500;
+  --fontWeight-medium: 550;
   --fontWeight-bold: 700;
 
   --letterSpacing-tighter: -0.025em;
