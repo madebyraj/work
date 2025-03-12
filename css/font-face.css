@@ -1,10 +1,9 @@
-/* Type VF */
+/* SF Pro */
 
 @font-face {
-  font-family: "Type VF";
-  font-weight: 100 900;
+  font-family: "SF Pro";
   font-style: normal;
-  src: url("/assets/fonts/TypeVF.woff2") format("woff2 supports variations"),
-    url("/assets/fonts/TypeVF.woff2") format("woff2-variations");
-  font-display: auto;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: local("☺"), url("/assets/fonts/SFPro.woff2") format("woff2");
 }
