@@ -1,9 +1,0 @@
-/* SF Pro */
-
-@font-face {
-  font-family: "SF Pro";
-  font-style: normal;
-  font-weight: 100 1000;
-  font-display: swap;
-  src: local("☺"), url("/assets/fonts/SFPro.woff2") format("woff2");
-}

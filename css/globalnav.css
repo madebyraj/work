@@ -1,6 +1,13 @@
+/* Linked CSS Files */
+
+@import url("./karma-semantics.css");
+@import url("./karma-typography&radius.css");
+
+
+
 :root {
     --globalnav-backdrop-filter: saturate(180%) blur(20px);
-    --globalnav-height: 52px;
+    --globalnav-height: 48px;
     --globalnav-max-width: 1024px;
     --globalnav-background: var(--alphaBlack700);
     --globalnav-background-opened: var(--alphaBlack900);
@@ -10,11 +17,6 @@
     --globalnav-opacity-hover: 1;
 }
 
-
-/* Linked CSS Files */
-
-@import url("./karma-semantics.css");
-@import url("./karma-typography&radius.css");
 
 
 /* Global Navbar */

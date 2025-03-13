@@ -1,13 +1,15 @@
+/* Linked CSS Files */
+
+@import url("./karma-semantics.css");
+@import url("./karma-typography&radius.css");
+
+
 :root {
   --globalfooter-background: var(--white);
   --globalfooter-keyline-color: var(--separatorMuted);
   --globalfooter-color: var(--textTertiary);
 }
 
-/* Linked CSS Files */
-
-@import url("./karma-semantics.css");
-@import url("./karma-typography&radius.css");
 
 /* footer Section */
 
