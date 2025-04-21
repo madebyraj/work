@@ -22,3 +22,32 @@ globalNavLinks.forEach((globalNavLink) => {
     globalNavLink.classList.add("current");
   }
 });
+
+// Theme
+
+function updateNavbarTheme() {
+  const navbar = document.querySelector(".globalnav");
+  const sections = document.querySelectorAll(".light, .dark");
+
+  let navbarCenterY = navbar.offsetHeight + 10; // a bit below navbar
+  let activeSectionTheme = null;
+
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top <= navbarCenterY && rect.bottom >= navbarCenterY) {
+      if (section.classList.contains("light")) {
+        activeSectionTheme = "light";
+      } else if (section.classList.contains("dark")) {
+        activeSectionTheme = "dark";
+      }
+    }
+  });
+
+  if (activeSectionTheme) {
+    navbar.classList.remove("light", "dark");
+    navbar.classList.add(activeSectionTheme);
+  }
+}
+
+window.addEventListener("scroll", updateNavbarTheme);
+window.addEventListener("load", updateNavbarTheme);

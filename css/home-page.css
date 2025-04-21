@@ -40,7 +40,7 @@ main {
 }
 
 .hero-section-background {
-  background: var(--fillTertiary);
+  background: var(--fillSecondary);
 }
 
 .hero-section {
@@ -70,7 +70,6 @@ main {
   margin-top: 10%;
   margin-left: 10%;
   background: var(--fill);
-  box-shadow: var(--depth-raised);
   gap: 16px;
 }
 
@@ -95,7 +94,7 @@ main {
 }
 
 .journey-section-background {
-  background: var(--fill-inverse);
+  background: var(--fill);
 }
 
 .journey-section-content {
@@ -112,7 +111,7 @@ main {
 .journey-section-header {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-inverse);
+  color: var(--text);
 }
 
 .switch {
@@ -128,15 +127,11 @@ main {
   justify-content: start;
 }
 
-.switch:hover {
-  background: var(--switchBackgroundOFF-hover);
-}
-
 .knob {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background: var(--gray100);
+  background: var(--switchKnobBackground);
   box-shadow: var(--switchKnobShadow);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -150,16 +145,12 @@ main {
 .journey-copy {
   font: var(--body2-m);
   letter-spacing: var(--body2-letterspacing);
-  color: var(--text-inverse);
+  color: var(--text);
 }
 
 .journey-section.active .switch {
   background: var(--switchBackgroundON);
   padding: 4px;
-}
-
-.journey-section.active .switch:hover {
-  background: var(--switchBackgroundON-hover);
 }
 
 .journey-section.active .knob {
@@ -170,14 +161,15 @@ main {
 
 .journey-section.active .disabled-journey-copy {
   text-decoration: line-through;
-  color: var(--textTertiary-inverse);
+  color: var(--textTertiary);
+  opacity: 0.56;
 }
 
 
 /* Project Section */
 
 .project-section-background {
-  background: var(--fillTertiary);
+  background: var(--fillSecondary);
 }
 
 #project-section {
@@ -215,15 +207,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: visible;
+  overflow: hidden;
   transition: var(--tile-transition);
   max-width: var(--global-max-width);
   position: relative;
-  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
 }
 
 .project:hover {
-  cursor: pointer;
   transform: scale(1);
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -234,9 +226,8 @@ main {
 }
 
 .project:hover .project-overlay {
-  visibility: visible;
   opacity: 1;
-  transition: opacity 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
 }
 
 .project:focus {
@@ -252,20 +243,19 @@ main {
 }
 
 #project-3 {
-  background: #141414;
+  background: #161616;
 }
 
 .project-overlay {
-  visibility: hidden;
   opacity: 0;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: saturate(180%) blur(5px);
-  transition: opacity 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  transition: opacity 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
 }
 
 .project-information {
@@ -281,14 +271,14 @@ main {
 .project-badge {
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: var(--textSecondary-inverse);
+  color: rgba(110, 110, 115);
   text-align: center;
 }
 
 .project-title {
   font: var(--title3-m-emphasized);
   letter-spacing: var(--title3-letterspacing);
-  color: var(--text-inverse);
+  color:rgba(245, 245, 247);
   text-overflow: ellipsis;
   text-align: center;
 }
