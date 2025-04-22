@@ -254,7 +254,7 @@ main {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.96) 0%, rgba(0, 0, 0, 0.16) 100%);
+  background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.77311) 12.83%, hsla(0, 0%, 0%, 0.72685) 24%, hsla(0, 0%, 0%, 0.66487) 33.77%, hsla(0, 0%, 0%, 0.59081) 42.37%, hsla(0, 0%, 0%, 0.50831) 50.07%, hsla(0, 0%, 0%, 0.421) 57.13%, hsla(0, 0%, 0%, 0.33252) 63.78%, hsla(0, 0%, 0%, 0.24652) 70.3%, hsla(0, 0%, 0%, 0.16663) 76.92%, hsla(0, 0%, 0%, 0.09648) 83.91%, hsla(0, 0%, 0%, 0.03973) 91.52%, hsla(0, 0%, 0%, 0));
   transition: opacity 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
 }
 
@@ -272,7 +272,7 @@ main {
 .project-badge {
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: rgb(110, 110, 115);
+  color: rgb(134, 134, 139);
   text-align: center;
 }
 
