@@ -242,10 +242,10 @@
   --largebutton-xxxs: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-ui);
 
   --mediumbutton-letterspacing: var(--letterSpacing-normal);
-  --mediumbutton-xxl: var(--fontWeight-bold) var(--fontSize-16) / 140% var(--font-ui);
-  --mediumbutton-xl: var(--fontWeight-bold) var(--fontSize-16) / 140% var(--font-ui);
-  --mediumbutton-m: var(--fontWeight-bold) var(--fontSize-16) / 140% var(--font-ui);
-  --mediumbutton-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-xl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-m: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
+  --mediumbutton-xxxs: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
 
   --smallbutton-letterspacing: var(--letterSpacing-wider);
   --smallbutton-xxl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-ui);
