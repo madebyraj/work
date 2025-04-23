@@ -228,14 +228,14 @@
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
   --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-ui);
   --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-ui);
-  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-ui);
-  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-ui);
+  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-ui);
+  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 130% var(--font-ui);
 
   --badge-letterspacing: var(--letterSpacing-badge);
-  --badge-xxl: var(--fontWeight-bold) var(--fontSize-16) / 100% var(--font-ui);
-  --badge-xl: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
-  --badge-m: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
-  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
+  --badge-xxl: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-ui);
+  --badge-xl: var(--fontWeight-bold) var(--fontSize-12) / 100% var(--font-ui);
+  --badge-m: var(--fontWeight-bold) var(--fontSize-12) / 100% var(--font-ui);
+  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-12) / 100% var(--font-ui);
 
   --button-letterspacing: var(--letterSpacing-wide);
   --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
