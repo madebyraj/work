@@ -29,7 +29,6 @@
   --fillTertiary: #F5F5F7;
 
   --fillBlue: #0071E3;
-  --fillBlueSecondary: #0071E320;
   --figureBlue: #06c;
 
   --text: #1D1D1F;
@@ -43,7 +42,7 @@
   --switchBackgroundOFF: var(--fillTertiary);
   --switchKnobBackground: #1D1D1F;
   --switchKnobShadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
-  --switchBackgroundON: var(--fillBlue);
+  --switchBackgroundON: #FF5A00;
 
 }
 
@@ -61,7 +60,6 @@
   --fillTertiary: #1D1D1F;
 
   --fillBlue: #0071E3;
-  --fillBlueSecondary: #0071E320;
   --figureBlue: #2997FF;
 
   --text: #F5F5F7;
@@ -75,6 +73,6 @@
   --switchBackgroundOFF: var(--fillTertiary);
   --switchKnobBackground: #F5F5F7;
   --switchKnobShadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
-  --switchBackgroundON: var(--fillBlue);
+  --switchBackgroundON: #FF5A00;
 
 }
