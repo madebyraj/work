@@ -214,7 +214,7 @@ main {
   transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.24);
-  border-radius: 5%;
+  border-radius: 32px;
 }
 
 .project:hover {
@@ -235,24 +235,25 @@ main {
 }
 
 #project-3 {
-  background: #232323;
+  background: #161616;
 }
 
 .project-information {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
   gap: 8px;
-  width: 100%;
   padding: 32px;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
 .project-badge {
