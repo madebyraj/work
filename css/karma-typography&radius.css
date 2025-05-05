@@ -1,16 +1,52 @@
+/* Graphik */
+
 @font-face {
-  font-family: "Inter";
-  font-weight: 100 900;
+  font-family: "Graphik";
+  font-weight: 700;
   font-style: normal;
-  src: url("../assets/fonts/Inter-var.woff2") format("woff2");
+  src: url("../assets/fonts/Graphik-Medium.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Inter";
-  font-weight: 100 900;
-  font-style: italic;
-  src: url("../assets/fonts/Inter-italic-var.woff2") format("woff2");
+  font-family: "Graphik";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../assets/fonts/Graphik-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/Graphik-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+/* Denton */
+
+@font-face {
+  font-family: "Denton";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/fonts/Denton-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Denton";
+  font-weight: 500 700;
+  font-style: normal;
+  src: url("../assets/fonts/Denton-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Denton";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/Denton-Regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -60,12 +96,12 @@
   --typography-fallback-serif: Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
   --typography-fallback-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-  --font-ui: Inter, var(--typography-fallback-sans), sans-serif;
-  --font-display: Inter, var(--typography-fallback-sans), sans-serif;
-  --font-title: Inter, var(--typography-fallback-sans), sans-serif;
-  --font-body: Inter, var(--typography-fallback-sans), sans-serif;
-  --font-content: Inter, var(--typography-fallback-sans), sans-serif;
-  --font-mono: Inter, var(--typography-fallback-mono), monospace;
+  --font-ui: Graphik, var(--typography-fallback-sans), sans-serif;
+  --font-display: Denton, var(--typography-fallback-serif), serif;
+  --font-title: Denton, var(--typography-fallback-serif), serif;
+  --font-body: Graphik, var(--typography-fallback-sans), sans-serif;
+  --font-content: Graphik, var(--typography-fallback-sans), sans-serif;
+  --font-mono: Graphik, var(--typography-fallback-mono), monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
@@ -92,7 +128,6 @@
 
   --fontWeight-regular: 400;
   --fontWeight-medium: 500;
-  --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
 
   --letterSpacing-tighter: -0.05em;
@@ -101,18 +136,18 @@
   --letterSpacing-wide: 0.0125em;
   --letterSpacing-wider: 0.025em;
 
-  --letterSpacing-display: -0.05em;
-  --letterSpacing-title: -0.025em;
+  --letterSpacing-display: 0.0125em;
+  --letterSpacing-title: 0.025em;
   --letterSpacing-body: 0.0125em;
   --letterSpacing-content: 0.0125em;
-  --letterSpacing-badge: 0.125em;
-  --letterSpacing-eyebrow: 0.125em;
+  --letterSpacing-badge: 0.25em;
+  --letterSpacing-eyebrow: 0.25em;
 
   --display-letterspacing: var(--letterSpacing-display);
-  --display-xxl: var(--fontWeight-semibold) var(--fontSize-91) / 95% var(--font-display);
-  --display-xl: var(--fontWeight-semibold) var(--fontSize-81) / 95% var(--font-display);
-  --display-m: var(--fontWeight-semibold) var(--fontSize-72) / 100% var(--font-display);
-  --display-xxxs: var(--fontWeight-semibold) var(--fontSize-57) / 100% var(--font-display);
+  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-display);
+  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-display);
+  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-display);
+  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-display);
 
   --title1-letterspacing: var(--letterSpacing-title);
   --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-title);
@@ -122,105 +157,105 @@
 
   --title2-letterspacing: var(--letterSpacing-title);
   --title2-xxl: var(--fontWeight-regular) var(--fontSize-64) / 110% var(--font-title);
-  --title2-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-64) / 110% var(--font-title);
+  --title2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-64) / 110% var(--font-title);
   --title2-xl: var(--fontWeight-regular) var(--fontSize-57) / 110% var(--font-title);
-  --title2-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-57) / 110% var(--font-title);
+  --title2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-57) / 110% var(--font-title);
   --title2-m: var(--fontWeight-regular) var(--fontSize-45) / 110% var(--font-title);
-  --title2-m-emphasized: var(--fontWeight-semibold) var(--fontSize-45) / 110% var(--font-title);
+  --title2-m-emphasized: var(--fontWeight-bold) var(--fontSize-45) / 110% var(--font-title);
   --title2-xxxs: var(--fontWeight-regular) var(--fontSize-36) / 110% var(--font-title);
-  --title2-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-36) / 110% var(--font-title);
+  --title2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-36) / 110% var(--font-title);
 
   --title3-letterspacing: var(--letterSpacing-title);
   --title3-xxl: var(--fontWeight-regular) var(--fontSize-64) / 130% var(--font-title);
-  --title3-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-64) / 130% var(--font-title);
+  --title3-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-64) / 130% var(--font-title);
   --title3-xl: var(--fontWeight-regular) var(--fontSize-32) / 130% var(--font-title);
-  --title3-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-32) / 130% var(--font-title);
+  --title3-xl-emphasized: var(--fontWeight-bold) var(--fontSize-32) / 130% var(--font-title);
   --title3-m: var(--fontWeight-regular) var(--fontSize-32) / 130% var(--font-title);
-  --title3-m-emphasized: var(--fontWeight-semibold) var(--fontSize-32) / 130% var(--font-title);
+  --title3-m-emphasized: var(--fontWeight-bold) var(--fontSize-32) / 130% var(--font-title);
   --title3-xxxs: var(--fontWeight-regular) var(--fontSize-28) / 130% var(--font-title);
-  --title3-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-28) / 130% var(--font-title);
+  --title3-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-28) / 130% var(--font-title);
 
   --title4-letterspacing: var(--letterSpacing-title);
   --title4-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-title);
-  --title4-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-title);
+  --title4-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-title);
   --title4-xl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-title);
-  --title4-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-title);
+  --title4-xl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-title);
   --title4-m: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-title);
-  --title4-m-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-title);
+  --title4-m-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-title);
   --title4-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-title);
-  --title4-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-22) / 135% var(--font-title);
+  --title4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-22) / 135% var(--font-title);
 
   --title5-letterspacing: var(--letterSpacing-title);
   --title5-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-title);
-  --title5-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-title);
+  --title5-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-title);
   --title5-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-title);
-  --title5-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-title);
+  --title5-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-title);
   --title5-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-title);
-  --title5-m-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-title);
+  --title5-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-title);
   --title5-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-title);
-  --title5-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-16) / 145% var(--font-title);
+  --title5-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-title);
 
   --body1-letterspacing: var(--letterSpacing-body);
   --body1-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-body);
-  --body1-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-body);
+  --body1-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-body);
   --body1-xl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-body);
-  --body1-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-body);
+  --body1-xl-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-body);
   --body1-m: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-body);
-  --body1-m-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-body);
+  --body1-m-emphasized: var(--fontWeight-bold) var(--fontSize-25) / 135% var(--font-body);
   --body1-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-body);
-  --body1-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-22) / 135% var(--font-body);
+  --body1-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-22) / 135% var(--font-body);
 
   --body2-letterspacing: var(--letterSpacing-body);
   --body2-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-body);
-  --body2-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-body);
+  --body2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-body);
   --body2-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-body);
-  --body2-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-body);
+  --body2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-body);
   --body2-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-body);
-  --body2-m-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-body);
+  --body2-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-body);
   --body2-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-body);
-  --body2-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-body);
+  --body2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-body);
 
   --body3-letterspacing: var(--letterSpacing-body);
   --body3-xxl: var(--fontWeight-regular) var(--fontSize-18) / 145% var(--font-body);
-  --body3-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 145% var(--font-body);
+  --body3-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 145% var(--font-body);
   --body3-xl: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-body);
-  --body3-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-16) / 145% var(--font-body);
+  --body3-xl-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-body);
   --body3-m: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-body);
-  --body3-m-emphasized: var(--fontWeight-semibold) var(--fontSize-16) / 145% var(--font-body);
+  --body3-m-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-body);
   --body3-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-body);
-  --body3-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-16) / 145% var(--font-body);
+  --body3-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-16) / 145% var(--font-body);
 
   --body4-letterspacing: var(--letterSpacing-body);
   --body4-xxl: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-body);
-  --body4-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-14) / 145% var(--font-body);
+  --body4-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-body);
   --body4-xl: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-body);
-  --body4-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-14) / 145% var(--font-body);
+  --body4-xl-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-body);
   --body4-m: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-body);
-  --body4-m-emphasized: var(--fontWeight-semibold) var(--fontSize-14) / 145% var(--font-body);
+  --body4-m-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-body);
   --body4-xxxs: var(--fontWeight-regular) var(--fontSize-14) / 145% var(--font-body);
-  --body4-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-14) / 145% var(--font-body);
+  --body4-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-14) / 145% var(--font-body);
 
   --content-letterspacing: var(--letterSpacing-content);
   --content-xxl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-content);
+  --content-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
   --content-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-content);
+  --content-xl-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
   --content-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-m-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-content);
+  --content-m-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
   --content-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-content);
-  --content-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-content);
+  --content-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-18) / 140% var(--font-content);
 
   --eyebrow-letterspacing: var(--letterSpacing-eyebrow);
-  --eyebrow-xxl: var(--fontWeight-semibold) var(--fontSize-22) / 130% var(--font-mono);
-  --eyebrow-xl: var(--fontWeight-semibold) var(--fontSize-20) / 130% var(--font-mono);
-  --eyebrow-m: var(--fontWeight-semibold) var(--fontSize-18) / 130% var(--font-mono);
-  --eyebrow-xxxs: var(--fontWeight-semibold) var(--fontSize-16) / 130% var(--font-mono);
+  --eyebrow-xxl: var(--fontWeight-bold) var(--fontSize-22) / 130% var(--font-mono);
+  --eyebrow-xl: var(--fontWeight-bold) var(--fontSize-20) / 130% var(--font-mono);
+  --eyebrow-m: var(--fontWeight-bold) var(--fontSize-18) / 130% var(--font-mono);
+  --eyebrow-xxxs: var(--fontWeight-bold) var(--fontSize-16) / 130% var(--font-mono);
 
   --badge-letterspacing: var(--letterSpacing-badge);
-  --badge-xxl: var(--fontWeight-semibold) var(--fontSize-14) / 100% var(--font-mono);
-  --badge-xl: var(--fontWeight-semibold) var(--fontSize-12) / 100% var(--font-mono);
-  --badge-m: var(--fontWeight-semibold) var(--fontSize-12) / 100% var(--font-mono);
-  --badge-xxxs: var(--fontWeight-semibold) var(--fontSize-12) / 100% var(--font-mono);
+  --badge-xxl: var(--fontWeight-bold) var(--fontSize-14) / 100% var(--font-mono);
+  --badge-xl: var(--fontWeight-bold) var(--fontSize-12) / 100% var(--font-mono);
+  --badge-m: var(--fontWeight-bold) var(--fontSize-12) / 100% var(--font-mono);
+  --badge-xxxs: var(--fontWeight-bold) var(--fontSize-12) / 100% var(--font-mono);
 
   --button-letterspacing: var(--letterSpacing-wide);
   --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-ui);
@@ -229,10 +264,10 @@
   --button-xxxs: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-ui);
 
   --largebutton-letterspacing: var(--letterSpacing-normal);
-  --largebutton-xxl: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-ui);
-  --largebutton-xl: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-ui);
-  --largebutton-m: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-ui);
-  --largebutton-xxxs: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-xxl: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-xl: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-m: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-ui);
+  --largebutton-xxxs: var(--fontWeight-bold) var(--fontSize-20) / 140% var(--font-ui);
 
   --mediumbutton-letterspacing: var(--letterSpacing-normal);
   --mediumbutton-xxl: var(--fontWeight-medium) var(--fontSize-16) / 140% var(--font-ui);
@@ -309,6 +344,8 @@
   --mui-typography-font-weight-bold: 700;
   --mui-typography-font-weight-black: 900;
 
+  --mui-typography-font-feature: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+
 }
 
 
@@ -316,18 +353,20 @@
 
 .typography-headline-standalone {
   font-family: var(--mui-typography-font-family-sans);
-  font-size: var(--mui-typography-font-size-100);
-  line-height: var(--mui-typography-line-height-100);
-  letter-spacing: var(--mui-typography-letter-spacing-100);
-  font-weight: var(--mui-typography-font-weight-bold);
-}
-
-.typography-headline-super {
-  font-family: var(--mui-typography-font-family-sans);
   font-size: var(--mui-typography-font-size-90);
   line-height: var(--mui-typography-line-height-90);
   letter-spacing: var(--mui-typography-letter-spacing-90);
   font-weight: var(--mui-typography-font-weight-bold);
+  font-feature-settings: var(--mui-typography-font-feature);
+}
+
+.typography-headline-super {
+  font-family: var(--mui-typography-font-family-sans);
+  font-size: var(--mui-typography-font-size-80);
+  line-height: var(--mui-typography-line-height-80);
+  letter-spacing: var(--mui-typography-letter-spacing-80);
+  font-weight: var(--mui-typography-font-weight-bold);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-headline-base {
@@ -336,6 +375,7 @@
   line-height: var(--mui-typography-line-height-70);
   letter-spacing: var(--mui-typography-letter-spacing-70);
   font-weight: var(--mui-typography-font-weight-semibold);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-headline-reduced {
@@ -344,6 +384,7 @@
   line-height: var(--mui-typography-line-height-60);
   letter-spacing: var(--mui-typography-letter-spacing-60);
   font-weight: var(--mui-typography-font-weight-semibold);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-headline-tiny {
@@ -352,6 +393,7 @@
   line-height: var(--mui-typography-line-height-50);
   letter-spacing: var(--mui-typography-letter-spacing-50);
   font-weight: var(--mui-typography-font-weight-semibold);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-body-standalone {
@@ -360,6 +402,7 @@
   line-height: var(--mui-typography-line-height-40);
   letter-spacing: var(--mui-typography-letter-spacing-40);
   font-weight: var(--mui-typography-font-weight-regular);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-body-super {
@@ -368,6 +411,7 @@
   line-height: var(--mui-typography-line-height-30);
   letter-spacing: var(--mui-typography-letter-spacing-30);
   font-weight: var(--mui-typography-font-weight-regular);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-body-base {
@@ -376,6 +420,7 @@
   line-height: var(--mui-typography-line-height-20);
   letter-spacing: var(--mui-typography-letter-spacing-20);
   font-weight: var(--mui-typography-font-weight-regular);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-body-reduced {
@@ -384,6 +429,7 @@
   line-height: var(--mui-typography-line-height-10);
   letter-spacing: var(--mui-typography-letter-spacing-10);
   font-weight: var(--mui-typography-font-weight-regular);
+  font-feature-settings: var(--mui-typography-font-feature);
 }
 
 .typography-body-tiny {
@@ -392,4 +438,194 @@
   line-height: var(--mui-typography-line-height-0);
   letter-spacing: var(--mui-typography-letter-spacing-0);
   font-weight: var(--mui-typography-font-weight-regular);
+  font-feature-settings: var(--mui-typography-font-feature);
+}
+
+
+@media (max-width: 1068px) {
+
+  .typography-headline-standalone {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-80);
+    line-height: var(--mui-typography-line-height-80);
+    letter-spacing: var(--mui-typography-letter-spacing-80);
+    font-weight: var(--mui-typography-font-weight-bold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-super {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-70);
+    line-height: var(--mui-typography-line-height-70);
+    letter-spacing: var(--mui-typography-letter-spacing-70);
+    font-weight: var(--mui-typography-font-weight-bold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-base {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-60);
+    line-height: var(--mui-typography-line-height-60);
+    letter-spacing: var(--mui-typography-letter-spacing-60);
+    font-weight: var(--mui-typography-font-weight-semibold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-reduced {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-50);
+    line-height: var(--mui-typography-line-height-50);
+    letter-spacing: var(--mui-typography-letter-spacing-50);
+    font-weight: var(--mui-typography-font-weight-semibold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-tiny {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-40);
+    line-height: var(--mui-typography-line-height-40);
+    letter-spacing: var(--mui-typography-letter-spacing-40);
+    font-weight: var(--mui-typography-font-weight-semibold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+
+  .typography-body-standalone {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-40);
+    line-height: var(--mui-typography-line-height-40);
+    letter-spacing: var(--mui-typography-letter-spacing-40);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-super {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-30);
+    line-height: var(--mui-typography-line-height-30);
+    letter-spacing: var(--mui-typography-letter-spacing-30);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-base {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-20);
+    line-height: var(--mui-typography-line-height-20);
+    letter-spacing: var(--mui-typography-letter-spacing-20);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-reduced {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-10);
+    line-height: var(--mui-typography-line-height-10);
+    letter-spacing: var(--mui-typography-letter-spacing-10);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-tiny {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-0);
+    line-height: var(--mui-typography-line-height-0);
+    letter-spacing: var(--mui-typography-letter-spacing-0);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .typography-headline-standalone {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-70);
+    line-height: var(--mui-typography-line-height-70);
+    letter-spacing: var(--mui-typography-letter-spacing-70);
+    font-weight: var(--mui-typography-font-weight-bold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-super {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-60);
+    line-height: var(--mui-typography-line-height-60);
+    letter-spacing: var(--mui-typography-letter-spacing-60);
+    font-weight: var(--mui-typography-font-weight-bold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-base {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-50);
+    line-height: var(--mui-typography-line-height-50);
+    letter-spacing: var(--mui-typography-letter-spacing-50);
+    font-weight: var(--mui-typography-font-weight-semibold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-reduced {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-40);
+    line-height: var(--mui-typography-line-height-40);
+    letter-spacing: var(--mui-typography-letter-spacing-40);
+    font-weight: var(--mui-typography-font-weight-semibold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-headline-tiny {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-30);
+    line-height: var(--mui-typography-line-height-30);
+    letter-spacing: var(--mui-typography-letter-spacing-30);
+    font-weight: var(--mui-typography-font-weight-semibold);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+
+  .typography-body-standalone {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-40);
+    line-height: var(--mui-typography-line-height-40);
+    letter-spacing: var(--mui-typography-letter-spacing-40);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-super {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-30);
+    line-height: var(--mui-typography-line-height-30);
+    letter-spacing: var(--mui-typography-letter-spacing-30);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-base {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-20);
+    line-height: var(--mui-typography-line-height-20);
+    letter-spacing: var(--mui-typography-letter-spacing-20);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-reduced {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-10);
+    line-height: var(--mui-typography-line-height-10);
+    letter-spacing: var(--mui-typography-letter-spacing-10);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+  
+  .typography-body-tiny {
+    font-family: var(--mui-typography-font-family-sans);
+    font-size: var(--mui-typography-font-size-0);
+    line-height: var(--mui-typography-line-height-0);
+    letter-spacing: var(--mui-typography-letter-spacing-0);
+    font-weight: var(--mui-typography-font-weight-regular);
+    font-feature-settings: var(--mui-typography-font-feature);
+  }
+
 }

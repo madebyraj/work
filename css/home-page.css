@@ -90,7 +90,7 @@ main {
   object-position: center;
   width: 140%;
   height: 100%;
-  aspect-ratio: 4/2.96;
+  aspect-ratio: 4/3;
   border: 1px solid rgba(0, 0, 0, 0.16);
 }
 
