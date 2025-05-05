@@ -146,7 +146,11 @@ body.no-scroll {
 }
 
 .gn-link-logo svg {
-    height: 28px;
+    height: 20px;
+}
+
+.gn-link-logo svg path {
+    fill: var(--globalnav-color);
 }
 
 .current {
@@ -349,10 +353,6 @@ body.no-scroll {
     .gn-list .gn-logo {
         display: none;
         visibility: hidden;
-    }
-
-    .gn-link-logo svg {
-        height: 28px;
     }
 
     .gn-link {

@@ -40,7 +40,7 @@ main {
 }
 
 .hero-section-background {
-  background: linear-gradient(180deg, #FFF, #FAFAFC, #F5F5F7);
+  background: linear-gradient(180deg, var(--fill), var(--fillSecondary), var(--fillTertiary));
 }
 
 .hero-section {
@@ -90,7 +90,8 @@ main {
   object-position: center;
   width: 140%;
   height: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 4/2.96;
+  border: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .journey-section-background {
@@ -213,8 +214,7 @@ main {
   position: relative;
   transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  border-radius: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .project:hover {
@@ -240,9 +240,9 @@ main {
 
 .project-information {
   position: absolute;
-  right: 8px;
-  bottom: 8px;
-  left: 8px;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -252,8 +252,6 @@ main {
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
 .project-badge {
@@ -264,8 +262,8 @@ main {
 }
 
 .project-title {
-  font: var(--title3-m-emphasized);
-  letter-spacing: var(--title3-letterspacing);
+  font: var(--title4-m-emphasized);
+  letter-spacing: var(--title4-letterspacing);
   color: rgb(245, 245, 247);
   text-overflow: ellipsis;
   text-align: center;
@@ -357,7 +355,7 @@ main {
   /* Project Section */
 
   #project-section {
-    padding: 80px 24px;
+    padding: 80px 0;
   }
 
   .project-section-header {
@@ -369,7 +367,7 @@ main {
   }
 
   .project-title {
-    font: var(--title3-xxxs-emphasized);
+    font: var(--title4-xxxs-emphasized);
   }
 
   .project-badge {
