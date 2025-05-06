@@ -5,15 +5,15 @@
 
 
 .light {
-  --globalfooter-background: #FFF;
-  --globalfooter-keyline-color: rgba(0, 0, 0, 0.08);
-  --globalfooter-color: rgba(134, 134, 139);
+  --globalfooter-background: var(--fill);
+  --globalfooter-keyline-color: var(--separatorMuted);
+  --globalfooter-color: var(--textTertiary);
 }
 
 .dark {
-  --globalfooter-background: #000;
-  --globalfooter-keyline-color: rgba(255, 255, 255, 0.12);
-  --globalfooter-color: rgba(110, 110, 115);
+  --globalfooter-background: var(--fill);
+  --globalfooter-keyline-color: var(--separatorMuted);
+  --globalfooter-color: var(--textTertiary);
 }
 
 /* footer Section */

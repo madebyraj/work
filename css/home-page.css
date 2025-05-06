@@ -40,7 +40,8 @@ main {
 }
 
 .hero-section-background {
-  background: linear-gradient(180deg, var(--fill), var(--fillSecondary), var(--fillTertiary));
+  --hero-section-background: linear-gradient(180deg, var(--fill), var(--mui-color-pink-50), var(--mui-color-red-100), var(--mui-color-orange-200));
+  background: var(--hero-section-background);
 }
 
 .hero-section {
@@ -91,7 +92,6 @@ main {
   width: 140%;
   height: 100%;
   aspect-ratio: 4/3;
-  border: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .journey-section-background {
@@ -259,14 +259,14 @@ main {
 .project-badge {
   font: var(--badge-m);
   letter-spacing: var(--badge-letterspacing);
-  color: rgb(245, 245, 247);
+  color: var(--mui-color-gray-100);
   text-align: center;
 }
 
 .project-title {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
-  color: rgb(245, 245, 247);
+  color: var(--mui-color-gray-100);
   text-overflow: ellipsis;
   text-align: center;
 }
