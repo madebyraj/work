@@ -40,7 +40,7 @@ main {
 }
 
 .hero-section-background {
-  --hero-section-background: linear-gradient(180deg, var(--fill), var(--mui-color-pink-50), var(--mui-color-red-100), var(--mui-color-orange-200));
+  --hero-section-background: linear-gradient(180deg, var(--fill), var(--fillSecondary), var(--fillTertiary));
   background: var(--hero-section-background);
 }
 
