@@ -14,67 +14,67 @@
 
   /* Colors */
 
-  --mui-color-white: oklch(1 0 0);
-  --mui-color-black: oklch(0 0 0);
+  --mui-color-white: white;
+  --mui-color-black: black;
 
-  --mui-color-gray-50: oklch(0.9886 calc(0.0053 / 9.6) 286);
-  --mui-color-gray-100: oklch(0.9707 calc(0.0137 / 9.6) 286);
-  --mui-color-gray-200: oklch(0.9324 calc(0.0321 / 9.6) 286);
-  --mui-color-gray-300: oklch(0.8652 calc(0.0657 / 9.6) 286);
-  --mui-color-gray-400: oklch(0.7453 calc(0.1267 / 9.6) 286);
-  --mui-color-gray-500: oklch(0.6217 calc(0.1056 / 9.6) 286);
-  --mui-color-gray-600: oklch(0.5399 calc(0.0917 / 9.6) 286);
-  --mui-color-gray-700: oklch(0.3802 calc(0.0646 / 9.6) 286);
-  --mui-color-gray-800: oklch(0.3222 calc(0.0547 / 9.6) 286);
-  --mui-color-gray-900: oklch(0.2316 calc(0.0393 / 9.6) 286);
-  --mui-color-gray-950: oklch(0.2006 calc(0.0341 / 9.6) 286);
+  --mui-color-gray-50: #FAFAFC;
+  --mui-color-gray-100: #F5F5F7;
+  --mui-color-gray-200: #E8E8ED;
+  --mui-color-gray-300: #D2D2D7;
+  --mui-color-gray-400: #A1A1A6;
+  --mui-color-gray-500: #86868B;
+  --mui-color-gray-600: #6E6E73;
+  --mui-color-gray-700: #424245;
+  --mui-color-gray-800: #333336;
+  --mui-color-gray-900: #1D1D1F;
+  --mui-color-gray-950: #151516;
 
-  --mui-color-red-50: oklch(0.9886 calc(0.0053 * 1.6) 34);
+  --mui-color-red-50: #FFF2F4;
   --mui-color-red-100: oklch(0.9707 calc(0.0137 * 1.6) 34);
-  --mui-color-red-200: oklch(0.9324 calc(0.0321 * 1.6) 34);
+  --mui-color-red-200: #FFADAD;
   --mui-color-red-300: oklch(0.8652 calc(0.0657 * 1.6) 34);
-  --mui-color-red-400: oklch(0.7453 calc(0.1267 * 1.6) 34);
-  --mui-color-red-500: oklch(0.6217 calc(0.1056 * 1.6) 34);
+  --mui-color-red-400: #FF3037;
+  --mui-color-red-500: #E30000;
   --mui-color-red-600: oklch(0.5399 calc(0.0917 * 1.6) 34);
   --mui-color-red-700: oklch(0.3802 calc(0.0646 * 1.6) 34);
-  --mui-color-red-800: oklch(0.3222 calc(0.0547 * 1.6) 34);
+  --mui-color-red-800: #8F0000;
   --mui-color-red-900: oklch(0.2316 calc(0.0393 * 1.6) 34);
-  --mui-color-red-950: oklch(0.2006 calc(0.0341 * 1.6) 34);
+  --mui-color-red-950: #330000;
 
-  --mui-color-yellow-50: oklch(0.9886 calc(0.0053 * 1.6) 85);
+  --mui-color-yellow-50: #FFFEF2;
   --mui-color-yellow-100: oklch(0.9707 calc(0.0137 * 1.6) 85);
   --mui-color-yellow-200: oklch(0.9324 calc(0.0321 * 1.6) 85);
   --mui-color-yellow-300: oklch(0.8652 calc(0.0657 * 1.6) 85);
-  --mui-color-yellow-400: oklch(0.7453 calc(0.1267 * 1.6) 85);
+  --mui-color-yellow-400: #FFE045;
   --mui-color-yellow-500: oklch(0.6217 calc(0.1056 * 1.6) 85);
-  --mui-color-yellow-600: oklch(0.5399 calc(0.0917 * 1.6) 85);
-  --mui-color-yellow-700: oklch(0.3802 calc(0.0646 * 1.6) 85);
+  --mui-color-yellow-600: #AD8200;
+  --mui-color-yellow-700: #977009;
   --mui-color-yellow-800: oklch(0.3222 calc(0.0547 * 1.6) 85);
   --mui-color-yellow-900: oklch(0.2316 calc(0.0393 * 1.6) 85);
-  --mui-color-yellow-950: oklch(0.2006 calc(0.0341 * 1.6) 85);
+  --mui-color-yellow-950: #2B2000;
 
-  --mui-color-green-50: oklch(0.9886 calc(0.0053 * 1.6) 152);
+  --mui-color-green-50: #F5FFF6;
   --mui-color-green-100: oklch(0.9707 calc(0.0137 * 1.6) 152);
   --mui-color-green-200: oklch(0.9324 calc(0.0321 * 1.6) 152);
   --mui-color-green-300: oklch(0.8652 calc(0.0657 * 1.6) 152);
-  --mui-color-green-400: oklch(0.7453 calc(0.1267 * 1.6) 152);
-  --mui-color-green-500: oklch(0.6217 calc(0.1056 * 1.6) 152);
+  --mui-color-green-400: #03A10E;
+  --mui-color-green-500: #008009;
   --mui-color-green-600: oklch(0.5399 calc(0.0917 * 1.6) 152);
   --mui-color-green-700: oklch(0.3802 calc(0.0646 * 1.6) 152);
   --mui-color-green-800: oklch(0.3222 calc(0.0547 * 1.6) 152);
   --mui-color-green-900: oklch(0.2316 calc(0.0393 * 1.6) 152);
-  --mui-color-green-950: oklch(0.2006 calc(0.0341 * 1.6) 152);
+  --mui-color-green-950: #002B03;
 
   --mui-color-blue-50: oklch(0.9886 calc(0.0053 * 1.6) 254);
-  --mui-color-blue-100: oklch(0.9707 calc(0.0137 * 1.6) 254);
-  --mui-color-blue-200: oklch(0.9324 calc(0.0321 * 1.6) 254);
-  --mui-color-blue-300: oklch(0.8652 calc(0.0657 * 1.6) 254);
-  --mui-color-blue-400: oklch(0.7453 calc(0.1267 * 1.6) 254);
-  --mui-color-blue-500: oklch(0.6217 calc(0.1056 * 1.6) 254);
-  --mui-color-blue-600: oklch(0.5399 calc(0.0917 * 1.6) 254);
-  --mui-color-blue-700: oklch(0.3802 calc(0.0646 * 1.6) 254);
-  --mui-color-blue-800: oklch(0.3222 calc(0.0547 * 1.6) 254);
-  --mui-color-blue-900: oklch(0.2316 calc(0.0393 * 1.6) 254);
+  --mui-color-blue-100: #D6EAFF;
+  --mui-color-blue-200: #ADD6FF;
+  --mui-color-blue-300: #70B8FF;
+  --mui-color-blue-400: #2997FF;
+  --mui-color-blue-500: #0071E3;
+  --mui-color-blue-600: #06C;
+  --mui-color-blue-700: #00488F;
+  --mui-color-blue-800: #002E5C;
+  --mui-color-blue-900: #001F3D;
   --mui-color-blue-950: oklch(0.2006 calc(0.0341 * 1.6) 254);
 
 }
