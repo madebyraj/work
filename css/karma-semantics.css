@@ -27,7 +27,7 @@
   --mui-color-gray-700: #424245;
   --mui-color-gray-800: #333336;
   --mui-color-gray-900: #1D1D1F;
-  --mui-color-gray-950: #151516;
+  --mui-color-gray-950: #151517;
 
   --mui-color-red-50: #FFF2F4;
   --mui-color-red-100: oklch(0.9707 calc(0.0137 * 1.6) 34);
@@ -135,7 +135,7 @@
 
   --link-color: var(--figureBlue);
 
-  --switchBackgroundOFF: var(--fillTertiary);
+  --switchBackgroundOFF: var(--mui-color-gray-800);
   --switchKnobBackground: var(--mui-color-gray-100);
   --switchKnobShadow: rgba(0, 0, 0, 0.2) 0px -1px 4px 0px inset, rgba(0, 0, 0, 0.05) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 0.796192px 0.636953px -0.625px, rgba(0, 0, 0, 0.075) 0px 2.41451px 1.9316px -1.25px, rgba(0, 0, 0, 0.075) 0px 6.38265px 5.10612px -1.875px, rgba(0, 0, 0, 0.075) 0px 20px 16px -2.5px;
   --switchBackgroundON: var(--fillBlue);
