@@ -7,7 +7,7 @@
 
 :root {
     --globalnav-backdrop-filter: saturate(180%) blur(20px);
-    --globalnav-height: 52px;
+    --globalnav-height: 48px;
     --globalnav-max-width: 1024px;
     --globalnav-opacity: 0.8;
     --globalnav-opacity-hover: 1;
