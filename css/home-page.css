@@ -118,28 +118,28 @@ main {
 
 .switch {
   background: var(--switchBackgroundOFF);
-  width: 52px;
-  height: 24px;
+  width: 60px;
+  height: 36px;
   border-radius: 100rem;
   transition: 0.25s linear;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: start;
+  padding: 8px;
 }
 
 .knob {
-  transform: translateX(-4px);
-  height: 32px;
-  width: 32px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   background: var(--switchKnobBackgroundOFF);
   box-shadow: var(--switchKnobShadow);
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.075s;
 }
 
 .switch:active .knob {
-  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.24);
+  box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.24);
 }
 
 .journey {
@@ -159,7 +159,9 @@ main {
 }
 
 .journey-section.active .knob {
-  transform: translateX(24px);
+  height: 28px;
+  width: 28px;
+  transform: translateX(20px);
   background: var(--switchKnobBackgroundON);
 }
 

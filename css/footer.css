@@ -5,14 +5,12 @@
 
 
 .light {
-  --globalfooter-background: var(--fill);
-  --globalfooter-keyline-color: var(--separatorMuted);
+  --globalfooter-background: var(--fillSecondary);
   --globalfooter-color: var(--textTertiary);
 }
 
 .dark {
-  --globalfooter-background: var(--fill);
-  --globalfooter-keyline-color: var(--separatorMuted);
+  --globalfooter-background: var(--fillSecondary);
   --globalfooter-color: var(--textTertiary);
 }
 
@@ -31,7 +29,6 @@
   background: var(--globalfooter-background);
   padding: 0 80px;
   overflow: hidden;
-  border-top: 1px solid var(--globalfooter-keyline-color);
 }
 
 .footer-container {
