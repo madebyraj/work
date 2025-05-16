@@ -1,17 +1,33 @@
 @font-face {
   font-family: "Inter";
-  font-weight: 100 900;
+  font-weight: 100 400;
   font-style: normal;
   font-display: auto;
   src: url('../assets/fonts/Inter-regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Newsreader';
-  font-weight: 100 900;
+  font-family: "Inter";
+  font-weight: 500;
   font-style: normal;
-  font-display: swap;
-  src: url('../assets/fonts/Newsreader-regular.woff') format('woff');
+  font-display: auto;
+  src: url('../assets/fonts/Inter-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+  src: url('../assets/fonts/Inter-semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700 1000;
+  font-style: normal;
+  font-display: auto;
+  src: url('../assets/fonts/Inter-bold.woff') format('woff');
 }
 
 
@@ -58,17 +74,17 @@
   /* ---------------------------- */
 
 
-  --font-serif: Newsreader, Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+  --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
   --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
   --fontSize-12: 12px;
   --fontSize-14: 14px;
-  --fontSize-16: 16px;
-  --fontSize-18: 18px;
-  --fontSize-20: 20px;
-  --fontSize-22: 22px;
+  --fontSize-16: 15px;
+  --fontSize-18: 17px;
+  --fontSize-20: 19px;
+  --fontSize-22: 21px;
   --fontSize-25: 24px;
   --fontSize-28: 28px;
   --fontSize-32: 32px;
@@ -139,7 +155,7 @@
 
   --letterSpacing-tighter: -0.05em;
   --letterSpacing-tight: -0.025em;
-  --letterSpacing-normal: -0.00625em;
+  --letterSpacing-normal: -0.0125em;
   --letterSpacing-wide: 0.0125em;
   --letterSpacing-wider: 0.025em;
 
@@ -185,7 +201,7 @@
   --title4-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-sans);
   --title4-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-22) / 135% var(--font-sans);
 
-  --title5-letterspacing: var(--letterSpacing-tight);
+  --title5-letterspacing: var(--letterSpacing-normal);
   --title5-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-sans);
   --title5-xxl-emphasized: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-sans);
   --title5-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
@@ -236,14 +252,14 @@
   --body4-xxxs-emphasized: var(--fontWeight-medium) var(--fontSize-14) / 145% var(--font-sans);
 
   --content-letterspacing: var(--letterSpacing-wide);
-  --content-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-serif);
-  --content-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-serif);
-  --content-xl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-serif);
-  --content-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-serif);
-  --content-m: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-serif);
-  --content-m-emphasized: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-serif);
-  --content-xxxs: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-serif);
-  --content-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-20) / 140% var(--font-serif);
+  --content-xxl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
+  --content-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-sans);
+  --content-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
+  --content-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-sans);
+  --content-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
+  --content-m-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-sans);
+  --content-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
+  --content-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-sans);
 
   --eyebrow-letterspacing: var(--letterSpacing-wide);
   --eyebrow-xxl: var(--fontWeight-semibold) var(--fontSize-22) / 130% var(--font-sans);
@@ -269,7 +285,7 @@
   --link-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
   --link-xxxs: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
 
-  --globalnav-link-letterspacing: var(--letterSpacing-normal);
+  --globalnav-link-letterspacing: var(--letterSpacing-wide);
   --globalnav-link-xxl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-sans);
   --globalnav-link-xl: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-sans);
   --globalnav-link-m: var(--fontWeight-regular) var(--fontSize-14) / 140% var(--font-sans);
