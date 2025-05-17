@@ -41,7 +41,7 @@ main {
   }
 
 .snaps-wrapper {
-    background-image: linear-gradient(to bottom, var(--fill), var(--fillSecondary), var(--fillTertiary));
+    background: var(--fill);
     width: 100%;
     display: flex;
     flex-direction: column;

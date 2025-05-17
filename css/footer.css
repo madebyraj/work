@@ -5,12 +5,12 @@
 
 
 .light {
-  --globalfooter-background: var(--fillSecondary);
+  --globalfooter-background: var(--fillTertiary);
   --globalfooter-color: var(--textTertiary);
 }
 
 .dark {
-  --globalfooter-background: var(--fillSecondary);
+  --globalfooter-background: var(--fillTertiary);
   --globalfooter-color: var(--textTertiary);
 }
 

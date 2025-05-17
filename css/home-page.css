@@ -175,7 +175,7 @@ main {
 /* Project Section */
 
 .project-section-background {
-  background: var(--fillTertiary);
+  background: var(--fillSecondary);
 }
 
 #project-section {
