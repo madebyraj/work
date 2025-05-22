@@ -40,9 +40,15 @@ main {
   min-height: 100vh;
 }
 
+.dvider {
+  height: 16px;
+  width: 100%;
+  background: var(--background);
+}
+
 .hero-section-background {
-  --hero-section-background: var(--fill);
-  background: var(--hero-section-background);
+  --hero-section-background: linear-gradient(to bottom, var(--fill), var(--fillSecondary),var(--fillTertiary));
+  background-image: var(--hero-section-background);
 }
 
 .hero-section {
@@ -175,7 +181,7 @@ main {
 /* Project Section */
 
 .project-section-background {
-  background: var(--fillSecondary);
+  background: var(--fillTertiary);
 }
 
 #project-section {
@@ -201,36 +207,29 @@ main {
 #project-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .project {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: center;
   justify-content: center;
   overflow: hidden;
   transition: var(--tile-transition);
   max-width: var(--global-max-width);
   position: relative;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
-}
-
-.project:hover .project-cover {
-  transform: scale(1.04);
-}
-
-.project:active .project-cover {
-  transform: scale(0.96);
-}
-
-.project:focus {
-  outline: none;
+  background: var(--fill);
+  border-radius: 24px;
+  text-decoration: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
 }
 
 #project-1 {
@@ -245,20 +244,27 @@ main {
   background: #161616;
 }
 
+.project:hover {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
+
+.project:active {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.project:focus {
+  outline: none;
+}
+
 .project-information {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: end;
-  gap: 12px;
-  padding: 32px;
-  background: linear-gradient(to top, hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.77311) 12.83%, hsla(0, 0%, 0%, 0.72685) 24%, hsla(0, 0%, 0%, 0.66487) 33.77%, hsla(0, 0%, 0%, 0.59081) 42.37%, hsla(0, 0%, 0%, 0.50831) 50.07%, hsla(0, 0%, 0%, 0.421) 57.13%, hsla(0, 0%, 0%, 0.33252) 63.78%, hsla(0, 0%, 0%, 0.24652) 70.3%, hsla(0, 0%, 0%, 0.16663) 76.92%, hsla(0, 0%, 0%, 0.09648) 83.91%, hsla(0, 0%, 0%, 0.03973) 91.52%, hsla(0, 0%, 0%, 0));
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 48px;
 }
 
 .project-badge {
@@ -266,14 +272,27 @@ main {
   letter-spacing: var(--badge-letterspacing);
   color: var(--mui-color-gray-100);
   text-align: center;
+  max-width: 280px;
+  padding: 8px 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+}
+
+#project-3 .project-badge{
+  color: var(--mui-color-gray-100);
 }
 
 .project-title {
   font: var(--title4-m-emphasized);
   letter-spacing: var(--title4-letterspacing);
   color: var(--mui-color-gray-100);
-  text-overflow: ellipsis;
   text-align: center;
+  width: 100%;
+  max-width: 280px;
+}
+
+#project-3 .project-title{
+  color: var(--mui-color-gray-100);
 }
 
 .project-cover {
@@ -281,8 +300,8 @@ main {
   object-position: center;
   width: 100%;
   height: 100%;
-  aspect-ratio: 4/4;
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  aspect-ratio: 4/4;
 }
 
 @media (max-width: 1400px) {}
@@ -295,7 +314,7 @@ main {
   }
 
   .me {
-    aspect-ratio: 4/4;
+    aspect-ratio: 3.60/4;
   }
 
   .journey-section-content {
@@ -363,7 +382,7 @@ main {
   /* Project Section */
 
   #project-section {
-    padding: 80px 0;
+    padding: 80px 24px;
   }
 
   .project-section-header {
@@ -371,6 +390,10 @@ main {
   }
 
   #project-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .project {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 

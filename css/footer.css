@@ -5,12 +5,12 @@
 
 
 .light {
-  --globalfooter-background: var(--fillTertiary);
+  --globalfooter-background: linear-gradient(to top, var(--fill), var(--fillSecondary), var(--fillTertiary));
   --globalfooter-color: var(--textTertiary);
 }
 
 .dark {
-  --globalfooter-background: var(--fillTertiary);
+  --globalfooter-background: linear-gradient(to top, var(--fill), var(--fillSecondary), var(--fillTertiary));
   --globalfooter-color: var(--textTertiary);
 }
 
@@ -26,7 +26,7 @@
   position: relative;
   z-index: 1;
   margin: auto;
-  background: var(--globalfooter-background);
+  background-image: var(--globalfooter-background);
   padding: 0 80px;
   overflow: hidden;
 }

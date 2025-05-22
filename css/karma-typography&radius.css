@@ -229,16 +229,16 @@
   --content-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-18) / 140% var(--font-sans);
 
   --eyebrow-letterspacing: var(--letterSpacing-wide);
-  --eyebrow-xxl: var(--fontWeight-semibold) var(--fontSize-22) / 130% var(--font-sans);
-  --eyebrow-xl: var(--fontWeight-semibold) var(--fontSize-20) / 130% var(--font-sans);
-  --eyebrow-m: var(--fontWeight-semibold) var(--fontSize-18) / 130% var(--font-sans);
-  --eyebrow-xxxs: var(--fontWeight-semibold) var(--fontSize-16) / 130% var(--font-sans);
+  --eyebrow-xxl: var(--fontWeight-semibold) var(--fontSize-20) / 130% var(--font-sans);
+  --eyebrow-xl: var(--fontWeight-semibold) var(--fontSize-18) / 130% var(--font-sans);
+  --eyebrow-m: var(--fontWeight-semibold) var(--fontSize-16) / 130% var(--font-sans);
+  --eyebrow-xxxs: var(--fontWeight-semibold) var(--fontSize-14) / 130% var(--font-sans);
 
   --badge-letterspacing: var(--letterSpacing-wider);
-  --badge-xxl: var(--fontWeight-semibold) var(--fontSize-14) / 100% var(--font-sans);
-  --badge-xl: var(--fontWeight-semibold) var(--fontSize-12) / 100% var(--font-sans);
-  --badge-m: var(--fontWeight-semibold) var(--fontSize-12) / 100% var(--font-sans);
-  --badge-xxxs: var(--fontWeight-semibold) var(--fontSize-12) / 100% var(--font-sans);
+  --badge-xxl: var(--fontWeight-semibold) var(--fontSize-18) / 100% var(--font-sans);
+  --badge-xl: var(--fontWeight-semibold) var(--fontSize-16) / 100% var(--font-sans);
+  --badge-m: var(--fontWeight-semibold) var(--fontSize-16) / 100% var(--font-sans);
+  --badge-xxxs: var(--fontWeight-semibold) var(--fontSize-14) / 100% var(--font-sans);
 
   --button-letterspacing: var(--letterSpacing-normal);
   --button-xxl: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-sans);
