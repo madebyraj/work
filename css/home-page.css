@@ -95,7 +95,7 @@ main {
 
 .me {
   object-fit: cover;
-  object-position: center;
+  object-position: top;
   width: 140%;
   height: 100%;
   aspect-ratio: 4/3;
@@ -315,6 +315,7 @@ main {
 
   .me {
     aspect-ratio: 3.60/4;
+    object-position: center;
   }
 
   .journey-section-content {
