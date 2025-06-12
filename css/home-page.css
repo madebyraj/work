@@ -47,7 +47,7 @@ main {
 }
 
 .hero-section-background {
-  --hero-section-background: linear-gradient(to bottom, var(--fill), var(--fillSecondary),var(--fillTertiary));
+  --hero-section-background: linear-gradient(to bottom, var(--fill), var(--fillSecondary), var(--fillTertiary));
   background-image: var(--hero-section-background);
 }
 
@@ -241,7 +241,11 @@ main {
 }
 
 #project-3 {
-  background: #161616;
+  background: #232323;
+}
+
+#project-4 {
+  background: #000000;
 }
 
 .project:hover {
@@ -278,7 +282,7 @@ main {
   border-radius: 6px;
 }
 
-#project-3 .project-badge{
+#project-3 .project-badge {
   color: var(--mui-color-gray-100);
 }
 
@@ -291,7 +295,7 @@ main {
   max-width: 280px;
 }
 
-#project-3 .project-title{
+#project-3 .project-title {
   color: var(--mui-color-gray-100);
 }
 

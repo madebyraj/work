@@ -36,7 +36,7 @@ function updateNavbarTheme() {
   const navbar = document.querySelector(".globalnav");
   const sections = document.querySelectorAll(".light, .dark");
 
-  let navbarCenterY = navbar.offsetHeight + 4; // a bit below navbar
+  let navbarCenterY = navbar.offsetHeight + 0; // a bit below navbar
   let activeSectionTheme = null;
 
   sections.forEach((section) => {
