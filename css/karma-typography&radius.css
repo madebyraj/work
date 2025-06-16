@@ -2,8 +2,8 @@
   font-family: 'SF Pro';
   font-style: normal;
   font-weight: 1 1000;
-  font-display: swap;
-  src: local('☺'), url("/assets/fonts/SFPro.woff2") format("woff2-variations"), url("/assets/fonts/SFPro.woff2") format("woff2"), url("/assets/fonts/SFPro.woff2") format("truetype-variations"), url("/assets/fonts/SFPro.woff2") format("truetype");
+  font-display: auto;
+  src: url("/assets/fonts/SFPro.woff2") format("woff2");
 }
 
 
