@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 1 1000;
+  font-display: swap;
+  src: local('☺'), url("/assets/fonts/SFPro.woff2") format("woff2-variations"), url("/assets/fonts/SFPro.woff2") format("woff2");
+}
+
+
 :root {
   /* Border Radius */
 
@@ -42,7 +51,7 @@
 
 
   --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-sans: SF Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
@@ -67,7 +76,7 @@
   --fontSize-103: 96px;
 
   --mui-typography-font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-  --mui-typography-font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --mui-typography-font-sans: SF Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --mui-typography-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --mui-typography-font-size-0: 0.75rem;
@@ -120,11 +129,11 @@
   --fontWeight-bold: 700;
   --mui-typography-font-weight-black: 900;
 
-  --letterSpacing-tighter: -0.05em;
-  --letterSpacing-tight: -0.025em;
+  --letterSpacing-tighter: -0.025em;
+  --letterSpacing-tight: -0.0125em;
   --letterSpacing-normal: 0;
-  --letterSpacing-wide: 0.025em;
-  --letterSpacing-wider: 0.05em;
+  --letterSpacing-wide: 0.0125em;
+  --letterSpacing-wider: 0.025em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
   --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-sans);
