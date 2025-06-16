@@ -47,8 +47,8 @@ main {
 }
 
 .hero-section-background {
-  --hero-section-background: linear-gradient(to bottom, var(--fill), var(--fillSecondary), var(--fillTertiary));
-  background-image: var(--hero-section-background);
+  --hero-section-background: var(--fill);
+  background: var(--hero-section-background);
 }
 
 .hero-section {
