@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 1 1000;
   font-display: auto;
-  src: url("../assets/fonts/SFPro.woff2") format("woff2");
+  src: local('☺'), url("../assets/fonts/SFPro.woff2") format("woff2-variations"), url("../assets/fonts/SFPro.woff2") format("woff2");
 }
 
 

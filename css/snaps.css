@@ -2,6 +2,7 @@
 
 @import url("./karma-semantics.css");
 @import url("./karma-typography&radius.css");
+@import url("./global.built.css");
 
 /*  Animations */
 
@@ -53,8 +54,6 @@ main {
 }
 
 .snap-section-heading {
-    font: var(--title2-m-emphasized);
-    letter-spacing: var(--title2-letterspacing);
     color: var(--text);
 }
 
@@ -96,10 +95,6 @@ main {
 
     .snaps-wrapper {
         padding: 80px 0;
-    }
-
-    .snap-section-heading {
-        font: var(--title2-xxxs-emphasized);
     }
 
     .snaps {

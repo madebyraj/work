@@ -2,6 +2,7 @@
 
 @import url("./karma-semantics.css");
 @import url("./karma-typography&radius.css");
+@import url("./global.built.css");
 
 /*  Animations */
 
@@ -82,14 +83,10 @@ main {
 }
 
 .hero-section-card-header {
-  font: var(--title3-m-emphasized);
-  letter-spacing: var(--title3-letterspacing);
   color: var(--text);
 }
 
 .hero-section-card-copy {
-  font: var(--body3-m);
-  letter-spacing: var(--body3-letterspacing);
   color: var(--textSecondary);
 }
 
@@ -117,8 +114,6 @@ main {
 }
 
 .journey-section-header {
-  font: var(--title3-m-emphasized);
-  letter-spacing: var(--title3-letterspacing);
   color: var(--text);
 }
 
@@ -172,8 +167,6 @@ main {
 }
 
 .journey-copy {
-  font: var(--body2-m);
-  letter-spacing: var(--body2-letterspacing);
   color: var(--text);
 }
 
@@ -214,8 +207,6 @@ main {
 
 .project-section-header {
   text-align: center;
-  font: var(--title3-m-emphasized);
-  letter-spacing: var(--title3-letterspacing);
   color: var(--text);
 }
 
@@ -242,7 +233,7 @@ main {
   transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
   background: var(--fill);
-  border-radius: 24px;
+  border-radius: 32px;
   text-decoration: none;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
 }
@@ -256,7 +247,7 @@ main {
 }
 
 #project-3 {
-  background: #232323;
+  background: #242424;
 }
 
 #project-4 {
@@ -287,31 +278,18 @@ main {
 }
 
 .project-badge {
-  font: var(--badge-m);
-  letter-spacing: var(--badge-letterspacing);
   color: var(--mui-color-gray-100);
   text-align: center;
-  max-width: 280px;
-  padding: 8px 8px;
-  background: rgba(255, 255, 255, 0.08);
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.16);
   border-radius: 6px;
 }
 
-#project-3 .project-badge {
-  color: var(--mui-color-gray-100);
-}
-
 .project-title {
-  font: var(--title4-m-emphasized);
-  letter-spacing: var(--title4-letterspacing);
   color: var(--mui-color-gray-100);
   text-align: center;
   width: 100%;
-  max-width: 280px;
-}
-
-#project-3 .project-title {
-  color: var(--mui-color-gray-100);
+  max-width: 360px;
 }
 
 .project-cover {
@@ -375,14 +353,6 @@ main {
     margin-left: auto;
   }
 
-  .hero-section-card-header {
-    font: var(--title3-xxxs-emphasized);
-  }
-
-  .hero-section-card-copy {
-    font: var(--body3-xxxs);
-  }
-
   .me {
     width: 90%;
   }
@@ -391,22 +361,10 @@ main {
     padding: 80px 24px;
   }
 
-  .journey-section-header {
-    font: var(--title3-xxxs-emphasized);
-  }
-
-  .journey-copy {
-    font: var(--body2-xxxs);
-  }
-
   /* Project Section */
 
   #project-section {
     padding: 80px 24px;
-  }
-
-  .project-section-header {
-    font: var(--title3-xxxs-emphasized);
   }
 
   #project-container {
@@ -417,11 +375,4 @@ main {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .project-title {
-    font: var(--title4-xxxs-emphasized);
-  }
-
-  .project-badge {
-    font: var(--badge-xxxs);
-  }
 }
