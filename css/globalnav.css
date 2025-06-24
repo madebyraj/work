@@ -116,8 +116,8 @@ body.no-scroll {
 
 .gn-link {
     text-decoration: none;
-    font: var(--font-weight-regular) var(--font-size-200) / var(--line-height-200) var(--font-sans);
-    letter-spacing: var(--letter-spacing-200);
+    font: var(--font-weight-regular) var(--font-size-10) / var(--line-height-10) var(--font-sans);
+    letter-spacing: var(--letter-spacing-10);
     color: var(--globalnav-color);
     opacity: var(--globalnav-opacity);
     height: var(--globalnav-height);
@@ -357,8 +357,8 @@ body.no-scroll {
     }
 
     .gn-link {
-        font: var(--font-weight-semibold) var(--font-size-600) / var(--line-height-600) var(--font-sans);
-        letter-spacing: var(--letter-spacing-600);
+        font: var(--font-weight-semibold) var(--font-size-40) / var(--line-height-40) var(--font-sans);
+        letter-spacing: var(--letter-spacing-40);
         padding: 0;
     }
 

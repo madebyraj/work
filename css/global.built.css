@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'SF Pro';
+    font-family: 'LETS Type VF';
     font-style: normal;
     font-weight: 1 1000;
     font-display: auto;
-    src: local('☺'), url("../assets/fonts/SFPro.woff2") format("woff2-variations"), url("../assets/fonts/SFPro.woff2") format("woff2");
+    src: local('☺'), url("../assets/fonts/LETSTypeVF.woff2") format("woff2-variations"), url("../assets/fonts/LETSTypeVF.woff2") format("woff2");
 }
 
 :root {
@@ -11,126 +11,129 @@
     /* Typography */
 
     --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-    --font-sans: SF Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-sans: LETS Type VF, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-    --font-size-1000: 5rem;
-    --font-size-900: 4rem;
-    --font-size-800: 3rem;
-    --font-size-700: 2.5rem;
-    --font-size-600: 2rem;
-    --font-size-500: 1.5rem;
-    --font-size-400: 1.3125rem;
-    --font-size-300: 1.0625rem;
-    --font-size-200: 0.875rem;
-    --font-size-100: 0.75rem;
+    --font-size-100: 96px;
+    --font-size-90: 80px;
+    --font-size-80: 64px;
+    --font-size-70: 48px;
+    --font-size-60: 40px;
+    --font-size-50: 32px;
+    --font-size-40: 25px;
+    --font-size-30: 21px;
+    --font-size-20: 17px;
+    --font-size-10: 15px;
+    --font-size-0: 13px;
 
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
 
-    --letter-spacing-1000: -0.25rem;
-    --letter-spacing-900: -0.2rem;
-    --letter-spacing-800: -0.075rem;
-    --letter-spacing-700: -0.0625rem;
-    --letter-spacing-600: -0.05rem;
-    --letter-spacing-500: -0.01875rem;
-    --letter-spacing-400: -0.01638rem;
-    --letter-spacing-300: -0.01325rem;
-    --letter-spacing-200: -0.01094rem;
-    --letter-spacing-100: -0.00938rem;
+    --letter-spacing-100: -4.8px;
+    --letter-spacing-90: -4px;
+    --letter-spacing-80: -1.6px;
+    --letter-spacing-70: -0.6px;
+    --letter-spacing-60: -0.5px;
+    --letter-spacing-50: -0.4px;
+    --letter-spacing-40: -0.062px;
+    --letter-spacing-30: -0.052px;
+    --letter-spacing-20: -0.042px;
+    --letter-spacing-10: -0.037px;
+    --letter-spacing-0: -0.032px;
 
-    --line-height-1000: 5.125rem;
-    --line-height-900: 4.125rem;
-    --line-height-800: 3.25rem;
-    --line-height-700: 2.75rem;
-    --line-height-600: 2.25rem;
-    --line-height-500: 2rem;
-    --line-height-400: 1.75rem;
-    --line-height-300: 1.5rem;
-    --line-height-200: 1.375rem;
-    --line-height-100: 1.25rem;
+    --line-height-100: 100px;
+    --line-height-90: 84px;
+    --line-height-80: 68px;
+    --line-height-70: 52px;
+    --line-height-60: 44px;
+    --line-height-50: 36px;
+    --line-height-40: 32px;
+    --line-height-30: 28px;
+    --line-height-20: 24px;
+    --line-height-10: 22px;
+    --line-height-0: 20px;
 
 }
 
 /* Typography */
 
 .typography-headline-standalone {
-    font: var(--font-weight-semibold) var(--font-size-1000) / var(--line-height-1000) var(--font-sans);
-    letter-spacing: var(--letter-spacing-1000);
+    font: var(--font-weight-semibold) var(--font-size-100) / var(--line-height-100) var(--font-sans);
+    letter-spacing: var(--letter-spacing-100);
 }
 
 .typography-headline-super {
-    font: var(--font-weight-semibold) var(--font-size-900) / var(--line-height-900) var(--font-sans);
-    letter-spacing: var(--letter-spacing-900);
+    font: var(--font-weight-semibold) var(--font-size-90) / var(--line-height-90) var(--font-sans);
+    letter-spacing: var(--letter-spacing-90);
 }
 
 .typography-headline-base {
-    font: var(--font-weight-semibold) var(--font-size-800) / var(--line-height-800) var(--font-sans);
-    letter-spacing: var(--letter-spacing-800);
+    font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
+    letter-spacing: var(--letter-spacing-80);
 }
 
 .typography-headline-reduced {
-    font: var(--font-weight-semibold) var(--font-size-700) / var(--line-height-700) var(--font-sans);
-    letter-spacing: var(--letter-spacing-700);
+    font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
+    letter-spacing: var(--letter-spacing-70);
 }
 
 .typography-headline-tiny {
-    font: var(--font-weight-semibold) var(--font-size-600) / var(--line-height-600) var(--font-sans);
-    letter-spacing: var(--letter-spacing-600);
+    font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
+    letter-spacing: var(--letter-spacing-60);
 }
 
 .typography-body-standalone {
-    font: var(--font-weight-regular) var(--font-size-500) / var(--line-height-500) var(--font-sans);
-    letter-spacing: var(--letter-spacing-500);
+    font: var(--font-weight-regular) var(--font-size-40) / var(--line-height-40) var(--font-sans);
+    letter-spacing: var(--letter-spacing-40);
 }
 
 .typography-body-super {
-    font: var(--font-weight-regular) var(--font-size-400) / var(--line-height-400) var(--font-sans);
-    letter-spacing: var(--letter-spacing-400);
+    font: var(--font-weight-regular) var(--font-size-30) / var(--line-height-30) var(--font-sans);
+    letter-spacing: var(--letter-spacing-30);
 }
 
 .typography-body-base {
-    font: var(--font-weight-regular) var(--font-size-300) / var(--line-height-300) var(--font-sans);
-    letter-spacing: var(--letter-spacing-300);
+    font: var(--font-weight-regular) var(--font-size-20) / var(--line-height-20) var(--font-sans);
+    letter-spacing: var(--letter-spacing-20);
 }
 
 .typography-body-reduced {
-    font: var(--font-weight-regular) var(--font-size-200) / var(--line-height-200) var(--font-sans);
-    letter-spacing: var(--letter-spacing-200);
+    font: var(--font-weight-regular) var(--font-size-10) / var(--line-height-10) var(--font-sans);
+    letter-spacing: var(--letter-spacing-10);
 }
 
 .typography-body-tiny {
-    font: var(--font-weight-regular) var(--font-size-100) / var(--line-height-100) var(--font-sans);
-    letter-spacing: var(--letter-spacing-100);
+    font: var(--font-weight-regular) var(--font-size-0) / var(--line-height-0) var(--font-sans);
+    letter-spacing: var(--letter-spacing-0);
 }
 
 @media (max-width: 1068px) {
 
     .typography-headline-standalone {
-        font: var(--font-weight-semibold) var(--font-size-900) / var(--line-height-900) var(--font-sans);
-        letter-spacing: var(--letter-spacing-900);
+        font: var(--font-weight-semibold) var(--font-size-90) / var(--line-height-90) var(--font-sans);
+        letter-spacing: var(--letter-spacing-90);
     }
 
     .typography-headline-super {
-        font: var(--font-weight-semibold) var(--font-size-800) / var(--line-height-800) var(--font-sans);
-        letter-spacing: var(--letter-spacing-800);
+        font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
+        letter-spacing: var(--letter-spacing-80);
     }
 
     .typography-headline-base {
-        font: var(--font-weight-semibold) var(--font-size-700) / var(--line-height-700) var(--font-sans);
-        letter-spacing: var(--letter-spacing-700);
+        font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
+        letter-spacing: var(--letter-spacing-70);
     }
 
     .typography-headline-reduced {
-        font: var(--font-weight-semibold) var(--font-size-600) / var(--line-height-600) var(--font-sans);
-        letter-spacing: var(--letter-spacing-600);
+        font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
+        letter-spacing: var(--letter-spacing-60);
     }
 
     .typography-headline-tiny {
-        font: var(--font-weight-semibold) var(--font-size-500) / var(--line-height-500) var(--font-sans);
-        letter-spacing: var(--letter-spacing-500);
+        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+        letter-spacing: var(--letter-spacing-50);
     }
 
 }
@@ -138,28 +141,28 @@
 @media (max-width: 767px) {
 
     .typography-headline-standalone {
-        font: var(--font-weight-semibold) var(--font-size-800) / var(--line-height-800) var(--font-sans);
-        letter-spacing: var(--letter-spacing-800);
+        font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
+        letter-spacing: var(--letter-spacing-80);
     }
 
     .typography-headline-super {
-        font: var(--font-weight-semibold) var(--font-size-700) / var(--line-height-700) var(--font-sans);
-        letter-spacing: var(--letter-spacing-700);
+        font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
+        letter-spacing: var(--letter-spacing-70);
     }
 
     .typography-headline-base {
-        font: var(--font-weight-semibold) var(--font-size-600) / var(--line-height-600) var(--font-sans);
-        letter-spacing: var(--letter-spacing-600);
+        font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
+        letter-spacing: var(--letter-spacing-60);
     }
 
     .typography-headline-reduced {
-        font: var(--font-weight-semibold) var(--font-size-500) / var(--line-height-500) var(--font-sans);
-        letter-spacing: var(--letter-spacing-500);
+        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+        letter-spacing: var(--letter-spacing-50);
     }
 
     .typography-headline-tiny {
-        font: var(--font-weight-semibold) var(--font-size-400) / var(--line-height-400) var(--font-sans);
-        letter-spacing: var(--letter-spacing-400);
+        font: var(--font-weight-semibold) var(--font-size-40) / var(--line-height-40) var(--font-sans);
+        letter-spacing: var(--letter-spacing-40);
     }
 
 }
