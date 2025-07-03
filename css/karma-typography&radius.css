@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'Standard';
+  font-family: 'GT Super';
   font-style: normal;
-  font-weight: 501 1000;
+  font-weight: 1 1000;
   font-display: auto;
-  src: local('☺'), url("../assets/fonts/standard-bold.woff") format("woff");
+  src: local('☺'), url("../assets/fonts/gt-super-400-normal.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Standard';
+  font-family: 'Sohne';
   font-style: normal;
-  font-weight: 1 500;
+  font-weight: 1 1000;
   font-display: auto;
-  src: local('☺'), url("../assets/fonts/standard-book.woff") format("woff");
+  src: local('☺'), url("../assets/fonts/sohne-400-normal.woff") format("woff");
 }
 
 
@@ -58,8 +58,8 @@
   /* ---------------------------- */
 
 
-  --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-  --font-sans: Standard, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-serif: GT Super, Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+  --font-sans: Sohne, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
@@ -83,8 +83,8 @@
   --fontSize-91: 88px;
   --fontSize-103: 96px;
 
-  --mui-typography-font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-  --mui-typography-font-sans: SF Pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --mui-typography-font-serif: GT Super, Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+  --mui-typography-font-sans: Sohne, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --mui-typography-font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --mui-typography-font-size-0: 0.75rem;
@@ -144,56 +144,56 @@
   --letterSpacing-wider: 0.025em;
 
   --display-letterspacing: var(--letterSpacing-tighter);
-  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-sans);
-  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-sans);
-  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-sans);
-  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-sans);
+  --display-xxl: var(--fontWeight-bold) var(--fontSize-91) / 95% var(--font-serif);
+  --display-xl: var(--fontWeight-bold) var(--fontSize-81) / 95% var(--font-serif);
+  --display-m: var(--fontWeight-bold) var(--fontSize-72) / 100% var(--font-serif);
+  --display-xxxs: var(--fontWeight-bold) var(--fontSize-57) / 100% var(--font-serif);
 
   --title1-letterspacing: var(--letterSpacing-tighter);
-  --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-sans);
-  --title1-xl: var(--fontWeight-regular) var(--fontSize-72) / 100% var(--font-sans);
-  --title1-m: var(--fontWeight-regular) var(--fontSize-64) / 110% var(--font-sans);
-  --title1-xxxs: var(--fontWeight-regular) var(--fontSize-45) / 110% var(--font-sans);
+  --title1-xxl: var(--fontWeight-regular) var(--fontSize-81) / 100% var(--font-serif);
+  --title1-xl: var(--fontWeight-regular) var(--fontSize-72) / 100% var(--font-serif);
+  --title1-m: var(--fontWeight-regular) var(--fontSize-64) / 110% var(--font-serif);
+  --title1-xxxs: var(--fontWeight-regular) var(--fontSize-45) / 110% var(--font-serif);
 
   --title2-letterspacing: var(--letterSpacing-tighter);
-  --title2-xxl: var(--fontWeight-regular) var(--fontSize-64) / 110% var(--font-sans);
-  --title2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-64) / 110% var(--font-sans);
-  --title2-xl: var(--fontWeight-regular) var(--fontSize-57) / 110% var(--font-sans);
-  --title2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-57) / 110% var(--font-sans);
-  --title2-m: var(--fontWeight-regular) var(--fontSize-45) / 110% var(--font-sans);
-  --title2-m-emphasized: var(--fontWeight-bold) var(--fontSize-45) / 110% var(--font-sans);
-  --title2-xxxs: var(--fontWeight-regular) var(--fontSize-36) / 110% var(--font-sans);
-  --title2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-36) / 110% var(--font-sans);
+  --title2-xxl: var(--fontWeight-regular) var(--fontSize-64) / 110% var(--font-serif);
+  --title2-xxl-emphasized: var(--fontWeight-bold) var(--fontSize-64) / 110% var(--font-serif);
+  --title2-xl: var(--fontWeight-regular) var(--fontSize-57) / 110% var(--font-serif);
+  --title2-xl-emphasized: var(--fontWeight-bold) var(--fontSize-57) / 110% var(--font-serif);
+  --title2-m: var(--fontWeight-regular) var(--fontSize-45) / 110% var(--font-serif);
+  --title2-m-emphasized: var(--fontWeight-bold) var(--fontSize-45) / 110% var(--font-serif);
+  --title2-xxxs: var(--fontWeight-regular) var(--fontSize-36) / 110% var(--font-serif);
+  --title2-xxxs-emphasized: var(--fontWeight-bold) var(--fontSize-36) / 110% var(--font-serif);
 
   --title3-letterspacing: var(--letterSpacing-tight);
-  --title3-xxl: var(--fontWeight-regular) var(--fontSize-64) / 130% var(--font-sans);
-  --title3-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-64) / 130% var(--font-sans);
-  --title3-xl: var(--fontWeight-regular) var(--fontSize-32) / 130% var(--font-sans);
-  --title3-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-32) / 130% var(--font-sans);
-  --title3-m: var(--fontWeight-regular) var(--fontSize-32) / 130% var(--font-sans);
-  --title3-m-emphasized: var(--fontWeight-semibold) var(--fontSize-32) / 130% var(--font-sans);
-  --title3-xxxs: var(--fontWeight-regular) var(--fontSize-28) / 130% var(--font-sans);
-  --title3-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-28) / 130% var(--font-sans);
+  --title3-xxl: var(--fontWeight-regular) var(--fontSize-64) / 130% var(--font-serif);
+  --title3-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-64) / 130% var(--font-serif);
+  --title3-xl: var(--fontWeight-regular) var(--fontSize-32) / 130% var(--font-serif);
+  --title3-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-32) / 130% var(--font-serif);
+  --title3-m: var(--fontWeight-regular) var(--fontSize-32) / 130% var(--font-serif);
+  --title3-m-emphasized: var(--fontWeight-semibold) var(--fontSize-32) / 130% var(--font-serif);
+  --title3-xxxs: var(--fontWeight-regular) var(--fontSize-28) / 130% var(--font-serif);
+  --title3-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-28) / 130% var(--font-serif);
 
   --title4-letterspacing: var(--letterSpacing-tight);
-  --title4-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-sans);
-  --title4-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-sans);
-  --title4-xl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-sans);
-  --title4-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-sans);
-  --title4-m: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-sans);
-  --title4-m-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-sans);
-  --title4-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-sans);
-  --title4-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-22) / 135% var(--font-sans);
+  --title4-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-serif);
+  --title4-xxl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-serif);
+  --title4-xl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-serif);
+  --title4-xl-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-serif);
+  --title4-m: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-serif);
+  --title4-m-emphasized: var(--fontWeight-semibold) var(--fontSize-25) / 135% var(--font-serif);
+  --title4-xxxs: var(--fontWeight-regular) var(--fontSize-22) / 135% var(--font-serif);
+  --title4-xxxs-emphasized: var(--fontWeight-semibold) var(--fontSize-22) / 135% var(--font-serif);
 
   --title5-letterspacing: var(--letterSpacing-normal);
-  --title5-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-sans);
-  --title5-xxl-emphasized: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-sans);
-  --title5-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
-  --title5-xl-emphasized: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-sans);
-  --title5-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-sans);
-  --title5-m-emphasized: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-sans);
-  --title5-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-sans);
-  --title5-xxxs-emphasized: var(--fontWeight-medium) var(--fontSize-16) / 145% var(--font-sans);
+  --title5-xxl: var(--fontWeight-regular) var(--fontSize-20) / 140% var(--font-serif);
+  --title5-xxl-emphasized: var(--fontWeight-medium) var(--fontSize-20) / 140% var(--font-serif);
+  --title5-xl: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-serif);
+  --title5-xl-emphasized: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-serif);
+  --title5-m: var(--fontWeight-regular) var(--fontSize-18) / 140% var(--font-serif);
+  --title5-m-emphasized: var(--fontWeight-medium) var(--fontSize-18) / 140% var(--font-serif);
+  --title5-xxxs: var(--fontWeight-regular) var(--fontSize-16) / 145% var(--font-serif);
+  --title5-xxxs-emphasized: var(--fontWeight-medium) var(--fontSize-16) / 145% var(--font-serif);
 
   --body1-letterspacing: var(--letterSpacing-normal);
   --body1-xxl: var(--fontWeight-regular) var(--fontSize-25) / 135% var(--font-sans);
