@@ -1,9 +1,17 @@
 @font-face {
-  font-family: 'LETS Type VF';
+  font-family: 'Standard';
   font-style: normal;
-  font-weight: 1 1000;
+  font-weight: 501 1000;
   font-display: auto;
-  src: local('☺'), url("../assets/fonts/LETSTypeVF.woff2") format("woff2-variations"), url("../assets/fonts/LETSTypeVF.woff2") format("woff2");
+  src: local('☺'), url("../assets/fonts/standard-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Standard';
+  font-style: normal;
+  font-weight: 1 500;
+  font-display: auto;
+  src: local('☺'), url("../assets/fonts/standard-book.woff") format("woff");
 }
 
 
@@ -51,7 +59,7 @@
 
 
   --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-  --font-sans: LETS Type VF, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-sans: Standard, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;
