@@ -125,17 +125,17 @@
 
   --mui-typography-font-weight-light: 300;
   --mui-typography-font-weight-regular: 400;
-  --mui-typography-font-weight-medium: 500;
+  --mui-typography-font-weight-medium: 400;
   --mui-typography-font-weight-semibold: 400;
-  --mui-typography-font-weight-bold: 700;
-  --mui-typography-font-weight-black: 900;
+  --mui-typography-font-weight-bold: 400;
+  --mui-typography-font-weight-black: 400;
 
-  --mui-typography-font-weight-light: 300;
+  --mui-typography-font-weight-light: 400;
   --fontWeight-regular: 400;
-  --fontWeight-medium: 500;
-  --fontWeight-semibold: 600;
-  --fontWeight-bold: 700;
-  --mui-typography-font-weight-black: 900;
+  --fontWeight-medium: 400;
+  --fontWeight-semibold: 400;
+  --fontWeight-bold: 400;
+  --mui-typography-font-weight-black: 400;
 
   --letterSpacing-tighter: -0.025em;
   --letterSpacing-tight: -0.0125em;

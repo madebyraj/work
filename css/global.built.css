@@ -35,9 +35,9 @@
     --font-size-0: 13px;
 
     --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
+    --font-weight-medium: 400;
+    --font-weight-semibold: 400;
+    --font-weight-bold: 400;
 
     --letter-spacing-100: -4.8px;
     --letter-spacing-90: -4px;
