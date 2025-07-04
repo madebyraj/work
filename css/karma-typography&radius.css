@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 501 1000;
   font-display: swap;
-  src: local('☺'), url("../assets/fonts/Inter-semibold.woff") format("woff");
+  src: local('☺'), url("../assets/fonts/Inter-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 1 500;
   font-display: swap;
-  src: local('☺'), url("../assets/fonts/Inter-regular.woff") format("woff");
+  src: local('☺'), url("../assets/fonts/Inter-Regular.woff") format("woff");
 }
 
 
