@@ -82,6 +82,21 @@
 
 }
 
+:root {
+    --padding-primary: 96px;
+    --padding-secondary: 48px;
+    --padding-teriary: 24px;
+    --spacing-primary: 48px;
+    --spacing-secondary: 32px;
+    --spacing-teriary: 16px;
+    --margin-primary: 48px;
+    --margin-secondary: 32px;
+    --margin-teriary: 16px;
+    --radius-primary: 48px;
+    --radius-secondary: 32px;
+    --radius-teriary: 16px;
+}
+
 /* Typography */
 
 .typography-headline-standalone {

@@ -62,6 +62,7 @@ main {
   max-width: var(--global-max-width);
   margin: auto;
   width: 100%;
+  padding: 0 48px;
 }
 
 #header-section-wrapper {
@@ -641,10 +642,10 @@ main {
 
 /* Tablet */
 
-@media (max-width: 1068px) {
+@media (max-width: 1024px) {
   #main-container {
     margin: auto;
-    padding: 0px 48px;
+    padding: 0px 32px;
     width: 100%;
   }
 
@@ -666,7 +667,7 @@ main {
 @media (max-width: 767px) {
   #main-container {
     margin: auto;
-    padding: 0px 24px;
+    padding: 0px 16px;
     width: 100%;
   }
 
