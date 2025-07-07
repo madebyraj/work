@@ -81,6 +81,7 @@ main {
   margin-left: 10%;
   background: var(--fill);
   gap: 16px;
+  border-radius: 16px;
 }
 
 .hero-section-card-header {
@@ -97,6 +98,7 @@ main {
   width: 140%;
   height: 100%;
   aspect-ratio: 4/3;
+  border-radius: 16px;
 }
 
 .journey-section-background {
@@ -216,6 +218,7 @@ main {
   width: 100%;
   font: var(--font-weight-semibold) var(--font-size-40) / var(--line-height-40) var(--font-sans);
   letter-spacing: var(--letter-spacing-40);
+  color: var(--text);
 }
 
 .scroll-gallery {
@@ -398,7 +401,7 @@ main {
     --grid-gap: 16px;
     --elastic-position-x: 0;
     --viewport-content: 100vw;
-    --grid-columns: 10;
+    --grid-columns: 8;
     --page-padding: 0px;
     --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
     --offset-left: 32px;
