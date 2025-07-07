@@ -239,6 +239,11 @@ main {
   align-items: flex-start;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
 }
 
 .gallery-item {
