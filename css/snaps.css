@@ -28,8 +28,7 @@ html {
 
 body {
     background: var(--background);
-    animation: pageLoading 1000ms;
-    animation-timing-function: var(--bounce-effect);
+    animation: pageLoading 1000ms ease;
     position: relative;
     padding-top: var(--globalnav-height);
     text-rendering: optimizeLegibility;

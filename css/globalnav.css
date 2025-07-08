@@ -57,16 +57,21 @@ body.no-scroll {
 .gn-background {
     width: 100%;
     height: var(--globalnav-height);
-    background: none;
-
-    -webkit-transition: background 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), color 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
-    transition: background 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), color 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
+    background: transparent;
+    -webkit-transition: background 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), color 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), backdrop-filter 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
+    transition: background 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), color 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), backdrop-filter 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
 }
 
 .gn-background.scrolled {
     background: var(--globalnav-background);
     -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
     backdrop-filter: var(--globalnav-backdrop-filter);
+}
+
+@supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
+    .gn-background {
+        background-color: var(--globalnav-background-opened);
+    }
 }
 
 .gn-content {
@@ -152,7 +157,7 @@ body.no-scroll {
 }
 
 .gn-link-logo svg {
-    height: 19px;
+    height: 21px;
 }
 
 .gn-link-logo svg path {
