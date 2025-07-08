@@ -106,6 +106,9 @@ main {
   position: relative;
   z-index: 1;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 4px 8px;
   background: rgba(227, 92, 0, 0.10);
   color: rgb(227, 92, 0);

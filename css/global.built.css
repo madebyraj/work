@@ -1,10 +1,17 @@
 @font-face {
-    font-family: "LETS Type";
+    font-family: "Our Lexend";
     font-style: normal;
-    font-weight: 1 1000;
+    font-weight: 501 1000;
     font-display: auto;
-    src: local('☺'), url(../assets/fonts/LETSTypeVF.woff2) format("woff2 supports variations"),
-        url(../assets/fonts/LETSTypeVF.woff2) format("woff2-variations");
+    src: local('☺'), url(../assets/fonts/OurLexend-Semibold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Our Lexend";
+    font-style: normal;
+    font-weight: 1 500;
+    font-display: auto;
+    src: local('☺'), url(../assets/fonts/OurLexend-Regular.woff) format("woff");
 }
 
 
@@ -13,7 +20,7 @@
     /* Typography */
 
     --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-    --font-sans: LETS Type, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-sans: Our Lexend, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
     --font-size-100: 96px;
@@ -35,15 +42,15 @@
 
     --letter-spacing-100: -4.8px;
     --letter-spacing-90: -4px;
-    --letter-spacing-80: -1.6px;
-    --letter-spacing-70: -0.6px;
-    --letter-spacing-60: -0.5px;
-    --letter-spacing-50: -0.4px;
-    --letter-spacing-40: -0.062px;
-    --letter-spacing-30: -0.052px;
-    --letter-spacing-20: -0.042px;
-    --letter-spacing-10: -0.037px;
-    --letter-spacing-0: -0.032px;
+    --letter-spacing-80: -3.2px;
+    --letter-spacing-70: -1.2px;
+    --letter-spacing-60: -1px;
+    --letter-spacing-50: -0.8px;
+    --letter-spacing-40: -0.312px;
+    --letter-spacing-30: -0.262px;
+    --letter-spacing-20: -0.212px;
+    --letter-spacing-10: -0.187px;
+    --letter-spacing-0: -0.162px;
 
     --line-height-100: 100px;
     --line-height-90: 84px;
