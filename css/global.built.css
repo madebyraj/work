@@ -77,28 +77,28 @@
 /* Typography */
 
 .typography-headline-standalone {
+    font: var(--font-weight-semibold) var(--font-size-100) / var(--line-height-100) var(--font-sans);
+    letter-spacing: var(--letter-spacing-100);
+}
+
+.typography-headline-super {
     font: var(--font-weight-semibold) var(--font-size-90) / var(--line-height-90) var(--font-sans);
     letter-spacing: var(--letter-spacing-90);
 }
 
-.typography-headline-super {
+.typography-headline-base {
     font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
     letter-spacing: var(--letter-spacing-80);
 }
 
-.typography-headline-base {
+.typography-headline-reduced {
     font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
     letter-spacing: var(--letter-spacing-70);
 }
 
-.typography-headline-reduced {
+.typography-headline-tiny {
     font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
     letter-spacing: var(--letter-spacing-60);
-}
-
-.typography-headline-tiny {
-    font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
-    letter-spacing: var(--letter-spacing-50);
 }
 
 .typography-body-standalone {
