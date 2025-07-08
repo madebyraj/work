@@ -39,7 +39,7 @@ main {
     position: relative;
     margin: auto;
     min-height: 100vh;
-  }
+}
 
 .snaps-wrapper {
     background: var(--fill);
@@ -58,15 +58,15 @@ main {
 }
 
 .snaps {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
     justify-content: center;
-    max-width: var(--global-max-width);
+    max-width: calc(var(--global-max-width) - calc(var(--viewport-margin) * 2));
+    width: 100%;
     margin: auto;
     gap: 16px;
-    padding: 0 48px;
+    padding: 0;
 }
 
 .snap {
@@ -74,32 +74,25 @@ main {
     object-position: center;
     width: 100%;
     height: 100%;
+    aspect-ratio: 4 / 5;
 }
-
-@media (max-width: 1400px) {}
 
 @media (max-width: 1068px) {
 
-    .snaps-wrapper {
-        padding: 96px 0;
-    }
-
     .snaps {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        padding: 0 32px;
+        max-width: 100%;
+        padding: 0 var(--viewport-margin);
     }
 
 }
 
 @media (max-width: 767px) {
 
-    .snaps-wrapper {
-        padding: 96px 0;
-    }
-
     .snaps {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        padding: 0 16px;
+        max-width: 100%;
+        padding: 0 var(--viewport-margin);
     }
 
 }

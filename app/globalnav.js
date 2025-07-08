@@ -58,3 +58,13 @@ function updateNavbarTheme() {
 
 window.addEventListener("scroll", updateNavbarTheme);
 window.addEventListener("load", updateNavbarTheme);
+
+const navbarBackground = document.querySelector(".gn-background");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 0) {
+    navbarBackground.classList.add("scrolled");
+  } else {
+    navbarBackground.classList.remove("scrolled");
+  }
+});

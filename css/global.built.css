@@ -72,6 +72,8 @@
     --radius-primary: 48px;
     --radius-secondary: 32px;
     --radius-teriary: 16px;
+
+    --viewport-margin: 96px;
 }
 
 /* Typography */
@@ -153,9 +155,18 @@
         letter-spacing: var(--letter-spacing-50);
     }
 
+    :root {
+        --viewport-margin: 48px;
+    }
+
+
 }
 
 @media (max-width: 767px) {
+
+    :root {
+        --viewport-margin: 24px;
+    }
 
     .typography-headline-standalone {
         font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);

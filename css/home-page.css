@@ -83,9 +83,8 @@ main {
 
 .hero-section-before {
   height: min-content;
-  max-width: calc(768px - calc(32px * 2));
+  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
-  background: var(--fillTertiary);
   position: absolute;
 }
 
@@ -113,9 +112,8 @@ main {
   background: rgba(227, 92, 0, 0.10);
   color: rgb(227, 92, 0);
   border-radius: 8px;
-  font: var(--font-weight-semibold) var(--font-size-20) / var(--line-height-20) var(--font-sans);
+  font: var(--font-weight-regular) var(--font-size-20) / var(--line-height-20) var(--font-sans);
   letter-spacing: var(--letter-spacing-20);
-  /* text-transform: uppercase; */
 }
 
 .hero-section-typography-headline {
@@ -155,8 +153,8 @@ main {
 
 .me-wrapper {
   margin: auto;
-  transform: translate(0%, -25%);
-  max-width: calc(768px - calc(32px * 2));
+  transform: translate(0%, -31.25%);
+  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -171,7 +169,7 @@ main {
   object-position: top;
   width: 100%;
   height: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 3 / 2;
   background: var(--fill);
   box-shadow: 2.5px 2.5px 25px 2.5px rgba(0, 0, 0, 0.125);
   transform: rotate(-0.5deg);
@@ -279,7 +277,7 @@ main {
 :root {
   --grid-gap: 16px;
   --elastic-position-x: 0;
-  --viewport-content: calc(1025px - calc(var(--margin-primary) * 2));
+  --viewport-content: calc(1069px - calc(var(--viewport-margin) * 2));
   --grid-columns: 8;
   --page-padding: 0px;
   --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
@@ -301,7 +299,7 @@ main {
 
 .recent-work-headline {
   margin: auto;
-  max-width: calc(1025px - calc(var(--margin-primary) * 2));
+  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   padding: 0;
   width: 100%;
   color: var(--text);
@@ -404,7 +402,7 @@ main {
 }
 
 .get-in-touch-content {
-  max-width: calc(1025px - calc(var(--margin-primary) * 2));
+  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
   margin: auto;
   display: grid;
@@ -467,10 +465,20 @@ main {
   background: #006EDB;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1068px) {
+
+  .hero-section-before {
+    max-width: 100%;
+    padding: 0 var(--viewport-margin);
+  }
+
+  .me-wrapper {
+    max-width: 100%;
+    padding: 0 var(--viewport-margin);
+  }
 
   .journey-section-content {
-    padding: 96px 32px;
+    padding: 96px var(--viewport-margin);
   }
 
   :root {
@@ -480,7 +488,7 @@ main {
     --grid-columns: 8;
     --page-padding: 0px;
     --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
-    --offset-left: 32px;
+    --offset-left: var(--viewport-margin);
     --offset-right: var(--offset-left);
     --aspect-ratio: 3 / 2;
     --min-width: none;
@@ -489,7 +497,7 @@ main {
 
   .recent-work-headline {
     max-width: 100%;
-    padding: 0 32px;
+    padding: 0 var(--viewport-margin);
   }
 
   .get-in-touch-content {
@@ -498,7 +506,7 @@ main {
 
   .get-in-touch-section {
     margin: auto;
-    padding: 96px 32px;
+    padding: 96px var(--viewport-margin);
   }
 
 }
@@ -507,20 +515,20 @@ main {
 
   .hero-section-before {
     max-width: 100%;
-    padding: 0 16px;
+    padding: 0 var(--viewport-margin);
   }
 
   .me-wrapper {
     max-width: 100%;
-    padding: 0 16px;
+    padding: 0 var(--viewport-margin);
   }
 
   .me {
-    aspect-ratio: 3/4;
+    aspect-ratio: 4 / 5;
   }
 
   .journey-section-content {
-    padding: 96px 16px;
+    padding: 96px var(--viewport-margin);
   }
 
   :root {
@@ -530,7 +538,7 @@ main {
     --grid-columns: 10;
     --page-padding: 0px;
     --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
-    --offset-left: 16px;
+    --offset-left: var(--viewport-margin);
     --offset-right: var(--offset-left);
     --aspect-ratio: 4 / 5;
     --min-width: none;
@@ -538,7 +546,7 @@ main {
   }
 
   .recent-work-headline {
-    padding: 0 16px;
+    padding: 0 var(--viewport-margin);
   }
 
   .get-in-touch-content {
@@ -546,7 +554,7 @@ main {
   }
 
   .get-in-touch-section {
-    padding: 96px 16px;
+    padding: 96px var(--viewport-margin);
   }
 
 }
