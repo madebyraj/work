@@ -126,8 +126,8 @@ body.no-scroll {
 
 .gn-link {
     text-decoration: none;
-    font: var(--font-weight-regular) var(--font-size-10) / var(--line-height-10) var(--font-sans);
-    letter-spacing: var(--letter-spacing-10);
+    font: var(--font-weight-regular) var(--font-size-15) / var(--line-height-15) var(--font-sans);
+    letter-spacing: var(--letter-spacing-15);
     color: var(--globalnav-color);
     opacity: var(--globalnav-opacity);
     height: var(--globalnav-height);
@@ -200,8 +200,15 @@ body.no-scroll {
     .gn-header {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         width: 100%;
+    }
+
+    .gn-header .gn-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: var(--globalnav-height);
     }
 
     .gn-list {
@@ -240,8 +247,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(2) {
-        -webkit-transform: translateY(-44px);
-        transform: translateY(-44px);
+        /* -webkit-transform: translateY(-44px);
+        transform: translateY(-44px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.3345s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.15s, -webkit-transform 0.4669s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.108s;
         transition: opacity 0.3345s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.15s, -webkit-transform 0.4669s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.108s;
         transition: opacity 0.3345s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.15s, transform 0.4669s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.108s;
@@ -250,8 +259,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(3) {
-        -webkit-transform: translateY(-40px);
-        transform: translateY(-40px);
+        /* -webkit-transform: translateY(-40px);
+        transform: translateY(-40px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.29294s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.13s, -webkit-transform 0.45043s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.095s;
         transition: opacity 0.29294s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.13s, -webkit-transform 0.45043s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.095s;
         transition: opacity 0.29294s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.13s, transform 0.45043s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.095s;
@@ -259,8 +270,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(4) {
-        -webkit-transform: translateY(-36px);
-        transform: translateY(-36px);
+        /* -webkit-transform: translateY(-36px);
+        transform: translateY(-36px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.26098s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.11s, -webkit-transform 0.43756s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.082s;
         transition: opacity 0.26098s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.11s, -webkit-transform 0.43756s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.082s;
         transition: opacity 0.26098s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.11s, transform 0.43756s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.082s;
@@ -268,8 +281,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(5) {
-        -webkit-transform: translateY(-32px);
-        transform: translateY(-32px);
+        /* -webkit-transform: translateY(-32px);
+        transform: translateY(-32px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.2386s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.09s, -webkit-transform 0.42827s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.069s;
         transition: opacity 0.2386s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.09s, -webkit-transform 0.42827s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.069s;
         transition: opacity 0.2386s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.09s, transform 0.42827s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.069s;
@@ -277,8 +292,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(6) {
-        -webkit-transform: translateY(-28px);
-        transform: translateY(-28px);
+        /* -webkit-transform: translateY(-28px);
+        transform: translateY(-28px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.07s, -webkit-transform 0.42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.056s;
         transition: opacity 0.22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.07s, -webkit-transform 0.42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.056s;
         transition: opacity 0.22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.07s, transform 0.42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.056s;
@@ -286,8 +303,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(7) {
-        -webkit-transform: translateY(-24px);
-        transform: translateY(-24px);
+        /* -webkit-transform: translateY(-24px);
+        transform: translateY(-24px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.22261s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.05s, -webkit-transform 0.4205s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.043s;
         transition: opacity 0.22261s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.05s, -webkit-transform 0.4205s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.043s;
         transition: opacity 0.22261s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.05s, transform 0.4205s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.043s;
@@ -295,8 +314,10 @@ body.no-scroll {
     }
 
     .gn-item-menu:nth-child(8) {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        /* -webkit-transform: translateY(-20px);
+        transform: translateY(-20px); */
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
         -webkit-transition: opacity 0.229s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s, -webkit-transform 0.422s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s;
         transition: opacity 0.229s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s, -webkit-transform 0.422s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s;
         transition: opacity 0.229s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s, transform 0.422s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.03s;
@@ -307,7 +328,7 @@ body.no-scroll {
         opacity: 1;
         pointer-events: auto;
         -webkit-transform: none;
-        transform: none
+        transform: none;
     }
 
     .globalnav.active .gn-item-menu:nth-child(2) {

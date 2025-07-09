@@ -23,46 +23,64 @@
     --font-sans: Our Lexend, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-    --font-size-100: 96px;
-    --font-size-90: 80px;
-    --font-size-80: 64px;
-    --font-size-70: 48px;
-    --font-size-60: 40px;
-    --font-size-50: 32px;
-    --font-size-40: 25px;
+    --font-size-90: 112px;
+    --font-size-85: 96px;
+    --font-size-80: 88px;
+    --font-size-75: 80px;
+    --font-size-70: 72px;
+    --font-size-65: 64px;
+    --font-size-60: 56px;
+    --font-size-55: 48px;
+    --font-size-50: 40px;
+    --font-size-45: 32px;
+    --font-size-40: 28px;
+    --font-size-35: 24px;
     --font-size-30: 21px;
+    --font-size-25: 19px;
     --font-size-20: 17px;
-    --font-size-10: 15px;
-    --font-size-0: 13px;
+    --font-size-15: 14px;
+    --font-size-10: 12px;
 
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
 
-    --letter-spacing-100: -4.8px;
-    --letter-spacing-90: -4px;
-    --letter-spacing-80: -3.2px;
-    --letter-spacing-70: -1.2px;
-    --letter-spacing-60: -1px;
-    --letter-spacing-50: -0.8px;
-    --letter-spacing-40: -0.312px;
+    --letter-spacing-90: -5.6px;
+    --letter-spacing-85: -4.8px;
+    --letter-spacing-80: -4.4px;
+    --letter-spacing-75: -4px;
+    --letter-spacing-70: -3.6px;
+    --letter-spacing-65: -3.2px;
+    --letter-spacing-60: -2.8px;
+    --letter-spacing-55: -1.2px;
+    --letter-spacing-50: -1px;
+    --letter-spacing-45: -0.8px;
+    --letter-spacing-40: -0.7px;
+    --letter-spacing-35: -0.3px;
     --letter-spacing-30: -0.262px;
+    --letter-spacing-25: -0.237px;
     --letter-spacing-20: -0.212px;
-    --letter-spacing-10: -0.187px;
-    --letter-spacing-0: -0.162px;
+    --letter-spacing-15: -0.175px;
+    --letter-spacing-10: -0.15px;
 
-    --line-height-100: 100px;
-    --line-height-90: 84px;
-    --line-height-80: 68px;
-    --line-height-70: 52px;
-    --line-height-60: 44px;
-    --line-height-50: 36px;
+    --line-height-90: 114px;
+    --line-height-85: 100px;
+    --line-height-80: 92px;
+    --line-height-75: 84px;
+    --line-height-70: 76px;
+    --line-height-65: 68px;
+    --line-height-60: 60px;
+    --line-height-55: 52px;
+    --line-height-50: 44px;
+    --line-height-45: 36px;
     --line-height-40: 32px;
-    --line-height-30: 28px;
-    --line-height-20: 24px;
-    --line-height-10: 22px;
-    --line-height-0: 20px;
+    --line-height-35: 32px;
+    --line-height-30: 29px;
+    --line-height-25: 27px;
+    --line-height-20: 25px;
+    --line-height-15: 22px;
+    --line-height-10: 20px;
 
 }
 
@@ -86,38 +104,38 @@
 /* Typography */
 
 .typography-headline-standalone {
-    font: var(--font-weight-semibold) var(--font-size-100) / var(--line-height-100) var(--font-sans);
-    letter-spacing: var(--letter-spacing-100);
+    font: var(--font-weight-semibold) var(--font-size-85) / var(--line-height-85) var(--font-sans);
+    letter-spacing: var(--letter-spacing-85);
 }
 
 .typography-headline-super {
-    font: var(--font-weight-semibold) var(--font-size-90) / var(--line-height-90) var(--font-sans);
-    letter-spacing: var(--letter-spacing-90);
+    font: var(--font-weight-semibold) var(--font-size-75) / var(--line-height-75) var(--font-sans);
+    letter-spacing: var(--letter-spacing-75);
 }
 
 .typography-headline-base {
-    font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
-    letter-spacing: var(--letter-spacing-80);
+    font: var(--font-weight-semibold) var(--font-size-65) / var(--line-height-65) var(--font-sans);
+    letter-spacing: var(--letter-spacing-65);
 }
 
 .typography-headline-reduced {
-    font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
-    letter-spacing: var(--letter-spacing-70);
+    font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+    letter-spacing: var(--letter-spacing-55);
 }
 
 .typography-headline-tiny {
-    font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
-    letter-spacing: var(--letter-spacing-60);
+    font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+    letter-spacing: var(--letter-spacing-50);
 }
 
 .typography-body-standalone {
-    font: var(--font-weight-regular) var(--font-size-40) / var(--line-height-40) var(--font-sans);
-    letter-spacing: var(--letter-spacing-40);
+    font: var(--font-weight-regular) var(--font-size-30) / var(--line-height-30) var(--font-sans);
+    letter-spacing: var(--letter-spacing-30);
 }
 
 .typography-body-super {
-    font: var(--font-weight-regular) var(--font-size-30) / var(--line-height-30) var(--font-sans);
-    letter-spacing: var(--letter-spacing-30);
+    font: var(--font-weight-regular) var(--font-size-25) / var(--line-height-25) var(--font-sans);
+    letter-spacing: var(--letter-spacing-25);
 }
 
 .typography-body-base {
@@ -126,46 +144,60 @@
 }
 
 .typography-body-reduced {
+    font: var(--font-weight-regular) var(--font-size-15) / var(--line-height-15) var(--font-sans);
+    letter-spacing: var(--letter-spacing-15);
+}
+
+.typography-body-tiny {
     font: var(--font-weight-regular) var(--font-size-10) / var(--line-height-10) var(--font-sans);
     letter-spacing: var(--letter-spacing-10);
 }
 
-.typography-body-tiny {
-    font: var(--font-weight-regular) var(--font-size-0) / var(--line-height-0) var(--font-sans);
-    letter-spacing: var(--letter-spacing-0);
+.typography-intro-base {
+    font: var(--font-weight-regular) var(--font-size-30) / var(--line-height-30) var(--font-sans);
+    letter-spacing: var(--letter-spacing-30);
+}
+
+.typography-eyebrow-base {
+    font: var(--font-weight-semibold) var(--font-size-35) / var(--line-height-35) var(--font-sans);
+    letter-spacing: var(--letter-spacing-35);
 }
 
 @media (max-width: 1068px) {
-
-    .typography-headline-standalone {
-        font: var(--font-weight-semibold) var(--font-size-90) / var(--line-height-90) var(--font-sans);
-        letter-spacing: var(--letter-spacing-90);
-    }
-
-    .typography-headline-super {
-        font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
-        letter-spacing: var(--letter-spacing-80);
-    }
-
-    .typography-headline-base {
-        font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
-        letter-spacing: var(--letter-spacing-70);
-    }
-
-    .typography-headline-reduced {
-        font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
-        letter-spacing: var(--letter-spacing-60);
-    }
-
-    .typography-headline-tiny {
-        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
-        letter-spacing: var(--letter-spacing-50);
-    }
 
     :root {
         --viewport-margin: 48px;
     }
 
+    .typography-headline-standalone {
+        font: var(--font-weight-semibold) var(--font-size-75) / var(--line-height-75) var(--font-sans);
+        letter-spacing: var(--letter-spacing-75);
+    }
+
+    .typography-headline-super {
+        font: var(--font-weight-semibold) var(--font-size-65) / var(--line-height-65) var(--font-sans);
+        letter-spacing: var(--letter-spacing-65);
+    }
+
+    .typography-headline-base {
+        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+        letter-spacing: var(--letter-spacing-55);
+    }
+
+    .typography-headline-reduced {
+        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+        letter-spacing: var(--letter-spacing-50);
+    }
+
+    .typography-headline-tiny {
+        font: var(--font-weight-semibold) var(--font-size-45) / var(--line-height-45) var(--font-sans);
+        letter-spacing: var(--letter-spacing-45);
+    }
+
+    .typography-eyebrow-base {
+        font: var(--font-weight-semibold) var(--font-size-30) / var(--line-height-30) var(--font-sans);
+        letter-spacing: var(--letter-spacing-30);
+    }
 
 }
 
@@ -176,28 +208,33 @@
     }
 
     .typography-headline-standalone {
-        font: var(--font-weight-semibold) var(--font-size-80) / var(--line-height-80) var(--font-sans);
-        letter-spacing: var(--letter-spacing-80);
+        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+        letter-spacing: var(--letter-spacing-55);
     }
 
     .typography-headline-super {
-        font: var(--font-weight-semibold) var(--font-size-70) / var(--line-height-70) var(--font-sans);
-        letter-spacing: var(--letter-spacing-70);
+        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+        letter-spacing: var(--letter-spacing-55);
     }
 
     .typography-headline-base {
-        font: var(--font-weight-semibold) var(--font-size-60) / var(--line-height-60) var(--font-sans);
-        letter-spacing: var(--letter-spacing-60);
+        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+        letter-spacing: var(--letter-spacing-50);
     }
 
     .typography-headline-reduced {
-        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
-        letter-spacing: var(--letter-spacing-50);
+        font: var(--font-weight-semibold) var(--font-size-45) / var(--line-height-45) var(--font-sans);
+        letter-spacing: var(--letter-spacing-45);
     }
 
     .typography-headline-tiny {
         font: var(--font-weight-semibold) var(--font-size-40) / var(--line-height-40) var(--font-sans);
         letter-spacing: var(--letter-spacing-40);
+    }
+
+    .typography-intro-base {
+        font: var(--font-weight-regular) var(--font-size-25) / var(--line-height-25) var(--font-sans);
+        letter-spacing: var(--letter-spacing-25);
     }
 
 }

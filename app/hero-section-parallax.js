@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function () {
   parallax();
-  fadeHeadlineAndBadge();
+  fadeHeadlineAndEyebrow();
 });
 
 function parallax() {
@@ -8,7 +8,7 @@ function parallax() {
 
   const heroSection = document.querySelector(".hero-section");
   const headline = document.querySelector(".hero-section-typography-headline");
-  const badge = document.querySelector(".hero-section-badge");
+  const eyebrow = document.querySelector(".hero-section-eyebrow");
 
   if (heroSection) {
     heroSection.style.top = `-${scrolled * 0.0025}rem`;
@@ -19,18 +19,18 @@ function parallax() {
     headline.style.opacity = 1 - scrolled * 0.0025;
   }
 
-  if (badge) {
-    badge.style.top = `${scrolled * 0.0025}rem`;
-    badge.style.opacity = 1 - scrolled * 0.0025;
+  if (eyebrow) {
+    eyebrow.style.top = `${scrolled * 0.0025}rem`;
+    eyebrow.style.opacity = 1 - scrolled * 0.0025;
   }
 }
 
-function fadeHeadlineAndBadge() {
+function fadeHeadlineAndEyebrow() {
   const headline = document.querySelector(".hero-section-typography-headline");
-  const badge = document.querySelector(".hero-section-badge");
+  const eyebrow = document.querySelector(".hero-section-eyebrow");
 
   const fade = window.scrollY > 125 ? 0 : 1;
 
   if (headline) headline.style.opacity = fade;
-  if (badge) badge.style.opacity = fade;
+  if (eyebrow) eyebrow.style.opacity = fade;
 }
