@@ -1,17 +1,33 @@
 @font-face {
-  font-family: "Our Lexend";
+  font-family: "Reckless Neue";
   font-style: normal;
   font-weight: 501 1000;
   font-display: auto;
-  src: local('☺'), url(../assets/fonts/OurLexend-Semibold.woff) format("woff");
+  src: local('☺'), url(../assets/fonts/RecklessNeue-SemiBold.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Our Lexend";
+  font-family: "Reckless Neue";
   font-style: normal;
   font-weight: 1 500;
   font-display: auto;
-  src: local('☺'), url(../assets/fonts/OurLexend-Regular.woff) format("woff");
+  src: local('☺'), url(../assets/fonts/RecklessNeue-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 501 1000;
+  font-display: auto;
+  src: local('☺'), url(../assets/fonts/Inter-Semibold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 1 500;
+  font-display: auto;
+  src: local('☺'), url(../assets/fonts/Inter-Regular.woff) format("woff");
 }
 
 :root {
@@ -57,8 +73,8 @@
   /* ---------------------------- */
 
 
-  --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-  --font-sans: Our Lexend, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-serif: Reckless Neue, Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+  --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --fontSize-10: 10px;

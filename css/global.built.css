@@ -1,17 +1,33 @@
 @font-face {
-    font-family: "Our Lexend";
+    font-family: "Reckless Neue";
     font-style: normal;
     font-weight: 501 1000;
     font-display: auto;
-    src: local('☺'), url(../assets/fonts/OurLexend-Semibold.woff) format("woff");
+    src: local('☺'), url(../assets/fonts/RecklessNeue-SemiBold.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Our Lexend";
+    font-family: "Reckless Neue";
     font-style: normal;
     font-weight: 1 500;
     font-display: auto;
-    src: local('☺'), url(../assets/fonts/OurLexend-Regular.woff) format("woff");
+    src: local('☺'), url(../assets/fonts/RecklessNeue-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 501 1000;
+    font-display: auto;
+    src: local('☺'), url(../assets/fonts/Inter-Semibold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 1 500;
+    font-display: auto;
+    src: local('☺'), url(../assets/fonts/Inter-Regular.woff) format("woff");
 }
 
 
@@ -19,8 +35,8 @@
 
     /* Typography */
 
-    --font-serif: Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-    --font-sans: Our Lexend, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-serif: Reckless Neue, GT Super Text, Times New Roman, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+    --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
     --font-size-90: 112px;
@@ -104,27 +120,27 @@
 /* Typography */
 
 .typography-headline-standalone {
-    font: var(--font-weight-semibold) var(--font-size-85) / var(--line-height-85) var(--font-sans);
+    font: var(--font-weight-semibold) var(--font-size-85) / var(--line-height-85) var(--font-serif);
     letter-spacing: var(--letter-spacing-85);
 }
 
 .typography-headline-super {
-    font: var(--font-weight-semibold) var(--font-size-75) / var(--line-height-75) var(--font-sans);
+    font: var(--font-weight-semibold) var(--font-size-75) / var(--line-height-75) var(--font-serif);
     letter-spacing: var(--letter-spacing-75);
 }
 
 .typography-headline-base {
-    font: var(--font-weight-semibold) var(--font-size-65) / var(--line-height-65) var(--font-sans);
+    font: var(--font-weight-semibold) var(--font-size-65) / var(--line-height-65) var(--font-serif);
     letter-spacing: var(--letter-spacing-65);
 }
 
 .typography-headline-reduced {
-    font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+    font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-serif);
     letter-spacing: var(--letter-spacing-55);
 }
 
 .typography-headline-tiny {
-    font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+    font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-serif);
     letter-spacing: var(--letter-spacing-50);
 }
 
@@ -170,27 +186,27 @@
     }
 
     .typography-headline-standalone {
-        font: var(--font-weight-semibold) var(--font-size-75) / var(--line-height-75) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-75) / var(--line-height-75) var(--font-serif);
         letter-spacing: var(--letter-spacing-75);
     }
 
     .typography-headline-super {
-        font: var(--font-weight-semibold) var(--font-size-65) / var(--line-height-65) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-65) / var(--line-height-65) var(--font-serif);
         letter-spacing: var(--letter-spacing-65);
     }
 
     .typography-headline-base {
-        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-serif);
         letter-spacing: var(--letter-spacing-55);
     }
 
     .typography-headline-reduced {
-        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-serif);
         letter-spacing: var(--letter-spacing-50);
     }
 
     .typography-headline-tiny {
-        font: var(--font-weight-semibold) var(--font-size-45) / var(--line-height-45) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-45) / var(--line-height-45) var(--font-serif);
         letter-spacing: var(--letter-spacing-45);
     }
 
@@ -208,27 +224,27 @@
     }
 
     .typography-headline-standalone {
-        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-serif);
         letter-spacing: var(--letter-spacing-55);
     }
 
     .typography-headline-super {
-        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-55) / var(--line-height-55) var(--font-serif);
         letter-spacing: var(--letter-spacing-55);
     }
 
     .typography-headline-base {
-        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-50) / var(--line-height-50) var(--font-serif);
         letter-spacing: var(--letter-spacing-50);
     }
 
     .typography-headline-reduced {
-        font: var(--font-weight-semibold) var(--font-size-45) / var(--line-height-45) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-45) / var(--line-height-45) var(--font-serif);
         letter-spacing: var(--letter-spacing-45);
     }
 
     .typography-headline-tiny {
-        font: var(--font-weight-semibold) var(--font-size-40) / var(--line-height-40) var(--font-sans);
+        font: var(--font-weight-semibold) var(--font-size-40) / var(--line-height-40) var(--font-serif);
         letter-spacing: var(--letter-spacing-40);
     }
 

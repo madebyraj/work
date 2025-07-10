@@ -70,6 +70,13 @@ main {
   animation: heroBG 12000ms cubic-bezier(0.52, 0.16, 0.52, 0.84) infinite;
 }
 
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+background: linear-gradient(to bottom, transparent, var(--fill));
+}
+
 @keyframes heroBG {
 
   0%,
