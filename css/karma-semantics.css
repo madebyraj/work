@@ -100,15 +100,13 @@
   --textSecondary: var(--mui-color-gray-600);
   --textTertiary: var(--mui-color-gray-500);
 
+  --text-inverse: var(--mui-color-gray-100);
+  --textSecondary-inverse: var(--mui-color-gray-400);
+  --textTertiary-inverse: var(--mui-color-gray-500);
+
   /* Components */
 
   --link-color: var(--figureBlue);
-
-  --switchBackgroundOFF: var(--mui-color-gray-800);
-  --switchKnobBackgroundOFF: var(--mui-color-gray-100);
-  --switchKnobShadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.15), 0px 3px 1px 0px rgba(0, 0, 0, 0.06);
-  --switchBackgroundON: var(--mui-color-green-500);
-  --switchKnobBackgroundON: var(--mui-color-gray-100);
 
 }
 
@@ -132,14 +130,12 @@
   --textSecondary: var(--mui-color-gray-400);
   --textTertiary: var(--mui-color-gray-500);
 
+  --text-inverse: var(--mui-color-gray-900);
+  --textSecondary-inverse: var(--mui-color-gray-600);
+  --textTertiary-inverse: var(--mui-color-gray-500);
+
   /* Components */
 
   --link-color: var(--figureBlue);
-
-  --switchBackgroundOFF: var(--mui-color-gray-800);
-  --switchKnobBackgroundOFF: var(--mui-color-gray-100);
-  --switchKnobShadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.15), 0px 3px 1px 0px rgba(0, 0, 0, 0.06);
-  --switchBackgroundON: var(--mui-color-green-500);
-  --switchKnobBackgroundON: var(--mui-color-gray-100);
 
 }

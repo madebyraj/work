@@ -18,18 +18,18 @@ function updateActive() {
 window.addEventListener("scroll", updateActive);
 window.addEventListener("load", updateActive);
 
-const scrollSection = document.querySelector(".scroll-section");
-let animated = false;
+// const scrollSection = document.querySelector(".scroll-section");
+// let animated = false;
 
-function triggerParaAnimation() {
-  const rect = scrollSection.getBoundingClientRect();
-  const inView = rect.top <= window.innerHeight && rect.bottom >= 0;
+// function triggerParaAnimation() {
+//   const rect = scrollSection.getBoundingClientRect();
+//   const inView = rect.top <= window.innerHeight && rect.bottom >= 0;
 
-  if (inView && !animated) {
-    paras.forEach((p) => p.classList.add("animate"));
-    animated = true;
-  }
-}
+//   if (inView && !animated) {
+//     paras.forEach((p) => p.classList.add("animate"));
+//     animated = true;
+//   }
+// }
 
-window.addEventListener("scroll", triggerParaAnimation);
-window.addEventListener("load", triggerParaAnimation);
+// window.addEventListener("scroll", triggerParaAnimation);
+// window.addEventListener("load", triggerParaAnimation);

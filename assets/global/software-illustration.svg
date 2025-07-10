@@ -1,0 +1,18 @@
+<svg width="160" height="96" viewBox="0 0 160 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_170_5)">
+<rect width="56" height="96" fill="#F6F6F6" style="fill:#F6F6F6;fill:color(display-p3 0.9647 0.9647 0.9647);fill-opacity:1;"/>
+<rect x="8" y="8" width="5" height="5" rx="2.5" fill="#F86D69" style="fill:#F86D69;fill:color(display-p3 0.9725 0.4275 0.4118);fill-opacity:1;"/>
+<rect x="8.25" y="8.25" width="4.5" height="4.5" rx="2.25" stroke="black" stroke-opacity="0.12" style="stroke:black;stroke-opacity:0.12;" stroke-width="0.5"/>
+<rect x="15" y="8" width="5" height="5" rx="2.5" fill="#F8C04C" style="fill:#F8C04C;fill:color(display-p3 0.9725 0.7529 0.2980);fill-opacity:1;"/>
+<rect x="15.25" y="8.25" width="4.5" height="4.5" rx="2.25" stroke="black" stroke-opacity="0.12" style="stroke:black;stroke-opacity:0.12;" stroke-width="0.5"/>
+<rect x="22" y="8" width="5" height="5" rx="2.5" fill="#49C55E" style="fill:#49C55E;fill:color(display-p3 0.2863 0.7725 0.3686);fill-opacity:1;"/>
+<rect x="22.25" y="8.25" width="4.5" height="4.5" rx="2.25" stroke="black" stroke-opacity="0.12" style="stroke:black;stroke-opacity:0.12;" stroke-width="0.5"/>
+<rect width="104" height="96" transform="translate(56)" fill="white" style="fill:white;fill-opacity:1;"/>
+</g>
+<rect x="0.25" y="0.25" width="159.5" height="95.5" rx="11.75" stroke="#E6E4E4" style="stroke:#E6E4E4;stroke:color(display-p3 0.9020 0.8941 0.8941);stroke-opacity:1;" stroke-width="0.5"/>
+<defs>
+<clipPath id="clip0_170_5">
+<rect width="160" height="96" rx="12" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>
