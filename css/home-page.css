@@ -494,7 +494,7 @@ main {
   letter-spacing: var(--letter-spacing-15);
   text-transform: uppercase;
   font-variation-settings: var(--font-variation-condensed);
-  transition: transform 0.8s var(--ease-out-elastic);
+  transition: transform 1s var(--ease-out-elastic);
   color: white;
   background: #0071E3;
   border-radius: 999px;
