@@ -41,7 +41,7 @@ main {
 }
 
 :root {
-  --hero-section-height: calc(512px + 128px);
+  --hero-section-height: calc(512px + 96px);
 }
 
 .emphasize {
@@ -184,6 +184,10 @@ main {
   transition: opacity 1s var(--ease-out-elastic);
 }
 
+.hero-headline-highlight:hover {
+  cursor: grab;
+}
+
 .hero-headline-highlight:hover .software-illustration {
   transform: translate(-50%, -60%) scale(1.125) rotate(5deg);
   opacity: 1;
@@ -214,7 +218,7 @@ main {
 
 .me-wrapper {
   margin: auto;
-  transform: translate(0%, -31.25%);
+  transform: translate(0%, -25%);
   max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
   display: flex;
@@ -451,8 +455,8 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: center;
   justify-content: center;
-  gap: var(--spacing-secondary);
-  padding: var(--padding-secondary);
+  gap: 48px;
+  padding: 48px;
   background: var(--fillTertiary);
   border-radius: var(--radius-primary);
 }
@@ -486,15 +490,13 @@ main {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  padding: 12px 16px 8px;
-  font-family: var(--font-brand);
-  font-weight: var(--font-weight-semibold);
+  padding: 10px 16px 10px;
+  font-family: var(--font-ui);
+  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-15);
   line-height: var(--line-height-15);
   letter-spacing: var(--letter-spacing-15);
-  text-transform: uppercase;
-  font-variation-settings: var(--font-variation-condensed);
-  transition: transform 1s var(--ease-out-elastic);
+  transition: all 1s var(--ease-out-elastic);
   color: white;
   background: #0071E3;
   border-radius: 999px;
@@ -570,7 +572,7 @@ main {
     padding: 0 var(--viewport-margin);
   }
 
-    .software-illustration {
+  .software-illustration {
     height: 48px;
   }
 

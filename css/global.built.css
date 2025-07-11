@@ -24,6 +24,7 @@
 
     --font-variation-compressed: "wdth" 75, "opsz" 24;
     --font-variation-condensed: "wdth" 85, "opsz" 24;
+    --font-variation-default: "wdth" 100, "opsz" 24;
     --font-variation-wide: "wdth" 115, "opsz" 24;
     --font-variation-extrawide: "wdth" 125, "opsz" 24;
 
