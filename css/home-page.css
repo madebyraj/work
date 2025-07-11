@@ -17,7 +17,7 @@ html {
 
 body {
   background: var(--background);
-  animation: pageLoading 1.125s var(--ease-in-out-sine);
+  animation: pageLoading 1s var(--ease-in-out-sine);
   position: relative;
   padding-top: var(--globalnav-height);
   text-rendering: optimizeLegibility;
@@ -135,10 +135,26 @@ main {
   color: #022947;
   position: relative;
   transition: opacity 0.25s var(--ease-in-out-sine);
-  animation: heroText 12000ms var(--ease-in-out-sine) infinite;
+  animation: heroText 12000ms var(--ease-in-out-sine) infinite, heroHeadline 1s var(--ease-out-elastic) 0.5s;
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+@keyframes heroHeadline {
+
+  0% {
+    font-variation-settings: var(--font-variation-compressed);
+  }
+
+  50% {
+    font-variation-settings: "wdth" 80, "opsz" 24;
+  }
+
+  100% {
+    font-variation-settings: var(--font-variation-compressed);
+  }
+
 }
 
 @keyframes heroText {
