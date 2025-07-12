@@ -135,26 +135,10 @@ main {
   color: #022947;
   position: relative;
   transition: opacity 0.25s var(--ease-in-out-sine);
-  animation: heroText 12000ms var(--ease-in-out-sine) infinite, heroHeadline 1s var(--ease-out-elastic) 0.5s;
+  animation: heroText 12000ms var(--ease-in-out-sine) infinite;
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-}
-
-@keyframes heroHeadline {
-
-  0% {
-    font-variation-settings: var(--font-variation-compressed);
-  }
-
-  50% {
-    font-variation-settings: "wdth" 80, "opsz" 24;
-  }
-
-  100% {
-    font-variation-settings: var(--font-variation-compressed);
-  }
-
 }
 
 @keyframes heroText {
@@ -458,6 +442,79 @@ main {
   color: var(--text-inverse);
 }
 
+.paddlenav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: auto;
+  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
+  padding: 0;
+  width: 100%;
+}
+
+.paddlenav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.paddlenav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+
+.paddlenav-icon {
+  background: rgba(210, 210, 215, 0.64);
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: all 1s var(--ease-out-elastic);
+  border-radius: 999px;
+}
+
+.paddlenav-icon path {
+  fill: rgba(0, 0, 0, 0.56);
+}
+
+.paddlenav-icon:hover {
+  background: rgba(223, 223, 227, 0.64);
+  transform: scale(1.125);
+}
+
+.paddlenav-icon:hover path {
+  fill: rgba(0, 0, 0, 0.64);
+}
+
+.paddlenav-icon:active {
+  background: rgba(193, 193, 198, 0.64);
+  transform: scale(1);
+}
+
+.paddlenav-icon:active path {
+  fill: rgba(0, 0, 0, 0.64);
+}
+
+.paddlenav-icon.disabled {
+  background: rgba(210, 210, 215, 0.3);
+  cursor: not-allowed;
+  transform: scale(1);
+}
+
+.paddlenav-icon.disabled path {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.paddlenav-icon.disabled:hover {
+  background: rgba(210, 210, 215, 0.3);
+}
+
+.paddlenav-icon.disabled:hover path {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
 .get-in-touch-section {
   margin: auto;
   padding: 96px 0;
@@ -570,6 +627,11 @@ main {
     padding: 0 var(--viewport-margin);
   }
 
+  .paddlenav {
+    max-width: 100%;
+    padding: 0 var(--viewport-margin);
+  }
+
   .get-in-touch-content {
     max-width: 100%;
   }
@@ -622,6 +684,10 @@ main {
   }
 
   .recent-work-headline {
+    padding: 0 var(--viewport-margin);
+  }
+
+  .paddlenav {
     padding: 0 var(--viewport-margin);
   }
 
