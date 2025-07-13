@@ -5,32 +5,28 @@ window.addEventListener("scroll", function () {
 
 function parallax() {
   const scrolled = window.scrollY;
-
   const heroSection = document.querySelector(".hero-section");
-  const headline = document.querySelector(".hero-section-typography-headline");
-  const eyebrow = document.querySelector(".hero-section-eyebrow");
 
   if (heroSection) {
     heroSection.style.top = `-${scrolled * 0.0025}rem`;
   }
-
-  if (headline) {
-    headline.style.top = `${scrolled * 0.0025}rem`;
-    headline.style.opacity = 1 - scrolled * 0.0025;
-  }
-
-  if (eyebrow) {
-    eyebrow.style.top = `${scrolled * 0.0025}rem`;
-    eyebrow.style.opacity = 1 - scrolled * 0.0025;
-  }
 }
 
 function fadeHeadlineAndEyebrow() {
-  const headline = document.querySelector(".hero-section-typography-headline");
-  const eyebrow = document.querySelector(".hero-section-eyebrow");
+  const heroBeforeSection = document.querySelector(".hero-section-before");
 
-  const fade = window.scrollY > 125 ? 0 : 1;
+  if (heroBeforeSection) {
+    // Calculate opacity based on scroll position
+    const scrolled = window.scrollY;
+    const fadeStart = 0;
+    const fadeEnd = 125;
 
-  if (headline) headline.style.opacity = fade;
-  if (eyebrow) eyebrow.style.opacity = fade;
+    // Calculate fade percentage
+    let fadeProgress = (scrolled - fadeStart) / (fadeEnd - fadeStart);
+    fadeProgress = Math.max(0, Math.min(1, fadeProgress)); // Clamp between 0 and 1
+
+    // Apply fade effect only (no transform/movement)
+    const opacity = 1 - fadeProgress;
+    heroBeforeSection.style.opacity = opacity;
+  }
 }

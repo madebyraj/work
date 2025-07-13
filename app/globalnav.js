@@ -30,10 +30,39 @@ globalNavLinks.forEach((globalNavLink) => {
   }
 });
 
+// Navbar Hide/Show on Scroll
+
+let lastScrollTop = 0;
+const navbar = document.querySelector(".globalnav");
+const navbarBackground = document.querySelector(".gn-background");
+
+function handleNavbarScroll() {
+  const currentScrollTop =
+    window.pageYOffset || document.documentElement.scrollTop;
+
+  // Don't hide navbar if mobile menu is active
+  if (navbar.classList.contains("active")) return;
+
+  // Only start hiding/showing when navbar has background (scrolled)
+  if (navbarBackground.classList.contains("scrolled")) {
+    if (currentScrollTop > lastScrollTop) {
+      // Scrolling down - hide navbar
+      navbar.classList.add("navbar-hidden");
+    } else if (currentScrollTop < lastScrollTop) {
+      // Scrolling up - show navbar
+      navbar.classList.remove("navbar-hidden");
+    }
+  } else {
+    // Always show navbar when at top
+    navbar.classList.remove("navbar-hidden");
+  }
+
+  lastScrollTop = currentScrollTop;
+}
+
 // Theme
 
 function updateNavbarTheme() {
-  const navbar = document.querySelector(".globalnav");
   const sections = document.querySelectorAll(".light, .dark");
 
   let navbarCenterY = navbar.offsetHeight + 0; // a bit below navbar
@@ -56,15 +85,22 @@ function updateNavbarTheme() {
   }
 }
 
-window.addEventListener("scroll", updateNavbarTheme);
-window.addEventListener("load", updateNavbarTheme);
+// Navbar Background Scroll Effect
 
-const navbarBackground = document.querySelector(".gn-background");
-
-window.addEventListener("scroll", () => {
+function updateNavbarBackground() {
   if (window.scrollY > 0) {
     navbarBackground.classList.add("scrolled");
   } else {
     navbarBackground.classList.remove("scrolled");
   }
-});
+}
+
+// Combined scroll event handler
+function handleScroll() {
+  updateNavbarBackground();
+  handleNavbarScroll();
+  updateNavbarTheme();
+}
+
+window.addEventListener("scroll", handleScroll);
+window.addEventListener("load", updateNavbarTheme);
