@@ -467,7 +467,7 @@ main {
 }
 
 .paddlenav-icon {
-  background: rgba(210, 210, 215, 0.64);
+  background: rgba(0, 0, 0, 0.08);
   width: 36px;
   height: 36px;
   cursor: pointer;
@@ -480,7 +480,7 @@ main {
 }
 
 .paddlenav-icon:hover {
-  background: rgba(223, 223, 227, 0.64);
+  background: rgba(0, 0, 0, 0.04);
   transform: scale(1.125);
 }
 
@@ -489,7 +489,7 @@ main {
 }
 
 .paddlenav-icon:active {
-  background: rgba(193, 193, 198, 0.64);
+  background: rgba(0, 0, 0, 0.12);
   transform: scale(1);
 }
 
@@ -498,21 +498,21 @@ main {
 }
 
 .paddlenav-icon.disabled {
-  background: rgba(210, 210, 215, 0.3);
+  background: rgba(0, 0, 0, 0.04);
   cursor: not-allowed;
   transform: scale(1);
 }
 
 .paddlenav-icon.disabled path {
-  fill: rgba(0, 0, 0, 0.3);
+  fill: rgba(0, 0, 0, 0.32);
 }
 
 .paddlenav-icon.disabled:hover {
-  background: rgba(210, 210, 215, 0.3);
+  background: rgba(0, 0, 0, 0.04);
 }
 
 .paddlenav-icon.disabled:hover path {
-  fill: rgba(0, 0, 0, 0.3);
+  fill: rgba(0, 0, 0, 0.32);
 }
 
 .get-in-touch-section {
@@ -530,7 +530,7 @@ main {
   justify-content: center;
   gap: 48px;
   padding: 48px;
-  background: var(--fillTertiary);
+  background: var(--fillSecondary);
   border-radius: var(--radius-primary);
 }
 

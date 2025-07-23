@@ -10,72 +10,40 @@
   /* Width */
 
   --global-max-width: 1069px;
-  --content-max-width: 648px;
 
-  /* Colors */
+  --mds-color-white: rgb(255, 255, 255);
+  --mds-color-black: rgb(0, 0, 0);
+  --mds-color-transparent: rgba(0, 0, 0, 0);
 
-  --mui-color-white: white;
-  --mui-color-black: black;
+  --mds-color-gray-10: #F5F5F5;
+  --mds-color-gray-20: #E6E6E6;
+  --mds-color-gray-30: #CDCDCD;
+  --mds-color-gray-40: #AAAAAA;
+  --mds-color-gray-50: #828282;
+  --mds-color-gray-60: #636363;
+  --mds-color-gray-70: #444444;
+  --mds-color-gray-80: #2F2F2F;
+  --mds-color-gray-90: #1A1A1A;
 
-  --mui-color-gray-50: #FBFBFD;
-  --mui-color-gray-100: #F5F5F7;
-  --mui-color-gray-200: #E8E8ED;
-  --mui-color-gray-300: #D2D2D7;
-  --mui-color-gray-400: #ACACAF;
-  --mui-color-gray-500: #86868B;
-  --mui-color-gray-600: #6E6E73;
-  --mui-color-gray-700: #424245;
-  --mui-color-gray-800: #333336;
-  --mui-color-gray-900: #1D1D1F;
-  --mui-color-gray-950: #161617;
+  --mds-color-blue-10: #EBF4FC;
+  --mds-color-blue-20: #CCE4F8;
+  --mds-color-blue-30: #99C9F1;
+  --mds-color-blue-40: #52A3E8;
+  --mds-color-blue-50: #0077DD;
+  --mds-color-blue-60: #005AA8;
+  --mds-color-blue-70: #003E73;
+  --mds-color-blue-80: #002B50;
+  --mds-color-blue-90: #00182C;
 
-  --mui-color-red-50: #FFF2F4;
-  --mui-color-red-100: oklch(0.9707 calc(0.0137 * 1.6) 34);
-  --mui-color-red-200: #FFADAD;
-  --mui-color-red-300: oklch(0.8652 calc(0.0657 * 1.6) 34);
-  --mui-color-red-400: #FF3037;
-  --mui-color-red-500: #E30000;
-  --mui-color-red-600: oklch(0.5399 calc(0.0917 * 1.6) 34);
-  --mui-color-red-700: oklch(0.3802 calc(0.0646 * 1.6) 34);
-  --mui-color-red-800: #8F0000;
-  --mui-color-red-900: oklch(0.2316 calc(0.0393 * 1.6) 34);
-  --mui-color-red-950: #330000;
-
-  --mui-color-yellow-50: #FFFEF2;
-  --mui-color-yellow-100: oklch(0.9707 calc(0.0137 * 1.6) 85);
-  --mui-color-yellow-200: oklch(0.9324 calc(0.0321 * 1.6) 85);
-  --mui-color-yellow-300: oklch(0.8652 calc(0.0657 * 1.6) 85);
-  --mui-color-yellow-400: #FFE045;
-  --mui-color-yellow-500: oklch(0.6217 calc(0.1056 * 1.6) 85);
-  --mui-color-yellow-600: #AD8200;
-  --mui-color-yellow-700: #977009;
-  --mui-color-yellow-800: oklch(0.3222 calc(0.0547 * 1.6) 85);
-  --mui-color-yellow-900: oklch(0.2316 calc(0.0393 * 1.6) 85);
-  --mui-color-yellow-950: #2B2000;
-
-  --mui-color-green-50: #F5FFF6;
-  --mui-color-green-100: oklch(0.9707 calc(0.0137 * 1.6) 152);
-  --mui-color-green-200: oklch(0.9324 calc(0.0321 * 1.6) 152);
-  --mui-color-green-300: oklch(0.8652 calc(0.0657 * 1.6) 152);
-  --mui-color-green-400: #03A10E;
-  --mui-color-green-500: #008009;
-  --mui-color-green-600: oklch(0.5399 calc(0.0917 * 1.6) 152);
-  --mui-color-green-700: oklch(0.3802 calc(0.0646 * 1.6) 152);
-  --mui-color-green-800: oklch(0.3222 calc(0.0547 * 1.6) 152);
-  --mui-color-green-900: oklch(0.2316 calc(0.0393 * 1.6) 152);
-  --mui-color-green-950: #002B03;
-
-  --mui-color-blue-50: oklch(0.9886 calc(0.0053 * 1.6) 254);
-  --mui-color-blue-100: #D6EAFF;
-  --mui-color-blue-200: #ADD6FF;
-  --mui-color-blue-300: #70B8FF;
-  --mui-color-blue-400: #2997FF;
-  --mui-color-blue-500: #0071E3;
-  --mui-color-blue-600: #06C;
-  --mui-color-blue-700: #00488F;
-  --mui-color-blue-800: #002E5C;
-  --mui-color-blue-900: #001F3D;
-  --mui-color-blue-950: #001530;
+  --mds-color-red-10: #FCEEEB;
+  --mds-color-red-20: #F8D3CC;
+  --mds-color-red-30: #F1A899;
+  --mds-color-red-40: #E86B52;
+  --mds-color-red-50: #DD2500;
+  --mds-color-red-60: #A81C00;
+  --mds-color-red-70: #731300;
+  --mds-color-red-80: #500D00;
+  --mds-color-red-90: #2C0700;
 
 }
 
@@ -84,25 +52,25 @@
 
   /* Semantics */
 
-  --separator: var(--mui-color-gray-300);
-  --separatorMuted: var(--mui-color-gray-200);
+  --separator: var(--mds-color-gray-30);
+  --separatorMuted: var(--mds-color-gray-20);
 
-  --background: var(--mui-color-white);
+  --background: var(--mds-color-white);
 
-  --fill: var(--mui-color-white);
-  --fillSecondary: var(--mui-color-gray-50);
-  --fillTertiary: var(--mui-color-gray-100);
+  --fill: var(--mds-color-white);
+  --fillSecondary: var(--mds-color-gray-10);
+  --fillTertiary: var(--mds-color-gray-20);
 
-  --fillBlue: var(--mui-color-blue-500);
-  --figureBlue: var(--mui-color-blue-600);
+  --fillBlue: var(--mds-color-blue-50);
+  --figureBlue: var(--mds-color-blue-60);
 
-  --text: var(--mui-color-gray-900);
-  --textSecondary: var(--mui-color-gray-600);
-  --textTertiary: var(--mui-color-gray-500);
+  --text: var(--mds-color-gray-90);
+  --textSecondary: var(--mds-color-gray-60);
+  --textTertiary: var(--mds-color-gray-50);
 
-  --text-inverse: var(--mui-color-gray-100);
-  --textSecondary-inverse: var(--mui-color-gray-400);
-  --textTertiary-inverse: var(--mui-color-gray-500);
+  --text-inverse: var(--mds-color-gray-10);
+  --textSecondary-inverse: var(--mds-color-gray-40);
+  --textTertiary-inverse: var(--mds-color-gray-50);
 
   /* Components */
 
@@ -114,25 +82,25 @@
 
   /* Semantics */
 
-  --separator: var(--mui-color-gray-700);
-  --separatorMuted: var(--mui-color-gray-800);
+  --separator: var(--mds-color-gray-70);
+  --separatorMuted: var(--mds-color-gray-80);
 
-  --background: var(--mui-color-black);
+  --background: var(--mds-color-black);
 
-  --fill: var(--mui-color-black);
-  --fillSecondary: var(--mui-color-gray-950);
-  --fillTertiary: var(--mui-color-gray-900);
+  --fill: var(--mds-color-black);
+  --fillSecondary: var(--mds-color-gray-90);
+  --fillTertiary: var(--mds-color-gray-80);
 
-  --fillBlue: var(--mui-color-blue-500);
-  --figureBlue: var(--mui-color-blue-400);
+  --fillBlue: var(--mds-color-blue-50);
+  --figureBlue: var(--mds-color-blue-40);
 
-  --text: var(--mui-color-gray-100);
-  --textSecondary: var(--mui-color-gray-400);
-  --textTertiary: var(--mui-color-gray-500);
+  --text: var(--mds-color-gray-10);
+  --textSecondary: var(--mds-color-gray-40);
+  --textTertiary: var(--mds-color-gray-50);
 
-  --text-inverse: var(--mui-color-gray-900);
-  --textSecondary-inverse: var(--mui-color-gray-600);
-  --textTertiary-inverse: var(--mui-color-gray-500);
+  --text-inverse: var(--mds-color-gray-90);
+  --textSecondary-inverse: var(--mds-color-gray-60);
+  --textTertiary-inverse: var(--mds-color-gray-50);
 
   /* Components */
 
