@@ -11,40 +11,6 @@
 
   --global-max-width: 1069px;
 
-  --mds-color-white: rgb(255, 255, 255);
-  --mds-color-black: rgb(0, 0, 0);
-  --mds-color-transparent: rgba(0, 0, 0, 0);
-
-  --mds-color-gray-10: #F5F5F5;
-  --mds-color-gray-20: #E6E6E6;
-  --mds-color-gray-30: #CDCDCD;
-  --mds-color-gray-40: #AAAAAA;
-  --mds-color-gray-50: #828282;
-  --mds-color-gray-60: #636363;
-  --mds-color-gray-70: #444444;
-  --mds-color-gray-80: #2F2F2F;
-  --mds-color-gray-90: #1A1A1A;
-
-  --mds-color-blue-10: #EBF4FC;
-  --mds-color-blue-20: #CCE4F8;
-  --mds-color-blue-30: #99C9F1;
-  --mds-color-blue-40: #52A3E8;
-  --mds-color-blue-50: #0077DD;
-  --mds-color-blue-60: #005AA8;
-  --mds-color-blue-70: #003E73;
-  --mds-color-blue-80: #002B50;
-  --mds-color-blue-90: #00182C;
-
-  --mds-color-red-10: #FCEEEB;
-  --mds-color-red-20: #F8D3CC;
-  --mds-color-red-30: #F1A899;
-  --mds-color-red-40: #E86B52;
-  --mds-color-red-50: #DD2500;
-  --mds-color-red-60: #A81C00;
-  --mds-color-red-70: #731300;
-  --mds-color-red-80: #500D00;
-  --mds-color-red-90: #2C0700;
-
 }
 
 
@@ -58,19 +24,19 @@
   --background: #FFF;
 
   --fill: #FFF;
-  --fillSecondary: #F7F7F5;
-  --fillTertiary: #F1F1EF;
+  --fillSecondary: #FAFAF8;
+  --fillTertiary: #F6F6F4;
 
   --fillBlue: #0071E3;
   --figureBlue: #06C;
 
-  --text: #1D1B16;
-  --textSecondary: #5F5E5B;
-  --textTertiary: #787774;
+  --text: #131311;
+  --textSecondary: #626260;
+  --textTertiary: #838381;
 
-  --text-inverse: #F6F6F6;
-  --textSecondary-inverse: #7F7F7F;
-  --textTertiary-inverse: #5A5A5A;
+  --text-inverse: #FAFAFA;
+  --textSecondary-inverse: #969696;
+  --textTertiary-inverse: #707070;
 
   /* Components */
 
@@ -85,22 +51,22 @@
   --separator: rgba(255, 255, 255, 0.10);
   --separatorMuted: rgba(255, 255, 255, 0.05);
 
-  --background: #151515;
+  --background: #121212;
 
-  --fill: #151515;
-  --fillSecondary: #1C1C1C;
-  --fillTertiary: #252525;
+  --fill: #121212;
+  --fillSecondary: #171717;
+  --fillTertiary: #1E1E1E;
 
   --fillBlue: #0071E3;
   --figureBlue: #2997FF;
 
-  --text: #F6F6F6;
-  --textSecondary: #7F7F7F;
-  --textTertiary: #5A5A5A;
+  --text: #FAFAFA;
+  --textSecondary: #969696;
+  --textTertiary: #707070;
 
-  --text-inverse: #1D1B16;
-  --textSecondary-inverse: #5F5E5B;
-  --textTertiary-inverse: #787774;
+  --text-inverse: #131311;
+  --textSecondary-inverse: #626260;
+  --textTertiary-inverse: #838381;
 
   /* Components */
 

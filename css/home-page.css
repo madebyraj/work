@@ -80,19 +80,19 @@ main {
 
   0%,
   100% {
-    background-color: #D3E5EF;
+    background-color: #B4DFFF;
   }
 
   25% {
-    background-color: #E8DEEE;
+    background-color: #EECDF5;
   }
 
   50% {
-    background-color: #FFE2DD;
+    background-color: #FFC0CC;
   }
 
   75% {
-    background-color: #FDECC8;
+    background-color: #FFDEB3;
   }
 
 }
@@ -145,19 +145,19 @@ main {
 
   0%,
   100% {
-    color: #0C1D2B;
+    color: #01243D;
   }
 
   25% {
-    color: #26152E;
+    color: #301535;
   }
 
   50% {
-    color: #30130F;
+    color: #3D0B14;
   }
 
   75% {
-    color: #251910;
+    color: #3D2300;
   }
 
 }
