@@ -52,25 +52,25 @@
 
   /* Semantics */
 
-  --separator: var(--mds-color-gray-30);
-  --separatorMuted: var(--mds-color-gray-20);
+  --separator: rgba(0, 0, 0, 0.10);
+  --separatorMuted: rgba(0, 0, 0, 0.05);
 
-  --background: var(--mds-color-white);
+  --background: #FFF;
 
-  --fill: var(--mds-color-white);
-  --fillSecondary: var(--mds-color-gray-10);
-  --fillTertiary: var(--mds-color-gray-20);
+  --fill: #FFF;
+  --fillSecondary: #F7F7F5;
+  --fillTertiary: #F1F1EF;
 
-  --fillBlue: var(--mds-color-blue-50);
-  --figureBlue: var(--mds-color-blue-60);
+  --fillBlue: #0071E3;
+  --figureBlue: #06C;
 
-  --text: var(--mds-color-gray-90);
-  --textSecondary: var(--mds-color-gray-60);
-  --textTertiary: var(--mds-color-gray-50);
+  --text: #1D1B16;
+  --textSecondary: #5F5E5B;
+  --textTertiary: #787774;
 
-  --text-inverse: var(--mds-color-gray-10);
-  --textSecondary-inverse: var(--mds-color-gray-40);
-  --textTertiary-inverse: var(--mds-color-gray-50);
+  --text-inverse: #F6F6F6;
+  --textSecondary-inverse: #7F7F7F;
+  --textTertiary-inverse: #5A5A5A;
 
   /* Components */
 
@@ -82,25 +82,25 @@
 
   /* Semantics */
 
-  --separator: var(--mds-color-gray-70);
-  --separatorMuted: var(--mds-color-gray-80);
+  --separator: rgba(255, 255, 255, 0.10);
+  --separatorMuted: rgba(255, 255, 255, 0.05);
 
-  --background: var(--mds-color-black);
+  --background: #151515;
 
-  --fill: var(--mds-color-black);
-  --fillSecondary: var(--mds-color-gray-90);
-  --fillTertiary: var(--mds-color-gray-80);
+  --fill: #151515;
+  --fillSecondary: #1C1C1C;
+  --fillTertiary: #252525;
 
-  --fillBlue: var(--mds-color-blue-50);
-  --figureBlue: var(--mds-color-blue-40);
+  --fillBlue: #0071E3;
+  --figureBlue: #2997FF;
 
-  --text: var(--mds-color-gray-10);
-  --textSecondary: var(--mds-color-gray-40);
-  --textTertiary: var(--mds-color-gray-50);
+  --text: #F6F6F6;
+  --textSecondary: #7F7F7F;
+  --textTertiary: #5A5A5A;
 
-  --text-inverse: var(--mds-color-gray-90);
-  --textSecondary-inverse: var(--mds-color-gray-60);
-  --textTertiary-inverse: var(--mds-color-gray-50);
+  --text-inverse: #1D1B16;
+  --textSecondary-inverse: #5F5E5B;
+  --textTertiary-inverse: #787774;
 
   /* Components */
 
