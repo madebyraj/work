@@ -73,26 +73,26 @@ main {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(to bottom, transparent, var(--fill));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--fill));
 }
 
 @keyframes heroBG {
 
   0%,
   100% {
-    background-color: #B4DFFF;
+    background-color: #CDEAFF;
   }
 
   25% {
-    background-color: #EECDF5;
+    background-color: #F4DEF8;
   }
 
   50% {
-    background-color: #FFC0CC;
+    background-color: #FFD5DD;
   }
 
   75% {
-    background-color: #FFDEB3;
+    background-color: #FFE9CC;
   }
 
 }
@@ -145,19 +145,19 @@ main {
 
   0%,
   100% {
-    color: #01243D;
+    color: #034D85;
   }
 
   25% {
-    color: #301535;
+    color: #682E73;
   }
 
   50% {
-    color: #3D0B14;
+    color: #85182C;
   }
 
   75% {
-    color: #3D2300;
+    color: #854B01;
   }
 
 }
@@ -235,7 +235,7 @@ main {
   width: 100%;
   height: 100%;
   aspect-ratio: 3 / 2;
-  background: var(--fill);
+  background: #FFF;
   box-shadow: 2.5px 2.5px 25px 2.5px rgba(0, 0, 0, 0.125);
   transform: rotate(-0.5deg);
 }
@@ -532,6 +532,7 @@ main {
   padding: 48px;
   background: var(--fillSecondary);
   border-radius: var(--radius-primary);
+  border: 4px dashed var(--separator);
 }
 
 .get-in-touch-media {

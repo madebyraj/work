@@ -11,6 +11,18 @@
 
   --global-max-width: 1069px;
 
+  --theme-05: #FAFAF9;
+  --theme-10: #F5F4F3;
+  --theme-20: #E6E4E2;
+  --theme-30: #CDC9C5;
+  --theme-40: #AAA39C;
+  --theme-50: #82786E;
+  --theme-60: #635B54;
+  --theme-70: #443E39;
+  --theme-80: #2F2B28;
+  --theme-90: #1A1816;
+  --theme-95: #100E0D;
+
 }
 
 
@@ -18,25 +30,25 @@
 
   /* Semantics */
 
-  --separator: rgba(0, 0, 0, 0.10);
-  --separatorMuted: rgba(0, 0, 0, 0.05);
+  --separator: var(--theme-30);
+  --separatorMuted: var(--theme-20);
 
-  --background: #FFF;
+  --background: var(--theme-05);
 
-  --fill: #FFF;
-  --fillSecondary: #FAFAF8;
-  --fillTertiary: #F6F6F4;
+  --fill: var(--theme-05);
+  --fillSecondary: var(--theme-10);
+  --fillTertiary: var(--theme-20);
 
   --fillBlue: #0071E3;
-  --figureBlue: #06C;
+  --figureBlue: #00488F;
 
-  --text: #131311;
-  --textSecondary: #626260;
-  --textTertiary: #838381;
+  --text: var(--theme-90);
+  --textSecondary: var(--theme-60);
+  --textTertiary: var(--theme-50);
 
-  --text-inverse: #FAFAFA;
-  --textSecondary-inverse: #969696;
-  --textTertiary-inverse: #707070;
+  --text-inverse: var(--theme-10);
+  --textSecondary-inverse: var(--theme-40);
+  --textTertiary-inverse: var(--theme-50);
 
   /* Components */
 
@@ -48,25 +60,25 @@
 
   /* Semantics */
 
-  --separator: rgba(255, 255, 255, 0.10);
-  --separatorMuted: rgba(255, 255, 255, 0.05);
+  --separator: var(--theme-70);
+  --separatorMuted: var(--theme-80);
 
-  --background: #121212;
+  --background: var(--theme-95);
 
-  --fill: #121212;
-  --fillSecondary: #171717;
-  --fillTertiary: #1E1E1E;
+  --fill: var(--theme-95);
+  --fillSecondary: var(--theme-90);
+  --fillTertiary: var(--theme-80);
 
   --fillBlue: #0071E3;
   --figureBlue: #2997FF;
 
-  --text: #FAFAFA;
-  --textSecondary: #969696;
-  --textTertiary: #707070;
+  --text: var(--theme-10);
+  --textSecondary: var(--theme-40);
+  --textTertiary: var(--theme-50);
 
-  --text-inverse: #131311;
-  --textSecondary-inverse: #626260;
-  --textTertiary-inverse: #838381;
+  --text-inverse: var(--theme-90);
+  --textSecondary-inverse: var(--theme-60);
+  --textTertiary-inverse: var(--theme-50);
 
   /* Components */
 

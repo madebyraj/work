@@ -6,13 +6,13 @@
 
 
 .light {
-  --globalfooter-background: var(--fillTertiary);
-  --globalfooter-color: var(--textTertiary);
+  --globalfooter-background: var(--fillSecondary);
+  --globalfooter-color: var(--textSecondary);
 }
 
 .dark {
-  --globalfooter-background: var(--fillTertiary);
-  --globalfooter-color: var(--textTertiary);
+  --globalfooter-background: var(--fillSecondary);
+  --globalfooter-color: var(--textSecondary);
 }
 
 /* footer Section */
