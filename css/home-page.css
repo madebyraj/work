@@ -22,6 +22,7 @@ body {
   padding-top: var(--globalnav-height);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  cursor: var(--cursor-default), auto;
 }
 
 @keyframes pageLoading {
@@ -185,7 +186,7 @@ main {
 }
 
 .hero-headline-highlight:hover {
-  cursor: grab;
+  cursor: var(--cursor-grab), auto;
 }
 
 .hero-headline-highlight:hover .software-illustration {
@@ -359,6 +360,7 @@ main {
   align-items: start;
   justify-content: start;
   text-decoration: none;
+  cursor: var(--cursor-pointer), auto;
 }
 
 .tile {
@@ -408,7 +410,7 @@ main {
   letter-spacing: var(--letter-spacing-10);
   color: white;
   text-transform: uppercase;
-  background: #D28314;
+  background: #FF7A00;
 }
 
 .gallery-item-headline {
@@ -443,7 +445,7 @@ main {
   background: rgba(0, 0, 0, 0.08);
   width: 36px;
   height: 36px;
-  cursor: pointer;
+  cursor: var(--cursor-pointer), auto;
   transition: all 1s var(--ease-out-elastic);
   border-radius: 999px;
 }
@@ -472,7 +474,7 @@ main {
 
 .paddlenav-icon.disabled {
   background: rgba(0, 0, 0, 0.04);
-  cursor: not-allowed;
+  cursor: var(--cursor-not-allowed), auto;
   transform: scale(1);
 }
 
@@ -546,9 +548,9 @@ main {
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
   background: var(--accent-50);
-  border-radius: 12px;
-  box-shadow: 0 4px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.04) inset;
-  cursor: pointer;
+  border-radius: 999px;
+  box-shadow: 0 4px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
+  cursor: var(--cursor-pointer), auto;
   border: 1px solid var(--accent-60);
   transform-origin: bottom;
   transform: translateY(0);
@@ -559,12 +561,12 @@ main {
 
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.04) inset;
+  box-shadow: 0 6px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
 }
 
 .button:active {
   transform: translateY(4px);
-  box-shadow: 0 0 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.04) inset;
+  box-shadow: 0 0 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
 }
 
 .button:focus {

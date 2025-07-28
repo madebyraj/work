@@ -1,3 +1,6 @@
+@import url("./global.built.css");
+
+
 :root {
 
   /* --Depth-- */
@@ -11,29 +14,6 @@
 
   --global-max-width: 1069px;
 
-  --white: rgb(255, 255, 255);
-  --black: rgb(0, 0, 0);
-  --transparent: rgb(0, 0, 0, 0);
-
-  --brand-10: #F3F4F5;
-  --brand-20: #E2E4E6;
-  --brand-30: #CBCED1;
-  --brand-40: #9DA2A9;
-  --brand-50: #6F7680;
-  --brand-60: #545A61;
-  --brand-70: #3A3D43;
-  --brand-80: #282A2E;
-  --brand-90: #16181A;
-
-  --accent-10: #F1F2FF;
-  --accent-20: #DBDFFE;
-  --accent-30: #BEC5FD;
-  --accent-40: #8492FB;
-  --accent-50: #4A5EF9;
-  --accent-60: #3847BD;
-  --accent-70: #263181;
-  --accent-80: #1B225A;
-  --accent-90: #0F1332;
 
 }
 
