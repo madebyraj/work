@@ -58,7 +58,7 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #CEEAFF;
+  background-color: #70BCFF;
   height: var(--hero-section-height);
   width: 100vw;
   display: flex;

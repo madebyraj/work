@@ -137,12 +137,12 @@
 }
 
 :root {
-    --cursor-default: url(/assets/cursor/cursor-default.svg);
-    --cursor-grab: url(/assets/cursor/cursor-grab.svg);
-    --cursor-grabbed: url(/assets/cursor/cursor-grabbed.svg);
-    --cursor-pointer: url(/assets/cursor/cursor-pointer.svg);
-    --cursor-not-allowed: url(/assets/cursor/cursor-not-allowed.svg);
-    --cursor-text: url(/assets/cursor/curson-text.svg);
+    --cursor-default: url(../assets/cursor/cursor-default.svg);
+    --cursor-grab: url(../assets/cursor/cursor-grab.svg);
+    --cursor-grabbed: url(../assets/cursor/cursor-grabbed.svg);
+    --cursor-pointer: url(../assets/cursor/cursor-pointer.svg);
+    --cursor-not-allowed: url(../assets/cursor/cursor-not-allowed.svg);
+    --cursor-text: url(../assets/cursor/curson-text.svg);
 }
 
 :root {
