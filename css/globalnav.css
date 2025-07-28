@@ -103,7 +103,7 @@ body.no-scroll {
 }
 
 .gn-list {
-    cursor: var(--cursor-default), auto;
+    cursor: default;
     margin: 0 -10px;
     width: 100%;
     height: var(--globalnav-height);
@@ -153,7 +153,7 @@ body.no-scroll {
 }
 
 .gn-link:hover {
-    cursor: var(--cursor-pointer), auto;
+    cursor: pointer;
     opacity: var(--globalnav-opacity-hover);
 }
 
@@ -173,7 +173,7 @@ body.no-scroll {
 }
 
 .current {
-    cursor: var(--cursor-not-allowed), auto !important;
+    cursor: not-allowed !important;
     opacity: 0.56 !important;
 }
 
@@ -416,7 +416,7 @@ body.no-scroll {
         top: 0;
         width: var(--globalnav-height);
         height: var(--globalnav-height);
-        cursor: var(--cursor-pointer);
+        cursor: pointer;
         -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
         transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
         -webkit-tap-highlight-color: transparent

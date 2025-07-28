@@ -22,7 +22,6 @@ body {
   padding-top: var(--globalnav-height);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  cursor: var(--cursor-default), auto;
 }
 
 @keyframes pageLoading {
@@ -186,7 +185,7 @@ main {
 }
 
 .hero-headline-highlight:hover {
-  cursor: var(--cursor-grab), auto;
+  cursor: grab;
 }
 
 .hero-headline-highlight:hover .software-illustration {
@@ -360,7 +359,7 @@ main {
   align-items: start;
   justify-content: start;
   text-decoration: none;
-  cursor: var(--cursor-pointer), auto;
+  cursor: pointer;
 }
 
 .tile {
@@ -445,7 +444,7 @@ main {
   background: rgba(0, 0, 0, 0.08);
   width: 36px;
   height: 36px;
-  cursor: var(--cursor-pointer), auto;
+  cursor: pointer;
   transition: all 1s var(--ease-out-elastic);
   border-radius: 999px;
 }
@@ -474,7 +473,7 @@ main {
 
 .paddlenav-icon.disabled {
   background: rgba(0, 0, 0, 0.04);
-  cursor: var(--cursor-not-allowed), auto;
+  cursor: not-allowed;
   transform: scale(1);
 }
 
@@ -550,7 +549,7 @@ main {
   background: var(--accent-50);
   border-radius: 999px;
   box-shadow: 0 4px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
-  cursor: var(--cursor-pointer), auto;
+  cursor: pointer;
   border: 1px solid var(--accent-60);
   transform-origin: bottom;
   transform: translateY(0);
