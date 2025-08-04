@@ -7,11 +7,11 @@
 }
 
 @font-face {
-    font-family: "ABC Marfa";
+    font-family: "LETS Type";
     font-display: swap;
     font-style: normal;
     font-weight: 1 1000;
-    src: url(../assets/fonts/ABCMarfa-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/ABCMarfa-Variable.woff2) format("woff2-variations");
+    src: url(../assets/fonts/LETSType-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/LETSType-Variable.woff2) format("woff2-variations");
 }
 
 
@@ -19,8 +19,8 @@
 
     /* Typography */
 
-    --font-ui: ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-brand: Futura Now, ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-ui: LETS Type, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-brand: Futura Now, var(--font-ui);
 
     --font-variation-compressed: "wdth" 75, "opsz" 24;
     --font-variation-condensed: "wdth" 88, "opsz" 24;
