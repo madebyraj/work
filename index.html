@@ -127,7 +127,7 @@
       <div class="me-section light">
         <figure class="me-wrapper">
           <img src="./assets/global/me.webp" alt="This is me" class="me">
-          <p class="me-section-typography-intro typography-headline-tiny">
+          <p class="me-section-typography-intro typography-quote-base">
             I'm <span class="emphasize">22 years old</span> and based in <span class="emphasize">New Delhi,
               India.</span> That’s <span class="emphasize">me in the photo.</span>
           </p>
@@ -242,6 +242,23 @@
 
       </section>
 
+      <div class="reel-section light">
+        <div class="reel-headline typography-quote-base">
+          I know <span class="emphasize">reading case studies was a task, phew!</span> but to treat your eyes watch a
+          <span class="emphasize">short show reel</span> that I made to
+          display <span class="emphasize">my old work.</span>
+        </div>
+        <div class="more-work">
+          <div class="more-work-slide to-left">
+            <img src="./assets/global/more-work/gs-resume.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/z-bills.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/k-landingpage.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/jp-ev.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/fyk-website.webp" class="more-work-media" />
+          </div>
+        </div>
+      </div>
+
       <section class="get-in-touch-section light">
         <div class="get-in-touch-content">
           <img class="get-in-touch-media" src="./assets/global/bird.gif" aria-label="It's a bird image"></img>
@@ -291,6 +308,11 @@
   <script src="./app/hero-section-parallax.js"></script>
 
   <script src="./app/dynamic-carousel.js"></script>
+
+  <script>
+    var copy = document.querySelector(".more-work-slide").cloneNode(true);
+    document.querySelector(".more-work").appendChild(copy);
+  </script>
 
 
 

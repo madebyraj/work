@@ -7,11 +7,11 @@
 }
 
 @font-face {
-    font-family: "LETS Type";
+    font-family: "ABC Marfa";
     font-display: swap;
     font-style: normal;
     font-weight: 1 1000;
-    src: url(../assets/fonts/LETSType-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/LETSType-Variable.woff2) format("woff2-variations");
+    src: url(../assets/fonts/ABCMarfa-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/ABCMarfa-Variable.woff2) format("woff2-variations");
 }
 
 
@@ -19,14 +19,14 @@
 
     /* Typography */
 
-    --font-ui: LETS Type, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-ui: ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     --font-brand: Futura Now, var(--font-ui);
 
-    --font-variation-compressed: "wdth" 75, "opsz" 24;
-    --font-variation-condensed: "wdth" 88, "opsz" 24;
-    --font-variation-default: "wdth" 100, "opsz" 24;
-    --font-variation-wide: "wdth" 113, "opsz" 24;
-    --font-variation-extrawide: "wdth" 125, "opsz" 24;
+    --font-variation-compressed: "wdth" 75, "opsz" 19;
+    --font-variation-condensed: "wdth" 88, "opsz" 19;
+    --font-variation-default: "wdth" 100, "opsz" 19;
+    --font-variation-wide: "wdth" 113, "opsz" 19;
+    --font-variation-extrawide: "wdth" 125, "opsz" 19;
 
     --font-size-90: 112px;
     --font-size-85: 96px;
@@ -83,11 +83,11 @@
     --line-height-45: 36px;
     --line-height-40: 32px;
     --line-height-35: 32px;
-    --line-height-30: 28px;
-    --line-height-25: 26px;
-    --line-height-20: 24px;
-    --line-height-15: 22px;
-    --line-height-10: 20px;
+    --line-height-30: 29px;
+    --line-height-25: 27px;
+    --line-height-20: 25px;
+    --line-height-15: 23px;
+    --line-height-10: 21px;
 
 }
 
@@ -301,6 +301,16 @@
     letter-spacing: var(--letter-spacing-45);
 }
 
+.typography-quote-base {
+    font-family: var(--font-brand);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-size-50);
+    line-height: var(--line-height-50);
+    letter-spacing: var(--letter-spacing-50);
+    text-transform: uppercase;
+    font-variation-settings: var(--font-variation-compressed);
+}
+
 @media (max-width: 1068px) {
 
     :root {
@@ -355,6 +365,12 @@
         letter-spacing: var(--letter-spacing-40);
     }
 
+    .typography-quote-base {
+        font-size: var(--font-size-45);
+        line-height: var(--line-height-45);
+        letter-spacing: var(--letter-spacing-45);
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -403,6 +419,12 @@
         font-size: var(--font-size-35);
         line-height: var(--line-height-35);
         letter-spacing: var(--letter-spacing-35);
+    }
+
+    .typography-quote-base {
+        font-size: var(--font-size-40);
+        line-height: var(--line-height-40);
+        letter-spacing: var(--letter-spacing-40);
     }
 
 }

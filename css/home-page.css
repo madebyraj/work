@@ -47,7 +47,7 @@ main {
 .emphasize {
   color: var(--text) !important;
   position: relative;
-  background: var(--fillTertiary);
+  background: var(--accent-20);
 }
 
 .hero-section {
@@ -489,6 +489,56 @@ main {
   fill: rgba(0, 0, 0, 0.32);
 }
 
+.reel-section {
+  padding: 96px 0;
+  background: var(--fillTertiary);
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.reel-headline {
+  margin: auto;
+  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
+  padding: 0;
+  width: 100%;
+  color: var(--textTertiary);
+  text-align: center;
+}
+
+.more-work {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  gap: 8px;
+}
+
+.more-work-slide {
+  display: flex;
+  gap: 8px;
+  animation: 50s slide infinite linear;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.more-work-media {
+  height: calc(512px - calc(128px + 16px));
+  width: max-content;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  object-fit: cover;
+  object-position: center;
+}
+
 .get-in-touch-section {
   margin: auto;
   padding: 96px 0;
@@ -618,6 +668,15 @@ main {
     padding: 0 var(--viewport-margin);
   }
 
+  .reel-headline {
+    max-width: 100%;
+    padding: 0 var(--viewport-margin);
+  }
+
+  .more-work-media {
+    height: calc(512px - calc(128px + 32px));
+  }
+
   .get-in-touch-content {
     max-width: 100%;
   }
@@ -675,6 +734,14 @@ main {
 
   .paddlenav {
     padding: 0 var(--viewport-margin);
+  }
+
+  .reel-headline {
+    padding: 0 var(--viewport-margin);
+  }
+
+  .more-work-media {
+    height: calc(512px - calc(128px + 64px));
   }
 
   .get-in-touch-content {
