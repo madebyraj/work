@@ -47,7 +47,7 @@ main {
 .emphasize {
   color: var(--text) !important;
   position: relative;
-  background: var(--accent-20);
+  background: var(--yellow-20);
 }
 
 .hero-section {
@@ -57,7 +57,7 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #70BCFF;
+  background-color: var(--blue-20);
   height: var(--hero-section-height);
   width: 100vw;
   display: flex;
@@ -80,19 +80,19 @@ main {
 
   0%,
   100% {
-    background-color: #70BCFF;
+    background-color: var(--blue-20);
   }
 
   25% {
-    background-color: #F689FF;
+    background-color: var(--purple-20);
   }
 
   50% {
-    background-color: #FE7B8A;
+    background-color: var(--red-20);
   }
 
   75% {
-    background-color: #FFB35A;
+    background-color: var(--yellow-20);
   }
 
 }
@@ -145,19 +145,19 @@ main {
 
   0%,
   100% {
-    color: #0855A4;
+    color: var(--blue-60);
   }
 
   25% {
-    color: #8E0188;
+    color: var(--purple-60);
   }
 
   50% {
-    color: #B70116;
+    color: var(--red-60);
   }
 
   75% {
-    color: #CC4A00;
+    color: var(--yellow-60);
   }
 
 }
@@ -409,7 +409,7 @@ main {
   letter-spacing: var(--letter-spacing-10);
   color: white;
   text-transform: uppercase;
-  background: #FF7A00;
+  background: var(--orange-50);
 }
 
 .gallery-item-headline {
@@ -516,7 +516,7 @@ main {
   display: inline-flex;
   gap: 8px;
   width: max-content;
-  --dur: 40s;
+  --dur: 50s;
   animation: marquee var(--dur) linear infinite;
   will-change: transform;
 }
@@ -548,6 +548,7 @@ main {
 .get-in-touch-section {
   margin: auto;
   padding: 96px 0;
+  background: var(--fill);
 }
 
 .get-in-touch-content {
@@ -602,30 +603,25 @@ main {
   letter-spacing: var(--letter-spacing-15);
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
-  background: var(--accent-50);
+  background: var(--blue-50);
   border-radius: 999px;
-  box-shadow: 0 4px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 1px 2px 0 rgba(0, 0, 0, 0.20), 0 0 0 1px rgba(0, 0, 0, 0.04);
   cursor: pointer;
-  border: 1px solid var(--accent-60);
-  transform-origin: bottom;
-  transform: translateY(0);
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
 }
 
 .button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
+  background: var(--blue-60);
 }
 
 .button:active {
-  transform: translateY(4px);
-  box-shadow: 0 0 0 0 var(--accent-70), 2px 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
+  background: var(--blue-70);
 }
 
 .button:focus {
-  outline: none;
+  outline: var(--blue-20);
 }
 
 @media (max-width: 1068px) {

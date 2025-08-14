@@ -242,7 +242,7 @@
 
       </section>
 
-      <div class="reel-section">
+      <div class="reel-section light">
         <div class="reel-headline typography-quote-base">
           I know <span class="emphasize">reading case studies was a task, phew!</span> but to treat your eyes watch a
           <span class="emphasize">short show reel</span> that I made to display <span class="emphasize">my old
@@ -250,11 +250,13 @@
         </div>
         <div class="more-work" id="moreWork">
           <div class="more-work-slide">
-            <img src="./assets/global/more-work/fyk-website.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/gs-resume.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/jp-ev.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/k-landingpage.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/z-bills.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/fyk-website.webp" class="more-work-media"
+              aria-label="old design work" />
+            <img src="./assets/global/more-work/gs-resume.webp" class="more-work-media" aria-label="old design work" />
+            <img src="./assets/global/more-work/jp-ev.webp" class="more-work-media" aria-label="old design work" />
+            <img src="./assets/global/more-work/k-landingpage.webp" class="more-work-media"
+              aria-label="old design work" />
+            <img src="./assets/global/more-work/z-bills.webp" class="more-work-media" aria-label="old design work" />
           </div>
         </div>
       </div>
@@ -295,26 +297,17 @@
 
   <script src="./app/gsap-animation.js"></script>
 
-  <!-- Navbar -->
-
   <script src="./app/globalnav.js"></script>
-
   <script src="./app/localnav.js"></script>
-
   <script src="./app/switch.js"></script>
-
   <script src="./app/journey-section-para.js"></script>
-
   <script src="./app/hero-section-parallax.js"></script>
-
   <script src="./app/dynamic-carousel.js"></script>
-
   <script>
     (function () {
       const container = document.getElementById('moreWork');
       const original = container.querySelector('.more-work-slide');
 
-      // Create track and add two copies of slides
       const track = document.createElement('div');
       track.className = 'more-work-track';
       track.appendChild(original);
@@ -324,17 +317,15 @@
       container.appendChild(track);
 
       let anim;
-      const slowRate = 0.4; // 40% speed on hover
+      const slowRate = 0.25;
       const normalRate = 1;
 
-      // Grab the CSS animation instance
       requestAnimationFrame(() => {
         const animations = track.getAnimations ? track.getAnimations() : [];
         anim = animations && animations[0];
         if (!anim) return;
         anim.play();
 
-        // Smoothly change playback rate
         const smoothTo = (target) => {
           if (!anim) return;
           const step = () => {
@@ -344,7 +335,7 @@
               anim.playbackRate = target;
               return;
             }
-            anim.playbackRate += diff * 0.15; // ease factor
+            anim.playbackRate += diff * 0.15;
             requestAnimationFrame(step);
           };
           requestAnimationFrame(step);
@@ -357,13 +348,11 @@
 
   </script>
 
-
-
-
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W2JG6QL" height="0" width="0"
       style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
 </body>
 
 </html>

@@ -92,31 +92,81 @@
 }
 
 :root {
-
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
     --transparent: rgb(0, 0, 0, 0);
-
-    --brand-10: #F3F4F5;
-    --brand-20: #E2E4E6;
-    --brand-30: #CBCED1;
-    --brand-40: #9DA2A9;
-    --brand-50: #6F7680;
-    --brand-60: #545A61;
-    --brand-70: #3A3D43;
-    --brand-80: #282A2E;
-    --brand-90: #16181A;
-
-    --accent-10: #F1F2FF;
-    --accent-20: #DBDFFE;
-    --accent-30: #BEC5FD;
-    --accent-40: #8492FB;
-    --accent-50: #4A5EF9;
-    --accent-60: #3847BD;
-    --accent-70: #263181;
-    --accent-80: #1B225A;
-    --accent-90: #0F1332;
-
+    --red-10: #FEEBEB;
+    --red-20: #FCCCCD;
+    --red-30: #F9A3A5;
+    --red-40: #F35255;
+    --red-50: #EE0005;
+    --red-60: #B50004;
+    --red-70: #7C0003;
+    --red-80: #560002;
+    --red-90: #300001;
+    --orange-10: #FBEFED;
+    --orange-20: #F6D7D1;
+    --orange-30: #EFB8AC;
+    --orange-40: #E17862;
+    --orange-50: #D33918;
+    --orange-60: #A02B12;
+    --orange-70: #6E1E0C;
+    --orange-80: #4C1509;
+    --orange-90: #2A0B05;
+    --yellow-10: #FFF8EB;
+    --yellow-20: #FEEDCC;
+    --yellow-30: #FEDFA3;
+    --yellow-40: #FDC252;
+    --yellow-50: #FCA600;
+    --yellow-60: #C07E00;
+    --yellow-70: #835600;
+    --yellow-80: #5B3C00;
+    --yellow-90: #322100;
+    --green-10: #EDF8F1;
+    --green-20: #D2EEDC;
+    --green-30: #AEE0C1;
+    --green-40: #66C589;
+    --green-50: #1EAA52;
+    --green-60: #17813E;
+    --green-70: #10582B;
+    --green-80: #0B3D1E;
+    --green-90: #062210;
+    --blue-10: #ECF1FF;
+    --blue-20: #CFDCFF;
+    --blue-30: #A9C0FF;
+    --blue-40: #5D89FF;
+    --blue-50: #1151FF;
+    --blue-60: #0D3EC2;
+    --blue-70: #092A85;
+    --blue-80: #061D5C;
+    --blue-90: #031033;
+    --gray-10: #F4F4F4;
+    --gray-20: #E2E2E3;
+    --gray-30: #CCCCCC;
+    --gray-40: #9E9E9F;
+    --gray-50: #707072;
+    --gray-60: #555557;
+    --gray-70: #3A3A3B;
+    --gray-80: #282829;
+    --gray-90: #161617;
+    --purple-10: #F3ECFE;
+    --purple-20: #E2CFFD;
+    --purple-30: #CBA9FC;
+    --purple-40: #9C5CF9;
+    --purple-50: #6E0FF6;
+    --purple-60: #540BBB;
+    --purple-70: #390880;
+    --purple-80: #280559;
+    --purple-90: #160331;
+    --pink-10: #FEEDF7;
+    --pink-20: #FBD1EC;
+    --pink-30: #F9ADDD;
+    --pink-40: #F363BE;
+    --pink-50: #ED1AA0;
+    --pink-60: #B4147A;
+    --pink-70: #7B0E53;
+    --pink-80: #55093A;
+    --pink-90: #2F0520;
 }
 
 :root {
@@ -136,14 +186,14 @@
     --viewport-margin: 96px;
 }
 
-:root {
+/* :root {
     --cursor-default: url(../assets/cursor/cursor-default.svg);
     --cursor-grab: url(../assets/cursor/cursor-grab.svg);
     --cursor-grabbed: url(../assets/cursor/cursor-grabbed.svg);
     --cursor-pointer: url(../assets/cursor/cursor-pointer.svg);
     --cursor-not-allowed: url(../assets/cursor/cursor-not-allowed.svg);
     --cursor-text: url(../assets/cursor/curson-text.svg);
-}
+} */
 
 :root {
     --ease-linear: cubic-bezier(.25, .25, .75, .75);

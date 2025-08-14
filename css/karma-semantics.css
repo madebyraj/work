@@ -22,26 +22,26 @@
 
   /* Semantics */
 
-  --separator: var(--brand-30);
-  --separatorMuted: var(--brand-20);
+  --separator: var(--gray-30);
+  --separatorMuted: var(--gray-20);
 
   --background: var(--white);
 
   --fill: var(--white);
-  --fillSecondary: var(--brand-10);
-  --fillTertiary: var(--brand-20);
+  --fillSecondary: var(--gray-10);
+  --fillTertiary: var(--gray-20);
 
-  --text: var(--brand-90);
-  --textSecondary: var(--brand-60);
-  --textTertiary: var(--brand-50);
+  --text: var(--gray-90);
+  --textSecondary: var(--gray-60);
+  --textTertiary: var(--gray-50);
 
-  --text-inverse: var(--brand-10);
-  --textSecondary-inverse: var(--brand-40);
-  --textTertiary-inverse: var(--brand-50);
+  --text-inverse: var(--gray-10);
+  --textSecondary-inverse: var(--gray-40);
+  --textTertiary-inverse: var(--gray-50);
 
   /* Components */
 
-  --link-color: var(--accent-60);
+  --link-color: var(--blue-60);
 
 }
 
@@ -49,25 +49,25 @@
 
   /* Semantics */
 
-  --separator: var(--brand-60);
-  --separatorMuted: var(--brand-70);
+  --separator: var(--gray-60);
+  --separatorMuted: var(--gray-70);
 
   --background: var(--black);
 
   --fill: var(--black);
-  --fillSecondary: var(--brand-90);
-  --fillTertiary: var(--brand-80);
+  --fillSecondary: var(--gray-90);
+  --fillTertiary: var(--gray-80);
 
-  --text: var(--brand-10);
-  --textSecondary: var(--brand-40);
-  --textTertiary: var(--brand-50);
+  --text: var(--gray-10);
+  --textSecondary: var(--gray-40);
+  --textTertiary: var(--gray-50);
 
-  --text-inverse: var(--brand-90);
-  --textSecondary-inverse: var(--brand-60);
-  --textTertiary-inverse: var(--brand-50);
+  --text-inverse: var(--gray-90);
+  --textSecondary-inverse: var(--gray-60);
+  --textTertiary-inverse: var(--gray-50);
 
   /* Components */
 
-  --link-color: var(--accent-40);
+  --link-color: var(--blue-40);
 
 }
