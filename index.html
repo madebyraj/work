@@ -242,19 +242,19 @@
 
       </section>
 
-      <div class="reel-section light">
+      <div class="reel-section">
         <div class="reel-headline typography-quote-base">
           I know <span class="emphasize">reading case studies was a task, phew!</span> but to treat your eyes watch a
-          <span class="emphasize">short show reel</span> that I made to
-          display <span class="emphasize">my old work.</span>
+          <span class="emphasize">short show reel</span> that I made to display <span class="emphasize">my old
+            work.</span>
         </div>
-        <div class="more-work">
-          <div class="more-work-slide to-left">
-            <img src="./assets/global/more-work/gs-resume.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/z-bills.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/k-landingpage.webp" class="more-work-media" />
-            <img src="./assets/global/more-work/jp-ev.webp" class="more-work-media" />
+        <div class="more-work" id="moreWork">
+          <div class="more-work-slide">
             <img src="./assets/global/more-work/fyk-website.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/gs-resume.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/jp-ev.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/k-landingpage.webp" class="more-work-media" />
+            <img src="./assets/global/more-work/z-bills.webp" class="more-work-media" />
           </div>
         </div>
       </div>
@@ -310,8 +310,51 @@
   <script src="./app/dynamic-carousel.js"></script>
 
   <script>
-    var copy = document.querySelector(".more-work-slide").cloneNode(true);
-    document.querySelector(".more-work").appendChild(copy);
+    (function () {
+      const container = document.getElementById('moreWork');
+      const original = container.querySelector('.more-work-slide');
+
+      // Create track and add two copies of slides
+      const track = document.createElement('div');
+      track.className = 'more-work-track';
+      track.appendChild(original);
+      const clone = original.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true');
+      track.appendChild(clone);
+      container.appendChild(track);
+
+      let anim;
+      const slowRate = 0.4; // 40% speed on hover
+      const normalRate = 1;
+
+      // Grab the CSS animation instance
+      requestAnimationFrame(() => {
+        const animations = track.getAnimations ? track.getAnimations() : [];
+        anim = animations && animations[0];
+        if (!anim) return;
+        anim.play();
+
+        // Smoothly change playback rate
+        const smoothTo = (target) => {
+          if (!anim) return;
+          const step = () => {
+            if (!anim) return;
+            const diff = target - anim.playbackRate;
+            if (Math.abs(diff) < 0.01) {
+              anim.playbackRate = target;
+              return;
+            }
+            anim.playbackRate += diff * 0.15; // ease factor
+            requestAnimationFrame(step);
+          };
+          requestAnimationFrame(step);
+        };
+
+        container.addEventListener('mouseenter', () => smoothTo(slowRate));
+        container.addEventListener('mouseleave', () => smoothTo(normalRate));
+      });
+    })();
+
   </script>
 
 

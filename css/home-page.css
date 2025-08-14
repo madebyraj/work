@@ -498,45 +498,51 @@ main {
 }
 
 .reel-headline {
+  text-align: center;
   margin: auto;
   max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   padding: 0;
   width: 100%;
   color: var(--textTertiary);
-  text-align: center;
 }
 
 .more-work {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  display: flex;
-  gap: 8px;
 }
 
-.more-work-slide {
-  display: flex;
+.more-work-track {
+  display: inline-flex;
   gap: 8px;
-  animation: 50s slide infinite linear;
+  width: max-content;
+  --dur: 40s;
+  animation: marquee var(--dur) linear infinite;
+  will-change: transform;
 }
 
-@keyframes slide {
+@keyframes marquee {
   from {
     transform: translateX(0);
   }
 
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
+}
+
+.more-work-slide {
+  display: inline-flex;
+  gap: 8px;
 }
 
 .more-work-media {
   height: calc(512px - calc(128px + 16px));
-  width: max-content;
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   object-fit: cover;
   object-position: center;
+  flex: 0 0 auto;
 }
 
 .get-in-touch-section {
