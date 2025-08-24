@@ -47,17 +47,25 @@ main {
 .emphasize {
   color: var(--text) !important;
   position: relative;
-  background: var(--yellow-20);
+  background: rgb(0,217,89);
 }
 
 .hero-section {
+  --purple: rgba(197, 159, 255, .95);
+  --magenta: rgba(255, 149, 255, .9);
+  --yellow: rgba(255, 207, 109, .95);
+  --orange: rgba(254, 185, 131, .9);
+  --green: rgba(218, 228, 104, .85);
   position: fixed;
   z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--blue-20);
+  background: radial-gradient(circle at 35% 60%, var(--magenta) 0%, transparent 25%), radial-gradient(ellipse at 73% 102%, var(--green) 5%, transparent 15%), radial-gradient(circle at 10% 76%, var(--purple) 0%, transparent 65%), radial-gradient(circle at 71% 96%, var(--yellow) 30%, transparent 66%), radial-gradient(circle at 50% 39%, var(--orange) 35%, transparent 88%);
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+  animation: gradientMorph 12s var(--ease-in-out-sine) infinite alternate;
   height: var(--hero-section-height);
   width: 100vw;
   display: flex;
@@ -66,7 +74,33 @@ main {
   justify-content: start;
   gap: 24px;
   padding: calc(var(--globalnav-height) + 96px) 0 96px;
-  animation: heroBG 12000ms var(--ease-in-out-sine) infinite;
+}
+
+@keyframes gradientMorph {
+  0% {
+    background-position: 20% 40%, 80% 60%, 20% 80%, 60% 100%, 40% 20%;
+    background-size: 100% 100%;
+  }
+
+  25% {
+    background-position: 80% 40%, 40% 20%, 60% 20%, 20% 40%, 100% 80%;
+    background-size: 200% 200%;
+  }
+
+  50% {
+    background-position: 20% 80%, 80% 20%, 40% 80%, 80% 40%, 60% 100%;
+    background-size: 150% 150%;
+  }
+
+  75% {
+    background-position: 80% 100%, 20% 40%, 60% 80%, 40% 20%, 40% 60%;
+    background-size: 200% 200%;
+  }
+
+  100% {
+    background-position: 40% 20%, 60% 80%, 80% 40%, 20% 60%, 80% 40%;
+    background-size: 100% 100%;
+  }
 }
 
 .hero-bg-overlay {
@@ -74,27 +108,6 @@ main {
   inset: 0;
   z-index: -1;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--fill));
-}
-
-@keyframes heroBG {
-
-  0%,
-  100% {
-    background-color: var(--blue-20);
-  }
-
-  25% {
-    background-color: var(--purple-20);
-  }
-
-  50% {
-    background-color: var(--red-20);
-  }
-
-  75% {
-    background-color: var(--yellow-20);
-  }
-
 }
 
 .hero-section-before {
@@ -126,40 +139,17 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #0855A4;
+  color: rgba(0, 0, 0, 0.88);
   transition: opacity 0.25s var(--ease-in-out-sine);
-  animation: heroText 12000ms var(--ease-in-out-sine) infinite;
 }
 
 .hero-section-typography-headline {
-  color: #0855A4;
+  color: rgba(0, 0, 0, 0.88);
   position: relative;
   transition: opacity 0.25s var(--ease-in-out-sine);
-  animation: heroText 12000ms var(--ease-in-out-sine) infinite;
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-}
-
-@keyframes heroText {
-
-  0%,
-  100% {
-    color: var(--blue-60);
-  }
-
-  25% {
-    color: var(--purple-60);
-  }
-
-  50% {
-    color: var(--red-60);
-  }
-
-  75% {
-    color: var(--yellow-60);
-  }
-
 }
 
 .hero-headline-highlight {
@@ -258,7 +248,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--fill);
+  background: rgb(20, 10, 0);
   overflow: hidden;
   z-index: 1;
 }
@@ -276,15 +266,15 @@ main {
 }
 
 .para {
-  opacity: 0.5;
+  opacity: 0.125;
   text-align: justify;
   transition: opacity 0.25s var(--ease-in-out-sine);
-  color: var(--textTertiary);
+  color: rgb(250, 240, 230);
 }
 
 .para.active {
   opacity: 1;
-  color: var(--text);
+  color: rgb(250, 240, 230);
 }
 
 :root {
@@ -604,35 +594,27 @@ main {
   letter-spacing: var(--letter-spacing-15);
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
-  background: var(--blue-60);
-  border-radius: 12px;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 1px 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05), 0 -2px 8px 0 rgba(0, 0, 0, 0.1) inset;
+  background: hsla(216, 100%, 45%);
+  border-radius: 999px;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 0.5px 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05), 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
 }
 
-.crystal {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 50%;
-  border-radius: 10px 10px 0 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.0) 100%);
-}
-
 .button:hover {
-  background: var(--blue-50);
+  background: hsla(216, 100%, 47.5%);
 }
 
 .button:active {
-  transform: scale(0.92);
+  background: hsla(216, 100%, 42.5%);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 0 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(0, 0, 0, 0.05), 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
 }
 
 .button:focus {
-  outline: var(--blue-20);
+  outline: 4px solid hsla(216, 100%, 50%, 0.5);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 0 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(0, 0, 0, 0.05), 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
 }
 
 @media (max-width: 1068px) {

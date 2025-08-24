@@ -31,6 +31,10 @@
   --fillSecondary: var(--gray-10);
   --fillTertiary: var(--gray-20);
 
+  --fill-inverse: var(--black);
+  --fillSecondary-inverse: var(--gray-90);
+  --fillTertiary-inverse: var(--gray-80);
+
   --text: var(--gray-90);
   --textSecondary: var(--gray-60);
   --textTertiary: var(--gray-50);
@@ -57,6 +61,10 @@
   --fill: var(--black);
   --fillSecondary: var(--gray-90);
   --fillTertiary: var(--gray-80);
+
+  --fill-inverse: var(--white);
+  --fillSecondary-inverse: var(--gray-10);
+  --fillTertiary-inverse: var(--gray-20);
 
   --text: var(--gray-10);
   --textSecondary: var(--gray-40);
