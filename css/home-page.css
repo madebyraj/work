@@ -47,7 +47,7 @@ main {
 .emphasize {
   color: var(--text) !important;
   position: relative;
-  background: rgb(0, 217, 89);
+  background: hsl(255, 100%, 50%, 0.25);
 }
 
 .hero-section {
@@ -248,7 +248,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(15, 10, 5);
+  background: rgb(20, 15, 10);
   overflow: hidden;
   z-index: 1;
 }
