@@ -15,15 +15,15 @@
 }
 
 .light {
-    --globalnav-background: rgba(255, 255, 255, 0.75);
-    --globalnav-background-opened: var(--fillSecondary);
-    --globalnav-color: var(--text);
+    --globalnav-background: rgba(255, 255, 255, 0.8);
+    --globalnav-background-opened: #FAFAFC;
+    --globalnav-color: rgba(0, 0, 0);
 }
 
 .dark {
-    --globalnav-background: rgba(0, 0, 0, 0.75);
-    --globalnav-background-opened: var(--fillSecondary);
-    --globalnav-color: var(--text);
+    --globalnav-background: rgba(0, 0, 0, 0.8);
+    --globalnav-background-opened: #161617;
+    --globalnav-color: rgba(255, 255, 255);
 }
 
 

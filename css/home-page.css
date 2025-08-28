@@ -47,7 +47,7 @@ main {
 .emphasize {
   color: var(--text) !important;
   position: relative;
-  background: rgb(0,217,89);
+  background: rgb(0, 217, 89);
 }
 
 .hero-section {
@@ -248,7 +248,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(20, 10, 0);
+  background: rgb(15, 10, 5);
   overflow: hidden;
   z-index: 1;
 }
@@ -293,11 +293,12 @@ main {
 }
 
 .recent-work {
+  --sky: #addfff;
   padding: 96px 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  background: var(--fillSecondary);
+  background: linear-gradient(var(--sky) 0%, var(--fillSecondary) 75%);
 }
 
 .recent-work-headline {
@@ -445,7 +446,7 @@ main {
 
 .paddlenav-icon:hover {
   background: rgba(0, 0, 0, 0.04);
-  transform: scale(1.125);
+  transform: scale(1.025);
 }
 
 .paddlenav-icon:hover path {
@@ -542,6 +543,7 @@ main {
 }
 
 .get-in-touch-content {
+  position: relative;
   max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
   margin: auto;
@@ -553,7 +555,30 @@ main {
   padding: 48px;
   background: var(--fillSecondary);
   border-radius: var(--radius-primary);
-  border: 4px dashed var(--separator);
+  overflow: hidden;
+}
+
+.get-in-touch-content-glow {
+  --gradient: linear-gradient(45deg, #004E82, #074DD0 50%, #4B00B9);
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  border: 0;
+  filter: blur(5px);
+}
+
+.get-in-touch-content-glow::after {
+  --bg-size: calc(100% + 8px);
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: var(--gradient) 50% / var(--bg-size) var(--bg-size);
+  border-radius: var(--radius-primary);
+  border: 5px solid rgba(0, 0, 0, 0);
+  mask: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0)), linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+  mask-clip: padding-box, border-box;
+  mask-composite: intersect;
 }
 
 .get-in-touch-media {
@@ -594,9 +619,9 @@ main {
   letter-spacing: var(--letter-spacing-15);
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
-  background: hsla(216, 100%, 45%);
+  background: var(--button-primary);
   border-radius: 999px;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 0.5px 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05), 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -604,17 +629,15 @@ main {
 }
 
 .button:hover {
-  background: hsla(216, 100%, 47.5%);
+  background: var(--button-primary-hover);
 }
 
 .button:active {
-  background: hsla(216, 100%, 42.5%);
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 0 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(0, 0, 0, 0.05), 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
+  background: var(--button-primary-active);
 }
 
 .button:focus {
-  outline: 4px solid hsla(216, 100%, 50%, 0.5);
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 0 2px 0 rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(0, 0, 0, 0.05), 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
+  outline: 4px solid hsla(211, 100%, 50%, 0.5);
 }
 
 @media (max-width: 1068px) {

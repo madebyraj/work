@@ -22,30 +22,37 @@
 
   /* Semantics */
 
-  --separator: var(--gray-30);
-  --separatorMuted: var(--gray-20);
+  --separator: #d2d2d7;
+  --separatorMuted: #e8e8ed;
 
-  --background: var(--white);
+  --separator-inverse: #424245;
+  --separatorMuted-inverse: #333336;
 
-  --fill: var(--white);
-  --fillSecondary: var(--gray-10);
-  --fillTertiary: var(--gray-20);
+  --background: #fff;
 
-  --fill-inverse: var(--black);
-  --fillSecondary-inverse: var(--gray-90);
-  --fillTertiary-inverse: var(--gray-80);
+  --fill: #fff;
+  --fillSecondary: #fafafc;
+  --fillTertiary: #f5f5f7;
 
-  --text: var(--gray-90);
-  --textSecondary: var(--gray-60);
-  --textTertiary: var(--gray-50);
+  --fill-inverse: #000;
+  --fillSecondary-inverse: #161617;
+  --fillTertiary-inverse: #1d1d1f;
 
-  --text-inverse: var(--gray-10);
-  --textSecondary-inverse: var(--gray-40);
-  --textTertiary-inverse: var(--gray-50);
+  --text: #1d1d1f;
+  --textSecondary: #6e6e73;
+  --textTertiary: #86868b;
+
+  --text-inverse: #f5f5f7;
+  --textSecondary-inverse: #86868b;
+  --textTertiary-inverse: #6e6e73;
 
   /* Components */
 
-  --link-color: var(--blue-60);
+  --link-color: #06c;
+
+  --button-primary: #0071E3;
+  --button-primary-hover: #0076DF;
+  --button-primary-active: #006EDB;
 
 }
 
@@ -53,29 +60,36 @@
 
   /* Semantics */
 
-  --separator: var(--gray-60);
-  --separatorMuted: var(--gray-70);
+  --separator: #424245;
+  --separatorMuted: #333336;
 
-  --background: var(--black);
+  --separator-inverse: #d2d2d7;
+  --separatorMuted-inverse: #e8e8ed;
 
-  --fill: var(--black);
-  --fillSecondary: var(--gray-90);
-  --fillTertiary: var(--gray-80);
+  --background: #000;
 
-  --fill-inverse: var(--white);
-  --fillSecondary-inverse: var(--gray-10);
-  --fillTertiary-inverse: var(--gray-20);
+  --fill: #000;
+  --fillSecondary: #161617;
+  --fillTertiary: #1d1d1f;
 
-  --text: var(--gray-10);
-  --textSecondary: var(--gray-40);
-  --textTertiary: var(--gray-50);
+  --fill-inverse: #fff;
+  --fillSecondary-inverse: #fafafc;
+  --fillTertiary-inverse: #f5f5f7;
 
-  --text-inverse: var(--gray-90);
-  --textSecondary-inverse: var(--gray-60);
-  --textTertiary-inverse: var(--gray-50);
+  --text: #f5f5f7;
+  --textSecondary: #86868b;
+  --textTertiary: #6e6e73;
+
+  --text-inverse: #1d1d1f;
+  --textSecondary-inverse: #6e6e73;
+  --textTertiary-inverse: #86868b;
 
   /* Components */
 
-  --link-color: var(--blue-40);
+  --link-color: #2997ff;
+
+  --button-primary: #0071E3;
+  --button-primary-hover: #0076DF;
+  --button-primary-active: #006EDB;
 
 }
