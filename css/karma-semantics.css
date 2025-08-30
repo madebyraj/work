@@ -48,11 +48,11 @@
 
   /* Components */
 
-  --link-color: #06c;
+  --link-color: hsl(216deg, 100%, 40%);
 
-  --button-primary: #0071E3;
-  --button-primary-hover: #0076DF;
-  --button-primary-active: #006EDB;
+  --button-primary: hsl(216deg, 100%, 50%);
+  --button-primary-hover: hsl(216deg, 100%, 55%);
+  --button-primary-active: hsl(216deg, 100%, 45%);
 
 }
 
@@ -86,10 +86,10 @@
 
   /* Components */
 
-  --link-color: #2997ff;
+  --link-color: hsl(216deg, 100%, 60%);
 
-  --button-primary: #0071E3;
-  --button-primary-hover: #0076DF;
-  --button-primary-active: #006EDB;
+  --button-primary: hsl(216deg, 100%, 50%);
+  --button-primary-hover: hsl(216deg, 100%, 55%);
+  --button-primary-active: hsl(216deg, 100%, 45%);
 
 }
