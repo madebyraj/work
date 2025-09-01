@@ -259,13 +259,13 @@ main {
 
 .scroll-wrapper {
   position: relative;
-  height: calc(125vh * 3);
+  height: calc(100vh * 3);
 }
 
 .scroll-section {
   position: sticky;
   top: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,22 +283,19 @@ main {
   gap: 16px;
   max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
-  padding: 96px 0;
+  padding: 0;
 }
 
 .para {
-  padding: 2px 8px;
   opacity: 0.125;
   text-align: justify;
   transition: opacity 0.25s var(--ease-in-out-sine);
-  background: color-mix(in var(--color-space), var(--pumpkin), var(--white) 80%);
-  color: color-mix(in var(--color-space), var(--pumpkin), var(--black) 96%);
+  color: color-mix(in var(--color-space), var(--pumpkin), var(--white) 80%);
 }
 
 .para.active {
   opacity: 1;
-  background: color-mix(in var(--color-space), var(--pumpkin), var(--white) 80%);
-  color: color-mix(in var(--color-space), var(--pumpkin), var(--black) 96%);
+  color: color-mix(in var(--color-space), var(--pumpkin), var(--white) 80%);
 }
 
 :root {
@@ -767,7 +764,7 @@ main {
   .inner-scroll {
     max-width: 100%;
     width: 100%;
-    padding: 96px var(--viewport-margin);
+    padding: 0 var(--viewport-margin);
   }
 
   :root {
@@ -846,7 +843,7 @@ main {
   .inner-scroll {
     max-width: 100%;
     width: 100%;
-    padding: 96px var(--viewport-margin);
+    padding: 0 var(--viewport-margin);
   }
 
   :root {
