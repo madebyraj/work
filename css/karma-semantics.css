@@ -50,10 +50,6 @@
 
   --link-color: hsl(216deg, 100%, 40%);
 
-  --button-primary: hsl(216deg, 100%, 50%);
-  --button-primary-hover: hsl(216deg, 100%, 55%);
-  --button-primary-active: hsl(216deg, 100%, 45%);
-
 }
 
 .dark {
@@ -87,9 +83,5 @@
   /* Components */
 
   --link-color: hsl(216deg, 100%, 60%);
-
-  --button-primary: hsl(216deg, 100%, 50%);
-  --button-primary-hover: hsl(216deg, 100%, 55%);
-  --button-primary-active: hsl(216deg, 100%, 45%);
 
 }

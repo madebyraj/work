@@ -4,6 +4,14 @@
 @import url("./karma-typography&radius.css");
 @import url("./global.built.css");
 
+:root {
+  --grape: #6E21E6;
+  --tomato: #F63E54;
+  --pumpkin: #E2620C;
+  --pool-blue: #00C2EE;
+  --azure: #027FFF;
+  --denim: #0056D2;
+}
 
 * {
   margin: 0;
@@ -47,25 +55,18 @@ main {
 .emphasize {
   color: var(--text) !important;
   position: relative;
-  background: hsl(255, 100%, 50%, 0.25);
+  background-color: color-mix(in srgb, var(--grape), white 80%);
 }
 
 .hero-section {
-  --purple: rgba(197, 159, 255, .95);
-  --magenta: rgba(255, 149, 255, .9);
-  --yellow: rgba(255, 207, 109, .95);
-  --orange: rgba(254, 185, 131, .9);
-  --green: rgba(218, 228, 104, .85);
+
   position: fixed;
   z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: radial-gradient(circle at 35% 60%, var(--magenta) 0%, transparent 25%), radial-gradient(ellipse at 73% 102%, var(--green) 5%, transparent 15%), radial-gradient(circle at 10% 76%, var(--purple) 0%, transparent 65%), radial-gradient(circle at 71% 96%, var(--yellow) 30%, transparent 66%), radial-gradient(circle at 50% 39%, var(--orange) 35%, transparent 88%);
-  background-repeat: no-repeat;
-  background-size: 150% 150%;
-  animation: gradientMorph 12s var(--ease-in-out-sine) infinite alternate;
+  background: var(--fillTertiary);
   height: var(--hero-section-height);
   width: 100vw;
   display: flex;
@@ -74,33 +75,28 @@ main {
   justify-content: start;
   gap: 24px;
   padding: calc(var(--globalnav-height) + 96px) 0 96px;
+  animation: heroBG 12000ms var(--ease-in-out-sine) infinite;
 }
 
-@keyframes gradientMorph {
-  0% {
-    background-position: 20% 40%, 80% 60%, 20% 80%, 60% 100%, 40% 20%;
-    background-size: 100% 100%;
+@keyframes heroBG {
+
+  0%,
+  100% {
+    background: color-mix(in srgb, var(--denim), white 80%);
   }
 
   25% {
-    background-position: 80% 40%, 40% 20%, 60% 20%, 20% 40%, 100% 80%;
-    background-size: 200% 200%;
+    background: color-mix(in srgb, var(--grape), white 80%);
   }
 
   50% {
-    background-position: 20% 80%, 80% 20%, 40% 80%, 80% 40%, 60% 100%;
-    background-size: 150% 150%;
+    background: color-mix(in srgb, var(--tomato), white 80%);
   }
 
   75% {
-    background-position: 80% 100%, 20% 40%, 60% 80%, 40% 20%, 40% 60%;
-    background-size: 200% 200%;
+    background: color-mix(in srgb, var(--pumpkin), white 80%);
   }
 
-  100% {
-    background-position: 40% 20%, 60% 80%, 80% 40%, 20% 60%, 80% 40%;
-    background-size: 100% 100%;
-  }
 }
 
 .hero-bg-overlay {
@@ -139,17 +135,40 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(0, 0, 0, 0.88);
+  color: var(--text);
   transition: opacity 0.25s var(--ease-in-out-sine);
+  animation: heroText 12000ms var(--ease-in-out-sine) infinite;
 }
 
 .hero-section-typography-headline {
-  color: rgba(0, 0, 0, 0.88);
+  color: var(--text);
   position: relative;
-  transition: opacity 0.25s var(--ease-in-out-sine);
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  transition: opacity 0.25s var(--ease-in-out-sine);
+  animation: heroText 12000ms var(--ease-in-out-sine) infinite;
+}
+
+@keyframes heroText {
+
+  0%,
+  100% {
+    color: var(--denim);
+  }
+
+  25% {
+    color: var(--grape);
+  }
+
+  50% {
+    color: var(--tomato);
+  }
+
+  75% {
+    color: var(--pumpkin);
+  }
+
 }
 
 .hero-headline-highlight {
@@ -248,7 +267,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(20, 15, 10);
+  background: color-mix(in srgb, var(--pumpkin), black 96%);
   overflow: hidden;
   z-index: 1;
 }
@@ -266,15 +285,18 @@ main {
 }
 
 .para {
+  padding: 2px 8px;
   opacity: 0.125;
   text-align: justify;
   transition: opacity 0.25s var(--ease-in-out-sine);
-  color: rgb(250, 240, 230);
+  background: color-mix(in srgb, var(--pumpkin), white 80%);
+  color: color-mix(in srgb, var(--pumpkin), black 96%);
 }
 
 .para.active {
   opacity: 1;
-  color: rgb(250, 240, 230);
+  background: color-mix(in srgb, var(--pumpkin), white 80%);
+  color: color-mix(in srgb, var(--pumpkin), black 96%);
 }
 
 :root {
@@ -293,12 +315,11 @@ main {
 }
 
 .recent-work {
-  --sky: #addfff;
   padding: 96px 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  background: linear-gradient(var(--sky) 0%, var(--fillSecondary) 75%);
+  background: linear-gradient(color-mix(in srgb, var(--azure), white 64%) 0%, var(--fillSecondary) 75%);
 }
 
 .recent-work-headline {
@@ -400,7 +421,7 @@ main {
   letter-spacing: var(--letter-spacing-10);
   color: white;
   text-transform: uppercase;
-  background: var(--orange-50);
+  background: var(--pumpkin);
 }
 
 .gallery-item-headline {
@@ -559,7 +580,7 @@ main {
 }
 
 .get-in-touch-content-glow {
-  --gradient: linear-gradient(45deg, #004E82, #074DD0 50%, #4B00B9);
+  --gradient: linear-gradient(45deg, color-mix(in srgb, var(--pool-blue), white 48%), color-mix(in srgb, var(--denim), white 48%), color-mix(in srgb, var(--grape), white 48%));
   position: absolute;
   z-index: 0;
   inset: 0;
@@ -619,9 +640,9 @@ main {
   letter-spacing: var(--letter-spacing-15);
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
-  background: var(--button-primary);
+  background: var(--azure);
   border-radius: 999px;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 -1px 8px 0 rgba(0, 0, 0, 0.05) inset;
+  box-shadow: 0 1px 0.5px 0 rgba(255, 255, 255, 0.25) inset;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -629,15 +650,16 @@ main {
 }
 
 .button:hover {
-  background: var(--button-primary-hover);
+  background: color-mix(in srgb, var(--azure), white 8%);
 }
 
 .button:active {
-  background: var(--button-primary-active);
+  background: color-mix(in srgb, var(--azure), black 8%);
 }
 
 .button:focus {
-  outline: 4px solid hsla(211, 100%, 50%, 0.5);
+  outline: 2px solid var(--azure);
+  outline-offset: 2px;
 }
 
 @media (max-width: 1068px) {
