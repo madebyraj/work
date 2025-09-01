@@ -351,6 +351,14 @@
     letter-spacing: var(--letter-spacing-45);
 }
 
+.typography-callout-tiny {
+    font-family: var(--font-ui);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-35);
+    line-height: var(--line-height-35);
+    letter-spacing: var(--letter-spacing-35);
+}
+
 .typography-quote-base {
     font-family: var(--font-brand);
     font-weight: var(--font-weight-black);
@@ -413,6 +421,12 @@
         font-size: var(--font-size-40);
         line-height: var(--line-height-40);
         letter-spacing: var(--letter-spacing-40);
+    }
+
+    .typography-callout-tiny {
+        font-size: var(--font-size-30);
+        line-height: var(--line-height-30);
+        letter-spacing: var(--letter-spacing-30);
     }
 
     .typography-quote-base {

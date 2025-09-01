@@ -6,7 +6,7 @@ function updateActive() {
   const wrapperTop = scrollWrapper.offsetTop;
   const relativeScroll = scrollTop - wrapperTop;
 
-  const stepHeight = window.innerHeight * 1.25;
+  const stepHeight = window.innerHeight * 1;
 
   const index = Math.floor(relativeScroll / stepHeight);
 

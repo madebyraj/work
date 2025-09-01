@@ -48,7 +48,8 @@
 
   /* Components */
 
-  --link-color: hsl(216deg, 100%, 40%);
+  --link-color: #06C;
+  --link-color-inverse: #2997FF;
 
 }
 
@@ -82,6 +83,7 @@
 
   /* Components */
 
-  --link-color: hsl(216deg, 100%, 60%);
+  --link-color: #2997FF;
+  --link-color-inverse: #06C;
 
 }
