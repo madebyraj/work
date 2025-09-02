@@ -52,7 +52,7 @@ main {
 }
 
 :root {
-  --hero-section-height: calc(512px + 96px);
+  --hero-section-height: calc(512px + 128px);
 }
 
 .emphasize {
@@ -120,7 +120,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .hero-section-typography {
@@ -182,7 +182,7 @@ main {
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -60%) scale(1) rotate(0deg);
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
   width: max-content;
   height: 80px;
   object-fit: cover;
@@ -314,11 +314,11 @@ main {
 }
 
 .recent-work {
-  padding: 96px 0;
+  padding: 128px 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  background: linear-gradient(color-mix(in var(--color-space), var(--azure), var(--white) 80%), var(--fillSecondary) 50%);
+  background: linear-gradient(to top, color-mix(in var(--color-space), var(--tomato), var(--white) 80%), var(--fill) 50%);
 }
 
 .recent-work-headline {
@@ -510,11 +510,11 @@ main {
 }
 
 .shipped-work-section {
-  padding: 96px 0;
+  padding: 128px 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  background: linear-gradient(color-mix(in var(--color-space), var(--grape), var(--white) 80%), var(--fillSecondary) 50%);
+  background: linear-gradient(to top, color-mix(in var(--color-space), var(--grape), var(--white) 80%), var(--fill) 50%);
 }
 
 .shipped-work-headline {
@@ -585,8 +585,8 @@ main {
 }
 
 .reel-section {
-  padding: 96px 0;
-  background: var(--fillTertiary);
+  padding: 128px 0;
+  background: linear-gradient(to top, color-mix(in var(--color-space), var(--azure), var(--white) 80%), var(--fill) 50%);
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -642,7 +642,7 @@ main {
 
 .get-in-touch-section {
   margin: auto;
-  padding: 96px 0;
+  padding: 128px 0;
   background: var(--fill);
 }
 
@@ -717,19 +717,32 @@ main {
   gap: 4px;
   padding: 10px 16px;
   font-family: var(--font-ui);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-15);
   line-height: var(--line-height-15);
   letter-spacing: var(--letter-spacing-15);
+  font-variation-settings: var(--font-variation-default);
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
   background: var(--azure);
   border-radius: 999px;
-  box-shadow: 0 1px 0.5px 0 rgba(255, 255, 255, 0.25) inset;
+  /* box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.25) inset; */
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  box-shadow: 0 -2px 4px 0 rgba(255, 255, 255, 0.32) inset;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: radial-gradient(240% 140% at 0% 0%, rgba(255, 255, 255, 0.12) 20%, rgba(255, 255, 255, 0.12) 40%, rgba(255, 255, 255, 0.12) 60%, rgba(255, 255, 255, 0.12) 80%);
 }
 
 .button:hover {
@@ -815,35 +828,19 @@ main {
 
   .get-in-touch-section {
     margin: auto;
-    padding: 96px var(--viewport-margin);
+    padding: 128px var(--viewport-margin);
   }
 
 }
 
 @media (max-width: 767px) {
 
-  .hero-section-before {
-    max-width: 100%;
-    padding: 0 var(--viewport-margin);
-  }
-
   .software-illustration {
     height: 48px;
   }
 
-  .me-wrapper {
-    max-width: 100%;
-    padding: 0 var(--viewport-margin);
-  }
-
   .me {
     aspect-ratio: 4 / 5;
-  }
-
-  .inner-scroll {
-    max-width: 100%;
-    width: 100%;
-    padding: 0 var(--viewport-margin);
   }
 
   :root {
@@ -860,25 +857,8 @@ main {
     --width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 8 + 7 * var(--grid-gap));
   }
 
-  .recent-work-headline {
-    padding: 0 var(--viewport-margin);
-  }
-
-  .paddlenav {
-    padding: 0 var(--viewport-margin);
-  }
-
-  .shipped-work-headline {
-    padding: 0 var(--viewport-margin);
-  }
-
   .shipped-work-items {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    padding: 0 var(--viewport-margin);
-  }
-
-  .reel-headline {
-    padding: 0 var(--viewport-margin);
   }
 
   .more-work-media {
@@ -887,10 +867,6 @@ main {
 
   .get-in-touch-content {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .get-in-touch-section {
-    padding: 96px var(--viewport-margin);
   }
 
 }

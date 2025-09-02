@@ -14,19 +14,27 @@
     src: url(../assets/fonts/ABCMarfa-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/ABCMarfa-Variable.woff2) format("woff2-variations");
 }
 
+@font-face {
+    font-family: "Google Sans Flex";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/GoogleSansFlex-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/GoogleSansFlex-Variable.woff2) format("woff2-variations");
+}
+
 
 :root {
 
     /* Typography */
 
-    --font-ui: ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-brand: Futura Now, var(--font-ui);
+    --font-ui: Google Sans Flex, ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-brand: Google Sans Flex, var(--font-ui);
 
-    --font-variation-compressed: "wdth" 75, "opsz" 19;
-    --font-variation-condensed: "wdth" 88, "opsz" 19;
-    --font-variation-default: "wdth" 100, "opsz" 19;
-    --font-variation-wide: "wdth" 113, "opsz" 19;
-    --font-variation-extrawide: "wdth" 125, "opsz" 19;
+    --font-variation-compressed: "wdth" 75, "ROND" 100;
+    --font-variation-condensed: "wdth" 88, "ROND" 100;
+    --font-variation-default: "wdth" 100, "ROND" 100;
+    --font-variation-wide: "wdth" 113, "ROND" 100;
+    --font-variation-extrawide: "wdth" 125, "ROND" 100;
 
     --font-size-90: 112px;
     --font-size-85: 96px;
@@ -51,25 +59,26 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --font-weight-black: 900;
 
-    --letter-spacing-90: -5.6px;
-    --letter-spacing-85: -4.8px;
-    --letter-spacing-80: -4.4px;
-    --letter-spacing-75: -4px;
-    --letter-spacing-70: -3.6px;
-    --letter-spacing-65: -3.2px;
-    --letter-spacing-60: -2.8px;
-    --letter-spacing-55: -1.2px;
-    --letter-spacing-50: -1px;
-    --letter-spacing-45: -0.8px;
-    --letter-spacing-40: -0.7px;
-    --letter-spacing-35: -0.3px;
-    --letter-spacing-30: -0.262px;
-    --letter-spacing-25: -0.237px;
-    --letter-spacing-20: -0.212px;
-    --letter-spacing-15: -0.187px;
-    --letter-spacing-10: -0.162px;
+    --letter-spacing-90: calc(-5.6px / 1.25);
+    --letter-spacing-85: calc(-4.8px / 1.25);
+    --letter-spacing-80: calc(-4.4px / 1.25);
+    --letter-spacing-75: calc(-4px / 1.25);
+    --letter-spacing-70: calc(-3.6px / 1.25);
+    --letter-spacing-65: calc(-3.2px / 1.25);
+    --letter-spacing-60: calc(-2.8px / 1.25);
+    --letter-spacing-55: calc(-1.2px / 1.25);
+    --letter-spacing-50: calc(-1px / 1.25);
+    --letter-spacing-45: calc(-0.8px / 1.25);
+    --letter-spacing-40: calc(-0.7px / 1.25);
+    --letter-spacing-35: calc(-0.3px / 1.25);
+    --letter-spacing-30: calc(-0.262px / 1.25);
+    --letter-spacing-25: calc(-0.237px / 1.25);
+    --letter-spacing-20: calc(-0.212px / 1.25);
+    --letter-spacing-15: calc(-0.187px / 1.25);
+    --letter-spacing-10: calc(-0.162px / 1.25);
 
     --line-height-90: 114px;
     --line-height-85: 100px;
@@ -229,7 +238,7 @@
 
 .typography-headline-standalone {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-extrabold);
     font-size: var(--font-size-85);
     line-height: var(--line-height-85);
     letter-spacing: var(--letter-spacing-85);
@@ -239,7 +248,7 @@
 
 .typography-headline-super {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-extrabold);
     font-size: var(--font-size-75);
     line-height: var(--line-height-75);
     letter-spacing: var(--letter-spacing-75);
@@ -249,7 +258,7 @@
 
 .typography-headline-base {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-extrabold);
     font-size: var(--font-size-65);
     line-height: var(--line-height-65);
     letter-spacing: var(--letter-spacing-65);
@@ -259,7 +268,7 @@
 
 .typography-headline-reduced {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-extrabold);
     font-size: var(--font-size-55);
     line-height: var(--line-height-55);
     letter-spacing: var(--letter-spacing-55);
@@ -269,7 +278,7 @@
 
 .typography-headline-tiny {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-extrabold);
     font-size: var(--font-size-50);
     line-height: var(--line-height-50);
     letter-spacing: var(--letter-spacing-50);
@@ -335,37 +344,37 @@
 
 .typography-eyebrow-base {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-35);
     line-height: var(--line-height-35);
     letter-spacing: var(--letter-spacing-35);
-    text-transform: uppercase;
     font-variation-settings: var(--font-variation-compressed);
 }
 
 .typography-callout-reduced {
-    font-family: var(--font-ui);
+    font-family: var(--font-brand);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-45);
     line-height: var(--line-height-45);
     letter-spacing: var(--letter-spacing-45);
+    font-variation-settings: var(--font-variation-default);
 }
 
 .typography-callout-tiny {
-    font-family: var(--font-ui);
+    font-family: var(--font-brand);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-35);
     line-height: var(--line-height-35);
     letter-spacing: var(--letter-spacing-35);
+    font-variation-settings: var(--font-variation-default);
 }
 
 .typography-quote-base {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-50);
     line-height: var(--line-height-50);
     letter-spacing: var(--letter-spacing-50);
-    text-transform: uppercase;
     font-variation-settings: var(--font-variation-compressed);
 }
 
