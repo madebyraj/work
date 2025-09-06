@@ -15,11 +15,51 @@
 }
 
 @font-face {
-    font-family: "Google Sans Flex";
+    font-family: "Geomanist";
     font-display: swap;
     font-style: normal;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/GoogleSansFlex-Variable.woff2) format("woff2 supports variations"), url(../assets/fonts/GoogleSansFlex-Variable.woff2) format("woff2-variations");
+    font-weight: 1 400;
+    src: url(../assets/fonts/Geomanist-400-Normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geomanist";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/Geomanist-500-Normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geomanist";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../assets/fonts/Geomanist-600-Normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geomanist";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/Geomanist-700-Normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geomanist";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../assets/fonts/Geomanist-800-Normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geomanist";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../assets/fonts/Geomanist-900-Normal.woff) format("woff");
 }
 
 
@@ -27,14 +67,14 @@
 
     /* Typography */
 
-    --font-ui: Google Sans Flex, ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-brand: Google Sans Flex, var(--font-ui);
+    --font-ui: Geomanist, ABC Marfa, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-brand: Futura Now, var(--font-ui);
 
-    --font-variation-compressed: "wdth" 75, "ROND" 100;
-    --font-variation-condensed: "wdth" 88, "ROND" 100;
-    --font-variation-default: "wdth" 100, "ROND" 100;
-    --font-variation-wide: "wdth" 113, "ROND" 100;
-    --font-variation-extrawide: "wdth" 125, "ROND" 100;
+    --font-variation-compressed: "wdth" 75, "opsz" 19;
+    --font-variation-condensed: "wdth" 88, "opsz" 19;
+    --font-variation-default: "wdth" 100, "opsz" 19;
+    --font-variation-wide: "wdth" 113, "opsz" 19;
+    --font-variation-extrawide: "wdth" 125, "opsz" 19;
 
     --font-size-90: 112px;
     --font-size-85: 96px;
@@ -238,7 +278,7 @@
 
 .typography-headline-standalone {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-black);
     font-size: var(--font-size-85);
     line-height: var(--line-height-85);
     letter-spacing: var(--letter-spacing-85);
@@ -248,7 +288,7 @@
 
 .typography-headline-super {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-black);
     font-size: var(--font-size-75);
     line-height: var(--line-height-75);
     letter-spacing: var(--letter-spacing-75);
@@ -258,7 +298,7 @@
 
 .typography-headline-base {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-black);
     font-size: var(--font-size-65);
     line-height: var(--line-height-65);
     letter-spacing: var(--letter-spacing-65);
@@ -268,7 +308,7 @@
 
 .typography-headline-reduced {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-black);
     font-size: var(--font-size-55);
     line-height: var(--line-height-55);
     letter-spacing: var(--letter-spacing-55);
@@ -278,7 +318,7 @@
 
 .typography-headline-tiny {
     font-family: var(--font-brand);
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-black);
     font-size: var(--font-size-50);
     line-height: var(--line-height-50);
     letter-spacing: var(--letter-spacing-50);
@@ -343,34 +383,31 @@
 }
 
 .typography-eyebrow-base {
-    font-family: var(--font-brand);
+    font-family: var(--font-ui);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-35);
     line-height: var(--line-height-35);
     letter-spacing: var(--letter-spacing-35);
-    font-variation-settings: var(--font-variation-compressed);
 }
 
 .typography-callout-reduced {
-    font-family: var(--font-brand);
+    font-family: var(--font-ui);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-45);
     line-height: var(--line-height-45);
     letter-spacing: var(--letter-spacing-45);
-    font-variation-settings: var(--font-variation-default);
 }
 
 .typography-callout-tiny {
-    font-family: var(--font-brand);
+    font-family: var(--font-ui);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-35);
     line-height: var(--line-height-35);
     letter-spacing: var(--letter-spacing-35);
-    font-variation-settings: var(--font-variation-default);
 }
 
 .typography-quote-base {
-    font-family: var(--font-brand);
+    font-family: var(--font-ui);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-50);
     line-height: var(--line-height-50);
@@ -499,5 +536,79 @@
         line-height: var(--line-height-40);
         letter-spacing: var(--letter-spacing-40);
     }
+
+}
+
+
+
+/* theme colors */
+
+.light {
+
+    /* Semantics */
+
+    --separator: #d2d2d7;
+    --separatorMuted: #e8e8ed;
+
+    --separator-inverse: #424245;
+    --separatorMuted-inverse: #333336;
+
+    --background: #fff;
+
+    --fill: #fff;
+    --fillSecondary: #fafafc;
+    --fillTertiary: #f5f5f7;
+
+    --fill-inverse: #000;
+    --fillSecondary-inverse: #161617;
+    --fillTertiary-inverse: #1d1d1f;
+
+    --text: #1d1d1f;
+    --textSecondary: #6e6e73;
+    --textTertiary: #86868b;
+
+    --text-inverse: #f5f5f7;
+    --textSecondary-inverse: #86868b;
+    --textTertiary-inverse: #6e6e73;
+
+    /* Components */
+
+    --link-color: #06C;
+    --link-color-inverse: #2997FF;
+
+}
+
+.dark {
+
+    /* Semantics */
+
+    --separator: #424245;
+    --separatorMuted: #333336;
+
+    --separator-inverse: #d2d2d7;
+    --separatorMuted-inverse: #e8e8ed;
+
+    --background: #000;
+
+    --fill: #000;
+    --fillSecondary: #161617;
+    --fillTertiary: #1d1d1f;
+
+    --fill-inverse: #fff;
+    --fillSecondary-inverse: #fafafc;
+    --fillTertiary-inverse: #f5f5f7;
+
+    --text: #f5f5f7;
+    --textSecondary: #86868b;
+    --textTertiary: #6e6e73;
+
+    --text-inverse: #1d1d1f;
+    --textSecondary-inverse: #6e6e73;
+    --textTertiary-inverse: #86868b;
+
+    /* Components */
+
+    --link-color: #2997FF;
+    --link-color-inverse: #06C;
 
 }
