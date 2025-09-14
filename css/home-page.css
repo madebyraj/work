@@ -68,6 +68,7 @@ main {
   padding: 128px 0;
   background: linear-gradient(to bottom, rgb(241, 59, 108), rgb(211, 17, 48));
   transition: background 2s ease-in-out;
+  position: relative;
 }
 
 .hero-section-before {
@@ -117,7 +118,7 @@ main {
 .hero-headline-highlight {
   position: relative;
   width: max-content;
-  text-decoration: underline;
+  text-decoration: underline var(--color-stroke-subtle-alpha);
 }
 
 .software-illustration {
@@ -630,7 +631,7 @@ main {
   z-index: 0;
   inset: 0;
   border: 0;
-  filter: blur(5px);
+  filter: blur(4px);
 }
 
 .get-in-touch-content-glow::after {
@@ -641,7 +642,7 @@ main {
   inset: 0;
   background: var(--gradient) 50% / var(--bg-size) var(--bg-size);
   border-radius: var(--radius-primary);
-  border: 5px solid rgba(0, 0, 0, 0);
+  border: 4px solid rgba(0, 0, 0, 0);
   mask: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0)), linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
   mask-clip: padding-box, border-box;
   mask-composite: intersect;

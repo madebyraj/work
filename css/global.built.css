@@ -560,6 +560,8 @@
     --link-color: #06C;
     --link-color-inverse: #2997FF;
 
+    /* New */
+
     --color-background: #0a0a0a;
     --color-background-hover: #141414;
     --color-background-grouped: #141414;
@@ -615,6 +617,8 @@
 
     --link-color: #2997FF;
     --link-color-inverse: #06C;
+
+    /* New */
 
     --color-background: #0a0a0a;
     --color-background-hover: #141414;
