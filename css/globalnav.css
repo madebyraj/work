@@ -7,7 +7,6 @@
 
 
 :root {
-    --globalnav-backdrop-filter: blur(25px);
     --globalnav-height: 48px;
     --globalnav-max-width: 1069px;
     --globalnav-opacity: 0.8;
@@ -16,13 +15,13 @@
 
 .light {
     --globalnav-background: rgba(255, 255, 255);
-    --globalnav-background-opened: #fafafc;
+    --globalnav-background-opened: var(--color-background-elevated);
     --globalnav-color: rgba(0, 0, 0);
 }
 
 .dark {
     --globalnav-background: rgba(0, 0, 0);
-    --globalnav-background-opened: #161617;
+    --globalnav-background-opened: var(--color-background-elevated);
     --globalnav-color: rgba(255, 255, 255);
 }
 
@@ -52,7 +51,7 @@ body.no-scroll {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    transition: transform 0.32s cubic-bezier(0.32, 0.08, 0.24, 1);
+    transition: transform 0.32s cubic-bezier(0.32, 0.08, 0.24, 1) 0.16s;
 }
 
 .globalnav.navbar-hidden {
@@ -63,20 +62,12 @@ body.no-scroll {
     width: 100%;
     height: var(--globalnav-height);
     background: rgba(0, 0, 0, 0);
-    -webkit-transition: background 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), color 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
-    transition: background 0.44s cubic-bezier(0.52, 0.16, 0.24, 1), color 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
+    -webkit-transition: background 0.48s cubic-bezier(0.52, 0.16, 0.24, 1) 0.32s;
+    transition: background 0.48s cubic-bezier(0.52, 0.16, 0.24, 1) 0.32s;
 }
 
 .gn-background.scrolled {
     background: var(--globalnav-background);
-    -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
-    backdrop-filter: var(--globalnav-backdrop-filter);
-}
-
-@supports not ((-webkit-backdrop-filter: blur(50px)) or (backdrop-filter: blur(50px))) {
-    .gn-background {
-        background-color: var(--globalnav-background-opened);
-    }
 }
 
 .gn-content {
@@ -131,11 +122,12 @@ body.no-scroll {
 
 .gn-link {
     text-decoration: none;
-    font-family: var(--font-ui);
+    font-family: var(--font-sans);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-15);
     letter-spacing: var(--letter-spacing-15);
     line-height: var(--line-height-15);
+    text-transform: lowercase;
     color: var(--globalnav-color);
     opacity: var(--globalnav-opacity);
     height: var(--globalnav-height);
