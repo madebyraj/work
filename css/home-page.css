@@ -5,14 +5,41 @@
 @import url("./global.built.css");
 
 :root {
-  --color-space: srgb;
+  --color-space: display-p3;
   --white: rgb(255, 255, 255);
   --black: rgb(0, 0, 0);
-  --grape: rgb(110, 33, 230);
-  --tomato: rgb(246, 62, 84);
-  --pumpkin: rgb(226, 98, 12);
-  --pool-blue: rgb(0, 194, 238);
-  --denim: rgb(0, 86, 210);
+  --violet: #8876fe;
+  --indigo: #622aff;
+  --grape: #6e21e6;
+  --plum: #8d1287;
+  --azalea: #e71ee6;
+  --magenta: #dd04d1;
+  --tomato: #f63e54;
+  --guava: #fb4d66;
+  --tangelo: #ff3e17;
+  --coral: #f95c30;
+  --persimmon: #e94b1b;
+  --pumpkin: #e2620c;
+  --orange: #e66702;
+  --verdant: #29d246;
+  --bright-green: #00d436;
+  --new-green: #13be54;
+  --avocado: #73b439;
+  --green: #0c9d46;
+  --blue-green: #26c2ac;
+  --peacock-green: #14b1a1;
+  --sea-green: #099b9d;
+  --teal-green: #2b9ca1;
+  --aqua: #039e8f;
+  --teal: #049cb7;
+  --pool-blue: #00c2ee;
+  --azure: #027fff;
+  --sparkle-blue: #007aff;
+  --denim: #0056d2;
+  --cobalt: #5451fb;
+  --sapphire: #3d44c3;
+  --night: #23466c;
+  --ultramarine: #0d1387;
 }
 
 * {
@@ -26,9 +53,8 @@ html {
 }
 
 body {
-  background: var(--background);
+  background: var(--color-background);
   animation: pageLoading 1s var(--ease-in-out-sine);
-  /* padding-top: var(--globalnav-height); */
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
@@ -48,34 +74,31 @@ main {
   margin: auto;
 }
 
-:root {
-  --hero-section-height: 100vh;
-}
-
 .emphasize {
   color: var(--color-foreground) !important;
   position: relative;
 }
 
 .hero-section {
-  --hero-section-height: 100vh;
+  --hero-section-height: 100svh;
+  min-height: 512px;
   height: var(--hero-section-height);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding: 128px 0;
   background: linear-gradient(to bottom, rgb(241, 59, 108), rgb(211, 17, 48));
   transition: background 2s ease-in-out;
   position: relative;
+  padding: var(--globalnav-height) 0;
 }
 
 .hero-section-before {
   height: min-content;
   max-width: calc(1069px - calc(var(--viewport-margin) * 2));
   width: 100%;
-  position: absolute;
+  padding: 128px 0;
 }
 
 .hero-section-copy {
@@ -136,10 +159,6 @@ main {
 
 .software-word {
   transition: opacity 1s var(--ease-out-elastic);
-}
-
-.hero-headline-highlight:hover {
-  cursor: grab;
 }
 
 .hero-headline-highlight:hover .software-illustration {
@@ -205,87 +224,6 @@ main {
 
 .button-brand-tertiary:focus .button-brand-tertiary-icon path {
   fill: #000;
-}
-
-.me-section {
-  width: 100%;
-  padding: 0;
-  background: var(--fill);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.me-wrapper {
-  margin: auto;
-  transform: translate(0%, -25%);
-  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.me {
-  padding: 8px;
-  object-fit: cover;
-  object-position: top;
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 3 / 2;
-  background: #FFF;
-  box-shadow: 2.5px 2.5px 25px 2.5px rgba(0, 0, 0, 0.125);
-  transform: rotate(-0.5deg);
-}
-
-.me-section-typography-intro {
-  color: var(--textTertiary);
-  text-align: center;
-  transform: translate(0, 50%);
-}
-
-.scroll-wrapper {
-  position: relative;
-  height: calc(100vh * 3);
-}
-
-.scroll-section {
-  position: sticky;
-  top: 0;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--fill);
-  overflow: hidden;
-  z-index: 1;
-}
-
-.inner-scroll {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  max-width: calc(1069px - calc(var(--viewport-margin) * 2));
-  width: 100%;
-  padding: 0;
-}
-
-.para {
-  opacity: 0.125;
-  text-align: justify;
-  transition: opacity 0.25s var(--ease-in-out-sine);
-  color: var(--color-foreground);
-}
-
-.para.active {
-  opacity: 1;
-  color: var(--color-foreground);
 }
 
 :root {
@@ -606,7 +544,7 @@ main {
 .get-in-touch-section {
   margin: auto;
   padding: 128px 0;
-  background: var(--fill);
+  background: var(--color-background);
 }
 
 .get-in-touch-content {
@@ -623,29 +561,6 @@ main {
   background: var(--color-background-elevated);
   border-radius: var(--radius-primary);
   overflow: hidden;
-}
-
-.get-in-touch-content-glow {
-  --gradient: linear-gradient(45deg, color-mix(in var(--color-space), var(--pool-blue), var(--black) 48%), color-mix(in var(--color-space), var(--denim), var(--black) 48%), color-mix(in var(--color-space), var(--grape), var(--black) 48%));
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  border: 0;
-  filter: blur(4px);
-}
-
-.get-in-touch-content-glow::after {
-  --bg-size: calc(100% + 8px);
-  content: "";
-  pointer-events: none;
-  position: absolute;
-  inset: 0;
-  background: var(--gradient) 50% / var(--bg-size) var(--bg-size);
-  border-radius: var(--radius-primary);
-  border: 4px solid rgba(0, 0, 0, 0);
-  mask: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0)), linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
-  mask-clip: padding-box, border-box;
-  mask-composite: intersect;
 }
 
 .get-in-touch-media {
@@ -666,7 +581,7 @@ main {
 }
 
 .get-in-touch-body {
-  color: var(--textSecondary);
+  color: var(--color-foreground-subtle);
 }
 
 .button {
@@ -686,7 +601,7 @@ main {
   letter-spacing: var(--letter-spacing-15);
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
-  background: var(--denim);
+  background: var(--azure);
   border-radius: 999px;
   cursor: pointer;
   user-select: none;
@@ -695,15 +610,15 @@ main {
 }
 
 .button:hover {
-  background: color-mix(in var(--color-space), var(--denim), var(--white) 4%);
+  background: color-mix(in var(--color-space), var(--azure), var(--white) 4%);
 }
 
 .button:active {
-  background: color-mix(in var(--color-space), var(--denim), var(--black) 4%);
+  background: color-mix(in var(--color-space), var(--azure), var(--black) 4%);
 }
 
 .button:focus {
-  outline: 2px solid var(--denim);
+  outline: 2px solid var(--azure);
   outline-offset: 2px;
 }
 

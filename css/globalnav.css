@@ -14,13 +14,13 @@
 }
 
 .light {
-    --globalnav-background: rgba(255, 255, 255);
+    --globalnav-background: rgba(255, 255, 255, 0.8);
     --globalnav-background-opened: var(--color-background-elevated);
     --globalnav-color: rgba(0, 0, 0);
 }
 
 .dark {
-    --globalnav-background: rgba(0, 0, 0);
+    --globalnav-background: rgba(0, 0, 0, 0.8);
     --globalnav-background-opened: var(--color-background-elevated);
     --globalnav-color: rgba(255, 255, 255);
 }
@@ -37,11 +37,10 @@
 
 body.no-scroll {
     overflow: hidden;
-    height: 100vh;
 }
 
 .globalnav {
-    position: fixed;
+    position: absolute;
     z-index: 99999;
     top: 0;
     left: 0;
@@ -54,21 +53,21 @@ body.no-scroll {
     transition: transform 0.32s cubic-bezier(0.32, 0.08, 0.24, 1) 0.16s;
 }
 
-.globalnav.navbar-hidden {
-    transform: translateY(-100%);
-}
+/* .globalnav.navbar-hidden {
+    transform: translateY(-50%);
+} */
 
 .gn-background {
     width: 100%;
     height: var(--globalnav-height);
     background: rgba(0, 0, 0, 0);
-    -webkit-transition: background 0.48s cubic-bezier(0.52, 0.16, 0.24, 1) 0.32s;
-    transition: background 0.48s cubic-bezier(0.52, 0.16, 0.24, 1) 0.32s;
+    -webkit-transition: background 0.32s cubic-bezier(0.52, 0.16, 0.24, 1) 0.16s;
+    transition: background 0.32s cubic-bezier(0.52, 0.16, 0.24, 1) 0.16s;
 }
 
-.gn-background.scrolled {
+/* .gn-background.scrolled {
     background: var(--globalnav-background);
-}
+} */
 
 .gn-content {
     width: 100%;
