@@ -371,28 +371,32 @@ main {
 
 .paddlenav-icon {
   background: rgba(255, 255, 255, 0.08);
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   transition: all 1s var(--ease-out-elastic);
   border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
 }
 
 .paddlenav-icon path {
-  fill: rgba(255, 255, 255, 0.56);
+  fill: rgba(255, 255, 255, 0.64);
 }
 
 .paddlenav-icon:hover {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.16);
   transform: scale(1.025);
 }
 
 .paddlenav-icon:hover path {
-  fill: rgba(255, 255, 255, 0.64);
+  fill: rgba(255, 255, 255, 0.80);
 }
 
 .paddlenav-icon:active {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
   transform: scale(1);
 }
 
@@ -599,6 +603,7 @@ main {
   font-size: var(--font-size-15);
   line-height: var(--line-height-15);
   letter-spacing: var(--letter-spacing-15);
+  text-transform: lowercase;
   transition: all 0.5s var(--ease-out-elastic);
   color: var(--white);
   background: var(--azure);
