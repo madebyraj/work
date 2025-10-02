@@ -33,3 +33,12 @@ window.addEventListener("load", updateActive);
 
 // window.addEventListener("scroll", triggerParaAnimation);
 // window.addEventListener("load", triggerParaAnimation);
+
+
+
+          <!-- <li class="gn-item gn-item-menu gn-resume">
+            <a class="gn-link gn-link-resume"
+              href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing" target="_blank">
+              Resume
+            </a>
+          </li> -->
