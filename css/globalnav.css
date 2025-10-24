@@ -2,29 +2,9 @@
 
 @import url("./global.built.css");
 
-
-
 :root {
     --globalnav-height: 48px;
-    --globalnav-opacity: 0.8;
-    --globalnav-opacity-hover: 1;
 }
-
-.light {
-    --globalnav-background: var(--systemMaterialUltrathick);
-    --globalnav-background-opened: var(--systemMaterial-idle);
-    --globalnav-color: var(--systemGlyphPrimary);
-}
-
-.dark {
-    --globalnav-background: var(--systemMaterialUltrathick);
-    --globalnav-background-opened: var(--systemMaterial-idle);
-    --globalnav-color: var(--systemGlyphPrimary);
-}
-
-
-
-/* Global Navbar */
 
 * {
     margin: 0;
@@ -123,8 +103,7 @@ body.no-scroll {
     font-size: var(--fontSize-xxxSmall);
     line-height: var(--glyphHeight);
     letter-spacing: var(--fontTracking-none);
-    color: var(--globalnav-color);
-    opacity: var(--globalnav-opacity);
+    color: var(--systemGlyphPrimary);
     height: var(--globalnav-height);
     position: relative;
     z-index: 1;
@@ -137,31 +116,35 @@ body.no-scroll {
     -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
     -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
 }
 
 .gn-link:hover {
-    cursor: pointer;
-    opacity: var(--globalnav-opacity-hover);
+    opacity: var(--systemStateHover);
+}
+
+.gn-link:active {
+    opacity: var(--systemStateActive);
 }
 
 .gn-link:focus {
-    opacity: var(--globalnav-opacity-hover);
+    opacity: var(--systemStateHover);
     -webkit-transition: none;
     transition: none;
     outline: none;
 }
 
 .gn-link-logo svg {
-    height: 22px;
+    height: 20px;
 }
 
 .gn-link-logo svg path {
-    fill: var(--globalnav-color);
+    fill: var(--systemGlyphPrimary);
 }
 
 .current {
     cursor: not-allowed !important;
-    opacity: 0.56 !important;
+    opacity: var(--systemStateDisabled) !important;
 }
 
 
@@ -183,7 +166,7 @@ body.no-scroll {
 
     .globalnav.active .gn-background {
         height: 100vh;
-        background: var(--globalnav-background-opened);
+        background: var(--systemMaterial-idle);
         -webkit-transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
         transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
     }
@@ -400,7 +383,6 @@ body.no-scroll {
     .gn-menuicon-label {
         display: block;
         position: absolute;
-        opacity: .8;
         z-index: 3;
         top: 0;
         width: var(--globalnav-height);
@@ -463,7 +445,7 @@ body.no-scroll {
         display: block;
         width: 17px;
         height: 1px;
-        background: var(--globalnav-color);
+        background: var(--systemGlyphPrimary);
         border-radius: 0.5px;
         position: absolute;
         left: 7px;

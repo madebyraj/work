@@ -39,29 +39,30 @@
     --fontFamily-mono: SF Mono, monospace;
 
 
-    --fontSize-xxxxSmall: 12px;
-    --fontSize-xxxSmall: 14px;
-    --fontSize-xxSmall: 17px;
-    --fontSize-xSmall: 19px;
-    --fontSize-small: 21px;
-    --fontSize-medium: 24px;
-    --fontSize-large: 32px;
-    --fontSize-xLarge: 40px;
-    --fontSize-xxLarge: 48px;
-    --fontSize-xxxLarge: 64px;
-    --fontSize-xxxxLarge: 80px;
-
     --fontLeading-xxxxSmall: 16px;
     --fontLeading-xxxSmall: 20px;
-    --fontLeading-xxSmall: 21px;
-    --fontLeading-xSmall: 25px;
-    --fontLeading-small: 29px;
+    --fontLeading-xxSmall: 20px;
+    --fontLeading-xSmall: 24px;
+    --fontLeading-small: 28px;
     --fontLeading-medium: 32px;
     --fontLeading-large: 36px;
     --fontLeading-xLarge: 44px;
     --fontLeading-xxLarge: 52px;
     --fontLeading-xxxLarge: 64px;
     --fontLeading-xxxxLarge: 80px;
+
+
+    --fontSize-xxxxSmall: 13px;
+    --fontSize-xxxSmall: 15px;
+    --fontSize-xxSmall: 17px;
+    --fontSize-xSmall: 19px;
+    --fontSize-small: 21px;
+    --fontSize-medium: 25px;
+    --fontSize-large: 32px;
+    --fontSize-xLarge: 40px;
+    --fontSize-xxLarge: 48px;
+    --fontSize-xxxLarge: 64px;
+    --fontSize-xxxxLarge: 80px;
 
 
     --fontTracking-tighter: -0.25px;
@@ -76,6 +77,7 @@
 
 
 }
+
 
 :root {
 
@@ -108,13 +110,15 @@
 
 
     --borderRadius-sharp: var(--scale-0);
-    --borderRadius-xxSmall: var(--scale-2);
-    --borderRadius-xSmall: var(--scale-4);
-    --borderRadius-small: var(--scale-8);
-    --borderRadius-medium: var(--scale-12);
-    --borderRadius-large: var(--scale-16);
-    --borderRadius-xLarge: var(--scale-24);
-    --borderRadius-xxLarge: var(--scale-32);
+    --borderRadius-xxxSmall: var(--scale-2);
+    --borderRadius-xxSmall: var(--scale-4);
+    --borderRadius-xSmall: var(--scale-8);
+    --borderRadius-small: var(--scale-12);
+    --borderRadius-medium: var(--scale-16);
+    --borderRadius-large: var(--scale-24);
+    --borderRadius-xLarge: var(--scale-32);
+    --borderRadius-xxLarge: var(--scale-48);
+    --borderRadius-xxxLarge: var(--scale-64);
     --borderRadius-circle: 99999px;
 
 
@@ -136,13 +140,6 @@
     --space-xxLarge: var(--scale-48);
     --space-xxxLarge: var(--scale-64);
     --space-xxxxLarge: var(--scale-80);
-
-
-    --shape-xSmall: polygon(0px 48px, .117px 30.4068px, .469px 24.1177px, 1.0587px 19.5182px, 1.8908px 15.8188px, 2.9726px 12.7264px, 4.3149px 10.0972px, 5.9331px 7.8495px, 7.8495px 5.9331px, 10.0972px 4.3149px, 12.7264px 2.9726px, 15.8188px 1.8908px, 19.5182px 1.0587px, 24.1177px .469px, 30.4068px .117px, 48px 0px, calc(100% - 48px) 0px, calc(100% - 29.8611px) .1344px, calc(100% - 23.3859px) .5386px, calc(100% - 18.6633px) 1.2164px, calc(100% - 14.8813px) 2.174px, calc(100% - 11.7393px) 3.4214px, calc(100% - 9.0906px) 4.9735px, calc(100% - 6.8523px) 6.8523px, calc(100% - 4.9735px) 9.0906px, calc(100% - 3.4214px) 11.7393px, calc(100% - 2.174px) 14.8813px, calc(100% - 1.2164px) 18.6633px, calc(100% - .5386px) 23.3859px, calc(100% - .1344px) 29.8611px, 100% 48px, 100% calc(100% - 48px), calc(100% - .1344px) calc(100% - 29.8611px), calc(100% - .5386px) calc(100% - 23.3859px), calc(100% - 1.2164px) calc(100% - 18.6633px), calc(100% - 2.174px) calc(100% - 14.8813px), calc(100% - 3.4214px) calc(100% - 11.7393px), calc(100% - 4.9735px) calc(100% - 9.0906px), calc(100% - 6.8523px) calc(100% - 6.8523px), calc(100% - 9.0906px) calc(100% - 4.9735px), calc(100% - 11.7393px) calc(100% - 3.4214px), calc(100% - 14.8813px) calc(100% - 2.174px), calc(100% - 18.6633px) calc(100% - 1.2164px), calc(100% - 23.3859px) calc(100% - .5386px), calc(100% - 29.8611px) calc(100% - .1344px), calc(100% - 48px) 100%, 48px 100%, 29.8611px calc(100% - .1344px), 23.3859px calc(100% - .5386px), 18.6633px calc(100% - 1.2164px), 14.8813px calc(100% - 2.174px), 11.7393px calc(100% - 3.4214px), 9.0906px calc(100% - 4.9735px), 6.8523px calc(100% - 6.8523px), 4.9735px calc(100% - 9.0906px), 3.4214px calc(100% - 11.7393px), 2.174px calc(100% - 14.8813px), 1.2164px calc(100% - 18.6633px), .5386px calc(100% - 23.3859px), .1344px calc(100% - 29.8611px), 0px calc(100% - 48px), 0px calc(100% - 48px), 0px calc(92.3077% - 40.6154px), 0px calc(84.6154% - 33.2308px), 0px calc(76.9231% - 25.8462px), 0px calc(69.2308% - 18.4615px), 0px calc(61.5385% - 11.0769px), 0px calc(53.8462% - 3.6923px), 0px calc(46.1538% + 3.6923px), 0px calc(38.4615% + 11.0769px), 0px calc(30.7692% + 18.4615px), 0px calc(23.0769% + 25.8462px), 0px calc(15.3846% + 33.2308px), 0px calc(7.6923% + 40.6154px), 0px 48px);
-    --shape-small: polygon(0px 56px, .1366px 35.4746px, .5472px 28.1373px, 1.2351px 22.7713px, 2.2059px 18.4552px, 3.468px 14.8474px, 5.034px 11.78px, 6.9219px 9.1578px, 9.1578px 6.9219px, 11.78px 5.034px, 14.8474px 3.468px, 18.4552px 2.2059px, 22.7713px 1.2351px, 28.1373px .5472px, 35.4746px .1366px, 56px 0px, calc(100% - 56px) 0px, calc(100% - 34.838px) .1568px, calc(100% - 27.2836px) .6284px, calc(100% - 21.7739px) 1.4191px, calc(100% - 17.3615px) 2.5363px, calc(100% - 13.6959px) 3.9916px, calc(100% - 10.6057px) 5.8024px, calc(100% - 7.9943px) 7.9943px, calc(100% - 5.8024px) 10.6057px, calc(100% - 3.9916px) 13.6959px, calc(100% - 2.5363px) 17.3615px, calc(100% - 1.4191px) 21.7739px, calc(100% - .6284px) 27.2836px, calc(100% - .1568px) 34.838px, 100% 56px, 100% calc(100% - 56px), calc(100% - .1568px) calc(100% - 34.838px), calc(100% - .6284px) calc(100% - 27.2836px), calc(100% - 1.4191px) calc(100% - 21.7739px), calc(100% - 2.5363px) calc(100% - 17.3615px), calc(100% - 3.9916px) calc(100% - 13.6959px), calc(100% - 5.8024px) calc(100% - 10.6057px), calc(100% - 7.9943px) calc(100% - 7.9943px), calc(100% - 10.6057px) calc(100% - 5.8024px), calc(100% - 13.6959px) calc(100% - 3.9916px), calc(100% - 17.3615px) calc(100% - 2.5363px), calc(100% - 21.7739px) calc(100% - 1.4191px), calc(100% - 27.2836px) calc(100% - .6284px), calc(100% - 34.838px) calc(100% - .1568px), calc(100% - 56px) 100%, 56px 100%, 34.838px calc(100% - .1568px), 27.2836px calc(100% - .6284px), 21.7739px calc(100% - 1.4191px), 17.3615px calc(100% - 2.5363px), 13.6959px calc(100% - 3.9916px), 10.6057px calc(100% - 5.8024px), 7.9943px calc(100% - 7.9943px), 5.8024px calc(100% - 10.6057px), 3.9916px calc(100% - 13.6959px), 2.5363px calc(100% - 17.3615px), 1.4191px calc(100% - 21.7739px), .6284px calc(100% - 27.2836px), .1568px calc(100% - 34.838px), 0px calc(100% - 56px), 0px calc(100% - 56px), 0px calc(92.3077% - 47.3846px), 0px calc(84.6154% - 38.7692px), 0px calc(76.9231% - 30.1538px), 0px calc(69.2308% - 21.5385px), 0px calc(61.5385% - 12.9231px), 0px calc(53.8462% - 4.3077px), 0px calc(46.1538% + 4.3077px), 0px calc(38.4615% + 12.9231px), 0px calc(30.7692% + 21.5385px), 0px calc(23.0769% + 30.1538px), 0px calc(15.3846% + 38.7692px), 0px calc(7.6923% + 47.3846px), 0px 56px);
-    --shape-medium: polygon(0px 72px, .1756px 45.6102px, .7036px 36.1765px, 1.588px 29.2774px, 2.8361px 23.7281px, 4.4589px 19.0896px, 6.4723px 15.1457px, 8.8996px 11.7743px, 11.7743px 8.8996px, 15.1457px 6.4723px, 19.0896px 4.4589px, 23.7281px 2.8361px, 29.2774px 1.588px, 36.1765px .7036px, 45.6102px .1756px, 72px 0px, calc(100% - 72px) 0px, calc(100% - 44.7917px) .2016px, calc(100% - 35.0789px) .808px, calc(100% - 27.995px) 1.8246px, calc(100% - 22.3219px) 3.261px, calc(100% - 17.609px) 5.1321px, calc(100% - 13.6359px) 7.4603px, calc(100% - 10.2784px) 10.2784px, calc(100% - 7.4603px) 13.6359px, calc(100% - 5.1321px) 17.609px, calc(100% - 3.261px) 22.3219px, calc(100% - 1.8246px) 27.995px, calc(100% - .808px) 35.0789px, calc(100% - .2016px) 44.7917px, 100% 72px, 100% calc(100% - 72px), calc(100% - .2016px) calc(100% - 44.7917px), calc(100% - .808px) calc(100% - 35.0789px), calc(100% - 1.8246px) calc(100% - 27.995px), calc(100% - 3.261px) calc(100% - 22.3219px), calc(100% - 5.1321px) calc(100% - 17.609px), calc(100% - 7.4603px) calc(100% - 13.6359px), calc(100% - 10.2784px) calc(100% - 10.2784px), calc(100% - 13.6359px) calc(100% - 7.4603px), calc(100% - 17.609px) calc(100% - 5.1321px), calc(100% - 22.3219px) calc(100% - 3.261px), calc(100% - 27.995px) calc(100% - 1.8246px), calc(100% - 35.0789px) calc(100% - .808px), calc(100% - 44.7917px) calc(100% - .2016px), calc(100% - 72px) 100%, 72px 100%, 44.7917px calc(100% - .2016px), 35.0789px calc(100% - .808px), 27.995px calc(100% - 1.8246px), 22.3219px calc(100% - 3.261px), 17.609px calc(100% - 5.1321px), 13.6359px calc(100% - 7.4603px), 10.2784px calc(100% - 10.2784px), 7.4603px calc(100% - 13.6359px), 5.1321px calc(100% - 17.609px), 3.261px calc(100% - 22.3219px), 1.8246px calc(100% - 27.995px), .808px calc(100% - 35.0789px), .2016px calc(100% - 44.7917px), 0px calc(100% - 72px), 0px calc(100% - 72px), 0px calc(92.3077% - 60.9231px), 0px calc(84.6154% - 49.8462px), 0px calc(76.9231% - 38.7692px), 0px calc(69.2308% - 27.6923px), 0px calc(61.5385% - 16.6154px), 0px calc(53.8462% - 5.5385px), 0px calc(46.1538% + 5.5385px), 0px calc(38.4615% + 16.6154px), 0px calc(30.7692% + 27.6923px), 0px calc(23.0769% + 38.7692px), 0px calc(15.3846% + 49.8462px), 0px calc(7.6923% + 60.9231px), 0px 72px);
-    --shape-large: polygon(0px 96px, .2341px 60.8135px, .9381px 48.2354px, 2.1174px 39.0365px, 3.7815px 31.6375px, 5.9452px 25.4527px, 8.6298px 20.1943px, 11.8662px 15.6991px, 15.6991px 11.8662px, 20.1943px 8.6298px, 25.4527px 5.9452px, 31.6375px 3.7815px, 39.0365px 2.1174px, 48.2354px .9381px, 60.8135px .2341px, 96px 0px, calc(100% - 96px) 0px, calc(100% - 59.7223px) .2687px, calc(100% - 46.7718px) 1.0773px, calc(100% - 37.3267px) 2.4328px, calc(100% - 29.7625px) 4.3479px, calc(100% - 23.4787px) 6.8428px, calc(100% - 18.1812px) 9.947px, calc(100% - 13.7046px) 13.7046px, calc(100% - 9.947px) 18.1812px, calc(100% - 6.8428px) 23.4787px, calc(100% - 4.3479px) 29.7625px, calc(100% - 2.4328px) 37.3267px, calc(100% - 1.0773px) 46.7718px, calc(100% - .2687px) 59.7223px, 100% 96px, 100% calc(100% - 96px), calc(100% - .2687px) calc(100% - 59.7223px), calc(100% - 1.0773px) calc(100% - 46.7718px), calc(100% - 2.4328px) calc(100% - 37.3267px), calc(100% - 4.3479px) calc(100% - 29.7625px), calc(100% - 6.8428px) calc(100% - 23.4787px), calc(100% - 9.947px) calc(100% - 18.1812px), calc(100% - 13.7046px) calc(100% - 13.7046px), calc(100% - 18.1812px) calc(100% - 9.947px), calc(100% - 23.4787px) calc(100% - 6.8428px), calc(100% - 29.7625px) calc(100% - 4.3479px), calc(100% - 37.3267px) calc(100% - 2.4328px), calc(100% - 46.7718px) calc(100% - 1.0773px), calc(100% - 59.7223px) calc(100% - .2687px), calc(100% - 96px) 100%, 96px 100%, 59.7223px calc(100% - .2687px), 46.7718px calc(100% - 1.0773px), 37.3267px calc(100% - 2.4328px), 29.7625px calc(100% - 4.3479px), 23.4787px calc(100% - 6.8428px), 18.1812px calc(100% - 9.947px), 13.7046px calc(100% - 13.7046px), 9.947px calc(100% - 18.1812px), 6.8428px calc(100% - 23.4787px), 4.3479px calc(100% - 29.7625px), 2.4328px calc(100% - 37.3267px), 1.0773px calc(100% - 46.7718px), .2687px calc(100% - 59.7223px), 0px calc(100% - 96px), 0px calc(100% - 96px), 0px calc(92.3077% - 81.2308px), 0px calc(84.6154% - 66.4615px), 0px calc(76.9231% - 51.6923px), 0px calc(69.2308% - 36.9231px), 0px calc(61.5385% - 22.1538px), 0px calc(53.8462% - 7.3846px), 0px calc(46.1538% + 7.3846px), 0px calc(38.4615% + 22.1538px), 0px calc(30.7692% + 36.9231px), 0px calc(23.0769% + 51.6923px), 0px calc(15.3846% + 66.4615px), 0px calc(7.6923% + 81.2308px), 0px 96px);
-    --shape-xLarge: polygon(0px 120px, .2926px 76.0169px, 1.1726px 60.2942px, 2.6467px 48.7956px, 4.7269px 39.5469px, 7.4314px 31.8159px, 10.7872px 25.2429px, 14.8327px 19.6239px, 19.6239px 14.8327px, 25.2429px 10.7872px, 31.8159px 7.4314px, 39.5469px 4.7269px, 48.7956px 2.6467px, 60.2942px 1.1726px, 76.0169px .2926px, 120px 0px, calc(100% - 120px) 0px, calc(100% - 74.6528px) .3359px, calc(100% - 58.4648px) 1.3466px, calc(100% - 46.6584px) 3.041px, calc(100% - 37.2031px) 5.4349px, calc(100% - 29.3483px) 8.5535px, calc(100% - 22.7266px) 12.4338px, calc(100% - 17.1307px) 17.1307px, calc(100% - 12.4338px) 22.7266px, calc(100% - 8.5535px) 29.3483px, calc(100% - 5.4349px) 37.2031px, calc(100% - 3.041px) 46.6584px, calc(100% - 1.3466px) 58.4648px, calc(100% - .3359px) 74.6528px, 100% 120px, 100% calc(100% - 120px), calc(100% - .3359px) calc(100% - 74.6528px), calc(100% - 1.3466px) calc(100% - 58.4648px), calc(100% - 3.041px) calc(100% - 46.6584px), calc(100% - 5.4349px) calc(100% - 37.2031px), calc(100% - 8.5535px) calc(100% - 29.3483px), calc(100% - 12.4338px) calc(100% - 22.7266px), calc(100% - 17.1307px) calc(100% - 17.1307px), calc(100% - 22.7266px) calc(100% - 12.4338px), calc(100% - 29.3483px) calc(100% - 8.5535px), calc(100% - 37.2031px) calc(100% - 5.4349px), calc(100% - 46.6584px) calc(100% - 3.041px), calc(100% - 58.4648px) calc(100% - 1.3466px), calc(100% - 74.6528px) calc(100% - .3359px), calc(100% - 120px) 100%, 120px 100%, 74.6528px calc(100% - .3359px), 58.4648px calc(100% - 1.3466px), 46.6584px calc(100% - 3.041px), 37.2031px calc(100% - 5.4349px), 29.3483px calc(100% - 8.5535px), 22.7266px calc(100% - 12.4338px), 17.1307px calc(100% - 17.1307px), 12.4338px calc(100% - 22.7266px), 8.5535px calc(100% - 29.3483px), 5.4349px calc(100% - 37.2031px), 3.041px calc(100% - 46.6584px), 1.3466px calc(100% - 58.4648px), .3359px calc(100% - 74.6528px), 0px calc(100% - 120px), 0px calc(100% - 120px), 0px calc(92.3077% - 101.5385px), 0px calc(84.6154% - 83.0769px), 0px calc(76.9231% - 64.6154px), 0px calc(69.2308% - 46.1538px), 0px calc(61.5385% - 27.6923px), 0px calc(53.8462% - 9.2308px), 0px calc(46.1538% + 9.2308px), 0px calc(38.4615% + 27.6923px), 0px calc(30.7692% + 46.1538px), 0px calc(23.0769% + 64.6154px), 0px calc(15.3846% + 83.0769px), 0px calc(7.6923% + 101.5385px), 0px 120px);
 
 
 }
@@ -233,104 +230,6 @@
     --typographyFootnote-tracking: var(--fontTracking-wide);
 
 
-}
-
-.typographyDisplay {
-    font-family: var(--typographyDisplay-family);
-    font-weight: var(--typographyDisplay-weight);
-    font-size: var(--typographyDisplay-size);
-    line-height: var(--typographyDisplay-leading);
-    letter-spacing: var(--typographyDisplay-tracking);
-}
-
-.typographyManifesto {
-    font-family: var(--typographyManifesto-family);
-    font-weight: var(--typographyManifesto-weight);
-    font-size: var(--typographyManifesto-size);
-    line-height: var(--typographyManifesto-leading);
-    letter-spacing: var(--typographyManifesto-tracking);
-}
-
-.typographyLargeTitle {
-    font-family: var(--typographyLargeTitle-family);
-    font-weight: var(--typographyLargeTitle-weight);
-    font-size: var(--typographyLargeTitle-size);
-    line-height: var(--typographyLargeTitle-leading);
-    letter-spacing: var(--typographyLargeTitle-tracking);
-}
-
-.typographyTitle {
-    font-family: var(--typographyTitle-family);
-    font-weight: var(--typographyTitle-weight);
-    font-size: var(--typographyTitle-size);
-    line-height: var(--typographyTitle-leading);
-    letter-spacing: var(--typographyTitle-tracking);
-}
-
-.typographyCallout {
-    font-family: var(--typographyCallout-family);
-    font-weight: var(--typographyCallout-weight);
-    font-size: var(--typographyCallout-size);
-    line-height: var(--typographyCallout-leading);
-    letter-spacing: var(--typographyCallout-tracking);
-}
-
-.typographyHeadline {
-    font-family: var(--typographyHeadline-family);
-    font-weight: var(--typographyHeadline-weight);
-    font-size: var(--typographyHeadline-size);
-    line-height: var(--typographyHeadline-leading);
-    letter-spacing: var(--typographyHeadline-tracking);
-}
-
-.typographyEyebrow {
-    font-family: var(--typographyEyebrow-family);
-    font-weight: var(--typographyEyebrow-weight);
-    font-size: var(--typographyEyebrow-size);
-    line-height: var(--typographyEyebrow-leading);
-    letter-spacing: var(--typographyEyebrow-tracking);
-}
-
-.typographyContent {
-    font-family: var(--typographyContent-family);
-    font-weight: var(--typographyContent-weight);
-    font-size: var(--typographyContent-size);
-    line-height: var(--typographyContent-leading);
-    letter-spacing: var(--typographyContent-tracking);
-}
-
-.typographyBody {
-    font-family: var(--typographyBody-family);
-    font-weight: var(--typographyBody-weight);
-    font-size: var(--typographyBody-size);
-    line-height: var(--typographyBody-leading);
-    letter-spacing: var(--typographyBody-tracking);
-}
-
-.typographyCaption {
-    font-family: var(--typographyCaption-family);
-    font-weight: var(--typographyCaption-weight);
-    font-size: var(--typographyCaption-size);
-    line-height: var(--typographyCaption-leading);
-    letter-spacing: var(--typographyCaption-tracking);
-}
-
-.typographyFootnote {
-    font-family: var(--typographyFootnote-family);
-    font-weight: var(--typographyFootnote-weight);
-    font-size: var(--typographyFootnote-size);
-    line-height: var(--typographyFootnote-leading);
-    letter-spacing: var(--typographyFootnote-tracking);
-}
-
-
-:root {
-    --cursor-default: url(../assets/cursor/cursor-default.svg);
-    --cursor-grab: url(../assets/cursor/cursor-grab.svg);
-    --cursor-grabbed: url(../assets/cursor/cursor-grabbed.svg);
-    --cursor-pointer: url(../assets/cursor/cursor-pointer.svg);
-    --cursor-not-allowed: url(../assets/cursor/cursor-not-allowed.svg);
-    --cursor-text: url(../assets/cursor/curson-text.svg);
 }
 
 
@@ -522,6 +421,95 @@
 }
 
 
+.typographyDisplay {
+    font-family: var(--typographyDisplay-family);
+    font-weight: var(--typographyDisplay-weight);
+    font-size: var(--typographyDisplay-size);
+    line-height: var(--typographyDisplay-leading);
+    letter-spacing: var(--typographyDisplay-tracking);
+}
+
+.typographyManifesto {
+    font-family: var(--typographyManifesto-family);
+    font-weight: var(--typographyManifesto-weight);
+    font-size: var(--typographyManifesto-size);
+    line-height: var(--typographyManifesto-leading);
+    letter-spacing: var(--typographyManifesto-tracking);
+}
+
+.typographyLargeTitle {
+    font-family: var(--typographyLargeTitle-family);
+    font-weight: var(--typographyLargeTitle-weight);
+    font-size: var(--typographyLargeTitle-size);
+    line-height: var(--typographyLargeTitle-leading);
+    letter-spacing: var(--typographyLargeTitle-tracking);
+}
+
+.typographyTitle {
+    font-family: var(--typographyTitle-family);
+    font-weight: var(--typographyTitle-weight);
+    font-size: var(--typographyTitle-size);
+    line-height: var(--typographyTitle-leading);
+    letter-spacing: var(--typographyTitle-tracking);
+}
+
+.typographyCallout {
+    font-family: var(--typographyCallout-family);
+    font-weight: var(--typographyCallout-weight);
+    font-size: var(--typographyCallout-size);
+    line-height: var(--typographyCallout-leading);
+    letter-spacing: var(--typographyCallout-tracking);
+}
+
+.typographyHeadline {
+    font-family: var(--typographyHeadline-family);
+    font-weight: var(--typographyHeadline-weight);
+    font-size: var(--typographyHeadline-size);
+    line-height: var(--typographyHeadline-leading);
+    letter-spacing: var(--typographyHeadline-tracking);
+}
+
+.typographyEyebrow {
+    font-family: var(--typographyEyebrow-family);
+    font-weight: var(--typographyEyebrow-weight);
+    font-size: var(--typographyEyebrow-size);
+    line-height: var(--typographyEyebrow-leading);
+    letter-spacing: var(--typographyEyebrow-tracking);
+}
+
+.typographyContent {
+    font-family: var(--typographyContent-family);
+    font-weight: var(--typographyContent-weight);
+    font-size: var(--typographyContent-size);
+    line-height: var(--typographyContent-leading);
+    letter-spacing: var(--typographyContent-tracking);
+}
+
+.typographyBody {
+    font-family: var(--typographyBody-family);
+    font-weight: var(--typographyBody-weight);
+    font-size: var(--typographyBody-size);
+    line-height: var(--typographyBody-leading);
+    letter-spacing: var(--typographyBody-tracking);
+}
+
+.typographyCaption {
+    font-family: var(--typographyCaption-family);
+    font-weight: var(--typographyCaption-weight);
+    font-size: var(--typographyCaption-size);
+    line-height: var(--typographyCaption-leading);
+    letter-spacing: var(--typographyCaption-tracking);
+}
+
+.typographyFootnote {
+    font-family: var(--typographyFootnote-family);
+    font-weight: var(--typographyFootnote-weight);
+    font-size: var(--typographyFootnote-size);
+    line-height: var(--typographyFootnote-leading);
+    letter-spacing: var(--typographyFootnote-tracking);
+}
+
+
 :root {
     --ease-linear: cubic-bezier(.25, .25, .75, .75);
     --ease-in-sine: cubic-bezier(.47, 0, .745, .715);
@@ -594,7 +582,9 @@
 .light {
 
 
-    --systemDisabled: 0.48;
+    --systemStateHover: 0.80;
+    --systemStateActive: 0.64;
+    --systemStateDisabled: 0.48;
 
 
     --systemBackgroundPrimary: rgb(255, 255, 255);
@@ -631,12 +621,12 @@
     --systemGlyphSecondary: rgba(0, 0, 0, 0.68);
     --systemGlyphTertiary: rgba(0, 0, 0, 0.44);
 
-    --systemMaterialUltrathick: rgba(250, 250, 250, 0.84);
-    --systemMaterialThick: rgba(250, 250, 250, 0.72);
-    --systemMaterialRegular: rgba(250, 250, 250, 0.60);
-    --systemMaterialThin: rgba(250, 250, 250, 0.48);
-    --systemMaterialUltrathin: rgba(250, 250, 250, 0.36);
-    --systemMaterial-idle: rgb(250, 250, 250);
+    --systemMaterialUltrathick: rgba(249, 248, 247, 0.84);
+    --systemMaterialThick: rgba(249, 248, 247, 0.72);
+    --systemMaterialRegular: rgba(249, 248, 247, 0.60);
+    --systemMaterialThin: rgba(249, 248, 247, 0.48);
+    --systemMaterialUltrathin: rgba(249, 248, 247, 0.36);
+    --systemMaterial-idle: rgb(249, 248, 247);
 
 
     --system-onRed: rgb(255, 255, 255);
@@ -683,7 +673,9 @@
 .dark {
 
 
-    --systemDisabled: 0.48;
+    --systemStateHover: 0.80;
+    --systemStateActive: 0.64;
+    --systemStateDisabled: 0.48;
 
 
     --systemBackgroundPrimary: rgb(25, 25, 25);
@@ -720,12 +712,12 @@
     --systemGlyphSecondary: rgba(255, 255, 255, 0.68);
     --systemGlyphTertiary: rgba(255, 255, 255, 0.44);
 
-    --systemMaterialUltrathick: rgba(20, 20, 20, 0.84);
-    --systemMaterialThick: rgba(20, 20, 20, 0.72);
-    --systemMaterialRegular: rgba(20, 20, 20, 0.60);
-    --systemMaterialThin: rgba(20, 20, 20, 0.48);
-    --systemMaterialUltrathin: rgba(20, 20, 20, 0.36);
-    --systemMaterial-idle: rgb(20, 20, 20);
+    --systemMaterialUltrathick: rgba(32, 32, 32, 0.84);
+    --systemMaterialThick: rgba(32, 32, 32, 0.72);
+    --systemMaterialRegular: rgba(32, 32, 32, 0.60);
+    --systemMaterialThin: rgba(32, 32, 32, 0.48);
+    --systemMaterialUltrathin: rgba(32, 32, 32, 0.36);
+    --systemMaterial-idle: rgb(32, 32, 32);
 
 
     --system-onRed: rgb(255, 255, 255);

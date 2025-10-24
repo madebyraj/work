@@ -247,11 +247,11 @@ main {
 }
 
 .gallery-item:hover .gallery-item-headline {
-  opacity: 0.8;
+  opacity: var(--systemStateHover);
 }
 
 .gallery-item:active .gallery-item-headline {
-  opacity: 0.64;
+  opacity: var(--systemStateActive);
 }
 
 .tile {
@@ -272,7 +272,9 @@ main {
   object-position: center;
   width: 100%;
   height: 100%;
-  clip-path: var(--shape-large);
+  border-radius: var(--borderRadius-xxLarge);
+  corner-shape: squircle;
+  corner-smoothing: 60%;
 }
 
 .gallery-item-information {
@@ -342,7 +344,7 @@ main {
 
 .paddlenav-icon.disabled {
   background: var(--systemFillTertiary);
-  opacity: var(--systemDisabled);
+  opacity: var(--systemStateDisabled);
   cursor: not-allowed;
 }
 
@@ -379,11 +381,11 @@ main {
 }
 
 .shipped-work-item:hover .shipped-work-tile-headline {
-  opacity: 0.8;
+  opacity: var(--systemStateHover);
 }
 
 .shipped-work-item:active .shipped-work-tile-headline {
-  opacity: 0.64;
+  opacity: var(--systemStateActive);
 }
 
 
@@ -397,7 +399,9 @@ main {
   width: 100%;
   height: 100%;
   aspect-ratio: 4/3;
-  clip-path: var(--shape-large);
+  border-radius: var(--borderRadius-xxLarge);
+  corner-shape: squircle;
+  corner-smoothing: 60%;
 }
 
 .shipped-work-tile-information {
@@ -463,10 +467,12 @@ main {
 
 .more-work-media {
   height: calc(512px - calc(128px + 16px));
-  clip-path: var(--shape-xSmall);
   object-fit: cover;
   object-position: center;
   flex: 0 0 auto;
+  border-radius: var(--borderRadius-small);
+  corner-shape: squircle;
+  corner-smoothing: 60%;
 }
 
 .get-in-touch-section {
@@ -487,9 +493,10 @@ main {
   gap: 48px;
   padding: 48px;
   background: var(--systemBackgroundSecondary);
-  border-radius: var(--borderRadius-xxLarge);
   overflow: hidden;
-  clip-path: var(--shape-large);
+  border-radius: var(--borderRadius-xxLarge);
+  corner-shape: squircle;
+  corner-smoothing: 60%;
 }
 
 .get-in-touch-media {
