@@ -1,21 +1,6 @@
 /* Linked CSS Files */
 
-@import url("./karma-semantics.css");
-@import url("./karma-typography&radius.css");
 @import url("./global.built.css");
-
-
-.light {
-  --globalfooter-background: var(--color-background-grouped);
-  --globalfooter-color: var(--color-foreground-subtle);
-}
-
-.dark {
-  --globalfooter-background: var(--color-background-grouped);
-  --globalfooter-color: var(--color-foreground-subtle);
-}
-
-/* footer Section */
 
 * {
   margin: 0;
@@ -27,14 +12,14 @@
   position: relative;
   z-index: 1;
   margin: auto;
-  background: var(--globalfooter-background);
+  background: var(--systemBackgroundSecondary);
   overflow: hidden;
   padding: 48px 0px;
 }
 
 .footer-container {
-  max-width: calc(var(--global-max-width) - calc(var(--viewport-margin) * 2));
-  padding: 0 var(--viewport-margin);
+  max-width: calc(var(--layoutWidth-maximum) - calc(var(--layoutMargin) * 2));
+  padding: 0 var(--layoutMargin);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -45,15 +30,15 @@
 }
 
 .design-and-code {
-  color: var(--globalfooter-color);
+  color: var(--systemGlyphTertiary);
 }
 
 /* Tablet */
 
-@media (max-width: 1068px) {
+@media (max-width: 1024px) {
 
   .footer-container {
-    padding: 0 var(--viewport-margin);
+    padding: 0 var(--layoutMargin);
     max-width: 100%;
   }
 
@@ -64,7 +49,7 @@
 @media (max-width: 767px) {
 
   .footer-container {
-    padding: 0 var(--viewport-margin);
+    padding: 0 var(--layoutMargin);
     max-width: 100%;
   }
 

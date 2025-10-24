@@ -1,28 +1,25 @@
 /* Linked CSS Files */
 
-@import url("./karma-semantics.css");
-@import url("./karma-typography&radius.css");
 @import url("./global.built.css");
 
 
 
 :root {
     --globalnav-height: 48px;
-    --globalnav-max-width: 1069px;
     --globalnav-opacity: 0.8;
     --globalnav-opacity-hover: 1;
 }
 
 .light {
-    --globalnav-background: rgba(255, 255, 255, 0.8);
-    --globalnav-background-opened: var(--color-background-elevated);
-    --globalnav-color: rgba(0, 0, 0);
+    --globalnav-background: var(--systemMaterialUltrathick);
+    --globalnav-background-opened: var(--systemMaterial-idle);
+    --globalnav-color: var(--systemGlyphPrimary);
 }
 
 .dark {
-    --globalnav-background: rgba(0, 0, 0, 0.8);
-    --globalnav-background-opened: var(--color-background-elevated);
-    --globalnav-color: rgba(255, 255, 255);
+    --globalnav-background: var(--systemMaterialUltrathick);
+    --globalnav-background-opened: var(--systemMaterial-idle);
+    --globalnav-color: var(--systemGlyphPrimary);
 }
 
 
@@ -76,8 +73,8 @@ body.no-scroll {
     align-items: center;
     justify-content: center;
     list-style: none;
-    max-width: var(--globalnav-max-width);
-    padding: 0 var(--viewport-margin);
+    max-width: var(--layoutWidth-maximum);
+    padding: 0 var(--layoutMargin);
     margin-right: auto;
     margin-left: auto;
 }
@@ -120,13 +117,12 @@ body.no-scroll {
 }
 
 .gn-link {
-    text-decoration: none;
-    font-family: var(--font-sans);
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-15);
-    letter-spacing: var(--letter-spacing-15);
-    line-height: var(--line-height-15);
-    text-transform: lowercase;
+    --glyphHeight: var(--scale-20);
+    font-family: var(--fontFamily-sans);
+    font-weight: var(--fontWeight-normal);
+    font-size: var(--fontSize-xxxSmall);
+    line-height: var(--glyphHeight);
+    letter-spacing: var(--fontTracking-none);
     color: var(--globalnav-color);
     opacity: var(--globalnav-opacity);
     height: var(--globalnav-height);
@@ -169,10 +165,10 @@ body.no-scroll {
 }
 
 
-@media (max-width: 1068px) {
+@media (max-width: 1024px) {
 
     .gn-content {
-        padding: 0 var(--viewport-margin);
+        padding: 0 var(--layoutMargin);
     }
 
 }
@@ -385,10 +381,12 @@ body.no-scroll {
     }
 
     .gn-link {
-        font-weight: var(--font-weight-semibold);
-        font-size: var(--font-size-40);
-        letter-spacing: var(--letter-spacing-40);
-        line-height: var(--line-height-40);
+        --glyphHeight: var(--scale-32);
+        font-family: var(--fontFamily-sans);
+        font-weight: var(--fontWeight-emphasized);
+        font-size: var(--fontSize-medium);
+        line-height: var(--glyphHeight);
+        letter-spacing: var(--fontTracking-tight);
         padding: 0;
     }
 
