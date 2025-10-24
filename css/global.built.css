@@ -60,15 +60,15 @@
     --fontLeading-large: 36px;
     --fontLeading-xLarge: 44px;
     --fontLeading-xxLarge: 52px;
-    --fontLeading-xxxLarge: 68px;
-    --fontLeading-xxxxLarge: 84px;
+    --fontLeading-xxxLarge: 64px;
+    --fontLeading-xxxxLarge: 80px;
 
 
-    --fontTracking-tighter: -0.3px;
+    --fontTracking-tighter: -0.25px;
     --fontTracking-tight: -0.13px;
     --fontTracking-none: 0;
     --fontTracking-wide: 0.13px;
-    --fontTracking-wider: 0.3px;
+    --fontTracking-wider: 0.25px;
 
 
     --fontWeight-normal: 400;

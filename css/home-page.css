@@ -528,9 +528,10 @@ main {
   justify-content: center;
   gap: var(--space-xxxSmall);
   padding: var(--space-xSmall) var(--space-small);
-  transition: all 0.5s var(--ease-out-elastic);
+  transition: background 0.5s var(--ease-out-elastic);
   color: var(--system-onBlue);
   background: var(--systemBlue);
+  border: var(--borderSize-1) solid var(--systemBlue);
   border-radius: var(--borderRadius-circle);
   cursor: pointer;
   user-select: none;
@@ -540,10 +541,12 @@ main {
 
 .button:hover {
   background: var(--systemBlue-hover);
+  border: var(--borderSize-1) solid var(--systemBlue-hover);
 }
 
 .button:active {
   background: var(--systemBlue-active);
+  border: var(--borderSize-1) solid var(--systemBlue-active);
 }
 
 .button:focus-visible {
