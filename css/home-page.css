@@ -174,14 +174,13 @@ main {
 :root {
   --grid-gap: 16px;
   --elastic-position-x: 0;
-  --viewport-content: calc(var(--layoutWidth-maximum) - calc(var(--layoutMargin) * 2));
+  --viewport-content: var(--layoutWidth-maximum);
   --grid-columns: 8;
-  --page-padding: 0px;
+  --page-padding: var(--layoutMargin);
   --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
   --offset-left: calc(50vw - (var(--viewport-content) / 2) + var(--col-width) + var(--grid-gap) + var(--page-padding));
   --offset-right: var(--offset-left);
   --aspect-ratio: 3 / 2;
-  --border-radius: 32px;
   --min-width: none;
   --width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 6 + 5 * var(--grid-gap));
 }
@@ -588,7 +587,7 @@ main {
     --elastic-position-x: 0;
     --viewport-content: 100vw;
     --grid-columns: 8;
-    --page-padding: 0px;
+    --page-padding: var(--layoutMargin);
     --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
     --offset-left: var(--layoutMargin);
     --offset-right: var(--offset-left);
@@ -650,12 +649,12 @@ main {
     --grid-gap: 16px;
     --elastic-position-x: 0;
     --viewport-content: 100vw;
-    --grid-columns: 10;
-    --page-padding: 0px;
+    --grid-columns: 9;
+    --page-padding: var(--layoutMargin);
     --col-width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 0 + -1 * var(--grid-gap));
     --offset-left: var(--layoutMargin);
     --offset-right: var(--offset-left);
-    --aspect-ratio: 4 / 5;
+    --aspect-ratio: 3 / 4;
     --min-width: none;
     --width: calc(calc(var(--viewport-content) - var(--page-padding) * 2 - calc(var(--grid-columns) - 1) * var(--grid-gap)) / var(--grid-columns) * 8 + 7 * var(--grid-gap));
   }
