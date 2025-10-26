@@ -140,14 +140,6 @@ main {
   fill: var(--systemGray);
 }
 
-.button-brand-tertiary:hover .button-brand-tertiary-icon path {
-  fill: var(--systemGray-hover);
-}
-
-.button-brand-tertiary:active .button-brand-tertiary-icon path {
-  fill: var(--systemGray-active);
-}
-
 :root {
   --grid-gap: 16px;
   --elastic-position-x: 0;
@@ -223,11 +215,7 @@ main {
 }
 
 .gallery-item:hover .gallery-item-headline {
-  color: var(--systemGray-hover);
-}
-
-.gallery-item:active .gallery-item-headline {
-  opacity: var(--systemGray-active);
+  text-decoration: underline;
 }
 
 .tile {
@@ -266,7 +254,6 @@ main {
 
 .gallery-item-headline {
   color: var(--systemGray);
-  transition: color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .paddlenav {
@@ -310,16 +297,8 @@ main {
   background: var(--systemTintGraySecondary);
 }
 
-.paddlenav-item:hover .paddlenav-icon path {
-  fill: var(--systemGray-hover);
-}
-
 .paddlenav-item:active {
   background: var(--systemTintGrayTertiary);
-}
-
-.paddlenav-item:active .paddlenav-icon path {
-  fill: var(--systemGray-active);
 }
 
 .paddlenav-item.disabled {
@@ -361,13 +340,8 @@ main {
 }
 
 .shipped-work-item:hover .shipped-work-tile-headline {
-  color: var(--systemGray-hover);
+  text-decoration: underline;
 }
-
-.shipped-work-item:active .shipped-work-tile-headline {
-  opacity: var(--systemGray-active);
-}
-
 
 .shipped-work-tile {
   position: relative;
@@ -396,7 +370,6 @@ main {
 
 .shipped-work-tile-headline {
   color: var(--systemGray);
-  transition: color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .reel-section {

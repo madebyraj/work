@@ -1,41 +1,41 @@
 @font-face {
-    font-family: "GT Super";
+    font-family: "PP Cirka";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/GTSuper-Regular.woff) format("woff");
+    src: url(../assets/fonts/PPCirka-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "GT Super";
+    font-family: "PP Cirka";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/GTSuper-Regular.woff) format("woff");
+    src: url(../assets/fonts/PPCirka-Semibold.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
+    font-family: "Proxima Nova";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/Sohne-Regular.woff) format("woff");
+    src: url(../assets/fonts/ProximaNova-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
+    font-family: "Proxima Nova";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/Sohne-Semibold.woff) format("woff");
+    src: url(../assets/fonts/ProximaNova-Semibold.woff) format("woff");
 }
 
 
 :root {
 
 
-    --fontFamily-serif: GT Super, serif;
-    --fontFamily-sans: Sohne, sans-serif;
+    --fontFamily-serif: PP Cirka, serif;
+    --fontFamily-sans: Proxima Nova, sans-serif;
     --fontFamily-mono: SF Mono, monospace;
 
 
