@@ -103,7 +103,7 @@ body.no-scroll {
     font-size: var(--fontSize-xxxSmall);
     line-height: var(--glyphHeight);
     letter-spacing: var(--fontTracking-none);
-    color: var(--systemGlyphPrimary);
+    color: var(--systemGray);
     height: var(--globalnav-height);
     position: relative;
     z-index: 1;
@@ -113,38 +113,58 @@ body.no-scroll {
     background: no-repeat;
     text-decoration: none;
     white-space: nowrap;
-    -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
 }
 
 .gn-link:hover {
-    opacity: var(--systemStateHover);
+    color: var(--systemGray-hover);
+}
+
+.gn-link:hover .gn-link-logo svg path {
+    fill: var(--systemGray-hover);
 }
 
 .gn-link:active {
-    opacity: var(--systemStateActive);
+    color: var(--systemGray-active);
 }
 
+
+
 .gn-link:focus {
-    opacity: var(--systemStateHover);
+    color: var(--systemGray-hover);
     -webkit-transition: none;
     transition: none;
     outline: none;
 }
+
+
 
 .gn-link-logo svg {
     height: 20px;
 }
 
 .gn-link-logo svg path {
-    fill: var(--systemGlyphPrimary);
+    fill: var(--systemGray);
+}
+
+.gn-link-logo svg path:hover {
+    fill: var(--systemGray-hover);
+}
+
+.gn-link-logo svg path:active {
+    fill: var(--systemGray-active);
+}
+
+.gn-link-logo svg path:focus {
+    fill: var(--systemGray-hover);
 }
 
 .current {
     cursor: not-allowed !important;
-    opacity: var(--systemStateDisabled) !important;
+    opacity: var(--systemDisabled) !important;
 }
 
 

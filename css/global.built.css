@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "PP Cirka";
+    font-family: "GT Super";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/PPCirka-Regular.woff) format("woff");
+    src: url(../assets/fonts/GTSuper-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "PP Cirka";
+    font-family: "GT Super";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/PPCirka-Semibold.woff) format("woff");
+    src: url(../assets/fonts/GTSuper-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -34,7 +34,7 @@
 :root {
 
 
-    --fontFamily-serif: PP Cirka, serif;
+    --fontFamily-serif: GT Super, serif;
     --fontFamily-sans: Sohne, sans-serif;
     --fontFamily-mono: SF Mono, monospace;
 
@@ -65,11 +65,11 @@
     --fontSize-xxxxLarge: 80px;
 
 
-    --fontTracking-tighter: -0.25px;
+    --fontTracking-tighter: -0.3px;
     --fontTracking-tight: -0.13px;
     --fontTracking-none: 0;
     --fontTracking-wide: 0.13px;
-    --fontTracking-wider: 0.25px;
+    --fontTracking-wider: 0.3px;
 
 
     --fontWeight-normal: 400;
@@ -149,7 +149,7 @@
 
 
     --layoutMargin: 96px;
-    --layoutWidth-maximum: 1280px;
+    --layoutWidth-maximum: 1152px;
     --layoutWidth-minimum: 1025px;
 
 
@@ -582,9 +582,7 @@
 .light {
 
 
-    --systemStateHover: 0.80;
-    --systemStateActive: 0.64;
-    --systemStateDisabled: 0.48;
+    --systemDisabled: 0.48;
 
 
     --systemBackgroundPrimary: rgb(255, 255, 255);
@@ -592,29 +590,33 @@
     --systemBackgroundTertiary: rgb(240, 239, 237);
 
 
+    --systemGray: rgb(18, 18, 18);
+    --systemGray-hover: rgb(43, 43, 43);
+    --systemGray-active: rgb(68, 68, 68);
+
     --systemRed: rgb(245, 42, 33);
     --systemRed-hover: rgb(220, 17, 8);
     --systemRed-active: rgb(255, 67, 58);
+
     --systemOrange: rgb(243, 136, 0);
     --systemOrange-hover: rgb(218, 111, 0);
     --systemOrange-active: rgb(255, 161, 25);
+
     --systemYellow: rgb(243, 193, 0);
     --systemYellow-hover: rgb(218, 168, 0);
     --systemYellow-active: rgb(255, 218, 25);
+
     --systemGreen: rgb(30, 192, 53);
     --systemGreen-hover: rgb(5, 167, 28);
     --systemGreen-active: rgb(55, 217, 78);
+
     --systemBlue: rgb(0, 110, 243);
     --systemBlue-hover: rgb(0, 85, 218);
     --systemBlue-active: rgb(25, 135, 255);
+
     --systemPurple: rgb(157, 72, 201);
     --systemPurple-hover: rgb(132, 47, 176);
     --systemPurple-active: rgb(182, 97, 226);
-
-
-    --systemFillPrimary: rgba(0, 0, 0, 0.28);
-    --systemFillSecondary: rgba(0, 0, 0, 0.16);
-    --systemFillTertiary: rgba(0, 0, 0, 0.08);
 
 
     --systemGlyphPrimary: rgba(0, 0, 0, 0.92);
@@ -629,18 +631,23 @@
     --systemMaterial-idle: rgb(249, 248, 247);
 
 
-    --system-onRed: rgb(255, 255, 255);
-    --system-onOrange: rgb(255, 255, 255);
-    --system-onYellow: rgb(0, 0, 0);
-    --system-onGreen: rgb(255, 255, 255);
-    --system-onBlue: rgb(255, 255, 255);
-    --system-onPurple: rgb(255, 255, 255);
+    --systemOnGary: rgb(255, 255, 255);
+    --systemOnRed: rgb(255, 255, 255);
+    --systemOnOrange: rgb(255, 255, 255);
+    --systemOnYellow: rgb(0, 0, 0);
+    --systemOnGreen: rgb(255, 255, 255);
+    --systemOnBlue: rgb(255, 255, 255);
+    --systemOnPurple: rgb(255, 255, 255);
 
 
     --systemBorderPrimary: rgba(0, 0, 0, 0.84);
     --systemBorderSecondary: rgba(0, 0, 0, 0.52);
     --systemBorderTertiary: rgba(0, 0, 0, 0.12);
 
+
+    --systemTintGrayPrimary: rgba(18, 18, 18, 0.28);
+    --systemTintGraySecondary: rgba(18, 18, 18, 0.16);
+    --systemTintGrayTertiary: rgba(18, 18, 18, 0.08);
 
     --systemTintRedPrimary: rgba(245, 42, 33, 0.28);
     --systemTintRedSecondary: rgba(245, 42, 33, 0.16);
@@ -673,39 +680,41 @@
 .dark {
 
 
-    --systemStateHover: 0.80;
-    --systemStateActive: 0.64;
-    --systemStateDisabled: 0.48;
+    --systemDisabled: 0.48;
 
 
-    --systemBackgroundPrimary: rgb(25, 25, 25);
-    --systemBackgroundSecondary: rgb(32, 32, 32);
-    --systemBackgroundTertiary: rgb(44, 44, 43);
+    --systemBackgroundPrimary: rgb(0, 0, 0);
+    --systemBackgroundSecondary: rgb(18, 18, 18);
+    --systemBackgroundTertiary: rgb(36, 36, 36);
 
+
+    --systemGray: rgb(249, 249, 249);
+    --systemGray-hover: rgb(224, 224, 224);
+    --systemGray-active: rgb(199, 199, 199);
 
     --systemRed: rgb(255, 77, 65);
     --systemRed-hover: rgb(255, 102, 90);
     --systemRed-active: rgb(230, 52, 40);
+
     --systemOrange: rgb(255, 167, 18);
     --systemOrange-hover: rgb(255, 192, 43);
     --systemOrange-active: rgb(230, 142, 0);
+
     --systemYellow: rgb(255, 222, 18);
     --systemYellow-hover: rgb(255, 247, 43);
     --systemYellow-active: rgb(230, 197, 0);
+
     --systemGreen: rgb(59, 225, 83);
     --systemGreen-hover: rgb(84, 250, 108);
     --systemGreen-active: rgb(34, 200, 58);
+
     --systemBlue: rgb(18, 139, 255);
     --systemBlue-hover: rgb(43, 164, 255);
     --systemBlue-active: rgb(0, 114, 230);
+
     --systemPurple: rgb(203, 100, 255);
     --systemPurple-hover: rgb(228, 125, 255);
     --systemPurple-active: rgb(178, 75, 230);
-
-
-    --systemFillPrimary: rgba(255, 255, 255, 0.28);
-    --systemFillSecondary: rgba(255, 255, 255, 0.16);
-    --systemFillTertiary: rgba(255, 255, 255, 0.08);
 
 
     --systemGlyphPrimary: rgba(255, 255, 255, 0.92);
@@ -720,18 +729,23 @@
     --systemMaterial-idle: rgb(32, 32, 32);
 
 
-    --system-onRed: rgb(255, 255, 255);
-    --system-onOrange: rgb(255, 255, 255);
-    --system-onYellow: rgb(0, 0, 0);
-    --system-onGreen: rgb(255, 255, 255);
-    --system-onBlue: rgb(255, 255, 255);
-    --system-onPurple: rgb(255, 255, 255);
+    --systemOnGary: rgb(0, 0, 0);
+    --systemOnRed: rgb(255, 255, 255);
+    --systemOnOrange: rgb(255, 255, 255);
+    --systemOnYellow: rgb(0, 0, 0);
+    --systemOnGreen: rgb(255, 255, 255);
+    --systemOnBlue: rgb(255, 255, 255);
+    --systemOnPurple: rgb(255, 255, 255);
 
 
     --systemBorderPrimary: rgba(255, 255, 255, 0.84);
     --systemBorderSecondary: rgba(255, 255, 255, 0.52);
     --systemBorderTertiary: rgba(255, 255, 255, 0.12);
 
+
+    --systemTintGrayPrimary: rgba(249, 249, 249, 0.28);
+    --systemTintGraySecondary: rgba(249, 249, 249, 0.16);
+    --systemTintGrayTertiary: rgba(249, 249, 249, 0.08);
 
     --systemTintRedPrimary: rgba(255, 77, 65, 0.28);
     --systemTintRedSecondary: rgba(255, 77, 65, 0.16);

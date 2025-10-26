@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const scrollContainer = document.querySelector(".scroll-container");
-  const leftPaddle = document.querySelector(".paddlenav-icon-chevronleft");
-  const rightPaddle = document.querySelector(".paddlenav-icon-chevronright");
+  const leftPaddle = document.querySelector(".paddlenav-item-left");
+  const rightPaddle = document.querySelector(".paddlenav-item-right");
   const galleryItems = document.querySelectorAll(".gallery-item");
 
   function getScrollAmount() {
