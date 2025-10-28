@@ -1,42 +1,58 @@
 @font-face {
-    font-family: "PP Cirka";
+    font-family: "Tiempos Headline";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/PPCirka-Regular.woff) format("woff");
+    src: url(../assets/fonts/TiemposHeadline-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "PP Cirka";
+    font-family: "Tiempos Headline";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/PPCirka-Semibold.woff) format("woff");
+    src: url(../assets/fonts/TiemposHeadline-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Proxima Nova";
+    font-family: "Geist";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/ProximaNova-Regular.woff) format("woff");
+    src: url(../assets/fonts/Geist-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Proxima Nova";
+    font-family: "Geist";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/ProximaNova-Semibold.woff) format("woff");
+    src: url(../assets/fonts/Geist-SemiBold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geist Mono";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 500;
+    src: url(../assets/fonts/GeistMono-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Geist Mono";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/GeistMono-SemiBold.woff) format("woff");
 }
 
 
 :root {
 
 
-    --fontFamily-serif: PP Cirka, serif;
-    --fontFamily-sans: Proxima Nova, sans-serif;
-    --fontFamily-mono: SF Mono, monospace;
+    --fontFamily-display: Tiempos Headline, serif;
+    --fontFamily-default: Geist, sans-serif;
+    --fontFamily-mono: Geist Mono, monospace;
 
 
     --fontLeading-xxxxSmall: 16px;
@@ -45,24 +61,24 @@
     --fontLeading-xSmall: 24px;
     --fontLeading-small: 28px;
     --fontLeading-medium: 32px;
-    --fontLeading-large: 36px;
-    --fontLeading-xLarge: 44px;
-    --fontLeading-xxLarge: 52px;
+    --fontLeading-large: 32px;
+    --fontLeading-xLarge: 40px;
+    --fontLeading-xxLarge: 48px;
     --fontLeading-xxxLarge: 64px;
     --fontLeading-xxxxLarge: 80px;
 
 
-    --fontSize-xxxxSmall: 13px;
-    --fontSize-xxxSmall: 15px;
-    --fontSize-xxSmall: 17px;
-    --fontSize-xSmall: 19px;
-    --fontSize-small: 21px;
-    --fontSize-medium: 25px;
-    --fontSize-large: 32px;
-    --fontSize-xLarge: 40px;
-    --fontSize-xxLarge: 48px;
-    --fontSize-xxxLarge: 64px;
-    --fontSize-xxxxLarge: 80px;
+    --fontSize-xxxxSmall: 12px;
+    --fontSize-xxxSmall: 14px;
+    --fontSize-xxSmall: 16px;
+    --fontSize-xSmall: 18px;
+    --fontSize-small: 20px;
+    --fontSize-medium: 24px;
+    --fontSize-large: 28px;
+    --fontSize-xLarge: 36px;
+    --fontSize-xxLarge: 44px;
+    --fontSize-xxxLarge: 60px;
+    --fontSize-xxxxLarge: 76px;
 
 
     --fontTracking-tighter: -0.3px;
@@ -153,81 +169,60 @@
     --layoutWidth-minimum: 1025px;
 
 
-    --typographyDisplay-family: var(--fontFamily-serif);
-    --typographyDisplay-weight: var(--fontWeight-emphasized);
-    --typographyDisplay-size: var(--fontSize-xxxxLarge);
-    --typographyDisplay-leading: var(--fontLeading-xxxxLarge);
-    --typographyDisplay-tracking: var(--fontTracking-tighter);
+    --typographyHeading1-family: var(--fontFamily-display);
+    --typographyHeading1-weight: var(--fontWeight-emphasized);
+    --typographyHeading1-size: var(--fontSize-xxxxLarge);
+    --typographyHeading1-leading: var(--fontLeading-xxxxLarge);
+    --typographyHeading1-tracking: var(--fontTracking-tighter);
 
 
-    --typographyManifesto-family: var(--fontFamily-serif);
-    --typographyManifesto-weight: var(--fontWeight-emphasized);
-    --typographyManifesto-size: var(--fontSize-xxxLarge);
-    --typographyManifesto-leading: var(--fontLeading-xxxLarge);
-    --typographyManifesto-tracking: var(--fontTracking-tighter);
+    --typographyHeading2-family: var(--fontFamily-display);
+    --typographyHeading2-weight: var(--fontWeight-emphasized);
+    --typographyHeading2-size: var(--fontSize-xxxLarge);
+    --typographyHeading2-leading: var(--fontLeading-xxxLarge);
+    --typographyHeading2-tracking: var(--fontTracking-tighter);
 
 
-    --typographyLargeTitle-family: var(--fontFamily-serif);
-    --typographyLargeTitle-weight: var(--fontWeight-emphasized);
-    --typographyLargeTitle-size: var(--fontSize-xxLarge);
-    --typographyLargeTitle-leading: var(--fontLeading-xxLarge);
-    --typographyLargeTitle-tracking: var(--fontTracking-tighter);
+    --typographyHeading3-family: var(--fontFamily-display);
+    --typographyHeading3-weight: var(--fontWeight-emphasized);
+    --typographyHeading3-size: var(--fontSize-xxLarge);
+    --typographyHeading3-leading: var(--fontLeading-xxLarge);
+    --typographyHeading3-tracking: var(--fontTracking-tighter);
 
 
-    --typographyTitle-family: var(--fontFamily-serif);
-    --typographyTitle-weight: var(--fontWeight-emphasized);
-    --typographyTitle-size: var(--fontSize-xLarge);
-    --typographyTitle-leading: var(--fontLeading-xLarge);
-    --typographyTitle-tracking: var(--fontTracking-tighter);
+    --typographyHeading4-family: var(--fontFamily-display);
+    --typographyHeading4-weight: var(--fontWeight-emphasized);
+    --typographyHeading4-size: var(--fontSize-xLarge);
+    --typographyHeading4-leading: var(--fontLeading-xLarge);
+    --typographyHeading4-tracking: var(--fontTracking-tight);
 
 
-    --typographyCallout-family: var(--fontFamily-sans);
-    --typographyCallout-weight: var(--fontWeight-emphasized);
-    --typographyCallout-size: var(--fontSize-large);
-    --typographyCallout-leading: var(--fontLeading-large);
-    --typographyCallout-tracking: var(--fontTracking-tighter);
+    --typographyHeading5-family: var(--fontFamily-display);
+    --typographyHeading5-weight: var(--fontWeight-emphasized);
+    --typographyHeading5-size: var(--fontSize-large);
+    --typographyHeading5-leading: var(--fontLeading-large);
+    --typographyHeading5-tracking: var(--fontTracking-tight);
 
 
-    --typographyHeadline-family: var(--fontFamily-serif);
-    --typographyHeadline-weight: var(--fontWeight-emphasized);
-    --typographyHeadline-size: var(--fontSize-medium);
-    --typographyHeadline-leading: var(--fontLeading-medium);
-    --typographyHeadline-tracking: var(--fontTracking-tight);
+    --typographyHeading6-family: var(--fontFamily-display);
+    --typographyHeading6-weight: var(--fontWeight-emphasized);
+    --typographyHeading6-size: var(--fontSize-medium);
+    --typographyHeading6-leading: var(--fontLeading-medium);
+    --typographyHeading6-tracking: var(--fontTracking-none);
 
 
-    --typographyEyebrow-family: var(--fontFamily-sans);
-    --typographyEyebrow-weight: var(--fontWeight-emphasized);
-    --typographyEyebrow-size: var(--fontSize-medium);
-    --typographyEyebrow-leading: var(--fontLeading-medium);
-    --typographyEyebrow-tracking: var(--fontTracking-none);
+    --typographyParagraph-family: var(--fontFamily-default);
+    --typographyParagraph-weight: var(--fontWeight-normal);
+    --typographyParagraph-size: var(--fontSize-xSmall);
+    --typographyParagraph-leading: var(--fontLeading-xSmall);
+    --typographyParagraph-tracking: var(--fontTracking-wide);
 
 
-    --typographyContent-family: var(--fontFamily-sans);
-    --typographyContent-weight: var(--fontWeight-normal);
-    --typographyContent-size: var(--fontSize-xSmall);
-    --typographyContent-leading: var(--fontLeading-xSmall);
-    --typographyContent-tracking: var(--fontTracking-tight);
-
-
-    --typographyBody-family: var(--fontFamily-sans);
-    --typographyBody-weight: var(--fontWeight-normal);
-    --typographyBody-size: var(--fontSize-xxSmall);
-    --typographyBody-leading: var(--fontLeading-xxSmall);
-    --typographyBody-tracking: var(--fontTracking-tight);
-
-
-    --typographyCaption-family: var(--fontFamily-sans);
-    --typographyCaption-weight: var(--fontWeight-normal);
-    --typographyCaption-size: var(--fontSize-xxxSmall);
-    --typographyCaption-leading: var(--fontLeading-xxxSmall);
-    --typographyCaption-tracking: var(--fontTracking-none);
-
-
-    --typographyFootnote-family: var(--fontFamily-sans);
-    --typographyFootnote-weight: var(--fontWeight-normal);
-    --typographyFootnote-size: var(--fontSize-xxxxSmall);
-    --typographyFootnote-leading: var(--fontLeading-xxxxSmall);
-    --typographyFootnote-tracking: var(--fontTracking-wide);
+    --typographySmall-family: var(--fontFamily-default);
+    --typographySmall-weight: var(--fontWeight-normal);
+    --typographySmall-size: var(--fontSize-xxSmall);
+    --typographySmall-leading: var(--fontLeading-xxSmall);
+    --typographySmall-tracking: var(--fontTracking-wide);
 
 
 }
@@ -244,81 +239,60 @@
         --layoutWidth-minimum: 768px;
 
 
-        --typographyDisplay-family: var(--fontFamily-serif);
-        --typographyDisplay-weight: var(--fontWeight-emphasized);
-        --typographyDisplay-size: var(--fontSize-xxxLarge);
-        --typographyDisplay-leading: var(--fontLeading-xxxLarge);
-        --typographyDisplay-tracking: var(--fontTracking-tighter);
+        --typographyHeading1-family: var(--fontFamily-display);
+        --typographyHeading1-weight: var(--fontWeight-emphasized);
+        --typographyHeading1-size: var(--fontSize-xxxLarge);
+        --typographyHeading1-leading: var(--fontLeading-xxxLarge);
+        --typographyHeading1-tracking: var(--fontTracking-tighter);
 
 
-        --typographyManifesto-family: var(--fontFamily-serif);
-        --typographyManifesto-weight: var(--fontWeight-emphasized);
-        --typographyManifesto-size: var(--fontSize-xxLarge);
-        --typographyManifesto-leading: var(--fontLeading-xxLarge);
-        --typographyManifesto-tracking: var(--fontTracking-tighter);
+        --typographyHeading2-family: var(--fontFamily-display);
+        --typographyHeading2-weight: var(--fontWeight-emphasized);
+        --typographyHeading2-size: var(--fontSize-xxLarge);
+        --typographyHeading2-leading: var(--fontLeading-xxLarge);
+        --typographyHeading2-tracking: var(--fontTracking-tighter);
 
 
-        --typographyLargeTitle-family: var(--fontFamily-serif);
-        --typographyLargeTitle-weight: var(--fontWeight-emphasized);
-        --typographyLargeTitle-size: var(--fontSize-xLarge);
-        --typographyLargeTitle-leading: var(--fontLeading-xLarge);
-        --typographyLargeTitle-tracking: var(--fontTracking-tighter);
+        --typographyHeading3-family: var(--fontFamily-display);
+        --typographyHeading3-weight: var(--fontWeight-emphasized);
+        --typographyHeading3-size: var(--fontSize-xLarge);
+        --typographyHeading3-leading: var(--fontLeading-xLarge);
+        --typographyHeading3-tracking: var(--fontTracking-tighter);
 
 
-        --typographyTitle-family: var(--fontFamily-serif);
-        --typographyTitle-weight: var(--fontWeight-emphasized);
-        --typographyTitle-size: var(--fontSize-large);
-        --typographyTitle-leading: var(--fontLeading-large);
-        --typographyTitle-tracking: var(--fontTracking-tighter);
+        --typographyHeading4-family: var(--fontFamily-display);
+        --typographyHeading4-weight: var(--fontWeight-emphasized);
+        --typographyHeading4-size: var(--fontSize-large);
+        --typographyHeading4-leading: var(--fontLeading-large);
+        --typographyHeading4-tracking: var(--fontTracking-tight);
 
 
-        --typographyCallout-family: var(--fontFamily-sans);
-        --typographyCallout-weight: var(--fontWeight-emphasized);
-        --typographyCallout-size: var(--fontSize-medium);
-        --typographyCallout-leading: var(--fontLeading-medium);
-        --typographyCallout-tracking: var(--fontTracking-tighter);
+        --typographyHeading5-family: var(--fontFamily-display);
+        --typographyHeading5-weight: var(--fontWeight-emphasized);
+        --typographyHeading5-size: var(--fontSize-medium);
+        --typographyHeading5-leading: var(--fontLeading-medium);
+        --typographyHeading5-tracking: var(--fontTracking-tight);
 
 
-        --typographyHeadline-family: var(--fontFamily-serif);
-        --typographyHeadline-weight: var(--fontWeight-emphasized);
-        --typographyHeadline-size: var(--fontSize-small);
-        --typographyHeadline-leading: var(--fontLeading-small);
-        --typographyHeadline-tracking: var(--fontTracking-tight);
+        --typographyHeading6-family: var(--fontFamily-display);
+        --typographyHeading6-weight: var(--fontWeight-emphasized);
+        --typographyHeading6-size: var(--fontSize-small);
+        --typographyHeading6-leading: var(--fontLeading-small);
+        --typographyHeading6-tracking: var(--fontTracking-none);
 
 
-        --typographyEyebrow-family: var(--fontFamily-sans);
-        --typographyEyebrow-weight: var(--fontWeight-emphasized);
-        --typographyEyebrow-size: var(--fontSize-small);
-        --typographyEyebrow-leading: var(--fontLeading-small);
-        --typographyEyebrow-tracking: var(--fontTracking-none);
+        --typographyParagraph-family: var(--fontFamily-default);
+        --typographyParagraph-weight: var(--fontWeight-normal);
+        --typographyParagraph-size: var(--fontSize-xSmall);
+        --typographyParagraph-leading: var(--fontLeading-xSmall);
+        --typographyParagraph-tracking: var(--fontTracking-wide);
 
 
-        --typographyContent-family: var(--fontFamily-sans);
-        --typographyContent-weight: var(--fontWeight-normal);
-        --typographyContent-size: var(--fontSize-xSmall);
-        --typographyContent-leading: var(--fontLeading-xSmall);
-        --typographyContent-tracking: var(--fontTracking-tight);
-
-
-        --typographyBody-family: var(--fontFamily-sans);
-        --typographyBody-weight: var(--fontWeight-normal);
-        --typographyBody-size: var(--fontSize-xxSmall);
-        --typographyBody-leading: var(--fontLeading-xSmall);
-        --typographyBody-tracking: var(--fontTracking-tight);
-
-
-        --typographyCaption-family: var(--fontFamily-sans);
-        --typographyCaption-weight: var(--fontWeight-normal);
-        --typographyCaption-size: var(--fontSize-xxxSmall);
-        --typographyCaption-leading: var(--fontLeading-xxxSmall);
-        --typographyCaption-tracking: var(--fontTracking-none);
-
-
-        --typographyFootnote-family: var(--fontFamily-sans);
-        --typographyFootnote-weight: var(--fontWeight-normal);
-        --typographyFootnote-size: var(--fontSize-xxxxSmall);
-        --typographyFootnote-leading: var(--fontLeading-xxxxSmall);
-        --typographyFootnote-tracking: var(--fontTracking-wide);
+        --typographySmall-family: var(--fontFamily-default);
+        --typographySmall-weight: var(--fontWeight-normal);
+        --typographySmall-size: var(--fontSize-xxSmall);
+        --typographySmall-leading: var(--fontLeading-xxSmall);
+        --typographySmall-tracking: var(--fontTracking-wide);
 
 
     }
@@ -338,81 +312,60 @@
         --layoutWidth-minimum: 320px;
 
 
-        --typographyDisplay-family: var(--fontFamily-serif);
-        --typographyDisplay-weight: var(--fontWeight-emphasized);
-        --typographyDisplay-size: var(--fontSize-xxLarge);
-        --typographyDisplay-leading: var(--fontLeading-xxLarge);
-        --typographyDisplay-tracking: var(--fontTracking-tighter);
+        --typographyHeading1-family: var(--fontFamily-display);
+        --typographyHeading1-weight: var(--fontWeight-emphasized);
+        --typographyHeading1-size: var(--fontSize-xxLarge);
+        --typographyHeading1-leading: var(--fontLeading-xxLarge);
+        --typographyHeading1-tracking: var(--fontTracking-tighter);
 
 
-        --typographyManifesto-family: var(--fontFamily-serif);
-        --typographyManifesto-weight: var(--fontWeight-emphasized);
-        --typographyManifesto-size: var(--fontSize-xLarge);
-        --typographyManifesto-leading: var(--fontLeading-xLarge);
-        --typographyManifesto-tracking: var(--fontTracking-tighter);
+        --typographyHeading2-family: var(--fontFamily-display);
+        --typographyHeading2-weight: var(--fontWeight-emphasized);
+        --typographyHeading2-size: var(--fontSize-xLarge);
+        --typographyHeading2-leading: var(--fontLeading-xLarge);
+        --typographyHeading2-tracking: var(--fontTracking-tighter);
 
 
-        --typographyLargeTitle-family: var(--fontFamily-serif);
-        --typographyLargeTitle-weight: var(--fontWeight-emphasized);
-        --typographyLargeTitle-size: var(--fontSize-large);
-        --typographyLargeTitle-leading: var(--fontLeading-large);
-        --typographyLargeTitle-tracking: var(--fontTracking-tighter);
+        --typographyHeading3-family: var(--fontFamily-display);
+        --typographyHeading3-weight: var(--fontWeight-emphasized);
+        --typographyHeading3-size: var(--fontSize-large);
+        --typographyHeading3-leading: var(--fontLeading-large);
+        --typographyHeading3-tracking: var(--fontTracking-tighter);
 
 
-        --typographyTitle-family: var(--fontFamily-serif);
-        --typographyTitle-weight: var(--fontWeight-emphasized);
-        --typographyTitle-size: var(--fontSize-large);
-        --typographyTitle-leading: var(--fontLeading-large);
-        --typographyTitle-tracking: var(--fontTracking-tighter);
+        --typographyHeading4-family: var(--fontFamily-display);
+        --typographyHeading4-weight: var(--fontWeight-emphasized);
+        --typographyHeading4-size: var(--fontSize-medium);
+        --typographyHeading4-leading: var(--fontLeading-medium);
+        --typographyHeading4-tracking: var(--fontTracking-tight);
 
 
-        --typographyCallout-family: var(--fontFamily-sans);
-        --typographyCallout-weight: var(--fontWeight-emphasized);
-        --typographyCallout-size: var(--fontSize-small);
-        --typographyCallout-leading: var(--fontLeading-small);
-        --typographyCallout-tracking: var(--fontTracking-tighter);
+        --typographyHeading5-family: var(--fontFamily-display);
+        --typographyHeading5-weight: var(--fontWeight-emphasized);
+        --typographyHeading5-size: var(--fontSize-small);
+        --typographyHeading5-leading: var(--fontLeading-small);
+        --typographyHeading5-tracking: var(--fontTracking-tight);
 
 
-        --typographyHeadline-family: var(--fontFamily-serif);
-        --typographyHeadline-weight: var(--fontWeight-emphasized);
-        --typographyHeadline-size: var(--fontSize-xSmall);
-        --typographyHeadline-leading: var(--fontLeading-xSmall);
-        --typographyHeadline-tracking: var(--fontTracking-tight);
+        --typographyHeading6-family: var(--fontFamily-display);
+        --typographyHeading6-weight: var(--fontWeight-emphasized);
+        --typographyHeading6-size: var(--fontSize-xSmall);
+        --typographyHeading6-leading: var(--fontLeading-xSmall);
+        --typographyHeading6-tracking: var(--fontTracking-none);
 
 
-        --typographyEyebrow-family: var(--fontFamily-sans);
-        --typographyEyebrow-weight: var(--fontWeight-emphasized);
-        --typographyEyebrow-size: var(--fontSize-xSmall);
-        --typographyEyebrow-leading: var(--fontLeading-xSmall);
-        --typographyEyebrow-tracking: var(--fontTracking-none);
+        --typographyParagraph-family: var(--fontFamily-default);
+        --typographyParagraph-weight: var(--fontWeight-normal);
+        --typographyParagraph-size: var(--fontSize-xSmall);
+        --typographyParagraph-leading: var(--fontLeading-xSmall);
+        --typographyParagraph-tracking: var(--fontTracking-wide);
 
 
-        --typographyContent-family: var(--fontFamily-sans);
-        --typographyContent-weight: var(--fontWeight-normal);
-        --typographyContent-size: var(--fontSize-xSmall);
-        --typographyContent-leading: var(--fontLeading-xSmall);
-        --typographyContent-tracking: var(--fontTracking-tight);
-
-
-        --typographyBody-family: var(--fontFamily-sans);
-        --typographyBody-weight: var(--fontWeight-normal);
-        --typographyBody-size: var(--fontSize-xxSmall);
-        --typographyBody-leading: var(--fontLeading-xxSmall);
-        --typographyBody-tracking: var(--fontTracking-tight);
-
-
-        --typographyCaption-family: var(--fontFamily-sans);
-        --typographyCaption-weight: var(--fontWeight-normal);
-        --typographyCaption-size: var(--fontSize-xxxSmall);
-        --typographyCaption-leading: var(--fontLeading-xxxSmall);
-        --typographyCaption-tracking: var(--fontTracking-none);
-
-
-        --typographyFootnote-family: var(--fontFamily-sans);
-        --typographyFootnote-weight: var(--fontWeight-normal);
-        --typographyFootnote-size: var(--fontSize-xxxxSmall);
-        --typographyFootnote-leading: var(--fontLeading-xxxxSmall);
-        --typographyFootnote-tracking: var(--fontTracking-wide);
+        --typographySmall-family: var(--fontFamily-default);
+        --typographySmall-weight: var(--fontWeight-normal);
+        --typographySmall-size: var(--fontSize-xxSmall);
+        --typographySmall-leading: var(--fontLeading-xxSmall);
+        --typographySmall-tracking: var(--fontTracking-wide);
 
 
     }
@@ -421,92 +374,78 @@
 }
 
 
-.typographyDisplay {
-    font-family: var(--typographyDisplay-family);
-    font-weight: var(--typographyDisplay-weight);
-    font-size: var(--typographyDisplay-size);
-    line-height: var(--typographyDisplay-leading);
-    letter-spacing: var(--typographyDisplay-tracking);
+h1 {
+    font-family: var(--typographyHeading1-family);
+    font-weight: var(--typographyHeading1-weight);
+    font-size: var(--typographyHeading1-size);
+    line-height: var(--typographyHeading1-leading);
+    letter-spacing: var(--typographyHeading1-tracking);
 }
 
-.typographyManifesto {
-    font-family: var(--typographyManifesto-family);
-    font-weight: var(--typographyManifesto-weight);
-    font-size: var(--typographyManifesto-size);
-    line-height: var(--typographyManifesto-leading);
-    letter-spacing: var(--typographyManifesto-tracking);
+
+h2 {
+    font-family: var(--typographyHeading2-family);
+    font-weight: var(--typographyHeading2-weight);
+    font-size: var(--typographyHeading2-size);
+    line-height: var(--typographyHeading2-leading);
+    letter-spacing: var(--typographyHeading2-tracking);
 }
 
-.typographyLargeTitle {
-    font-family: var(--typographyLargeTitle-family);
-    font-weight: var(--typographyLargeTitle-weight);
-    font-size: var(--typographyLargeTitle-size);
-    line-height: var(--typographyLargeTitle-leading);
-    letter-spacing: var(--typographyLargeTitle-tracking);
+
+h3 {
+    font-family: var(--typographyHeading3-family);
+    font-weight: var(--typographyHeading3-weight);
+    font-size: var(--typographyHeading3-size);
+    line-height: var(--typographyHeading3-leading);
+    letter-spacing: var(--typographyHeading3-tracking);
 }
 
-.typographyTitle {
-    font-family: var(--typographyTitle-family);
-    font-weight: var(--typographyTitle-weight);
-    font-size: var(--typographyTitle-size);
-    line-height: var(--typographyTitle-leading);
-    letter-spacing: var(--typographyTitle-tracking);
+
+h4 {
+    font-family: var(--typographyHeading4-family);
+    font-weight: var(--typographyHeading4-weight);
+    font-size: var(--typographyHeading4-size);
+    line-height: var(--typographyHeading4-leading);
+    letter-spacing: var(--typographyHeading4-tracking);
 }
 
-.typographyCallout {
-    font-family: var(--typographyCallout-family);
-    font-weight: var(--typographyCallout-weight);
-    font-size: var(--typographyCallout-size);
-    line-height: var(--typographyCallout-leading);
-    letter-spacing: var(--typographyCallout-tracking);
+
+h5 {
+    font-family: var(--typographyHeading5-family);
+    font-weight: var(--typographyHeading5-weight);
+    font-size: var(--typographyHeading5-size);
+    line-height: var(--typographyHeading5-leading);
+    letter-spacing: var(--typographyHeading5-tracking);
 }
 
-.typographyHeadline {
-    font-family: var(--typographyHeadline-family);
-    font-weight: var(--typographyHeadline-weight);
-    font-size: var(--typographyHeadline-size);
-    line-height: var(--typographyHeadline-leading);
-    letter-spacing: var(--typographyHeadline-tracking);
+
+h6 {
+    font-family: var(--typographyHeading6-family);
+    font-weight: var(--typographyHeading6-weight);
+    font-size: var(--typographyHeading6-size);
+    line-height: var(--typographyHeading6-leading);
+    letter-spacing: var(--typographyHeading6-tracking);
 }
 
-.typographyEyebrow {
-    font-family: var(--typographyEyebrow-family);
-    font-weight: var(--typographyEyebrow-weight);
-    font-size: var(--typographyEyebrow-size);
-    line-height: var(--typographyEyebrow-leading);
-    letter-spacing: var(--typographyEyebrow-tracking);
+
+p {
+    font-family: var(--typographyParagraph-family);
+    font-weight: var(--typographyParagraph-weight);
+    font-size: var(--typographyParagraph-size);
+    line-height: var(--typographyParagraph-leading);
+    letter-spacing: var(--typographyParagraph-tracking);
 }
 
-.typographyContent {
-    font-family: var(--typographyContent-family);
-    font-weight: var(--typographyContent-weight);
-    font-size: var(--typographyContent-size);
-    line-height: var(--typographyContent-leading);
-    letter-spacing: var(--typographyContent-tracking);
+small {
+    font-family: var(--typographySmall-family);
+    font-weight: var(--typographySmall-weight);
+    font-size: var(--typographySmall-size);
+    line-height: var(--typographySmall-leading);
+    letter-spacing: var(--typographySmall-tracking);
 }
 
-.typographyBody {
-    font-family: var(--typographyBody-family);
-    font-weight: var(--typographyBody-weight);
-    font-size: var(--typographyBody-size);
-    line-height: var(--typographyBody-leading);
-    letter-spacing: var(--typographyBody-tracking);
-}
-
-.typographyCaption {
-    font-family: var(--typographyCaption-family);
-    font-weight: var(--typographyCaption-weight);
-    font-size: var(--typographyCaption-size);
-    line-height: var(--typographyCaption-leading);
-    letter-spacing: var(--typographyCaption-tracking);
-}
-
-.typographyFootnote {
-    font-family: var(--typographyFootnote-family);
-    font-weight: var(--typographyFootnote-weight);
-    font-size: var(--typographyFootnote-size);
-    line-height: var(--typographyFootnote-leading);
-    letter-spacing: var(--typographyFootnote-tracking);
+b {
+    font-weight: var(--fontWeight-emphasized);
 }
 
 
@@ -586,13 +525,13 @@
 
 
     --systemBackgroundPrimary: rgb(255, 255, 255);
-    --systemBackgroundSecondary: rgb(249, 248, 247);
-    --systemBackgroundTertiary: rgb(240, 239, 237);
+    --systemBackgroundSecondary: rgb(249, 249, 249);
+    --systemBackgroundTertiary: rgb(242, 242, 242);
 
 
-    --systemGray: rgb(18, 18, 18);
-    --systemGray-hover: rgb(43, 43, 43);
-    --systemGray-active: rgb(68, 68, 68);
+    --systemGray: rgb(36, 36, 36);
+    --systemGray-hover: rgb(61, 61, 61);
+    --systemGray-active: rgb(86, 86, 86);
 
     --systemRed: rgb(245, 42, 33);
     --systemRed-hover: rgb(220, 17, 8);
@@ -623,12 +562,12 @@
     --systemGlyphSecondary: rgba(0, 0, 0, 0.68);
     --systemGlyphTertiary: rgba(0, 0, 0, 0.44);
 
-    --systemMaterialUltrathick: rgba(249, 248, 247, 0.84);
-    --systemMaterialThick: rgba(249, 248, 247, 0.72);
-    --systemMaterialRegular: rgba(249, 248, 247, 0.60);
-    --systemMaterialThin: rgba(249, 248, 247, 0.48);
-    --systemMaterialUltrathin: rgba(249, 248, 247, 0.36);
-    --systemMaterial-idle: rgb(249, 248, 247);
+    --systemMaterialUltrathick: rgba(242, 242, 242, 0.84);
+    --systemMaterialThick: rgba(242, 242, 242, 0.72);
+    --systemMaterialRegular: rgba(242, 242, 242, 0.60);
+    --systemMaterialThin: rgba(242, 242, 242, 0.48);
+    --systemMaterialUltrathin: rgba(242, 242, 242, 0.36);
+    --systemMaterial-idle: rgb(242, 242, 242);
 
 
     --systemOnGary: rgb(255, 255, 255);
@@ -645,9 +584,9 @@
     --systemBorderTertiary: rgba(0, 0, 0, 0.12);
 
 
-    --systemTintGrayPrimary: rgba(18, 18, 18, 0.28);
-    --systemTintGraySecondary: rgba(18, 18, 18, 0.16);
-    --systemTintGrayTertiary: rgba(18, 18, 18, 0.08);
+    --systemTintGrayPrimary: rgba(36, 36, 36, 0.28);
+    --systemTintGraySecondary: rgba(36, 36, 36, 0.16);
+    --systemTintGrayTertiary: rgba(36, 36, 36, 0.08);
 
     --systemTintRedPrimary: rgba(245, 42, 33, 0.28);
     --systemTintRedSecondary: rgba(245, 42, 33, 0.16);
@@ -688,9 +627,9 @@
     --systemBackgroundTertiary: rgb(36, 36, 36);
 
 
-    --systemGray: rgb(249, 249, 249);
-    --systemGray-hover: rgb(224, 224, 224);
-    --systemGray-active: rgb(199, 199, 199);
+    --systemGray: rgb(242, 242, 242);
+    --systemGray-hover: rgb(217, 217, 217);
+    --systemGray-active: rgb(192, 192, 192);
 
     --systemRed: rgb(255, 77, 65);
     --systemRed-hover: rgb(255, 102, 90);
@@ -721,12 +660,12 @@
     --systemGlyphSecondary: rgba(255, 255, 255, 0.68);
     --systemGlyphTertiary: rgba(255, 255, 255, 0.44);
 
-    --systemMaterialUltrathick: rgba(32, 32, 32, 0.84);
-    --systemMaterialThick: rgba(32, 32, 32, 0.72);
-    --systemMaterialRegular: rgba(32, 32, 32, 0.60);
-    --systemMaterialThin: rgba(32, 32, 32, 0.48);
-    --systemMaterialUltrathin: rgba(32, 32, 32, 0.36);
-    --systemMaterial-idle: rgb(32, 32, 32);
+    --systemMaterialUltrathick: rgba(36, 36, 36, 0.84);
+    --systemMaterialThick: rgba(36, 36, 36, 0.72);
+    --systemMaterialRegular: rgba(36, 36, 36, 0.60);
+    --systemMaterialThin: rgba(36, 36, 36, 0.48);
+    --systemMaterialUltrathin: rgba(36, 36, 36, 0.36);
+    --systemMaterial-idle: rgb(36, 36, 36);
 
 
     --systemOnGary: rgb(0, 0, 0);

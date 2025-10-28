@@ -98,11 +98,11 @@ body.no-scroll {
 
 .gn-link {
     --glyphHeight: var(--scale-20);
-    font-family: var(--fontFamily-sans);
+    font-family: var(--fontFamily-default);
     font-weight: var(--fontWeight-normal);
     font-size: var(--fontSize-xxxSmall);
     line-height: var(--glyphHeight);
-    letter-spacing: var(--fontTracking-none);
+    letter-spacing: var(--fontTracking-tight);
     color: var(--systemGray);
     height: var(--globalnav-height);
     position: relative;
@@ -385,11 +385,8 @@ body.no-scroll {
 
     .gn-link {
         --glyphHeight: var(--scale-32);
-        font-family: var(--fontFamily-sans);
         font-weight: var(--fontWeight-emphasized);
         font-size: var(--fontSize-medium);
-        line-height: var(--glyphHeight);
-        letter-spacing: var(--fontTracking-tight);
         padding: 0;
     }
 

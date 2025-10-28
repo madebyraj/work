@@ -254,6 +254,12 @@ main {
 
 .gallery-item-headline {
   color: var(--systemGray);
+  --glyphHeight: var(--scale-24);
+  font-family: var(--fontFamily-default);
+  font-weight: var(--fontWeight-emphasized);
+  font-size: var(--fontSize-small);
+  line-height: var(--glyphHeight);
+  letter-spacing: var(--fontTracking-tight);
 }
 
 .paddlenav {
@@ -261,7 +267,7 @@ main {
   align-items: center;
   justify-content: end;
   margin: auto;
-  max-width: var(--layoutWidth-maximum) ;
+  max-width: var(--layoutWidth-maximum);
   padding: 0 var(--layoutMargin);
   width: 100%;
 }
@@ -370,6 +376,12 @@ main {
 
 .shipped-work-tile-headline {
   color: var(--systemGray);
+  --glyphHeight: var(--scale-24);
+  font-family: var(--fontFamily-default);
+  font-weight: var(--fontWeight-emphasized);
+  font-size: var(--fontSize-small);
+  line-height: var(--glyphHeight);
+  letter-spacing: var(--fontTracking-tight);
 }
 
 .reel-section {
@@ -477,7 +489,7 @@ main {
 
 .button {
   --glyphHeight: var(--scale-20);
-  font-family: var(--fontFamily-sans);
+  font-family: var(--fontFamily-default);
   font-weight: var(--fontWeight-normal);
   font-size: var(--fontSize-xxSmall);
   line-height: var(--glyphHeight);
