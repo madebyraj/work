@@ -1132,3 +1132,43 @@ main {
     font: var(--link-xxxs);
   }
 }
+
+
+
+
+:root {
+    --brandSnow: rgb(255, 255, 255);
+    --brandVoid: rgb(0, 0, 0);
+    --brandViolet: #8876fe;
+    --brandIndigo: #622aff;
+    --brandGrape: #6e21e6;
+    --brandPlum: #8d1287;
+    --brandAzalea: #e71ee6;
+    --brandMagenta: #dd04d1;
+    --brandTomato: #f63e54;
+    --brandGuava: #fb4d66;
+    --brandTangelo: #ff3e17;
+    --brandCoral: #f95c30;
+    --brandPersimmon: #e94b1b;
+    --brandPumpkin: #e2620c;
+    --brandOrange: #e66702;
+    --brandVerdant: #29d246;
+    --brandBrightGreen: #00d436;
+    --brandNewGreen: #13be54;
+    --brandAvocado: #73b439;
+    --brandGreen: #0c9d46;
+    --brandBlueGreen: #26c2ac;
+    --brandPeacockGreen: #14b1a1;
+    --brandSeaGreen: #099b9d;
+    --brandTealGreen: #2b9ca1;
+    --brandAqua: #039e8f;
+    --brandTeal: #049cb7;
+    --brandPoolBlue: #00c2ee;
+    --brandAzure: #027fff;
+    --brandSparkleBlue: #007aff;
+    --brandDenim: #0056d2;
+    --brandCobalt: #5451fb;
+    --brandSapphire: #3d44c3;
+    --brandNight: #23466c;
+    --brandUltramarine: #0d1387;
+}
