@@ -32,37 +32,66 @@
 
 <body class="dark">
 
-  <nav class="header dark">
-    <div class="headerBackground">
-      <div class="headerContent">
-        <div class="headerAction">
-          <div class="headerLogo">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 28" class="logo">
-              <path d="M12.32 0L24.64 7V21L12.32 28L0 21V7L12.32 0Z" fill-opacity="0.5" />
-              <path d="M0 7L12.32 13.3V28L0 21V7Z" fill-opacity="0.75" />
-              <path d="M24.64 7L12.32 13.3V28L24.64 21V7Z" fill-opacity="1" />
-            </svg>
-          </div>
-          <div class="headerControl">
-            Menu
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="headerExpand">
-              <path
-                d="M4.375 14.375V9C4.375 8.65482 4.65482 8.375 5 8.375C5.34518 8.375 5.625 8.65482 5.625 9V14.375H11C11.3452 14.375 11.625 14.6548 11.625 15C11.625 15.3452 11.3452 15.625 11 15.625H5.625C4.93464 15.625 4.375 15.0654 4.375 14.375ZM14.375 11V5.625H9C8.65482 5.625 8.375 5.34518 8.375 5C8.375 4.65482 8.65482 4.375 9 4.375H14.375C15.0654 4.375 15.625 4.93464 15.625 5.625V11C15.625 11.3452 15.3452 11.625 15 11.625C14.6548 11.625 14.375 11.3452 14.375 11Z" />
-            </svg>
-          </div>
-        </div>
-        <div class="headerNavigation">
-          <a class="headerTab" href="./">
-            Home
-          </a>
-          <a class="headerTab" href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing"
-            target="_blank">
-            Resume
-          </a>
-        </div>
+  <div class="headerWrapper dark">
+    <div class="headerWrapperBackground">
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 1; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%); pointer-events: none; backdrop-filter: blur(0.390625px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 2; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgba(0, 0, 0, 0) 50%); pointer-events: none; backdrop-filter: blur(0.78125px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 3; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 62.5%); pointer-events: none; backdrop-filter: blur(1.5625px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 4; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgba(0, 0, 0, 0) 75%); pointer-events: none; backdrop-filter: blur(3.125px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 5; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 87.5%); pointer-events: none; backdrop-filter: blur(6.25px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 6; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(12.5px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 7; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgb(0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(25px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 8; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 87.5%, rgb(0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(50px); will-change: auto;">
       </div>
     </div>
-  </nav>
+    <nav class="header">
+      <div class="headerBackground">
+        <div class="headerContent">
+          <div class="headerAction">
+            <div class="headerLogo">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 28" class="logo">
+                <path d="M12.32 0L24.64 7V21L12.32 28L0 21V7L12.32 0Z" fill-opacity="0.5" />
+                <path d="M0 7L12.32 13.3V28L0 21V7Z" fill-opacity="0.75" />
+                <path d="M24.64 7L12.32 13.3V28L24.64 21V7Z" fill-opacity="1" />
+              </svg>
+            </div>
+            <div class="headerControl">
+              Menu
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="headerExpand">
+                <path
+                  d="M4.375 14.375V9C4.375 8.65482 4.65482 8.375 5 8.375C5.34518 8.375 5.625 8.65482 5.625 9V14.375H11C11.3452 14.375 11.625 14.6548 11.625 15C11.625 15.3452 11.3452 15.625 11 15.625H5.625C4.93464 15.625 4.375 15.0654 4.375 14.375ZM14.375 11V5.625H9C8.65482 5.625 8.375 5.34518 8.375 5C8.375 4.65482 8.65482 4.375 9 4.375H14.375C15.0654 4.375 15.625 4.93464 15.625 5.625V11C15.625 11.3452 15.3452 11.625 15 11.625C14.6548 11.625 14.375 11.3452 14.375 11Z" />
+              </svg>
+            </div>
+          </div>
+          <div class="headerNavigation">
+            <a class="headerTab" href="./">
+              Home
+            </a>
+            <a class="headerTab"
+              href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing" target="_blank">
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
 
   <main>
 

@@ -2,16 +2,32 @@
 
 @import url("./global.built.css");
 
-.header {
+.headerWrapper {
     position: fixed;
     z-index: 999;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 144px;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    height: calc(44px + 40px);
+}
+
+.headerWrapperBackground {
+    position: absolute;
+    inset: 0;
+    overflow: hidden
+}
+
+.header {
+    margin: auto;
+    z-index: 9999;
+    width: calc(288px - 128px);
     user-select: none;
     transition: width 0.5s var(--ease-in-out-circ), height 0.5s var(--ease-in-out-circ);
-    height: 40px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +35,14 @@
 
 .header.headerExpanded {
     width: 288px;
-    height: 56px;
+    height: 60px;
 }
 
 .headerBackground {
     width: 100%;
     height: 100%;
     background: var(--systemMaterialUltrathick);
-    backdrop-filter: blur(50px);
+    backdrop-filter: saturate(180%) blur(25px);
     transition: width 0.5s var(--ease-in-out-circ), height 0.5s var(--ease-in-out-circ);
     border-radius: 32px;
     box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.16), 0px 8px 16px -4px rgba(0, 0, 0, 0.08), 0px 0px 0px 1px rgba(0, 0, 0, 0.02), inset 0.5px 0.5px 0 rgba(255, 255, 255, 0.16), inset -0.5px -0.5px 0 rgba(255, 255, 255, 0.12);
@@ -48,7 +64,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 4px;
+    padding: 4px;
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s var(--ease-linear) 0.5s;
@@ -70,7 +86,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 2px 4px;
+    padding: 4px;
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -114,6 +130,7 @@
     justify-content: center;
     gap: 2px;
     transition: color 0.25s var(--ease-linear);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .headerControl svg {
@@ -146,6 +163,7 @@
     width: 100%;
     border-radius: 24px;
     transition: background 0.25s var(--ease-linear);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .headerTab:hover {

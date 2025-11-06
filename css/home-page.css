@@ -502,8 +502,8 @@ main {
   gap: var(--space-xxxSmall);
   padding: var(--space-xSmall) var(--space-small);
   transition: background 0.5s var(--ease-out-elastic);
-  color: var(--systemOnBlue);
-  background: var(--systemBlue);
+  color: var(--systemOnOrange);
+  background: var(--systemOrange);
   border-radius: var(--borderRadius-circle);
   cursor: pointer;
   user-select: none;
@@ -512,11 +512,11 @@ main {
 }
 
 .button:hover {
-  background: var(--systemBlue-hover);
+  background: var(--systemOrange-hover);
 }
 
 .button:active {
-  background: var(--systemBlue-active);
+  background: var(--systemOrange-active);
 }
 
 .button:focus-visible {
