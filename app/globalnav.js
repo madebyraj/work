@@ -6,7 +6,8 @@ const globalNav = document.querySelector(".globalnav");
 globalNavMenuIcon.addEventListener("click", () => {
   globalNav.classList.toggle("active");
 
-  // Disable scroll when nav is active
+// Disable scroll when nav is active
+
   if (globalNav.classList.contains("active")) {
     document.body.classList.add("no-scroll");
   } else {
@@ -96,6 +97,7 @@ function updateNavbarBackground() {
 }
 
 // Combined scroll event handler
+
 function handleScroll() {
   updateNavbarBackground();
   handleNavbarScroll();
@@ -104,3 +106,99 @@ function handleScroll() {
 
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("load", updateNavbarTheme);
+
+// Html
+
+<nav class="globalnav">
+  <div class="gn-background">
+    <div class="gn-content">
+      <ul class="gn-header">
+        <li class="gn-item gn-menuicon">
+          <label class="gn-menuicon-label" for="gn-menustate">
+            <span class="gn-menuicon-bread gn-menuicon-bread-top">
+              <span class="gn-menuicon-bread-crust gn-menuicon-bread-crust-top"></span>
+            </span>
+            <span class="gn-menuicon-bread gn-menuicon-bread-bottom">
+              <span class="gn-menuicon-bread-crust gn-menuicon-bread-crust-bottom"></span>
+            </span>
+          </label>
+        </li>
+        <li class="gn-item gn-logo">
+          <a class="gn-link gn-link-logo" href="./">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 28">
+              <path
+                d="M12.32 0L24.64 7V21L12.32 28L0 21V7L12.32 0Z"
+                fill-opacity="0.5"
+              />
+              <path d="M0 7L12.32 13.3V28L0 21V7Z" fill-opacity="0.75" />
+              <path d="M24.64 7L12.32 13.3V28L24.64 21V7Z" fill-opacity="1" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <ul class="gn-list">
+        <li class="gn-item gn-logo">
+          <a class="gn-link gn-link-logo" href="./">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 28">
+              <path
+                d="M12.32 0L24.64 7V21L12.32 28L0 21V7L12.32 0Z"
+                fill-opacity="0.5"
+              />
+              <path d="M0 7L12.32 13.3V28L0 21V7Z" fill-opacity="0.75" />
+              <path d="M24.64 7L12.32 13.3V28L24.64 21V7Z" fill-opacity="1" />
+            </svg>
+          </a>
+        </li>
+        <li class="gn-item gn-item-menu gn-twitter">
+          <a
+            class="gn-link gn-link-twitter"
+            href="https://x.com/madebyraj__"
+            target="_blank"
+            aria-label="Click Here to connect with me on X (Twitter)"
+          >
+            Twitter
+          </a>
+        </li>
+        <li class="gn-item gn-item-menu gn-instagram">
+          <a
+            class="gn-link gn-link-instagram"
+            href="https://www.instagram.com/madebyraj__/"
+            target="_blank"
+            aria-label="Click Here to connect with me on Instagram"
+          >
+            Instagram
+          </a>
+        </li>
+        <li class="gn-item gn-item-menu gn-linkedin">
+          <a
+            class="gn-link gn-link-linkedin"
+            href="https://www.linkedin.com/in/madebyraj"
+            target="_blank"
+            aria-label="Click Here to connect with me on Linkedin"
+          >
+            Linkedin
+          </a>
+        </li>
+        <li class="gn-item gn-item-menu gn-mail">
+          <a
+            class="gn-link gn-link-mail"
+            href="mailto:hi.madebyraj@gmail.com"
+            target="_blank"
+            aria-label="Click Here to connect with me through mail"
+          >
+            Mail
+          </a>
+        </li>
+        <li class="gn-item gn-item-menu gn-resume">
+          <a
+            class="gn-link gn-link-resume"
+            href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>;

@@ -52,7 +52,6 @@ main {
   background: linear-gradient(to bottom, rgb(241, 59, 108), rgb(211, 17, 48));
   transition: background 2s ease-in-out;
   position: relative;
-  padding: var(--globalnav-height) 0 0 0;
 }
 
 .hero-section-before {
