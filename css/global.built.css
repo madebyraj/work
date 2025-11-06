@@ -165,7 +165,7 @@
 
 
     --layoutMargin: 96px;
-    --layoutWidth-maximum: 1152px;
+    --layoutWidth-maximum: 1280px;
     --layoutWidth-minimum: 1025px;
 
 
@@ -492,8 +492,8 @@ b {
 
 
     --systemGray: rgb(29, 29, 31);
-    --systemGray-hover: rgb(54, 54, 56);
-    --systemGray-active: rgb(79, 79, 81);
+    --systemGray-hover: rgb(79, 79, 81);
+    --systemGray-active: rgb(129, 129, 131);
 
     --systemRed: rgb(245, 42, 33);
     --systemRed-hover: rgb(220, 17, 8);
@@ -590,8 +590,8 @@ b {
 
 
     --systemGray: rgb(245, 245, 247);
-    --systemGray-hover: rgb(220, 220, 222);
-    --systemGray-active: rgb(195, 195, 197);
+    --systemGray-hover: rgb(195, 195, 197);
+    --systemGray-active: rgb(145, 145, 147);
 
     --systemRed: rgb(255, 77, 65);
     --systemRed-hover: rgb(255, 102, 90);
