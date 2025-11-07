@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: var(--systemBackgroundPrimary);
+  background: var(--systemFillPrimary);
   color: var(--systemGlyphPrimary);
   animation: pageLoading 1s var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
@@ -54,7 +54,7 @@ main {
   position: relative;
 }
 
-.hero-section-before {
+.hero-section-content {
   height: min-content;
   max-width: var(--layoutWidth-maximum);
   width: 100%;
@@ -109,20 +109,20 @@ main {
   text-decoration: none;
   padding: 12px;
   border-radius: var(--borderRadius-circle);
-  border: var(--borderSize-1) solid var(--systemTintGraySecondary);
+  border: var(--borderSize-1) solid var(--systemTintNeutralSecondary);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: all 0.5s var(--ease-out-elastic);
+  transition: all 0.25s var(--ease-linear);
 }
 
 .button-brand-tertiary:hover {
-  border-color: var(--systemTintGrayPrimary);
+  border-color: var(--systemTintNeutralPrimary);
 }
 
 .button-brand-tertiary:active {
-  border-color: var(--systemTintGraySecondary);
+  border-color: var(--systemTintNeutralSecondary);
 }
 
 .button-brand-tertiary:focus-visible {
@@ -136,12 +136,12 @@ main {
 }
 
 .button-brand-tertiary-icon path {
-  fill: var(--systemGray);
+  fill: var(--systemNeutral);
 }
 
 .recent-work {
   padding: 128px 0;
-  background: var(--systemBackgroundSecondary);
+  background: var(--systemTintSupportiveTertiary);
 }
 
 .recent-work-content {
@@ -179,11 +179,11 @@ main {
 }
 
 .project:hover .project-headline {
-  color: var(--systemGray-hover);
+  color: var(--systemNeutral-hover);
 }
 
 .project:active .project-headline {
-  color: var(--systemGray-active);
+  color: var(--systemNeutral-active);
 }
 
 .project-media {
@@ -199,7 +199,6 @@ main {
   border-radius: var(--borderRadius-xxLarge);
   corner-shape: squircle;
   corner-smoothing: 60%;
-  border: var(--borderSize-1) solid var(--systemBorderTertiary);
 }
 
 .project-information {
@@ -213,7 +212,7 @@ main {
 }
 
 .project-headline {
-  color: var(--systemGray);
+  color: var(--systemNeutral);
   --glyphHeight: var(--scale-24);
   font-family: var(--fontFamily-default);
   font-weight: var(--fontWeight-emphasized);
@@ -225,7 +224,7 @@ main {
 
 .shipped-work-section {
   padding: 128px 0;
-  background: var(--systemBackgroundPrimary);
+  background: var(--systemFillPrimary);
 }
 
 .shipped-work-section-content {
@@ -258,11 +257,11 @@ main {
 }
 
 .shipped-work-item:hover .shipped-work-tile-headline {
-  color: var(--systemGray-hover);
+  color: var(--systemNeutral-hover);
 }
 
 .shipped-work-item:active .shipped-work-tile-headline {
-  color: var(--systemGray-active);
+  color: var(--systemNeutral-active);
 }
 
 .shipped-work-tile {
@@ -278,7 +277,6 @@ main {
   border-radius: var(--borderRadius-xxLarge);
   corner-shape: squircle;
   corner-smoothing: 60%;
-  border: var(--borderSize-1) solid var(--systemBorderTertiary);
 }
 
 .shipped-work-tile-information {
@@ -291,7 +289,7 @@ main {
 }
 
 .shipped-work-tile-headline {
-  color: var(--systemGray);
+  color: var(--systemNeutral);
   --glyphHeight: var(--scale-24);
   font-family: var(--fontFamily-default);
   font-weight: var(--fontWeight-emphasized);
@@ -303,7 +301,7 @@ main {
 
 .reel-section {
   padding: 128px 0;
-  background: var(--systemBackgroundSecondary);
+  background: var(--systemFillSecondary);
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -356,18 +354,22 @@ main {
   border-radius: var(--borderRadius-small);
   corner-shape: squircle;
   corner-smoothing: 60%;
-  border: var(--borderSize-1) solid var(--systemBorderTertiary);
 }
 
 .get-in-touch-section {
   margin: auto;
-  padding: 128px var(--layoutMargin);
-  background: var(--systemBackgroundPrimary);
+  padding: 128px 0;
+  background: var(--systemFillPrimary);
+}
+
+.get-in-touch-content-wrapper {
+  margin: auto;
+  max-width: var(--layoutWidth-maximum);
+  padding: 0 var(--layoutMargin);
 }
 
 .get-in-touch-content {
   position: relative;
-  max-width: var(--layoutWidth-maximum);
   width: 100%;
   margin: auto;
   display: grid;
@@ -375,8 +377,8 @@ main {
   align-items: center;
   justify-content: center;
   gap: 48px;
-  padding: 48px calc(var(--layoutMargin) + 16px);
-  background: var(--systemBackgroundSecondary);
+  padding: 48px;
+  background: var(--systemTintSupportiveSecondary);
   overflow: hidden;
   border-radius: var(--borderRadius-xxxLarge);
   corner-shape: squircle;
@@ -419,9 +421,9 @@ main {
   justify-content: center;
   gap: var(--space-xxxSmall);
   padding: var(--space-xSmall) var(--space-small);
-  transition: background 0.5s var(--ease-out-elastic);
-  color: var(--systemOnOrange);
-  background: var(--systemOrange);
+  transition: background 0.25s var(--ease-linear);
+  color: var(--systemOnBrand);
+  background: var(--systemBrand);
   border-radius: var(--borderRadius-circle);
   cursor: pointer;
   user-select: none;
@@ -430,11 +432,11 @@ main {
 }
 
 .button:hover {
-  background: var(--systemOrange-hover);
+  background: var(--systemBrand-hover);
 }
 
 .button:active {
-  background: var(--systemOrange-active);
+  background: var(--systemBrand-active);
 }
 
 .button:focus-visible {
@@ -444,7 +446,7 @@ main {
 
 @media (max-width: 1024px) {
 
-  .hero-section-before {
+  .hero-section-content {
     max-width: 100%;
     padding: 0 var(--layoutMargin);
   }

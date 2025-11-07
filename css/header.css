@@ -45,7 +45,7 @@
     backdrop-filter: blur(25px);
     transition: width 0.5s var(--ease-in-out-circ), height 0.5s var(--ease-in-out-circ);
     border-radius: 32px;
-    box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.16), 0px 8px 16px -4px rgba(0, 0, 0, 0.08), 0px 0px 0px 1px rgba(0, 0, 0, 0.02), inset 0.5px 0.5px 0 rgba(255, 255, 255, 0.20), inset -0.5px -0.5px 0 rgba(255, 255, 255, 0.16);
+    box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.16), 0px 8px 16px -4px rgba(0, 0, 0, 0.08), 0px 0px 0px 1px rgba(0, 0, 0, 0.02), inset 0.5px 0.5px 0 rgba(255, 255, 255, 0.16), inset -0.5px -0.5px 0 rgba(255, 255, 255, 0.12);
 }
 
 .headerContent {
@@ -118,7 +118,7 @@
 }
 
 .headerControl {
-    color: var(--systemBlue);
+    color: var(--systemAccent);
     font-family: var(--fontFamily-default);
     font-size: var(--fontSize-xxSmall);
     font-weight: var(--fontWeight-normal);
@@ -134,16 +134,16 @@
 }
 
 .headerControl svg {
-    fill: var(--systemBlue);
+    fill: var(--systemAccent);
     transition: fill 0.25s var(--ease-linear);
 }
 
 .headerControl:hover {
-    color: var(--systemBlue-hover);
+    color: var(--systemAccent-hover);
 }
 
 .headerControl:hover svg {
-    fill: var(--systemBlue-hover);
+    fill: var(--systemAccent-hover);
 }
 
 .headerTab {
@@ -153,8 +153,8 @@
     font-weight: var(--fontWeight-normal);
     line-height: var(--fontLeading-xxSmall);
     letter-spacing: var(--fontTracking-tight);
-    color: var(--systemGray);
-    background: var(--systemTintGrayTertiary);
+    color: var(--systemNeutral);
+    background: var(--systemTintNeutralTertiary);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -167,16 +167,16 @@
 }
 
 .headerTab:hover {
-    background: var(--systemTintGraySecondary);
+    background: var(--systemTintNeutralSecondary);
 }
 
 .activeTab {
-    color: var(--systemOnBlue);
-    background: var(--systemBlue);
+    color: var(--systemOnBrand);
+    background: var(--systemBrand);
     cursor: not-allowed;
 }
 
 .activeTab:hover {
-    color: var(--systemOnBlue);
-    background: var(--systemBlue);
+    color: var(--systemOnBrand);
+    background: var(--systemBrand);
 }
