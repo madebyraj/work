@@ -511,9 +511,9 @@ b {
     --systemError-hover: rgb(199, 0, 0);
     --systemError-active: rgb(189, 0, 0);
 
-    --systemWarning: rgb(250, 176, 0);
-    --systemWarning-hover: rgb(220, 146, 0);
-    --systemWarning-active: rgb(210, 136, 0);
+    --systemWarning: rgb(238, 160, 0);
+    --systemWarning-hover: rgb(208, 130, 0);
+    --systemWarning-active: rgb(198, 120, 0);
 
     --systemSuccess: rgb(16, 132, 68);
     --systemSuccess-hover: rgb(0, 102, 38);
@@ -599,38 +599,38 @@ b {
     --systemFillSecondary: rgb(20, 20, 25);
     --systemFillTertiary: rgb(40, 40, 45);
 
-    --systemBrand: rgb(255, 126, 30);
-    --systemBrand-hover: rgb(255, 156, 60);
-    --systemBrand-active: rgb(255, 166, 70);
+    --systemBrand: rgb(255, 146, 50);
+    --systemBrand-hover: rgb(255, 176, 80);
+    --systemBrand-active: rgb(255, 186, 90);
 
-    --systemAccent: rgb(30, 124, 255);
-    --systemAccent-hover: rgb(60, 156, 255);
-    --systemAccent-active: rgb(70, 166, 255);
+    --systemAccent: rgb(50, 144, 255);
+    --systemAccent-hover: rgb(80, 174, 255);
+    --systemAccent-active: rgb(90, 184, 255);
 
-    --systemSupportive: rgb(240, 48, 240);
-    --systemSupportive-hover: rgb(255, 78, 255);
-    --systemSupportive-active: rgb(255, 88, 255);
+    --systemSupportive: rgb(255, 68, 255);
+    --systemSupportive-hover: rgb(255, 98, 255);
+    --systemSupportive-active: rgb(255, 108, 255);
 
     --systemNeutral: rgb(225, 225, 230);
     --systemNeutral-hover: rgb(195, 195, 200);
     --systemNeutral-active: rgb(185, 185, 190);
 
 
-    --systemError: rgb(255, 48, 30);
-    --systemError-hover: rgb(255, 78, 60);
-    --systemError-active: rgb(255, 88, 70);
+    --systemError: rgb(255, 68, 50);
+    --systemError-hover: rgb(255, 98, 80);
+    --systemError-active: rgb(255, 108, 90);
 
-    --systemWarning: rgb(255, 206, 30);
-    --systemWarning-hover: rgb(255, 236, 60);
-    --systemWarning-active: rgb(255, 246, 70);
+    --systemWarning: rgb(255, 210, 50);
+    --systemWarning-hover: rgb(255, 240, 80);
+    --systemWarning-active: rgb(255, 250, 90);
 
-    --systemSuccess: rgb(46, 162, 98);
-    --systemSuccess-hover: rgb(76, 192, 128);
-    --systemSuccess-active: rgb(86, 202, 138);
+    --systemSuccess: rgb(66, 182, 118);
+    --systemSuccess-hover: rgb(96, 212, 148);
+    --systemSuccess-active: rgb(106, 222, 158);
 
-    --systemInformation: rgb(30, 152, 234);
-    --systemInformation-hover: rgb(0, 92, 174);
-    --systemInformation-active: rgb(0, 82, 164);
+    --systemInformation: rgb(50, 172, 254);
+    --systemInformation-hover: rgb(80, 202, 255);
+    --systemInformation-active: rgb(90, 212, 255);
 
 
     --systemGlyphPrimary: rgba(225, 225, 230, 0.92);
@@ -653,38 +653,38 @@ b {
     --systemOnInformation: rgba(255, 255, 255, 0.92);
 
 
-    --systemTintBrandPrimary: rgba(255, 126, 30, 0.28);
-    --systemTintBrandSecondary: rgba(255, 126, 30, 0.16);
-    --systemTintBrandTertiary: rgba(255, 126, 30, 0.08);
+    --systemTintBrandPrimary: rgba(255, 146, 50, 0.28);
+    --systemTintBrandSecondary: rgba(255, 146, 50, 0.16);
+    --systemTintBrandTertiary: rgba(255, 146, 50, 0.08);
 
-    --systemTintAccentPrimary: rgba(30, 124, 255, 0.28);
-    --systemTintAccentSecondary: rgba(30, 124, 255, 0.16);
-    --systemTintAccentTertiary: rgba(30, 124, 255, 0.08);
+    --systemTintAccentPrimary: rgba(50, 144, 255, 0.28);
+    --systemTintAccentSecondary: rgba(50, 144, 255, 0.16);
+    --systemTintAccentTertiary: rgba(50, 144, 255, 0.08);
 
-    --systemTintSupportivePrimary: rgba(240, 48, 240, 0.28);
-    --systemTintSupportiveSecondary: rgba(240, 48, 240, 0.16);
-    --systemTintSupportiveTertiary: rgba(240, 48, 240, 0.08);
+    --systemTintSupportivePrimary: rgba(255, 68, 255, 0.28);
+    --systemTintSupportiveSecondary: rgba(255, 68, 255, 0.16);
+    --systemTintSupportiveTertiary: rgba(255, 68, 255, 0.08);
 
     --systemTintNeutralPrimary: rgba(225, 225, 230, 0.28);
     --systemTintNeutralSecondary: rgba(225, 225, 230, 0.16);
     --systemTintNeutralTertiary: rgba(225, 225, 230, 0.08);
 
 
-    --systemTintErrorPrimary: rgba(255, 48, 30, 0.28);
-    --systemTintErrorSecondary: rgba(255, 48, 30, 0.16);
-    --systemTintErrorTertiary: rgba(255, 48, 30, 0.08);
+    --systemTintErrorPrimary: rgba(255, 68, 50, 0.28);
+    --systemTintErrorSecondary: rgba(255, 68, 50, 0.16);
+    --systemTintErrorTertiary: rgba(255, 68, 50, 0.08);
 
-    --systemTintWarningPrimary: rgba(255, 206, 30, 0.28);
-    --systemTintWarningSecondary: rgba(255, 206, 30, 0.16);
-    --systemTintWarningTertiary: rgba(255, 206, 30, 0.08);
+    --systemTintWarningPrimary: rgba(255, 226, 50, 0.28);
+    --systemTintWarningSecondary: rgba(255, 226, 50, 0.16);
+    --systemTintWarningTertiary: rgba(255, 226, 50, 0.08);
 
-    --systemTintSuccessPrimary: rgba(46, 162, 98, 0.28);
-    --systemTintSuccessSecondary: rgba(46, 162, 98, 0.16);
-    --systemTintSuccessTertiary: rgba(46, 162, 98, 0.08);
+    --systemTintSuccessPrimary: rgba(66, 182, 118, 0.28);
+    --systemTintSuccessSecondary: rgba(66, 182, 118, 0.16);
+    --systemTintSuccessTertiary: rgba(66, 182, 118, 0.08);
 
-    --systemTintInformationPrimary: rgba(30, 152, 234, 0.28);
-    --systemTintInformationSecondary: rgba(30, 152, 234, 0.16);
-    --systemTintInformationTertiary: rgba(30, 152, 234, 0.08);
+    --systemTintInformationPrimary: rgba(50, 172, 254, 0.28);
+    --systemTintInformationSecondary: rgba(50, 172, 254, 0.16);
+    --systemTintInformationTertiary: rgba(50, 172, 254, 0.08);
 
 
     --systemMaterialUltrathick: rgba(10, 10, 15, 0.84);
