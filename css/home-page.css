@@ -45,6 +45,11 @@ main {
   position: relative;
 }
 
+.italic {
+  font-style: italic !important;
+  position: relative;
+}
+
 .hero-section {
   padding: 128px 0;
   background: var(--appearance-fill);
@@ -233,6 +238,7 @@ main {
   padding: var(--space-xlarge) 0;
   background: var(--appearance-fill-grouped);
   border-radius: var(--border-radius-large);
+  border: var(--border-size-1) solid var(--appearance-separator-opaque);
 }
 
 .reel-track {

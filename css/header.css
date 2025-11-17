@@ -162,7 +162,7 @@
     letter-spacing: var(--font-tracking-wider);
     color: var(--color-neutral-100);
     fill: var(--color-neutral-100);
-    background: var(--color-neutral-800);
+    background: var(--color-neutral-900);
     cursor: pointer;
     display: flex;
     align-items: center;

@@ -9,9 +9,25 @@
 @font-face {
     font-family: "Awesome Serif";
     font-display: swap;
+    font-style: italic;
+    font-weight: 1 500;
+    src: url(../assets/fonts/AwesomeSerifItalic-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Awesome Serif";
+    font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
     src: url(../assets/fonts/AwesomeSerif-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Awesome Serif";
+    font-display: swap;
+    font-style: italic;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/AwesomeSerifItalic-Bold.woff) format("woff");
 }
 
 @font-face {
@@ -53,8 +69,8 @@
 
     --font-family-serif: Awesome Serif, serif;
     --font-family-sans: Basis Grotesque Arabic Pro, sans-serif;
-    --font-family-mono: Gilroy, SK Modernist, monospace;
-    --font-family-ui: SK Modernist, var(--font-family-sans);
+    --font-family-mono: SK Modernist, monospace;
+    --font-family-ui: var(--font-family-sans);
 
     --font-weight-normal: 400;
     --font-weight-emphasized: 700;
@@ -184,89 +200,89 @@
     --color-void: #000;
     --color-water: #0000;
 
-    --color-brand-050: #FFF2ED;
-    --color-brand-100: #FEE3D7;
-    --color-brand-200: #FDC7AD;
-    --color-brand-300: #FC9D70;
-    --color-brand-400: #FB7130;
+    --color-brand-050: #FFF8F5;
+    --color-brand-100: #FFF1EB;
+    --color-brand-200: #FEDED0;
+    --color-brand-300: #FDBFA1;
+    --color-brand-400: #FB783A;
     --color-brand-500: #FA5000;
-    --color-brand-600: #D84500;
-    --color-brand-700: #983100;
-    --color-brand-800: #621F00;
-    --color-brand-900: #411500;
-    --color-brand-950: #2C0E00;
+    --color-brand-600: #CD4100;
+    --color-brand-700: #7A2700;
+    --color-brand-800: #5E1E00;
+    --color-brand-900: #371200;
+    --color-brand-950: #290D00;
 
-    --color-accent-050: #EEF3FE;
-    --color-accent-100: #DBE4FC;
-    --color-accent-200: #B5C9FA;
-    --color-accent-300: #7EA0F5;
-    --color-accent-400: #4375F1;
+    --color-accent-050: #F6F9FE;
+    --color-accent-100: #EDF2FE;
+    --color-accent-200: #D4DFFC;
+    --color-accent-300: #AAC0F9;
+    --color-accent-400: #4C7CF2;
     --color-accent-500: #1855EE;
-    --color-accent-600: #154ACE;
-    --color-accent-700: #0F3491;
-    --color-accent-800: #09215D;
-    --color-accent-900: #06163E;
-    --color-accent-950: #040F29;
+    --color-accent-600: #1446C3;
+    --color-accent-700: #0C2A74;
+    --color-accent-800: #09205A;
+    --color-accent-900: #051334;
+    --color-accent-950: #040E27;
 
-    --color-highlight-050: #F4F1FD;
-    --color-highlight-100: #E7E1FB;
-    --color-highlight-200: #CDC2F7;
-    --color-highlight-300: #A894F0;
-    --color-highlight-400: #8164EA;
+    --color-highlight-050: #F9F8FE;
+    --color-highlight-100: #F3F0FD;
+    --color-highlight-200: #E2DBFA;
+    --color-highlight-300: #C6B9F5;
+    --color-highlight-400: #876BEB;
     --color-highlight-500: #6440E5;
-    --color-highlight-600: #5737C6;
-    --color-highlight-700: #3D278B;
-    --color-highlight-800: #271959;
-    --color-highlight-900: #1A113C;
-    --color-highlight-950: #110B28;
+    --color-highlight-600: #5234BB;
+    --color-highlight-700: #311F70;
+    --color-highlight-800: #261856;
+    --color-highlight-900: #160E32;
+    --color-highlight-950: #100A25;
 
-    --color-negative-050: #FFEEF0;
-    --color-negative-100: #FEDADF;
-    --color-negative-200: #FDB3BE;
-    --color-negative-300: #FC7B8D;
-    --color-negative-400: #FB3F59;
+    --color-negative-050: #FFF6F7;
+    --color-negative-100: #FFECEF;
+    --color-negative-200: #FED3D9;
+    --color-negative-300: #FDA8B4;
+    --color-negative-400: #FB4961;
     --color-negative-500: #FA1333;
-    --color-negative-600: #D8102C;
-    --color-negative-700: #980C1F;
-    --color-negative-800: #620714;
-    --color-negative-900: #41050D;
-    --color-negative-950: #2C0309;
+    --color-negative-600: #CD102A;
+    --color-negative-700: #7A0919;
+    --color-negative-800: #5E0713;
+    --color-negative-900: #37040B;
+    --color-negative-950: #290308;
 
-    --color-Alert-050: #FFF9ED;
-    --color-Alert-100: #FEF1D7;
-    --color-Alert-200: #FDE3AD;
-    --color-Alert-300: #FCCD70;
-    --color-Alert-400: #FBB730;
+    --color-Alert-050: #FFFCF5;
+    --color-Alert-100: #FFF8EB;
+    --color-Alert-200: #FEEED0;
+    --color-Alert-300: #FDDEA1;
+    --color-Alert-400: #FBBA3A;
     --color-Alert-500: #FAA600;
-    --color-Alert-600: #D89000;
-    --color-Alert-700: #986500;
-    --color-Alert-800: #624100;
-    --color-Alert-900: #412B00;
-    --color-Alert-950: #2C1D00;
+    --color-Alert-600: #CD8800;
+    --color-Alert-700: #7A5100;
+    --color-Alert-800: #5E3F00;
+    --color-Alert-900: #372500;
+    --color-Alert-950: #291B00;
 
-    --color-Positive-050: #EDF7F4;
-    --color-Positive-100: #D7EEE6;
-    --color-Positive-200: #ADDDCD;
-    --color-Positive-300: #70C4A7;
-    --color-Positive-400: #30AA7F;
+    --color-Positive-050: #F5FBF9;
+    --color-Positive-100: #EBF7F3;
+    --color-Positive-200: #D0EBE2;
+    --color-Positive-300: #A1D8C5;
+    --color-Positive-400: #3AAE86;
     --color-Positive-500: #009662;
-    --color-Positive-600: #008255;
-    --color-Positive-700: #005B3C;
-    --color-Positive-800: #003B26;
-    --color-Positive-900: #002719;
-    --color-Positive-950: #001A11;
+    --color-Positive-600: #007B50;
+    --color-Positive-700: #004930;
+    --color-Positive-800: #003925;
+    --color-Positive-900: #002116;
+    --color-Positive-950: #001810;
 
-    --color-neutral-050: #F5F6F8;
-    --color-neutral-100: #E8ECEF;
-    --color-neutral-200: #D1D8DE;
-    --color-neutral-300: #AFBAC5;
-    --color-neutral-400: #8B9BAB;
-    --color-neutral-500: #708498;
-    --color-neutral-600: #617283;
-    --color-neutral-700: #44505C;
-    --color-neutral-800: #2C333B;
-    --color-neutral-900: #1D2228;
-    --color-neutral-950: #13171A;
+    --color-neutral-050: #FAFAFB;
+    --color-neutral-100: #F4F5F7;
+    --color-neutral-200: #E4E7EC;
+    --color-neutral-300: #CACFD9;
+    --color-neutral-400: #909BB0;
+    --color-neutral-500: #6F7D99;
+    --color-neutral-600: #5B667D;
+    --color-neutral-700: #363D4B;
+    --color-neutral-800: #2A2F3A;
+    --color-neutral-900: #181C22;
+    --color-neutral-950: #121419;
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0px 4px 8px 0px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.02);
@@ -334,7 +350,7 @@
 }
 
 .typography-eyebrow {
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-mono);
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-small);
@@ -520,7 +536,7 @@
     overflow: hidden;
     padding: var(--space-small);
     gap: var(--space-small);
-    background: var(--appearance-fill-grouped);
+    background: linear-gradient(180deg, var(--color-neutral-050) 0%, var(--color-neutral-100) 100%);
     cursor: pointer;
     border-radius: var(--border-radius-xlarge);
     transition: box-shadow 0.125s var(--ease-linear);
@@ -562,12 +578,11 @@
     justify-content: start;
     gap: var(--space-small);
     padding: var(--space-small);
-    background: var(--appearance-fill-grouped);
 }
 
 .tile-badge {
     padding: var(--space-xxxsmall) var(--space-xxsmall);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-mono);
     font-weight: var(--font-weight-emphasized);
     font-size: var(--font-size-xxxxsmall);
     line-height: var(--font-leading-xxxxsmall);
@@ -585,7 +600,7 @@
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-large);
-    letter-spacing: var(--font-tracking-tight);
+    letter-spacing: var(--font-tracking-tighter);
 }
 
 .tile-cta {
@@ -597,6 +612,7 @@
     .tile-headline {
         font-size: var(--font-size-medium);
         line-height: var(--font-leading-medium);
+        letter-spacing: var(--font-tracking-tight);
     }
 
 }
