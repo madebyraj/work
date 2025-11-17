@@ -53,7 +53,8 @@
 
     --font-family-serif: Awesome Serif, serif;
     --font-family-sans: Basis Grotesque Arabic Pro, sans-serif;
-    --font-family-mono: SK Modernist, monospace;
+    --font-family-mono: Gilroy, SK Modernist, monospace;
+    --font-family-ui: SK Modernist, var(--font-family-sans);
 
     --font-weight-normal: 400;
     --font-weight-emphasized: 700;
@@ -83,11 +84,11 @@
     --font-leading-xxxxlarge: 80px;
 
     --font-tracking-tightest: -1px;
-    --font-tracking-tighter: -0.25px;
-    --font-tracking-tight: -0.125px;
+    --font-tracking-tighter: -0.3px;
+    --font-tracking-tight: -0.13px;
     --font-tracking-none: 0;
-    --font-tracking-wide: 0.125px;
-    --font-tracking-wider: 0.25px;
+    --font-tracking-wide: 0.13px;
+    --font-tracking-wider: 0.3px;
     --font-tracking-widest: 1px;
 
     --scale-0: 0px;
@@ -333,7 +334,7 @@
 }
 
 .typography-eyebrow {
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family-sans);
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-small);
@@ -427,11 +428,11 @@
 
 .button-base {
     --button-glyph-height: var(--scale-24);
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-ui);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     line-height: var(--glyph-height);
-    letter-spacing: var(--font-tracking-none);
+    letter-spacing: var(--font-tracking-wide);
     gap: var(--space-xxsmall);
     padding: var(--space-xsmall) var(--space-medium);
     border-radius: var(--border-radius-circle);
@@ -441,11 +442,11 @@
 
 .button-small {
     --button-glyph-height: var(--scale-20);
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-ui);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     line-height: var(--glyph-height);
-    letter-spacing: var(--font-tracking-none);
+    letter-spacing: var(--font-tracking-wide);
     gap: var(--space-xxxsmall);
     padding: var(--space-xxsmall) var(--space-small);
     border-radius: var(--border-radius-circle);
@@ -517,6 +518,9 @@
     justify-content: start;
     text-decoration: none;
     overflow: hidden;
+    padding: var(--space-small);
+    gap: var(--space-small);
+    background: var(--appearance-fill-grouped);
     cursor: pointer;
     border-radius: var(--border-radius-xlarge);
     transition: box-shadow 0.125s var(--ease-linear);
@@ -524,11 +528,21 @@
     border: var(--border-size-1) solid var(--appearance-separator-opaque);
 }
 
+.tile:hover {
+    box-shadow: var(--depth-raised);
+}
+
+.tile:active {
+    box-shadow: var(--depth-baseline);
+}
+
+
 .tile-media {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    border-radius: var(--border-radius-large);
 }
 
 .tile-image {
@@ -547,13 +561,13 @@
     align-items: start;
     justify-content: start;
     gap: var(--space-small);
-    padding: var(--space-xlarge);
+    padding: var(--space-small);
     background: var(--appearance-fill-grouped);
 }
 
 .tile-badge {
     padding: var(--space-xxxsmall) var(--space-xxsmall);
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family-ui);
     font-weight: var(--font-weight-emphasized);
     font-size: var(--font-size-xxxxsmall);
     line-height: var(--font-leading-xxxxsmall);
@@ -567,7 +581,7 @@
 
 .tile-headline {
     color: var(--appearance-glyph);
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-ui);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-large);
@@ -591,10 +605,6 @@
 
     .tile {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-
-    .tile-information {
-        padding: var(--space-large);
     }
 
 }

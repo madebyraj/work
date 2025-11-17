@@ -121,11 +121,11 @@
     color: var(--color-snow);
     fill: var(--color-snow);
     background: var(--color-accent-500);
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-ui);
     font-size: var(--font-size-xxsmall);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-xxsmall);
-    letter-spacing: var(--font-tracking-wide);
+    letter-spacing: var(--font-tracking-wider);
     padding: var(--space-xxxxsmall) var(--space-xxxsmall);
     border-radius: var(--border-radius-circle);
     cursor: pointer;
@@ -155,7 +155,7 @@
 
 .header-tab {
     text-decoration: none;
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-ui);
     font-size: var(--font-size-xxxsmall);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-xxxsmall);
@@ -196,7 +196,7 @@
 
 .header-button {
     text-decoration: none;
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-ui);
     font-size: var(--font-size-xxxsmall);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-xxxsmall);
