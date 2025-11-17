@@ -1,20 +1,20 @@
-const headerControl = document.querySelector(".headerControl");
+const headerControl = document.querySelector(".header-control");
 const header = document.querySelector(".header");
-const headerTabs = document.querySelectorAll(".headerTab");
+const headerTabs = document.querySelectorAll(".header-tab");
 
 let isExpanded = false;
 
 // Toggle menu
 function toggleMenu() {
   isExpanded = !isExpanded;
-  header.classList.toggle("headerExpanded", isExpanded);
+  header.classList.toggle("header-expanded", isExpanded);
 }
 
 // Close menu
 function closeMenu() {
   if (isExpanded) {
     isExpanded = false;
-    header.classList.remove("headerExpanded");
+    header.classList.remove("header-expanded");
   }
 }
 
@@ -50,7 +50,7 @@ document.addEventListener("keydown", (e) => {
 // Close menu when clicking any tab
 headerTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    if (!tab.classList.contains("activeTab")) {
+    if (!tab.classList.contains("active-tab")) {
       closeMenu();
     }
   });
@@ -62,7 +62,7 @@ header.addEventListener("click", (e) => {
 });
 
 // Active Tab State
-const headerTab = document.querySelectorAll(".headerTab");
+const headerTab = document.querySelectorAll(".header-tab");
 const windowPathname = window.location.pathname;
 
 headerTab.forEach((headerTab) => {
@@ -72,6 +72,6 @@ headerTab.forEach((headerTab) => {
     windowPathname === headerTabPathname ||
     (windowPathname === "/index.html" && headerTabPathname === "/")
   ) {
-    headerTab.classList.add("activeTab");
+    headerTab.classList.add("active-tab");
   }
 });

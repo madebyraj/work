@@ -12,14 +12,14 @@
   position: relative;
   z-index: 1;
   margin: auto;
-  background: var(--systemFillSecondary);
+  background: var(--appearance-fill-grouped);
   overflow: hidden;
   padding: 48px 0px;
 }
 
 .footer-container {
-  max-width: var(--layoutWidth-maximum);
-  padding: 0 var(--layoutMargin);
+  max-width: var(--layout-width-maximum);
+  padding: 0 var(--layout-margin);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
 }
 
 .design-and-code {
-  color: var(--systemGlyphSecondary);
+  color: var(--appearance-glyph-subtle);
 }
 
 /* Tablet */

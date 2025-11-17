@@ -39,10 +39,10 @@
   <link rel="stylesheet" href="./css/header.css" />
 </head>
 
-<body class="dark">
+<body class="light">
 
-  <div class="headerWrapper dark">
-    <div class="headerWrapperBackground">
+  <div class="header-container dark">
+    <div class="header-container-background">
       <div
         style="opacity: 1; position: absolute; inset: 0px; z-index: 1; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%); pointer-events: none; backdrop-filter: blur(0.390625px); will-change: auto;">
       </div>
@@ -69,31 +69,33 @@
       </div>
     </div>
     <nav class="header">
-      <div class="headerBackground">
-        <div class="headerContent">
-          <div class="headerAction">
-            <div class="headerLogo">
+      <div class="header-background">
+        <div class="header-content">
+          <div class="header-action">
+            <div class="header-logo">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 28" class="logo">
                 <path d="M12.32 0L24.64 7V21L12.32 28L0 21V7L12.32 0Z" fill-opacity="0.5" />
                 <path d="M0 7L12.32 13.3V28L0 21V7Z" fill-opacity="0.75" />
                 <path d="M24.64 7L12.32 13.3V28L24.64 21V7Z" fill-opacity="1" />
               </svg>
             </div>
-            <div class="headerControl">
-              Menu
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="headerExpand">
+            <div class="header-control">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="header-control-icon">
                 <path
                   d="M4.375 14.375V9C4.375 8.65482 4.65482 8.375 5 8.375C5.34518 8.375 5.625 8.65482 5.625 9V14.375H11C11.3452 14.375 11.625 14.6548 11.625 15C11.625 15.3452 11.3452 15.625 11 15.625H5.625C4.93464 15.625 4.375 15.0654 4.375 14.375ZM14.375 11V5.625H9C8.65482 5.625 8.375 5.34518 8.375 5C8.375 4.65482 8.65482 4.375 9 4.375H14.375C15.0654 4.375 15.625 4.93464 15.625 5.625V11C15.625 11.3452 15.3452 11.625 15 11.625C14.6548 11.625 14.375 11.3452 14.375 11Z" />
               </svg>
             </div>
           </div>
-          <div class="headerNavigation">
-            <a class="headerTab" href="./">
+          <div class="header-navigation">
+            <a class="header-tab" href="./">
               Home
             </a>
-            <a class="headerTab"
+            <a class="header-tab"
               href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing" target="_blank">
-              Resume
+              Resumé
+            </a>
+            <a class="header-button" href="mailto:hi.madebyraj@gmail.com" target="_blank">
+              Contact
             </a>
           </div>
         </div>
@@ -104,153 +106,195 @@
 
   <main>
 
-    <section class="hero-section dark">
-
-      <div class="hero-section-content">
-        <div class="hero-section-copy">
-          <p class="hero-section-eyebrow">
-            <b>Hey, I'm Raj.</b>
-          </p>
-          <h1 class="hero-section-typography hero-section-typography-headline">I design
-            vibrant experiences filled with emotion.
-          </h1>
-        </div>
-      </div>
-
-      <a class="button-brand-tertiary hero-section-button" href="#work" role="button">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-brand-tertiary-icon">
-          <path
-            d="M11.7246 18.4178C11.9187 18.5459 12.1826 18.5242 12.3535 18.3533L16.8535 13.8533C17.0487 13.658 17.0487 13.3415 16.8535 13.1463C16.6582 12.951 16.3417 12.951 16.1464 13.1463L12.5 16.7928V5.99979C12.5 5.72365 12.2761 5.49979 12 5.49979C11.7238 5.49979 11.5 5.72365 11.5 5.99979V16.7928L7.85348 13.1463C7.65822 12.951 7.34171 12.951 7.14645 13.1463C6.95118 13.3415 6.95118 13.658 7.14645 13.8533L11.6464 18.3533L11.7246 18.4178Z" />
-        </svg>
-      </a>
-
-    </section>
-
-
-    <section class="recent-work dark" id="work">
-      <div class="recent-work-content">
-        <h3 class="recent-work-headline">Recent Work</h3>
-        <div class="projects">
-          <a class="project"
-            href="https://medium.com/design-bootcamp/personalization-for-new-members-in-netflix-a-ux-case-study-66c578af9a6b"
-            aria-label="Click Here to see my Netflix project" target="_blank">
-            <div class="project-media">
-              <img src="./assets/global/netflix-cover.png" alt="Project 1 cover photo" class="project-image" />
-            </div>
-            <div class="project-information">
-              <h3 class="project-headline">Personalization for new members in
-                Netflix</h3>
-            </div>
-          </a>
-          <a class="project" href="https://medium.com/@madebyraj_/worksafe-manager-ux-case-study-149ba8041107"
-            aria-label="Click Here to see my Worksafe manager project" target="_blank">
-            <div class="project-media">
-              <img src="./assets/global/worksafemanager-cover.png" alt="Project 1 cover photo" class="project-image" />
-            </div>
-            <div class="project-information">
-              <h3 class="project-headline">Designing a post COVID visit system</h3>
-            </div>
-          </a>
-          <a class="project" href="https://www.notion.so/Money-Tracker-22d61b770e6480e3a027e1a1c439a4d7"
-            aria-label="Click Here to see my Money tracker project" target="_blank">
-            <div class="project-media">
-              <img src="./assets/global/moneytracker-cover.png" alt="Project 1 cover photo" class="project-image" />
-            </div>
-            <div class="project-information">
-              <h3 class="project-headline">Money Tracker</h3>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="shipped-work-section dark">
-      <div class="shipped-work-section-content">
-        <h3 class="shipped-work-headline">Things that I shipped</h3>
-        <div class="shipped-work-items">
-          <a href="https://madebyraj.github.io/morphix-studio/" aria-label="Click here to create color palettes"
-            target="_blank" class="shipped-work-item">
-            <div class="shipped-work-tile">
-              <img class="shipped-work-tile-media" alt="Morphix Studio cover photo"
-                src="./assets/global/shipped-work/morphix-studio-cover.webp">
-              <div class="shipped-work-tile-information">
-                <h2 class="shipped-work-tile-headline">
-                  Morphix Studio
-                </h2>
+    <section class="hero-section light">
+      <div class="hero-section-layout">
+        <div class="hero-section-content">
+          <div class="hero-information">
+            <div class="media-me-wrapper">
+              <div class="hero-avatar">
+                <img src="./assets/global/me.webp" alt="Me" class="hero-avatar-image">
               </div>
+              <p class="hero-eyebrow typography-eyebrow">👋🏼, Raj here!</p>
             </div>
-          </a>
-          <a href="https://www.figma.com/community/file/1403398689455527801/morphix-design-system"
-            aria-label="Click Here to see my design system" target="_blank" class="shipped-work-item">
-            <div class="shipped-work-tile">
-              <img class="shipped-work-tile-media" alt="Morphix design system cover photo"
-                src="./assets/global/morphixdesignsystem-cover.png">
-              <div class="shipped-work-tile-information">
-                <h2 class="shipped-work-tile-headline">
-                  Morphix Design System
-                </h2>
-              </div>
+            <div class="hero-heading-wrapper">
+              <h1 class="hero-heading typography-display">Designer who craft vibrant experiences.</h1>
+              <p class="hero-subheading typography-intro">Based in New Delhi, India and
+                currently looking for design internships.
+              </p>
             </div>
-          </a>
-          <a href="https://madebyraj.github.io/invoke/" aria-label="Click here to use Invoke app" target="_blank"
-            class="shipped-work-item">
-            <div class="shipped-work-tile">
-              <img class="shipped-work-tile-media" alt="Invoke cover photo"
-                src="./assets/global/shipped-work/invoke-cover.webp">
-              <div class="shipped-work-tile-information">
-                <h2 class="shipped-work-tile-headline">
-                  Invoke
-                </h2>
-              </div>
-            </div>
+          </div>
+          <a class="button button-base button-accent" href="#project-section">
+            <svg viewBox="0 0 20 20" class="button-icon">
+              <path
+                d="M10 13.98a.87.87 0 0 1-.622-.274L4.176 8.381a.8.8 0 0 1-.178-.246.9.9 0 0 1-.055-.308.83.83 0 0 1 .103-.41.8.8 0 0 1 .287-.287.75.75 0 0 1 .403-.11q.329 0 .575.247l5.024 5.147h-.663l5.018-5.147a.79.79 0 0 1 .574-.246q.226 0 .403.109a.74.74 0 0 1 .28.287.8.8 0 0 1 .11.41.76.76 0 0 1-.233.554l-5.202 5.325a.83.83 0 0 1-.622.273">
+              </path>
+            </svg>
           </a>
         </div>
       </div>
     </section>
 
-    <section class="reel-section dark">
-      <h3 class="reel-headline">
-        I know <span class="highlight">reading case studies was a task, phew!</span> but to treat your eyes watch a
-        <span class="highlight">short show reel</span> that I made to display <span class="highlight">my old
-          work.</span>
-      </h3>
-      <div class="more-work" id="moreWork">
-        <div class="more-work-slide">
-          <img src="./assets/global/more-work/fyk-website.webp" class="more-work-media" aria-label="old design work" />
-          <img src="./assets/global/more-work/gs-resume.webp" class="more-work-media" aria-label="old design work" />
-          <img src="./assets/global/more-work/jp-ev.webp" class="more-work-media" aria-label="old design work" />
-          <img src="./assets/global/more-work/k-landingpage.webp" class="more-work-media"
-            aria-label="old design work" />
-          <img src="./assets/global/more-work/z-bills.webp" class="more-work-media" aria-label="old design work" />
-        </div>
-      </div>
-    </section>
 
-    <section class="get-in-touch-section dark">
-      <div class="get-in-touch-content-wrapper">
-        <div class="get-in-touch-content">
-          <img class="get-in-touch-media" src="./assets/global/bird.gif" aria-label="It's a bird image"></img>
-          <div class="get-in-touch-information">
-            <h4 class="get-in-touch-headline">
-              Get in touch
-            </h4>
-            <p class="get-in-touch-body">
-              If you're working on something cool, I'd love to hear about it!
-            </p>
-            <a href="mailto:hi.madebyraj@gmail.com" target="_blank"
-              aria-label="Click Here to connect with me through mail" class="button" role="button">
-              Contact now
+    <section class="project-section light" id="project-section">
+      <div class="project-section-layout">
+        <div class="project-section-content">
+          <h2 class="project-section-heading typography-eyebrow">Recent Projects</h2>
+          <div class="projects">
+            <a class="tile"
+              href="https://medium.com/design-bootcamp/personalization-for-new-members-in-netflix-a-ux-case-study-66c578af9a6b"
+              aria-label="Click here to see my Netflix project" target="_blank">
+              <div class="tile-media">
+                <img src="./assets/global/netflix-cover.png" alt="Project 1 cover photo" class="tile-image" />
+              </div>
+              <div class="tile-information">
+                <div class="tile-badge" style="background: rgba(222, 0, 0, 0.08); color: rgb(222, 0, 0);">Product</div>
+                <h3 class="tile-headline">Personalization for new members in Netflix</h3>
+                <div class="tile-cta button button-small button-brand">
+                  <svg viewBox="0 0 20 20" class="button-icon">
+                    <path
+                      d="M13.692 9.558a.625.625 0 0 1 0 .884l-5.4 5.4a.625.625 0 1 1-.884-.884L12.366 10 7.408 5.042a.625.625 0 1 1 .884-.884z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+
+            <a class="tile" href="https://medium.com/@madebyraj_/worksafe-manager-ux-case-study-149ba8041107"
+              aria-label="Click here to see my Worksafe Manager project" target="_blank">
+              <div class="tile-media">
+                <img src="./assets/global/worksafemanager-cover.png" alt="Project 2 cover photo" class="tile-image" />
+              </div>
+              <div class="tile-information">
+                <div class="tile-badge" style="background: rgb(0, 167, 222, 0.08); color: rgb(0, 167, 222);">Mobile +
+                  Web
+                </div>
+                <h3 class="tile-headline">Designing a post COVID visit system</h3>
+                <div class="tile-cta button button-small button-brand">
+                  <svg viewBox="0 0 20 20" class="button-icon">
+                    <path
+                      d="M13.692 9.558a.625.625 0 0 1 0 .884l-5.4 5.4a.625.625 0 1 1-.884-.884L12.366 10 7.408 5.042a.625.625 0 1 1 .884-.884z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+
+            <a class="tile" href="https://www.notion.so/Money-Tracker-22d61b770e6480e3a027e1a1c439a4d7"
+              aria-label="Click here to see my Money Tracker project" target="_blank">
+              <div class="tile-media">
+                <img src="./assets/global/moneytracker-cover.png" alt="Project 3 cover photo" class="tile-image" />
+              </div>
+              <div class="tile-information">
+                <div class="tile-badge" style="background: rgb(0, 78, 222, 0.08); color: rgb(0, 78, 222)">Prototyping
+                </div>
+                <h3 class="tile-headline">Money Tracker</h3>
+                <div class="tile-cta button button-small button-brand">
+                  <svg viewBox="0 0 20 20" class="button-icon">
+                    <path
+                      d="M13.692 9.558a.625.625 0 0 1 0 .884l-5.4 5.4a.625.625 0 1 1-.884-.884L12.366 10 7.408 5.042a.625.625 0 1 1 .884-.884z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
             </a>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="shipped-project-section light" id="shipped-projects-section">
+      <div class="shipped-project-section-layout">
+        <div class="shipped-project-section-content">
+          <h3 class="shipped-project-section-heading typography-eyebrow">Things that I shipped</h3>
+          <div class="shipped-projects">
+            <a class="tile" href="https://madebyraj.github.io/morphix-studio"
+              aria-label="Click here to create color palettes" target="_blank">
+              <div class="tile-media">
+                <img src="./assets/global/shipped-work/morphix-studio-cover.webp" alt="Morphix Studio cover photo"
+                  class="tile-image" />
+              </div>
+              <div class="tile-information">
+                <div class="tile-badge" style="background: rgb(0, 19, 222, 0.08); color: rgb(0, 19, 222)">Studio
+                </div>
+                <h3 class="tile-headline">Morphix Studio</h3>
+                <div class="tile-cta button button-small button-brand">
+                  <svg viewBox="0 0 20 20" class="button-icon">
+                    <path
+                      d="M13.692 9.558a.625.625 0 0 1 0 .884l-5.4 5.4a.625.625 0 1 1-.884-.884L12.366 10 7.408 5.042a.625.625 0 1 1 .884-.884z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a class="tile" href="https://www.figma.com/community/file/1403398689455527801/morphix-design-system"
+              aria-label="Click Here to see my design system" target="_blank">
+              <div class="tile-media">
+                <img src="./assets/global/morphixdesignsystem-cover.png" alt="Morphix Design System cover photo"
+                  class="tile-image" />
+              </div>
+              <div class="tile-information">
+                <div class="tile-badge" style="background: rgb(148, 0, 222, 0.08); color: rgb(148, 0, 222)">UI Kit
+                </div>
+                <h3 class="tile-headline">Morphix Design System</h3>
+                <div class="tile-cta button button-small button-brand">
+                  <svg viewBox="0 0 20 20" class="button-icon">
+                    <path
+                      d="M13.692 9.558a.625.625 0 0 1 0 .884l-5.4 5.4a.625.625 0 1 1-.884-.884L12.366 10 7.408 5.042a.625.625 0 1 1 .884-.884z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a class="tile" href="https://madebyraj.github.io/invoke" aria-label="Click here to use Invoke app"
+              target="_blank">
+              <div class="tile-media">
+                <img src="./assets/global/shipped-work/invoke-cover.webp" alt="Invoke cover photo" class="tile-image" />
+              </div>
+              <div class="tile-information">
+                <div class="tile-badge" style="background: rgb(222, 160, 0, 0.08); color: rgb(222, 160, 0)">Web app
+                </div>
+                <h3 class="tile-headline">Invoke</h3>
+                <div class="tile-cta button button-small button-brand">
+                  <svg viewBox="0 0 20 20" class="button-icon">
+                    <path
+                      d="M13.692 9.558a.625.625 0 0 1 0 .884l-5.4 5.4a.625.625 0 1 1-.884-.884L12.366 10 7.408 5.042a.625.625 0 1 1 .884-.884z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reel-section light">
+      <div class="reel-section-layout">
+        <div class="reel-section-content">
+          <h3 class="reel-section-heading typography-quote">
+            I know <span class="highlight">reading case studies was a task, phew!</span> but to treat your eyes watch a
+            <span class="highlight">short show reel</span> that I made to display <span class="highlight">my old
+              work.</span>
+          </h3>
+          <div class="reel" id="reel">
+            <div class="reel-slides">
+              <img src="./assets/global/more-work/fyk-website.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/gs-resume.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/jp-ev.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/k-landingpage.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/z-bills.webp" class="reel-slide" aria-label="old design work" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer dark">
+  <footer class="footer light">
     <div class="footer-container">
-      <p class="design-and-code">Designed and coded by me :)</p>
+      <p class="design-and-code typography-body">Designed and coded by me :)</p>
     </div>
   </footer>
 
@@ -264,50 +308,61 @@
   <script src="./app/gsap-animation.js"></script>
 
   <script src="./app/header.js"></script>
-  <script src="./app/hero-section-background.js"></script>
   <script>
     (function () {
-      const container = document.getElementById('moreWork');
-      const original = container.querySelector('.more-work-slide');
+      const reel = document.getElementById("reel");
+      const original = reel.querySelector(".reel-slides");
 
-      const track = document.createElement('div');
-      track.className = 'more-work-track';
-      track.appendChild(original);
+      const track = document.createElement("div");
+      track.className = "reel-track";
       const clone = original.cloneNode(true);
-      clone.setAttribute('aria-hidden', 'true');
+      clone.setAttribute("aria-hidden", "true");
+
+      track.appendChild(original);
       track.appendChild(clone);
-      container.appendChild(track);
+      reel.appendChild(track);
 
       let anim;
-      const slowRate = 0.25;
-      const normalRate = 1;
 
-      requestAnimationFrame(() => {
-        const animations = track.getAnimations ? track.getAnimations() : [];
-        anim = animations && animations[0];
-        if (!anim) return;
-        anim.play();
+      function initMarquee() {
+        const slideWidth = original.scrollWidth;
+
+        track.style.width = slideWidth * 2 + "px";
+
+        anim = track.animate(
+          [
+            { transform: "translateX(0px)" },
+            { transform: `translateX(-${slideWidth}px)` },
+          ],
+          {
+            duration: 50000,
+            iterations: Infinity,
+            easing: "linear",
+          }
+        );
+
+        const slowRate = 0.25;
+        const normalRate = 1;
 
         const smoothTo = (target) => {
-          if (!anim) return;
           const step = () => {
-            if (!anim) return;
             const diff = target - anim.playbackRate;
             if (Math.abs(diff) < 0.01) {
               anim.playbackRate = target;
-              return;
+            } else {
+              anim.playbackRate += diff * 0.12;
+              requestAnimationFrame(step);
             }
-            anim.playbackRate += diff * 0.15;
-            requestAnimationFrame(step);
           };
           requestAnimationFrame(step);
         };
 
-        container.addEventListener('mouseenter', () => smoothTo(slowRate));
-        container.addEventListener('mouseleave', () => smoothTo(normalRate));
-      });
-    })();
+        reel.addEventListener("mouseenter", () => smoothTo(slowRate));
+        reel.addEventListener("mouseleave", () => smoothTo(normalRate));
+      }
 
+      window.addEventListener("load", initMarquee);
+    })();
   </script>
 
   <!-- Google Tag Manager (noscript) -->

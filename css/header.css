@@ -2,7 +2,7 @@
 
 @import url("./global.built.css");
 
-.headerWrapper {
+.header-container {
     position: fixed;
     z-index: 999;
     top: 0;
@@ -12,10 +12,10 @@
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    height: calc(44px + 40px);
+    height: calc(48px + 40px);
 }
 
-.headerWrapperBackground {
+.header-container-background {
     position: absolute;
     inset: 0;
     overflow: hidden
@@ -27,28 +27,27 @@
     width: calc(288px - 128px);
     user-select: none;
     transition: width 0.5s var(--ease-in-out-circ), height 0.5s var(--ease-in-out-circ);
-    height: 44px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header.headerExpanded {
+.header.header-expanded {
     width: 288px;
     height: 60px;
 }
 
-.headerBackground {
+.header-background {
     width: 100%;
     height: 100%;
-    background: var(--systemMaterialUltrathick);
-    backdrop-filter: blur(25px);
+    background: var(--color-void);
     transition: width 0.5s var(--ease-in-out-circ), height 0.5s var(--ease-in-out-circ);
     border-radius: 32px;
-    box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.16), 0px 8px 16px -4px rgba(0, 0, 0, 0.08), 0px 0px 0px 1px rgba(0, 0, 0, 0.02), inset 0.5px 0.5px 0 rgba(255, 255, 255, 0.16), inset -0.5px -0.5px 0 rgba(255, 255, 255, 0.12);
+    box-shadow: var(--depth-floating), inset 0.5px 0.5px 0 rgba(255, 255, 255, 0.16), inset -0.5px -0.5px 0 rgba(255, 255, 255, 0.12);
 }
 
-.headerContent {
+.header-content {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -59,7 +58,7 @@
     gap: 12px;
 }
 
-.headerAction {
+.header-action {
     width: 100%;
     display: flex;
     align-items: center;
@@ -70,7 +69,7 @@
     transition: opacity 0.5s var(--ease-linear) 0.5s;
 }
 
-.header.headerExpanded .headerAction {
+.header.header-expanded .header-action {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -79,10 +78,10 @@
     transition: opacity 0.5s var(--ease-linear) 0.5s;
 }
 
-.headerNavigation {
+.header-navigation {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
     justify-content: center;
     gap: 8px;
@@ -95,7 +94,7 @@
     overflow: hidden;
 }
 
-.header.headerExpanded .headerNavigation {
+.header.header-expanded .header-navigation {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -103,7 +102,7 @@
     transition: opacity 0.5s var(--ease-linear) 0.5s;
 }
 
-.headerLogo {
+.header-logo {
     width: 20px;
     height: 20px;
     display: flex;
@@ -112,49 +111,58 @@
 }
 
 .logo {
-    width: 20px;
+    width: 100%;
     height: 20px;
-    fill: var(--systemGlyphPrimary);
+    aspect-ratio: 4/4;
+    fill: var(--color-neutral-100);
 }
 
-.headerControl {
-    color: var(--systemAccent);
-    font-family: var(--fontFamily-default);
-    font-size: var(--fontSize-xxSmall);
-    font-weight: var(--fontWeight-normal);
-    line-height: var(--fontLeading-xxSmall);
-    letter-spacing: var(--fontTracking-tight);
+.header-control {
+    color: var(--color-snow);
+    fill: var(--color-snow);
+    background: var(--color-accent-500);
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-xxsmall);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--font-leading-xxsmall);
+    letter-spacing: var(--font-tracking-wide);
+    padding: var(--space-xxxxsmall) var(--space-xxxsmall);
+    border-radius: var(--border-radius-circle);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2px;
-    transition: color 0.25s var(--ease-linear);
+    gap: var(--space-xxxxsmall);
+    transition: transform 0.25s var(--ease-bounce);
+    transform-origin: center;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.headerControl svg {
-    fill: var(--systemAccent);
-    transition: fill 0.25s var(--ease-linear);
+.header-control-icon {
+    width: 100%;
+    height: 20px;
+    aspect-ratio: 4/4;
+    fill: inherit;
 }
 
-.headerControl:hover {
-    color: var(--systemAccent-hover);
+.header-control:hover {
+    transform: scale(1.05);
 }
 
-.headerControl:hover svg {
-    fill: var(--systemAccent-hover);
+.header-control:active {
+    transform: scale(1);
 }
 
-.headerTab {
+.header-tab {
     text-decoration: none;
-    font-family: var(--fontFamily-default);
-    font-size: var(--fontSize-xxSmall);
-    font-weight: var(--fontWeight-normal);
-    line-height: var(--fontLeading-xxSmall);
-    letter-spacing: var(--fontTracking-tight);
-    color: var(--systemNeutral);
-    background: var(--systemTintNeutralTertiary);
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-xxxsmall);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--font-leading-xxxsmall);
+    letter-spacing: var(--font-tracking-wider);
+    color: var(--color-neutral-100);
+    fill: var(--color-neutral-100);
+    background: var(--color-neutral-800);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -162,21 +170,56 @@
     padding: 8px 12px;
     width: 100%;
     border-radius: 24px;
-    transition: background 0.25s var(--ease-linear);
+    transition: transform 0.25s var(--ease-bounce);
+    transform-origin: center;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.headerTab:hover {
-    background: var(--systemTintNeutralSecondary);
+.header-tab:hover {
+    transform: scale(1.05);
 }
 
-.activeTab {
-    color: var(--systemOnBrand);
-    background: var(--systemBrand);
+.header-tab:active {
+    transform: scale(1);
+}
+
+.active-tab {
+    color: var(--color-neutral-900);
+    fill: var(--color-neutral-900);
+    background: var(--color-neutral-100);
     cursor: not-allowed;
 }
 
-.activeTab:hover {
-    color: var(--systemOnBrand);
-    background: var(--systemBrand);
+.active-tab:hover {
+    transform: scale(1);
+}
+
+.header-button {
+    text-decoration: none;
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-xxxsmall);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--font-leading-xxxsmall);
+    letter-spacing: var(--font-tracking-wider);
+    color: var(--color-snow);
+    fill: var(--color-snow);
+    background: var(--color-brand-500);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 24px;
+    transition: transform 0.25s var(--ease-bounce);
+    transform-origin: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.header-button:hover {
+    transform: scale(1.05);
+}
+
+.header-button:active {
+    transform: scale(1);
 }
