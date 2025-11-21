@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 0;
     height: calc(48px + 32px);
 }
 
@@ -26,17 +25,21 @@
     position: fixed;
     top: 16px;
     z-index: 9999;
-    width: 192px;
+    min-width: 256px;
+    max-width: 256px;
+    width: 100%;
     height: 48px;
     background: var(--appearance-fill);
     border-radius: var(--border-radius-large);
     overflow: hidden;
-    transition: width 500ms var(--ease-in-out-circ), height 500ms var(--ease-in-out-circ) 125ms;
+    transition: width 500ms var(--ease-in-out-circ), min-width 500ms var(--ease-in-out-circ), max-width 500ms var(--ease-in-out-circ), height 500ms var(--ease-in-out-circ) 125ms;
     box-shadow: var(--depth-floating);
 }
 
 .header.expanded {
-    width: calc(256px + 32px);
+    min-width: 256px;
+    max-width: calc(256px + 128px);
+    width: 100%;
     height: calc(48px + calc(40px * 5) + 12px);
 }
 
@@ -134,7 +137,7 @@
     opacity: 1;
     visibility: visible;
     transform: none;
-    transition: opacity 125ms var(--ease-linear) 250ms, visibility 125ms var(--ease-linear) 250ms, transform 125ms var(--ease-linear) 250ms;
+    transition: opacity 250ms var(--ease-linear) 250ms, visibility 250ms var(--ease-linear) 250ms, transform 250ms var(--ease-linear) 250ms;
 }
 
 .header-navigation-link {
@@ -160,4 +163,22 @@
     color: var(--appearance-glyph-neutral-tertiary);
     pointer-events: none;
     cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        top: 0;
+        right: 0;
+        left: 0;
+        border-radius: var(--border-radius-sharp);
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .header.expanded {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
 }
