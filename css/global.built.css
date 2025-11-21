@@ -86,7 +86,7 @@
     --font-family-serif: Awesome Serif, serif;
     --font-family-sans: Basis Grotesque Arabic Pro, sans-serif;
     --font-family-mono: SK Modernist, monospace;
-    --font-family-ui: SK Modernist, var(--font-family-sans);
+    --font-family-ui: Gilroy, SK Modernist, var(--font-family-sans);
 
     --font-weight-normal: 400;
     --font-weight-emphasized: 700;
@@ -138,9 +138,13 @@
     --scale-40: 40px;
     --scale-44: 44px;
     --scale-48: 48px;
+    --scale-52: 52px;
     --scale-56: 56px;
+    --scale-60: 60px;
     --scale-64: 64px;
+    --scale-68: 68px;
     --scale-72: 72px;
+    --scale-76: 76px;
     --scale-80: 80px;
     --scale-88: 88px;
     --scale-96: 96px;
@@ -301,9 +305,9 @@
     --color-neutral-950: #11121A;
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.08);
-    --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.04), 0 1px 24px 0 rgba(0, 0, 0, 0.08);
-    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.04), 0 1px 48px 0 rgba(0, 0, 0, 0.08);
+    --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
+    --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 1px 24px 0 rgba(0, 0, 0, 0.08);
+    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.16), 0 1px 48px 0 rgba(0, 0, 0, 0.16);
 
 }
 
@@ -335,7 +339,7 @@
     --appearance-glyph-positive-tertiary: var(--color-positive-900);
     --appearance-glyph-neutral: var(--color-neutral-900);
     --appearance-glyph-neutral-secondary: var(--color-neutral-700);
-    --appearance-glyph-neutral-tertiary: var(--color-neutral-500);
+    --appearance-glyph-neutral-tertiary: var(--color-neutral-300);
 
     --appearance-fill: var(--color-snow);
     --appearance-fill-secondary: var(--color-neutral-050);
@@ -388,8 +392,8 @@
     --appearance-glyph-positive-secondary: var(--color-positive-300);
     --appearance-glyph-positive-tertiary: var(--color-positive-100);
     --appearance-glyph-neutral: var(--color-neutral-100);
-    --appearance-glyph-neutral-secondary: var(--color-neutral-600);
-    --appearance-glyph-neutral-tertiary: var(--color-neutral-900);
+    --appearance-glyph-neutral-secondary: var(--color-neutral-300);
+    --appearance-glyph-neutral-tertiary: var(--color-neutral-800);
 
     --appearance-fill: var(--color-void);
     --appearance-fill-secondary: var(--color-neutral-950);
@@ -559,14 +563,32 @@
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    height: var(--button-height);
+    max-width: calc(var(--layout-width-minimum) - 32px);
+}
+
+.button-xlarge {
+    --button-glyph-height: var(--scale-36);
+    --button-height: var(--scale-64);
+    font-family: var(--font-family-ui);
+    font-weight: var(--font-weight-emphasized);
+    font-size: var(--font-size-medium);
+    line-height: var(--button-glyph-height);
+    letter-spacing: var(--font-tracking-wide);
+    gap: var(--space-xsmall);
+    padding: var(--space-small) var(--space-xlarge);
+    border-radius: var(--border-radius-circle);
+    border-width: var(--border-size-1);
+    border-style: solid;
 }
 
 .button-base {
     --button-glyph-height: var(--scale-24);
+    --button-height: var(--scale-48);
     font-family: var(--font-family-ui);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-emphasized);
     font-size: var(--font-size-xsmall);
-    line-height: var(--glyph-height);
+    line-height: var(--button-glyph-height);
     letter-spacing: var(--font-tracking-wide);
     gap: var(--space-xxsmall);
     padding: var(--space-xsmall) var(--space-medium);
@@ -577,10 +599,11 @@
 
 .button-small {
     --button-glyph-height: var(--scale-20);
+    --button-height: var(--scale-36);
     font-family: var(--font-family-ui);
-    font-weight: var(--font-weight-normal);
-    font-size: var(--font-size-xsmall);
-    line-height: var(--glyph-height);
+    font-weight: var(--font-weight-emphasized);
+    font-size: var(--font-size-xxsmall);
+    line-height: var(--button-glyph-height);
     letter-spacing: var(--font-tracking-wide);
     gap: var(--space-xxxsmall);
     padding: var(--space-xxsmall) var(--space-small);
@@ -623,8 +646,11 @@
 
 .button-icon {
     aspect-ratio: 4 / 4;
-    width: 100%;
     fill: inherit;
+}
+
+.button-xlarge .button-icon {
+    height: var(--button-glyph-height);
 }
 
 .button-base .button-icon {
@@ -708,7 +734,6 @@
 
 .link-icon {
     aspect-ratio: 4 / 4;
-    width: 100%;
     fill: inherit;
 }
 
@@ -725,7 +750,7 @@
 }
 
 .link:hover {
-    text-decoration: underline;
+    text-decoration: underline solid;
 }
 
 /* Component / Tile */

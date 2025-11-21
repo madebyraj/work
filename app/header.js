@@ -1,77 +1,39 @@
-const headerControl = document.querySelector(".header-control");
-const header = document.querySelector(".header");
-const headerTabs = document.querySelectorAll(".header-tab");
+const header = document.querySelector('.header');
+const headerControl = document.querySelector('.header-control');
+let isOpen = false;
 
-let isExpanded = false;
-
-// Toggle menu
-function toggleMenu() {
-  isExpanded = !isExpanded;
-  header.classList.toggle("header-expanded", isExpanded);
-}
-
-// Close menu
-function closeMenu() {
-  if (isExpanded) {
-    isExpanded = false;
-    header.classList.remove("header-expanded");
-  }
-}
-
-// Open menu on control click
-headerControl.addEventListener("click", (e) => {
+headerControl.addEventListener('click', (e) => {
   e.stopPropagation();
-  toggleMenu();
-});
+  isOpen = !isOpen;
 
-// Close menu when clicking outside
-document.addEventListener("click", (e) => {
-  if (!header.contains(e.target)) {
-    closeMenu();
+  if (isOpen) {
+    header.classList.add('expanded');
+  } else {
+    header.classList.remove('expanded');
   }
 });
 
-// Close menu on scroll
 let scrollTimeout;
-window.addEventListener("scroll", () => {
+window.addEventListener('scroll', () => {
   clearTimeout(scrollTimeout);
   scrollTimeout = setTimeout(() => {
-    closeMenu();
+    isOpen = false;
+    header.classList.remove('expanded');
   }, 25);
 });
 
-// Close menu on Escape key
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") {
-    closeMenu();
+document.addEventListener('click', (e) => {
+  if (!header.contains(e.target)) {
+    isOpen = false;
+    header.classList.remove('expanded');
   }
 });
 
-// Close menu when clicking any tab
-headerTabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    if (!tab.classList.contains("active-tab")) {
-      closeMenu();
-    }
-  });
-});
+header.addEventListener('click', (e) => e.stopPropagation());
 
-// Prevent clicks inside header from closing it
-header.addEventListener("click", (e) => {
-  e.stopPropagation();
-});
-
-// Active Tab State
-const headerTab = document.querySelectorAll(".header-tab");
-const windowPathname = window.location.pathname;
-
-headerTab.forEach((headerTab) => {
-  const headerTabPathname = new URL(headerTab.href).pathname;
-
-  if (
-    windowPathname === headerTabPathname ||
-    (windowPathname === "/index.html" && headerTabPathname === "/")
-  ) {
-    headerTab.classList.add("active-tab");
+const currentPath = window.location.pathname;
+document.querySelectorAll('.header-navigation-link').forEach(link => {
+  if (link.getAttribute('href') === currentPath) {
+    link.classList.add('active');
   }
 });
