@@ -78,15 +78,31 @@
     src: url(../assets/fonts/Gilroy-Bold.woff) format("woff");
 }
 
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 500;
+    src: url(../assets/fonts/Sohne-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/Sohne-Bold.woff) format("woff");
+}
+
 
 /* Semantics */
 
 :root {
 
     --font-family-serif: Awesome Serif, serif;
-    --font-family-sans: Basis Grotesque Arabic Pro, sans-serif;
-    --font-family-mono: SK Modernist, monospace;
-    --font-family-ui: Gilroy, SK Modernist, var(--font-family-sans);
+    --font-family-sans: Sohne, Basis Grotesque Arabic Pro, system-ui, sans-serif;
+    --font-family-mono: SK Modernist, system-ui, monospace;
+    --font-family-ui: SK Modernist, var(--font-family-sans);
 
     --font-weight-normal: 400;
     --font-weight-emphasized: 700;
@@ -307,7 +323,7 @@
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
     --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 1px 24px 0 rgba(0, 0, 0, 0.08);
-    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.16), 0 1px 48px 0 rgba(0, 0, 0, 0.16);
+    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 1px 48px 0 rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
 
 }
 
@@ -422,6 +438,30 @@
 
 }
 
+.glyph {
+    color: var(--appearance-glyph);
+}
+
+.glyph-secondary {
+    color: var(--appearance-glyph-secondary);
+}
+
+.glyph-tertiary {
+    color: var(--appearance-glyph-tertiary);
+}
+
+.fill {
+    background: var(--appearance-fill);
+}
+
+.fill-secondary {
+    background: var(--appearance-fill-secondary);
+}
+
+.fill-tertiary {
+    background: var(--appearance-fill-tertiary);
+}
+
 
 /* Typography */
 
@@ -471,7 +511,7 @@
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-medium);
-    letter-spacing: var(--font-tracking-wide);
+    letter-spacing: var(--font-tracking-none);
 }
 
 .typography-body {
@@ -558,11 +598,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.25s var(--ease-bounce), box-shadow 0.25s var(--ease-linear);
+    transition: transform 250ms var(--ease-bounce), box-shadow 250ms var(--ease-linear);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    text-transform: uppercase;
     height: var(--button-height);
     max-width: calc(var(--layout-width-minimum) - 32px);
 }
@@ -680,7 +721,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: text-decoration 0.25s var(--ease-linear);
+    transition: text-decoration 250ms var(--ease-linear);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -766,10 +807,10 @@
     overflow: hidden;
     padding: var(--space-small);
     gap: var(--space-small);
-    background: linear-gradient(180deg, var(--appearance-fill) 0%, var(--appearance-fill-neutral-tertiary) 100%);
+    background: linear-gradient(180deg, var(--appearance-fill) 0%, var(--appearance-fill-tertiary) 100%);
     cursor: pointer;
     border-radius: var(--border-radius-xlarge);
-    transition: box-shadow 0.125s var(--ease-linear);
+    transition: box-shadow 125ms var(--ease-linear);
     box-shadow: var(--depth-baseline), 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
 }
 

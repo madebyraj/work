@@ -1,11 +1,10 @@
-/* Linked CSS Files */
-
 @import url("./global.built.css");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 :focus {
@@ -41,7 +40,6 @@ main {
 
 .highlight {
   color: var(--appearance-glyph-highlight) !important;
-  background: rgba(101, 64, 229, 0.04) !important;
   position: relative;
 }
 
@@ -52,15 +50,41 @@ main {
 
 .hero-section {
   padding: 128px 0;
-  background: var(--appearance-fill);
+  position: relative;
+}
+
+.hero-section-background {
+  flex: none;
+  inset: 0;
+  opacity: 0.365;
+  overflow: visible;
+  position: absolute;
+  z-index: 0;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 100%);
+}
+
+.hero-section-background-block {
+  position: absolute;
+  border-radius: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 52px auto;
+  background-image: url(../assets/global/background-block.png);
+  border: 0;
 }
 
 .hero-section-layout {
+  position: relative;
   width: 100%;
   height: 100%;
   max-width: var(--layout-width-maximum);
   padding: 0 var(--layout-margin);
   margin: auto;
+  z-index: 1;
 }
 
 .hero-section-content {
@@ -99,10 +123,16 @@ main {
 }
 
 .hero-avatar {
-  border-radius: var(--border-radius-circle);
-  width: 192px;
+  width: calc(128px + 64px);
   height: 128px;
   overflow: hidden;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  corner-shape: squircle;
+  border-radius: calc(var(--border-radius-xxxlarge) + 4px);
+  box-shadow: var(--depth-raised);
 }
 
 .hero-avatar-image {
@@ -110,11 +140,12 @@ main {
   object-position: top;
   width: 100%;
   height: 100%;
+  corner-shape: squircle;
+  border-radius: var(--border-radius-xxxlarge);
 }
 
 .hero-eyebrow {
   text-align: center;
-  color: var(--appearance-glyph-tertiary);
 }
 
 .hero-heading-wrapper {
@@ -127,17 +158,14 @@ main {
 
 .hero-heading {
   text-align: center;
-  color: var(--appearance-glyph);
 }
 
 .hero-subheading {
   text-align: center;
-  color: var(--appearance-glyph-secondary);
 }
 
 .project-section {
   padding: 128px 0 64px;
-  background: var(--appearance-fill);
 }
 
 .project-section-layout {
@@ -158,7 +186,6 @@ main {
 .project-section-heading {
   grid-column: 3 / 11;
   width: 100%;
-  color: var(--appearance-glyph-tertiary);
   text-align: center;
 }
 
@@ -172,7 +199,6 @@ main {
 
 .shipped-project-section {
   padding: 64px 0;
-  background: var(--appearance-fill);
 }
 
 .shipped-project-section-layout {
@@ -193,7 +219,6 @@ main {
 .shipped-project-section-heading {
   grid-column: 3 / 11;
   width: 100%;
-  color: var(--appearance-glyph-tertiary);
   text-align: center;
 }
 
@@ -207,7 +232,6 @@ main {
 
 .reel-section {
   padding: 64px 0 128px;
-  background: var(--appearance-fill);
 }
 
 .reel-section-layout {
@@ -229,7 +253,6 @@ main {
   grid-column: 3 / 11;
   width: 100%;
   text-align: center;
-  color: var(--appearance-glyph-secondary);
 }
 
 .reel {
@@ -239,7 +262,6 @@ main {
   padding: var(--space-xlarge) 0;
   background: var(--appearance-fill-secondary);
   border-radius: var(--border-radius-large);
-  box-shadow: 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
 }
 
 .reel-track {
