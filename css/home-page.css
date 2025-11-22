@@ -16,8 +16,6 @@ html {
 }
 
 body {
-  background: var(--system-fill-primary);
-  color: var(--system-glyph-primary);
   animation: pageLoading 1s var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -102,7 +100,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--space-medium);
+  gap: var(--space-xlarge);
 }
 
 .hero-section-actions {
@@ -114,17 +112,9 @@ main {
   gap: var(--space-medium);
 }
 
-.media-me-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-small);
-}
-
 .hero-avatar {
-  width: calc(128px + 64px);
-  height: 128px;
+  width: 96px;
+  height: 80px;
   overflow: hidden;
   padding: 4px;
   display: flex;
@@ -144,20 +134,21 @@ main {
   border-radius: var(--border-radius-xxxlarge);
 }
 
-.hero-eyebrow {
-  text-align: center;
-}
-
-.hero-heading-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: var(--space-xlarge);
-}
-
 .hero-heading {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 10px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 10px;
 }
 
 .hero-subheading {
@@ -298,6 +289,11 @@ main {
     grid-column: 2 / 8;
   }
 
+  .hero-avatar {
+    width: 76px;
+    height: 64px;
+  }
+
   .hero-section-actions {
     grid-column: 2 / 8;
   }
@@ -356,6 +352,11 @@ main {
 
   .hero-information {
     grid-column: 1 / 5;
+  }
+
+  .hero-avatar {
+    width: 64px;
+    height: 48px;
   }
 
   .hero-section-actions {

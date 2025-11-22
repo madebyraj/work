@@ -27,17 +27,17 @@
     max-width: 256px;
     width: 100%;
     height: 60px;
-    background: rgba(255, 255, 255, 0.84);
+    background: var(--appearance-material-ultrathick);
     border-radius: var(--border-radius-large);
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
     overflow: hidden;
     transition: width 500ms var(--ease-in-out-circ), min-width 500ms var(--ease-in-out-circ), max-width 500ms var(--ease-in-out-circ), height 500ms var(--ease-in-out-circ) 125ms, background 500ms var(--ease-in-out-circ);
-    box-shadow: var(--depth-floating);
+    box-shadow: var(--depth-floating), 0 0 0 0.5px var(--appearance-fill-neutral-tertiary);
 }
 
 .header.expanded {
-    background: var(--appearance-fill-secondary);
+    background: var(--appearance-fill);
     min-width: 256px;
     max-width: calc(256px + 256px);
     width: 100%;

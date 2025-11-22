@@ -47,6 +47,38 @@
 }
 
 @font-face {
+    font-family: "Denton";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 500;
+    src: url(../assets/fonts/Denton-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Denton";
+    font-display: swap;
+    font-style: italic;
+    font-weight: 1 500;
+    src: url(../assets/fonts/Denton-RegularItalic.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Denton";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/Denton-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Denton";
+    font-display: swap;
+    font-style: italic;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/Denton-BoldItalic.woff) format("woff");
+}
+
+@font-face {
     font-family: "SK Modernist";
     font-display: swap;
     font-style: normal;
@@ -99,7 +131,7 @@
 
 :root {
 
-    --font-family-serif: Awesome Serif, serif;
+    --font-family-serif: Denton, Awesome Serif, serif;
     --font-family-sans: Sohne, Basis Grotesque Arabic Pro, system-ui, sans-serif;
     --font-family-mono: SK Modernist, system-ui, monospace;
     --font-family-ui: SK Modernist, var(--font-family-sans);
@@ -323,7 +355,7 @@
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
     --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 1px 24px 0 rgba(0, 0, 0, 0.08);
-    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 1px 48px 0 rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
+    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 1px 48px 0 rgba(0, 0, 0, 0.08);
 
 }
 
@@ -382,6 +414,13 @@
     --appearance-fill-neutral-secondary: var(--color-neutral-500);
     --appearance-fill-neutral-tertiary: var(--color-neutral-200);
 
+    --appearance-material-ultrathick: rgba(255, 255, 255, 0.84);
+    --appearance-material-thick: rgba(255, 255, 255, 0.72);
+    --appearance-material-regular: rgba(255, 255, 255, 0.60);
+    --appearance-material-thin: rgba(255, 255, 255, 0.48);
+    --appearance-material-ultrathin: rgba(255, 255, 255, 0.36);
+    --appearance-material-idle: var(--appearance-fill);
+
 }
 
 .appearance-dark {
@@ -436,6 +475,13 @@
     --appearance-fill-neutral-secondary: var(--color-neutral-500);
     --appearance-fill-neutral-tertiary: var(--color-neutral-800);
 
+    --appearance-material-ultrathick: rgba(0, 0, 0, 0.84);
+    --appearance-material-thick: rgba(0, 0, 0, 0.72);
+    --appearance-material-regular: rgba(0, 0, 0, 0.60);
+    --appearance-material-thin: rgba(0, 0, 0, 0.48);
+    --appearance-material-ultrathin: rgba(0, 0, 0, 0.36);
+    --appearance-material-idle: var(--appearance-fill);
+
 }
 
 .glyph {
@@ -478,7 +524,7 @@
     font-size: var(--font-size-xxxlarge);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-xxxlarge);
-    letter-spacing: var(--font-tracking-tight);
+    letter-spacing: var(--font-tracking-none);
 }
 
 .typography-quote {
@@ -539,7 +585,7 @@
     .typography-title1 {
         font-size: var(--font-size-xxlarge);
         line-height: var(--font-leading-xxlarge);
-        letter-spacing: var(--font-tracking-tight);
+        letter-spacing: var(--font-tracking-none);
     }
 
     .typography-quote {
@@ -580,7 +626,7 @@
     .typography-title1 {
         font-size: var(--font-size-xlarge);
         line-height: var(--font-leading-xlarge);
-        letter-spacing: var(--font-tracking-none);
+        letter-spacing: var(--font-tracking-wide);
     }
 
 }
