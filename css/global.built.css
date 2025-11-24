@@ -1,81 +1,33 @@
 @font-face {
-    font-family: "Awesome Serif";
+    font-family: "Fell";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/AwesomeSerif-Regular.woff) format("woff");
+    src: url(../assets/fonts/Fell.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Awesome Serif";
+    font-family: "Fell";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/Fell.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Fell";
     font-display: swap;
     font-style: italic;
     font-weight: 1 500;
-    src: url(../assets/fonts/AwesomeSerifItalic-Regular.woff) format("woff");
+    src: url(../assets/fonts/FellItalic.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Awesome Serif";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/AwesomeSerif-Bold.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Awesome Serif";
+    font-family: "Fell";
     font-display: swap;
     font-style: italic;
     font-weight: 501 1000;
-    src: url(../assets/fonts/AwesomeSerifItalic-Bold.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Basis Grotesque Arabic Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 500;
-    src: url(../assets/fonts/BasisGrotesqueArabicPro-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Basis Grotesque Arabic Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/BasisGrotesqueArabicPro-Bold.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Denton";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 500;
-    src: url(../assets/fonts/Denton-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Denton";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 1 500;
-    src: url(../assets/fonts/Denton-RegularItalic.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Denton";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/Denton-Bold.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Denton";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/Denton-BoldItalic.woff) format("woff");
+    src: url(../assets/fonts/FellItalic.woff) format("woff");
 }
 
 @font-face {
@@ -95,22 +47,6 @@
 }
 
 @font-face {
-    font-family: "Gilroy";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 500;
-    src: url(../assets/fonts/Gilroy-Medium.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Gilroy";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/Gilroy-Bold.woff) format("woff");
-}
-
-@font-face {
     font-family: "Sohne";
     font-display: swap;
     font-style: normal;
@@ -123,7 +59,7 @@
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/Sohne-Bold.woff) format("woff");
+    src: url(../assets/fonts/Sohne-Semibold.woff) format("woff");
 }
 
 
@@ -131,9 +67,12 @@
 
 :root {
 
-    --font-family-serif: Denton, Awesome Serif, serif;
+    --font-family-serif: Fell, Denton, Awesome Serif, serif;
     --font-family-sans: Sohne, Basis Grotesque Arabic Pro, system-ui, sans-serif;
     --font-family-mono: SK Modernist, system-ui, monospace;
+
+    --font-family-brand: Fell, Denton, Awesome Serif, serif;
+    --font-family-content: Sohne, Basis Grotesque Arabic Pro, system-ui, sans-serif;
     --font-family-ui: SK Modernist, var(--font-family-sans);
 
     --font-weight-normal: 400;
@@ -516,7 +455,7 @@
     font-size: var(--font-size-xxxxlarge);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-xxxxlarge);
-    letter-spacing: var(--font-tracking-tight);
+    letter-spacing: var(--font-tracking-tighter);
 }
 
 .typography-title1 {
@@ -912,7 +851,7 @@
 
 .tile-headline {
     color: var(--appearance-glyph);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-sans);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-large);
@@ -921,7 +860,7 @@
 
 .tile-description {
     color: var(--appearance-glyph-tertiary);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-sans);
     font-size: var(--font-size-xxsmall);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-xxsmall);

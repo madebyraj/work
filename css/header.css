@@ -156,16 +156,20 @@
 
 .header-navigation-link:hover {
     color: var(--appearance-glyph-accent);
-    background: var(--appearance-fill-neutral-tertiary);
+    background: var(--appearance-fill-accent-tertiary);
 }
 
 .header-navigation-link.active {
-    color: var(--appearance-glyph-neutral-tertiary);
+    color: var(--appearance-glyph-accent-tertiary);
     pointer-events: none;
     cursor: not-allowed;
 }
 
 @media (max-width: 768px) {
+
+    .header-container {
+        height: calc(60px + 0px);
+    }
 
     .header {
         top: 0;
