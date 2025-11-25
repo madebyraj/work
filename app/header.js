@@ -37,3 +37,32 @@ document.querySelectorAll('.header-navigation-link').forEach(link => {
     link.classList.add('active');
   }
 });
+
+function updateHeaderTheme() {
+  const sections = document.querySelectorAll(".appearance-light, .appearance-dark");
+
+  let headerCenterY = header.offsetHeight * 0;
+
+  let activeTheme = null;
+
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+
+    if (rect.top <= headerCenterY && rect.bottom >= headerCenterY) {
+      if (section.classList.contains("appearance-light")) {
+        activeTheme = "appearance-light";
+      }
+      else if (section.classList.contains("appearance-dark")) {
+        activeTheme = "appearance-dark";
+      }
+    }
+  });
+
+  if (activeTheme) {
+    header.classList.remove("appearance-light", "appearance-dark");
+    header.classList.add(activeTheme);
+  }
+}
+
+window.addEventListener("scroll", updateHeaderTheme);
+window.addEventListener("load", updateHeaderTheme);

@@ -40,7 +40,7 @@
 
 <body class="appearance-light fill glyph">
 
-  <div class="header-container appearance-light">
+  <div class="header-container">
     <div class="header-container-blur">
       <div
         style="opacity: 1; position: absolute; inset: 0px; z-index: 1; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%); pointer-events: none; backdrop-filter: blur(0.390625px); will-change: auto;">
@@ -142,11 +142,11 @@
     <section class="project-section appearance-light fill" id="project-section">
       <div class="project-section-layout">
         <div class="project-section-content">
-          <h2 class="project-section-heading typography-eyebrow glyph-tertiary">Recent Projects</h2>
+          <h2 class="project-section-heading typography-eyebrow glyph-tertiary" data-animate="fade-in">Recent Projects</h2>
           <div class="projects">
             <a class="tile"
               href="https://medium.com/design-bootcamp/personalization-for-new-members-in-netflix-a-ux-case-study-66c578af9a6b"
-              aria-label="Click here to see my Netflix project" target="_blank">
+              aria-label="Click here to see my Netflix project" target="_blank" data-animate="fade-in">
               <div class="tile-media">
                 <img src="./assets/global/netflix-cover.png" alt="Project 1 cover photo" class="tile-image" />
               </div>
@@ -164,7 +164,7 @@
             </a>
 
             <a class="tile" href="https://medium.com/@madebyraj_/worksafe-manager-ux-case-study-149ba8041107"
-              aria-label="Click here to see my Worksafe Manager project" target="_blank">
+              aria-label="Click here to see my Worksafe Manager project" target="_blank" data-animate="fade-in">
               <div class="tile-media">
                 <img src="./assets/global/worksafemanager-cover.png" alt="Project 2 cover photo" class="tile-image" />
               </div>
@@ -184,7 +184,7 @@
             </a>
 
             <a class="tile" href="https://www.notion.so/Money-Tracker-22d61b770e6480e3a027e1a1c439a4d7"
-              aria-label="Click here to see my Money Tracker project" target="_blank">
+              aria-label="Click here to see my Money Tracker project" target="_blank" data-animate="fade-in">
               <div class="tile-media">
                 <img src="./assets/global/moneytracker-cover.png" alt="Project 3 cover photo" class="tile-image" />
               </div>
@@ -209,10 +209,10 @@
     <section class="shipped-project-section appearance-light fill" id="shipped-projects-section">
       <div class="shipped-project-section-layout">
         <div class="shipped-project-section-content">
-          <h3 class="shipped-project-section-heading typography-eyebrow glyph-tertiary">Things that I shipped</h3>
+          <h3 class="shipped-project-section-heading typography-eyebrow glyph-tertiary" data-animate="fade-in">Things that I shipped</h3>
           <div class="shipped-projects">
             <a class="tile" href="https://madebyraj.github.io/morphix-studio"
-              aria-label="Click here to create color palettes" target="_blank">
+              aria-label="Click here to create color palettes" target="_blank" data-animate="fade-in">
               <div class="tile-media">
                 <img src="./assets/global/shipped-work/morphix-studio-cover.webp" alt="Morphix Studio cover photo"
                   class="tile-image" />
@@ -231,7 +231,7 @@
               </div>
             </a>
             <a class="tile" href="https://www.figma.com/community/file/1403398689455527801/morphix-design-system"
-              aria-label="Click Here to see my design system" target="_blank">
+              aria-label="Click Here to see my design system" target="_blank" data-animate="fade-in">
               <div class="tile-media">
                 <img src="./assets/global/shipped-work/morphixdesignsystem-cover.png" alt="Morphix Design System cover photo"
                   class="tile-image" />
@@ -250,7 +250,7 @@
               </div>
             </a>
             <a class="tile" href="https://madebyraj.github.io/invoke" aria-label="Click here to use Invoke app"
-              target="_blank">
+              target="_blank" data-animate="fade-in">
               <div class="tile-media">
                 <img src="./assets/global/shipped-work/invoke-cover.webp" alt="Invoke cover photo" class="tile-image" />
               </div>
@@ -275,12 +275,12 @@
     <section class="reel-section appearance-light fill">
       <div class="reel-section-layout">
         <div class="reel-section-content">
-          <h3 class="reel-section-heading typography-quote glyph-secondary">
+          <h3 class="reel-section-heading typography-quote glyph-secondary" data-animate="fade-in">
             I know <span class="highlight">reading case studies was a task, phew!</span> but to treat your eyes watch a
             <span class="highlight">short reel</span> that I made to display <span class="highlight">my old
               work.</span>
           </h3>
-          <div class="reel" id="reel">
+          <div class="reel" id="reel" data-animate="fade-in">
             <div class="reel-slides">
               <img src="./assets/global/more-work/fyk-website.webp" class="reel-slide" aria-label="old design work" />
               <img src="./assets/global/more-work/gs-resume.webp" class="reel-slide" aria-label="old design work" />
@@ -306,7 +306,7 @@
           </h2>
         </div>
         <div class="footer-actions">
-          <a class="button button-xlarge button-brand" href="mailto:hi.madebyraj@gmail.com" target="_blank"
+          <a class="button button-xlarge button-positive" href="mailto:hi.madebyraj@gmail.com" target="_blank"
             aria-label="Click Here to connect with me through mail">
             Say hi!
           </a>
@@ -325,6 +325,7 @@
   <script src="./app/gsap-animation.js"></script>
 
   <script src="./app/header.js"></script>
+  <script src="./app/global.built.js"></script>
   <script>
     (function () {
       const reel = document.getElementById("reel");

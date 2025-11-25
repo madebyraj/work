@@ -279,17 +279,17 @@
     --color-positive-900: #002116;
     --color-positive-950: #001810;
 
-    --color-neutral-050: #F9FAFB;
-    --color-neutral-100: #F3F4F8;
-    --color-neutral-200: #E3E4EE;
-    --color-neutral-300: #C7CADD;
-    --color-neutral-400: #8990B7;
-    --color-neutral-500: #6670A2;
-    --color-neutral-600: #535C85;
-    --color-neutral-700: #32374F;
-    --color-neutral-800: #262A3D;
-    --color-neutral-900: #161924;
-    --color-neutral-950: #11121A;
+    --color-neutral-050: #FAFAFB;
+    --color-neutral-100: #F4F4F7;
+    --color-neutral-200: #E4E6EC;
+    --color-neutral-300: #CACDD9;
+    --color-neutral-400: #9095B0;
+    --color-neutral-500: #6F7699;
+    --color-neutral-600: #5B617D;
+    --color-neutral-700: #363A4B;
+    --color-neutral-800: #2A2C3A;
+    --color-neutral-900: #181A22;
+    --color-neutral-950: #121319;
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
@@ -674,6 +674,22 @@
     background: var(--appearance-fill-accent-secondary);
     box-shadow: var(--depth-baseline);
     border-color: var(--appearance-fill-accent-secondary);
+}
+
+.button-positive {
+    color: var(--color-snow);
+    fill: var(--color-snow);
+    background: var(--appearance-fill-positive);
+    box-shadow: var(--depth-baseline);
+    border-color: var(--appearance-fill-positive);
+}
+
+.button-positive-alternate {
+    color: var(--appearance-glyph-positive);
+    fill: var(--appearance-glyph-positive);
+    background: var(--appearance-fill-positive-secondary);
+    box-shadow: var(--depth-baseline);
+    border-color: var(--appearance-fill-positive-secondary);
 }
 
 .button-icon {
