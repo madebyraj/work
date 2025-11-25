@@ -256,16 +256,16 @@
     --color-negative-950: #290308;
 
     --color-alert-050: #FFFCF5;
-    --color-alert-100: #FFF8EB;
-    --color-alert-200: #FEEED0;
-    --color-alert-300: #FDDEA1;
-    --color-alert-400: #FBBA3A;
-    --color-alert-500: #FAA600;
-    --color-alert-600: #CD8800;
-    --color-alert-700: #7A5100;
-    --color-alert-800: #5E3F00;
-    --color-alert-900: #372500;
-    --color-alert-950: #291B00;
+    --color-alert-100: #FFF9EB;
+    --color-alert-200: #FFF0D0;
+    --color-alert-300: #FFE2A1;
+    --color-alert-400: #FFC23A;
+    --color-alert-500: #FFB000;
+    --color-alert-600: #D19000;
+    --color-alert-700: #7D5600;
+    --color-alert-800: #604200;
+    --color-alert-900: #382700;
+    --color-alert-950: #291D00;
 
     --color-positive-050: #F5FBF9;
     --color-positive-100: #EBF7F3;
@@ -539,6 +539,12 @@
         letter-spacing: var(--font-tracking-tight);
     }
 
+    .typography-eyebrow {
+        font-size: var(--font-size-xsmall);
+        line-height: var(--font-leading-xsmall);
+        letter-spacing: var(--font-tracking-widest);
+    }
+
     .typography-intro {
         font-size: var(--font-size-small);
         line-height: var(--font-leading-small);
@@ -796,15 +802,15 @@
     cursor: pointer;
     border-radius: var(--border-radius-xlarge);
     transition: box-shadow 125ms var(--ease-linear);
-    box-shadow: var(--depth-baseline), 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
+    box-shadow: var(--depth-baseline), inset 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
 }
 
 .tile:hover {
-    box-shadow: var(--depth-raised), 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
+    box-shadow: var(--depth-raised), inset 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
 }
 
 .tile:active {
-    box-shadow: var(--depth-baseline), 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
+    box-shadow: var(--depth-baseline), inset 0 0 0 var(--border-size-1) var(--appearance-fill-neutral-tertiary);
 }
 
 
