@@ -1,33 +1,33 @@
 @font-face {
-    font-family: "Freight Text Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/FreightTextPro-Medium.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Freight Text Pro";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/FreightTextPro-Medium-Italic.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Sohne";
+    font-family: "GT Super Text";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/Sohne-Regular.woff) format("woff");
+    src: url(../assets/fonts/GTSuperText-Regular.woff2) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
+    font-family: "GT Super Text";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/Sohne-Semibold.woff) format("woff");
+    src: url(../assets/fonts/GTSuperText-Regular.woff2) format("woff");
+}
+
+@font-face {
+    font-family: "GT Super Text";
+    font-display: swap;
+    font-style: italic;
+    font-weight: 1 500;
+    src: url(../assets/fonts/GTSuperText-Regular-Italic.woff2) format("woff");
+}
+
+@font-face {
+    font-family: "GT Super Text";
+    font-display: swap;
+    font-style: italic;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/GTSuperText-Regular-Italic.woff2) format("woff");
 }
 
 @font-face {
@@ -46,14 +46,31 @@
     src: url(../assets/fonts/MaratSans-Bold.woff) format("woff");
 }
 
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 500;
+    src: url(../assets/fonts/Sohne-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 501 1000;
+    src: url(../assets/fonts/Sohne-Semibold.woff) format("woff");
+}
+
 
 /* Semantics */
 
 :root {
 
-    --font-family-display: Freight Text Pro, Times New Roman, serif;
-    --font-family-body: Sohne, Arial, Basis Grotesque Arabic Pro, system-ui, sans-serif;
-    --font-family-ui: Marat Sans, var(--font-family-body);
+    --font-family-display-sans-serif: Marat Sans, Arial, system-ui, sans-serif;
+    --font-family-display-serif: GT Super Text, Times New Roman, serif;
+    --font-family-content-sans-serif: Sohne, Arial, system-ui, sans-serif;
+    --font-family-content-serif: Source Serif Pro, Times New Roman, serif;
 
     --font-weight-normal: 400;
     --font-weight-emphasized: 600;
@@ -421,23 +438,23 @@
 /* Typography */
 
 .typography-display {
-    font-family: var(--font-family-display);
+    font-family: var(--font-family-display-serif);
     font-size: var(--font-size-xxxxlarge);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-xxxxlarge);
-    letter-spacing: var(--font-tracking-tighter);
+    letter-spacing: var(--font-tracking-tightest);
 }
 
 .typography-title1 {
-    font-family: var(--font-family-display);
+    font-family: var(--font-family-display-serif);
     font-size: var(--font-size-xxxlarge);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-xxxlarge);
-    letter-spacing: var(--font-tracking-tight);
+    letter-spacing: var(--font-tracking-tightest);
 }
 
 .typography-quote {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-xlarge);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-xlarge);
@@ -445,7 +462,7 @@
 }
 
 .typography-callout {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-large);
@@ -453,7 +470,7 @@
 }
 
 .typography-eyebrow {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-small);
@@ -462,7 +479,7 @@
 }
 
 .typography-intro {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-medium);
@@ -470,7 +487,7 @@
 }
 
 .typography-body {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-xsmall);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-xsmall);
@@ -488,13 +505,13 @@
     .typography-display {
         font-size: var(--font-size-xxxlarge);
         line-height: var(--font-leading-xxxlarge);
-        letter-spacing: var(--font-tracking-none);
+        letter-spacing: var(--font-tracking-tighter);
     }
 
     .typography-title1 {
         font-size: var(--font-size-xxlarge);
         line-height: var(--font-leading-xxlarge);
-        letter-spacing: var(--font-tracking-none);
+        letter-spacing: var(--font-tracking-tighter);
     }
 
     .typography-quote {
@@ -535,13 +552,13 @@
     .typography-display {
         font-size: var(--font-size-xxlarge);
         line-height: var(--font-leading-xxlarge);
-        letter-spacing: var(--font-tracking-wide);
+        letter-spacing: var(--font-tracking-tighter);
     }
 
     .typography-title1 {
         font-size: var(--font-size-xlarge);
         line-height: var(--font-leading-xlarge);
-        letter-spacing: var(--font-tracking-wide);
+        letter-spacing: var(--font-tracking-tighter);
     }
 
 }
@@ -589,7 +606,7 @@
 .button-xlarge {
     --button-glyph-height: var(--scale-32);
     --button-height: var(--scale-64);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-medium);
     line-height: var(--button-glyph-height);
@@ -604,7 +621,7 @@
 .button-base {
     --button-glyph-height: var(--scale-24);
     --button-height: var(--scale-48);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     line-height: var(--button-glyph-height);
@@ -619,7 +636,7 @@
 .button-small {
     --button-glyph-height: var(--scale-20);
     --button-height: var(--scale-36);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xxsmall);
     line-height: var(--button-glyph-height);
@@ -740,7 +757,7 @@
 
 .link-large {
     --link-glyph-height: var(--scale-28);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-small);
     line-height: var(--link-glyph-height);
@@ -750,7 +767,7 @@
 
 .link-base {
     --link-glyph-height: var(--scale-24);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     line-height: var(--link-glyph-height);
@@ -760,7 +777,7 @@
 
 .link-small {
     --link-glyph-height: var(--scale-20);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     line-height: var(--link-glyph-height);
@@ -862,7 +879,7 @@
 
 .tile-badge {
     padding: var(--space-xxxsmall) var(--space-xxsmall);
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-weight: var(--font-weight-emphasized);
     font-size: var(--font-size-xxxxsmall);
     line-height: var(--font-leading-xxxxsmall);
@@ -876,7 +893,7 @@
 
 .tile-headline {
     color: var(--appearance-glyph);
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-display-sans-serif);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-large);
@@ -885,11 +902,11 @@
 
 .tile-description {
     color: var(--appearance-glyph-tertiary);
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-xxsmall);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-xxsmall);
-    letter-spacing: var(--font-tracking-tight);
+    letter-spacing: var(--font-tracking-wide);
 }
 
 .tile-cta {

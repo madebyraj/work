@@ -75,12 +75,11 @@
     align-items: center;
     justify-content: center;
     gap: 0;
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-content-sans-serif);
     font-size: var(--font-size-xxxsmall);
-    font-weight: var(--font-weight-emphasized);
+    font-weight: var(--font-weight-normal);
     line-height: var(--glyph-height);
-    letter-spacing: var(--font-tracking-widest);
-    text-transform: uppercase;
+    letter-spacing: var(--font-tracking-wide);
     color: var(--appearance-glyph-neutral-secondary);
     cursor: pointer;
     transition: color 250ms var(--ease-in-out-circ);
@@ -143,11 +142,11 @@
 .header-navigation-link {
     width: 100%;
     padding: 8px;
-    font-family: var(--font-family-ui);
+    font-family: var(--font-family-display-sans-serif);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-emphasized);
     line-height: var(--font-leading-medium);
-    letter-spacing: var(--font-tracking-wider);
+    letter-spacing: var(--font-tracking-wide);
     color: var(--appearance-glyph-neutral);
     border-radius: var(--border-radius-small);
     text-decoration: none;
