@@ -99,13 +99,13 @@
     --font-leading-xxxlarge: 64px;
     --font-leading-xxxxlarge: 80px;
 
-    --font-tracking-tightest: -1px;
-    --font-tracking-tighter: -0.3px;
-    --font-tracking-tight: -0.13px;
+    --font-tracking-tightest: -0.05em;
+    --font-tracking-tighter: -0.025em;
+    --font-tracking-tight: -0.013em;
     --font-tracking-none: 0;
-    --font-tracking-wide: 0.13px;
-    --font-tracking-wider: 0.3px;
-    --font-tracking-widest: 1px;
+    --font-tracking-wide: 0.013em;
+    --font-tracking-wider: 0.025em;
+    --font-tracking-widest: 0.05em;
 
     --scale-0: 0px;
     --scale-1: 1px;
@@ -458,7 +458,7 @@
     font-size: var(--font-size-xlarge);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-xlarge);
-    letter-spacing: var(--font-tracking-tighter);
+    letter-spacing: var(--font-tracking-tight);
 }
 
 .typography-callout {
@@ -505,7 +505,7 @@
     .typography-display {
         font-size: var(--font-size-xxxlarge);
         line-height: var(--font-leading-xxxlarge);
-        letter-spacing: var(--font-tracking-tighter);
+        letter-spacing: var(--font-tracking-tightest);
     }
 
     .typography-title1 {
