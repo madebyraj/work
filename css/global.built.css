@@ -260,17 +260,29 @@
     --color-positive-900: #0A1B0F;
     --color-positive-950: #050D08;
 
-    --color-neutral-050: #FAFAF9;
-    --color-neutral-100: #F3F3F2;
-    --color-neutral-200: #E7E7E6;
-    --color-neutral-300: #B6B6B0;
-    --color-neutral-400: #9D9D95;
-    --color-neutral-500: #85857B;
-    --color-neutral-600: #696962;
-    --color-neutral-700: #50504A;
-    --color-neutral-800: #353531;
-    --color-neutral-900: #1B1B19;
-    --color-neutral-950: #0D0D0C;
+    --color-neutral-050: #F7F8FC;
+    --color-neutral-100: #EDF0F7;
+    --color-neutral-200: #DCE1F0;
+    --color-neutral-300: #94A4D2;
+    --color-neutral-400: #7085C2;
+    --color-neutral-500: #4C66B3;
+    --color-neutral-600: #3C518E;
+    --color-neutral-700: #2D3D6B;
+    --color-neutral-800: #1E2847;
+    --color-neutral-900: #0F1424;
+    --color-neutral-950: #070A12;
+
+    --color-neutral-muted-050: #F8F9FB;
+    --color-neutral-muted-100: #F0F1F5;
+    --color-neutral-muted-200: #E2E4EC;
+    --color-neutral-muted-300: #A5ACC3;
+    --color-neutral-muted-400: #8590AE;
+    --color-neutral-muted-500: #67749A;
+    --color-neutral-muted-600: #525C7A;
+    --color-neutral-muted-700: #3E455C;
+    --color-neutral-muted-800: #292E3D;
+    --color-neutral-muted-900: #15171F;
+    --color-neutral-muted-950: #0A0B0F;
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
@@ -284,9 +296,9 @@
 
 .appearance-light {
 
-    --appearance-glyph: var(--color-neutral-900);
-    --appearance-glyph-secondary: var(--color-neutral-600);
-    --appearance-glyph-tertiary: var(--color-neutral-400);
+    --appearance-glyph: var(--color-neutral-muted-900);
+    --appearance-glyph-secondary: var(--color-neutral-muted-600);
+    --appearance-glyph-tertiary: var(--color-neutral-muted-400);
     --appearance-glyph-brand: var(--color-brand-600);
     --appearance-glyph-brand-secondary: var(--color-brand-700);
     --appearance-glyph-brand-tertiary: var(--color-brand-900);
@@ -302,9 +314,9 @@
     --appearance-glyph-positive: var(--color-positive-600);
     --appearance-glyph-positive-secondary: var(--color-positive-700);
     --appearance-glyph-positive-tertiary: var(--color-positive-900);
-    --appearance-glyph-neutral: var(--color-neutral-900);
-    --appearance-glyph-neutral-secondary: var(--color-neutral-700);
-    --appearance-glyph-neutral-tertiary: var(--color-neutral-300);
+    --appearance-glyph-neutral: var(--color-neutral-muted-900);
+    --appearance-glyph-neutral-secondary: var(--color-neutral-muted-700);
+    --appearance-glyph-neutral-tertiary: var(--color-neutral-muted-300);
 
     --appearance-fill: var(--color-snow);
     --appearance-fill-secondary: var(--color-neutral-050);
@@ -339,9 +351,9 @@
 
 .appearance-dark {
 
-    --appearance-glyph: var(--color-neutral-100);
-    --appearance-glyph-secondary: var(--color-neutral-400);
-    --appearance-glyph-tertiary: var(--color-neutral-600);
+    --appearance-glyph: var(--color-neutral-muted-100);
+    --appearance-glyph-secondary: var(--color-neutral-muted-400);
+    --appearance-glyph-tertiary: var(--color-neutral-muted-600);
     --appearance-glyph-brand: var(--color-brand-400);
     --appearance-glyph-brand-secondary: var(--color-brand-300);
     --appearance-glyph-brand-tertiary: var(--color-brand-100);
@@ -357,9 +369,9 @@
     --appearance-glyph-positive: var(--color-positive-400);
     --appearance-glyph-positive-secondary: var(--color-positive-300);
     --appearance-glyph-positive-tertiary: var(--color-positive-100);
-    --appearance-glyph-neutral: var(--color-neutral-100);
-    --appearance-glyph-neutral-secondary: var(--color-neutral-300);
-    --appearance-glyph-neutral-tertiary: var(--color-neutral-800);
+    --appearance-glyph-neutral: var(--color-neutral-muted-100);
+    --appearance-glyph-neutral-secondary: var(--color-neutral-muted-300);
+    --appearance-glyph-neutral-tertiary: var(--color-neutral-muted-800);
 
     --appearance-fill: var(--color-void);
     --appearance-fill-secondary: var(--color-neutral-950);
