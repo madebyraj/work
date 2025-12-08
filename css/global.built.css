@@ -1,65 +1,33 @@
 @font-face {
-    font-family: "GT Super Text";
+    font-family: "Domine";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/GTSuperText-Regular.woff2) format("woff");
+    src: url(../assets/fonts/Domine-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "GT Super Text";
+    font-family: "Domine";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/GTSuperText-Regular.woff2) format("woff");
+    src: url(../assets/fonts/Domine-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "GT Super Text";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 1 500;
-    src: url(../assets/fonts/GTSuperText-Regular-Italic.woff2) format("woff");
-}
-
-@font-face {
-    font-family: "GT Super Text";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/GTSuperText-Regular-Italic.woff2) format("woff");
-}
-
-@font-face {
-    font-family: "Marat Sans";
+    font-family: "Graphik";
     font-display: swap;
     font-style: normal;
     font-weight: 1 500;
-    src: url(../assets/fonts/MaratSans-Regular.woff) format("woff");
+    src: url(../assets/fonts/Graphik-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Marat Sans";
+    font-family: "Graphik";
     font-display: swap;
     font-style: normal;
     font-weight: 501 1000;
-    src: url(../assets/fonts/MaratSans-Bold.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 500;
-    src: url(../assets/fonts/Sohne-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 501 1000;
-    src: url(../assets/fonts/Sohne-Semibold.woff) format("woff");
+    src: url(../assets/fonts/Graphik-Semibold.woff) format("woff");
 }
 
 
@@ -67,19 +35,19 @@
 
 :root {
 
-    --font-family-display-sans-serif: Marat Sans, Arial, system-ui, sans-serif;
-    --font-family-display-serif: GT Super Text, Times New Roman, serif;
-    --font-family-content-sans-serif: Sohne, Arial, system-ui, sans-serif;
+    --font-family-display-sans-serif: Graphik, system-ui, Arial, sans-serif;
+    --font-family-display-serif: Domine, Times New Roman, serif;
+    --font-family-content-sans-serif: Graphik, system-ui, Arial, sans-serif;
     --font-family-content-serif: Source Serif Pro, Times New Roman, serif;
 
     --font-weight-normal: 400;
     --font-weight-emphasized: 600;
 
-    --font-size-xxxxsmall: 13px;
-    --font-size-xxxsmall: 15px;
-    --font-size-xxsmall: 17px;
-    --font-size-xsmall: 19px;
-    --font-size-small: 21px;
+    --font-size-xxxxsmall: 12px;
+    --font-size-xxxsmall: 14px;
+    --font-size-xxsmall: 16px;
+    --font-size-xsmall: 18px;
+    --font-size-small: 20px;
     --font-size-medium: 24px;
     --font-size-large: 28px;
     --font-size-xlarge: 36px;
@@ -87,11 +55,11 @@
     --font-size-xxxlarge: 60px;
     --font-size-xxxxlarge: 76px;
 
-    --font-leading-xxxxsmall: 17px;
-    --font-leading-xxxsmall: 21px;
-    --font-leading-xxsmall: 21px;
-    --font-leading-xsmall: 25px;
-    --font-leading-small: 29px;
+    --font-leading-xxxxsmall: 16px;
+    --font-leading-xxxsmall: 20px;
+    --font-leading-xxsmall: 20px;
+    --font-leading-xsmall: 24px;
+    --font-leading-small: 28px;
     --font-leading-medium: 32px;
     --font-leading-large: 32px;
     --font-leading-xlarge: 40px;
@@ -99,13 +67,13 @@
     --font-leading-xxxlarge: 64px;
     --font-leading-xxxxlarge: 80px;
 
-    --font-tracking-tightest: -0.05em;
+    --font-tracking-tightest: -0.050em;
     --font-tracking-tighter: -0.025em;
     --font-tracking-tight: -0.013em;
     --font-tracking-none: 0;
     --font-tracking-wide: 0.013em;
     --font-tracking-wider: 0.025em;
-    --font-tracking-widest: 0.05em;
+    --font-tracking-widest: 0.050em;
 
     --scale-0: 0px;
     --scale-1: 1px;
@@ -171,6 +139,12 @@
     --layout-width-maximum: 1280px;
     --layout-width-minimum: 320px;
 
+    --transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    --transition-property-colors: background-color, border-color, color, fill, stroke;
+    --transition-property-dimensions: width, height;
+    --transition-property-position: left, right, top, bottom;
+    --transition-property-background: background-color, background-image, background-position;
+
     --ease-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     --ease-linear: cubic-bezier(.25, .25, .75, .75);
     --ease-in-sine: cubic-bezier(.47, 0, .745, .715);
@@ -213,6 +187,14 @@
     --spring-fast-bounce: linear(0, .00683 1.14%, .02731 2.35%, .11137 5.091%, .59413 15.612%, .78996 20.792%, .92396 25.953%, .97109 28.653%, 1.00624 31.503%, 1.03801 36.154%, 1.0477 41.684%, 1.00242 68.787%, .99921);
     --easing-spring-elegant-duration: .58171s;
     --easing-spring-elegant: linear(0 0%, .005927 1%, .022466 2%, .047872 3%, .080554 4%, .119068 5%, .162116 6%, .208536 7%, .2573 8%, .3075 9%, .358346 10%, .409157 11%, .45935 12%, .508438 13%, .556014 14%, .601751 15%, .645389 16%, .686733 17%, .72564 18%, .762019 19%, .795818 20%, .827026 21%, .855662 22%, .881772 23%, .905423 24%, .926704 25%, .945714 26%, .962568 27%, .977386 28%, .990295 29%, 1.00143 30%, 1.01091 31%, 1.01888 32%, 1.02547 33%, 1.03079 34%, 1.03498 35%, 1.03816 36%, 1.04042 37%, 1.04189 38%, 1.04266 39%, 1.04283 40%, 1.04247 41%, 1.04168 42%, 1.04052 43%, 1.03907 44%, 1.03737 45%, 1.03549 46%, 1.03348 47%, 1.03138 48%, 1.02922 49%, 1.02704 50%, 1.02486 51%, 1.02272 52%, 1.02063 53%, 1.01861 54%, 1.01667 55%, 1.01482 56%, 1.01307 57%, 1.01142 58%, 1.00989 59%, 1.00846 60%, 1.00715 61%, 1.00594 62%, 1.00485 63%, 1.00386 64%, 1.00296 65%, 1.00217 66%, 1.00147 67%, 1.00085 68%, 1.00031 69%, .999849 70%, .999457 71%, .999128 72%, .998858 73%, .99864 74%, .99847 75%, .998342 76%, .998253 77%, .998196 78%, .998169 79%, .998167 80%, .998186 81%, .998224 82%, .998276 83%, .998341 84%, .998415 85%, .998497 86%, .998584 87%, .998675 88%, .998768 89%, .998861 90%, .998954 91%, .999045 92%, .999134 93%, .99922 94%, .999303 95%, .999381 96%, .999455 97%, .999525 98%, .999589 99%, .99965 100%);
+
+    --transition-duration-ultra-fast: 50ms;
+    --transition-duration-faster: 100ms;
+    --transition-duration-fast: 150ms;
+    --transition-duration-normal: 200ms;
+    --transition-duration-slow: 300ms;
+    --transition-duration-slower: 400ms;
+    --transition-duration-ultra-slow: 500ms;
 
     --color-snow: #FFF;
     --color-void: #000;
@@ -483,7 +465,7 @@
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-normal);
     line-height: var(--font-leading-medium);
-    letter-spacing: var(--font-tracking-none);
+    letter-spacing: var(--font-tracking-tight);
 }
 
 .typography-body {
@@ -535,7 +517,7 @@
     .typography-intro {
         font-size: var(--font-size-small);
         line-height: var(--font-leading-small);
-        letter-spacing: var(--font-tracking-wide);
+        letter-spacing: var(--font-tracking-tight);
     }
 
 }
@@ -552,7 +534,7 @@
     .typography-display {
         font-size: var(--font-size-xxlarge);
         line-height: var(--font-leading-xxlarge);
-        letter-spacing: var(--font-tracking-tighter);
+        letter-spacing: var(--font-tracking-tightest);
     }
 
     .typography-title1 {
