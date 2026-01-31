@@ -94,3 +94,101 @@ main {
     }
 
 }
+
+
+/* <section class="reel-section appearance-light">
+      <div class="reel-section-layout">
+        <div class="reel-section-content">
+          <h3 class="reel-section-heading typography-quote" data-animate="fade-in">
+            I know <span class="highlight">reading case studies was a task, phew!</span> but to treat your eyes
+            watch a
+            <span class="highlight">short reel</span> that I made to display <span class="highlight">my old
+              work.</span>
+          </h3>
+          <div class="reel" id="reel" data-animate="fade-in">
+            <div class="reel-slides">
+              <img src="./assets/global/more-work/fyk-website.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/gs-resume.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/jp-ev.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/k-landingpage.webp" class="reel-slide" aria-label="old design work" />
+              <img src="./assets/global/more-work/z-bills.webp" class="reel-slide" aria-label="old design work" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section> */
+
+
+/* <script>
+(function () {
+        const reel=document.getElementById("reel");
+        const original=reel.querySelector(".reel-slides");
+
+        const track=document.createElement("div");
+        track.className="reel-track";
+        const clone=original.cloneNode(true);
+        clone.setAttribute("aria-hidden", "true");
+
+        track.appendChild(original);
+        track.appendChild(clone);
+        reel.appendChild(track);
+
+        let anim;
+
+        function initMarquee() {
+            const slideWidth=original.scrollWidth;
+
+            track.style.width=slideWidth * 2 + "px";
+
+            anim=track.animate([ {
+                    transform: "translateX(0px)"
+                }
+
+                ,
+                {
+                transform: `translateX(-$ {
+                        slideWidth
+                    }
+
+                    px)`
+            }
+
+            ,
+            ],
+            {
+            duration: 50000,
+            iterations: Infinity,
+            easing: "linear",
+        });
+
+    const slowRate=0.25;
+    const normalRate=1;
+
+    const smoothTo=(target)=> {
+        const step=()=> {
+            const diff=target - anim.playbackRate;
+
+            if (Math.abs(diff) < 0.01) {
+                anim.playbackRate=target;
+            }
+
+            else {
+                anim.playbackRate +=diff * 0.12;
+                requestAnimationFrame(step);
+            }
+        }
+
+        ;
+        requestAnimationFrame(step);
+    }
+
+    ;
+
+    reel.addEventListener("mouseenter", ()=> smoothTo(slowRate));
+    reel.addEventListener("mouseleave", ()=> smoothTo(normalRate));
+}
+
+window.addEventListener("load", initMarquee);
+})();
+</script> */
