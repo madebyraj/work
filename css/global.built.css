@@ -24,12 +24,20 @@
     src: url(../assets/fonts/FTKunstGrotesk-Medium.woff) format("woff");
 }
 
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/Sohne-VF.woff2) format("woff2");
+}
+
 /* Semantics */
 
 :root {
 
-    --font-family-display: FT Kunst Grotesk, system-ui, Arial, sans-serif;
-    --font-family-content: FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-display: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-content: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
     --font-family-mono: monospace;
 
     --font-weight-light: 300;
@@ -160,19 +168,19 @@
     --transition-duration-slower: 400ms;
     --transition-duration-slowest: 500ms;
 
-    --color-white: #FFF;
-    --color-black: #000;
-    --color-transparent: #0000;
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+    --color-transparent: rgb(0, 0, 0, 0);
 
-    --color-gray-100: #F9F9F9;
-    --color-gray-200: #F2F2F2;
-    --color-gray-300: #E5E5E5;
-    --color-gray-400: #B3B3B3;
-    --color-gray-500: #888888;
-    --color-gray-600: #6B6B6B;
-    --color-gray-700: #3F3F3F;
-    --color-gray-800: #242424;
-    --color-gray-900: #121212;
+    --color-gray-100: rgb(249, 249, 251);
+    --color-gray-200: rgb(244, 244, 247);
+    --color-gray-300: rgb(232, 232, 237);
+    --color-gray-400: rgb(194, 194, 199);
+    --color-gray-500: rgb(133, 133, 138);
+    --color-gray-600: rgb(102, 102, 107);
+    --color-gray-700: rgb(58, 58, 61);
+    --color-gray-800: rgb(36, 36, 38);
+    --color-gray-900: rgb(18, 18, 19);
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
@@ -474,7 +482,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 250ms var(--ease-bounce), box-shadow 250ms var(--ease-linear);
+    transition: background 250ms var(--ease-linear);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -487,16 +495,12 @@
     line-height: var(--font-leading-xsmall);
     letter-spacing: var(--font-tracking-wide);
     color: #fff;
-    background: hsl(214deg 100% 45%);
+    background: #FF4700;
     border-radius: var(--border-radius-circle);
 }
 
 .button:hover {
-    background: hsl(214deg 100% 47%);
-}
-
-.button:active {
-    background: hsl(214deg 100% 43%);
+    background: #D63200;
 }
 
 

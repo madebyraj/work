@@ -120,7 +120,7 @@ main {
 .about-section {
   padding: 128px 0;
   position: relative;
-  background: var(--appearance-fill-neutral-secondary);
+  background: var(--appearance-fill-neutral-primary);
 }
 
 .about-section-layout {
