@@ -185,7 +185,7 @@
     --color-material-regular: rgba(255, 255, 255, 0.60);
     --color-material-thin: rgba(255, 255, 255, 0.48);
     --color-material-ultrathin: rgba(255, 255, 255, 0.36);
-    --color-material-idle: rgb(255, 255, 255);
+    --color-material-idle: rgb(249, 249, 249);
 
     --color-background-neutral-primary: rgb(255, 255, 255);
     --color-background-neutral-secondary: rgb(249, 249, 249);
@@ -226,15 +226,15 @@
 
 .appearance-dark {
 
-    --color-material-ultrathick: rgba(25, 25, 25, 0.84);
-    --color-material-thick: rgba(25, 25, 25, 0.72);
-    --color-material-regular: rgba(25, 25, 25, 0.60);
-    --color-material-thin: rgba(25, 25, 25, 0.48);
-    --color-material-ultrathin: rgba(25, 25, 25, 0.36);
-    --color-material-idle: rgb(25, 25, 25);
+    --color-material-ultrathick: rgba(24, 24, 24, 0.84);
+    --color-material-thick: rgba(24, 24, 24, 0.72);
+    --color-material-regular: rgba(24, 24, 24, 0.60);
+    --color-material-thin: rgba(24, 24, 24, 0.48);
+    --color-material-ultrathin: rgba(24, 24, 24, 0.36);
+    --color-material-idle: rgb(24, 24, 24);
 
     --color-background-neutral-primary: rgb(18, 18, 18);
-    --color-background-neutral-secondary: rgb(25, 25, 25);
+    --color-background-neutral-secondary: rgb(24, 24, 24);
     --color-background-neutral-tertiary: rgb(36, 36, 36);
     --color-background-neutral-quaternary: rgb(229, 229, 229);
     --color-background-accent-primary: rgb(26, 137, 23);
@@ -444,7 +444,7 @@
     .typography-title3 {
         font-size: var(--font-size-medium);
         line-height: var(--font-leading-medium);
-        letter-spacing: var(--font-tracking-normal);
+        letter-spacing: var(--font-tracking-none);
     }
 
 }
@@ -550,7 +550,7 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
     line-height: var(--font-leading-small);
-    letter-spacing: var(--font-tracking-normal);
+    letter-spacing: var(--font-tracking-none);
 }
 
 .article-release-date {
@@ -560,7 +560,7 @@
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
     line-height: var(--font-leading-small);
-    letter-spacing: var(--font-tracking-normal);
+    letter-spacing: var(--font-tracking-none);
 }
 
 @media (max-width: 1024px) {}
@@ -577,13 +577,13 @@
     .article-name {
         font-size: var(--font-size-xsmall);
         line-height: var(--font-leading-xsmall);
-        letter-spacing: var(--font-tracking-normal);
+        letter-spacing: var(--font-tracking-none);
     }
 
     .article-release-date {
-        font-size: var(--font-size-xxsmall);
-        line-height: var(--font-leading-xxsmall);
-        letter-spacing: var(--font-tracking-normal);
+        font-size: var(--font-size-xsmall);
+        line-height: var(--font-leading-xsmall);
+        letter-spacing: var(--font-tracking-none);
     }
 
 }
