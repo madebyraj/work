@@ -16,7 +16,7 @@ body {
   animation: pageLoading 1s var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: var(--appearance-fill-neutral-primary);
+  background: var(--color-background-neutral-primary);
 }
 
 @keyframes pageLoading {
@@ -37,7 +37,7 @@ main {
 .hero-section {
   padding: 64px 0;
   position: relative;
-  background: var(--appearance-fill-neutral-primary);
+  background: var(--color-background-neutral-primary);
 }
 
 .hero-section-layout {
@@ -92,13 +92,13 @@ main {
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-wide);
   cursor: pointer;
-  color: var(--appearance-glyph-neutral-primary);
+  color: var(--color-foreground-neutral-secondary);
   transition: var(--transition-property-colors) var(--transition-duration-normal) var(--ease-out-sine);
 }
 
 .navigation-link:hover {
   text-decoration: underline;
-  color: var(--appearance-glyph-neutral-primary-hover);
+  color: var(--color-foreground-neutral-secondary-hover);
 }
 
 .intro-container {
@@ -114,13 +114,13 @@ main {
 .intro {
   text-align: center;
   display: inline-block;
-  color: var(--appearance-glyph-neutral-primary);
+  color:  var(--color-foreground-neutral-primary);
 }
 
 .about-section {
   padding: 128px 0;
   position: relative;
-  background: var(--appearance-fill-neutral-primary);
+  background: var(--color-background-neutral-secondary);
 }
 
 .about-section-layout {
@@ -143,7 +143,7 @@ main {
 .about-section-label {
   grid-column: 1 / 5;
   width: 100%;
-  color: var(--appearance-glyph-neutral-quaternary);
+  color: var(--color-foreground-neutral-secondary);
 }
 
 .journey-container {
@@ -155,8 +155,7 @@ main {
 }
 
 .journey {
-  color: var(--appearance-glyph-neutral-primary);
-  text-align: justify;
+  color: var(--color-foreground-neutral-primary);
 }
 
 .me {
@@ -172,7 +171,7 @@ main {
 .work-section {
   padding: 128px 0;
   position: relative;
-  background: var(--appearance-fill-neutral-primary);
+  background: var(--color-background-neutral-primary);
 }
 
 .work-section-layout {
@@ -198,7 +197,7 @@ main {
   top: 128px;
   grid-column: 1 / 5;
   width: 100%;
-  color: var(--appearance-glyph-neutral-quaternary);
+  color: var(--color-foreground-neutral-secondary);
 }
 
 .article {
@@ -208,7 +207,8 @@ main {
 
 .work-section .separator {
   grid-column: 5 / 13;
-  background: var(--appearance-border-neutral-quaternary);
+  height: var(--border-size-1);
+  background: var(--color-border-neutral-primary);
 }
 
 

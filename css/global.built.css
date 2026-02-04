@@ -168,20 +168,6 @@
     --transition-duration-slower: 400ms;
     --transition-duration-slowest: 500ms;
 
-    --color-white: rgb(255, 255, 255);
-    --color-black: rgb(0, 0, 0);
-    --color-transparent: rgb(0, 0, 0, 0);
-
-    --color-gray-100: rgb(249, 249, 251);
-    --color-gray-200: rgb(244, 244, 247);
-    --color-gray-300: rgb(232, 232, 237);
-    --color-gray-400: rgb(194, 194, 199);
-    --color-gray-500: rgb(133, 133, 138);
-    --color-gray-600: rgb(102, 102, 107);
-    --color-gray-700: rgb(58, 58, 61);
-    --color-gray-800: rgb(36, 36, 38);
-    --color-gray-900: rgb(18, 18, 19);
-
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
     --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 1px 24px 0 rgba(0, 0, 0, 0.08);
@@ -194,71 +180,93 @@
 
 .appearance-light {
 
-    --appearance-fill-neutral-primary: var(--color-white);
-    --appearance-fill-neutral-primary-hover: var(--color-gray-100);
-    --appearance-fill-neutral-secondary: var(--color-gray-100);
-    --appearance-fill-neutral-secondary-hover: var(--color-gray-200);
-    --appearance-fill-neutral-tertiary: var(--color-gray-200);
-    --appearance-fill-neutral-tertiary-hover: var(--color-gray-300);
-    --appearance-fill-neutral-quaternary: var(--color-gray-200);
+    --color-material-ultrathick: rgba(255, 255, 255, 0.84);
+    --color-material-thick: rgba(255, 255, 255, 0.72);
+    --color-material-regular: rgba(255, 255, 255, 0.60);
+    --color-material-thin: rgba(255, 255, 255, 0.48);
+    --color-material-ultrathin: rgba(255, 255, 255, 0.36);
+    --color-material-idle: rgb(255, 255, 255);
 
-    --appearance-glyph-neutral-primary: var(--color-gray-800);
-    --appearance-glyph-neutral-primary-hover: var(--color-black);
-    --appearance-glyph-neutral-secondary: var(--color-gray-700);
-    --appearance-glyph-neutral-secondary-hover: var(--color-gray-600);
-    --appearance-glyph-neutral-tertiary: var(--color-gray-600);
-    --appearance-glyph-neutral-tertiary-hover: var(--color-gray-700);
-    --appearance-glyph-neutral-quaternary: var(--color-gray-500);
+    --color-background-neutral-primary: rgb(255, 255, 255);
+    --color-background-neutral-secondary: rgb(249, 249, 249);
+    --color-background-neutral-tertiary: rgb(242, 242, 242);
+    --color-background-neutral-quaternary: rgb(36, 36, 36);
+    --color-background-accent-primary: rgb(26, 137, 23);
+    --color-background-accent-primary-hover: rgb(21, 109, 18);
+    --color-background-error-primary: rgb(201, 74, 74);
+    --color-background-error-primary-hover: rgb(182, 54, 54);
+    --color-background-utility-yellow: rgb(255, 250, 225);
+    --color-background-utility-blue: rgb(229, 242, 255);
 
-    --appearance-border-neutral-primary: var(--color-gray-800);
-    --appearance-border-neutral-primary-hover: var(--color-black);
-    --appearance-border-neutral-secondary: var(--color-gray-500);
-    --appearance-border-neutral-secondary-hover: var(--color-gray-600);
-    --appearance-border-neutral-tertiary: var(--color-gray-200);
-    --appearance-border-neutral-tertiary-hover: var(--color-gray-300);
-    --appearance-border-neutral-quaternary: var(--color-gray-300);
+    --color-foreground-neutral-primary: rgb(36, 36, 36);
+    --color-foreground-neutral-primary-hover: rgb(18, 18, 18);
+    --color-foreground-neutral-secondary: rgb(107, 107, 107);
+    --color-foreground-neutral-secondary-hover: rgb(63, 63, 63);
+    --color-foreground-neutral-tertiary: rgb(255, 255, 255);
+    --color-foreground-neutral-quaternary: rgb(229, 229, 229);
+    --color-foreground-accent-primary: rgb(26, 137, 23);
+    --color-foreground-accent-primary-hover: rgb(21, 109, 18);
+    --color-foreground-error-primary: rgb(201, 74, 74);
+    --color-foreground-error-primary-hover: rgb(182, 54, 54);
+    --color-foreground-utility-yellow: rgb(255, 192, 23);
+    --color-foreground-utility-blue: rgb(67, 122, 255);
 
-    --appearance-material-ultrathick: rgba(255, 255, 255, 0.84);
-    --appearance-material-thick: rgba(255, 255, 255, 0.72);
-    --appearance-material-regular: rgba(255, 255, 255, 0.60);
-    --appearance-material-thin: rgba(255, 255, 255, 0.48);
-    --appearance-material-ultrathin: rgba(255, 255, 255, 0.36);
-    --appearance-material-idle: var(--appearance-fill);
+    --color-border-neutral-primary: rgb(242, 242, 242);
+    --color-border-neutral-primary-hover: rgb(229, 229, 229);
+    --color-border-neutral-secondary: rgb(36, 36, 36);
+    --color-border-neutral-secondary-hover: rgb(18, 18, 18);
+    --color-border-neutral-tertiary: rgb(229, 229, 229);
+    --color-border-neutral-tertiary-hover: rgb(179, 179, 179);
+    --color-border-accent-primary: rgb(26, 137, 23);
+    --color-border-accent-primary-hover: rgb(21, 109, 18);
+    --color-border-error-primary: rgb(201, 74, 74);
+    --color-border-error-primary-hover: rgb(182, 54, 54);
 
 }
 
 .appearance-dark {
 
-    --appearance-fill-neutral-primary: var(--color-gray-900);
-    --appearance-fill-neutral-primary-hover: var(--color-gray-800);
-    --appearance-fill-neutral-secondary: var(--color-gray-800);
-    --appearance-fill-neutral-secondary-hover: var(--color-gray-700);
-    --appearance-fill-neutral-tertiary: var(--color-gray-900);
-    --appearance-fill-neutral-tertiary-hover: var(--color-gray-800);
-    --appearance-fill-neutral-quaternary: var(--color-gray-800);
+    --color-material-ultrathick: rgba(25, 25, 25, 0.84);
+    --color-material-thick: rgba(25, 25, 25, 0.72);
+    --color-material-regular: rgba(25, 25, 25, 0.60);
+    --color-material-thin: rgba(25, 25, 25, 0.48);
+    --color-material-ultrathin: rgba(25, 25, 25, 0.36);
+    --color-material-idle: rgb(25, 25, 25);
 
-    --appearance-glyph-neutral-primary: var(--color-gray-200);
-    --appearance-glyph-neutral-primary-hover: var(--color-white);
-    --appearance-glyph-neutral-secondary: var(--color-gray-400);
-    --appearance-glyph-neutral-secondary-hover: var(--color-gray-500);
-    --appearance-glyph-neutral-tertiary: var(--color-gray-500);
-    --appearance-glyph-neutral-tertiary-hover: var(--color-gray-400);
-    --appearance-glyph-neutral-quaternary: var(--color-gray-600);
+    --color-background-neutral-primary: rgb(18, 18, 18);
+    --color-background-neutral-secondary: rgb(25, 25, 25);
+    --color-background-neutral-tertiary: rgb(36, 36, 36);
+    --color-background-neutral-quaternary: rgb(229, 229, 229);
+    --color-background-accent-primary: rgb(26, 137, 23);
+    --color-background-accent-primary-hover: rgb(21, 109, 18);
+    --color-background-error-primary: rgb(201, 74, 74);
+    --color-background-error-primary-hover: rgb(182, 54, 54);
+    --color-background-utility-yellow: rgb(255, 250, 225);
+    --color-background-utility-blue: rgb(229, 242, 255);
 
-    --appearance-border-neutral-primary: var(--color-gray-200);
-    --appearance-border-neutral-primary-hover: var(--color-white);
-    --appearance-border-neutral-secondary: var(--color-gray-500);
-    --appearance-border-neutral-secondary-hover: var(--color-gray-400);
-    --appearance-border-neutral-tertiary: var(--color-gray-800);
-    --appearance-border-neutral-tertiary-hover: var(--color-gray-700);
-    --appearance-border-neutral-quaternary: var(--color-gray-700);
+    --color-foreground-neutral-primary: rgb(229, 229, 229);
+    --color-foreground-neutral-primary-hover: rgb(249, 249, 249);
+    --color-foreground-neutral-secondary: rgb(136, 136, 136);
+    --color-foreground-neutral-secondary-hover: rgb(179, 179, 179);
+    --color-foreground-neutral-tertiary: rgb(255, 255, 255);
+    --color-foreground-neutral-quaternary: rgb(36, 36, 36);
+    --color-foreground-accent-primary: rgb(26, 137, 23);
+    --color-foreground-accent-primary-hover: rgb(21, 109, 18);
+    --color-foreground-error-primary: rgb(201, 74, 74);
+    --color-foreground-error-primary-hover: rgb(182, 54, 54);
+    --color-foreground-utility-yellow: rgb(255, 192, 23);
+    --color-foreground-utility-blue: rgb(67, 122, 255);
 
-    --appearance-material-ultrathick: rgba(0, 0, 0, 0.84);
-    --appearance-material-thick: rgba(0, 0, 0, 0.72);
-    --appearance-material-regular: rgba(0, 0, 0, 0.60);
-    --appearance-material-thin: rgba(0, 0, 0, 0.48);
-    --appearance-material-ultrathin: rgba(0, 0, 0, 0.36);
-    --appearance-material-idle: var(--appearance-fill);
+    --color-border-neutral-primary: rgb(36, 36, 36);
+    --color-border-neutral-primary-hover: rgb(63, 63, 63);
+    --color-border-neutral-secondary: rgb(229, 229, 229);
+    --color-border-neutral-secondary-hover: rgb(249, 249, 249);
+    --color-border-neutral-tertiary: rgb(63, 63, 63);
+    --color-border-neutral-tertiary-hover: rgb(107, 107, 107);
+    --color-border-accent-primary: rgb(26, 137, 23);
+    --color-border-accent-primary-hover: rgb(21, 109, 18);
+    --color-border-error-primary: rgb(201, 74, 74);
+    --color-border-error-primary-hover: rgb(182, 54, 54);
 
 }
 
@@ -450,12 +458,12 @@
 }
 
 .highlight {
-    color: var(--appearance-glyph-neutral-primary) !important;
+    color: var(--color-foreground-neutral-primary) !important;
     position: relative;
 }
 
 .dim {
-    color: var(--appearance-glyph-neutral-quaternary) !important;
+    color: var(--color-foreground-neutral-secondary) !important;
     position: relative;
 }
 
@@ -465,7 +473,6 @@
 }
 
 .separator {
-    height: 1px;
     width: 100%;
     border-radius: var(--border-radius-circle);
 }
@@ -494,13 +501,13 @@
     font-weight: var(--font-weight-regular);
     line-height: var(--font-leading-xsmall);
     letter-spacing: var(--font-tracking-wide);
-    color: #fff;
-    background: #FF4700;
+    color: var(--color-foreground-neutral-tertiary);
+    background: rgb(255, 71, 0);
     border-radius: var(--border-radius-circle);
 }
 
 .button:hover {
-    background: #D63200;
+    background: rgb(206, 59, 0);
 }
 
 
@@ -518,7 +525,7 @@
 
 .article:hover .article-name {
     text-decoration: underline;
-    color: var(--appearance-glyph-neutral-primary-hover);
+    color: var(--color-foreground-neutral-primary-hover);
 }
 
 .article-media {
@@ -527,7 +534,7 @@
     height: auto;
     overflow: hidden;
     border-radius: var(--border-radius-medium);
-    border: 1px solid var(--appearance-border-neutral-quaternary);
+    border: 1px solid var(--color-border-neutral-primary);
 }
 
 .article-information {
@@ -538,7 +545,7 @@
 
 .article-name {
     width: 100%;
-    color: var(--appearance-glyph-neutral-primary);
+    color: var(--color-foreground-neutral-primary);
     font-family: var(--font-family-content);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
@@ -548,7 +555,7 @@
 
 .article-release-date {
     min-width: max-content;
-    color: var(--appearance-glyph-neutral-quaternary);
+    color: var(--color-foreground-neutral-secondary);
     font-family: var(--font-family-content);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-small);
