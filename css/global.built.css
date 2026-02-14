@@ -199,7 +199,7 @@
     --color-background-utility-blue: rgb(229, 242, 255);
 
     --color-foreground-neutral-primary: rgb(36, 36, 36);
-    --color-foreground-neutral-primary-hover: rgb(18, 18, 18);
+    --color-foreground-neutral-primary-hover: rgb(9, 9, 9);
     --color-foreground-neutral-secondary: rgb(107, 107, 107);
     --color-foreground-neutral-secondary-hover: rgb(63, 63, 63);
     --color-foreground-neutral-tertiary: rgb(255, 255, 255);
@@ -226,15 +226,15 @@
 
 .appearance-dark {
 
-    --color-material-ultrathick: rgba(24, 24, 24, 0.84);
-    --color-material-thick: rgba(24, 24, 24, 0.72);
-    --color-material-regular: rgba(24, 24, 24, 0.60);
-    --color-material-thin: rgba(24, 24, 24, 0.48);
-    --color-material-ultrathin: rgba(24, 24, 24, 0.36);
-    --color-material-idle: rgb(24, 24, 24);
+    --color-material-ultrathick: rgba(18, 18, 18, 0.84);
+    --color-material-thick: rgba(18, 18, 18, 0.72);
+    --color-material-regular: rgba(18, 18, 18, 0.60);
+    --color-material-thin: rgba(18, 18, 18, 0.48);
+    --color-material-ultrathin: rgba(18, 18, 18, 0.36);
+    --color-material-idle: rgb(18, 18, 18);
 
-    --color-background-neutral-primary: rgb(18, 18, 18);
-    --color-background-neutral-secondary: rgb(24, 24, 24);
+    --color-background-neutral-primary: rgb(9, 9, 9);
+    --color-background-neutral-secondary: rgb(18, 18, 18);
     --color-background-neutral-tertiary: rgb(36, 36, 36);
     --color-background-neutral-quaternary: rgb(229, 229, 229);
     --color-background-accent-primary: rgb(26, 137, 23);
