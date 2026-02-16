@@ -226,11 +226,11 @@
 
 .appearance-dark {
 
-    --color-material-ultrathick: rgba(18, 18, 18, 0.84);
-    --color-material-thick: rgba(18, 18, 18, 0.72);
-    --color-material-regular: rgba(18, 18, 18, 0.60);
-    --color-material-thin: rgba(18, 18, 18, 0.48);
-    --color-material-ultrathin: rgba(18, 18, 18, 0.36);
+    --color-material-ultrathick: rgba(9, 9, 9, 0.84);
+    --color-material-thick: rgba(9, 9, 9, 0.72);
+    --color-material-regular: rgba(9, 9, 9, 0.60);
+    --color-material-thin: rgba(9, 9, 9, 0.48);
+    --color-material-ultrathin: rgba(9, 9, 9, 0.36);
     --color-material-idle: rgb(18, 18, 18);
 
     --color-background-neutral-primary: rgb(9, 9, 9);
