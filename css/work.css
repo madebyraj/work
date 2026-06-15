@@ -213,7 +213,7 @@ main {
 .work-section .separator {
   grid-column: 5 / 13;
   height: var(--border-size-1);
-  background: var(--color-border-neutral-primary);
+  background: var(--color-border-neutral-tertiary);
 }
 
 
