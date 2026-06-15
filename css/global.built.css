@@ -25,6 +25,30 @@
 }
 
 @font-face {
+    font-family: "Gilroy";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/GilroyforSwiggy-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/GilroyforSwiggy-Medium.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/GilroyforSwiggy-Bold.woff) format("woff");
+}
+
+@font-face {
     font-family: "Sohne";
     font-display: swap;
     font-style: normal;
@@ -36,8 +60,8 @@
 
 :root {
 
-    --font-family-display: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
-    --font-family-content: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-display: Gilroy, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-content: Gilroy, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
     --font-family-mono: monospace;
 
     --font-weight-light: 300;
