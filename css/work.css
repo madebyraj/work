@@ -217,6 +217,7 @@ main {
   padding: 128px 0;
   position: relative;
   background: #FFFFFF;
+  overflow: hidden;
 }
 
 .work-section-content {
