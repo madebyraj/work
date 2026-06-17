@@ -56,12 +56,33 @@
     src: url(../assets/fonts/Sohne-VF.woff2) format("woff2");
 }
 
+@font-face {
+    font-family: "Exposure";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/ExposureVAR.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Homemade Apple";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/HomemadeApple-Regular.ttf) format("truetype");
+}
+
 /* Semantics */
 
 :root {
 
-    --font-family-display: Gilroy, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-display: Exposure, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
     --font-family-content: Gilroy, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-mono: monospace;
+
+    --font-family-sans: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-serif: Exposure, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-handwriting: Homemade Apple, var(--font-family-serif);
     --font-family-mono: monospace;
 
     --font-weight-light: 300;
@@ -193,9 +214,9 @@
     --transition-duration-slowest: 500ms;
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 16px 0 rgba(0, 0, 0, 0.04);
-    --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 1px 24px 0 rgba(0, 0, 0, 0.08);
-    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 1px 48px 0 rgba(0, 0, 0, 0.08);
+    --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 2px 16px 0 rgba(0, 0, 0, 0.04);
+    --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
+    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 
 }
 
@@ -532,82 +553,4 @@
 
 .button:hover {
     background: rgb(206, 59, 0);
-}
-
-
-/* Component / Article */
-
-.article {
-    position: relative;
-    text-wrap: pretty;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    gap: var(--space-small);
-    cursor: pointer;
-}
-
-.article:hover .article-name {
-    text-decoration: underline;
-    color: var(--color-foreground-neutral-primary-hover);
-}
-
-.article-media {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-radius: var(--border-radius-medium);
-    border: 1px solid var(--color-border-neutral-primary);
-}
-
-.article-information {
-    display: flex;
-    justify-content: space-between;
-    gap: var(--space-large);
-}
-
-.article-name {
-    width: 100%;
-    color: var(--color-foreground-neutral-primary);
-    font-family: var(--font-family-content);
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-small);
-    line-height: var(--font-leading-small);
-    letter-spacing: var(--font-tracking-none);
-}
-
-.article-release-date {
-    min-width: max-content;
-    color: var(--color-foreground-neutral-secondary);
-    font-family: var(--font-family-content);
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-small);
-    line-height: var(--font-leading-small);
-    letter-spacing: var(--font-tracking-none);
-}
-
-@media (max-width: 1024px) {}
-
-@media (max-width: 768px) {
-
-    .article-information {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: var(--space-xxsmall);
-    }
-
-    .article-name {
-        font-size: var(--font-size-xsmall);
-        line-height: var(--font-leading-xsmall);
-        letter-spacing: var(--font-tracking-none);
-    }
-
-    .article-release-date {
-        font-size: var(--font-size-xsmall);
-        line-height: var(--font-leading-xsmall);
-        letter-spacing: var(--font-tracking-none);
-    }
-
 }
