@@ -1,59 +1,19 @@
 /* Fonts */
 
 @font-face {
-    font-family: "FT Kunst Grotesk";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/FTKunstGrotesk-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "FT Kunst Grotesk";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/FTKunstGrotesk-Medium.woff) format("woff");
-}
-
-@font-face {
-    font-family: "FT Kunst Grotesk";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/FTKunstGrotesk-Medium.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Gilroy";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/GilroyforSwiggy-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Gilroy";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/GilroyforSwiggy-Medium.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Gilroy";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/GilroyforSwiggy-Bold.woff) format("woff");
-}
-
-@font-face {
     font-family: "Sohne";
     font-display: swap;
     font-style: normal;
     font-weight: 1 1000;
     src: url(../assets/fonts/Sohne-VF.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Quadrant Text";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/QuadrantText-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -69,7 +29,7 @@
     font-display: swap;
     font-style: normal;
     font-weight: 1 1000;
-    src: url(../assets/fonts/HomemadeApple-Regular.ttf) format("truetype");
+    src: url(../assets/fonts/HomemadeApple-Regular.woff) format("woff");
 }
 
 /* Semantics */
@@ -81,7 +41,7 @@
     --font-family-mono: monospace;
 
     --font-family-sans: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
-    --font-family-serif: Exposure, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
+    --font-family-serif: Exposure, Quadrant Text, Sohne, system-ui, Arial, sans-serif;
     --font-family-handwriting: Homemade Apple, var(--font-family-serif);
     --font-family-mono: monospace;
 

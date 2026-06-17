@@ -41,6 +41,32 @@
 <body class="appearance-light">
 
   <div class="header-wrapper">
+    <div class="header-wrapper-background-blur">
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 1; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%); pointer-events: none; backdrop-filter: blur(0.390625px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 2; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgba(0, 0, 0, 0) 50%); pointer-events: none; backdrop-filter: blur(0.78125px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 3; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 62.5%); pointer-events: none; backdrop-filter: blur(1.5625px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 4; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgba(0, 0, 0, 0) 75%); pointer-events: none; backdrop-filter: blur(3.125px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 5; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 87.5%); pointer-events: none; backdrop-filter: blur(6.25px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 6; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(12.5px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 7; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgb(0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(25px); will-change: auto;">
+      </div>
+      <div
+        style="opacity: 1; position: absolute; inset: 0px; z-index: 8; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 87.5%, rgb(0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(50px); will-change: auto;">
+      </div>
+    </div>
     <div class="header">
       <div class="header-logo header-action">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -68,6 +94,7 @@
       <div class="intro-section-background"></div>
       <div class="intro-section-content">
         <div class="frame">
+          <div class="tape-section"></div>
           <img class="picture" src="./assets/global/me.webp"></img>
           <div class="picture-tag">
             Hey, I'm Raj!
@@ -190,7 +217,7 @@
 
         <div class="separator"></div>
 
-        <h2 class="work-section-label">Shipped work</h2>
+        <h2 class="work-section-label">Shipped Work</h2>
 
         <div class="projects">
 
@@ -294,11 +321,11 @@
       let progress = (visibility - 0.25) / 0.5;
       progress = Math.max(0, Math.min(progress, 1));
 
-      const blur = progress * 32;
+      const blur = progress * 45;
       const spread = progress * 4;
       const scale = 0.975 + progress * 0.025;
 
-      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(255, 91, 21, 0.1)`;
+      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(255, 91, 21, 0.25)`;
       letter.style.transform = `scaleX(${scale})`;
     }
 

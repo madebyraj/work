@@ -89,6 +89,54 @@ main {
   object-position: top;
 }
 
+.tape-section {
+  position: absolute;
+  width: 100%;
+}
+
+.tape-section:first-of-type {
+  top: 0;
+}
+
+.tape-section:last-of-type {
+  bottom: 0;
+}
+
+.tape-section::before,
+.tape-section::after {
+  content: "";
+  width: 10vmin;
+  height: 4vmin;
+  position: absolute;
+  background-color: #DBD8BE;
+  opacity: 0.5;
+  border-right: 1px dotted #B7B49D;
+  border-left: 1px dotted #B7B49D;
+}
+
+.tape-section:last-of-type::after {
+  transform: rotate(-45deg);
+  right: -4vmin;
+  top: -3vmin;
+}
+
+.tape-section:first-of-type::before {
+  transform: rotate(-45deg);
+  left: -4vmin;
+}
+
+.tape-section:first-of-type::after {
+  transform: rotate(45deg);
+  right: -4vmin;
+  top: 0;
+}
+
+.tape-section:last-of-type::before {
+  transform: rotate(45deg);
+  left: -4vmin;
+  bottom: 0;
+}
+
 .picture-tag {
   width: 100%;
   display: flex;
@@ -264,11 +312,8 @@ main {
   will-change: transform;
 }
 
-.project:hover .project-media {
-  outline-width: 0.25rem;
-  outline-color: rgba(0, 106, 245, 0.6);
-  outline-offset: 0.125rem;
-  outline-style: solid;
+.project:hover .project-title {
+  text-decoration: underline;
 }
 
 .project-media {
@@ -281,13 +326,6 @@ main {
   border-radius: 5px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
   aspect-ratio: 4/3;
-  outline-width: 0;
-  outline-color: transparent;
-  outline-offset: 0.5rem;
-  outline-style: solid;
-  transition-duration: 250ms;
-  transition-property: outline-color, outline-offset, outline-width, transform;
-  transition-timing-function: var(--ease-out-cubic);
 }
 
 .project-information {
