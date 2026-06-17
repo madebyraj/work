@@ -19,6 +19,10 @@ body {
   background: #FFFFFF;
 }
 
+:focus {
+  outline: none;
+}
+
 @keyframes pageLoading {
   from {
     opacity: 0;
@@ -191,9 +195,9 @@ main {
   justify-content: center;
   padding: 80px 32px;
   border-radius: 13px;
-  corner-shape: squircle;
   background: #FFFFFF;
-  box-shadow: 0 0 24px 4px rgba(255, 91, 21, 0.1);
+  box-shadow: 0 0 0px 0px rgba(255, 91, 21, 0.0);
+  transition: box-shadow 250ms var(--ease-out-cubic), transform 250ms var(--ease-out-cubic);
 }
 
 .journey {
@@ -251,10 +255,19 @@ main {
   text-decoration: none;
   gap: 16px;
   cursor: pointer;
+  transition: transform 500ms var(--ease-out-cubic);
 }
 
-.project:hover .project-title {
-  text-decoration: underline;
+[data-scroll-tile-odd],
+[data-scroll-tile-even] {
+  will-change: transform;
+}
+
+.project:hover .project-media {
+  outline-width: 0.25rem;
+  outline-color: rgba(0, 106, 245, 0.6);
+  outline-offset: 0.125rem;
+  outline-style: solid;
 }
 
 .project-media {
@@ -265,9 +278,15 @@ main {
   object-position: center;
   overflow: hidden;
   border-radius: 5px;
-  corner-shape: squircle;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
   aspect-ratio: 4/3;
+  outline-width: 0;
+  outline-color: transparent;
+  outline-offset: 0.5rem;
+  outline-style: solid;
+  transition-duration: 250ms;
+  transition-property: outline-color, outline-offset, outline-width, transform;
+  transition-timing-function: var(--ease-out-cubic);
 }
 
 .project-information {
@@ -294,9 +313,9 @@ main {
   width: 100%;
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-xxsmall);
-  line-height: var(--font-leading-xxsmall);
-  letter-spacing: var(--font-tracking-tight);
+  font-size: var(--font-size-xsmall);
+  line-height: var(--font-leading-xsmall);
+  letter-spacing: var(--font-tracking-none);
   text-align: center;
   color: #696867;
 }

@@ -12,15 +12,7 @@
   padding: 128px 0;
   position: relative;
   background: #98C1D6;
-  border-radius: 29px 29px 0 0;
-  corner-shape: squircle;
-}
-
-.squiggle {
-  position: absolute;
-  top: -16px;
-  right: 0;
-    left: 0;
+  border-radius: 13px 13px 0 0;
 }
 
 .footer-section-tile {
@@ -57,7 +49,6 @@
   padding: 48px;
   background: #FFFFFF;
   border-radius: 13px;
-  corner-shape: squircle;
 }
 
 .footer-section-card-media {
@@ -99,8 +90,7 @@
   justify-content: center;
   gap: 4px;
   padding: 8px 12px;
-  border-radius: 13px;
-  corner-shape: squircle;
+  border-radius: 999px;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
@@ -111,6 +101,7 @@
   fill: #181818;
   cursor: pointer;
   text-decoration: none;
+  transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
 .social-action:hover {

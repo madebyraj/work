@@ -123,7 +123,7 @@
 
           <a class="project"
             href="https://www.figma.com/design/of920uVPdBDO7woCSUoX51/Growth-Pod?node-id=240-139&t=7cguQeGidGovBm41-1"
-            aria-label="Click here to see my Animall work" target="_blank">
+            aria-label="Click here to see my Animall work" target="_blank" data-scroll-tile-odd>
             <img src="./assets/global/animall-cover.png" alt="Animall cover photo" class="project-media" />
             <div class="project-information">
               <h3 class="project-title">
@@ -135,7 +135,7 @@
 
           <a class="project"
             href="https://www.figma.com/design/piJXvvBUmI4OpNs6EzPiqw/ReviewBytes-X-Groto?node-id=1-8&t=bKdirI0siqRUSnaT-1"
-            aria-label="Click here to see my ReviewBytes x Groto project" target="_blank">
+            aria-label="Click here to see my ReviewBytes x Groto project" target="_blank" data-scroll-tile-even>
             <img src="./assets/global/groto-cover.png" alt="Groto cover photo" class="project-media" />
             <div class="project-information">
               <h3 class="project-title">
@@ -156,7 +156,7 @@
 
           <a class="project"
             href="https://medium.com/design-bootcamp/personalization-for-new-members-in-netflix-a-ux-case-study-66c578af9a6b"
-            aria-label="Click here to see my Netflix project" target="_blank">
+            aria-label="Click here to see my Netflix project" target="_blank" data-scroll-tile-odd>
             <img src="./assets/global/netflix-cover.png" alt="Project 1 cover photo" class="project-media" />
             <div class="project-information">
               <h3 class="project-title">
@@ -167,7 +167,7 @@
           </a>
 
           <a class="project" href="https://medium.com/@madebyraj_/worksafe-manager-ux-case-study-149ba8041107"
-            aria-label="Click here to see my Worksafe Manager project" target="_blank">
+            aria-label="Click here to see my Worksafe Manager project" target="_blank" data-scroll-tile-even>
             <img src="./assets/global/worksafemanager-cover.png" alt="Project 2 cover photo" class="project-media" />
             <div class="project-information">
               <h3 class="project-title">
@@ -178,7 +178,7 @@
           </a>
 
           <a class="project" href="https://www.notion.so/Money-Tracker-22d61b770e6480e3a027e1a1c439a4d7"
-            aria-label="Click here to see my Money Tracker project" target="_blank">
+            aria-label="Click here to see my Money Tracker project" target="_blank" data-scroll-tile-odd>
             <img src="./assets/global/moneytracker-cover.png" alt="Project 3 cover photo" class="project-media" />
             <div class="project-information">
               <h3 class="project-title">Money Tracker</h3>
@@ -195,7 +195,7 @@
         <div class="projects">
 
           <a class="project" href="https://madebyraj.github.io/morphix-studio"
-            aria-label="Click here to create color palettes" target="_blank">
+            aria-label="Click here to create color palettes" target="_blank" data-scroll-tile-odd>
             <img src="./assets/global/shipped-work/morphix-studio-cover.webp" alt="Morphix Studio cover photo"
               class="project-media" />
             <div class="project-information">
@@ -205,7 +205,7 @@
           </a>
 
           <a class="project" href="https://www.figma.com/community/file/1403398689455527801/morphix-design-system"
-            aria-label="Click Here to see my design system" target="_blank">
+            aria-label="Click Here to see my design system" target="_blank" data-scroll-tile-even>
             <img src="./assets/global/shipped-work/morphixdesignsystem-cover.png"
               alt="Morphix Design System cover photo" class="project-media" />
             <div class="project-information">
@@ -215,7 +215,7 @@
           </a>
 
           <a class="project" href="https://madebyraj.github.io/invoke" aria-label="Click here to use Invoke app"
-            target="_blank">
+            target="_blank" data-scroll-tile-odd>
             <img src="./assets/global/shipped-work/invoke-cover.webp" alt="Invoke cover photo" class="project-media" />
             <div class="project-information">
               <h3 class="project-title">Invoke</h3>
@@ -276,10 +276,95 @@
     </div>
   </footer>
 
+  <script>
+    const section = document.querySelector(".about-section");
+    const letter = document.querySelector(".letter");
+
+    function updateLetter() {
+      const rect = section.getBoundingClientRect();
+
+      const visible = Math.max(
+        0,
+        Math.min(window.innerHeight, rect.bottom) -
+        Math.max(0, rect.top)
+      );
+
+      const visibility = Math.max(0, Math.min(visible / rect.height, 1));
+
+      let progress = (visibility - 0.25) / 0.5;
+      progress = Math.max(0, Math.min(progress, 1));
+
+      const blur = progress * 32;
+      const spread = progress * 4;
+      const scale = 0.975 + progress * 0.025;
+
+      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(255, 91, 21, 0.1)`;
+      letter.style.transform = `scaleX(${scale})`;
+    }
+
+    window.addEventListener("scroll", updateLetter);
+    updateLetter();
+  </script>
+
+  <script>
+    const tiles = document.querySelectorAll(
+      "[data-scroll-tile-odd], [data-scroll-tile-even]"
+    );
+
+    const tileProgress = new WeakMap();
+
+    tiles.forEach(tile => tileProgress.set(tile, 0));
+
+    function updateScrollTiles() {
+      tiles.forEach((tile) => {
+        const rect = tile.getBoundingClientRect();
+
+        const visible = Math.max(
+          0,
+          Math.min(window.innerHeight, rect.bottom) -
+          Math.max(0, rect.top)
+        );
+
+        const visibility = Math.max(
+          0,
+          Math.min(visible / rect.height, 1)
+        );
+
+        let progress = visibility / 0.25;
+        progress = Math.max(0, Math.min(progress, 1));
+
+        // Never decrease progress
+        progress = Math.max(progress, tileProgress.get(tile));
+
+        tileProgress.set(tile, progress);
+
+        const isOdd = tile.hasAttribute("data-scroll-tile-odd");
+
+        const startX = isOdd ? -75 : 75;
+        const startY = 300;
+
+        const x = startX * (1 - progress);
+        const y = startY * (1 - progress);
+        const scale = 1.05 - progress * 0.05;
+
+        tile.style.transform =
+          `translate3d(${x}px, ${y}px, 0) scale(${scale})`;
+      });
+    }
+
+    window.addEventListener("scroll", updateScrollTiles, { passive: true });
+    window.addEventListener("resize", updateScrollTiles);
+
+    updateScrollTiles();
+  </script>
+
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W2JG6QL" height="0" width="0"
       style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
+
 </body>
 
 </html>
