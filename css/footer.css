@@ -11,7 +11,7 @@
 .footer-section {
   padding: 128px 0;
   position: relative;
-  background: #98C1D6;
+  background: #A4C478;
   border-radius: 13px 13px 0 0;
 }
 
@@ -22,10 +22,10 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100px auto;
-  background-image: url(../assets/global/pattern-1.png);
+  background-image: url(../assets/global/background-signature.png);
+  background-size: cover;
   mix-blend-mode: plus-lighter;
 }
 

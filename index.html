@@ -30,7 +30,7 @@
   <meta property="og:image:width" content="1280" />
   <meta property="og:image:height" content="720" />
   <meta property="og:locale" content="en_IE" />
-  <meta name="theme-color" content="#242424" />
+  <meta name="theme-color" content="#181818" />
   <title>Raj Kumar - UX/Product Designer</title>
   <link rel="stylesheet" href="./css/work.css" />
   <link rel="stylesheet" href="./css/footer.css" />
@@ -41,38 +41,12 @@
 <body class="appearance-light">
 
   <div class="header-wrapper">
-    <div class="header-wrapper-background-blur">
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 1; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%); pointer-events: none; backdrop-filter: blur(0.390625px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 2; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgba(0, 0, 0, 0) 50%); pointer-events: none; backdrop-filter: blur(0.78125px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 3; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 62.5%); pointer-events: none; backdrop-filter: blur(1.5625px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 4; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgba(0, 0, 0, 0) 75%); pointer-events: none; backdrop-filter: blur(3.125px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 5; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 87.5%); pointer-events: none; backdrop-filter: blur(6.25px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 6; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(12.5px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 7; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgb(0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(25px); will-change: auto;">
-      </div>
-      <div
-        style="opacity: 1; position: absolute; inset: 0px; z-index: 8; mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 87.5%, rgb(0, 0, 0) 100%); pointer-events: none; backdrop-filter: blur(50px); will-change: auto;">
-      </div>
-    </div>
     <div class="header">
-      <div class="header-logo header-action">
+      <a class="header-logo header-action" href="/index.html">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <path d="M10 1L12.1211 7.87889L19 10L12.1211 12.1211L10 19L7.87889 12.1211L1 10L7.87889 7.87889L10 1Z" />
         </svg>
-      </div>
+      </a>
       <div class="header-navigations">
         <a class="header-navigation header-action" href="#work-section">
           Work
@@ -91,7 +65,12 @@
   <main class="main-section">
 
     <section class="intro-section">
-      <div class="intro-section-background"></div>
+
+      <div class="intro-section-background">
+        <div class="pattern-reveal" aria-hidden="true">
+        </div>
+      </div>
+
       <div class="intro-section-content">
         <div class="frame">
           <div class="tape-section"></div>
@@ -302,6 +281,42 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const container = document.querySelector(".intro-section-background");
+    const pattern = document.querySelector(".pattern-reveal");
+
+    let mouseX = 0;
+    let mouseY = 0;
+
+    let currentX = 0;
+    let currentY = 0;
+
+    container.addEventListener("mousemove", (e) => {
+      const rect = container.getBoundingClientRect();
+
+      mouseX = e.clientX - rect.left;
+      mouseY = e.clientY - rect.top;
+
+      pattern.style.opacity = "1";
+    });
+
+    container.addEventListener("mouseleave", () => {
+      pattern.style.opacity = "0";
+    });
+
+    function animate() {
+      currentX += (mouseX - currentX) * 0.1;
+      currentY += (mouseY - currentY) * 0.1;
+
+      pattern.style.setProperty("--mouse-x", `${currentX}px`);
+      pattern.style.setProperty("--mouse-y", `${currentY}px`);
+
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  </script>
 
   <script>
     const section = document.querySelector(".about-section");
