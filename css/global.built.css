@@ -9,6 +9,30 @@
 }
 
 @font-face {
+    font-family: "Inter";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/Inter-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/Inter-Medium.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/Inter-Bold.woff) format("woff");
+}
+
+@font-face {
     font-family: "Quadrant Text";
     font-display: swap;
     font-style: normal;
@@ -36,21 +60,15 @@
 
 :root {
 
-    --font-family-display: Exposure, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
-    --font-family-content: Gilroy, Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
-    --font-family-mono: monospace;
-
-    --font-family-sans: Sohne, FT Kunst Grotesk, system-ui, Arial, sans-serif;
-    --font-family-serif: Exposure, Quadrant Text, Sohne, system-ui, Arial, sans-serif;
+    --font-family-sans: Inter, system-ui, Arial, sans-serif;
+    --font-family-serif: Exposure, Quadrant Text, Inter, system-ui, Arial, sans-serif;
     --font-family-handwriting: Homemade Apple, var(--font-family-serif);
     --font-family-mono: monospace;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-medium: 500;
-    --font-weight-semibold: 600;
     --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
     --font-weight-black: 900;
 
     --font-size-xxxxsmall: 12px;

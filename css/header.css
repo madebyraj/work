@@ -17,7 +17,7 @@
   position: relative;
   z-index: 2;
   min-width: 288px;
-  max-width: 440px;
+  max-width: calc(512px - 128px);
   width: 100%;
   height: 52px;
   background: #FFFFFF;
@@ -45,9 +45,9 @@
   justify-content: center;
   padding: 8px;
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-xxsmall);
+  font-size: var(--font-size-xxxsmall);
   font-weight: var(--font-weight-medium);
-  line-height: var(--font-leading-xxsmall);
+  line-height: var(--font-leading-xxxsmall);
   letter-spacing: var(--font-tracking-tight);
   color: #181818;
   fill: #181818;

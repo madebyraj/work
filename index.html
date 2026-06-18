@@ -67,8 +67,8 @@
     <section class="intro-section">
 
       <div class="intro-section-background">
-        <div class="pattern-reveal" aria-hidden="true">
-        </div>
+        <div class="intro-section-background-texture-overlay"></div>
+        <div class="pattern-reveal" aria-hidden="true"></div>
       </div>
 
       <div class="intro-section-content">
@@ -341,7 +341,7 @@
       const scale = 0.975 + progress * 0.025;
 
       letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(255, 91, 21, 0.25)`;
-      letter.style.transform = `scaleX(${scale})`;
+      letter.style.transform = `scale(${scale})`;
     }
 
     window.addEventListener("scroll", updateLetter);
