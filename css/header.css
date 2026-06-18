@@ -1,5 +1,16 @@
 @import url("./global.built.css");
 
+@keyframes header-wrapper-fade-in {
+
+  0% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: none;
+  }
+
+}
 
 .header-wrapper {
   position: fixed;
@@ -11,6 +22,7 @@
   align-items: center;
   justify-content: center;
   padding: 24px 16px;
+  animation: 1000ms var(--ease-in-out-sine) header-wrapper-fade-in;
 }
 
 .header {

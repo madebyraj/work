@@ -495,8 +495,3 @@
     font-style: italic !important;
     position: relative;
 }
-
-.separator {
-    width: 100%;
-    border-radius: var(--border-radius-circle);
-}
