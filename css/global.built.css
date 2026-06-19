@@ -60,7 +60,7 @@
 
 :root {
 
-    --font-family-sans: Inter, system-ui, Arial, sans-serif;
+    --font-family-sans: Sohne, system-ui, Arial, sans-serif;
     --font-family-serif: Exposure, Quadrant Text, Inter, system-ui, Arial, sans-serif;
     --font-family-handwriting: Homemade Apple, var(--font-family-serif);
     --font-family-mono: monospace;

@@ -240,7 +240,7 @@ main {
   gap: 4px;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-xxsmall);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-tight);
   color: #181818;
@@ -391,9 +391,9 @@ main {
 .project-title {
   width: 100%;
   font-family: var(--font-family-sans);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-xsmall);
-  line-height: var(--font-leading-xsmall);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-small);
+  line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
   color: #181818;
@@ -403,11 +403,11 @@ main {
   width: 100%;
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-xxsmall);
-  line-height: var(--font-leading-xxsmall);
-  letter-spacing: var(--font-tracking-tight);
+  font-size: var(--font-size-xsmall);
+  line-height: var(--font-leading-xsmall);
+  letter-spacing: var(--font-tracking-none);
   text-align: center;
-  color: #696867;
+  color: #797877;
 }
 
 @media (max-width: 1024px) {}
