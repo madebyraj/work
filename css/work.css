@@ -69,7 +69,7 @@ main {
   bottom: 0;
   left: 0;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.5;
   background: url(../assets/global/texture.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -207,7 +207,6 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
-  font-variation-settings: "EXPO" -20;
   text-align: center;
   color: #181818;
   animation: 1000ms var(--ease-in-out-sine) intro-headline-fade-in;
@@ -337,7 +336,6 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xlarge);
   letter-spacing: var(--font-tracking-tighter);
-  font-variation-settings: "EXPO" -20;
   text-align: center;
   color: #181818;
 }
