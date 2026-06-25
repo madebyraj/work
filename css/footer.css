@@ -11,7 +11,7 @@
 .footer-section {
   padding: 128px 0;
   position: relative;
-  background: #A4C478;
+  background: #FEA010;
 }
 
 .footer-section-background {
@@ -65,14 +65,13 @@
 
 .social-headline {
   width: 100%;
-  font-family: var(--font-family-serif);
+  font-family: var(--font-family-sans);
   font-size: var(--font-size-large);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-large);
   letter-spacing: var(--font-tracking-tighter);
-  font-variation-settings: "EXPO" -20;
   text-align: center;
-  color: #181818;
+  color: #242424;
 }
 
 .social-actions {
@@ -95,7 +94,7 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-tight);
-  background: #181818;
+  background: #242424;
   color: #FFFFFF;
   fill: #FFFFFF;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
@@ -113,7 +112,7 @@
 }
 
 .social-action-mail {
-  background: #FF5B15;
+  background: #FF4700;
 }
 
 .social-action-linkedin {

@@ -359,7 +359,7 @@
       const spread = progress * 4;
       const scale = 0.975 + progress * 0.025;
 
-      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(255, 91, 21, 0.25)`;
+      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(242, 103, 53, 0.25)`;
       letter.style.transform = `scale(${scale})`;
     }
 
@@ -394,7 +394,6 @@
         let progress = visibility / 0.25;
         progress = Math.max(0, Math.min(progress, 1));
 
-        // Never decrease progress
         progress = Math.max(progress, tileProgress.get(tile));
 
         tileProgress.set(tile, progress);
