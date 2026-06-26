@@ -49,6 +49,22 @@
 }
 
 @font-face {
+    font-family: "GT Alpina Standard";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/GTAlpinaStandard-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "GT Alpina Standard";
+    font-display: swap;
+    font-style: italic;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/GTAlpinaStandard-Regular-Italic.woff2) format("woff2");
+}
+
+@font-face {
     font-family: "Homemade Apple";
     font-display: swap;
     font-style: normal;
@@ -61,7 +77,7 @@
 :root {
 
     --font-family-sans: Sohne, system-ui, Arial, sans-serif;
-    --font-family-serif: Signifier, Sohne, system-ui, Arial, sans-serif;
+    --font-family-serif: GT Alpina Standard, Sohne, system-ui, Arial, sans-serif;
     --font-family-handwriting: Homemade Apple, var(--font-family-serif);
     --font-family-mono: monospace;
 

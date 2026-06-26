@@ -56,7 +56,7 @@ main {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: linear-gradient(to bottom, rgb(137, 93, 249) 0%, rgb(226, 116, 239) 33%, rgb(250, 173, 148) 67%, rgb(255, 208, 143) 100%);
+  background: linear-gradient(to bottom, rgb(137, 93, 249) 0%, rgb(224, 119, 236) 33%, rgb(250, 173, 148) 67%, rgb(255, 208, 143) 100%);
 }
 
 .intro-section-content {
@@ -167,9 +167,9 @@ main {
 }
 
 .intro-section-headline {
-  font-family: var(--font-family-sans);
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-xxxlarge);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
@@ -226,6 +226,7 @@ main {
 .company-link {
   text-decoration: underline;
   color: inherit;
+  font-style: italic;
 }
 
 
@@ -308,11 +309,11 @@ main {
 
 .work-section-label {
   width: 100%;
-  font-family: var(--font-family-sans);
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-xlarge);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xlarge);
-  letter-spacing: var(--font-tracking-tighter);
+  letter-spacing: var(--font-tracking-tightest);
   text-align: center;
   color: #242424;
 }
