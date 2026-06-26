@@ -11,7 +11,7 @@
 .footer-section {
   padding: 128px 0;
   position: relative;
-  background: #FEA010;
+  background: #FFFFFF;
 }
 
 .footer-section-background {
@@ -21,11 +21,7 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url(../assets/global/background-signature.png);
-  background-size: cover;
-  mix-blend-mode: plus-lighter;
+  background: linear-gradient(to bottom, rgb(47, 149, 255) 0%, rgb(255, 214, 103) 100%);
 }
 
 .footer-section-content {
