@@ -94,9 +94,7 @@
     </section>
 
     <div class="about-section" id="about-section">
-      <div class="about-section-background">
-        <div class="noise-texture-overlay"></div>
-      </div>
+      <div class="about-section-background"></div>
       <div class="about-section-content">
         <div class="letter">
           <div class="journey">
@@ -304,41 +302,6 @@
     </div>
   </footer>
 
-  <script>
-    const container = document.querySelector(".intro-section-background");
-    const pattern = document.querySelector(".pattern-reveal");
-
-    let mouseX = 0;
-    let mouseY = 0;
-
-    let currentX = 0;
-    let currentY = 0;
-
-    container.addEventListener("mousemove", (e) => {
-      const rect = container.getBoundingClientRect();
-
-      mouseX = e.clientX - rect.left;
-      mouseY = e.clientY - rect.top;
-
-      pattern.style.opacity = "1";
-    });
-
-    container.addEventListener("mouseleave", () => {
-      pattern.style.opacity = "0";
-    });
-
-    function animate() {
-      currentX += (mouseX - currentX) * 0.1;
-      currentY += (mouseY - currentY) * 0.1;
-
-      pattern.style.setProperty("--mouse-x", `${currentX}px`);
-      pattern.style.setProperty("--mouse-y", `${currentY}px`);
-
-      requestAnimationFrame(animate);
-    }
-
-    animate();
-  </script>
 
   <script>
     const section = document.querySelector(".about-section");
@@ -362,7 +325,7 @@
       const spread = progress * 4;
       const scale = 0.975 + progress * 0.025;
 
-      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(242, 103, 53, 0.25)`;
+      letter.style.boxShadow = `0 0 ${blur}px ${spread}px rgba(255, 71, 0, 0.25)`;
       letter.style.transform = `scale(${scale})`;
     }
 

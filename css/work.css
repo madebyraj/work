@@ -235,7 +235,7 @@ main {
 .about-section {
   padding: 128px 0;
   position: relative;
-  background: #F7F4ED;
+  background: #FFFFFF;
   border-bottom: 1px solid #242424;
 }
 
@@ -246,7 +246,7 @@ main {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: linear-gradient(to bottom, rgb(234, 226, 214) 0%, rgb(247, 244, 237) 100%);
+  background: rgb(247, 244, 237);
 }
 
 .about-section-content {
@@ -270,7 +270,7 @@ main {
   padding: 80px 32px;
   border-radius: 13px;
   background: #FFFFFF;
-  box-shadow: 0 0 0px 0px rgba(242, 103, 53, 0);
+  box-shadow: 0 0 0px 0px rgba(255, 71, 0, 0);
   transition: box-shadow 250ms var(--ease-out-cubic), transform 250ms var(--ease-out-cubic);
 }
 
