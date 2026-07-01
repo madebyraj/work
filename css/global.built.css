@@ -213,10 +213,17 @@
     --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
     --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 
+    --color-material-ultrathick: rgba(255, 255, 255, 0.8);
+    --color-material-thick: rgba(255, 255, 255, 0.7);
+    --color-material-regular: rgba(255, 255, 255, 0.6);
+    --color-material-thin: rgba(255, 255, 255, 0.5);
+    --color-material-ultrathin: rgba(255, 255, 255, 0.4);
+    --color-material-idle: rgb(248, 248, 251);
 
     --color-background-primary: rgb(255, 255, 255);
-    --color-background-secondary: rgb(249, 249, 249);
-    --color-background-tertiary: rgb(242, 242, 242);
+    --color-background-secondary: rgb(248, 248, 251);
+    --color-background-tertiary: rgb(239, 239, 244);
+    --color-background-blue-gradient: linear-gradient(to bottom, #D5E8F3 0%, var(--color-background-primary) 100%);
 
     --color-foreground-primary: rgba(0, 0, 0, 0.85);
     --color-foreground-primary-hover: rgba(0, 0, 0, 1);
@@ -240,9 +247,17 @@
 
     :root {
 
-        --color-background-primary: rgb(18, 18, 18);
+        --color-material-ultrathick: rgba(0, 0, 0, 0.8);
+        --color-material-thick: rgba(0, 0, 0, 0.7);
+        --color-material-regular: rgba(0, 0, 0, 0.6);
+        --color-material-thin: rgba(0, 0, 0, 0.5);
+        --color-material-ultrathin: rgba(0, 0, 0, 0.4);
+        --color-material-idle: rgb(0, 0, 0);
+
+        --color-background-primary: rgb(13, 13, 14);
         --color-background-secondary: rgb(0, 0, 0);
-        --color-background-tertiary: rgb(36, 36, 36);
+        --color-background-tertiary: rgb(25, 25, 27);
+        --color-background-blue-gradient: linear-gradient(to bottom, #0B1224 0%, var(--color-background-primary) 100%);
 
         --color-foreground-primary: rgba(255, 255, 255, 0.85);
         --color-foreground-primary-hover: rgba(255, 255, 255, 1);

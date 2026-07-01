@@ -41,7 +41,7 @@ main {
 .intro-section {
   padding: 128px 0 64px;
   position: relative;
-  background: var(--color-background-primary);
+  background: var(--color-background-blue-gradient);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,7 +166,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 0 8px;
 }
 
 .project-title {
