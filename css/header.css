@@ -1,6 +1,6 @@
 @import url("./global.built.css");
 
-@keyframes header-wrapper-fade-in {
+@keyframes header-fade-in {
 
   0% {
     transform: translateY(-50%);
@@ -12,7 +12,7 @@
 
 }
 
-.header-wrapper {
+.header {
   position: fixed;
   z-index: 999;
   top: 0;
@@ -21,64 +21,91 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 16px;
-  animation: 1000ms var(--ease-in-out-sine) header-wrapper-fade-in;
+  padding: 12px 0;
+  height: 64px;
+  background: #F9F9F9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  animation: 1000ms var(--ease-in-out-sine) header-fade-in;
 }
 
-.header {
+.header-content {
   position: relative;
   z-index: 2;
   min-width: 288px;
-  max-width: calc(540px - 128px);
+  max-width: 1024px;
   width: 100%;
-  height: 52px;
-  background: #FFFFFF;
-  border-radius: 13px;
   overflow: hidden;
   transition: width 500ms var(--ease-in-out-circ), min-width 500ms var(--ease-in-out-circ), max-width 500ms var(--ease-in-out-circ), height 500ms var(--ease-in-out-circ) 125ms, background 500ms var(--ease-in-out-circ);
-  box-shadow: var(--depth-floating);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 48px;
 }
 
-.header-navigations {
+.header-location {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--font-leading-small);
+  letter-spacing: var(--font-tracking-tight);
+  color: rgba(0, 0, 0, 0.6);
+  fill: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+}
+
+.header-actions {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 24px;
 }
 
-.header-action {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
+.header-navigation-link {
   font-family: var(--font-family-sans);
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-tight);
-  background: rgba(0, 0, 0, 0);
-  color: #242424;
-  fill: #242424;
+  color: rgba(0, 0, 0, 0.85);
+  fill: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+}
+
+.header-navigation-link:hover {
+  text-decoration: underline;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-xxxsmall);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-leading-xxxsmall);
+  letter-spacing: var(--font-tracking-none);
+  background: #F24D2E;
+  color: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
   cursor: pointer;
   text-decoration: none;
   border-radius: 5px;
   transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
-.header-action:hover {
-  text-decoration: underline;
-  color: #006AF5;
-  fill: #006AF5;
+.header-button:hover {
+  background: #E54021;
 }
 
-.header-logo svg {
-  width: 20px;
-  height: 20px;
-}
+@media (max-width: 768px) {
 
-@media (max-width: 768px) {}
+  .header-content {
+    padding: 0 24px;
+  }
+
+}
