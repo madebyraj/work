@@ -213,100 +213,53 @@
     --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
     --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 
-}
 
+    --color-background-primary: rgb(255, 255, 255);
+    --color-background-secondary: rgb(249, 249, 249);
+    --color-background-tertiary: rgb(242, 242, 242);
 
-/* Appearance */
+    --color-foreground-primary: rgba(0, 0, 0, 0.85);
+    --color-foreground-primary-hover: rgba(0, 0, 0, 1);
+    --color-foreground-secondary: rgba(0, 0, 0, 0.6);
+    --color-foreground-secondary-hover: rgba(0, 0, 0, 0.75);
+    --color-foreground-tertiary: rgba(0, 0, 0, 0.4);
+    --color-foreground-quaternary: rgba(0, 0, 0, 0.25);
+    --color-foreground-quinary: rgba(0, 0, 0, 0.1);
 
-.appearance-light {
-
-    --color-material-ultrathick: rgba(255, 255, 255, 0.84);
-    --color-material-thick: rgba(255, 255, 255, 0.72);
-    --color-material-regular: rgba(255, 255, 255, 0.60);
-    --color-material-thin: rgba(255, 255, 255, 0.48);
-    --color-material-ultrathin: rgba(255, 255, 255, 0.36);
-    --color-material-idle: rgb(249, 249, 249);
-
-    --color-background-neutral-primary: rgb(255, 255, 255);
-    --color-background-neutral-secondary: rgb(249, 249, 249);
-    --color-background-neutral-tertiary: rgb(242, 242, 242);
-    --color-background-neutral-quaternary: rgb(36, 36, 36);
-    --color-background-accent-primary: rgb(26, 137, 23);
-    --color-background-accent-primary-hover: rgb(21, 109, 18);
-    --color-background-error-primary: rgb(201, 74, 74);
-    --color-background-error-primary-hover: rgb(182, 54, 54);
-    --color-background-utility-yellow: rgb(255, 250, 225);
-    --color-background-utility-blue: rgb(229, 242, 255);
-
-    --color-foreground-neutral-primary: rgb(36, 36, 36);
-    --color-foreground-neutral-primary-hover: rgb(9, 9, 9);
-    --color-foreground-neutral-secondary: rgb(107, 107, 107);
-    --color-foreground-neutral-secondary-hover: rgb(63, 63, 63);
-    --color-foreground-neutral-tertiary: rgb(255, 255, 255);
-    --color-foreground-neutral-quaternary: rgb(229, 229, 229);
-    --color-foreground-accent-primary: rgb(26, 137, 23);
-    --color-foreground-accent-primary-hover: rgb(21, 109, 18);
-    --color-foreground-error-primary: rgb(201, 74, 74);
-    --color-foreground-error-primary-hover: rgb(182, 54, 54);
-    --color-foreground-utility-yellow: rgb(255, 192, 23);
-    --color-foreground-utility-blue: rgb(67, 122, 255);
-
-    --color-border-neutral-primary: rgb(242, 242, 242);
-    --color-border-neutral-primary-hover: rgb(229, 229, 229);
-    --color-border-neutral-secondary: rgb(36, 36, 36);
-    --color-border-neutral-secondary-hover: rgb(18, 18, 18);
-    --color-border-neutral-tertiary: rgb(229, 229, 229);
-    --color-border-neutral-tertiary-hover: rgb(179, 179, 179);
-    --color-border-accent-primary: rgb(26, 137, 23);
-    --color-border-accent-primary-hover: rgb(21, 109, 18);
-    --color-border-error-primary: rgb(201, 74, 74);
-    --color-border-error-primary-hover: rgb(182, 54, 54);
+    --color-accent-primary: rgb(242, 77, 46);
+    --color-accent-primary-hover: rgb(229, 64, 33);
+    --color-accent-primary-inverse: rgb(255, 255, 255);
+    --color-error-primary: rgb(201, 74, 74);
+    --color-error-primary-hover: rgb(182, 54, 54);
+    --color-error-primary-inverse: rgb(255, 255, 255);
 
 }
 
-.appearance-dark {
 
-    --color-material-ultrathick: rgba(9, 9, 9, 0.84);
-    --color-material-thick: rgba(9, 9, 9, 0.72);
-    --color-material-regular: rgba(9, 9, 9, 0.60);
-    --color-material-thin: rgba(9, 9, 9, 0.48);
-    --color-material-ultrathin: rgba(9, 9, 9, 0.36);
-    --color-material-idle: rgb(18, 18, 18);
+@media (prefers-color-scheme: dark) {
 
-    --color-background-neutral-primary: rgb(9, 9, 9);
-    --color-background-neutral-secondary: rgb(18, 18, 18);
-    --color-background-neutral-tertiary: rgb(36, 36, 36);
-    --color-background-neutral-quaternary: rgb(229, 229, 229);
-    --color-background-accent-primary: rgb(26, 137, 23);
-    --color-background-accent-primary-hover: rgb(21, 109, 18);
-    --color-background-error-primary: rgb(201, 74, 74);
-    --color-background-error-primary-hover: rgb(182, 54, 54);
-    --color-background-utility-yellow: rgb(255, 250, 225);
-    --color-background-utility-blue: rgb(229, 242, 255);
+    :root {
 
-    --color-foreground-neutral-primary: rgb(229, 229, 229);
-    --color-foreground-neutral-primary-hover: rgb(249, 249, 249);
-    --color-foreground-neutral-secondary: rgb(136, 136, 136);
-    --color-foreground-neutral-secondary-hover: rgb(179, 179, 179);
-    --color-foreground-neutral-tertiary: rgb(255, 255, 255);
-    --color-foreground-neutral-quaternary: rgb(36, 36, 36);
-    --color-foreground-accent-primary: rgb(26, 137, 23);
-    --color-foreground-accent-primary-hover: rgb(21, 109, 18);
-    --color-foreground-error-primary: rgb(201, 74, 74);
-    --color-foreground-error-primary-hover: rgb(182, 54, 54);
-    --color-foreground-utility-yellow: rgb(255, 192, 23);
-    --color-foreground-utility-blue: rgb(67, 122, 255);
+        --color-background-primary: rgb(18, 18, 18);
+        --color-background-secondary: rgb(0, 0, 0);
+        --color-background-tertiary: rgb(36, 36, 36);
 
-    --color-border-neutral-primary: rgb(36, 36, 36);
-    --color-border-neutral-primary-hover: rgb(63, 63, 63);
-    --color-border-neutral-secondary: rgb(229, 229, 229);
-    --color-border-neutral-secondary-hover: rgb(249, 249, 249);
-    --color-border-neutral-tertiary: rgb(63, 63, 63);
-    --color-border-neutral-tertiary-hover: rgb(107, 107, 107);
-    --color-border-accent-primary: rgb(26, 137, 23);
-    --color-border-accent-primary-hover: rgb(21, 109, 18);
-    --color-border-error-primary: rgb(201, 74, 74);
-    --color-border-error-primary-hover: rgb(182, 54, 54);
+        --color-foreground-primary: rgba(255, 255, 255, 0.85);
+        --color-foreground-primary-hover: rgba(255, 255, 255, 1);
+        --color-foreground-secondary: rgba(255, 255, 255, 0.6);
+        --color-foreground-secondary-hover: rgba(255, 255, 255, 0.75);
+        --color-foreground-tertiary: rgba(255, 255, 255, 0.4);
+        --color-foreground-quaternary: rgba(255, 255, 255, 0.25);
+        --color-foreground-quinary: rgba(255, 255, 255, 0.1);
+
+        --color-accent-primary: rgb(242, 77, 46);
+        --color-accent-primary-hover: rgb(229, 64, 33);
+        --color-accent-primary-inverse: rgb(255, 255, 255);
+        --color-error-primary: rgb(201, 74, 74);
+        --color-error-primary-hover: rgb(182, 54, 54);
+        --color-error-primary-inverse: rgb(255, 255, 255);
+
+    }
 
 }
 

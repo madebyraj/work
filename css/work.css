@@ -26,7 +26,7 @@ body {
   animation: pageLoading 500ms var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: #FFFFFF;
+  background: var(--color-background-primary);
 }
 
 :focus {
@@ -41,7 +41,7 @@ main {
 .intro-section {
   padding: 128px 0 64px;
   position: relative;
-  background: #FFFFFF;
+  background: var(--color-background-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-foreground-secondary);
 }
 
 .intro-section-headline {
@@ -74,7 +74,7 @@ main {
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--color-foreground-primary);
 }
 
 .intro-section-headline-highlighted-link {
@@ -84,17 +84,14 @@ main {
 
 .intro-section-headline-highlighted-link-animall {
   color: rgba(20, 119, 111, 1);
-  text-decoration: underline rgba(20, 119, 111, 1);
 }
 
 .intro-section-headline-highlighted-link-groto {
   color: rgba(66, 40, 209, 1);
-  text-decoration: underline rgba(66, 40, 209, 1);
 }
 
 .intro-section-headline-highlighted-link-collegepur {
   color: rgba(85, 74, 152, 1);
-  text-decoration: underline rgba(85, 74, 152, 1);
 }
 
 /* ---------------- */
@@ -103,7 +100,7 @@ main {
 .work-section {
   padding: 64px 0 128px;
   position: relative;
-  background: #FFFFFF;
+  background: var(--color-background-primary);
   overflow: hidden;
 }
 
@@ -125,7 +122,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-foreground-secondary);
 }
 
 .projects {
@@ -151,6 +148,7 @@ main {
 
 .project:hover .project-title {
   text-decoration: underline;
+  color: var(--color-foreground-primary-hover);
 }
 
 .project-media {
@@ -160,7 +158,7 @@ main {
   object-fit: cover;
   object-position: center;
   overflow: hidden;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 1px var(--color-foreground-quinary);
   aspect-ratio: 4/3.5;
 }
 
@@ -178,7 +176,7 @@ main {
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--color-foreground-primary);
 }
 
 .project-description {
@@ -188,7 +186,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-none);
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-foreground-secondary);
 }
 
 .project-tag {
@@ -196,10 +194,9 @@ main {
   font-family: var(--font-family-sans);
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
-
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-none);
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--color-foreground-primary);
 }
 
 @media (max-width: 1024px) {}

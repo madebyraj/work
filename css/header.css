@@ -23,8 +23,8 @@
   justify-content: center;
   padding: 12px 0;
   height: 64px;
-  background: #F9F9F9;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--color-background-secondary);
+  border-bottom: 1px solid var(--color-foreground-quinary);
   animation: 1000ms var(--ease-in-out-sine) header-fade-in;
 }
 
@@ -48,8 +48,8 @@
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.6);
-  fill: rgba(0, 0, 0, 0.6);
+  color: var(--color-foreground-secondary);
+  fill: var(--color-foreground-secondary);
   cursor: pointer;
   text-decoration: none;
   transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
@@ -68,8 +68,8 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.85);
-  fill: rgba(0, 0, 0, 0.85);
+  color: var(--color-foreground-primary);
+  fill: var(--color-foreground-primary);
   cursor: pointer;
   text-decoration: none;
   transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
@@ -77,6 +77,8 @@
 
 .header-navigation-link:hover {
   text-decoration: underline;
+  color: var(--color-foreground-primary-hover);
+  fill: var(--color-foreground-primary-hover);
 }
 
 .header-button {
@@ -89,9 +91,9 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxsmall);
   letter-spacing: var(--font-tracking-none);
-  background: #F24D2E;
-  color: rgba(255, 255, 255, 1);
-  fill: rgba(255, 255, 255, 1);
+  background: var(--color-accent-primary);
+  color: var(--color-accent-primary-inverse);
+  fill: var(--color-accent-primary-inverse);
   cursor: pointer;
   text-decoration: none;
   border-radius: 5px;
@@ -99,7 +101,7 @@
 }
 
 .header-button:hover {
-  background: #E54021;
+  background: var(--color-accent-primary-hover);
 }
 
 @media (max-width: 768px) {

@@ -11,7 +11,7 @@
 .footer-section {
   padding: 64px 0;
   position: relative;
-  background: #F2F2F2;
+  background: var(--color-background-tertiary);
 }
 
 .footer-section-content {
@@ -38,7 +38,7 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-foreground-secondary);
 }
 
 .footer-section-headline {
@@ -48,7 +48,7 @@
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-xlarge);
   letter-spacing: var(--font-tracking-tighter);
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--color-foreground-primary);
 }
 
 .socials {
@@ -67,7 +67,8 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-tight);
-  color: rgba(0, 0, 0, 0.85);
+  color: var(--color-foreground-primary);
+  fill: var(--color-foreground-primary);
   cursor: pointer;
   text-decoration: none;
   transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic), transform 500ms var(--ease-bounce);
@@ -75,6 +76,8 @@
 
 .social-action:hover {
   text-decoration: underline;
+  color: var(--color-foreground-primary-hover);
+  fill: var(--color-foreground-primary-hover);
 }
 
 
