@@ -24,7 +24,6 @@
   padding: 12px 0;
   height: 52px;
   background: var(--color-background);
-  border-bottom: 1px solid var(--color-foreground-quinary);
   animation: 1000ms var(--ease-in-out-sine) header-fade-in;
 }
 

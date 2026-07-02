@@ -32,14 +32,22 @@
     src: url(../assets/fonts/SourceSerifPro-Bold.woff) format("woff");
 }
 
+@font-face {
+    font-family: "Fragment Mono";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/FragmentMono-Regular.woff2) format("woff");
+}
+
 
 /* Semantics */
 
 :root {
 
-    --font-family-sans: Antique Legacy, Neue Haas Unica, system-ui, Arial, sans-serif;
-    --font-family-serif: Source Serif Pro, Antique Legacy, Neue Haas Unica, system-ui, Arial, sans-serif;
-    --font-family-mono: monospace;
+    --font-family-sans: Antique Legacy, system-ui, Arial, sans-serif;
+    --font-family-serif: Source Serif Pro, Antique Legacy, system-ui, Arial, sans-serif;
+    --font-family-mono: Fragment Mono, Antique Legacy, monospace;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -171,7 +179,7 @@
 .appearance-light {
 
     --color-background: rgb(252, 251, 248);
-    --color-background-alternate: rgb(245, 245, 241);
+    --color-background-alternate: rgb(244, 243, 240);
 
     --color-foreground-primary: rgba(0, 0, 0, 0.85);
     --color-foreground-primary-hover: rgba(0, 0, 0, 1);
@@ -193,8 +201,8 @@
 
 .appearance-dark {
 
-    --color-background: rgb(18, 18, 18);
-    --color-background-alternate: rgb(24, 24, 24);
+    --color-background: rgb(18, 17, 14);
+    --color-background-alternate: rgb(26, 25, 22);
 
     --color-foreground-primary: rgba(255, 255, 255, 0.85);
     --color-foreground-primary-hover: rgba(255, 255, 255, 1);

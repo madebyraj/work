@@ -50,13 +50,13 @@ body {
 @keyframes fade-in-blur {
   0% {
     opacity: 0;
-    filter: blur(5px);
+    backdrop-filter: blur(5px);
     transform: translateY(25%) scale(0.95);
   }
 
   100% {
     opacity: 1;
-    filter: blur();
+    backdrop-filter: blur();
     transform: none;
   }
 }
@@ -83,7 +83,7 @@ body {
 
 .story-body {
   width: 100%;
-  font-family: var(--font-family-serif);
+  font-family: var(--font-family-sans);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
@@ -105,7 +105,7 @@ body {
   object-fit: cover;
   object-position: center;
   overflow: hidden;
-  box-shadow: 0 0 0 1px var(--color-foreground-quinary);
+  box-shadow: 0 0 0 0.5px var(--color-foreground-quinary);
   aspect-ratio: 4/5;
   border-radius: 13px;
   corner-shape: superellipse(1.25);
