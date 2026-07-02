@@ -1,83 +1,44 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Sohne";
+    font-family: "Neue Haas Unica";
     font-display: swap;
     font-style: normal;
     font-weight: 400;
-    src: url(../assets/fonts/Sohne-Regular.woff) format("woff");
+    src: url(../assets/fonts/NeueHaasUnica-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
+    font-family: "Neue Haas Unica";
     font-display: swap;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/NeueHaasUnica-Medium.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Antique Legacy";
+    font-display: swap;
+    font-style: normal;
     font-weight: 400;
-    src: url(../assets/fonts/Sohne-Regular-Italic.woff) format("woff");
+    src: url(../assets/fonts/AntiqueLegacy-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
+    font-family: "Antique Legacy";
     font-display: swap;
     font-style: normal;
     font-weight: 500;
-    src: url(../assets/fonts/Sohne-Medium.woff) format("woff");
+    src: url(../assets/fonts/AntiqueLegacy-Medium.woff) format("woff");
 }
 
-@font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 500;
-    src: url(../assets/fonts/Sohne-Medium-Italic.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/Sohne-Bold.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 700;
-    src: url(../assets/fonts/Sohne-Bold-Italic.woff) format("woff");
-}
-
-@font-face {
-    font-family: "GT Alpina Standard";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/GTAlpinaStandard-Regular.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "GT Alpina Standard";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/GTAlpinaStandard-Regular-Italic.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "Homemade Apple";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/HomemadeApple-Regular.woff) format("woff");
-}
 
 /* Semantics */
 
 :root {
 
-    --font-family-sans: Sohne, system-ui, Arial, sans-serif;
-    --font-family-serif: GT Alpina Standard, Sohne, system-ui, Arial, sans-serif;
+    --font-family-sans: Antique Legacy, Neue Haas Unica, system-ui, Arial, sans-serif;
+    --font-family-serif: GT Alpina Standard, Antique Legacy, Neue Haas Unica, system-ui, Arial, sans-serif;
     --font-family-handwriting: Homemade Apple, var(--font-family-serif);
     --font-family-mono: monospace;
 
