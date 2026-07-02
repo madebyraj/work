@@ -98,7 +98,8 @@
   fill: var(--color-accent-primary-inverse);
   cursor: pointer;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 999px;
+  corner-shape: superellipse(1.25);
   transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
