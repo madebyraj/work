@@ -3,7 +3,7 @@
 @keyframes header-fade-in {
 
   0% {
-    transform: translateY(-50%);
+    transform: translateY(-25%) scale(1.025);
   }
 
   100% {
@@ -22,10 +22,8 @@
   align-items: center;
   justify-content: center;
   padding: 12px 0;
-  height: 64px;
-  background: var(--color-material-ultrathick);
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  height: 52px;
+  background: var(--color-background);
   border-bottom: 1px solid var(--color-foreground-quinary);
   animation: 1000ms var(--ease-in-out-sine) header-fade-in;
 }
@@ -87,7 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 12px;
+  padding: 4px 12px;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-xxxsmall);
   font-weight: var(--font-weight-regular);
@@ -99,7 +97,6 @@
   cursor: pointer;
   text-decoration: none;
   border-radius: 999px;
-  corner-shape: superellipse(1.25);
   transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 

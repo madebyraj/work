@@ -26,7 +26,7 @@ body {
   animation: pageLoading 500ms var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: var(--color-background-primary);
+  background: var(--color-background);
 }
 
 :focus {
@@ -41,7 +41,7 @@ main {
 .intro-section {
   padding: 128px 0 64px;
   position: relative;
-  background: var(--color-background-blue-gradient);
+  background: var(--color-background);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,20 +61,20 @@ main {
   0% {
     opacity: 0;
     filter: blur(5px);
-    transform: translateY(25%);
+    transform: translateY(25%) scale(0.95);
   }
 
   100% {
     opacity: 1;
     filter: blur();
-    transform: translateY(0);
+    transform: none;
   }
 }
 
 .selected-layer {
   position: relative;
   padding: 0 8px 8px;
-  border: 1px solid rgb(0, 122, 255);
+  border: 2px solid rgba(0, 122, 255, 0.6);
   animation-name: fade-in-blur;
   animation-duration: 3000ms;
   animation-timing-function: cubic-bezier(.19, 1, .22, 1);
@@ -82,44 +82,18 @@ main {
   will-change: transform;
 }
 
-.selected-layer-handle {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  background: white;
-  border: 1px solid rgb(0, 122, 255);
-}
-
-.selected-layer-handle-top-right {
-  top: -4px;
-  left: -4px;
-}
-
-.selected-layer-handle-top-left {
-  top: -4px;
-  right: -4px;
-}
-
-.selected-layer-handle-bottom-right {
-  bottom: -4px;
-  right: -4px;
-}
-
-.selected-layer-handle-bottom-left {
-  bottom: -4px;
-  left: -4px;
-}
-
 .selected-layer-label {
   position: absolute;
-  top: -24px;
-  left: 8px;
+  top: -26px;
+  left: -2px;
+  padding: 2px 8px;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-xxxsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxsmall);
   letter-spacing: var(--font-tracking-none);
-  color: rgb(0, 122, 255);
+  color: rgb(255, 255, 255);
+  background: rgba(0, 122, 255);
 }
 
 .selected-layer-dimension {
@@ -172,7 +146,7 @@ main {
 .work-section {
   padding: 64px 0 128px;
   position: relative;
-  background: var(--color-background-primary);
+  background: var(--color-background);
   overflow: hidden;
 }
 

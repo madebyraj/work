@@ -27,13 +27,13 @@ body {
   animation: pageLoading 1s var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: var(--color-background-primary);
+  background: var(--color-background);
 }
 
 .story-section {
   padding: 128px 0;
   position: relative;
-  background: var(--color-background-primary);
+  background: var(--color-background);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,6 +45,20 @@ body {
   gap: 48px;
   max-width: 1024px;
   padding: 0 48px;
+}
+
+@keyframes fade-in-blur {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(25%) scale(0.95);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur();
+    transform: none;
+  }
 }
 
 .story {
@@ -60,16 +74,26 @@ body {
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   color: var(--color-foreground-primary);
+  animation-name: fade-in-blur;
+  animation-duration: 3000ms;
+  animation-timing-function: cubic-bezier(.19, 1, .22, 1);
+  animation-fill-mode: both;
+  will-change: transform;
 }
 
 .story-body {
   width: 100%;
-  font-family: var(--font-family-sans);
+  font-family: var(--font-family-serif);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
   color: var(--color-foreground-primary);
+  animation-name: fade-in-blur;
+  animation-duration: 3000ms;
+  animation-timing-function: cubic-bezier(.19, 1, .22, 1);
+  animation-fill-mode: both;
+  will-change: transform;
 }
 
 .me {
@@ -85,6 +109,11 @@ body {
   aspect-ratio: 4/5;
   border-radius: 13px;
   corner-shape: superellipse(1.25);
+  animation-name: fade-in-blur;
+  animation-duration: 3000ms;
+  animation-timing-function: cubic-bezier(.19, 1, .22, 1);
+  animation-fill-mode: both;
+  will-change: transform;
 }
 
 
