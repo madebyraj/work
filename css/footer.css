@@ -18,8 +18,8 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   gap: 24px;
   max-width: 1024px;
   padding: 0 48px;
@@ -78,6 +78,53 @@
   text-decoration: underline;
   color: var(--color-foreground-primary-hover);
   fill: var(--color-foreground-primary-hover);
+}
+
+.appearance-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--color-foreground-quinary);
+}
+
+.appearance-control-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgb(0, 0, 0, 0);
+  color: var(--color-foreground-secondary);
+  fill: var(--color-foreground-secondary);
+  transition: color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+}
+
+.appearance-control-tab:hover {
+  cursor: pointer;
+  color: var(--color-foreground-secondary-hover);
+  fill: var(--color-foreground-secondary-hover);
+}
+
+.appearance-control-tab svg {
+  width: 20px;
+  height: 20px;
+}
+
+.appearance-control-tab.selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: var(--color-background);
+  color: var(--color-foreground-primary);
+  fill: var(--color-foreground-primary);
+  box-shadow: var(--depth-raised);
 }
 
 

@@ -73,7 +73,7 @@ main {
 
 .selected-layer {
   position: relative;
-  padding: 0 8px 8px;
+  padding: 0 8px 12px;
   border: 2px solid rgba(0, 122, 255);
   animation-name: fade-in-blur;
   animation-duration: 3000ms;

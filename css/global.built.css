@@ -17,6 +17,22 @@
 }
 
 @font-face {
+    font-family: "Neue Haas Unica";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/NeueHaasUnica-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Neue Haas Unica";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/NeueHaasUnica-Medium.woff) format("woff");
+}
+
+@font-face {
     font-family: "Source Serif Pro";
     font-display: swap;
     font-style: normal;
@@ -32,22 +48,14 @@
     src: url(../assets/fonts/SourceSerifPro-Bold.woff) format("woff");
 }
 
-@font-face {
-    font-family: "Fragment Mono";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/FragmentMono-Regular.woff2) format("woff");
-}
-
 
 /* Semantics */
 
 :root {
 
-    --font-family-sans: Antique Legacy, system-ui, Arial, sans-serif;
-    --font-family-serif: Source Serif Pro, Antique Legacy, system-ui, Arial, sans-serif;
-    --font-family-mono: Fragment Mono, Antique Legacy, monospace;
+    --font-family-sans: Neue Haas Unica, Antique Legacy, system-ui, Arial, sans-serif;
+    --font-family-serif: Source Serif Pro, var(--font-family-sans), system-ui, Arial, sans-serif;
+    --font-family-mono: Fragment Mono, var(--font-family-sans), monospace;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
