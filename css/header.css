@@ -44,7 +44,7 @@
 .header-location {
   font-family: var(--font-family-display);
   font-size: var(--font-size-small);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
   color: #6E6E73;

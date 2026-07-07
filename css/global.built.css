@@ -1,35 +1,51 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Haffer";
+    font-family: "Marat Sans";
     font-display: swap;
     font-style: normal;
     font-weight: 400;
-    src: url(../assets/fonts/Haffer-Regular.woff) format("woff");
+    src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Haffer";
+    font-family: "Marat Sans";
     font-display: swap;
     font-style: normal;
     font-weight: 500;
-    src: url(../assets/fonts/Haffer-Medium.woff) format("woff");
+    src: url(../assets/fonts/marat-sans-600-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Haffer";
+    font-family: "Marat Sans";
     font-display: swap;
     font-style: normal;
     font-weight: 700;
-    src: url(../assets/fonts/Haffer-SemiBold.woff) format("woff");
+    src: url(../assets/fonts/marat-sans-600-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Ginto";
+    font-family: "Sohne";
     font-display: swap;
     font-style: normal;
-    font-weight: 1 1000;
-    src: url(../assets/fonts/Ginto-VF.woff) format("woff");
+    font-weight: 400;
+    src: url(../assets/fonts/sohne-400-normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/sohne-500-normal.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Sohne";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/sohne-500-normal.woff) format("woff");
 }
 
 
@@ -37,8 +53,8 @@
 
 :root {
 
-    --font-family-display: Haffer, system-ui, Arial, sans-serif;
-    --font-family-body: Ginto, Haffer, system-ui, Arial, sans-serif;
+    --font-family-display: Marat Sans, Sohne, system-ui, Arial, sans-serif;
+    --font-family-body: Sohne, system-ui, Arial, sans-serif;
     --font-family-mono: Fragment Mono, var(--font-family-sans), monospace;
 
     --font-weight-light: 300;

@@ -103,6 +103,7 @@ main {
   font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tighter);
+  font-variation-settings: "EXPO" -20;
   color: #1D1D1F;
 }
 
@@ -150,7 +151,7 @@ main {
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-xsmall);
-  letter-spacing: var(--font-tracking-wider);
+  letter-spacing: var(--font-tracking-widest);
   text-transform: uppercase;
   color: #6E6E73;
 }
@@ -179,7 +180,7 @@ main {
   overflow: hidden;
   box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.08);
   aspect-ratio: 4/4;
-  border-radius: 13px;
+  border-radius: 20px;
   corner-shape: superellipse(1.25);
   transition: transform 250ms var(--ease-out-cubic);
 }
@@ -193,10 +194,10 @@ main {
 .project-tag {
   width: 100%;
   font-family: var(--font-family-body);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-small);
-  letter-spacing: var(--font-tracking-tight);
+  line-height: var(--font-leading-xsmall);
+  letter-spacing: var(--font-tracking-none);
   color: #424245;
 }
 
@@ -213,10 +214,10 @@ main {
 .project-description {
   width: 100%;
   font-family: var(--font-family-body);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-small);
-  letter-spacing: var(--font-tracking-tight);
+  line-height: var(--font-leading-xsmall);
+  letter-spacing: var(--font-tracking-none);
   color: #6E6E73;
 }
 
@@ -297,22 +298,10 @@ main {
     gap: 16px;
   }
 
-  .project-tag {
-    font-size: var(--font-size-xsmall);
-    line-height: var(--font-leading-xsmall);
-    letter-spacing: var(--font-tracking-tight);
-  }
-
   .project-title {
     font-size: var(--font-size-xlarge);
     line-height: var(--font-leading-xlarge);
     letter-spacing: var(--font-tracking-tighter);
-  }
-
-  .project-description {
-    font-size: var(--font-size-xsmall);
-    line-height: var(--font-leading-xsmall);
-    letter-spacing: var(--font-tracking-tight);
   }
 
   .project-actions {

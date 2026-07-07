@@ -107,7 +107,7 @@ body {
   overflow: hidden;
   box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.08);
   aspect-ratio: 4/5;
-  border-radius: 13px;
+  border-radius: 20px;
   corner-shape: superellipse(1.25);
   animation-name: fade-in-blur;
   animation-duration: 3000ms;
