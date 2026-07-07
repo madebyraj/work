@@ -1,51 +1,35 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Antique Legacy";
+    font-family: "Haffer";
     font-display: swap;
     font-style: normal;
     font-weight: 400;
-    src: url(../assets/fonts/AntiqueLegacy-Regular.woff) format("woff");
+    src: url(../assets/fonts/Haffer-Regular.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Antique Legacy";
+    font-family: "Haffer";
     font-display: swap;
     font-style: normal;
     font-weight: 500;
-    src: url(../assets/fonts/AntiqueLegacy-Medium.woff) format("woff");
+    src: url(../assets/fonts/Haffer-Medium.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Neue Haas Unica";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/NeueHaasUnica-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Neue Haas Unica";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/NeueHaasUnica-Medium.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Source Serif Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/SourceSerifPro-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: "Source Serif Pro";
+    font-family: "Haffer";
     font-display: swap;
     font-style: normal;
     font-weight: 700;
-    src: url(../assets/fonts/SourceSerifPro-Bold.woff) format("woff");
+    src: url(../assets/fonts/Haffer-SemiBold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Ginto";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 1 1000;
+    src: url(../assets/fonts/Ginto-VF.woff) format("woff");
 }
 
 
@@ -53,8 +37,8 @@
 
 :root {
 
-    --font-family-sans: Neue Haas Unica, Antique Legacy, system-ui, Arial, sans-serif;
-    --font-family-serif: Source Serif Pro, var(--font-family-sans), system-ui, Arial, sans-serif;
+    --font-family-display: Haffer, system-ui, Arial, sans-serif;
+    --font-family-body: Ginto, Haffer, system-ui, Arial, sans-serif;
     --font-family-mono: Fragment Mono, var(--font-family-sans), monospace;
 
     --font-weight-light: 300;
@@ -393,4 +377,11 @@
 
 :focus {
     outline: none;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    border-radius: 999px;
+    background: #E8E8ED;
 }
