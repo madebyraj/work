@@ -241,6 +241,9 @@ main {
   cursor: pointer;
   text-decoration: none;
   border-radius: 999px;
+  border: 1px solid #1D1D1F;
+  height: 44px;
+  transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
 .project-action-primary {
@@ -254,13 +257,15 @@ main {
 }
 
 .project-action-secondary {
-  background: #F4F4F7;
+  background: transparent;
   color: #1D1D1F;
   fill: #1D1D1F;
 }
 
 .project-action-secondary:hover {
-  background: #E8E8ED;
+  background: #1D1D1F;
+  color: #F4F4F7;
+  fill: #F4F4F7;
 }
 
 @media (max-width: 1024px) {}

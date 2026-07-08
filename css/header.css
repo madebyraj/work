@@ -51,7 +51,7 @@
   fill: #6E6E73;
   cursor: pointer;
   text-decoration: none;
-  transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+  transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
 .header-actions {
@@ -71,7 +71,7 @@
   fill: #1D1D1F;
   cursor: pointer;
   text-decoration: none;
-  transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+  transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
 .header-navigation-link:hover {
@@ -96,7 +96,7 @@
   cursor: pointer;
   text-decoration: none;
   border-radius: 999px;
-  transition: background 500ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+  transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
 .header-button:hover {

@@ -13,7 +13,7 @@
     font-display: swap;
     font-style: normal;
     font-weight: 500;
-    src: url(../assets/fonts/marat-sans-600-normal.woff) format("woff");
+    src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
 }
 
 @font-face {
@@ -54,8 +54,8 @@
 :root {
 
     --font-family-display: Marat Sans, Sohne, system-ui, Arial, sans-serif;
-    --font-family-body: Sohne, system-ui, Arial, sans-serif;
-    --font-family-mono: Fragment Mono, var(--font-family-sans), monospace;
+    --font-family-body: Marat Sans, Sohne, system-ui, Arial, sans-serif;
+    --font-family-mono: var(--font-family-sans), monospace;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -64,11 +64,11 @@
     --font-weight-black: 900;
 
     --font-size-xxxxsmall: 12px;
-    --font-size-xxxsmall: 14px;
-    --font-size-xxsmall: 16px;
-    --font-size-xsmall: 18px;
-    --font-size-small: 20px;
-    --font-size-medium: 24px;
+    --font-size-xxxsmall: 15px;
+    --font-size-xxsmall: 17px;
+    --font-size-xsmall: 19px;
+    --font-size-small: 21px;
+    --font-size-medium: 25px;
     --font-size-large: 28px;
     --font-size-xlarge: 36px;
     --font-size-xxlarge: 44px;
@@ -84,8 +84,8 @@
     --font-leading-large: 32px;
     --font-leading-xlarge: 40px;
     --font-leading-xxlarge: 48px;
-    --font-leading-xxxlarge: 64px;
-    --font-leading-xxxxlarge: 80px;
+    --font-leading-xxxlarge: 60px;
+    --font-leading-xxxxlarge: 76px;
 
     --font-tracking-tightest: -0.050em;
     --font-tracking-tighter: -0.025em;
