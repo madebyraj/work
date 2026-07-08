@@ -39,7 +39,7 @@ main {
 }
 
 .intro-section {
-  padding: 128px 0 64px;
+  padding: calc(92px + 64px) 0 64px;
   position: relative;
   background: #FFFFFF;
   display: flex;

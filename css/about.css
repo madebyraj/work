@@ -31,7 +31,7 @@ body {
 }
 
 .story-section {
-  padding: 128px 0;
+  padding: calc(92px + 64px) 0 128px;
   position: relative;
   background: #FFFFFF;
   display: flex;

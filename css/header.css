@@ -12,7 +12,7 @@
 
 }
 
-.header {
+.header-wrapper {
   position: fixed;
   z-index: 999;
   top: 0;
@@ -21,44 +21,60 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 0;
+  padding: 20px 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 288px;
+  max-width: calc(512px - 128px);
+  padding: 12px 12px 12px 24px;
   height: 52px;
   background: #FFFFFF;
+  box-shadow: 0 0 0 1px rgb(0, 0, 0, 0.08), var(--depth-floating);
   animation: 1000ms var(--ease-in-out-sine) header-fade-in;
+  border-radius: 999px;
 }
 
 .header-content {
   position: relative;
-  z-index: 2;
-  min-width: 288px;
-  max-width: 1024px;
   width: 100%;
   overflow: hidden;
   transition: width 500ms var(--ease-in-out-circ), min-width 500ms var(--ease-in-out-circ), max-width 500ms var(--ease-in-out-circ), height 500ms var(--ease-in-out-circ) 125ms, background 500ms var(--ease-in-out-circ);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 48px;
 }
 
-.header-location {
-  font-family: var(--font-family-display);
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--font-leading-small);
-  letter-spacing: var(--font-tracking-tight);
-  color: #6E6E73;
-  fill: #6E6E73;
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1D1D1F;
+  fill: #1D1D1F;
   cursor: pointer;
   text-decoration: none;
   transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+}
+
+.header-logo:hover {
+  color: #333336;
+  fill: #333336;
+}
+
+.header-logo svg {
+  width: 20px;
+  height: 20px;
 }
 
 .header-actions {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 20px;
 }
 
 .header-navigation-link {
@@ -103,10 +119,4 @@
   background: rgb(229, 64, 33);
 }
 
-@media (max-width: 768px) {
-
-  .header-content {
-    padding: 0 24px;
-  }
-
-}
+@media (max-width: 768px) {}
