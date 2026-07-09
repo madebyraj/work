@@ -26,7 +26,7 @@ body {
   animation: pageLoading 500ms var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: #FFFFFF;
+  background: rgb(255, 255, 255);
 }
 
 :focus {
@@ -41,7 +41,7 @@ main {
 .intro-section {
   padding: calc(92px + 64px) 0 64px;
   position: relative;
-  background: #FFFFFF;
+  background: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@ main {
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tighter);
   font-variation-settings: "EXPO" -20;
-  color: #1D1D1F;
+  color: rgb(27, 31, 36);
 }
 
 .intro-section-headline-highlighted-link {
@@ -130,7 +130,7 @@ main {
 .work-section {
   padding: 64px 0 128px;
   position: relative;
-  background: #FFFFFF;
+  background: rgb(255, 255, 255);
   overflow: hidden;
 }
 
@@ -149,11 +149,11 @@ main {
   width: 100%;
   font-family: var(--font-family-body);
   font-size: var(--font-size-xsmall);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-widest);
   text-transform: uppercase;
-  color: #6E6E73;
+  color: rgb(107, 110, 119);
 }
 
 .projects {
@@ -198,7 +198,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
-  color: #424245;
+  color: rgb(27, 31, 36);
 }
 
 .project-title {
@@ -208,7 +208,7 @@ main {
   font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tighter);
-  color: #1D1D1F;
+  color: rgb(27, 31, 36);
 }
 
 .project-description {
@@ -218,7 +218,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
-  color: #6E6E73;
+  color: rgb(107, 110, 119);
 }
 
 .project-actions {
@@ -240,32 +240,35 @@ main {
   letter-spacing: var(--font-tracking-none);
   cursor: pointer;
   text-decoration: none;
-  border-radius: 999px;
-  border: 1px solid #1D1D1F;
+  border-width: 1px;
+  border-style: solid;
   height: 44px;
-  transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+  transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic), border-color 250ms var(--ease-out-cubic);
 }
 
 .project-action-primary {
-  background: #1D1D1F;
-  color: #F4F4F7;
-  fill: #F4F4F7;
+  border-radius: 12px;
+  border-color: rgb(27, 31, 36);
+  background: rgb(27, 31, 36);
+  color: rgb(242, 242, 247);
+  fill: rgb(242, 242, 247);
 }
 
 .project-action-primary:hover {
-  background: #333336;
+  border-color: rgb(48, 51, 56);
+  background: rgb(48, 51, 56);
 }
 
 .project-action-secondary {
-  background: transparent;
-  color: #1D1D1F;
-  fill: #1D1D1F;
+  border-radius: 999px;
+  border-color: rgb(191, 192, 199);
+  background: rgb(255, 255, 255);
+  color: rgb(27, 31, 36);
+  fill: rgb(27, 31, 36);
 }
 
 .project-action-secondary:hover {
-  background: #1D1D1F;
-  color: #F4F4F7;
-  fill: #F4F4F7;
+  border-color: rgb(136, 138, 148);
 }
 
 @media (max-width: 1024px) {}

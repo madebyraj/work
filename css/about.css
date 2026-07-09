@@ -27,13 +27,13 @@ body {
   animation: pageLoading 1s var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255);
 }
 
 .story-section {
   padding: calc(92px + 64px) 0 128px;
   position: relative;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@ body {
   font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tighter);
-  color: #1D1D1F;
+  color: rgb(27, 31, 36);
   animation-name: fade-in-blur;
   animation-duration: 3000ms;
   animation-timing-function: cubic-bezier(.19, 1, .22, 1);
@@ -88,7 +88,7 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: #1D1D1F;
+  color: rgb(27, 31, 36);
   animation-name: fade-in-blur;
   animation-duration: 3000ms;
   animation-timing-function: cubic-bezier(.19, 1, .22, 1);

@@ -130,37 +130,6 @@
     </div>
   </footer>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const body = document.body;
-
-      const lightTab = document.querySelector(".appearance-control-tab-light");
-      const darkTab = document.querySelector(".appearance-control-tab-dark");
-
-      function setTheme(theme) {
-        body.classList.remove("appearance-light", "appearance-dark");
-
-        lightTab.classList.remove("selected");
-        darkTab.classList.remove("selected");
-
-        if (theme === "light") {
-          body.classList.add("appearance-light");
-          lightTab.classList.add("selected");
-        } else {
-          body.classList.add("appearance-dark");
-          darkTab.classList.add("selected");
-        }
-
-        localStorage.setItem("theme", theme);
-      }
-
-      const savedTheme = localStorage.getItem("theme") || "light";
-      setTheme(savedTheme);
-
-      lightTab.addEventListener("click", () => setTheme("light"));
-      darkTab.addEventListener("click", () => setTheme("dark"));
-    });
-  </script>
 
 
   <!-- Google Tag Manager (noscript) -->

@@ -33,7 +33,7 @@
   max-width: calc(512px - 128px);
   padding: 12px 12px 12px 24px;
   height: 52px;
-  background: #FFFFFF;
+  background: rgb(255, 255, 255);
   box-shadow: 0 0 0 1px rgb(0, 0, 0, 0.08), var(--depth-floating);
   animation: 1000ms var(--ease-in-out-sine) header-fade-in;
   border-radius: 999px;
@@ -53,16 +53,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #1D1D1F;
-  fill: #1D1D1F;
+  color: rgb(27, 31, 36);
+  fill: rgb(27, 31, 36);
   cursor: pointer;
   text-decoration: none;
   transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
 }
 
 .header-logo:hover {
-  color: #333336;
-  fill: #333336;
+  color: rgb(48, 51, 56);
+  fill: rgb(48, 51, 56);
 }
 
 .header-logo svg {
@@ -83,8 +83,8 @@
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-none);
-  color: #1D1D1F;
-  fill: #1D1D1F;
+  color: rgb(27, 31, 36);
+  fill: rgb(27, 31, 36);
   cursor: pointer;
   text-decoration: none;
   transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
@@ -92,8 +92,8 @@
 
 .header-navigation-link:hover {
   text-decoration: underline;
-  color: #333336;
-  fill: #333336;
+  color: rgb(48, 51, 56);
+  fill: rgb(48, 51, 56);
 }
 
 .header-button {
@@ -107,8 +107,8 @@
   line-height: var(--font-leading-xxxsmall);
   letter-spacing: var(--font-tracking-none);
   background: rgb(242, 77, 46);
-  color: #FFFFFF;
-  fill: #FFFFFF;
+  color: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
   cursor: pointer;
   text-decoration: none;
   border-radius: 999px;
