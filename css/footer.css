@@ -35,7 +35,7 @@
   font-size: var(--font-size-xlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xlarge);
-  letter-spacing: var(--font-tracking-tighter);
+  letter-spacing: var(--font-tracking-tightest);
   text-align: center;
   color: rgb(24, 24, 24);
 }
@@ -53,14 +53,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-family-default);
+  font-family: var(--font-family-ui);
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
-  letter-spacing: var(--font-tracking-tight);
+  letter-spacing: var(--font-tracking-none);
   color: rgb(24, 24, 24);
   cursor: pointer;
   text-decoration: rgb(226, 225, 223) underline;
+  transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
 .contact-link:hover {
@@ -95,7 +96,7 @@
   .footer-section-heading {
     font-size: var(--font-size-large);
     line-height: var(--font-leading-large);
-    letter-spacing: var(--font-tracking-tighter);
+    letter-spacing: var(--font-tracking-tightest);
   }
 
 }
