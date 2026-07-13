@@ -9,11 +9,11 @@
 }
 
 @font-face {
-    font-family: "Freight";
+    font-family: "Fell";
     font-display: swap;
     font-style: normal;
     font-weight: 100 900;
-    src: url(../assets/fonts/freight-text-pro-500-normal.woff) format("woff");
+    src: url(../assets/fonts/fell-400-normal.woff) format("woff");
 }
 
 @font-face {
@@ -127,13 +127,13 @@
     --font-leading-xxxlarge: 64px;
     --font-leading-xxxxlarge: 80px;
 
-    --font-tracking-tightest: -0.050em;
+    --font-tracking-tightest: -0.075em;
     --font-tracking-tighter: -0.025em;
     --font-tracking-tight: -0.013em;
     --font-tracking-none: 0;
     --font-tracking-wide: 0.013em;
     --font-tracking-wider: 0.025em;
-    --font-tracking-widest: 0.050em;
+    --font-tracking-widest: 0.075em;
 
     --border-radius-sharp: 0px;
     --border-radius-small: 2px;
@@ -201,9 +201,9 @@
     --transition-duration-slowest: 500ms;
 
     --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    --depth-raised: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 2px 16px 0 rgba(0, 0, 0, 0.04);
-    --depth-elevated: 0 1px 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
-    --depth-floating: 0 1px 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 2px 16px 0 rgba(0, 0, 0, 0.05);
+    --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.10), 0 2px 24px 0 rgba(0, 0, 0, 0.10);
+    --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.10), 0 2px 48px 0 rgba(0, 0, 0, 0.10);
 
 }
 
@@ -212,21 +212,21 @@
 }
 
 .highlight-forest {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
     background: rgb(154, 184, 117);
 }
 
 .highlight-oat {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
     background: rgb(234, 226, 214);
 }
 
 .highlight-gold {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
     background: rgb(255, 192, 23);
 }
 
 .highlight-sky {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
     background: rgb(152, 193, 214);
 }

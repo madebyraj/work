@@ -31,9 +31,9 @@
 
 .footer-section-heading {
   font-family: var(--font-family-display);
-  font-size: var(--font-size-xlarge);
+  font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-xlarge);
+  line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
   color: rgb(24, 24, 24);
@@ -59,7 +59,7 @@
   letter-spacing: var(--font-tracking-none);
   color: rgb(24, 24, 24);
   cursor: pointer;
-  text-decoration: rgb(226, 225, 223) underline;
+  text-decoration: rgba(0, 0, 0, 0.10) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
@@ -94,8 +94,8 @@
   }
 
   .footer-section-heading {
-    font-size: var(--font-size-large);
-    line-height: var(--font-leading-large);
+    font-size: var(--font-size-xlarge);
+    line-height: var(--font-leading-xlarge);
     letter-spacing: var(--font-tracking-tightest);
   }
 
