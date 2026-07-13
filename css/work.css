@@ -50,7 +50,7 @@ main {
 }
 
 .hero-section {
-  padding: 80px 0 64px;
+  padding: 96px 0 64px;
   position: relative;
   display: flex;
   align-items: center;
@@ -141,14 +141,17 @@ main {
   gap: 4px;
   padding: 12px 20px;
   width: fit-content;
+  height: 44px;
   font-family: var(--font-family-ui);
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-none);
   text-decoration: none;
-  border-radius: 8px;
-  transition: background 250ms var(--ease-in-out-sine);
+  border-radius: 999px;
+  transition: background 250ms var(--ease-in-out-sine), color 250ms var(--ease-in-out-sine), fill 250ms var(--ease-in-out-sine);
+  border-width: 1px;
+  border-style: solid;
 }
 
 .button svg {
@@ -156,24 +159,28 @@ main {
   height: 20px;
 }
 
-.button-primary {
+.button-filled {
+border-color: rgb(24, 24, 24);
   background: rgb(24, 24, 24);
   color: rgb(255, 255, 255);
   fill: rgb(255, 255, 255);
 }
 
-.button-primary:hover {
+.button-filled:hover {
+  border-color: rgb(56, 56, 56);
   background: rgb(56, 56, 56);
 }
 
-.button-secondary {
-  background: rgb(245, 245, 241);
+.button-bordered {
+  border-color: rgb(24, 24, 24);
   color: rgb(24, 24, 24);
   fill: rgb(24, 24, 24);
 }
 
-.button-secondary:hover {
-  background: rgb(239, 238, 235);
+.button-bordered:hover {
+  border-color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
+  fill: rgb(56, 56, 56);
 }
 
 /* ---------------- */
