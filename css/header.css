@@ -1,24 +1,11 @@
 @import url("./global.built.css");
 
-@keyframes header-fade-in {
-
-  0% {
-    transform: translateY(-25%) scale(1.025);
-  }
-
-  100% {
-    transform: none;
-  }
-
-}
-
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   padding: 48px 0 0;
-  /* animation: 1000ms var(--ease-in-out-sine) header-fade-in; */
 }
 
 .header-content {
@@ -34,6 +21,20 @@
   padding: 0 48px;
 }
 
+@keyframes header-logo {
+
+  0% {
+    backdrop-filter: blur(20px);
+    opacity: 0;
+  }
+
+  100% {
+    backdrop-filter: blur(0);
+    opacity: 1;
+  }
+
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -43,6 +44,12 @@
   cursor: pointer;
   text-decoration: none;
   transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
+  /* animation: 1000ms var(--ease-in-out-sine) header-logo; */
+}
+
+.header-logo:hover {
+  color: rgb(0, 0, 0);
+  fill: rgb(0, 0, 0);
 }
 
 .header-logo svg {
@@ -50,6 +57,11 @@
   height: 16px;
   fill: inherit;
 }
+
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
 
 @media (max-width: 640px) {
 
