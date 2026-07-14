@@ -363,7 +363,7 @@ main {
 .journey {
   width: 100%;
   max-width: 680px;
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-content);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
