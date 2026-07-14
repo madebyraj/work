@@ -59,7 +59,7 @@
   letter-spacing: var(--font-tracking-none);
   color: var(--color-foreground);
   cursor: pointer;
-  text-decoration: var(--color-foreground-tertiary-alpha) underline;
+  text-decoration: var(--color-foreground-tertiary) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 

@@ -242,18 +242,15 @@
 
     --color-foreground: rgb(36, 36, 36);
     --color-foreground-hover: rgb(0, 0, 0);
-    --color-foreground-alpha: rgba(0, 0, 0, 0.85);
-    --color-foreground-alpha-hover: rgba(0, 0, 0, 1);
     --color-foreground-secondary: rgb(107, 107, 107);
     --color-foreground-secondary-hover: rgb(63, 63, 63);
-    --color-foreground-secondary-alpha: rgba(0, 0, 0, 0.60);
-    --color-foreground-secondary-alpha-hover: rgba(0, 0, 0, 0.75);
     --color-foreground-tertiary: rgb(229, 229, 229);
-    --color-foreground-tertiary-alpha: rgba(0, 0, 0, 0.10);
+
+    --color-content-separator: rgba(0, 0, 0, 0.10);
 
 }
 
-.appearance-dark {
+/* .appearance-dark {
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgb(0, 0, 0);
@@ -261,13 +258,10 @@
 
     --color-foreground: rgb(229, 229, 229);
     --color-foreground-hover: rgb(255, 255, 255);
-    --color-foreground-alpha: rgba(255, 255, 255, 0.90);
-    --color-foreground-alpha-hover: rgba(255, 255, 255, 1);
     --color-foreground-secondary: rgb(136, 136, 136);
     --color-foreground-secondary-hover: rgb(179, 179, 179);
-    --color-foreground-secondary-alpha: rgba(255, 255, 255, 0.55);
-    --color-foreground-secondary-alpha-hover: rgba(255, 255, 255, 0.70);
     --color-foreground-tertiary: rgb(63, 63, 63);
-    --color-foreground-tertiary-alpha: rgba(255, 255, 255, 0.25);
 
-}
+    --color-content-separator: rgba(255, 255, 255, 0.15);
+
+} */

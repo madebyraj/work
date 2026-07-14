@@ -40,7 +40,7 @@ body {
   background: url(../assets/global/noise-texture.png);
   background-repeat: repeat;
   background-position: center;
-  background-size: 170.666px;
+  background-size: calc(512px / 3);
   pointer-events: none;
 }
 
@@ -89,7 +89,7 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  box-shadow: inset 0 0 0 0.5px var(--color-foreground-tertiary-alpha);
+  box-shadow: inset 0 0 0 1px var(--color-content-separator);
   background-image: url(../assets/global/me.webp);
   aspect-ratio: 4/3.33;
   border-radius: 999px;
@@ -118,7 +118,7 @@ main {
 
 .hero-section-intro-subheading-highlighted-link {
   color: inherit;
-  text-decoration: var(--color-foreground-tertiary-alpha) underline;
+  text-decoration: var(--color-foreground-tertiary) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
@@ -242,7 +242,7 @@ main {
 
 .project:hover .project-media {
   transform: scale(1.0125);
-  box-shadow: inset 0 0 0 0.5px var(--color-foreground-tertiary-alpha), var(--depth-raised);
+  box-shadow: inset 0 0 0 1px var(--color-content-separator), var(--depth-raised);
 }
 
 .project-media {
@@ -255,7 +255,7 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  box-shadow: inset 0 0 0 0.5px var(--color-foreground-tertiary-alpha);
+  box-shadow: inset 0 0 0 1px var(--color-content-separator);
   aspect-ratio: 4/2.5;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
 }
@@ -310,7 +310,7 @@ main {
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
   color: var(--color-foreground);
-  text-decoration: var(--color-foreground-tertiary-alpha) underline;
+  text-decoration: var(--color-foreground-tertiary) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
