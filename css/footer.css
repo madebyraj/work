@@ -36,7 +36,7 @@
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: rgb(24, 24, 24);
+  color: var(--color-foreground);
 }
 
 .contact-links {
@@ -52,14 +52,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-family-ui);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
-  color: rgb(24, 24, 24);
+  color: var(--color-foreground);
   cursor: pointer;
-  text-decoration: rgba(0, 0, 0, 0.10) underline;
+  text-decoration: var(--color-foreground-tertiary-alpha) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 

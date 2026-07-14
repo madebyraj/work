@@ -26,7 +26,7 @@ body {
   animation: pageLoading 500ms var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: rgb(252, 251, 248);
+  background: var(--color-background);
 }
 
 .body-background-texture {
@@ -40,7 +40,7 @@ body {
   background: url(../assets/global/noise-texture.png);
   background-repeat: repeat;
   background-position: center;
-  background-size: 256px;
+  background-size: 170.666px;
   pointer-events: none;
 }
 
@@ -89,7 +89,7 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+  box-shadow: inset 0 0 0 0.5px var(--color-foreground-tertiary-alpha);
   background-image: url(../assets/global/me.webp);
   aspect-ratio: 4/3.33;
   border-radius: 999px;
@@ -102,7 +102,7 @@ main {
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: rgb(24, 24, 24);
+  color: var(--color-foreground);
 }
 
 .hero-section-intro-subheading {
@@ -113,12 +113,12 @@ main {
   line-height: var(--font-leading-medium);
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
-  color: rgb(89, 88, 87);
+  color: var(--color-foreground-secondary);
 }
 
 .hero-section-intro-subheading-highlighted-link {
   color: inherit;
-  text-decoration: rgba(0, 0, 0, 0.10) underline;
+  text-decoration: var(--color-foreground-tertiary-alpha) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
@@ -142,7 +142,7 @@ main {
   padding: 12px 20px;
   width: fit-content;
   height: 44px;
-  font-family: var(--font-family-ui);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxsmall);
@@ -160,27 +160,27 @@ main {
 }
 
 .button-filled {
-  border-color: rgb(14, 79, 141);
-  background: rgb(14, 79, 141);
-  color: rgb(255, 255, 255);
-  fill: rgb(255, 255, 255);
+  border-color: var(--color-foreground);
+  background: var(--color-foreground);
+  color: var(--color-foreground-tertiary);
+  fill: var(--color-foreground-tertiary);
 }
 
 .button-filled:hover {
-  border-color: rgb(16, 68, 118);
-  background: rgb(16, 68, 118);
+  border-color: var(--color-foreground-hover);
+  background: var(--color-foreground-hover);
 }
 
 .button-bordered {
-  border-color: rgb(24, 24, 24);
-  color: rgb(24, 24, 24);
-  fill: rgb(24, 24, 24);
+  border-color: var(--color-foreground);
+  color: var(--color-foreground);
+  fill: var(--color-foreground);
 }
 
 .button-bordered:hover {
-  border-color: rgb(56, 56, 56);
-  color: rgb(56, 56, 56);
-  fill: rgb(56, 56, 56);
+  border-color: var(--color-foreground-hover);
+  color: var(--color-foreground-hover);
+  fill: var(--color-foreground-hover);
 }
 
 /* ---------------- */
@@ -214,7 +214,7 @@ main {
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: rgb(24, 24, 24);
+  color: var(--color-foreground);
 }
 
 .projects {
@@ -242,7 +242,7 @@ main {
 
 .project:hover .project-media {
   transform: scale(1.0125);
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10), var(--depth-raised);
+  box-shadow: inset 0 0 0 0.5px var(--color-foreground-tertiary-alpha), var(--depth-raised);
 }
 
 .project-media {
@@ -255,7 +255,7 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+  box-shadow: inset 0 0 0 0.5px var(--color-foreground-tertiary-alpha);
   aspect-ratio: 4/2.5;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
 }
@@ -303,26 +303,26 @@ main {
 
 .project-title {
   width: 100%;
-  font-family: var(--font-family-ui);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
-  color: rgb(24, 24, 24);
-  text-decoration: rgba(0, 0, 0, 0.10) underline;
+  color: var(--color-foreground);
+  text-decoration: var(--color-foreground-tertiary-alpha) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
 .project-tag {
   width: 100%;
-  font-family: var(--font-family-ui);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
   text-align: center;
-  color: rgb(89, 88, 87);
+  color: var(--color-foreground-secondary);
 }
 
 /* ---------- */
@@ -356,7 +356,7 @@ main {
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: rgb(24, 24, 24);
+  color: var(--color-foreground);
 }
 
 .journey {
@@ -367,7 +367,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: rgb(24, 24, 24);
+  color: var(--color-foreground);
 }
 
 /* ---------- */
@@ -387,6 +387,12 @@ main {
     font-size: var(--font-size-xxlarge);
     line-height: var(--font-leading-xxlarge);
     letter-spacing: var(--font-tracking-tightest);
+  }
+
+  .hero-section-intro-subheading {
+    font-size: var(--font-size-small);
+    line-height: var(--font-leading-small);
+    letter-spacing: var(--font-tracking-tight);
   }
 
   .hero-section-actions {

@@ -39,8 +39,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(24, 24, 24);
-  fill: rgb(24, 24, 24);
+  color: var(--color-foreground);
+  fill: var(--color-foreground);
   cursor: pointer;
   text-decoration: none;
   transition: background 250ms var(--ease-out-cubic), color 250ms var(--ease-out-cubic), fill 250ms var(--ease-out-cubic);
@@ -48,8 +48,8 @@
 }
 
 .header-logo:hover {
-  color: rgb(0, 0, 0);
-  fill: rgb(0, 0, 0);
+  color: var(--color-foreground-hover);
+  fill: var(--color-foreground-hover);
 }
 
 .header-logo svg {

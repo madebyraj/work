@@ -93,9 +93,8 @@
 
 :root {
 
-    --font-family-display: GT Super, Marat Sans, Sohne, Newsreader, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
-    --font-family-ui: Sohne, Marat Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-body: Source Serif pro, Newsreader, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+    --font-family-display: GT Super, Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
+    --font-family-body: Sohne, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -127,13 +126,13 @@
     --font-leading-xxxlarge: 64px;
     --font-leading-xxxxlarge: 80px;
 
-    --font-tracking-tightest: -0.075em;
+    --font-tracking-tightest: -0.066em;
     --font-tracking-tighter: -0.025em;
     --font-tracking-tight: -0.013em;
     --font-tracking-none: 0;
     --font-tracking-wide: 0.013em;
     --font-tracking-wider: 0.025em;
-    --font-tracking-widest: 0.075em;
+    --font-tracking-widest: 0.066em;
 
     --border-radius-sharp: 0px;
     --border-radius-small: 2px;
@@ -212,21 +211,63 @@
 }
 
 .highlight-forest {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
-    background: rgb(154, 184, 117);
+    background: rgb(91, 123, 59, 0.30);
+    color: rgb(71, 96, 46);
+    fill: rgb(71, 96, 46);
 }
 
-.highlight-oat {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
-    background: rgb(234, 226, 214);
+.highlight-sand {
+    background: rgb(150, 121, 79, 0.30);
+    color: rgb(118, 95, 62);
+    fill: rgb(118, 95, 62);
 }
 
-.highlight-gold {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
-    background: rgb(255, 192, 23);
+.highlight-mango {
+    background: rgb(255, 159, 0, 0.30);
+    color: rgb(200, 125, 0);
+    fill: rgb(200, 125, 0);
 }
 
-.highlight-sky {
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 0 rgba(0, 0, 0, 0.10);
-    background: rgb(152, 193, 214);
+.highlight-lake {
+    background: rgb(14, 79, 141, 0.30);
+    color: rgb(11, 62, 111);
+    fill: rgb(11, 62, 111);
+}
+
+.appearance-light {
+
+    --color-background: rgb(255, 255, 255);
+    --color-background-secondary: rgb(249, 249, 249);
+    --color-background-tertiary: rgb(242, 242, 242);
+
+    --color-foreground: rgb(36, 36, 36);
+    --color-foreground-hover: rgb(0, 0, 0);
+    --color-foreground-alpha: rgba(0, 0, 0, 0.85);
+    --color-foreground-alpha-hover: rgba(0, 0, 0, 1);
+    --color-foreground-secondary: rgb(107, 107, 107);
+    --color-foreground-secondary-hover: rgb(63, 63, 63);
+    --color-foreground-secondary-alpha: rgba(0, 0, 0, 0.60);
+    --color-foreground-secondary-alpha-hover: rgba(0, 0, 0, 0.75);
+    --color-foreground-tertiary: rgb(229, 229, 229);
+    --color-foreground-tertiary-alpha: rgba(0, 0, 0, 0.10);
+
+}
+
+.appearance-dark {
+
+    --color-background: rgb(18, 18, 18);
+    --color-background-secondary: rgb(0, 0, 0);
+    --color-background-tertiary: rgb(36, 36, 36);
+
+    --color-foreground: rgb(229, 229, 229);
+    --color-foreground-hover: rgb(255, 255, 255);
+    --color-foreground-alpha: rgba(255, 255, 255, 0.90);
+    --color-foreground-alpha-hover: rgba(255, 255, 255, 1);
+    --color-foreground-secondary: rgb(136, 136, 136);
+    --color-foreground-secondary-hover: rgb(179, 179, 179);
+    --color-foreground-secondary-alpha: rgba(255, 255, 255, 0.55);
+    --color-foreground-secondary-alpha-hover: rgba(255, 255, 255, 0.70);
+    --color-foreground-tertiary: rgb(63, 63, 63);
+    --color-foreground-tertiary-alpha: rgba(255, 255, 255, 0.25);
+
 }
