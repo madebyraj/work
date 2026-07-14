@@ -40,8 +40,9 @@ body {
   background: url(../assets/global/noise-texture.png);
   background-repeat: repeat;
   background-position: center;
-  background-size: calc(512px / 3);
+  background-size: calc(512px / 2);
   pointer-events: none;
+  mix-blend-mode: overlay;
 }
 
 main {

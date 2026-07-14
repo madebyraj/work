@@ -246,11 +246,11 @@
     --color-foreground-secondary-hover: rgb(63, 63, 63);
     --color-foreground-tertiary: rgb(229, 229, 229);
 
-    --color-content-separator: rgba(0, 0, 0, 0.10);
+    --color-content-separator: rgba(136, 136, 136, 0.10);
 
 }
 
-/* .appearance-dark {
+.appearance-dark {
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgb(0, 0, 0);
@@ -262,6 +262,6 @@
     --color-foreground-secondary-hover: rgb(179, 179, 179);
     --color-foreground-tertiary: rgb(63, 63, 63);
 
-    --color-content-separator: rgba(255, 255, 255, 0.15);
+    --color-content-separator: rgba(136, 136, 136, 0.10);
 
-} */
+}
