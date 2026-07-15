@@ -117,7 +117,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 32px;
+  padding: 0 40px;
 }
 
 .hero-section-intro {
@@ -254,7 +254,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 32px;
+  padding: 0 40px;
 }
 
 .work-section-heading {
@@ -396,7 +396,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 32px;
+  padding: 0 40px;
 }
 
 .journey-section-heading {
@@ -411,7 +411,7 @@ main {
 
 .journey {
   width: 100%;
-  max-width: 680px;
+  max-width: 640px;
   font-family: var(--font-family-handwriting);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
@@ -441,7 +441,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 32px;
+  padding: 0 40px;
 }
 
 .contact-section-heading {
@@ -504,7 +504,7 @@ main {
 @media (max-width: 640px) {
 
   .hero-section-content {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .hero-section-intro-heading {
@@ -533,7 +533,7 @@ main {
 
 
   .work-section-content {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .work-section-heading {
@@ -550,7 +550,7 @@ main {
 
 
   .journey-section-content {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .journey-section-heading {
@@ -560,7 +560,7 @@ main {
   }
 
   .contact-section-content {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .contact-section-heading {
