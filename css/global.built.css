@@ -17,14 +17,6 @@
 }
 
 @font-face {
-    font-family: "Fell";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url(../assets/fonts/fell-400-normal.woff) format("woff");
-}
-
-@font-face {
     font-family: "Marat Sans";
     font-display: swap;
     font-style: normal;
@@ -103,7 +95,6 @@
 
     --font-family-display: Quadrant, GT Super, Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
     --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    --font-family-content: Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -220,27 +211,19 @@
 }
 
 .highlight-forest {
-    background: rgb(91, 123, 59, 0.30);
-    color: rgb(71, 96, 46);
-    fill: rgb(71, 96, 46);
+    background: rgb(154, 184, 117);
 }
 
 .highlight-sand {
-    background: rgb(150, 121, 79, 0.30);
-    color: rgb(118, 95, 62);
-    fill: rgb(118, 95, 62);
+    background: rgb(169, 149, 115);
 }
 
 .highlight-mango {
-    background: rgb(255, 159, 0, 0.30);
-    color: rgb(200, 125, 0);
-    fill: rgb(200, 125, 0);
+    background: rgb(255, 192, 23);
 }
 
 .highlight-lake {
-    background: rgb(14, 79, 141, 0.30);
-    color: rgb(11, 62, 111);
-    fill: rgb(11, 62, 111);
+    background: rgb(152, 193, 214);
 }
 
 .appearance-light {
@@ -255,11 +238,11 @@
     --color-foreground-secondary-hover: rgb(63, 63, 63);
     --color-foreground-tertiary: rgb(229, 229, 229);
 
-    --color-content-separator: rgba(136, 136, 136, 0.10);
+    --color-content-separator: rgba(0, 0, 0, 0.10);
 
 }
 
-.appearance-dark {
+/* .appearance-dark {
 
     --color-background: rgb(18, 18, 18);
     --color-background-secondary: rgb(0, 0, 0);
@@ -271,48 +254,6 @@
     --color-foreground-secondary-hover: rgb(179, 179, 179);
     --color-foreground-tertiary: rgb(63, 63, 63);
 
-    --color-content-separator: rgba(136, 136, 136, 0.10);
+    --color-content-separator: rgba(255, 255, 255, 0.15);
 
-}
-
-/* :root {
-    color-scheme: light dark;
-    --color-bg-neutral-primary: #ffffff;
-    --color-bg-neutral-primary: light-dark(#ffffff, #121212);
-    --color-bg-neutral-secondary: #242424;
-    --color-bg-neutral-secondary: light-dark(#f2f2f2, #242424);
-    --color-bg-neutral-tertiary: #f9f9f9;
-    --color-bg-neutral-tertiary: light-dark(#f9f9f9, #171717);
-    --color-bg-neutral-quaternary: #242424;
-    --color-bg-neutral-quaternary: light-dark(#242424, #d2d2d2);
-    --color-bg-accent-secondary: #bbdbba;
-    --color-bg-accent-secondary: light-dark(#bbdbba, #10530e);
-    --color-bg-accent-tertiary: #d2e7d1;
-    --color-bg-accent-tertiary: light-dark(#d2e7d1, #0c3d0a);
-    --color-bg-accent-quaternary: #e8f3e8;
-    --color-bg-accent-quaternary: light-dark(#e8f3e8, #082d07);
-    --color-bg-error-primary: #c94a4a;
-    --color-bg-error-primary: light-dark(#c94a4a, #ce5a5a);
-    --color-bg-utility-yellow-primary: #fffae1;
-    --color-bg-utility-yellow-primary: light-dark(#fffae1, #461f01);
-    --color-bg-utility-blue-primary: #e5f2ff;
-    --color-bg-utility-blue-primary: light-dark(#e5f2ff, #22214f);
-    --color-fg-neutral-primary: #242424;
-    --color-fg-neutral-primary: light-dark(#242424, #f2f2f2);
-    --color-fg-neutral-secondary: #6b6b6b;
-    --color-fg-neutral-secondary: light-dark(#6b6b6b, #808080);
-    --color-fg-neutral-tertiary: #ffffff;
-    --color-fg-neutral-tertiary: light-dark(#ffffff, #121212);
-    --color-fg-accent-primary: #1a8917;
-    --color-fg-accent-primary: light-dark(#1a8917, #40993d);
-    --color-fg-error-primary: #c94a4a;
-    --color-fg-error-primary: light-dark(#c94a4a, #ce5a5a);
-    --color-border-neutral-primary: #f2f2f2;
-    --color-border-neutral-primary: light-dark(#f2f2f2, #242424);
-    --color-border-neutral-secondary: #242424;
-    --color-border-neutral-secondary: light-dark(#242424, #d2d2d2);
-    --color-border-neutral-tertiary: #e5e5e5;
-    --color-border-neutral-tertiary: light-dark(#e5e5e5, #000000);
-    --color-border-error-primary: #c94a4a;
-    --color-border-error-primary: light-dark(#c94a4a, #ce5a5a);
 } */

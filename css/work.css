@@ -51,7 +51,7 @@ main {
 }
 
 .hero-section {
-  padding: 96px 0 64px;
+  padding: 96px 0 48px;
   position: relative;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 48px;
+  padding: 0 32px;
 }
 
 .hero-section-intro {
@@ -114,7 +114,7 @@ main {
   line-height: var(--font-leading-medium);
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
-  color: var(--color-foreground-secondary);
+  color: var(--color-foreground);
 }
 
 .hero-section-intro-subheading-highlighted-link {
@@ -205,7 +205,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 48px;
+  padding: 0 32px;
 }
 
 .work-section-heading {
@@ -347,7 +347,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 48px;
+  padding: 0 32px;
 }
 
 .journey-section-heading {
@@ -363,7 +363,7 @@ main {
 .journey {
   width: 100%;
   max-width: 680px;
-  font-family: var(--font-family-content);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
@@ -381,7 +381,7 @@ main {
 @media (max-width: 640px) {
 
   .hero-section-content {
-    padding: 0 24px;
+    padding: 0 16px;
   }
 
   .hero-section-intro-heading {
@@ -391,6 +391,7 @@ main {
   }
 
   .hero-section-intro-subheading {
+    max-width: calc(512px - 128px);
     font-size: var(--font-size-small);
     line-height: var(--font-leading-small);
     letter-spacing: var(--font-tracking-tight);
@@ -409,7 +410,7 @@ main {
 
 
   .work-section-content {
-    padding: 0 24px;
+    padding: 0 16px;
   }
 
   .work-section-heading {
@@ -426,7 +427,7 @@ main {
 
 
   .journey-section-content {
-    padding: 0 24px;
+    padding: 0 16px;
   }
 
   .journey-section-heading {

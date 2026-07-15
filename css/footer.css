@@ -26,7 +26,7 @@
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 48px;
+  padding: 0 32px;
 }
 
 .footer-section-heading {
@@ -90,7 +90,7 @@
 @media (max-width: 640px) {
 
   .footer-section-content {
-    padding: 0 24px;
+    padding: 0 16px;
   }
 
   .footer-section-heading {
