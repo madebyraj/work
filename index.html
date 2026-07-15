@@ -32,13 +32,17 @@
   <meta property="og:locale" content="en_IE" />
   <meta name="theme-color" content="rgb(36, 36, 36)" />
   <title>Raj Kumar - UX/Product Designer</title>
-  <link rel="stylesheet" href="./css/work.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/overview.built.css" />
   <link rel="stylesheet" href="./css/global.built.css" />
-  <link rel="stylesheet" href="./css/header.css" />
 </head>
 
-<body class="appearance-light">
+<body>
+
+  <div class="body-background-block"></div>
+
+  <div class="scroll-progress-bar">
+    <div class="scroll-progress"></div>
+  </div>
 
   <div class="body-background-texture"></div>
 
@@ -185,8 +189,8 @@
         </h3>
 
         <p class="journey">
-          My journey into design started in an unexpected way. Before this, I played
-          cricket for five years. One day, a friend mentioned he was
+          My journey into design started in an unexpected way. Before this, I
+          played cricket for five years. One day, a friend mentioned he was
           learning graphic design. At the time, I didn’t know what that
           was, so I asked, "What's that?"
           <br><br>
@@ -206,41 +210,61 @@
 
     </section>
 
+    <div class="contact-section" id="contact-section">
+      <div class="contact-section-content">
+
+        <h3 class="contact-section-heading">
+          Let's <span class="highlight-lake">connect.</span>
+        </h3>
+
+        <div class="contact-links">
+          <a class="contact-link contact-link-linkedin" href="https://www.linkedin.com/in/madebyraj" target="_blank"
+            aria-label="Click Here to connect with me on Linkedin">
+            LinkedIn
+          </a>
+          <a class="contact-link contact-link-instagram" href="https://www.instagram.com/madebyraj__/" target="_blank"
+            aria-label="Click Here to connect with me on Instagram">
+            Instagram
+          </a>
+          <a class="contact-link contact-link-x" href="https://x.com/madebyraj__" target="_blank"
+            aria-label="Click Here to connect with me on X (Twitter)">
+            X
+          </a>
+          <a class="contact-link contact-link-mail" href="mailto:hi.madebyraj@gmail.com" target="_blank">
+            Email
+          </a>
+          <a class="contact-link contact-link-resume"
+            href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing" target="_blank">
+            Resume
+          </a>
+        </div>
+
+        <div class="contact-section-media"></div>
+
+      </div>
+    </div>
+
   </main>
 
-  <footer class="footer-section" id="footer-section">
-    <div class="footer-section-content">
 
-      <h3 class="footer-section-heading">
-        Let's <span class="highlight-lake">connect.</span>
-      </h3>
+  <script>
+    const progressBar = document.querySelector(".scroll-progress");
 
-      <div class="contact-links">
-        <a class="contact-link contact-link-linkedin" href="https://www.linkedin.com/in/madebyraj" target="_blank"
-          aria-label="Click Here to connect with me on Linkedin">
-          LinkedIn
-        </a>
-        <a class="contact-link contact-link-instagram" href="https://www.instagram.com/madebyraj__/" target="_blank"
-          aria-label="Click Here to connect with me on Instagram">
-          Instagram
-        </a>
-        <a class="contact-link contact-link-x" href="https://x.com/madebyraj__" target="_blank"
-          aria-label="Click Here to connect with me on X (Twitter)">
-          Twitter
-        </a>
-        <a class="contact-link contact-link-mail" href="mailto:hi.madebyraj@gmail.com" target="_blank">
-          Mail
-        </a>
-        <a class="contact-link contact-link-resume"
-          href="https://drive.google.com/file/d/1X_XBJ3qEVbgszznd8boW7VWUfITJwApi/view?usp=sharing" target="_blank">
-          Resume
-        </a>
-      </div>
+    function updateScrollProgress() {
+      const scrollTop = window.scrollY;
+      const documentHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
 
-      <div class="footer-section-media"></div>
+      const progress =
+        documentHeight > 0 ? (scrollTop / documentHeight) * 100 : 0;
 
-    </div>
-  </footer>
+      progressBar.style.width = `${progress}%`;
+    }
+
+    window.addEventListener("scroll", updateScrollProgress);
+    window.addEventListener("resize", updateScrollProgress);
+    updateScrollProgress();
+  </script>
 
 
   <!-- Google Tag Manager (noscript) -->

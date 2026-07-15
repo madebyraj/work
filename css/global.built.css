@@ -17,6 +17,14 @@
 }
 
 @font-face {
+    font-family: "Homemade Apple";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url(../assets/fonts/homemade-apple-400-normal.woff) format("woff");
+}
+
+@font-face {
     font-family: "Marat Sans";
     font-display: swap;
     font-style: normal;
@@ -95,6 +103,7 @@
 
     --font-family-display: Quadrant, GT Super, Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
     --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    --font-family-handwriting: Homemade Apple, Sohne, sans-serif;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -204,6 +213,16 @@
     --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.10), 0 2px 24px 0 rgba(0, 0, 0, 0.10);
     --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.10), 0 2px 48px 0 rgba(0, 0, 0, 0.10);
 
+    --color-background: rgb(255, 255, 255);
+
+    --color-foreground: rgb(36, 36, 36);
+    --color-foreground-hover: rgb(0, 0, 0);
+    --color-foreground-secondary: rgb(107, 107, 107);
+    --color-foreground-secondary-hover: rgb(63, 63, 63);
+    --color-foreground-tertiary: rgb(229, 229, 229);
+
+    --color-content-separator: rgba(0, 0, 0, 0.10);
+
 }
 
 :focus {
@@ -225,35 +244,3 @@
 .highlight-lake {
     background: rgb(152, 193, 214);
 }
-
-.appearance-light {
-
-    --color-background: rgb(255, 255, 255);
-    --color-background-secondary: rgb(249, 249, 249);
-    --color-background-tertiary: rgb(242, 242, 242);
-
-    --color-foreground: rgb(36, 36, 36);
-    --color-foreground-hover: rgb(0, 0, 0);
-    --color-foreground-secondary: rgb(107, 107, 107);
-    --color-foreground-secondary-hover: rgb(63, 63, 63);
-    --color-foreground-tertiary: rgb(229, 229, 229);
-
-    --color-content-separator: rgba(0, 0, 0, 0.10);
-
-}
-
-/* .appearance-dark {
-
-    --color-background: rgb(18, 18, 18);
-    --color-background-secondary: rgb(0, 0, 0);
-    --color-background-tertiary: rgb(36, 36, 36);
-
-    --color-foreground: rgb(229, 229, 229);
-    --color-foreground-hover: rgb(255, 255, 255);
-    --color-foreground-secondary: rgb(136, 136, 136);
-    --color-foreground-secondary-hover: rgb(179, 179, 179);
-    --color-foreground-tertiary: rgb(63, 63, 63);
-
-    --color-content-separator: rgba(255, 255, 255, 0.15);
-
-} */

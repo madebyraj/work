@@ -29,6 +29,54 @@ body {
   background: var(--color-background);
 }
 
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  z-index: 9999;
+}
+
+.scroll-progress {
+  width: 0%;
+  height: 100%;
+  background: rgba(36, 36, 36);
+  transition: width 100ms linear;
+  border-radius: 999px;
+}
+
+@keyframes page-bounce {
+
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+}
+
+.body-background-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+  background: url(../assets/global/background-block.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: calc(96px / 2);
+  pointer-events: none;
+}
+
 .body-background-texture {
   position: fixed;
   top: 0;
@@ -48,6 +96,7 @@ body {
 main {
   position: relative;
   margin: auto;
+  z-index: 2;
 }
 
 .hero-section {
@@ -363,16 +412,90 @@ main {
 .journey {
   width: 100%;
   max-width: 680px;
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-handwriting);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
-  letter-spacing: var(--font-tracking-tight);
+  letter-spacing: var(--font-tracking-none);
   color: var(--color-foreground);
 }
 
 /* ---------- */
 
+
+.contact-section {
+  padding: 96px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section-content {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  max-width: 896px;
+  padding: 0 32px;
+}
+
+.contact-section-heading {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-leading-xxlarge);
+  letter-spacing: var(--font-tracking-tightest);
+  text-align: center;
+  color: var(--color-foreground);
+}
+
+.contact-links {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 32px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-xsmall);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-leading-xsmall);
+  letter-spacing: var(--font-tracking-none);
+  color: var(--color-foreground);
+  cursor: pointer;
+  text-decoration: var(--color-foreground-tertiary) underline;
+  transition: text-decoration 500ms var(--ease-out-cubic);
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.contact-section-media {
+  position: relative;
+  max-width: 512px;
+  width: 100%;
+  height: auto;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  background-image: url(../assets/global/bird.gif);
+  aspect-ratio: 4/2;
+}
 
 @media (max-width: 1024px) {}
 
@@ -431,6 +554,16 @@ main {
   }
 
   .journey-section-heading {
+    font-size: var(--font-size-xlarge);
+    line-height: var(--font-leading-xlarge);
+    letter-spacing: var(--font-tracking-tightest);
+  }
+
+  .contact-section-content {
+    padding: 0 16px;
+  }
+
+  .contact-section-heading {
     font-size: var(--font-size-xlarge);
     line-height: var(--font-leading-xlarge);
     letter-spacing: var(--font-tracking-tightest);
