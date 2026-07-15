@@ -103,7 +103,7 @@
 
     --font-family-display: Quadrant, GT Super, Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
     --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    --font-family-handwriting: Homemade Apple, Sohne, sans-serif;
+    --font-family-handwriting: Homemade Apple, var(--font-family-body), sans-serif;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -135,13 +135,13 @@
     --font-leading-xxxlarge: 64px;
     --font-leading-xxxxlarge: 80px;
 
-    --font-tracking-tightest: -0.066em;
-    --font-tracking-tighter: -0.025em;
-    --font-tracking-tight: -0.013em;
+    --font-tracking-tightest: -0.060em;
+    --font-tracking-tighter: -0.030em;
+    --font-tracking-tight: -0.015em;
     --font-tracking-none: 0;
-    --font-tracking-wide: 0.013em;
-    --font-tracking-wider: 0.025em;
-    --font-tracking-widest: 0.066em;
+    --font-tracking-wide: 0.015em;
+    --font-tracking-wider: 0.030em;
+    --font-tracking-widest: 0.060em;
 
     --border-radius-sharp: 0px;
     --border-radius-small: 2px;

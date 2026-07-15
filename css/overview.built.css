@@ -42,9 +42,9 @@ body {
 .scroll-progress {
   width: 0%;
   height: 100%;
-  background: rgba(36, 36, 36);
+  background: var(--color-foreground);
   transition: width 100ms linear;
-  border-radius: 999px;
+  border-radius: var(--border-radius-circle);
 }
 
 @keyframes page-bounce {
@@ -117,7 +117,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 40px;
+  padding: 0 48px;
 }
 
 .hero-section-intro {
@@ -141,8 +141,8 @@ main {
   overflow: hidden;
   box-shadow: inset 0 0 0 1px var(--color-content-separator);
   background-image: url(../assets/global/me.webp);
-  aspect-ratio: 4/3.33;
-  border-radius: 999px;
+  aspect-ratio: 4/3.25;
+  border-radius: var(--border-radius-circle);
 }
 
 .hero-section-intro-heading {
@@ -198,7 +198,7 @@ main {
   line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-none);
   text-decoration: none;
-  border-radius: 999px;
+  border-radius: var(--border-radius-circle);
   transition: background 250ms var(--ease-in-out-sine), color 250ms var(--ease-in-out-sine), fill 250ms var(--ease-in-out-sine);
   border-width: 1px;
   border-style: solid;
@@ -254,7 +254,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 40px;
+  padding: 0 48px;
 }
 
 .work-section-heading {
@@ -396,7 +396,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 40px;
+  padding: 0 48px;
 }
 
 .journey-section-heading {
@@ -441,7 +441,7 @@ main {
   justify-content: center;
   gap: 48px;
   max-width: 896px;
-  padding: 0 40px;
+  padding: 0 48px;
 }
 
 .contact-section-heading {
@@ -460,7 +460,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px 32px;
+  gap: 4px 8px;
 }
 
 .contact-link {
@@ -480,6 +480,15 @@ main {
 
 .contact-link:hover {
   text-decoration: underline;
+}
+
+.contact-link-divider {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-xsmall);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-leading-xsmall);
+  letter-spacing: var(--font-tracking-none);
+  color: var(--color-foreground-tertiary);
 }
 
 .contact-section-media {
@@ -504,7 +513,7 @@ main {
 @media (max-width: 640px) {
 
   .hero-section-content {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   .hero-section-intro-heading {
@@ -533,7 +542,7 @@ main {
 
 
   .work-section-content {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   .work-section-heading {
@@ -550,7 +559,7 @@ main {
 
 
   .journey-section-content {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   .journey-section-heading {
@@ -560,7 +569,7 @@ main {
   }
 
   .contact-section-content {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   .contact-section-heading {
