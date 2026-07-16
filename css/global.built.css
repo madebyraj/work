@@ -1,11 +1,11 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Figtree";
+  font-family: "GT Super";
   font-display: swap;
   font-style: normal;
   font-weight: 100 900;
-  src: url(../assets/fonts/figtree-600-normal.woff) format("woff");
+  src: url(../assets/fonts/gt-super-400-normal.woff) format("woff");
 }
 
 @font-face {
@@ -107,7 +107,7 @@
 /* Semantics */
 
 :root {
-  --font-family-display: Figtree, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-display: GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
   --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   --font-family-content: Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
   --font-family-code: Source Code Pro, var(--font-family-body), sans-serif;
@@ -120,9 +120,9 @@
 
   --font-size-xxxxsmall: 12px;
   --font-size-xxxsmall: 14px;
-  --font-size-xxsmall: 17px;
-  --font-size-xsmall: 19px;
-  --font-size-small: 21px;
+  --font-size-xxsmall: 16px;
+  --font-size-xsmall: 18px;
+  --font-size-small: 20px;
   --font-size-medium: 24px;
   --font-size-large: 28px;
   --font-size-xlarge: 36px;
@@ -142,13 +142,13 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.05em;
+  --font-tracking-tightest: -0.060em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
   --font-tracking-wide: 0.013em;
   --font-tracking-wider: 0.025em;
-  --font-tracking-widest: 0.05em;
+  --font-tracking-widest: 0.060em;
 
   --border-radius-sharp: 0px;
   --border-radius-small: 2px;

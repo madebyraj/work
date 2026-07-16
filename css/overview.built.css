@@ -146,6 +146,7 @@ main {
 
 .hero-section-intro-heading {
   font-family: var(--font-family-display);
+  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxlarge);
@@ -256,6 +257,7 @@ main {
 
 .work-section-heading {
   font-family: var(--font-family-display);
+  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxlarge);
@@ -400,6 +402,7 @@ main {
 
 .journey-section-heading {
   font-family: var(--font-family-display);
+  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxlarge);
@@ -412,7 +415,7 @@ main {
   width: 100%;
   max-width: 640px;
   font-family: var(--font-family-content);
-  font-size: var(--font-size-small);
+  font-size: 21px;
   font-weight: var(--font-weight-regular);
   line-height: 32px;
   letter-spacing: var(--font-tracking-tight);
@@ -444,6 +447,7 @@ main {
 
 .contact-section-heading {
   font-family: var(--font-family-display);
+  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxlarge);
