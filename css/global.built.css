@@ -1,246 +1,252 @@
 /* Fonts */
 
 @font-face {
-    font-family: "GT Super";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url(../assets/fonts/gt-super-400-normal.woff) format("woff");
+  font-family: "Figtree";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(../assets/fonts/figtree-600-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Quadrant";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url(../assets/fonts/quadrant-text-400-normal.woff) format("woff");
+  font-family: "Marat Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Homemade Apple";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url(../assets/fonts/homemade-apple-400-normal.woff) format("woff");
+  font-family: "Marat Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Marat Sans";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
+  font-family: "Marat Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/marat-sans-600-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Marat Sans";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
+  font-family: "Sohne";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/sohne-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Marat Sans";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/marat-sans-600-normal.woff) format("woff");
+  font-family: "Sohne";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../assets/fonts/sohne-500-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/sohne-400-normal.woff) format("woff");
+  font-family: "Sohne";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/sohne-700-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/sohne-500-normal.woff) format("woff");
+  font-family: "Source Code Pro";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/source-code-pro-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Sohne";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/sohne-700-normal.woff) format("woff");
+  font-family: "Source Code Pro";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../assets/fonts/source-code-pro-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Source Serif Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/source-serif-pro-400-normal.woff) format("woff");
+  font-family: "Source Code Pro";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/source-code-pro-700-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Source Serif Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-    src: url(../assets/fonts/source-serif-pro-400-normal.woff) format("woff");
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/source-serif-pro-400-normal.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Source Serif Pro";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/source-serif-pro-700-normal.woff) format("woff");
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../assets/fonts/source-serif-pro-400-normal.woff) format("woff");
 }
 
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/source-serif-pro-700-normal.woff) format("woff");
+}
 
 /* Semantics */
 
 :root {
+  --font-family-display: Figtree, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-content: Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
+  --font-family-code: Source Code Pro, var(--font-family-body), sans-serif;
 
-    --font-family-display: Quadrant, GT Super, Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-    --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    --font-family-handwriting: Homemade Apple, var(--font-family-body), sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 
-    --font-weight-light: 300;
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700;
-    --font-weight-black: 900;
+  --font-size-xxxxsmall: 12px;
+  --font-size-xxxsmall: 14px;
+  --font-size-xxsmall: 17px;
+  --font-size-xsmall: 19px;
+  --font-size-small: 21px;
+  --font-size-medium: 24px;
+  --font-size-large: 28px;
+  --font-size-xlarge: 36px;
+  --font-size-xxlarge: 44px;
+  --font-size-xxxlarge: 60px;
+  --font-size-xxxxlarge: 76px;
 
-    --font-size-xxxxsmall: 12px;
-    --font-size-xxxsmall: 14px;
-    --font-size-xxsmall: 16px;
-    --font-size-xsmall: 18px;
-    --font-size-small: 20px;
-    --font-size-medium: 24px;
-    --font-size-large: 28px;
-    --font-size-xlarge: 36px;
-    --font-size-xxlarge: 44px;
-    --font-size-xxxlarge: 60px;
-    --font-size-xxxxlarge: 76px;
+  --font-leading-xxxxsmall: 16px;
+  --font-leading-xxxsmall: 20px;
+  --font-leading-xxsmall: 20px;
+  --font-leading-xsmall: 24px;
+  --font-leading-small: 28px;
+  --font-leading-medium: 32px;
+  --font-leading-large: 32px;
+  --font-leading-xlarge: 40px;
+  --font-leading-xxlarge: 48px;
+  --font-leading-xxxlarge: 64px;
+  --font-leading-xxxxlarge: 80px;
 
-    --font-leading-xxxxsmall: 16px;
-    --font-leading-xxxsmall: 20px;
-    --font-leading-xxsmall: 20px;
-    --font-leading-xsmall: 24px;
-    --font-leading-small: 28px;
-    --font-leading-medium: 32px;
-    --font-leading-large: 32px;
-    --font-leading-xlarge: 40px;
-    --font-leading-xxlarge: 48px;
-    --font-leading-xxxlarge: 64px;
-    --font-leading-xxxxlarge: 80px;
+  --font-tracking-tightest: -0.05em;
+  --font-tracking-tighter: -0.025em;
+  --font-tracking-tight: -0.013em;
+  --font-tracking-none: 0;
+  --font-tracking-wide: 0.013em;
+  --font-tracking-wider: 0.025em;
+  --font-tracking-widest: 0.05em;
 
-    --font-tracking-tightest: -0.060em;
-    --font-tracking-tighter: -0.030em;
-    --font-tracking-tight: -0.015em;
-    --font-tracking-none: 0;
-    --font-tracking-wide: 0.015em;
-    --font-tracking-wider: 0.030em;
-    --font-tracking-widest: 0.060em;
+  --border-radius-sharp: 0px;
+  --border-radius-small: 2px;
+  --border-radius-medium: 5px;
+  --border-radius-large: 13px;
+  --border-radius-circle: 99999px;
 
-    --border-radius-sharp: 0px;
-    --border-radius-small: 2px;
-    --border-radius-medium: 5px;
-    --border-radius-large: 13px;
-    --border-radius-circle: 99999px;
+  --border-size-0: 0px;
+  --border-size-1: 1px;
+  --border-size-2: 2px;
+  --border-size-4: 4px;
 
-    --border-size-0: 0px;
-    --border-size-1: 1px;
-    --border-size-2: 2px;
-    --border-size-4: 4px;
+  --space-none: 0px;
+  --space-xxxxsmall: 2px;
+  --space-xxxsmall: 4px;
+  --space-xxsmall: 8px;
+  --space-xsmall: 12px;
+  --space-small: 16px;
+  --space-medium: 20px;
+  --space-large: 24px;
+  --space-xlarge: 32px;
+  --space-xxlarge: 48px;
+  --space-xxxlarge: 64px;
+  --space-xxxxlarge: 80px;
 
-    --space-none: 0px;
-    --space-xxxxsmall: 2px;
-    --space-xxxsmall: 4px;
-    --space-xxsmall: 8px;
-    --space-xsmall: 12px;
-    --space-small: 16px;
-    --space-medium: 20px;
-    --space-large: 24px;
-    --space-xlarge: 32px;
-    --space-xxlarge: 48px;
-    --space-xxxlarge: 64px;
-    --space-xxxxlarge: 80px;
+  --transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  --transition-property-colors: background-color, border-color, color, fill, stroke;
+  --transition-property-dimensions: width, height;
+  --transition-property-position: left, right, top, bottom;
+  --transition-property-background: background-color, background-image, background-position;
 
-    --transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    --transition-property-colors: background-color, border-color, color, fill, stroke;
-    --transition-property-dimensions: width, height;
-    --transition-property-position: left, right, top, bottom;
-    --transition-property-background: background-color, background-image, background-position;
+  --ease-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-linear: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  --ease-in-sine: cubic-bezier(0.47, 0, 0.745, 0.715);
+  --ease-out-sine: cubic-bezier(0.39, 0.575, 0.565, 1);
+  --ease-in-out-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+  --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+  --ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+  --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  --ease-in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  --ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-in-out-back: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --ease-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    --ease-linear: cubic-bezier(.25, .25, .75, .75);
-    --ease-in-sine: cubic-bezier(.47, 0, .745, .715);
-    --ease-out-sine: cubic-bezier(.39, .575, .565, 1);
-    --ease-in-out-sine: cubic-bezier(.445, .05, .55, .95);
-    --ease-in-quad: cubic-bezier(.55, .085, .68, .53);
-    --ease-out-quad: cubic-bezier(.25, .46, .45, .94);
-    --ease-in-out-quad: cubic-bezier(.455, .03, .515, .955);
-    --ease-in-cubic: cubic-bezier(.55, .055, .675, .19);
-    --ease-out-cubic: cubic-bezier(.215, .61, .355, 1);
-    --ease-in-out-cubic: cubic-bezier(.645, .045, .355, 1);
-    --ease-in-quart: cubic-bezier(.895, .03, .685, .22);
-    --ease-out-quart: cubic-bezier(.165, .84, .44, 1);
-    --ease-in-out-quart: cubic-bezier(.77, 0, .175, 1);
-    --ease-in-quint: cubic-bezier(.755, .05, .855, .06);
-    --ease-out-quint: cubic-bezier(.23, 1, .32, 1);
-    --ease-in-out-quint: cubic-bezier(.86, 0, .07, 1);
-    --ease-in-expo: cubic-bezier(.95, .05, .795, .035);
-    --ease-out-expo: cubic-bezier(.19, 1, .22, 1);
-    --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
-    --ease-in-circ: cubic-bezier(.6, .04, .98, .335);
-    --ease-out-circ: cubic-bezier(.075, .82, .165, 1);
-    --ease-in-out-circ: cubic-bezier(.785, .135, .15, .86);
-    --ease-in-back: cubic-bezier(.6, -.28, .735, .045);
-    --ease-out-back: cubic-bezier(.175, .885, .32, 1.275);
-    --ease-in-out-back: cubic-bezier(.68, -.55, .265, 1.55);
+  --transition-duration-fastest: 50ms;
+  --transition-duration-faster: 100ms;
+  --transition-duration-fast: 150ms;
+  --transition-duration-normal: 200ms;
+  --transition-duration-slow: 300ms;
+  --transition-duration-slower: 400ms;
+  --transition-duration-slowest: 500ms;
 
-    --transition-duration-fastest: 50ms;
-    --transition-duration-faster: 100ms;
-    --transition-duration-fast: 150ms;
-    --transition-duration-normal: 200ms;
-    --transition-duration-slow: 300ms;
-    --transition-duration-slower: 400ms;
-    --transition-duration-slowest: 500ms;
+  --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 2px 16px 0 rgba(0, 0, 0, 0.05);
+  --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 2px 24px 0 rgba(0, 0, 0, 0.1);
+  --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.1), 0 2px 48px 0 rgba(0, 0, 0, 0.1);
 
-    --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 2px 16px 0 rgba(0, 0, 0, 0.05);
-    --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.10), 0 2px 24px 0 rgba(0, 0, 0, 0.10);
-    --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.10), 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  --color-background: rgb(255, 255, 255);
 
-    --color-background: rgb(255, 255, 255);
+  --color-foreground: rgb(36, 36, 36);
+  --color-foreground-hover: rgb(0, 0, 0);
+  --color-foreground-secondary: rgb(107, 107, 107);
+  --color-foreground-secondary-hover: rgb(63, 63, 63);
+  --color-foreground-tertiary: rgb(229, 229, 229);
 
-    --color-foreground: rgb(36, 36, 36);
-    --color-foreground-hover: rgb(0, 0, 0);
-    --color-foreground-secondary: rgb(107, 107, 107);
-    --color-foreground-secondary-hover: rgb(63, 63, 63);
-    --color-foreground-tertiary: rgb(229, 229, 229);
-
-    --color-content-separator: rgba(0, 0, 0, 0.10);
-
+  --color-content-separator: rgba(0, 0, 0, 0.1);
 }
 
 :focus {
-    outline: none;
+  outline: none;
 }
 
 .highlight-forest {
-    background: rgb(154, 184, 117);
+  background: rgb(154, 184, 117);
 }
 
 .highlight-sand {
-    background: rgb(169, 149, 115);
+  background: rgb(169, 149, 115);
 }
 
 .highlight-mango {
-    background: rgb(255, 192, 23);
+  background: rgb(255, 192, 23);
 }
 
 .highlight-sky {
-    background: rgb(152, 193, 214);
+  background: rgb(152, 193, 214);
 }

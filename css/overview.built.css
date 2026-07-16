@@ -59,7 +59,6 @@ body {
     transform: none;
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
-
 }
 
 .body-background-block {
@@ -141,7 +140,7 @@ main {
   overflow: hidden;
   box-shadow: inset 0 0 0 1px var(--color-content-separator);
   background-image: url(../assets/global/me.webp);
-  aspect-ratio: 4/3.33;
+  aspect-ratio: 4/3.25;
   border-radius: var(--border-radius-circle);
 }
 
@@ -168,12 +167,8 @@ main {
 
 .hero-section-intro-subheading-highlighted-link {
   color: inherit;
-  text-decoration: var(--color-foreground-tertiary) underline;
-  transition: text-decoration 500ms var(--ease-out-cubic);
-}
-
-.hero-section-intro-subheading-highlighted-link:hover {
   text-decoration: underline;
+  transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
 .hero-section-actions {
@@ -199,7 +194,10 @@ main {
   letter-spacing: var(--font-tracking-none);
   text-decoration: none;
   border-radius: var(--border-radius-circle);
-  transition: background 250ms var(--ease-in-out-sine), color 250ms var(--ease-in-out-sine), fill 250ms var(--ease-in-out-sine);
+  transition:
+    background 250ms var(--ease-in-out-sine),
+    color 250ms var(--ease-in-out-sine),
+    fill 250ms var(--ease-in-out-sine);
   border-width: 1px;
   border-style: solid;
 }
@@ -234,7 +232,6 @@ main {
 }
 
 /* ---------------- */
-
 
 .work-section {
   padding: 96px 0;
@@ -292,7 +289,9 @@ main {
 
 .project:hover .project-media {
   transform: scale(1.0125);
-  box-shadow: inset 0 0 0 1px var(--color-content-separator), var(--depth-raised);
+  box-shadow:
+    inset 0 0 0 1px var(--color-content-separator),
+    var(--depth-raised);
 }
 
 .project-media {
@@ -307,7 +306,9 @@ main {
   overflow: hidden;
   box-shadow: inset 0 0 0 1px var(--color-content-separator);
   aspect-ratio: 4/2.5;
-  transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
+  transition:
+    transform 500ms var(--ease-out-cubic),
+    box-shadow 250ms var(--ease-out-cubic);
 }
 
 .project-media-gopi-ghee {
@@ -360,7 +361,6 @@ main {
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
   color: var(--color-foreground);
-  text-decoration: var(--color-foreground-tertiary) underline;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
@@ -376,7 +376,6 @@ main {
 }
 
 /* ---------- */
-
 
 .journey-section {
   padding: 96px 0;
@@ -412,16 +411,15 @@ main {
 .journey {
   width: 100%;
   max-width: 640px;
-  font-family: var(--font-family-handwriting);
+  font-family: var(--font-family-content);
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-small);
-  letter-spacing: var(--font-tracking-none);
+  line-height: 32px;
+  letter-spacing: var(--font-tracking-tight);
   color: var(--color-foreground);
 }
 
 /* ---------- */
-
 
 .contact-section {
   padding: 96px 0;
@@ -474,12 +472,8 @@ main {
   letter-spacing: var(--font-tracking-none);
   color: var(--color-foreground);
   cursor: pointer;
-  text-decoration: var(--color-foreground-tertiary) underline;
-  transition: text-decoration 500ms var(--ease-out-cubic);
-}
-
-.contact-link:hover {
   text-decoration: underline;
+  transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
 .contact-link-divider {
@@ -509,7 +503,6 @@ main {
 @media (max-width: 1024px) {}
 
 @media (max-width: 768px) {
-
   .hero-section-content {
     padding: 0 24px;
   }
@@ -538,7 +531,6 @@ main {
 
   /* ---------- */
 
-
   .work-section-content {
     padding: 0 24px;
   }
@@ -554,7 +546,6 @@ main {
   }
 
   /* ---------- */
-
 
   .journey-section-content {
     padding: 0 24px;
@@ -575,5 +566,4 @@ main {
     line-height: var(--font-leading-xlarge);
     letter-spacing: var(--font-tracking-tightest);
   }
-
 }
