@@ -142,13 +142,13 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.060em;
+  --font-tracking-tightest: -0.075em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
   --font-tracking-wide: 0.013em;
   --font-tracking-wider: 0.025em;
-  --font-tracking-widest: 0.060em;
+  --font-tracking-widest: 0.05em;
 
   --border-radius-sharp: 0px;
   --border-radius-small: 2px;
