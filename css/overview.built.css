@@ -42,7 +42,7 @@ body {
 .scroll-progress {
   width: 0%;
   height: 100%;
-  background: var(--color-foreground);
+  background: var(--color-foreground-ink);
   transition: width 100ms linear;
   border-radius: var(--border-radius-circle);
 }
@@ -72,7 +72,7 @@ body {
   background: url(../assets/global/background-block.svg);
   background-repeat: repeat;
   background-position: center;
-  background-size: calc(96px / 2);
+  background-size: calc(120px / 2);
   pointer-events: none;
 }
 
@@ -146,13 +146,12 @@ main {
 
 .hero-section-intro-heading {
   font-family: var(--font-family-display);
-  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: var(--color-foreground);
+  color: var(--color-foreground-ink);
 }
 
 .hero-section-intro-subheading {
@@ -163,13 +162,17 @@ main {
   line-height: var(--font-leading-medium);
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
-  color: var(--color-foreground);
+  color: var(--color-foreground-chocolate);
 }
 
 .hero-section-intro-subheading-highlighted-link {
   color: inherit;
   text-decoration: underline;
-  transition: text-decoration 500ms var(--ease-out-cubic);
+  transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
+}
+
+.hero-section-intro-subheading-highlighted-link:hover {
+  color: var(--color-foreground-ink);
 }
 
 .hero-section-actions {
@@ -198,7 +201,8 @@ main {
   transition:
     background 250ms var(--ease-in-out-sine),
     color 250ms var(--ease-in-out-sine),
-    fill 250ms var(--ease-in-out-sine);
+    fill 250ms var(--ease-in-out-sine),
+    border-color 250ms var(--ease-in-out-sine);
   border-width: 1px;
   border-style: solid;
 }
@@ -209,27 +213,27 @@ main {
 }
 
 .button-filled {
-  border-color: var(--color-foreground);
-  background: var(--color-foreground);
-  color: var(--color-foreground-tertiary);
-  fill: var(--color-foreground-tertiary);
+  border-color: var(--color-foreground-chocolate);
+  background: var(--color-foreground-chocolate);
+  color: var(--color-background);
+  fill: var(--color-background);
 }
 
 .button-filled:hover {
-  border-color: var(--color-foreground-hover);
-  background: var(--color-foreground-hover);
+  border-color: var(--color-foreground-ink);
+  background: var(--color-foreground-ink);
 }
 
 .button-bordered {
-  border-color: var(--color-foreground);
-  color: var(--color-foreground);
-  fill: var(--color-foreground);
+  border-color: var(--color-foreground-chocolate);
+  color: var(--color-foreground-chocolate);
+  fill: var(--color-foreground-chocolate);
 }
 
 .button-bordered:hover {
-  border-color: var(--color-foreground-hover);
-  color: var(--color-foreground-hover);
-  fill: var(--color-foreground-hover);
+  border-color: var(--color-foreground-ink);
+  color: var(--color-foreground-ink);
+  fill: var(--color-foreground-ink);
 }
 
 /* ---------------- */
@@ -257,13 +261,12 @@ main {
 
 .work-section-heading {
   font-family: var(--font-family-display);
-  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: var(--color-foreground);
+  color: var(--color-foreground-ink);
 }
 
 .projects {
@@ -362,7 +365,7 @@ main {
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
   text-align: center;
-  color: var(--color-foreground);
+  color: var(--color-foreground-ink);
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
 
@@ -374,7 +377,7 @@ main {
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
   text-align: center;
-  color: var(--color-foreground-secondary);
+  color: var(--color-foreground-chocolate);
 }
 
 /* ---------- */
@@ -402,13 +405,12 @@ main {
 
 .journey-section-heading {
   font-family: var(--font-family-display);
-  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: var(--color-foreground);
+  color: var(--color-foreground-ink);
 }
 
 .journey {
@@ -419,7 +421,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: 32px;
   letter-spacing: var(--font-tracking-tight);
-  color: var(--color-foreground);
+  color: var(--color-foreground-chocolate);
 }
 
 /* ---------- */
@@ -447,13 +449,12 @@ main {
 
 .contact-section-heading {
   font-family: var(--font-family-display);
-  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: var(--color-foreground);
+  color: var(--color-foreground-ink);
 }
 
 .contact-links {
@@ -474,10 +475,14 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
-  color: var(--color-foreground);
+  color: var(--color-foreground-chocolate);
   cursor: pointer;
   text-decoration: underline;
-  transition: text-decoration 500ms var(--ease-out-cubic);
+  transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
+}
+
+.contact-link:hover {
+  color: var(--color-foreground-ink);
 }
 
 .contact-link-divider {
@@ -486,7 +491,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xsmall);
   letter-spacing: var(--font-tracking-none);
-  color: var(--color-foreground-tertiary);
+  color: var(--color-foreground-ink);
 }
 
 .contact-section-media {

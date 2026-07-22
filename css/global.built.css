@@ -9,6 +9,14 @@
 }
 
 @font-face {
+  font-family: "Quadrant";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(../assets/fonts/quadrant-400-normal.woff) format("woff");
+}
+
+@font-face {
   font-family: "Marat Sans";
   font-display: swap;
   font-style: normal;
@@ -107,7 +115,7 @@
 /* Semantics */
 
 :root {
-  --font-family-display: GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
+  --font-family-display: Quadrant, GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
   --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   --font-family-content: Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
   --font-family-code: Source Code Pro, var(--font-family-body), sans-serif;
@@ -220,33 +228,14 @@
   --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 2px 24px 0 rgba(0, 0, 0, 0.1);
   --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.1), 0 2px 48px 0 rgba(0, 0, 0, 0.1);
 
-  --color-background: rgb(255, 255, 255);
+  --color-background: rgb(247, 247, 242);
 
-  --color-foreground: rgb(36, 36, 36);
-  --color-foreground-hover: rgb(0, 0, 0);
-  --color-foreground-secondary: rgb(107, 107, 107);
-  --color-foreground-secondary-hover: rgb(63, 63, 63);
-  --color-foreground-tertiary: rgb(229, 229, 229);
+  --color-foreground-ink: rgb(14, 79, 141);
+  --color-foreground-chocolate: rgb(136, 85, 68);
 
   --color-content-separator: rgba(0, 0, 0, 0.1);
 }
 
 :focus {
   outline: none;
-}
-
-.highlight-forest {
-  background: rgb(154, 184, 117);
-}
-
-.highlight-sand {
-  background: rgb(169, 149, 115);
-}
-
-.highlight-mango {
-  background: rgb(255, 192, 23);
-}
-
-.highlight-sky {
-  background: rgb(152, 193, 214);
 }
