@@ -5,15 +5,7 @@
   font-display: swap;
   font-style: normal;
   font-weight: 100 900;
-  src: url(../assets/fonts/gt-super-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Quadrant";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 100 900;
-  src: url(../assets/fonts/quadrant-400-normal.woff) format("woff");
+  src: url(../assets/fonts/gt-super-700-normal.woff) format("woff");
 }
 
 @font-face {
@@ -115,10 +107,9 @@
 /* Semantics */
 
 :root {
-  --font-family-display: Quadrant, GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
+  --font-family-display: GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
   --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  --font-family-content: Source Serif Pro, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-  --font-family-code: Source Code Pro, var(--font-family-body), sans-serif;
+  --font-family-code: Source Code Pro, var(--font-family-body), monospace;
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -130,7 +121,7 @@
   --font-size-xxxsmall: 14px;
   --font-size-xxsmall: 16px;
   --font-size-xsmall: 18px;
-  --font-size-small: 20px;
+  --font-size-small: 21px;
   --font-size-medium: 24px;
   --font-size-large: 28px;
   --font-size-xlarge: 36px;
@@ -150,7 +141,7 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.075em;
+  --font-tracking-tightest: -0.050em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
@@ -231,7 +222,11 @@
   --color-background: rgb(247, 247, 242);
 
   --color-foreground-ink: rgb(14, 79, 141);
-  --color-foreground-chocolate: rgb(136, 85, 68);
+  --color-foreground-ink-inverse: rgb(255, 255, 255);
+  --color-foreground-chocolate: rgb(119, 68, 51);
+  --color-foreground-chocolate-inverse: rgb(255, 255, 255);
+  --color-foreground-gold: rgb(190, 91, 4);
+  --color-foreground-gold-inverse: rgb(255, 255, 255);
 
   --color-content-separator: rgba(0, 0, 0, 0.1);
 }

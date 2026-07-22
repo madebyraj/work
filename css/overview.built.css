@@ -72,7 +72,7 @@ body {
   background: url(../assets/global/background-block.svg);
   background-repeat: repeat;
   background-position: center;
-  background-size: calc(120px / 2);
+  background-size: calc(96px / 2);
   pointer-events: none;
 }
 
@@ -87,9 +87,8 @@ body {
   background: url(../assets/global/noise-texture.png);
   background-repeat: repeat;
   background-position: center;
-  background-size: calc(512px / 2);
+  background-size: calc(512px / 4);
   pointer-events: none;
-  mix-blend-mode: overlay;
 }
 
 main {
@@ -147,7 +146,7 @@ main {
 .hero-section-intro-heading {
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxxlarge);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
@@ -215,17 +214,20 @@ main {
 .button-filled {
   border-color: var(--color-foreground-chocolate);
   background: var(--color-foreground-chocolate);
-  color: var(--color-background);
-  fill: var(--color-background);
+  color: var(--color-foreground-chocolate-inverse);
+  fill: var(--color-foreground-chocolate-inverse);
 }
 
 .button-filled:hover {
   border-color: var(--color-foreground-ink);
   background: var(--color-foreground-ink);
+  color: var(--color-foreground-ink-inverse);
+  fill: var(--color-foreground-ink-inverse);
 }
 
 .button-bordered {
   border-color: var(--color-foreground-chocolate);
+  background: var(--color-background);
   color: var(--color-foreground-chocolate);
   fill: var(--color-foreground-chocolate);
 }
@@ -275,7 +277,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 64px;
+  gap: 80px;
 }
 
 .project {
@@ -416,8 +418,8 @@ main {
 .journey {
   width: 100%;
   max-width: 640px;
-  font-family: var(--font-family-content);
-  font-size: 21px;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: 32px;
   letter-spacing: var(--font-tracking-tight);
