@@ -221,11 +221,11 @@
 
   --color-background: rgb(247, 247, 242);
 
-  --color-foreground-ink: rgb(14, 79, 141);
+  --color-foreground-ink: rgb(17, 68, 136);
   --color-foreground-ink-inverse: rgb(255, 255, 255);
   --color-foreground-chocolate: rgb(119, 68, 51);
   --color-foreground-chocolate-inverse: rgb(255, 255, 255);
-  --color-foreground-gold: rgb(190, 91, 4);
+  --color-foreground-gold: rgb(187, 85, 0);
   --color-foreground-gold-inverse: rgb(255, 255, 255);
 
   --color-content-separator: rgba(0, 0, 0, 0.1);
