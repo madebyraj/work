@@ -71,7 +71,7 @@ body {
   background-position: center;
   background-size: calc(512px / 2);
   pointer-events: none;
-  mix-blend-mode: overlay;
+  mix-blend-mode: screen;
 }
 
 main {
@@ -93,13 +93,15 @@ main {
   margin: auto;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 48px;
   max-width: 1440px;
   padding: 0 24px;
 }
 
 .intro {
-  max-width: 1024px;
+  max-width: var(--max-width-outset);
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxxlarge);
   font-weight: var(--font-weight-regular);
@@ -176,7 +178,7 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  border-radius: 24px;
+  border-radius: 13px;
   box-shadow: var(--depth-baseline), inset 0 0 0 1px rgba(0, 0, 0, 0.10);
   aspect-ratio: 4/3;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
@@ -220,7 +222,7 @@ main {
 .project-information {
   display: flex;
   flex-direction: column;
-  padding: 0 16px;
+  padding: 0 12px;
   gap: 8px;
 }
 
@@ -238,14 +240,14 @@ main {
 
 .project-tag {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
   width: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 8px;
-  border-radius: 8px;
+  border-radius: 5px;
   font-family: var(--font-family-body);
   font-size: var(--font-size-xxxsmall);
   font-weight: var(--font-weight-medium);
@@ -274,13 +276,15 @@ main {
   margin: auto;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 32px;
   max-width: 1440px;
   padding: 0 24px;
 }
 
 .outro {
-  max-width: 1024px;
+  max-width: var(--max-width-outset);
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxlarge);
   font-weight: var(--font-weight-regular);

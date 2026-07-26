@@ -109,7 +109,7 @@
 
 :root {
   --font-family-display: GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-  --font-family-body: Sohne, Marat Sans, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-body: Sohne, "Helvetica Neue", "Helvetica", "Arial", Marat Sans, "sans-serif";
   --font-family-code: Source Code Pro, var(--font-family-body), monospace;
 
   --font-weight-light: 300;
@@ -174,6 +174,10 @@
   --space-xxxlarge: 64px;
   --space-xxxxlarge: 80px;
 
+  --max-width-inset: 680px;
+  --max-width-outset: 1152px;
+
+
   --transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   --transition-property-colors: background-color, border-color, color, fill, stroke;
   --transition-property-dimensions: width, height;
@@ -216,12 +220,13 @@
   --transition-duration-slowest: 500ms;
 
   --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 2px 16px 0 rgba(0, 0, 0, 0.04);
-  --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
-  --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 2px 16px 0 rgba(0, 0, 0, 0.05);
+  --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.10), 0 2px 24px 0 rgba(0, 0, 0, 0.10);
+  --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.10), 0 2px 48px 0 rgba(0, 0, 0, 0.10);
 
-  --color-background: #FFFFFF;
-  --color-foreground: #242424;
+  --color-paper: #FFFFFF;
+
+  --color-ink: #242424;
   --color-foreground-inverse: #FFFFFF;
 
 }
@@ -253,26 +258,46 @@
   animation-timing-function: var(--ease-in-out-quint);
 }
 
-.highlight-lime {
-  background-image: linear-gradient(#D4CD4F, #D4CD4F);
+.highlight-steel {
+  background-image: linear-gradient(#D2D2D2, #D2D2D2);
 }
 
-.highlight-sky {
-  background-image: linear-gradient(#98C1D6, #98C1D6);
-}
-
-.highlight-forest {
-  background-image: linear-gradient(#9AB875, #9AB875);
+.highlight-fire {
+  background-image: linear-gradient(#F26735, #F26735);
 }
 
 .highlight-sand {
   background-image: linear-gradient(#A99573, #A99573);
 }
 
+.highlight-mango {
+  background-image: linear-gradient(#FFC017, #FFC017);
+}
+
+.highlight-fat {
+  background-image: linear-gradient(#B7AA5F, #B7AA5F);
+}
+
+.highlight-lime {
+  background-image: linear-gradient(#D4CD4F, #D4CD4F);
+}
+
+.highlight-forest {
+  background-image: linear-gradient(#9AB875, #9AB875);
+}
+
+.highlight-sky {
+  background-image: linear-gradient(#98C1D6, #98C1D6);
+}
+
 .highlight-lavender {
   background-image: linear-gradient(#CBC1F4, #CBC1F4);
 }
 
-.highlight-grape {
+.highlight-plum {
   background-image: linear-gradient(#E6C0FF, #E6C0FF);
+}
+
+.highlight-fig {
+  background-image: linear-gradient(#FFB7C5, #FFB7C5);
 }
