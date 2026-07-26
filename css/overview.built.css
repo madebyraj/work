@@ -314,7 +314,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  gap: 32px;
   max-width: 1440px;
   padding: 0 24px;
 }
@@ -399,8 +399,8 @@ main {
   }
 
   .intro {
-    font-size: var(--font-size-xlarge);
-    line-height: var(--font-leading-xlarge);
+    font-size: var(--font-size-xxlarge);
+    line-height: var(--font-leading-xxlarge);
     letter-spacing: var(--font-tracking-tightest);
   }
 
@@ -440,8 +440,8 @@ main {
   }
 
   .credit {
-    font-size: var(--font-size-medium);
-    line-height: var(--font-leading-medium);
+    font-size: var(--font-size-large);
+    line-height: var(--font-leading-large);
     letter-spacing: var(--font-tracking-tightest);
   }
 

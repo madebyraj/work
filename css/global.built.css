@@ -122,7 +122,7 @@
   --font-size-xxxsmall: 14px;
   --font-size-xxsmall: 16px;
   --font-size-xsmall: 18px;
-  --font-size-small: 21px;
+  --font-size-small: 20px;
   --font-size-medium: 24px;
   --font-size-large: 28px;
   --font-size-xlarge: 36px;
@@ -142,7 +142,7 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.075em;
+  --font-tracking-tightest: -0.07em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
@@ -238,18 +238,18 @@
 @keyframes highlight {
 
   0% {
-    background-size: 0% 87.5%;
+    background-size: 0% 82.5%;
   }
 
   100% {
-    background-size: 100% 87.5%;
+    background-size: 100% 82.5%;
   }
 
 }
 
 .highlight {
   color: #242424 !important;
-  background-size: 100% 87.5%;
+  background-size: 100% 82.5%;
   background-repeat: no-repeat;
   background-position: 0 60%;
   -webkit-box-decoration-break: clone;
