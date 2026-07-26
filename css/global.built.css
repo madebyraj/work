@@ -142,7 +142,7 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.07em;
+  --font-tracking-tightest: -0.060em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
@@ -220,14 +220,9 @@
   --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
   --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 
-  --color-background: rgb(247, 247, 242);
-
-  --color-foreground-ink: rgb(17, 68, 136);
-  --color-foreground-ink-inverse: rgb(255, 255, 255);
-  --color-foreground-chocolate: rgb(119, 68, 51);
-  --color-foreground-chocolate-inverse: rgb(255, 255, 255);
-  --color-foreground-gold: rgb(187, 85, 0);
-  --color-foreground-gold-inverse: rgb(255, 255, 255);
+  --color-background: #FFFFFF;
+  --color-foreground: #242424;
+  --color-foreground-inverse: #FFFFFF;
 
 }
 
@@ -258,7 +253,7 @@
   animation-timing-function: var(--ease-in-out-quint);
 }
 
-.highlight-oat {
+.highlight-lime {
   background-image: linear-gradient(#D4CD4F, #D4CD4F);
 }
 
@@ -276,4 +271,8 @@
 
 .highlight-lavender {
   background-image: linear-gradient(#CBC1F4, #CBC1F4);
+}
+
+.highlight-grape {
+  background-image: linear-gradient(#E6C0FF, #E6C0FF);
 }
