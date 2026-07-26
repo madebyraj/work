@@ -5,7 +5,7 @@
   font-display: swap;
   font-style: normal;
   font-weight: 100 900;
-  src: url(../assets/fonts/gt-super-700-normal.woff) format("woff");
+  src: url(../assets/fonts/gt-super-400-normal.woff) format("woff");
 }
 
 @font-face {
@@ -104,6 +104,7 @@
   src: url(../assets/fonts/source-serif-pro-700-normal.woff) format("woff");
 }
 
+
 /* Semantics */
 
 :root {
@@ -141,13 +142,13 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.050em;
+  --font-tracking-tightest: -0.075em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
   --font-tracking-wide: 0.013em;
   --font-tracking-wider: 0.025em;
-  --font-tracking-widest: 0.05em;
+  --font-tracking-widest: 0.050em;
 
   --border-radius-sharp: 0px;
   --border-radius-small: 2px;
@@ -215,9 +216,9 @@
   --transition-duration-slowest: 500ms;
 
   --depth-baseline: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 2px 16px 0 rgba(0, 0, 0, 0.05);
-  --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 2px 24px 0 rgba(0, 0, 0, 0.1);
-  --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.1), 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 2px 16px 0 rgba(0, 0, 0, 0.04);
+  --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.08), 0 2px 24px 0 rgba(0, 0, 0, 0.08);
+  --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.08), 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 
   --color-background: rgb(247, 247, 242);
 
@@ -228,9 +229,51 @@
   --color-foreground-gold: rgb(187, 85, 0);
   --color-foreground-gold-inverse: rgb(255, 255, 255);
 
-  --color-content-separator: rgba(0, 0, 0, 0.1);
 }
 
 :focus {
   outline: none;
+}
+
+@keyframes highlight {
+
+  0% {
+    background-size: 0% 87.5%;
+  }
+
+  100% {
+    background-size: 100% 87.5%;
+  }
+
+}
+
+.highlight {
+  color: #242424 !important;
+  background-size: 100% 87.5%;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: highlight 1500ms;
+  animation-timing-function: var(--ease-in-out-quint);
+}
+
+.highlight-oat {
+  background-image: linear-gradient(#D4CD4F, #D4CD4F);
+}
+
+.highlight-sky {
+  background-image: linear-gradient(#98C1D6, #98C1D6);
+}
+
+.highlight-forest {
+  background-image: linear-gradient(#9AB875, #9AB875);
+}
+
+.highlight-sand {
+  background-image: linear-gradient(#A99573, #A99573);
+}
+
+.highlight-lavender {
+  background-image: linear-gradient(#CBC1F4, #CBC1F4);
 }
