@@ -154,6 +154,8 @@
   --border-radius-small: 2px;
   --border-radius-medium: 5px;
   --border-radius-large: 13px;
+  --border-radius-xlarge: 25px;
+  --border-radius-xxlarge: 41px;
   --border-radius-circle: 99999px;
 
   --border-size-0: 0px;
@@ -174,9 +176,8 @@
   --space-xxxlarge: 64px;
   --space-xxxxlarge: 80px;
 
-  --max-width-inset: 680px;
+  --max-width-inset: 640px;
   --max-width-outset: 1152px;
-
 
   --transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   --transition-property-colors: background-color, border-color, color, fill, stroke;
