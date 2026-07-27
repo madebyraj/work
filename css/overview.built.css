@@ -26,7 +26,7 @@ body {
   animation: pageLoading 500ms var(--ease-in-out-sine);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: #FFFFFF;
+  background: #F7F4ED;
 }
 
 @keyframes bounce {
@@ -272,7 +272,7 @@ main {
 
 .project:hover .project-media {
   transform: scale(1.0125);
-  box-shadow: var(--depth-raised), inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+  box-shadow: var(--depth-raised);
 }
 
 .project-media {
@@ -286,7 +286,7 @@ main {
   border: none;
   overflow: hidden;
   border-radius: 13px;
-  box-shadow: var(--depth-baseline), inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+  box-shadow: var(--depth-baseline);
   aspect-ratio: 4/3;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
 }
@@ -363,7 +363,7 @@ main {
   text-transform: uppercase;
   text-align: center;
   color: #242424;
-  background: #FFFFFF;
+  background: #F7F4ED;
   box-shadow: var(--depth-raised), inset 0 0 0 1px #242424;
 }
 
