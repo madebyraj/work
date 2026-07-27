@@ -108,6 +108,7 @@
 /* Semantics */
 
 :root {
+  
   --font-family-display: GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
   --font-family-body: Sohne, "Helvetica Neue", "Helvetica", "Arial", Marat Sans, "sans-serif";
   --font-family-code: Source Code Pro, var(--font-family-body), monospace;
@@ -224,11 +225,6 @@
   --depth-raised: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 2px 16px 0 rgba(0, 0, 0, 0.05);
   --depth-elevated: 0 0 8px 0 rgba(0, 0, 0, 0.10), 0 2px 24px 0 rgba(0, 0, 0, 0.10);
   --depth-floating: 0 0 16px 0 rgba(0, 0, 0, 0.10), 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-
-  --color-paper: #FFFFFF;
-
-  --color-ink: #242424;
-  --color-foreground-inverse: #FFFFFF;
 
 }
 
