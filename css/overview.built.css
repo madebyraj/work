@@ -80,7 +80,7 @@ main {
   position: relative;
   margin: auto;
   z-index: 2;
-  animation: page-load 1000ms var(--ease-in-out-sine);
+  animation: page-load 500ms var(--ease-linear);
 }
 
 .header-section {
@@ -212,9 +212,9 @@ main {
   max-width: var(--max-width-outset);
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxxlarge);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-xxxlarge);
-  letter-spacing: var(--font-tracking-tightest);
+  letter-spacing: var(--font-tracking-tighter);
   color: #242424;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
@@ -396,9 +396,9 @@ main {
   max-width: var(--max-width-outset);
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxxlarge);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-xxxlarge);
-  letter-spacing: var(--font-tracking-tightest);
+  letter-spacing: var(--font-tracking-tighter);
   color: #242424;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
@@ -430,7 +430,6 @@ main {
   .intro {
     font-size: var(--font-size-xxlarge);
     line-height: var(--font-leading-xxlarge);
-    letter-spacing: var(--font-tracking-tightest);
   }
 
 
@@ -454,7 +453,6 @@ main {
   .outro {
     font-size: var(--font-size-xxxlarge);
     line-height: var(--font-leading-xxxlarge);
-    letter-spacing: var(--font-tracking-tightest);
   }
 
 }
@@ -475,7 +473,6 @@ main {
   .intro {
     font-size: var(--font-size-xlarge);
     line-height: var(--font-leading-xlarge);
-    letter-spacing: var(--font-tracking-tightest);
   }
 
 
@@ -493,18 +490,6 @@ main {
     aspect-ratio: 4/4;
   }
 
-  /* ---------- */
-
-  .journey-section-content {
-    padding: 0 24px;
-  }
-
-  .journey-section-heading {
-    font-size: var(--font-size-xlarge);
-    line-height: var(--font-leading-xlarge);
-    letter-spacing: var(--font-tracking-tightest);
-  }
-
 
   /* ---------- */
 
@@ -516,7 +501,6 @@ main {
   .outro {
     font-size: var(--font-size-xlarge);
     line-height: var(--font-leading-xlarge);
-    letter-spacing: var(--font-tracking-tightest);
   }
 
 }

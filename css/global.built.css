@@ -1,117 +1,37 @@
 /* Fonts */
 
 @font-face {
-  font-family: "GT Super";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 100 900;
-  src: url(../assets/fonts/gt-super-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Marat Sans";
+  font-family: "Apfel Grotezk";
   font-display: swap;
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
+  src: url(../assets/fonts/ApfelGrotezk-Regular.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Marat Sans";
+  font-family: "Apfel Grotezk";
   font-display: swap;
   font-style: normal;
   font-weight: 500;
-  src: url(../assets/fonts/marat-sans-400-normal.woff) format("woff");
+  src: url(../assets/fonts/ApfelGrotezk-Mittel.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Marat Sans";
+  font-family: "Apfel Grotezk";
   font-display: swap;
   font-style: normal;
   font-weight: 700;
-  src: url(../assets/fonts/marat-sans-600-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Sohne";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 400;
-  src: url(../assets/fonts/sohne-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Sohne";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 500;
-  src: url(../assets/fonts/sohne-500-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Sohne";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 700;
-  src: url(../assets/fonts/sohne-700-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 400;
-  src: url(../assets/fonts/source-code-pro-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 500;
-  src: url(../assets/fonts/source-code-pro-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 700;
-  src: url(../assets/fonts/source-code-pro-700-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 400;
-  src: url(../assets/fonts/source-serif-pro-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 500;
-  src: url(../assets/fonts/source-serif-pro-400-normal.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Serif Pro";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 700;
-  src: url(../assets/fonts/source-serif-pro-700-normal.woff) format("woff");
+  src: url(../assets/fonts/ApfelGrotezk-Fett.woff) format("woff");
 }
 
 
 /* Semantics */
 
 :root {
-  
-  --font-family-display: GT Super, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-  --font-family-body: Sohne, "Helvetica Neue", "Helvetica", "Arial", Marat Sans, "sans-serif";
-  --font-family-code: Source Code Pro, var(--font-family-body), monospace;
+
+  --font-family-display: Apfel Grotezk, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-body: Apfel Grotezk, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-code: Source Code Pro, "monospace";
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -143,7 +63,7 @@
   --font-leading-xxxlarge: 64px;
   --font-leading-xxxxlarge: 80px;
 
-  --font-tracking-tightest: -0.0613em;
+  --font-tracking-tightest: -0.050em;
   --font-tracking-tighter: -0.025em;
   --font-tracking-tight: -0.013em;
   --font-tracking-none: 0;
@@ -235,18 +155,18 @@
 @keyframes highlight {
 
   0% {
-    background-size: 0% 82.5%;
+    background-size: 0% 75%;
   }
 
   100% {
-    background-size: 100% 82.5%;
+    background-size: 100% 75%;
   }
 
 }
 
 .highlight {
   color: #242424 !important;
-  background-size: 100% 82.5%;
+  background-size: 100% 75%;
   background-repeat: no-repeat;
   background-position: 0 60%;
   -webkit-box-decoration-break: clone;
