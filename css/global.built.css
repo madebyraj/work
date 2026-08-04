@@ -183,20 +183,12 @@
   background-image: linear-gradient(#F26735, #F26735);
 }
 
-.highlight-sand {
-  background-image: linear-gradient(#A99573, #A99573);
-}
-
 .highlight-mango {
   background-image: linear-gradient(#FFC017, #FFC017);
 }
 
-.highlight-fat {
-  background-image: linear-gradient(#B7AA5F, #B7AA5F);
-}
-
 .highlight-lime {
-  background-image: linear-gradient(#D4CD4F, #D4CD4F);
+  background-image: linear-gradient(#DFE344, #DFE344);
 }
 
 .highlight-forest {
@@ -204,15 +196,15 @@
 }
 
 .highlight-sky {
-  background-image: linear-gradient(#98C1D6, #98C1D6);
+  background-image: linear-gradient(#B7DCED, #B7DCED);
 }
 
 .highlight-lavender {
-  background-image: linear-gradient(#CBC1F4, #CBC1F4);
+  background-image: linear-gradient(#C0B2FF, #C0B2FF);
 }
 
 .highlight-plum {
-  background-image: linear-gradient(#E6C0FF, #E6C0FF);
+  background-image: linear-gradient(#C99CC7, #C99CC7);
 }
 
 .highlight-fig {

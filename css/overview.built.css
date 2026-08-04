@@ -15,7 +15,7 @@ body {
   position: relative;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: #F7F4ED;
+  background: #FCFBF8;
 }
 
 @keyframes bounce {
@@ -365,7 +365,7 @@ main {
   text-transform: uppercase;
   text-align: center;
   color: #242424;
-  background: #F7F4ED;
+  background: #FCFBF8;
   box-shadow: var(--depth-raised), inset 0 0 0 1px #242424;
 }
 
