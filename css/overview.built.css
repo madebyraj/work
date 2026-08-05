@@ -15,7 +15,7 @@ body {
   position: relative;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  background: #FCFBF8;
+  background: #FFFFFF;
 }
 
 @keyframes bounce {
@@ -79,13 +79,15 @@ body {
 main {
   position: relative;
   margin: auto;
-  z-index: 2;
   animation: page-load 500ms var(--ease-linear);
 }
 
 .header-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
   padding: 32px 0 0;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,6 +95,7 @@ main {
 
 .header-section-content {
   position: relative;
+  z-index: 2;
   margin: auto;
   width: 100%;
   display: flex;
@@ -104,7 +107,7 @@ main {
 }
 
 .header-logo {
-  fill: #242424;
+  fill: #141414;
   text-decoration: none;
   cursor: pointer;
 }
@@ -189,15 +192,17 @@ main {
 /* ---------- */
 
 .intro-section {
-  padding: 128px 0 32px;
+  padding: calc(60px + 96px - 24px) 0 96px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #3E8EF0;
 }
 
 .intro-section-content {
   position: relative;
+  z-index: 2;
   margin: auto;
   width: 100%;
   display: flex;
@@ -212,10 +217,11 @@ main {
   max-width: var(--max-width-outset);
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxxlarge);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tighter);
-  color: #242424;
+  text-align: center;
+  color: #141414;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
@@ -234,15 +240,17 @@ main {
 /* ---------- */
 
 .work-section {
-  padding: 128px 0 32px;
+  padding: 96px 0;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #FFFFFF;
 }
 
 .work-section-content {
   position: relative;
+  z-index: 2;
   margin: auto;
   width: 100%;
   display: flex;
@@ -255,7 +263,7 @@ main {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 48px 24px;
+  gap: 48px 16px;
 }
 
 .project {
@@ -274,7 +282,7 @@ main {
 
 .project:hover .project-media {
   transform: scale(1.0125);
-  box-shadow: var(--depth-raised);
+  box-shadow: var(--depth-raised), inset 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .project-media {
@@ -288,7 +296,7 @@ main {
   border: none;
   overflow: hidden;
   border-radius: 13px;
-  box-shadow: var(--depth-baseline);
+  box-shadow: var(--depth-baseline), inset 0 0 0 1px rgba(0, 0, 0, 0.08);
   aspect-ratio: 4/3;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
 }
@@ -342,7 +350,7 @@ main {
   font-weight: var(--font-weight-medium);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: #242424;
+  color: #141414;
   text-decoration: underline dashed;
   transition: text-decoration 500ms var(--ease-out-cubic);
 }
@@ -364,24 +372,26 @@ main {
   letter-spacing: var(--font-tracking-widest);
   text-transform: uppercase;
   text-align: center;
-  color: #242424;
-  background: #FCFBF8;
-  box-shadow: var(--depth-raised), inset 0 0 0 1px #242424;
+  color: #141414;
+  background: #FFFFFF;
+  box-shadow: var(--depth-raised), inset 0 0 0 1px #141414;
 }
 
 
 /* ---------- */
 
 .outro-section {
-  padding: 128px 0 128px;
+  padding: 96px 0;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #FFBC4B;
 }
 
 .outro-section-content {
   position: relative;
+  z-index: 2;
   margin: auto;
   width: 100%;
   display: flex;
@@ -396,10 +406,11 @@ main {
   max-width: var(--max-width-outset);
   font-family: var(--font-family-display);
   font-size: var(--font-size-xxxlarge);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tighter);
-  color: #242424;
+  text-align: center;
+  color: #141414;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
