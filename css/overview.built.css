@@ -192,12 +192,12 @@ main {
 /* ---------- */
 
 .intro-section {
-  padding: calc(60px + 96px - 24px) 0 96px;
+  padding: calc(60px + 96px - 16px) 0 96px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #3E8EF0;
+  background: #F7F4ED;
 }
 
 .intro-section-content {
@@ -386,7 +386,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FFBC4B;
+  background: #F7F4ED;
 }
 
 .outro-section-content {

@@ -175,37 +175,42 @@
   animation-timing-function: var(--ease-in-out-quint);
 }
 
-.highlight-theme-azure {
-  background-image: linear-gradient(#A4C9D8, #A4C9D8);
+.highlight-fire {
+  background-image: linear-gradient(#F26735, #F26735);
 }
 
-.highlight-theme-sunflower {
-  background-image: linear-gradient(#FB7EA8, #FB7EA8);
+.highlight-sand {
+  background-image: linear-gradient(#A99573, #A99573);
 }
 
-.highlight-theme-storm {
-  background-image: linear-gradient(#FFE818, #FFE818);
+.highlight-mango {
+  background-image: linear-gradient(#FFC017, #FFC017);
 }
 
-.accent {
-  color: #141414 !important;
-  background-size: 100% 75%;
-  background-repeat: no-repeat;
-  background-position: 0 55%;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  animation: highlight 1000ms;
-  animation-timing-function: var(--ease-in-out-quint);
+.highlight-lime {
+  background-image: linear-gradient(#DFE344, #DFE344);
 }
 
-.accent-theme-azure {
-  background-image: linear-gradient(#CCF565, #CCF565);
+.highlight-forest {
+  background-image: linear-gradient(#9AB875, #9AB875);
 }
 
-.accent-theme-sunflower {
-  background-image: linear-gradient(#CCF565, #CCF565);
+.highlight-sky {
+  background-image: linear-gradient(#B7DCED, #B7DCED);
 }
 
-.accent-theme-storm {
-  background-image: linear-gradient(#FF4834, #FF4834);
+.highlight-lavender {
+  background-image: linear-gradient(#C0B2FF, #C0B2FF);
+}
+
+.highlight-plum {
+  background-image: linear-gradient(#C99CC7, #C99CC7);
+}
+
+.highlight-fig {
+  background-image: linear-gradient(#FFB7C5, #FFB7C5);
+}
+
+.highlight-smoke {
+  background-image: linear-gradient(#D2D2D2, #D2D2D2);
 }
