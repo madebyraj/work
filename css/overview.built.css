@@ -359,7 +359,7 @@ main {
   font-size: var(--font-size-xxxsmall);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxsmall);
-  letter-spacing: var(--font-tracking-wide);
+  letter-spacing: var(--font-tracking-none);
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.60);
 }
