@@ -1,37 +1,28 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Apfel Grotezk";
+  font-family: "Cooper BT";
   font-display: swap;
   font-style: normal;
-  font-weight: 400;
-  src: url(../assets/fonts/ApfelGrotezk-Regular.woff) format("woff");
+  font-weight: 100 900;
+  src: url(../assets/fonts/CooperBT-Light.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Apfel Grotezk";
+  font-family: "Monument Grotesk Semi Mono";
   font-display: swap;
   font-style: normal;
-  font-weight: 500;
-  src: url(../assets/fonts/ApfelGrotezk-Mittel.woff) format("woff");
+  font-weight: 100 900;
+  src: url(../assets/fonts/MonumentGroteskSemiMono-Regular.woff) format("woff");
 }
-
-@font-face {
-  font-family: "Apfel Grotezk";
-  font-display: swap;
-  font-style: normal;
-  font-weight: 700;
-  src: url(../assets/fonts/ApfelGrotezk-Fett.woff) format("woff");
-}
-
 
 /* Semantics */
 
 :root {
 
-  --font-family-display: Apfel Grotezk, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  --font-family-body: Apfel Grotezk, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  --font-family-code: Source Code Pro, "monospace";
+  --font-family-display: Cooper BT, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
+  --font-family-body: Monument Grotesk Semi Mono, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-mono: Monument Grotesk Semi Mono, "monospace";
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -155,24 +146,25 @@
 @keyframes highlight {
 
   0% {
-    background-size: 0% 75%;
+    background-size: 0% calc(75% + 3.125%);
   }
 
   100% {
-    background-size: 100% 75%;
+    background-size: 100% calc(75% + 3.125%);
   }
 
 }
 
 .highlight {
   color: #141414 !important;
-  background-size: 100% 75%;
+  background-size: 100% calc(75% + 3.125%);
   background-repeat: no-repeat;
-  background-position: 0 55%;
+  background-position: 0 65%;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   animation: highlight 1000ms;
   animation-timing-function: var(--ease-in-out-quint);
+  animation-iteration-count: 1;
 }
 
 .highlight-fire {
