@@ -21,7 +21,7 @@
 :root {
 
   --font-family-display: Cooper BT, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-  --font-family-body: Monument Grotesk Semi Mono, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-default: Monument Grotesk Semi Mono, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   --font-family-mono: Monument Grotesk Semi Mono, "monospace";
 
   --font-weight-light: 300;
@@ -146,20 +146,20 @@
 @keyframes highlight {
 
   0% {
-    background-size: 0% calc(75% + 3.125%);
+    background-size: 0% 75%;
   }
 
   100% {
-    background-size: 100% calc(75% + 3.125%);
+    background-size: 100% 75%;
   }
 
 }
 
 .highlight {
   color: #141414 !important;
-  background-size: 100% calc(75% + 3.125%);
+  background-size: 100% 75%;
   background-repeat: no-repeat;
-  background-position: 0 65%;
+  background-position: 0 60%;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   animation: highlight 1000ms;
