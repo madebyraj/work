@@ -85,7 +85,7 @@ main {
 
 .header-section {
   position: relative;
-  padding: 32px 0 0;
+  padding: 24px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,98 +99,64 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 12px;
   max-width: 1440px;
   padding: 0 24px;
 }
 
-.header-logo {
-  fill: #141414;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.header-logo svg {
-  overflow: visible;
+.ruler-double {
   width: 100%;
-  height: 24px;
+  height: 7px;
+  border-top: 2px solid #242424;
+  border-right: none;
+  border-bottom: 1px solid #242424;
+  border-left: none;
 }
 
-.header-logo svg path {
-  transform-box: fill-box;
-  transform-origin: center;
-  transition: transform var(--transition-duration-normal) var(--ease-bounce);
+.header-logo {
+  min-width: max-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--font-leading-medium);
+  letter-spacing: var(--font-tracking-tight);
+  color: #242424;
+  text-decoration: underline dashed;
+  text-decoration-thickness: calc(0.125em / 2);
+  text-underline-offset: calc(0.125em / 2);
 }
 
-.header-logo svg:hover path {
-  animation: shake var(--transition-duration-slower) var(--ease-bounce) infinite;
+.header-logo:hover {
+  text-decoration: underline;
+  text-decoration-thickness: calc(0.125em / 2);
+  text-underline-offset: calc(0.125em / 2);
 }
 
-.header-logo svg:hover path:nth-child(1) {
-  animation-delay: 0ms;
-}
-
-.header-logo svg:hover path:nth-child(2) {
-  animation-delay: 40ms;
-}
-
-.header-logo svg:hover path:nth-child(3) {
-  animation-delay: 80ms;
-}
-
-.header-logo svg:hover path:nth-child(4) {
-  animation-delay: 120ms;
-}
-
-.header-logo svg:hover path:nth-child(5) {
-  animation-delay: 160ms;
-}
-
-.header-logo svg:hover path:nth-child(6) {
-  animation-delay: 200ms;
-}
-
-.header-logo svg:hover path:nth-child(7) {
-  animation-delay: 240ms;
-}
-
-.header-logo svg:hover path:nth-child(8) {
-  animation-delay: 280ms;
-}
-
-@keyframes shake {
-
-  0% {
-    transform: rotate(0deg) translateY(0);
-  }
-
-  20% {
-    transform: rotate(-2.5deg) translateY(-1.25px);
-  }
-
-  40% {
-    transform: rotate(2.5deg) translateY(1.25px);
-  }
-
-  60% {
-    transform: rotate(-2.5deg) translateY(-1.25px);
-  }
-
-  80% {
-    transform: rotate(2.5deg) translateY(1.25px);
-  }
-
-  100% {
-    transform: rotate(0deg) translateY(0);
-  }
-
+.avatar {
+  width: 32px;
+  height: auto;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/global/me.webp);
+  outline: none;
+  border: none;
+  overflow: hidden;
+  border-radius: 999px;
+  aspect-ratio: 4/4;
+  box-shadow: inset 0 0 0 1px #242424;
 }
 
 
 /* ---------- */
 
 .intro-section {
-  padding: 128px 0 64px;
+  padding: 64px 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -218,7 +184,7 @@ main {
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tighter);
   text-align: center;
-  color: #141414;
+  color: #242424;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
@@ -241,7 +207,7 @@ main {
 /* ---------- */
 
 .work-section {
-  padding: 96px 0;
+  padding: 64px 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -292,7 +258,7 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10);
   aspect-ratio: 4/3;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
 }
@@ -346,7 +312,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-medium);
   letter-spacing: var(--font-tracking-tight);
-  color: #141414;
+  color: #242424;
   text-decoration: underline dashed;
   text-decoration-thickness: calc(0.125em / 2);
   text-underline-offset: calc(0.125em / 2);
@@ -396,7 +362,7 @@ main {
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tighter);
   text-align: center;
-  color: #141414;
+  color: #242424;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
