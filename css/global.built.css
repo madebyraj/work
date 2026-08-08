@@ -1,28 +1,36 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Cooper BT";
+  font-family: "Doto";
   font-display: swap;
   font-style: normal;
   font-weight: 100 900;
-  src: url(../assets/fonts/CooperBT-Light.woff) format("woff");
+  src: url(../assets/fonts/Doto-Black.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Monument Grotesk Semi Mono";
+  font-family: "Geist Pixel";
   font-display: swap;
   font-style: normal;
   font-weight: 100 900;
-  src: url(../assets/fonts/MonumentGroteskSemiMono-Regular.woff) format("woff");
+  src: url(../assets/fonts/GeistPixel-Square.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(../assets/fonts/CourierPrime-Regular.woff) format("woff");
 }
 
 /* Semantics */
 
 :root {
 
-  --font-family-display: Cooper BT, "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-  --font-family-default: Monument Grotesk Semi Mono, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  --font-family-mono: Monument Grotesk Semi Mono, "monospace";
+  --font-family-display: Geist Pixel, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-default: Courier Prime, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-mono: Doto, "monospace";
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -146,20 +154,20 @@
 @keyframes highlight {
 
   0% {
-    background-size: 0% 75%;
+    background-size: 0% 72.5%;
   }
 
   100% {
-    background-size: 100% 75%;
+    background-size: 100% 72.5%;
   }
 
 }
 
 .highlight {
-  color: #242424 !important;
-  background-size: 100% 75%;
+  color: #121212 !important;
+  background-size: 100% 72.5%;
   background-repeat: no-repeat;
-  background-position: 0 60%;
+  background-position: 0 57.5%;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   animation: highlight 1000ms;

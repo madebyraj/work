@@ -33,21 +33,6 @@ body {
 
 }
 
-.body-background-block {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  opacity: 1;
-  background: url(../assets/global/background-block.svg);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: calc(96px / 2);
-  pointer-events: none;
-}
-
 .body-background-texture {
   position: fixed;
   top: 0;
@@ -107,9 +92,9 @@ main {
 .ruler-double {
   width: 100%;
   height: 7px;
-  border-top: 2px solid #242424;
+  border-top: 2px solid #121212;
   border-right: none;
-  border-bottom: 1px solid #242424;
+  border-bottom: 1px solid #121212;
   border-left: none;
 }
 
@@ -119,13 +104,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 12px;
   font-family: var(--font-family-display);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-medium);
-  letter-spacing: var(--font-tracking-tight);
-  color: #242424;
+  letter-spacing: var(--font-tracking-tighter);
+  color: #121212;
   text-decoration: underline dashed;
   text-decoration-thickness: calc(0.125em / 2);
   text-underline-offset: calc(0.125em / 2);
@@ -149,7 +134,7 @@ main {
   overflow: hidden;
   border-radius: 999px;
   aspect-ratio: 4/4;
-  box-shadow: inset 0 0 0 1px #242424;
+  box-shadow: inset 0 0 0 1px #121212;
 }
 
 
@@ -182,9 +167,9 @@ main {
   font-size: var(--font-size-xxxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxlarge);
-  letter-spacing: var(--font-tracking-tighter);
+  letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: #242424;
+  color: #121212;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
@@ -302,17 +287,17 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0;
-  gap: 12px;
+  gap: 8px;
 }
 
 .project-title {
   width: 100%;
   font-family: var(--font-family-display);
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-medium);
+  line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: #242424;
+  color: #121212;
   text-decoration: underline dashed;
   text-decoration-thickness: calc(0.125em / 2);
   text-underline-offset: calc(0.125em / 2);
@@ -322,12 +307,12 @@ main {
 .project-tag {
   width: 100%;
   font-family: var(--font-family-mono);
-  font-size: var(--font-size-xxxsmall);
+  font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-xxxsmall);
+  line-height: var(--font-leading-xxsmall);
   letter-spacing: var(--font-tracking-none);
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.60);
+  color: #121212;
 }
 
 
@@ -360,9 +345,9 @@ main {
   font-size: var(--font-size-xxxlarge);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-xxxlarge);
-  letter-spacing: var(--font-tracking-tighter);
+  letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: #242424;
+  color: #121212;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
@@ -397,6 +382,7 @@ main {
   .intro {
     font-size: var(--font-size-xxlarge);
     line-height: var(--font-leading-xxlarge);
+    letter-spacing: var(--font-tracking-tightest);
   }
 
 
@@ -420,6 +406,7 @@ main {
   .outro {
     font-size: var(--font-size-xxxlarge);
     line-height: var(--font-leading-xxxlarge);
+    letter-spacing: var(--font-tracking-tightest);
   }
 
 }
@@ -440,6 +427,7 @@ main {
   .intro {
     font-size: var(--font-size-xlarge);
     line-height: var(--font-leading-xlarge);
+    letter-spacing: var(--font-tracking-tighter);
   }
 
 
@@ -468,6 +456,7 @@ main {
   .outro {
     font-size: var(--font-size-xlarge);
     line-height: var(--font-leading-xlarge);
+    letter-spacing: var(--font-tracking-tighter);
   }
 
 }
