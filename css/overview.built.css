@@ -343,10 +343,10 @@ main {
 .project-tag {
   width: 100%;
   font-family: var(--font-family-mono);
-  font-size: var(--font-size-xxsmall);
+  font-size: var(--font-size-xxxsmall);
   font-weight: var(--font-weight-regular);
-  line-height: var(--font-leading-xxsmall);
-  letter-spacing: var(--font-tracking-none);
+  line-height: var(--font-leading-xxxsmall);
+  letter-spacing: var(--font-tracking-wide);
   text-transform: uppercase;
   color: #121212;
 }

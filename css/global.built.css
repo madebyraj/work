@@ -1,11 +1,19 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Doto";
+  font-family: "Geist";
   font-display: swap;
   font-style: normal;
-  font-weight: 100 900;
-  src: url(../assets/fonts/Doto-Black.woff) format("woff");
+  font-weight: 400;
+  src: url(../assets/fonts/Geist-Regular.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "Geist";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/Geist-SemiBold.woff2) format("woff2");
 }
 
 @font-face {
@@ -17,11 +25,11 @@
 }
 
 @font-face {
-  font-family: "Courier Prime";
+  font-family: "Geist Mono";
   font-display: swap;
   font-style: normal;
   font-weight: 100 900;
-  src: url(../assets/fonts/CourierPrime-Regular.woff) format("woff");
+  src: url(../assets/fonts/GeistMono-Regular.woff2) format("woff");
 }
 
 /* Semantics */
@@ -29,8 +37,8 @@
 :root {
 
   --font-family-display: Geist Pixel, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  --font-family-default: Courier Prime, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  --font-family-mono: Doto, "monospace";
+  --font-family-default: Geist, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-mono: Geist Mono, "monospace";
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
