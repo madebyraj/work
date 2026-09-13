@@ -127,9 +127,9 @@ main {
 .ruler-double {
   width: 100%;
   height: 7px;
-  border-top: 2px solid #121212;
+  border-top: 2px solid #1D1D1F;
   border-right: none;
-  border-bottom: 1px solid #121212;
+  border-bottom: 1px solid #1D1D1F;
   border-left: none;
 }
 
@@ -145,7 +145,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-medium);
   letter-spacing: var(--font-tracking-tighter);
-  color: #121212;
+  color: #1D1D1F;
   text-decoration: underline dashed;
   text-decoration-thickness: calc(0.125em / 2);
   text-underline-offset: calc(0.125em / 2);
@@ -169,7 +169,7 @@ main {
   overflow: hidden;
   border-radius: 999px;
   aspect-ratio: 4/4;
-  box-shadow: inset 0 0 0 1px #121212;
+  box-shadow: inset 0 0 0 1px #1D1D1F;
 }
 
 
@@ -204,7 +204,7 @@ main {
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: #121212;
+  color: #1D1D1F;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 
@@ -279,9 +279,14 @@ main {
   outline: none;
   border: none;
   overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
   aspect-ratio: 4/3;
   transition: transform 500ms var(--ease-out-cubic), box-shadow 250ms var(--ease-out-cubic);
+}
+
+.project-media-flipped-it {
+  background-position: top;
+  background-image: url(../assets/global/flipped-it-toi.png);
 }
 
 .project-media-gopi-ghee {
@@ -333,7 +338,7 @@ main {
   font-weight: var(--font-weight-regular);
   line-height: var(--font-leading-small);
   letter-spacing: var(--font-tracking-tight);
-  color: #121212;
+  color: #1D1D1F;
   text-decoration: underline dashed;
   text-decoration-thickness: calc(0.125em / 2);
   text-underline-offset: calc(0.125em / 2);
@@ -348,7 +353,7 @@ main {
   line-height: var(--font-leading-xxxsmall);
   letter-spacing: var(--font-tracking-wide);
   text-transform: uppercase;
-  color: #121212;
+  color: #606F7F;
 }
 
 
@@ -383,7 +388,7 @@ main {
   line-height: var(--font-leading-xxxlarge);
   letter-spacing: var(--font-tracking-tightest);
   text-align: center;
-  color: #121212;
+  color: #1D1D1F;
   transition: text-decoration 500ms var(--ease-out-cubic), color 500ms var(--ease-out-cubic);
 }
 

@@ -172,7 +172,8 @@
 }
 
 .highlight {
-  color: #121212 !important;
+  color: rgba(0, 0, 0, 0.88) !important;
+  text-decoration-color: rgba(0, 0, 0, 0.88) !important;
   background-size: 100% 72.5%;
   background-repeat: no-repeat;
   background-position: 0 57.5%;
